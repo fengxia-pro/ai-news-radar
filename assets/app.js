@@ -18,6 +18,7 @@ const state = {
   sourceStatus: null,
   generatedAt: null,
   dailyBrief: null,
+  boleView: "hot",
 };
 
 const statsEl = document.getElementById("stats");
@@ -46,6 +47,10 @@ const waytoagi7dBtnEl = document.getElementById("waytoagi7dBtn");
 const coverageStripEl = document.getElementById("coverageStrip");
 const bolePicksListEl = document.getElementById("bolePicksList");
 const bolePicksMetaEl = document.getElementById("bolePicksMeta");
+const bolePicksWrapEl = document.getElementById("bolePicksWrap");
+const boleViewToggleEl = document.getElementById("boleViewToggle");
+const boleHotBtnEl = document.getElementById("boleHotBtn");
+const boleTimelineBtnEl = document.getElementById("boleTimelineBtn");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
@@ -674,16 +679,51 @@ function buildStoryCard(story, rank) {
   return link;
 }
 
+const HOT_DECAY_HOURS = 12;
+
+function storyHotness(story) {
+  const sources = Number(story.source_count) || 1;
+  if (sources < 2) return 0;
+  const latest = storyTimeMs(story, "latest_at") || storyTimeMs(story, "earliest_at");
+  const ageHours = latest ? Math.max(0, (Date.now() - latest) / 3600000) : 24;
+  return (sources - 1) * Math.exp(-ageHours / HOT_DECAY_HOURS);
+}
+
+function hotStories(stories) {
+  return stories
+    .filter((story) => storyHotness(story) > 0)
+    .sort((a, b) => storyHotness(b) - storyHotness(a) || storyScore(b) - storyScore(a));
+}
+
 function renderBoleBrief(stories) {
   bolePicksListEl.innerHTML = "";
   bolePicksListEl.className = "bole-board";
 
-  const sorted = [...stories].sort((a, b) => {
-    const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
-    const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
-    if (aLatest !== bLatest) return bLatest - aLatest;
-    return storyScore(b) - storyScore(a);
-  });
+  const hot = hotStories(stories);
+  const hotAvailable = hot.length >= 2;
+  // 宁缺毋滥: the hot view only exists when there is real multi-source heat.
+  if (boleViewToggleEl) boleViewToggleEl.hidden = !hotAvailable;
+  if (!hotAvailable) state.boleView = "timeline";
+  if (boleHotBtnEl) boleHotBtnEl.classList.toggle("active", state.boleView === "hot");
+  if (boleTimelineBtnEl) boleTimelineBtnEl.classList.toggle("active", state.boleView !== "hot");
+
+  let sorted;
+  let metaLabel;
+  if (state.boleView === "hot") {
+    sorted = hot;
+    metaLabel = `当前热点 · ${fmtNumber(sorted.length)} 簇 · 多源×时间衰减`;
+  } else {
+    sorted = [...stories].sort((a, b) => {
+      const aLatest = storyTimeMs(a, "latest_at") || storyTimeMs(a, "earliest_at");
+      const bLatest = storyTimeMs(b, "latest_at") || storyTimeMs(b, "earliest_at");
+      if (aLatest !== bLatest) return bLatest - aLatest;
+      return storyScore(b) - storyScore(a);
+    });
+    const topScore = Math.max(...sorted.map((s) => storyScore(s)));
+    metaLabel = topScore > 0
+      ? `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最高 ${topScore} 分`
+      : `故事时间线 · ${fmtNumber(sorted.length)} 条`;
+  }
 
   const list = document.createElement("div");
   list.className = "bole-compact-list bole-timeline";
@@ -692,12 +732,8 @@ function renderBoleBrief(stories) {
   });
   bolePicksListEl.appendChild(list);
 
-  const topScore = Math.max(...sorted.map((s) => storyScore(s)));
   const generatedAt = state.dailyBrief && state.dailyBrief.generated_at;
-  const meta = topScore > 0
-    ? `故事时间线 · ${fmtNumber(sorted.length)} 条 · 最高 ${topScore} 分`
-    : `故事时间线 · ${fmtNumber(sorted.length)} 条`;
-  bolePicksMetaEl.textContent = generatedAt ? `${meta} · ${fmtTime(generatedAt)}` : meta;
+  bolePicksMetaEl.textContent = generatedAt ? `${metaLabel} · ${fmtTime(generatedAt)}` : metaLabel;
   document.dispatchEvent(new CustomEvent("aiRadar:briefRendered"));
 }
 
@@ -740,10 +776,19 @@ function renderBolePicks() {
   const brief = state.dailyBrief;
   const items = brief && Array.isArray(brief.items) ? brief.items : [];
   if (items.length) {
+    if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
     renderBoleBrief(items);
     return;
   }
 
+  if (brief) {
+    // 宁缺毋滥: a quiet day produces an empty gated brief — remove the whole
+    // block instead of padding it with weak candidates.
+    if (bolePicksWrapEl) bolePicksWrapEl.hidden = true;
+    return;
+  }
+
+  if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
   const picks = pickBoleItems(state.itemsAi || []);
   bolePicksMetaEl.textContent = "故事合并数据暂未生成 · 伯乐候选信号";
   renderBoleFallback(picks);
@@ -1235,6 +1280,20 @@ if (waytoagi7dBtnEl) {
   waytoagi7dBtnEl.addEventListener("click", () => {
     state.waytoagiMode = "7d";
     if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
+  });
+}
+
+if (boleHotBtnEl) {
+  boleHotBtnEl.addEventListener("click", () => {
+    state.boleView = "hot";
+    renderBolePicks();
+  });
+}
+
+if (boleTimelineBtnEl) {
+  boleTimelineBtnEl.addEventListener("click", () => {
+    state.boleView = "timeline";
+    renderBolePicks();
   });
 }
 

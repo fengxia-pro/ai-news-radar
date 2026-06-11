@@ -3399,19 +3399,56 @@ def merge_story_items(
     return stories, events
 
 
+BRIEF_SCORE_GATE = 0.72
+
+
+def story_passes_brief_gate(story: dict[str, Any]) -> bool:
+    """宁缺毋滥: a story earns a brief slot via multi-source confirmation or a
+    strong score. Quiet days produce a short (possibly empty) brief instead of
+    a padded one."""
+    try:
+        sources = int(story.get("source_count") or 1)
+    except Exception:
+        sources = 1
+    try:
+        score = float(story.get("score") or 0)
+    except Exception:
+        score = 0.0
+    return sources >= 2 or score >= BRIEF_SCORE_GATE
+
+
 def select_diverse_stories(
     stories: list[dict[str, Any]],
     limit: int,
     same_source_penalty: float = 0.03,
 ) -> list[dict[str, Any]]:
     """Greedy top-N by score with a per-source decay so one prolific source
-    cannot fill the brief with a run of same-score stories."""
+    cannot fill the brief, plus same-cluster suppression across the whole
+    window: a story whose title near-duplicates an already picked one is
+    skipped, so an event reposted hours apart (outside the merge window)
+    still occupies only one slot."""
     candidates = sorted(stories, key=lambda story: (-float(story.get("score") or 0), str(story.get("title") or "")))
     picked: list[dict[str, Any]] = []
+    picked_titles: list[tuple[str, set[str]]] = []
     picked_per_source: dict[str, int] = {}
     remaining = list(candidates)
+
+    def near_duplicate_of_picked(story: dict[str, Any]) -> bool:
+        title = normalized_story_title(story)
+        if not title_is_mergeable(title):
+            return False
+        tokens = title_tokens(title)
+        for other_title, other_tokens in picked_titles:
+            if not tokens or not other_tokens:
+                continue
+            if len(tokens & other_tokens) / len(tokens | other_tokens) < 0.4:
+                continue
+            if title_similarity(title, other_title) >= 0.86 and story_titles_can_merge(title, other_title):
+                return True
+        return False
+
     while remaining and len(picked) < limit:
-        best_idx = 0
+        best_idx = -1
         best_eff = float("-inf")
         for idx, story in enumerate(remaining):
             source = str(story.get("source") or story.get("source_name") or "")
@@ -3419,10 +3456,15 @@ def select_diverse_stories(
             if eff > best_eff:
                 best_eff = eff
                 best_idx = idx
+        if best_idx < 0:
+            break
         chosen = remaining.pop(best_idx)
+        if near_duplicate_of_picked(chosen):
+            continue
         source = str(chosen.get("source") or chosen.get("source_name") or "")
         picked_per_source[source] = picked_per_source.get(source, 0) + 1
         picked.append(chosen)
+        picked_titles.append((normalized_story_title(chosen), title_tokens(normalized_story_title(chosen))))
     return picked
 
 
@@ -3430,11 +3472,10 @@ def build_daily_brief_payload(
     stories: list[dict[str, Any]],
     generated_at: str,
     window_hours: int,
-    min_items: int = 10,
     max_items: int = 20,
 ) -> dict[str, Any]:
-    limit = len(stories) if len(stories) < min_items else min(max_items, len(stories))
-    items = select_diverse_stories(stories, limit)
+    gated = [story for story in stories if story_passes_brief_gate(story)]
+    items = select_diverse_stories(gated, max_items)
     return {
         "generated_at": generated_at,
         "window_hours": window_hours,
