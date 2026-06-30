@@ -548,6 +548,46 @@ def maybe_fix_mojibake(text: str) -> str:
     return s
 
 
+def clean_feed_summary_text(text: Any, max_chars: int = 360) -> str:
+    raw = first_non_empty(text)
+    if not raw:
+        return ""
+    plain = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
+    plain = maybe_fix_mojibake(re.sub(r"\s+", " ", plain).strip())
+    if not plain:
+        return ""
+    lower = plain.lower()
+    if (
+        lower.startswith("publication date:")
+        and " source:" in lower
+        and " author(s):" in lower
+        and not any(marker in lower for marker in (" abstract", " purpose:", " background:", " objective:"))
+    ):
+        return ""
+    if len(plain) <= max_chars:
+        return plain
+    return plain[: max_chars - 1].rstrip() + "…"
+
+
+def entry_summary_text(entry: Any) -> str:
+    content_value = ""
+    content = entry.get("content") if hasattr(entry, "get") else None
+    if isinstance(content, list) and content:
+        first = content[0]
+        if isinstance(first, dict):
+            content_value = first_non_empty(first.get("value"), first.get("content"))
+        else:
+            content_value = first_non_empty(first)
+    return clean_feed_summary_text(
+        first_non_empty(
+            entry.get("summary") if hasattr(entry, "get") else None,
+            entry.get("description") if hasattr(entry, "get") else None,
+            entry.get("subtitle") if hasattr(entry, "get") else None,
+            content_value,
+        )
+    )
+
+
 def has_cjk(text: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", text or ""))
 
@@ -598,7 +638,18 @@ def parse_feed_entries_via_xml(feed_xml: bytes) -> list[dict[str, Any]]:
                 if key in seen:
                     continue
                 seen.add(key)
-                out.append({"title": title, "link": link, "published": published})
+                summary = clean_feed_summary_text(
+                    node.findtext("description")
+                    or node.findtext("{*}description")
+                    or node.findtext("summary")
+                    or node.findtext("{*}summary")
+                    or node.findtext("{http://purl.org/rss/1.0/modules/content/}encoded")
+                    or node.findtext("{*}encoded")
+                )
+                item = {"title": title, "link": link, "published": published}
+                if summary:
+                    item["summary"] = summary
+                out.append(item)
     return out
 
 
@@ -797,6 +848,10 @@ def parse_grant_policy_feed_items(feed_content: bytes, source: dict[str, Any], n
         )
         if published and published > now + timedelta(days=2):
             published = None
+        meta = grant_policy_meta(source, "基础研究期刊")
+        summary = entry_summary_text(entry)
+        if summary:
+            meta["summary"] = summary
         out.append(
             RawItem(
                 site_id=str(source["site_id"]),
@@ -805,7 +860,7 @@ def parse_grant_policy_feed_items(feed_content: bytes, source: dict[str, Any], n
                 title=title,
                 url=normalize_url(urljoin(str(source.get("homepage_url") or source["url"]), link)),
                 published_at=published or now,
-                meta=grant_policy_meta(source, "基础研究期刊"),
+                meta=meta,
             )
         )
         if len(out) >= max_items:
@@ -967,6 +1022,9 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
         "grant_topic": meta.get("grant_topic"),
         "grant_source_type": grant_source_type,
     }
+    summary = clean_feed_summary_text(meta.get("summary"), max_chars=360)
+    if summary:
+        record["summary"] = summary
     return sanitize_public_payload(record)
 
 

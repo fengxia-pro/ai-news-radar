@@ -75,6 +75,7 @@ button {
   border: 1px solid rgba(63, 127, 47, 0.16);
   border-radius: var(--radius);
   background: var(--surface);
+  object-fit: cover;
 }
 
 .hero-tag {
@@ -193,6 +194,8 @@ button {
   grid-column: 1 / -1;
   display: grid;
   gap: 10px;
+  min-width: 0;
+  overflow: hidden;
   padding-top: 2px;
 }
 
@@ -1380,6 +1383,45 @@ summary:focus-visible {
   -webkit-box-orient: vertical;
 }
 
+.story-insight {
+  min-width: 0;
+  display: grid;
+  gap: 6px;
+  border-left: 3px solid rgba(63, 127, 47, 0.28);
+  padding: 2px 0 2px 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.story-insight-title {
+  color: var(--accent);
+  font-weight: 820;
+}
+
+.story-insight-text,
+.paper-qa-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.paper-qa {
+  display: grid;
+  gap: 5px;
+}
+
+.paper-qa-row {
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  gap: 7px;
+}
+
+.paper-qa-label {
+  color: var(--accent);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 .bole-empty {
   grid-column: 1 / -1;
   border: 1px dashed var(--line);
@@ -2443,6 +2485,7 @@ summary:focus-visible {
 
   .hero {
     gap: 14px;
+    overflow: hidden;
     padding-bottom: 12px;
   }
 
@@ -2707,6 +2750,11 @@ summary:focus-visible {
 
   .story-source-chip {
     max-width: 140px;
+  }
+
+  .paper-qa-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .source-status-table {

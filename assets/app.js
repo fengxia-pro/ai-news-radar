@@ -28,7 +28,7 @@ const state = {
   dailyBrief: null,
   storiesMerged: null,
   storiesDataUrl: "data/stories-merged.json",
-  activeSection: "hot",
+  activeSection: "grant_policy",
   boleView: "timeline",
   boleExpanded: false,
   listSort: "priority",
@@ -130,6 +130,7 @@ const GRANT_POLICY_SITE_IDS = new Set([
 ]);
 
 const SECTION_DEFS = [
+  { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
   { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
@@ -137,7 +138,6 @@ const SECTION_DEFS = [
   { id: "hn", label: "HN热议", short: "HN", description: "Hacker News 过去 24 小时的 AI 关键词讨论与高互动 story" },
   { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
-  { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
   { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
 ];
@@ -1290,6 +1290,164 @@ function boleReasonText(row) {
   return `${sourceText} · ${mergeText} · ${reasonText(row.item)}`;
 }
 
+function cleanBriefText(text, max = 220) {
+  const raw = String(text || "").trim();
+  if (!raw) return "";
+  const probe = document.createElement("div");
+  probe.innerHTML = raw.replace(/<br\s*\/?>/gi, " ");
+  const plain = (probe.textContent || raw).replace(/\s+/g, " ").trim();
+  if (!plain) return "";
+  if (plain.length <= max) return plain;
+  return `${plain.slice(0, Math.max(0, max - 1)).trim()}…`;
+}
+
+function insightSummaryText(item, context = {}, max = 260) {
+  return cleanBriefText(
+    item.summary
+      || context.summary
+      || context.description
+      || item.description
+      || item.abstract
+      || item.preview
+      || item.excerpt,
+    max
+  );
+}
+
+function paperLikeItem(item) {
+  const hay = [
+    item.ai_label,
+    item.grant_source_type,
+    item.site_id,
+    item.site_name,
+    item.source,
+    item.title,
+    item.title_zh,
+    item.title_en,
+  ].filter(Boolean).join(" ").toLowerCase();
+  return item.ai_label === "research_paper"
+    || item.grant_source_type === "journal"
+    || ["grant_fundamental_research", "grant_bnsfc", "grant_csb"].includes(item.site_id)
+    || /arxiv|paper|journal|article|论文|期刊|fundamental research|science bulletin|科学通报|中国科学基金/.test(hay);
+}
+
+function firstSentence(text, max = 160) {
+  const clean = cleanBriefText(text, max);
+  if (!clean) return "";
+  const match = clean.match(/^(.+?[。！？.!?])\s+/);
+  return cleanBriefText(match ? match[1] : clean, max);
+}
+
+function titleBeforeVerb(title) {
+  const match = String(title || "").match(/^(.+?)\b(?:reveals?|enables?|improves?|detects?|identifies?|shows?|demonstrates?|predicts?|uncovers?|provides?)\b/i);
+  return cleanBriefText(match ? match[1] : "", 120);
+}
+
+function titleAfterVerb(title) {
+  const match = String(title || "").match(/\b(?:reveals?|enables?|improves?|detects?|identifies?|shows?|demonstrates?|predicts?|uncovers?|provides?)\s+(.+)$/i);
+  return cleanBriefText(match ? match[1] : "", 140);
+}
+
+function titleMethodClause(title) {
+  const byClause = String(title || "").match(/\b(?:using|via|with|based on|by)\s+(.+)$/i);
+  const beforeVerb = titleBeforeVerb(title);
+  if (beforeVerb) return beforeVerb;
+  if (byClause) return cleanBriefText(byClause[1], 130);
+  return "";
+}
+
+function titleProblemClause(title) {
+  const text = String(title || "");
+  const detection = text.match(/\b(?:detection|detecting|diagnosis|classification|prediction|quantification|measurement|assessment|identification)\s+of\s+(.+?)(?:\s+(?:using|via|with|based on|by)\b|$)/i);
+  if (detection) return `围绕 ${cleanBriefText(detection[1], 120)} 的检测、识别或评估问题。`;
+  const forClause = text.match(/\bfor\s+(.+?)(?:\s+(?:using|via|with|based on|by)\b|$)/i);
+  if (forClause) return `服务于 ${cleanBriefText(forClause[1], 120)} 这一应用或研究问题。`;
+  const inClause = text.match(/\bin\s+(.+?)(?:\s+(?:using|via|with|based on|by)\b|$)/i);
+  if (inClause) return `聚焦 ${cleanBriefText(inClause[1], 120)} 场景中的机制或方法问题。`;
+  return "";
+}
+
+function paperInsightRows(item, context = {}) {
+  const title = itemTitleText(item);
+  const summary = insightSummaryText(item, context, 320);
+  const method = titleMethodClause(title);
+  const result = titleAfterVerb(title);
+  const problem = firstSentence(summary, 170) || titleProblemClause(title);
+  return [
+    {
+      label: "问题",
+      text: problem || `围绕《${cleanBriefText(title, 120)}》所指主题，识别一个机制、方法或应用层面的关键问题。`,
+    },
+    {
+      label: "已有做法",
+      text: "公开摘要不足时，先标记为待读引言/相关工作；重点核对传统实验、模型、系统方案或人工经验判断。",
+    },
+    {
+      label: "为何不够",
+      text: "需要从原文确认。通常可关注鲁棒性、效率、泛化、解释性、样本复杂度或真实场景适配是否仍有限。",
+    },
+    {
+      label: "本文做法",
+      text: method ? `题名显示主要用 ${method} 切入。` : "题名显示提出或验证了一种新的方法、平台或机制解释，技术路线需打开原文确认。",
+    },
+    {
+      label: "结果",
+      text: result ? `题名声称带来 ${result}；具体指标、样本量和局限需看原文。` : "题名未给出定量结果；建议打开原文核对实验结论、评价指标和局限。",
+    },
+  ];
+}
+
+function newsInsightText(item, context = {}) {
+  const summary = insightSummaryText(item, context, 260);
+  if (summary) return summary;
+  if (itemSections(item).has("grant_policy")) {
+    const topic = item.grant_topic || "科研政策";
+    return `${topic}信息，主要用于判断申报窗口、政策导向、资助评审或基础研究选题变化。`;
+  }
+  if (itemSections(item).has("creator")) {
+    return `${reasonText(item)}。建议打开原文核对观点、案例和评论区反馈。`;
+  }
+  return `${itemTitleText(item)}。建议打开原文核对关键事实、发布时间和影响范围。`;
+}
+
+function buildInsightNode(item, context = {}) {
+  const node = document.createElement("div");
+  const isPaper = paperLikeItem(item);
+  node.className = `story-insight ${isPaper ? "paper-insight" : "news-insight"}`;
+
+  const title = document.createElement("div");
+  title.className = "story-insight-title";
+  title.textContent = isPaper
+    ? `论文速读（${insightSummaryText(item, context) ? "摘要线索" : "题名线索"}）`
+    : "简要内容";
+  node.appendChild(title);
+
+  if (isPaper) {
+    const qa = document.createElement("div");
+    qa.className = "paper-qa";
+    paperInsightRows(item, context).forEach((row) => {
+      const line = document.createElement("div");
+      line.className = "paper-qa-row";
+      const label = document.createElement("span");
+      label.className = "paper-qa-label";
+      label.textContent = row.label;
+      const text = document.createElement("span");
+      text.className = "paper-qa-text";
+      text.textContent = row.text;
+      line.append(label, text);
+      qa.appendChild(line);
+    });
+    node.appendChild(qa);
+  } else {
+    const text = document.createElement("div");
+    text.className = "story-insight-text";
+    text.textContent = newsInsightText(item, context);
+    node.appendChild(text);
+  }
+
+  return node;
+}
+
 function buildBoleLead(row) {
   const { item, score } = row;
   const lead = document.createElement("a");
@@ -1350,7 +1508,7 @@ function buildBoleTimelineRow(row, rank) {
   const reason = document.createElement("div");
   reason.className = "bole-row-reason";
   reason.textContent = boleReasonText(row);
-  body.append(meta, title, reason);
+  body.append(meta, title, reason, buildInsightNode(item, row));
 
   link.append(time, body);
   return link;
@@ -1449,6 +1607,7 @@ function buildStoryCard(story, rank) {
     title.textContent = primaryTitle;
   }
   body.appendChild(title);
+  body.appendChild(buildInsightNode(primary, story));
 
   link.append(time, body);
   return link;
@@ -2101,6 +2260,7 @@ function buildTopStoryCard(row, rank) {
   const summary = document.createElement("p");
   summary.className = "top-story-summary";
   summary.textContent = signalSummaryText(row);
+  const insight = buildInsightNode(item, row);
 
   const why = document.createElement("div");
   why.className = "top-story-why";
@@ -2124,7 +2284,7 @@ function buildTopStoryCard(row, rank) {
     impact.appendChild(chip);
   });
 
-  link.append(meta, title, summary, why, tags, impact);
+  link.append(meta, title, summary, insight, why, tags, impact);
   return link;
 }
 

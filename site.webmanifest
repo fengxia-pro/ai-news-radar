@@ -1,7 +1,7 @@
 {
-  "name": "AI News Radar",
-  "short_name": "AI Radar",
-  "description": "Curated AI and technology signals from the past 24 hours.",
+  "name": "AI 科研雷达",
+  "short_name": "AI 科研",
+  "description": "Curated AI, research policy, and NSFC signals from the past 24 hours.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -12,13 +12,13 @@
       "src": "./assets/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "./assets/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }

@@ -93,6 +93,7 @@ class TopicFilterTests(unittest.TestCase):
             <title>Fundamental Research article on basic science funding</title>
             <link>https://www.sciencedirect.com/science/article/pii/S2667325826000012</link>
             <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This paper explains why basic science funding signals need clearer evidence trails.]]></description>
           </item>
         </channel></rss>
         """
@@ -109,6 +110,7 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(payload["topic"], "国自然/科研政策")
         self.assertEqual(payload["items"][0]["source_tier"], "grant_policy")
+        self.assertIn("basic science funding signals", payload["items"][0]["summary"])
 
     def test_parse_tikhub_xiaohongshu_user_profiles_strips_query_params(self):
         raw = (
@@ -381,6 +383,22 @@ class TopicFilterTests(unittest.TestCase):
         items = parse_feed_entries_via_xml(xml)
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["title"], "A")
+
+    def test_parse_feed_entries_via_xml_extracts_summary(self):
+        xml = b"""<?xml version='1.0' encoding='UTF-8'?>
+<rss><channel>
+<item><title>A</title><link>https://x/a</link><description><![CDATA[<p>Short <b>summary</b></p>]]></description></item>
+</channel></rss>"""
+        items = parse_feed_entries_via_xml(xml)
+        self.assertEqual(items[0]["summary"], "Short summary")
+
+    def test_parse_feed_entries_via_xml_ignores_metadata_only_summary(self):
+        xml = b"""<?xml version='1.0' encoding='UTF-8'?>
+<rss><channel>
+<item><title>A</title><link>https://x/a</link><description>Publication date: Available online 16 June 2026 Source: Fundamental Research Author(s): A, B</description></item>
+</channel></rss>"""
+        items = parse_feed_entries_via_xml(xml)
+        self.assertNotIn("summary", items[0])
 
     def test_parse_atom_feed_entries_via_xml(self):
         xml = b"""<?xml version='1.0' encoding='UTF-8'?>
