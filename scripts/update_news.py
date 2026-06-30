@@ -625,10 +625,24 @@ def extract_doi_from_text(text: str) -> str:
     return normalize_doi(m.group(0)) if m else ""
 
 
-def fetch_elsevier_coredata_doi(session: requests.Session, raw_url: str) -> str:
+def parse_publication_date_value(value: Any) -> datetime | None:
+    raw = first_non_empty(value)
+    if not raw:
+        return None
+    cleaned = re.sub(r"^available online\s+", "", raw, flags=re.IGNORECASE).strip()
+    try:
+        dt = dtparser.parse(cleaned, fuzzy=True)
+    except Exception:
+        return None
+    if not dt.tzinfo:
+        dt = dt.replace(tzinfo=UTC)
+    return dt.astimezone(UTC)
+
+
+def fetch_elsevier_coredata_meta(session: requests.Session, raw_url: str) -> dict[str, Any]:
     pii = extract_pii_from_url(raw_url)
     if not pii:
-        return ""
+        return {}
     try:
         resp = session.get(
             f"https://api.elsevier.com/content/article/pii/{pii}",
@@ -636,18 +650,32 @@ def fetch_elsevier_coredata_doi(session: requests.Session, raw_url: str) -> str:
             timeout=20,
         )
         if resp.status_code != 200:
-            return ""
+            return {}
         data = resp.json()
     except Exception:
-        return ""
+        return {}
     core = data.get("full-text-retrieval-response", {}).get("coredata", {}) if isinstance(data, dict) else {}
-    return normalize_doi(first_non_empty(core.get("prism:doi"), core.get("dc:identifier")))
+    return {
+        "doi": normalize_doi(first_non_empty(core.get("prism:doi"), core.get("dc:identifier"))),
+        "published_at": parse_publication_date_value(
+            first_non_empty(
+                core.get("prism:coverDate"),
+                core.get("prism:coverDisplayDate"),
+                core.get("prism:onlineDate"),
+                core.get("dc:date"),
+            )
+        ),
+    }
 
 
-def fetch_openalex_abstract_by_doi(session: requests.Session, doi: str) -> str:
+def fetch_elsevier_coredata_doi(session: requests.Session, raw_url: str) -> str:
+    return str(fetch_elsevier_coredata_meta(session, raw_url).get("doi") or "")
+
+
+def fetch_openalex_work_meta(session: requests.Session, doi: str) -> dict[str, Any]:
     clean_doi = normalize_doi(doi)
     if not clean_doi:
-        return ""
+        return {}
     try:
         resp = session.get(
             f"https://api.openalex.org/works/https://doi.org/{clean_doi}",
@@ -655,24 +683,32 @@ def fetch_openalex_abstract_by_doi(session: requests.Session, doi: str) -> str:
             timeout=20,
         )
         if resp.status_code != 200:
-            return ""
+            return {}
         data = resp.json()
     except Exception:
-        return ""
-    return abstract_from_openalex_inverted_index(data.get("abstract_inverted_index"))
+        return {}
+    return {
+        "summary": abstract_from_openalex_inverted_index(data.get("abstract_inverted_index")),
+        "published_at": parse_publication_date_value(data.get("publication_date")),
+    }
 
 
-def fetch_sciengine_article_summary(session: requests.Session, raw_url: str) -> str:
+def fetch_openalex_abstract_by_doi(session: requests.Session, doi: str) -> str:
+    return str(fetch_openalex_work_meta(session, doi).get("summary") or "")
+
+
+def fetch_sciengine_article_meta(session: requests.Session, raw_url: str) -> dict[str, Any]:
     if "sciengine.com/doi/" not in (raw_url or "").lower():
-        return ""
+        return {}
     try:
         resp = session.get(raw_url, headers={"User-Agent": BROWSER_UA}, timeout=20)
         if resp.status_code != 200:
-            return ""
+            return {}
         resp.encoding = resp.encoding or resp.apparent_encoding
     except Exception:
-        return ""
+        return {}
     soup = BeautifulSoup(resp.text, "html.parser")
+    summary = ""
     for selector in (
         'meta[name="citation_abstract"]',
         'meta[name="description"]',
@@ -681,10 +717,31 @@ def fetch_sciengine_article_summary(session: requests.Session, raw_url: str) -> 
         node = soup.select_one(selector)
         if not node:
             continue
-            summary = clean_feed_summary_text(node.get("content"), max_chars=1600)
+        summary = clean_feed_summary_text(node.get("content"), max_chars=1600)
         if summary:
-            return summary
-    return ""
+            break
+
+    published_at = None
+    for selector in (
+        'meta[name="citation_publication_date"]',
+        'meta[name="citation_online_date"]',
+        'meta[name="citation_date"]',
+        'meta[name="dc.date"]',
+        'meta[name="prism.publicationDate"]',
+        'meta[property="article:published_time"]',
+    ):
+        node = soup.select_one(selector)
+        if not node:
+            continue
+        published_at = parse_publication_date_value(node.get("content"))
+        if published_at:
+            break
+
+    return {"summary": summary, "published_at": published_at}
+
+
+def fetch_sciengine_article_summary(session: requests.Session, raw_url: str) -> str:
+    return str(fetch_sciengine_article_meta(session, raw_url).get("summary") or "")
 
 
 def has_cjk(text: str) -> bool:
@@ -958,7 +1015,7 @@ def parse_grant_policy_feed_items(feed_content: bytes, source: dict[str, Any], n
                 source=str(source["source"]),
                 title=title,
                 url=normalize_url(urljoin(str(source.get("homepage_url") or source["url"]), link)),
-                published_at=published or now,
+                published_at=published,
                 meta=meta,
             )
         )
@@ -999,6 +1056,8 @@ def parse_grant_policy_html_items(page_html: str, source: dict[str, Any], now: d
         "全部期刊",
         "所有期次",
         "图书",
+        "中国科学院",
+        "依申请公开",
     }
 
     for anchor in soup.find_all("a"):
@@ -1044,7 +1103,7 @@ def parse_grant_policy_html_items(page_html: str, source: dict[str, Any], now: d
                 source=str(source["source"]),
                 title=title,
                 url=url,
-                published_at=published or now,
+                published_at=published,
                 meta=grant_policy_meta(source, topic),
             )
         )
@@ -1059,15 +1118,31 @@ def enrich_grant_policy_journal_items(session: requests.Session, items: list[Raw
         meta = item.meta if isinstance(item.meta, dict) else {}
         if str(meta.get("grant_source_type") or "") != "journal":
             continue
-        if clean_feed_summary_text(meta.get("summary"), max_chars=80):
+        summary = clean_feed_summary_text(meta.get("summary"), max_chars=80)
+        if summary and item.published_at:
             continue
 
-        summary = fetch_sciengine_article_summary(session, item.url)
         doi = extract_doi_from_text(item.url)
+        article_meta = fetch_sciengine_article_meta(session, item.url)
+        if not summary:
+            summary = str(article_meta.get("summary") or "")
+        if not item.published_at and article_meta.get("published_at"):
+            item.published_at = article_meta.get("published_at")
+
+        elsevier_meta: dict[str, Any] = {}
         if not doi and "sciencedirect.com" in item.url.lower():
-            doi = fetch_elsevier_coredata_doi(session, item.url)
-        if not summary and doi:
-            summary = fetch_openalex_abstract_by_doi(session, doi)
+            elsevier_meta = fetch_elsevier_coredata_meta(session, item.url)
+            doi = str(elsevier_meta.get("doi") or "")
+        if not item.published_at and elsevier_meta.get("published_at"):
+            item.published_at = elsevier_meta.get("published_at")
+
+        openalex_meta: dict[str, Any] = {}
+        if doi and (not summary or not item.published_at):
+            openalex_meta = fetch_openalex_work_meta(session, doi)
+        if not summary and openalex_meta.get("summary"):
+            summary = str(openalex_meta.get("summary") or "")
+        if not item.published_at and openalex_meta.get("published_at"):
+            item.published_at = openalex_meta.get("published_at")
 
         if doi:
             meta["doi"] = doi
@@ -1122,10 +1197,11 @@ def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tu
 
 
 def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
-    published = raw.published_at or now
+    published = raw.published_at
     meta = raw.meta if isinstance(raw.meta, dict) else {}
     grant_source_type = str(meta.get("grant_source_type") or "public")
     tier_rank = 0 if grant_source_type in {"official", "policy"} else 1 if grant_source_type in {"research_policy", "conference"} else 3
+    date_known = published is not None
     record = {
         "id": make_item_id(raw.site_id, raw.source, raw.title, raw.url),
         "site_id": raw.site_id,
@@ -1137,6 +1213,8 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
         "published_at": iso(published),
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),
+        "grant_date_status": "known" if date_known else "unknown",
+        "grant_date_label": "已核发布时间" if date_known else "日期待核",
         "ai_label": "research_policy",
         "ai_score": 0,
         "source_tier": "grant_policy",
@@ -1161,7 +1239,13 @@ def build_grant_policy_payload(
 ) -> dict[str, Any]:
     records = [grant_policy_record_from_raw(item, now) for item in items]
     records = dedupe_items_by_title_url(records, random_pick=False)
-    records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
+    records.sort(
+        key=lambda item: (
+            item.get("grant_date_status") == "known",
+            parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC),
+        ),
+        reverse=True,
+    )
     sources = [
         {
             "site_id": status.get("site_id"),

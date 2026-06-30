@@ -113,6 +113,41 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(payload["items"][0]["source_tier"], "grant_policy")
         self.assertIn("basic science funding signals", payload["items"][0]["summary"])
 
+    def test_grant_policy_payload_keeps_unknown_publication_date_unknown(self):
+        now = datetime(2026, 7, 1, 1, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_fundamental_research",
+            "site_name": "Fundamental Research",
+            "source": "ScienceDirect RSS",
+            "url": "https://rss.sciencedirect.com/publication/science/26673258",
+            "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
+            "source_type": "journal",
+            "max_items": 5,
+        }
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"><channel>
+          <item>
+            <title>Fundamental Research article without feed date</title>
+            <link>https://www.sciencedirect.com/science/article/pii/S2667325826000012</link>
+          </item>
+        </channel></rss>
+        """
+
+        items = parse_grant_policy_feed_items(rss, source, now)
+        payload = build_grant_policy_payload(
+            items,
+            [{"site_id": source["site_id"], "site_name": source["site_name"], "ok": True, "item_count": 1}],
+            generated_at="2026-07-01T01:00:00Z",
+            window_hours=24,
+            now=now,
+        )
+
+        self.assertIsNone(items[0].published_at)
+        self.assertIsNone(payload["items"][0]["published_at"])
+        self.assertEqual(payload["items"][0]["grant_date_status"], "unknown")
+        self.assertEqual(payload["items"][0]["grant_date_label"], "日期待核")
+        self.assertEqual(payload["items"][0]["first_seen_at"], "2026-07-01T01:00:00Z")
+
     def test_grant_policy_journal_enrichment_reads_openalex_abstract(self):
         now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
         source = {
@@ -129,7 +164,6 @@ class TopicFilterTests(unittest.TestCase):
           <item>
             <title>Deep learning-powered quantitative test-strip platform enables robust detection of analytes</title>
             <link>https://www.sciencedirect.com/science/article/pii/S2667325826004735</link>
-            <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
             <description>Publication date: Available online 16 June 2026 Source: Fundamental Research Author(s): A, B</description>
           </item>
         </channel></rss>
@@ -151,11 +185,15 @@ class TopicFilterTests(unittest.TestCase):
                 if "api.elsevier.com/content/article/pii/" in url:
                     return FakeResponse({
                         "full-text-retrieval-response": {
-                            "coredata": {"prism:doi": "10.1016/j.fmre.2026.06.009"}
+                            "coredata": {
+                                "prism:doi": "10.1016/j.fmre.2026.06.009",
+                                "prism:coverDate": "2026-06-16",
+                            }
                         }
                     })
                 if "api.openalex.org/works/" in url:
                     return FakeResponse({
+                        "publication_date": "2026-06-16",
                         "abstract_inverted_index": {
                             "Point-of-care": [0],
                             "testing": [1],
@@ -169,10 +207,12 @@ class TopicFilterTests(unittest.TestCase):
 
         items = parse_grant_policy_feed_items(rss, source, now)
         self.assertEqual(items[0].meta.get("summary"), "")
+        self.assertIsNone(items[0].published_at)
 
         enrich_grant_policy_journal_items(FakeSession(), items)
 
         self.assertEqual(items[0].meta["doi"], "10.1016/j.fmre.2026.06.009")
+        self.assertEqual(items[0].published_at.date().isoformat(), "2026-06-16")
         self.assertIn("Point-of-care testing", items[0].meta["summary"])
         self.assertEqual(items[0].meta["summary_source"], "article_abstract")
 

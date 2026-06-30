@@ -557,7 +557,9 @@ function renderSectionSummary(filteredItems = null) {
   const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
   if (state.activeSection === "grant_policy") {
-    sectionSummaryEl.textContent = `过去 24 小时 · ${fmtNumber(items.length)} 条国自然 / 科研政策信号 · ${fmtNumber(sources.size)} 个来源 · 专题源`;
+    const datedCount = items.filter((item) => item.published_at && item.grant_date_status !== "unknown").length;
+    const unknownDateCount = Math.max(0, items.length - datedCount);
+    sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条国自然 / 科研政策信号 · ${fmtNumber(datedCount)} 条有发布时间 · ${fmtNumber(unknownDateCount)} 条日期待核 · ${fmtNumber(sources.size)} 个来源`;
     renderStickySummary();
     return;
   }
@@ -1029,6 +1031,9 @@ function timelineIso(item) {
   const published = item.published_at || "";
   const seen = item.first_seen_at || "";
   const generated = state.generatedAt || "";
+  if (itemSections(item).has("grant_policy") && !published && item.grant_date_status === "unknown") {
+    return "";
+  }
   if (published && generated) {
     const publishedMs = new Date(published).getTime();
     const generatedMs = new Date(generated).getTime();
@@ -1042,6 +1047,13 @@ function timelineIso(item) {
 function timelineMs(item) {
   const d = new Date(timelineIso(item));
   return Number.isNaN(d.getTime()) ? 0 : d.getTime();
+}
+
+function timeLabelText(item, fallbackIso = "") {
+  if (itemSections(item).has("grant_policy") && item.grant_date_status === "unknown") {
+    return item.grant_date_label || "日期待核";
+  }
+  return fmtTime(timelineIso(item) || fallbackIso);
 }
 
 function normalizedEventText(text) {
@@ -1622,7 +1634,7 @@ function buildBoleLead(row) {
   top.className = "bole-lead-top";
   const kicker = document.createElement("span");
   kicker.className = "bole-kicker";
-  kicker.textContent = `${labelText(item)} · ${fmtTime(timelineIso(item))}`;
+  kicker.textContent = `${labelText(item)} · ${timeLabelText(item)}`;
   const scoreEl = document.createElement("strong");
   scoreEl.className = `bole-score-orb ${scoreTone(score)}`;
   scoreEl.innerHTML = `<span>${score}</span><small>分</small>`;
@@ -1654,7 +1666,7 @@ function buildBoleTimelineRow(row, rank) {
 
   const time = document.createElement("time");
   time.className = "bole-row-time";
-  time.textContent = fmtTime(timelineIso(item));
+  time.textContent = timeLabelText(item);
 
   const body = document.createElement("div");
   body.className = "bole-row-body";
@@ -2402,7 +2414,7 @@ function buildTopStoryCard(row, rank) {
   // it on primary_item. Fall back to that aggregate time so Top 3 never shows
   // "时间未知" when the story itself has a verified latest/earliest timestamp.
   const storyTimeline = row.story?.latest_at || row.story?.earliest_at || "";
-  time.textContent = fmtTime(timelineIso(item) || storyTimeline);
+  time.textContent = timeLabelText(item, storyTimeline);
   const primarySource = itemSourceRefs(item, row)[0];
   const score = document.createElement("strong");
   const displayScore = row.story
@@ -2460,7 +2472,7 @@ function buildIntelCard(item, rank) {
   rankEl.className = "intel-card-rank";
   rankEl.textContent = `#${rank}`;
   const time = document.createElement("time");
-  time.textContent = fmtTime(timelineIso(item));
+  time.textContent = timeLabelText(item);
   const score = scorePercent(item);
   const scoreEl = document.createElement("strong");
   scoreEl.className = `intel-score ${scoreTone(score)}`;
@@ -2547,7 +2559,7 @@ function renderItemNode(item, context = {}) {
       metaRow.insertBefore(itemTagChip(label), sourceEl);
     });
 
-  node.querySelector(".time").textContent = fmtTime(item.published_at || item.first_seen_at);
+  node.querySelector(".time").textContent = timeLabelText(item);
 
   const titleEl = node.querySelector(".title");
   const zh = (item.title_zh || "").trim();
@@ -2660,7 +2672,7 @@ function subgroupSummary(items, rawCount = items.length) {
   const merged = rawCount - items.length;
   let ranking = "";
   if (state.listSort === "priority") ranking = `综合 ${subgroupSortValue(items)}`;
-  if (state.listSort === "latest") ranking = `最新 ${fmtTime(timelineIso(items[0]))}`;
+  if (state.listSort === "latest") ranking = `最新 ${timeLabelText(items[0])}`;
   if (state.listSort === "ai") ranking = `最高 AI ${subgroupSortValue(items)}分`;
   const mergedLabel = merged > 0 ? `合并 ${fmtNumber(merged)} 条重复` : "";
   return [count, ranking, mergedLabel].filter(Boolean).join(" · ");
