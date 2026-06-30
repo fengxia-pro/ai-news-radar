@@ -1367,43 +1367,205 @@ function titleProblemClause(title) {
   return "";
 }
 
+function abstractSentences(text, maxSentences = 12) {
+  const clean = cleanBriefText(text, 1600);
+  if (!clean) return [];
+  return clean
+    .replace(/^abstract\s+/i, "")
+    .split(/(?<=[。！？.!?])\s+/)
+    .map((sentence) => cleanBriefText(sentence, 210))
+    .filter(Boolean)
+    .slice(0, maxSentences);
+}
+
+function pickSentence(sentences, patterns, fallback = "") {
+  const hit = sentences.find((sentence) => patterns.some((pattern) => pattern.test(sentence)));
+  return hit || fallback || "";
+}
+
+function paperFeynmanLine(plainText, evidence = "") {
+  const cleanEvidence = cleanBriefText(evidence, 230);
+  return cleanEvidence ? `${plainText} 原文线索：${cleanEvidence}` : plainText;
+}
+
+function grantPolicyFeynmanText(item) {
+  const title = cleanBriefText(itemTitleText(item), 180);
+  const site = item.site_name || item.source || "公开来源";
+  const topic = item.grant_topic || "科研政策";
+  const sourceType = item.grant_source_type || "";
+  const hay = `${title} ${site} ${topic} ${sourceType}`.toLowerCase();
+  const has = (...words) => words.some((word) => hay.includes(String(word).toLowerCase()));
+
+  if (paperLikeItem(item)) {
+    const problem = titleProblemClause(title);
+    if (title.includes("Corrigendum") || title.includes("更正")) {
+      return "大白话：这是论文更正，不是新项目通知。主要提醒你原论文有修订信息；只有正在引用或跟进这篇论文时，才值得优先点开。";
+    }
+    if (problem) {
+      return `大白话：这是一篇基础研究论文，核心是在讲${problem.replace(/。$/, "")}。如果你的选题、方法或基金论证和这个问题相近，再点开看它的方法、数据和结论。`;
+    }
+    return "大白话：这是一篇基础研究论文。先把它当作“别人正在研究什么问题”的线索；如果题目和你的方向贴近，再点开看它解决了什么、怎么做、结果是否能借鉴。";
+  }
+
+  if (has("求是")) {
+    return "大白话：这不是具体申报通知，更像政策风向标。它在告诉你国家为什么更重视基础研究、接下来可能鼓励什么方向，适合用来判断选题叙事和申报书背景。";
+  }
+
+  if (has("重要指示", "习近平")) {
+    return "大白话：这是最高层对基础研究和基金委工作的定调。它不告诉你今天怎么填表，但会影响以后基金支持什么、评审更看重什么。";
+  }
+
+  if (has("项目指南")) {
+    return "大白话：这就是“今年能报什么、按什么规则报”的说明书。准备申报的人要优先点开，看项目类型、条件、时间节点和材料要求。";
+  }
+
+  if (has("申报指南", "指南征求意见")) {
+    return "大白话：这条在提前征求项目指南意见，相当于正式发车前先让大家看路线。相关方向的老师可以看看主题设置，判断自己的课题能不能贴上去。";
+  }
+
+  if (has("申请初审结果", "初审结果")) {
+    return "大白话：这是项目申请过没过第一道形式审查的消息。重点不是学术水平，而是材料、资格、格式等有没有先被挡在门外。";
+  }
+
+  if (has("申请与结题", "结题", "有关事项")) {
+    return "大白话：这是申报和结题的时间表、材料清单和流程提醒。它像日历和办事指南，适合用来防止错过节点或漏交材料。";
+  }
+
+  if (has("依托单位注册", "注册申请")) {
+    return "大白话：这条主要给单位科研管理部门看。意思是单位要先完成注册，后面老师和团队才可能顺利通过这个单位报基金。";
+  }
+
+  if (has("评审会议", "评审会")) {
+    return "大白话：这说明相关项目已经进入专家评审阶段。对申请人来说，可以借它判断评审节奏；对旁观者来说，可以看基金委近期重点推进哪些项目类型。";
+  }
+
+  if (has("资助", "重点国际", "合作研究")) {
+    return "大白话：这类消息和“钱投向哪里、合作方向怎么定”有关。适合看资助导向、合作对象和后续布局机会。";
+  }
+
+  if (has("科研诚信")) {
+    return "大白话：这类消息讲科研底线和规则。它提醒你哪些行为会影响项目申请、评审和结题，属于申报前必须避坑的信息。";
+  }
+
+  if (has("科技日报", "新华社", "主任", "党组书记")) {
+    return "大白话：这是官方媒体或负责人对基金委工作的解读。它不一定是操作通知，但能帮你理解基金委接下来强调基础研究、原始创新和人才支持的方向。";
+  }
+
+  if (has("工作会议", "年度工作会议")) {
+    return "大白话：这是机构年度部署。重点看它今年准备把精力放在哪些科研任务、政策研究或管理改革上，可作为判断大方向的背景材料。";
+  }
+
+  if (has("巡视", "党组")) {
+    return "大白话：这类信息更多是机构治理和内部管理动态。和具体申报关系不大，但能看出科研机构最近在规范管理、监督和整改什么。";
+  }
+
+  if (has("招聘", "岗位")) {
+    return "大白话：这是人才招聘线索，不是基金通知。适合关心科研岗位、智库岗位或政策研究岗位的人点开看条件和方向。";
+  }
+
+  if (has("毕业典礼", "学位授予")) {
+    return "大白话：这是院校活动新闻，和基金申报关联较弱。除非你关注这个机构的人才培养和学科动态，否则可以低优先级处理。";
+  }
+
+  if (has("依申请公开")) {
+    return "大白话：这是政务公开入口类信息，不是具体新闻。你可以把它理解为“需要向机构申请公开材料时走这里”。";
+  }
+
+  if (has("香山科学会议")) {
+    return "大白话：这是高层次学术会议线索。它常常反映一批专家正在讨论的前沿科学问题，适合用来寻找基础研究选题的早期信号。";
+  }
+
+  if (has("科技管理", "国家重点研发计划", "科技计划")) {
+    return "大白话：这类信息通常和科技项目管理有关。重点看有没有申报入口、指南变化、项目过程管理或验收要求。";
+  }
+
+  if (has("中国科学院", "中科院")) {
+    return "大白话：这是中科院体系相关动态。它不一定直接告诉你怎么报基金，但能帮你看国家科研机构最近关注的方向、组织方式和政策动作。";
+  }
+
+  if (topic.includes("项目申报")) {
+    return "大白话：这条和“能不能报、什么时候报、怎么报”有关。准备申请项目的人建议点开核对条件、时间和材料。";
+  }
+
+  if (topic.includes("资助评审")) {
+    return "大白话：这条和“项目怎么评、评到哪一步、钱可能投向哪里”有关。适合判断评审节奏和资助导向。";
+  }
+
+  return `大白话：这是一条来自${site}的${topic}信息。先看它是不是通知、指南、评审、政策风向或机构动态，再决定是否点开原文深读。`;
+}
+
 function paperInsightRows(item, context = {}) {
   const title = itemTitleText(item);
-  const summary = insightSummaryText(item, context, 320);
+  const summary = insightSummaryText(item, context, 1600);
+  const sentences = abstractSentences(summary);
   const method = titleMethodClause(title);
   const result = titleAfterVerb(title);
-  const problem = firstSentence(summary, 170) || titleProblemClause(title);
+  const abstractProblem = pickSentence(sentences, [
+    /challenge|problem|bottleneck|risk|difficult|limitation|limited|gap|because/i,
+    /问题|挑战|瓶颈|困难|不足|受限|风险|由于/,
+  ]);
+  const abstractExisting = pickSentence(sentences, [
+    /conventional|traditional|currently|existing|mainstream|rather than/i,
+    /传统|现有|已有|目前|常规|主流/,
+  ]);
+  const abstractMethod = pickSentence(sentences, [
+    /we present|we propose|this study|this paper|we develop|we designed|employs|leverages|uses|based on/i,
+    /本文|本研究|提出|构建|开发|采用|利用|通过/,
+  ]);
+  const abstractResult = pickSentence(sentences, [
+    /\bwe show\b|\bwe demonstrate\b|\bachieved?\b|\bachieving\b|\bimproved?\b|\boutperform|\baccuracy\b|\bsignificant/i,
+    /结果|表明|实现|提高|显著|证明|达到|优于/,
+  ]);
+  const abstractWeakness = pickSentence(sentences, [
+    /limited|risk|false-negative|noise|variability|vulnerability|gap|bottleneck/i,
+    /不足|受限|风险|噪声|波动|脆弱|差距|瓶颈/,
+  ]);
+  const problem = abstractProblem || firstSentence(summary, 170) || titleProblemClause(title);
   return [
     {
       label: "问题",
-      text: problem || `围绕《${cleanBriefText(title, 120)}》所指主题，识别一个机制、方法或应用层面的关键问题。`,
+      text: paperFeynmanLine(
+        "大白话：作者先指出一个卡点，也就是为什么这个问题难、容易出错或值得研究。",
+        problem || `围绕《${cleanBriefText(title, 120)}》所指主题，识别一个机制、方法或应用层面的关键问题。`
+      ),
     },
     {
       label: "已有做法",
-      text: "公开摘要不足时，先标记为待读引言/相关工作；重点核对传统实验、模型、系统方案或人工经验判断。",
+      text: paperFeynmanLine(
+        "大白话：先看过去通常怎么做，作者是在和哪种老办法、常规办法或主流方案比较。",
+        abstractExisting
+      ),
     },
     {
       label: "为何不够",
-      text: "需要从原文确认。通常可关注鲁棒性、效率、泛化、解释性、样本复杂度或真实场景适配是否仍有限。",
+      text: paperFeynmanLine(
+        "大白话：旧办法的问题通常是不够稳、不够准、不够快，或到了复杂真实场景就容易失灵。",
+        abstractWeakness
+      ),
     },
     {
       label: "本文做法",
-      text: method ? `题名显示主要用 ${method} 切入。` : "题名显示提出或验证了一种新的方法、平台或机制解释，技术路线需打开原文确认。",
+      text: paperFeynmanLine(
+        "大白话：这篇文章的核心贡献，是换了一个办法、平台或解释框架来处理这个问题。",
+        abstractMethod || (method ? `题名显示主要用 ${method} 切入。` : "")
+      ),
     },
     {
       label: "结果",
-      text: result ? `题名声称带来 ${result}；具体指标、样本量和局限需看原文。` : "题名未给出定量结果；建议打开原文核对实验结论、评价指标和局限。",
+      text: paperFeynmanLine(
+        "大白话：最后看它到底有没有变好，重点盯住准确率、灵敏度、效率、适用范围或验证场景。",
+        abstractResult || (result ? `题名声称带来 ${result}；具体指标、样本量和局限需看原文。` : "")
+      ),
     },
   ];
 }
 
 function newsInsightText(item, context = {}) {
+  if (itemSections(item).has("grant_policy")) {
+    return grantPolicyFeynmanText(item);
+  }
   const summary = insightSummaryText(item, context, 260);
   if (summary) return summary;
-  if (itemSections(item).has("grant_policy")) {
-    const topic = item.grant_topic || "科研政策";
-    return `${topic}信息，主要用于判断申报窗口、政策导向、资助评审或基础研究选题变化。`;
-  }
   if (itemSections(item).has("creator")) {
     return `${reasonText(item)}。建议打开原文核对观点、案例和评论区反馈。`;
   }
@@ -1419,7 +1581,7 @@ function buildInsightNode(item, context = {}) {
   title.className = "story-insight-title";
   title.textContent = isPaper
     ? `论文速读（${insightSummaryText(item, context) ? "摘要线索" : "题名线索"}）`
-    : "简要内容";
+    : itemSections(item).has("grant_policy") ? "简要内容（大白话）" : "简要内容";
   node.appendChild(title);
 
   if (isPaper) {
@@ -2168,7 +2330,7 @@ function signalSummaryText(row) {
   const sourceCount = rowSourceCount(row);
   const multi = row.sourceCount > 1 || row.mergedCount > 1;
   if (itemSections(item).has("grant_policy")) {
-    return `${label}方向的公开更新，已进入国自然 / 科研政策专题池，适合继续核对原文和申报窗口。`;
+    return `${item.site_name || item.source || "公开来源"} · ${item.grant_topic || label} · 先看下方大白话简介判断是否点开。`;
   }
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
@@ -2338,9 +2500,7 @@ function buildIntelCard(item, rank) {
 
 function feedSummaryText(item) {
   if (itemSections(item).has("grant_policy")) {
-    const topic = item.grant_topic || "科研政策";
-    const sourceType = item.grant_source_type || "public";
-    return `${topic} · ${item.site_name || item.source || "公开来源"} · ${sourceType}`;
+    return grantPolicyFeynmanText(item);
   }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;

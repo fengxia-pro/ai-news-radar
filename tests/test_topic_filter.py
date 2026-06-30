@@ -10,6 +10,7 @@ from scripts.update_news import (
     build_grant_policy_payload,
     build_latest_payloads,
     dedupe_items_by_title_url,
+    enrich_grant_policy_journal_items,
     fetch_agentmail_digest,
     fetch_aihot,
     fetch_ai_hubtoday,
@@ -111,6 +112,69 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(payload["topic"], "国自然/科研政策")
         self.assertEqual(payload["items"][0]["source_tier"], "grant_policy")
         self.assertIn("basic science funding signals", payload["items"][0]["summary"])
+
+    def test_grant_policy_journal_enrichment_reads_openalex_abstract(self):
+        now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_fundamental_research",
+            "site_name": "Fundamental Research",
+            "source": "ScienceDirect RSS",
+            "url": "https://rss.sciencedirect.com/publication/science/26673258",
+            "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
+            "source_type": "journal",
+            "max_items": 5,
+        }
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"><channel>
+          <item>
+            <title>Deep learning-powered quantitative test-strip platform enables robust detection of analytes</title>
+            <link>https://www.sciencedirect.com/science/article/pii/S2667325826004735</link>
+            <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+            <description>Publication date: Available online 16 June 2026 Source: Fundamental Research Author(s): A, B</description>
+          </item>
+        </channel></rss>
+        """
+
+        class FakeResponse:
+            status_code = 200
+            text = ""
+            apparent_encoding = "utf-8"
+
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        class FakeSession:
+            def get(self, url, **kwargs):
+                if "api.elsevier.com/content/article/pii/" in url:
+                    return FakeResponse({
+                        "full-text-retrieval-response": {
+                            "coredata": {"prism:doi": "10.1016/j.fmre.2026.06.009"}
+                        }
+                    })
+                if "api.openalex.org/works/" in url:
+                    return FakeResponse({
+                        "abstract_inverted_index": {
+                            "Point-of-care": [0],
+                            "testing": [1],
+                            "faces": [2],
+                            "robust": [3],
+                            "detection": [4],
+                            "challenges.": [5],
+                        }
+                    })
+                raise AssertionError(url)
+
+        items = parse_grant_policy_feed_items(rss, source, now)
+        self.assertEqual(items[0].meta.get("summary"), "")
+
+        enrich_grant_policy_journal_items(FakeSession(), items)
+
+        self.assertEqual(items[0].meta["doi"], "10.1016/j.fmre.2026.06.009")
+        self.assertIn("Point-of-care testing", items[0].meta["summary"])
+        self.assertEqual(items[0].meta["summary_source"], "article_abstract")
 
     def test_parse_tikhub_xiaohongshu_user_profiles_strips_query_params(self):
         raw = (

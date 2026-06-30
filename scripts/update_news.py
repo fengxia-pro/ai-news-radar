@@ -588,6 +588,105 @@ def entry_summary_text(entry: Any) -> str:
     )
 
 
+def abstract_from_openalex_inverted_index(inverted: Any) -> str:
+    if not isinstance(inverted, dict) or not inverted:
+        return ""
+    positioned: list[tuple[int, str]] = []
+    for word, positions in inverted.items():
+        if not isinstance(positions, list):
+            continue
+        for pos in positions:
+            try:
+                positioned.append((int(pos), str(word)))
+            except Exception:
+                continue
+    if not positioned:
+        return ""
+    text = " ".join(word for _, word in sorted(positioned))
+    text = re.sub(r"^abstract\s+", "", text, flags=re.IGNORECASE).strip()
+    return clean_feed_summary_text(text, max_chars=1600)
+
+
+def extract_pii_from_url(raw_url: str) -> str:
+    m = re.search(r"/pii/([A-Za-z0-9]+)", raw_url or "")
+    return m.group(1) if m else ""
+
+
+def normalize_doi(raw_doi: str) -> str:
+    doi = str(raw_doi or "").strip()
+    doi = re.sub(r"^doi:\s*", "", doi, flags=re.IGNORECASE)
+    doi = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", doi, flags=re.IGNORECASE)
+    doi = doi.strip().rstrip(".,;")
+    return doi
+
+
+def extract_doi_from_text(text: str) -> str:
+    m = re.search(r"\b10\.\d{4,9}/[^\s\"'<>]+", text or "", flags=re.IGNORECASE)
+    return normalize_doi(m.group(0)) if m else ""
+
+
+def fetch_elsevier_coredata_doi(session: requests.Session, raw_url: str) -> str:
+    pii = extract_pii_from_url(raw_url)
+    if not pii:
+        return ""
+    try:
+        resp = session.get(
+            f"https://api.elsevier.com/content/article/pii/{pii}",
+            headers={"Accept": "application/json", "User-Agent": BROWSER_UA},
+            timeout=20,
+        )
+        if resp.status_code != 200:
+            return ""
+        data = resp.json()
+    except Exception:
+        return ""
+    core = data.get("full-text-retrieval-response", {}).get("coredata", {}) if isinstance(data, dict) else {}
+    return normalize_doi(first_non_empty(core.get("prism:doi"), core.get("dc:identifier")))
+
+
+def fetch_openalex_abstract_by_doi(session: requests.Session, doi: str) -> str:
+    clean_doi = normalize_doi(doi)
+    if not clean_doi:
+        return ""
+    try:
+        resp = session.get(
+            f"https://api.openalex.org/works/https://doi.org/{clean_doi}",
+            headers={"User-Agent": BROWSER_UA},
+            timeout=20,
+        )
+        if resp.status_code != 200:
+            return ""
+        data = resp.json()
+    except Exception:
+        return ""
+    return abstract_from_openalex_inverted_index(data.get("abstract_inverted_index"))
+
+
+def fetch_sciengine_article_summary(session: requests.Session, raw_url: str) -> str:
+    if "sciengine.com/doi/" not in (raw_url or "").lower():
+        return ""
+    try:
+        resp = session.get(raw_url, headers={"User-Agent": BROWSER_UA}, timeout=20)
+        if resp.status_code != 200:
+            return ""
+        resp.encoding = resp.encoding or resp.apparent_encoding
+    except Exception:
+        return ""
+    soup = BeautifulSoup(resp.text, "html.parser")
+    for selector in (
+        'meta[name="citation_abstract"]',
+        'meta[name="description"]',
+        'meta[property="og:description"]',
+    ):
+        node = soup.select_one(selector)
+        if not node:
+            continue
+            summary = clean_feed_summary_text(node.get("content"), max_chars=1600)
+        if summary:
+            return summary
+    return ""
+
+
 def has_cjk(text: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", text or ""))
 
@@ -955,6 +1054,29 @@ def parse_grant_policy_html_items(page_html: str, source: dict[str, Any], now: d
     return out
 
 
+def enrich_grant_policy_journal_items(session: requests.Session, items: list[RawItem]) -> None:
+    for item in items:
+        meta = item.meta if isinstance(item.meta, dict) else {}
+        if str(meta.get("grant_source_type") or "") != "journal":
+            continue
+        if clean_feed_summary_text(meta.get("summary"), max_chars=80):
+            continue
+
+        summary = fetch_sciengine_article_summary(session, item.url)
+        doi = extract_doi_from_text(item.url)
+        if not doi and "sciencedirect.com" in item.url.lower():
+            doi = fetch_elsevier_coredata_doi(session, item.url)
+        if not summary and doi:
+            summary = fetch_openalex_abstract_by_doi(session, doi)
+
+        if doi:
+            meta["doi"] = doi
+        if summary:
+            meta["summary"] = summary
+            meta["summary_source"] = "article_abstract"
+        item.meta = meta
+
+
 def fetch_grant_policy_source(
     session: requests.Session,
     source: dict[str, Any],
@@ -971,6 +1093,7 @@ def fetch_grant_policy_source(
         else:
             resp.encoding = resp.encoding or resp.apparent_encoding
             items = parse_grant_policy_html_items(resp.text, source, now)
+        enrich_grant_policy_journal_items(session, items)
     except Exception as exc:
         error = str(exc)
 
@@ -1022,7 +1145,7 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
         "grant_topic": meta.get("grant_topic"),
         "grant_source_type": grant_source_type,
     }
-    summary = clean_feed_summary_text(meta.get("summary"), max_chars=360)
+    summary = clean_feed_summary_text(meta.get("summary"), max_chars=1600)
     if summary:
         record["summary"] = summary
     return sanitize_public_payload(record)
