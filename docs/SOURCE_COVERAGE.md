@@ -148,6 +148,10 @@ baseline, then let the aggregator layer add breadth.
   cutoff in code. The creator lane uses a separate seven-day pool ranked by
   85% engagement heat plus a 15-point bonus for posts published in the last
   24 hours; the rest of the site remains a 24-hour radar. Xiaohongshu uses the
+  optional `TIKHUB_XIAOHONGSHU_USER_IDS` variable only as a recorded
+  exact-account candidate pool for now; the active fetcher still searches by
+  keyword until a stable TikHub profile/timeline endpoint is wired in.
+  Xiaohongshu uses the
   recommended App V2 search endpoint
   first and only falls back to Web V3 when App V2 cannot fill the current
   keyword budget. It deduplicates by note id, ignores sentinel API timestamps

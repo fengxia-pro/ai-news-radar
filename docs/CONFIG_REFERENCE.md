@@ -60,6 +60,7 @@
 | 笔记类型 | 不限 | `不限` / `视频` / `图文` | `TIKHUB_XHS_NOTE_TYPE`(约 231 行) |
 | 时间窗(API 档位) | 一周内 | `不限` / `一天内` / `一周内` / `半年内` | `TIKHUB_XHS_TIME_FILTER`(约 232 行) |
 | **真实时间窗** | **最近 4 天** | 同抖音,共用 | `TIKHUB_RECENCY_DAYS`(约 219 行) |
+| 账号候选池 | 可选 | `名称=小红书用户ID`，用英文逗号分隔 | `TIKHUB_XIAOHONGSHU_USER_IDS`(GitHub Actions Variable) |
 
 > ⚠️ **待确认:** 小红书「最多点赞」的排序代号我设的是 `popularity_descending`(最可能值),但 TikHub 官方文档是动态网页、抓不到原文,我没能 100% 实测。**本地用你的 key 跑一次确认即可**:
 > ```
@@ -68,6 +69,8 @@
 > 看输出里 `diagnostics.requests` 的 `request_error_count` 是否为 0、有没有小红书条目回来。若被拒,把 `TIKHUB_XHS_SORT` 改成 `"最多点赞"` 再试。代码是分接口容错的,就算这个值不对也不会让整个源崩。
 >
 > **搜索范围(已看过/未看过/已关注)和 位置距离(同城/附近)** 是小红书 App 里绑定登录账号和定位的个性化筛选,**TikHub 公共 API 不开放**,所以是「不限」=我们根本不发送这两个参数,无需配置。
+>
+> `TIKHUB_XIAOHONGSHU_USER_IDS` 只用于登记你想优先跟踪的公开主页 ID，当前适配器仍按 `TIKHUB_QUERY` 做关键词搜索；等 TikHub 的账号动态接口确认后，再把这个候选池接成精确账号抓取。
 
 ---
 

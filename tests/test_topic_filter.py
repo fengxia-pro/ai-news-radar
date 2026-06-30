@@ -35,6 +35,7 @@ from scripts.update_news import (
     parse_hn_algolia_hits,
     parse_tikhub_douyin_items,
     parse_tikhub_xiaohongshu_items,
+    parse_tikhub_xiaohongshu_user_profiles,
     parse_anthropic_news_items,
     parse_follow_builders_items,
     parse_openai_codex_changelog_items,
@@ -48,6 +49,54 @@ from scripts.update_news import (
 
 
 class TopicFilterTests(unittest.TestCase):
+    def test_parse_tikhub_xiaohongshu_user_profiles_strips_query_params(self):
+        raw = (
+            "有木子不写代码=https://www.xiaohongshu.com/user/profile/62972c5f00000000210299fd?xsec_token=secret,"
+            "清华姜学长=5c7d4fd80000000010029a61,"
+            "duplicate=https://www.xiaohongshu.com/user/profile/62972c5f00000000210299fd?xsec_source=pc_search"
+        )
+
+        profiles = parse_tikhub_xiaohongshu_user_profiles(raw)
+
+        self.assertEqual(
+            profiles,
+            [
+                {
+                    "name": "有木子不写代码",
+                    "user_id": "62972c5f00000000210299fd",
+                    "profile_url": "https://www.xiaohongshu.com/user/profile/62972c5f00000000210299fd",
+                },
+                {
+                    "name": "清华姜学长",
+                    "user_id": "5c7d4fd80000000010029a61",
+                    "profile_url": "https://www.xiaohongshu.com/user/profile/5c7d4fd80000000010029a61",
+                },
+            ],
+        )
+
+    def test_tikhub_status_reports_xiaohongshu_profile_pool_without_public_ids(self):
+        now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
+
+        with patch.dict(
+            "os.environ",
+            {
+                "TIKHUB_ENABLED": "1",
+                "TIKHUB_XIAOHONGSHU_USER_IDS": "有木子不写代码=62972c5f00000000210299fd,清华姜学长=5c7d4fd80000000010029a61",
+            },
+            clear=False,
+        ):
+            status = tikhub_status_base(now)
+
+        self.assertEqual(
+            status["xiaohongshu_profile_tracking"],
+            {
+                "configured": True,
+                "profile_count": 2,
+                "adapter_supported": False,
+                "mode": "keyword_search_only",
+            },
+        )
+
     def test_paid_source_status_uses_the_persisted_run_timestamps(self):
         now = __import__("datetime").datetime.fromisoformat("2026-05-03T01:00:00+00:00")
         state = {"sources": {}}

@@ -272,6 +272,7 @@ TIKHUB_DEFAULT_PLATFORMS = "douyin,xiaohongshu"
 TIKHUB_DEFAULT_MAX_RESULTS = 20
 TIKHUB_MAX_QUERY_CHARS = 256
 TIKHUB_RESPONSE_SCAN_LIMIT = 100
+TIKHUB_XHS_PROFILE_URL_BASE = "https://www.xiaohongshu.com/user/profile"
 CREATOR_HOT_WINDOW_DAYS = 7
 CREATOR_FRESHNESS_BONUS_HOURS = 24
 CREATOR_FRESHNESS_BONUS_POINTS = 15.0
@@ -3864,6 +3865,46 @@ def tikhub_should_run_now(now: datetime, paid_source_state: dict[str, Any] | Non
     return paid_source_run_gate("TIKHUB", "tikhub", now, paid_source_state)
 
 
+def parse_tikhub_xiaohongshu_user_profiles(raw: str | None) -> list[dict[str, str]]:
+    """Parse optional Xiaohongshu profile targets without storing tracking query strings."""
+    profiles: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for part in re.split(r"[,\n]+", str(raw or "")):
+        entry = part.strip()
+        if not entry:
+            continue
+
+        name = ""
+        value = entry
+        for sep in ("=", "|"):
+            if sep in entry:
+                name, value = entry.split(sep, 1)
+                break
+
+        value = value.strip()
+        if value.startswith("http://") or value.startswith("https://"):
+            parsed = urlparse(value)
+            segments = [segment for segment in parsed.path.split("/") if segment]
+            if "profile" in segments:
+                idx = segments.index("profile")
+                value = segments[idx + 1] if idx + 1 < len(segments) else ""
+            elif segments:
+                value = segments[-1]
+
+        user_id = re.sub(r"[^A-Za-z0-9_-]", "", value.strip().split("?", 1)[0].strip("/"))
+        if not user_id or user_id in seen:
+            continue
+        seen.add(user_id)
+        profiles.append(
+            {
+                "name": name.strip(),
+                "user_id": user_id,
+                "profile_url": f"{TIKHUB_XHS_PROFILE_URL_BASE}/{user_id}",
+            }
+        )
+    return profiles
+
+
 def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None = None) -> dict[str, Any]:
     daily_limit = max(0, env_int("TIKHUB_DAILY_ITEM_LIMIT", TIKHUB_DEFAULT_MAX_RESULTS))
     max_results = max(1, min(env_int("TIKHUB_MAX_RESULTS", TIKHUB_DEFAULT_MAX_RESULTS), 100))
@@ -3875,6 +3916,7 @@ def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None =
         for part in str(os.environ.get("TIKHUB_PLATFORMS") or TIKHUB_DEFAULT_PLATFORMS).split(",")
         if part.strip()
     ]
+    xhs_profiles = parse_tikhub_xiaohongshu_user_profiles(os.environ.get("TIKHUB_XIAOHONGSHU_USER_IDS"))
     state_entry = paid_source_state_entry(paid_source_state, "tikhub")
     return {
         "enabled": enable_toggle and api_key_present,
@@ -3890,6 +3932,12 @@ def tikhub_status_base(now: datetime, paid_source_state: dict[str, Any] | None =
         "max_results_per_run": max_results,
         "effective_result_cap": effective_cap,
         "platforms": platforms,
+        "xiaohongshu_profile_tracking": {
+            "configured": bool(xhs_profiles),
+            "profile_count": len(xhs_profiles),
+            "adapter_supported": False,
+            "mode": "keyword_search_only",
+        },
         "run_interval_hours": paid_source_interval_hours("TIKHUB"),
         "run_utc_hour": max(0, min(env_int("TIKHUB_RUN_UTC_HOUR", 0), 23)),
         "run_utc_minute_max": max(0, min(env_int("TIKHUB_RUN_UTC_MINUTE_MAX", 10), 59)),
