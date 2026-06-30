@@ -7,6 +7,7 @@ from scripts.update_news import (
     add_source_tier_fields,
     build_agentmail_digest_payload,
     build_creator_hot_items,
+    build_grant_policy_payload,
     build_latest_payloads,
     dedupe_items_by_title_url,
     fetch_agentmail_digest,
@@ -38,6 +39,8 @@ from scripts.update_news import (
     parse_tikhub_xiaohongshu_user_profiles,
     parse_anthropic_news_items,
     parse_follow_builders_items,
+    parse_grant_policy_feed_items,
+    parse_grant_policy_html_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
     source_tier_for_site,
@@ -49,6 +52,64 @@ from scripts.update_news import (
 
 
 class TopicFilterTests(unittest.TestCase):
+    def test_grant_policy_html_parser_keeps_relevant_public_links(self):
+        now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_nsfc",
+            "site_name": "国家自然科学基金委员会",
+            "source": "国自然基金官网",
+            "url": "https://www.nsfc.gov.cn/",
+            "source_type": "official",
+            "max_items": 5,
+        }
+        html = """
+        <html><body>
+          <a href="/notice/2026-01.html">2026年度国家自然科学基金项目指南发布</a>
+          <a href="/about/">机构概况</a>
+        </body></html>
+        """
+
+        items = parse_grant_policy_html_items(html, source, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "grant_nsfc")
+        self.assertIn("国家自然科学基金", items[0].title)
+        self.assertEqual(items[0].meta["grant_topic"], "项目申报")
+
+    def test_grant_policy_feed_parser_supports_fundamental_research_rss(self):
+        now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_fundamental_research",
+            "site_name": "Fundamental Research",
+            "source": "ScienceDirect RSS",
+            "url": "https://rss.sciencedirect.com/publication/science/26673258",
+            "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
+            "source_type": "journal",
+            "max_items": 5,
+        }
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"><channel>
+          <item>
+            <title>Fundamental Research article on basic science funding</title>
+            <link>https://www.sciencedirect.com/science/article/pii/S2667325826000012</link>
+            <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+          </item>
+        </channel></rss>
+        """
+
+        items = parse_grant_policy_feed_items(rss, source, now)
+        payload = build_grant_policy_payload(
+            items,
+            [{"site_id": source["site_id"], "site_name": source["site_name"], "ok": True, "item_count": 1}],
+            generated_at="2026-06-30T08:00:00Z",
+            window_hours=24,
+            now=now,
+        )
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(payload["topic"], "国自然/科研政策")
+        self.assertEqual(payload["items"][0]["source_tier"], "grant_policy")
+
     def test_parse_tikhub_xiaohongshu_user_profiles_strips_query_params(self):
         raw = (
             "有木子不写代码=https://www.xiaohongshu.com/user/profile/62972c5f00000000210299fd?xsec_token=secret,"

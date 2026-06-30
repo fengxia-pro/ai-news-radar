@@ -317,6 +317,144 @@ PUBLIC_RAW_META_FIELDS: tuple[str, ...] = (
     "summary",
 )
 
+GRANT_POLICY_KEYWORDS: tuple[str, ...] = (
+    "国家自然科学基金",
+    "国自然",
+    "自然科学基金",
+    "基金委",
+    "项目指南",
+    "申报",
+    "申请",
+    "资助",
+    "评审",
+    "科研诚信",
+    "基础研究",
+    "科技计划",
+    "青年科学基金",
+    "重点项目",
+    "重大项目",
+    "科技管理",
+    "科学基金",
+    "香山科学会议",
+    "中国科学院",
+    "fundamental research",
+    "national science foundation",
+    "nsfc",
+)
+
+GRANT_POLICY_SOURCE_IDS = frozenset(
+    {
+        "grant_qstheory",
+        "grant_nsfc",
+        "grant_bnsfc",
+        "grant_fundamental_research",
+        "grant_xssc",
+        "grant_most_service",
+        "grant_csb",
+        "grant_casisd",
+    }
+)
+
+GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
+    {
+        "site_id": "grant_qstheory",
+        "site_name": "求是网",
+        "source": "求是",
+        "url": "https://www.qstheory.cn/",
+        "source_type": "policy",
+        "max_items": 8,
+    },
+    {
+        "site_id": "grant_nsfc",
+        "site_name": "国家自然科学基金委员会",
+        "source": "国自然基金官网",
+        "url": "https://www.nsfc.gov.cn/",
+        "source_type": "official",
+        "max_items": 12,
+    },
+    {
+        "site_id": "grant_bnsfc",
+        "site_name": "中国科学基金",
+        "source": "中国科学基金",
+        "url": "https://www.sciengine.com/BNSFC/home",
+        "source_type": "journal",
+        "max_items": 8,
+    },
+    {
+        "site_id": "grant_fundamental_research",
+        "site_name": "Fundamental Research",
+        "source": "ScienceDirect RSS",
+        "url": "https://rss.sciencedirect.com/publication/science/26673258",
+        "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
+        "source_type": "journal",
+        "max_items": 12,
+        "kind": "rss",
+    },
+    {
+        "site_id": "grant_xssc",
+        "site_name": "香山科学会议",
+        "source": "香山科学会议",
+        "url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
+        "source_type": "conference",
+        "max_items": 8,
+    },
+    {
+        "site_id": "grant_most_service",
+        "site_name": "国家科技管理信息系统",
+        "source": "国家科技管理信息",
+        "url": "https://service.most.gov.cn/",
+        "source_type": "official",
+        "max_items": 10,
+    },
+    {
+        "site_id": "grant_csb",
+        "site_name": "科学通报",
+        "source": "科学通报",
+        "url": "https://www.sciengine.com/CSB/home",
+        "source_type": "journal",
+        "max_items": 8,
+    },
+    {
+        "site_id": "grant_casisd",
+        "site_name": "中国科学院科技战略咨询研究院",
+        "source": "中国科学院",
+        "url": "http://www.casisd.cn/",
+        "source_type": "research_policy",
+        "max_items": 8,
+    },
+)
+
+GRANT_POLICY_REFERENCE_SOURCES: tuple[dict[str, str], ...] = (
+    {
+        "site_id": "grant_ref_nsf",
+        "site_name": "NSF Award Search",
+        "source": "国际对标",
+        "url": "https://www.nsf.gov/funding/award-search",
+        "description": "美国 NSF 资助与项目检索入口，v1 仅作为对标入口。",
+    },
+    {
+        "site_id": "grant_ref_nih",
+        "site_name": "NIH RePORTER",
+        "source": "国际对标",
+        "url": "https://reporter.nih.gov/",
+        "description": "美国 NIH 项目数据库入口，v1 不做全量抓取。",
+    },
+    {
+        "site_id": "grant_ref_cordis",
+        "site_name": "CORDIS Projects",
+        "source": "国际对标",
+        "url": "https://cordis.europa.eu/projects",
+        "description": "欧盟 CORDIS 项目库入口，后续可按关键词做专题查询。",
+    },
+    {
+        "site_id": "grant_ref_ukri",
+        "site_name": "UKRI Gateway to Research",
+        "source": "国际对标",
+        "url": "https://gtr.ukri.org/",
+        "description": "英国 UKRI 项目检索入口，v1 仅作为候选源。",
+    },
+)
+
 
 def utc_now() -> datetime:
     return datetime.now(tz=UTC)
@@ -588,6 +726,287 @@ def parse_date_any(value: Any, now: datetime) -> datetime | None:
         return dt.astimezone(UTC)
     except Exception:
         return None
+
+
+def clean_grant_policy_title(text: str) -> str:
+    title = re.sub(r"\s+", " ", maybe_fix_mojibake(text or "")).strip()
+    title = re.sub(r"^[\s·・|｜>\-—–:：]+", "", title).strip()
+    return title
+
+
+def grant_policy_keyword_hit(text: str) -> bool:
+    hay = (text or "").lower()
+    return any(keyword.lower() in hay for keyword in GRANT_POLICY_KEYWORDS)
+
+
+def infer_grant_policy_date(text: str, now: datetime) -> datetime | None:
+    s = text or ""
+    patterns = (
+        r"(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})日?",
+        r"(\d{1,2})[-/.月](\d{1,2})日?",
+    )
+    for idx, pattern in enumerate(patterns):
+        m = re.search(pattern, s)
+        if not m:
+            continue
+        try:
+            if idx == 0:
+                year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            else:
+                year, month, day = now.astimezone(SH_TZ).year, int(m.group(1)), int(m.group(2))
+            candidate = datetime(year, month, day, tzinfo=SH_TZ).astimezone(UTC)
+            if candidate > now + timedelta(days=2):
+                candidate = datetime(year - 1, month, day, tzinfo=SH_TZ).astimezone(UTC)
+            return candidate
+        except Exception:
+            continue
+    return None
+
+
+def grant_policy_meta(source: dict[str, Any], topic: str = "") -> dict[str, Any]:
+    return {
+        "grant_topic": topic or "科研政策",
+        "grant_source_type": source.get("source_type") or "public",
+        "summary": source.get("summary") or "",
+    }
+
+
+def parse_grant_policy_feed_items(feed_content: bytes, source: dict[str, Any], now: datetime) -> list[RawItem]:
+    entries: list[dict[str, Any]] = []
+    if feedparser is not None:
+        parsed = feedparser.parse(feed_content)
+        entries = list(getattr(parsed, "entries", []) or [])
+    if not entries:
+        entries = parse_feed_entries_via_xml(feed_content)
+
+    out: list[RawItem] = []
+    max_items = int(source.get("max_items") or 10)
+    for entry in entries:
+        title = clean_grant_policy_title(first_non_empty(entry.get("title"), entry.get("name")))
+        link = first_non_empty(entry.get("link"), entry.get("url"), entry.get("id"))
+        if not title or not link:
+            continue
+        published = parse_date_any(
+            first_non_empty(
+                entry.get("published"),
+                entry.get("published_parsed"),
+                entry.get("updated"),
+                entry.get("updated_parsed"),
+            ),
+            now,
+        )
+        if published and published > now + timedelta(days=2):
+            published = None
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=str(source["source"]),
+                title=title,
+                url=normalize_url(urljoin(str(source.get("homepage_url") or source["url"]), link)),
+                published_at=published or now,
+                meta=grant_policy_meta(source, "基础研究期刊"),
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
+
+
+def parse_grant_policy_html_items(page_html: str, source: dict[str, Any], now: datetime) -> list[RawItem]:
+    soup = BeautifulSoup(page_html, "html.parser")
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+    max_items = int(source.get("max_items") or 8)
+    base_url = str(source["url"])
+    source_type = str(source.get("source_type") or "")
+    broad_journal_source = bool(source.get("allow_broad_html"))
+    generic_nav_titles = {
+        "home",
+        "login",
+        "more",
+        "english",
+        "author center",
+        "advanced search",
+        "all issues",
+        "article collection",
+        "books",
+        "current issue",
+        "fundamental research",
+        "science bulletin",
+        "chinese science bulletin",
+        "most read",
+        "most cited",
+        "首页",
+        "更多",
+        "登录",
+        "作者中心",
+        "高级检索",
+        "全部期刊",
+        "所有期次",
+        "图书",
+    }
+
+    for anchor in soup.find_all("a"):
+        href = str(anchor.get("href") or "").strip()
+        if not href or href.startswith(("javascript:", "#", "mailto:")):
+            continue
+        title = clean_grant_policy_title(anchor.get_text(" ", strip=True) or str(anchor.get("title") or ""))
+        if len(title) < 4:
+            continue
+        if len(title) > 180:
+            title = title[:180].rstrip()
+        lower_title = title.lower()
+        if lower_title in generic_nav_titles or lower_title == "中文":
+            continue
+        url = normalize_url(urljoin(base_url, href))
+        if not url.startswith("http") or url in seen_urls:
+            continue
+
+        parent_text = ""
+        parent = anchor.parent
+        if parent is not None and getattr(parent, "name", "") not in {"body", "html"}:
+            parent_text = parent.get_text(" ", strip=True)
+        context = f"{title} {parent_text}"
+        if not (grant_policy_keyword_hit(context) or broad_journal_source):
+            continue
+
+        published = infer_grant_policy_date(context, now)
+        topic = "科研政策"
+        if broad_journal_source:
+            topic = "基础研究期刊"
+        elif "指南" in context or "申报" in context or "申请" in context:
+            topic = "项目申报"
+        elif "评审" in context or "资助" in context:
+            topic = "资助评审"
+        elif "科研诚信" in context:
+            topic = "科研诚信"
+
+        seen_urls.add(url)
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=str(source["source"]),
+                title=title,
+                url=url,
+                published_at=published or now,
+                meta=grant_policy_meta(source, topic),
+            )
+        )
+        if len(out) >= max_items:
+            break
+
+    return out
+
+
+def fetch_grant_policy_source(
+    session: requests.Session,
+    source: dict[str, Any],
+    now: datetime,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    start = time.perf_counter()
+    error = None
+    items: list[RawItem] = []
+    try:
+        resp = session.get(str(source["url"]), timeout=25)
+        resp.raise_for_status()
+        if source.get("kind") == "rss":
+            items = parse_grant_policy_feed_items(resp.content, source, now)
+        else:
+            resp.encoding = resp.encoding or resp.apparent_encoding
+            items = parse_grant_policy_html_items(resp.text, source, now)
+    except Exception as exc:
+        error = str(exc)
+
+    status = {
+        "site_id": source["site_id"],
+        "site_name": source["site_name"],
+        "ok": error is None,
+        "item_count": len(items),
+        "duration_ms": int((time.perf_counter() - start) * 1000),
+        "error": error,
+        "source_group": "grant_policy",
+        "source_url": source.get("homepage_url") or source.get("url"),
+        "candidate": error is not None or len(items) == 0,
+    }
+    return items, status
+
+
+def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
+    items: list[RawItem] = []
+    statuses: list[dict[str, Any]] = []
+    for source in GRANT_POLICY_SOURCES:
+        source_items, status = fetch_grant_policy_source(session, source, now)
+        items.extend(source_items)
+        statuses.append(status)
+    return items, statuses
+
+
+def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
+    published = raw.published_at or now
+    meta = raw.meta if isinstance(raw.meta, dict) else {}
+    grant_source_type = str(meta.get("grant_source_type") or "public")
+    tier_rank = 0 if grant_source_type in {"official", "policy"} else 1 if grant_source_type in {"research_policy", "conference"} else 3
+    record = {
+        "id": make_item_id(raw.site_id, raw.source, raw.title, raw.url),
+        "site_id": raw.site_id,
+        "site_name": raw.site_name,
+        "source": raw.source,
+        "title": clean_grant_policy_title(raw.title),
+        "title_zh": clean_grant_policy_title(raw.title),
+        "url": normalize_url(raw.url),
+        "published_at": iso(published),
+        "first_seen_at": iso(now),
+        "last_seen_at": iso(now),
+        "ai_label": "research_policy",
+        "ai_score": 0,
+        "source_tier": "grant_policy",
+        "source_tier_label": "国自然/科研政策",
+        "source_tier_rank": tier_rank,
+        "grant_topic": meta.get("grant_topic"),
+        "grant_source_type": grant_source_type,
+    }
+    return sanitize_public_payload(record)
+
+
+def build_grant_policy_payload(
+    items: list[RawItem],
+    statuses: list[dict[str, Any]],
+    *,
+    generated_at: str,
+    window_hours: int,
+    now: datetime,
+) -> dict[str, Any]:
+    records = [grant_policy_record_from_raw(item, now) for item in items]
+    records = dedupe_items_by_title_url(records, random_pick=False)
+    records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
+    sources = [
+        {
+            "site_id": status.get("site_id"),
+            "site_name": status.get("site_name"),
+            "ok": status.get("ok"),
+            "item_count": status.get("item_count"),
+            "candidate": status.get("candidate"),
+            "url": status.get("source_url"),
+            "error": status.get("error"),
+        }
+        for status in statuses
+    ]
+    return {
+        "generated_at": generated_at,
+        "window_hours": window_hours,
+        "topic": "国自然/科研政策",
+        "total_items": len(records),
+        "items": records,
+        "sources": sources,
+        "reference_sources": list(GRANT_POLICY_REFERENCE_SOURCES),
+        "notes": [
+            "微信公众号暂不进入公开站点。",
+            "国际项目库 v1 仅作为对标入口，不做全量项目抓取。",
+            "无稳定 RSS 的站点以公开页面轻量解析和状态候选方式接入。",
+        ],
+    }
 
 
 def apply_public_raw_meta(record: dict[str, Any], raw: RawItem) -> None:
@@ -5292,6 +5711,7 @@ def main() -> int:
     stories_merged_path = output_dir / "stories-merged.json"
     merge_log_path = output_dir / "merge-log.json"
     waytoagi_path = output_dir / "waytoagi-7d.json"
+    grant_policy_path = output_dir / "latest-grants-24h.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
     paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
@@ -5301,6 +5721,8 @@ def main() -> int:
 
     session = create_session()
     raw_items, statuses = collect_all(session, now)
+    grant_policy_items, grant_policy_statuses = collect_grant_policy_sources(session, now)
+    statuses.extend(grant_policy_statuses)
     rss_feed_statuses: list[dict[str, Any]] = []
     email_digest_payload, agentmail_status = maybe_fetch_agentmail_digest(
         session,
@@ -5536,6 +5958,13 @@ def main() -> int:
     daily_brief_payload = build_daily_brief_payload(stories, generated_at=generated_at, window_hours=args.window_hours)
     stories_merged_payload = build_stories_payload(stories, generated_at=generated_at, window_hours=args.window_hours)
     merge_log_payload = build_merge_log_payload(merge_events, generated_at=generated_at)
+    grant_policy_payload = build_grant_policy_payload(
+        grant_policy_items,
+        grant_policy_statuses,
+        generated_at=generated_at,
+        window_hours=args.window_hours,
+        now=now,
+    )
 
     # site stats
     site_stat: dict[str, dict[str, Any]] = {}
@@ -5637,6 +6066,21 @@ def main() -> int:
         "fetched_raw_items": len(raw_items),
         "items_before_topic_filter": len(latest_items_all),
         "items_in_24h": len(latest_items_ai_dedup),
+        "grant_policy": {
+            "enabled": True,
+            "item_count": len(grant_policy_payload.get("items") or []),
+            "source_total": len(grant_policy_statuses),
+            "ok_sources": sum(1 for s in grant_policy_statuses if s.get("ok")),
+            "failed_sources": [s.get("site_id") for s in grant_policy_statuses if not s.get("ok")],
+            "candidate_sources": [
+                s.get("site_id")
+                for s in grant_policy_statuses
+                if s.get("candidate")
+            ],
+            "data_url": "data/latest-grants-24h.json",
+            "reference_source_count": len(GRANT_POLICY_REFERENCE_SOURCES),
+            "mode": "public_topic_lane",
+        },
         "rss_opml": {
             "enabled": bool(args.rss_opml),
             "path": "configured" if args.rss_opml else None,
@@ -5688,6 +6132,10 @@ def main() -> int:
         encoding="utf-8",
     )
     status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    grant_policy_path.write_text(
+        json.dumps(sanitize_public_payload(grant_policy_payload), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     paid_source_state_path.write_text(
         json.dumps(sanitize_public_payload(paid_source_state), ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -5707,6 +6155,7 @@ def main() -> int:
     print(f"Wrote: {merge_log_path} ({len(merge_events)} merge events)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
+    print(f"Wrote: {grant_policy_path} ({grant_policy_payload.get('total_items', 0)} grant policy items)")
     print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:
         print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")

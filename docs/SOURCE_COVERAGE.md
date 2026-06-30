@@ -110,6 +110,18 @@ baseline, then let the aggregator layer add breadth.
   `data/waytoagi-7d.json`; the latest update day is also promoted into the
   community signal lane so it can appear under the Community tab without
   occupying a standalone homepage block.
+- **国自然/科研政策专题**: writes a separate
+  `data/latest-grants-24h.json` payload and a `grant_policy` summary in
+  `data/source-status.json`. This lane is not gated by AI relevance scoring and
+  does not change `latest-24h.json`. Built-in public sources cover 求是网、国家
+  自然科学基金委员会、中国科学基金、Fundamental Research、香山科学会议、国家科技管理
+  信息系统、科学通报、中国科学院科技战略咨询研究院. Fundamental Research uses
+  ScienceDirect's public RSS feed; other sources use focused public-page parsing
+  and report zero-result or failed sources as candidates rather than stopping the
+  update job. NSF Award Search, NIH RePORTER, CORDIS Projects, and UKRI Gateway
+  to Research are shown as international comparison entrypoints in v1, not
+  full-project crawlers. WeChat public accounts stay out of the public site by
+  default.
 
 ## Disabled Default Sources
 

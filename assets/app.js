@@ -5,6 +5,10 @@ const state = {
   creatorItemsAi: [],
   creatorItemsAll: [],
   creatorWindowDays: 7,
+  grantPolicyData: null,
+  grantPolicyItems: [],
+  grantPolicySources: [],
+  grantPolicyReferenceSources: [],
   statsAi: [],
   totalAi: 0,
   totalRaw: 0,
@@ -65,6 +69,11 @@ const waytoagiMetaEl = document.getElementById("waytoagiMeta");
 const waytoagiListEl = document.getElementById("waytoagiList");
 const waytoagiTodayBtnEl = document.getElementById("waytoagiTodayBtn");
 const waytoagi7dBtnEl = document.getElementById("waytoagi7dBtn");
+const grantPolicyWrapEl = document.getElementById("grantPolicyWrap");
+const grantPolicyUpdatedAtEl = document.getElementById("grantPolicyUpdatedAt");
+const grantPolicyMetaEl = document.getElementById("grantPolicyMeta");
+const grantPolicySourcesEl = document.getElementById("grantPolicySources");
+const grantPolicyReferenceEl = document.getElementById("grantPolicyReference");
 const coverageStripEl = document.getElementById("coverageStrip");
 const bolePicksListEl = document.getElementById("bolePicksList");
 const bolePicksMetaEl = document.getElementById("bolePicksMeta");
@@ -99,7 +108,26 @@ const SOURCE_KINDS = {
   waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
   opmlrss: { label: "OPML", tone: "newsletter" },
+  grant_qstheory: { label: "科研政策", tone: "official" },
+  grant_nsfc: { label: "国自然", tone: "official" },
+  grant_bnsfc: { label: "科学基金", tone: "research" },
+  grant_fundamental_research: { label: "基础研究", tone: "research" },
+  grant_xssc: { label: "香山会议", tone: "research" },
+  grant_most_service: { label: "科技管理", tone: "official" },
+  grant_csb: { label: "科学通报", tone: "research" },
+  grant_casisd: { label: "中科院", tone: "research" },
 };
+
+const GRANT_POLICY_SITE_IDS = new Set([
+  "grant_qstheory",
+  "grant_nsfc",
+  "grant_bnsfc",
+  "grant_fundamental_research",
+  "grant_xssc",
+  "grant_most_service",
+  "grant_csb",
+  "grant_casisd",
+]);
 
 const SECTION_DEFS = [
   { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
@@ -109,6 +137,7 @@ const SECTION_DEFS = [
   { id: "hn", label: "HN热议", short: "HN", description: "Hacker News 过去 24 小时的 AI 关键词讨论与高互动 story" },
   { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
+  { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
   { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
 ];
@@ -225,6 +254,10 @@ function renderStickySummary() {
     state.signalLevelFilter ? signalLevel : "",
     query ? `搜索“${query}”` : "",
   ].filter(Boolean);
+  if (state.activeSection === "grant_policy") {
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 科研政策专题${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    return;
+  }
   const mode = state.mode === "all" ? "全量" : "AI强相关";
   stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · ${mode}${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
 }
@@ -328,6 +361,7 @@ function renderCoverageStrip(errorMessage = "") {
   const agentmail = state.sourceStatus?.agentmail || {};
   const xApi = state.sourceStatus?.x_api || {};
   const socialdata = state.sourceStatus?.socialdata || {};
+  const grantPolicy = state.sourceStatus?.grant_policy || {};
   const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
   const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
   const officialCount = Number(siteRow("official_ai")?.item_count || 0);
@@ -348,6 +382,12 @@ function renderCoverageStrip(errorMessage = "") {
   const xApiLabel = paidSourceLabel(xApi, xApiPoolCount, "X API", "");
   const xSourceLabel = socialdataLabel || xApiLabel || "X待配置";
   const mailLabel = agentmail.enabled ? `Mail ${fmtNumber(mailCount)}` : "Mail待配置";
+  const grantValue = grantPolicy.enabled
+    ? `${fmtNumber(grantPolicy.item_count || state.grantPolicyItems.length)} 条`
+    : "专题待生成";
+  const grantMeta = grantPolicy.enabled
+    ? `公开源 ${fmtNumber(grantPolicy.ok_sources || 0)}/${fmtNumber(grantPolicy.source_total || 0)} · 国际入口 ${fmtNumber(grantPolicy.reference_source_count || 0)}`
+    : "国自然 / 科研政策专题源";
   const advancedValue = xPoolCount || mailCount
     ? `${xPoolCount ? `X ${fmtNumber(xPoolCount)}` : "X"} / ${mailCount ? `Mail ${fmtNumber(mailCount)}` : "Mail"}`
     : "X / Mail";
@@ -361,6 +401,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["AI强相关", `${fmtNumber(state.totalAi)} 条`, "24小时强相关信号", "signal"],
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
+    ["国自然专题", grantValue, grantMeta, "official"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
     ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
@@ -401,6 +442,9 @@ function computeSiteStats(items) {
 }
 
 function currentSiteStats() {
+  if (state.activeSection === "grant_policy") {
+    return computeSiteStats(state.grantPolicyItems || []);
+  }
   if (state.activeSection === "creator") {
     return computeSiteStats(state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi);
   }
@@ -428,6 +472,7 @@ function isCuratedItem(item) {
 function itemSourceType(item) {
   const siteId = item.site_id || "";
   const tier = item.source_tier || "";
+  if (GRANT_POLICY_SITE_IDS.has(siteId) || tier === "grant_policy") return "grant_policy";
   if (siteId === "official_ai" || tier === "official") return "official";
   if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
   if (siteId === "opmlrss" || tier === "user_opml") return "rss";
@@ -484,6 +529,7 @@ function renderSectionTabs() {
       renderSiteFilters();
       renderBolePicks();
       if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
+      renderGrantPolicy();
       renderList();
     });
     sectionTabsEl.appendChild(btn);
@@ -510,6 +556,11 @@ function renderSectionSummary(filteredItems = null) {
   const items = filteredItems || getFilteredItems();
   const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
+  if (state.activeSection === "grant_policy") {
+    sectionSummaryEl.textContent = `过去 24 小时 · ${fmtNumber(items.length)} 条国自然 / 科研政策信号 · ${fmtNumber(sources.size)} 个来源 · 专题源`;
+    renderStickySummary();
+    return;
+  }
   const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
   sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
@@ -591,7 +642,9 @@ function renderModeSwitch() {
   if (allDedupeWrapEl) allDedupeWrapEl.classList.toggle("show", state.mode === "all");
   if (allDedupeToggleEl) allDedupeToggleEl.checked = state.allDedup;
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
-  if (state.mode === "ai") {
+  if (state.activeSection === "grant_policy") {
+    modeHintEl.textContent = `科研政策 · ${fmtNumber(state.grantPolicyItems.length)} 条`;
+  } else if (state.mode === "ai") {
     modeHintEl.textContent = `AI强相关 · ${fmtNumber(state.totalAi)} 条`;
   } else {
     const allCount = state.allDedup
@@ -669,6 +722,9 @@ function modeItems() {
 }
 
 function sectionItems(items = modeItems(), sectionId = state.activeSection) {
+  if (sectionId === "grant_policy") {
+    return [...(state.grantPolicyItems || [])].sort((a, b) => timelineMs(b) - timelineMs(a));
+  }
   if (sectionId === "creator") {
     const creatorSource = state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi;
     return [...creatorSource].sort((a, b) => creatorHotScore(b) - creatorHotScore(a) || timelineMs(b) - timelineMs(a));
@@ -720,6 +776,7 @@ function itemLabelTone(item) {
   const label = item.ai_label || "";
   if (item.site_id === "official_ai") return "official";
   if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
+  if (itemSections(item).has("grant_policy")) return "official";
   if (itemSections(item).has("creator")) return "creator";
   if (label === "model_release") return "models";
   if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
@@ -736,6 +793,7 @@ function itemTagTone(label) {
   if (text.includes("官方")) return "official";
   if (text.includes("精选") || text.includes("热点")) return "hot";
   if (text.includes("HN")) return "aggregate";
+  if (text.includes("国自然") || text.includes("科研政策")) return "official";
   if (text.includes("模型")) return "models";
   if (text.includes("开发")) return "devtools";
   if (text.includes("研究")) return "research";
@@ -813,6 +871,7 @@ function labelText(item) {
     infra_compute: "基础设施",
     industry_business: "行业动态",
     research_paper: "研究论文",
+    research_policy: "科研政策",
     robotics: "机器人",
     curated_hotlist: "热点",
     ai_tech: "技术趋势",
@@ -853,6 +912,9 @@ function itemSections(item) {
   const sections = new Set();
   const label = item.ai_label || "";
   const source = `${item.source || ""} ${item.site_name || ""}`.toLowerCase();
+  if (GRANT_POLICY_SITE_IDS.has(item.site_id) || item.source_tier === "grant_policy") {
+    sections.add("grant_policy");
+  }
   const hasExplicitModelTerm = matchesAny(contentHay, [
     /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
   ]);
@@ -1742,6 +1804,9 @@ function rankedBriefRows(stories) {
 
 function rankedFallbackRows(items) {
   const rows = rankedClustersForItems(items);
+  if (state.activeSection === "grant_policy") {
+    return rows.sort((a, b) => itemPriorityScore(b.item) - itemPriorityScore(a.item) || timelineMs(b.item) - timelineMs(a.item));
+  }
   return state.boleView === "hot"
     ? rows.sort((a, b) => b.sourceCount - a.sourceCount || b.score - a.score || timelineMs(b.item) - timelineMs(a.item))
     : rows.sort((a, b) => timelineMs(b.item) - timelineMs(a.item) || b.score - a.score);
@@ -1796,7 +1861,9 @@ function renderBolePicks() {
 
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const filtered = getFilteredItems();
-  const storyPools = currentStoryPools(filtered);
+  const storyPools = state.activeSection === "grant_policy"
+    ? { brief: [], followup: [], merged: [] }
+    : currentStoryPools(filtered);
   const availableStoryPool = storyPools.brief.length
     ? [...storyPools.brief, ...storyPools.followup]
     : storyPools.merged;
@@ -1883,6 +1950,7 @@ function itemTagLabels(item, row = null) {
   if (row && (row.sourceCount > 1 || row.mergedCount > 1)) tags.push("多源验证");
   if (item.site_id === "official_ai") tags.push("官方");
   if (item.site_id === "aihot") tags.push("AI HOT");
+  if (sections.has("grant_policy")) tags.push("国自然");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
   if (sections.has("hn")) tags.push("社区热议");
@@ -1940,6 +2008,9 @@ function signalSummaryText(row) {
   const label = story.importance_label || labelText(item);
   const sourceCount = rowSourceCount(row);
   const multi = row.sourceCount > 1 || row.mergedCount > 1;
+  if (itemSections(item).has("grant_policy")) {
+    return `${label}方向的公开更新，已进入国自然 / 科研政策专题池，适合继续核对原文和申报窗口。`;
+  }
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "核心方向：");
@@ -1951,6 +2022,9 @@ function whyImportantText(row) {
   const story = row.story || {};
   const sections = itemSections(item);
   const reasons = Array.isArray(story.reasons) ? story.reasons : [];
+  if (sections.has("grant_policy")) {
+    return "科研政策和基金入口会影响选题窗口、申报节奏、评审导向和后续项目设计。";
+  }
   if (reasons.includes("official_source") && reasons.includes("multi_source")) {
     return "一手来源和聚合来源同时出现，说明它既有事实起点，也正在被外部信息流放大。";
   }
@@ -1962,6 +2036,9 @@ function whyImportantText(row) {
   }
   if (sections.has("industry")) {
     return "公司、监管、芯片或资本动态会改变 AI 生态的资源分配和落地节奏。";
+  }
+  if (sections.has("grant_policy")) {
+    return "科研政策和基金入口会影响选题窗口、申报节奏、评审导向和后续项目设计。";
   }
   if (sections.has("research")) {
     return "研究信号可能还没产品化，但会提示下一轮模型、数据或方法的技术方向。";
@@ -1979,6 +2056,7 @@ function impactLabels(item) {
   if (sections.has("products")) labels.push("产品");
   if (sections.has("industry")) labels.push("企业 / 投资");
   if (sections.has("research")) labels.push("研究");
+  if (sections.has("grant_policy")) labels.push("基金 / 政策");
   if (sections.has("models")) labels.push("模型团队");
   if (sections.has("community") || sections.has("hn")) labels.push("社区");
   return labels.slice(0, 3).length ? labels.slice(0, 3) : ["AI 观察者"];
@@ -2099,6 +2177,11 @@ function buildIntelCard(item, rank) {
 }
 
 function feedSummaryText(item) {
+  if (itemSections(item).has("grant_policy")) {
+    const topic = item.grant_topic || "科研政策";
+    const sourceType = item.grant_source_type || "public";
+    return `${topic} · ${item.site_name || item.source || "公开来源"} · ${sourceType}`;
+  }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;
   const reason = reasonText(item);
@@ -2122,7 +2205,9 @@ function renderItemNode(item, context = {}) {
   const creatorScore = creatorHotScore(item);
   const tagEl = document.createElement("span");
   tagEl.className = `ai-tag tone-${itemLabelTone(item)}`;
-  tagEl.textContent = creatorScore && itemSections(item).has("creator")
+  tagEl.textContent = itemSections(item).has("grant_policy")
+    ? `${labelText(item)} · ${item.grant_topic || "专题"}`
+    : creatorScore && itemSections(item).has("creator")
     ? `自媒体热度 · ${creatorScore}分`
     : `${labelText(item)} · ${score || "?"}分`;
   categoryEl.insertAdjacentElement("afterend", tagEl);
@@ -2455,6 +2540,7 @@ function rerenderCurrentView() {
   renderSiteFilters();
   renderBolePicks();
   if (state.waytoagiData) renderWaytoagi(state.waytoagiData);
+  renderGrantPolicy();
   renderList();
 }
 
@@ -2537,6 +2623,79 @@ function renderWaytoagi(waytoagi) {
     row.append(dateEl, titleEl);
     waytoagiListEl.appendChild(row);
   });
+}
+
+function renderGrantPolicy(data = state.grantPolicyData) {
+  if (grantPolicyWrapEl) {
+    grantPolicyWrapEl.hidden = state.activeSection !== "grant_policy";
+  }
+  if (state.activeSection !== "grant_policy" || !grantPolicyWrapEl) return;
+
+  const payload = data || {};
+  const items = Array.isArray(payload.items) ? payload.items : [];
+  const sources = Array.isArray(payload.sources) ? payload.sources : [];
+  const refs = Array.isArray(payload.reference_sources) ? payload.reference_sources : [];
+  const okSources = sources.filter((source) => source.ok).length;
+
+  if (grantPolicyUpdatedAtEl) {
+    grantPolicyUpdatedAtEl.textContent = payload.generated_at ? `更新时间：${fmtTime(payload.generated_at)}` : "专题数据待生成";
+  }
+
+  if (grantPolicyMetaEl) {
+    grantPolicyMetaEl.innerHTML = "";
+    const parts = [
+      `公开源 ${fmtNumber(okSources)}/${fmtNumber(sources.length)}`,
+      `专题条目 ${fmtNumber(items.length)}`,
+      `国际入口 ${fmtNumber(refs.length)}`,
+      "公众号暂不公开",
+    ];
+    parts.forEach((text, index) => {
+      if (index) {
+        const sep = document.createElement("span");
+        sep.textContent = "·";
+        grantPolicyMetaEl.appendChild(sep);
+      }
+      const item = document.createElement("span");
+      item.textContent = text;
+      grantPolicyMetaEl.appendChild(item);
+    });
+  }
+
+  if (grantPolicySourcesEl) {
+    grantPolicySourcesEl.innerHTML = "";
+    sources.forEach((source) => {
+      const card = document.createElement("a");
+      card.className = `grant-source-card ${source.ok ? "ok" : "warn"}`;
+      card.href = source.url || "#";
+      card.target = "_blank";
+      card.rel = "noopener noreferrer";
+      const title = document.createElement("strong");
+      title.textContent = source.site_name || source.site_id || "公开源";
+      const meta = document.createElement("span");
+      meta.textContent = source.ok
+        ? `${fmtNumber(source.item_count || 0)} 条 · 已接入`
+        : `候选源 · ${source.error ? "需复核" : "暂无条目"}`;
+      card.append(title, meta);
+      grantPolicySourcesEl.appendChild(card);
+    });
+  }
+
+  if (grantPolicyReferenceEl) {
+    grantPolicyReferenceEl.innerHTML = "";
+    refs.forEach((ref) => {
+      const link = document.createElement("a");
+      link.className = "grant-ref-card";
+      link.href = ref.url || "#";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      const title = document.createElement("strong");
+      title.textContent = ref.site_name || ref.site_id || "国际对标";
+      const desc = document.createElement("span");
+      desc.textContent = ref.description || "国际项目检索入口";
+      link.append(title, desc);
+      grantPolicyReferenceEl.appendChild(link);
+    });
+  }
 }
 
 function renderMetric(label, value, tone = "", options = {}) {
@@ -2837,13 +2996,20 @@ async function loadStoriesData() {
   return res.json();
 }
 
+async function loadGrantPolicyData() {
+  const res = await fetch(`./data/latest-grants-24h.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 latest-grants-24h.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
     loadStoriesData(),
+    loadGrantPolicyData(),
   ]);
 
   if (briefResult.status === "fulfilled") {
@@ -2856,6 +3022,18 @@ async function init() {
     state.storiesMerged = storiesResult.value;
   } else {
     state.storiesMerged = null;
+  }
+
+  if (grantsResult.status === "fulfilled") {
+    state.grantPolicyData = grantsResult.value;
+    state.grantPolicyItems = Array.isArray(grantsResult.value.items) ? grantsResult.value.items : [];
+    state.grantPolicySources = Array.isArray(grantsResult.value.sources) ? grantsResult.value.sources : [];
+    state.grantPolicyReferenceSources = Array.isArray(grantsResult.value.reference_sources) ? grantsResult.value.reference_sources : [];
+  } else {
+    state.grantPolicyData = null;
+    state.grantPolicyItems = [];
+    state.grantPolicySources = [];
+    state.grantPolicyReferenceSources = [];
   }
 
   if (newsResult.status === "fulfilled") {
@@ -2890,6 +3068,7 @@ async function init() {
     renderCoverageStrip();
     renderSiteFilters();
     renderBolePicks();
+    renderGrantPolicy();
     renderList();
     updatedAtEl.textContent = fmtTime(state.generatedAt);
   } else {

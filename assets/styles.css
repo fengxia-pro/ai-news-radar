@@ -891,7 +891,8 @@ summary:focus-visible {
 
 .bole-picks-wrap,
 .list-wrap,
-.waytoagi-wrap {
+.waytoagi-wrap,
+.grant-policy-wrap {
   margin-top: 18px;
   border: 1px solid var(--line-soft);
   border-radius: var(--radius);
@@ -909,9 +910,91 @@ summary:focus-visible {
   border-color: rgba(23, 23, 23, 0.12);
 }
 
+.grant-policy-wrap {
+  background: var(--surface-soft);
+}
+
+.grant-policy-head {
+  background: var(--surface-alt);
+}
+
+.grant-policy-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 18px;
+  color: var(--muted);
+  font-size: 13px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.grant-policy-block {
+  padding: 14px 18px 18px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.grant-policy-block:first-of-type {
+  border-top: 0;
+}
+
+.grant-policy-block h3 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.grant-source-grid,
+.grant-reference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.grant-source-card,
+.grant-ref-card {
+  display: grid;
+  gap: 5px;
+  min-height: 78px;
+  padding: 11px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  color: var(--ink);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.grant-source-card strong,
+.grant-ref-card strong {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.grant-source-card span,
+.grant-ref-card span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.grant-source-card.ok {
+  border-color: rgba(47, 125, 69, 0.24);
+  background: rgba(47, 125, 69, 0.04);
+}
+
+.grant-source-card.warn {
+  border-color: rgba(154, 103, 0, 0.22);
+  background: rgba(154, 103, 0, 0.05);
+}
+
+.grant-source-card:hover,
+.grant-ref-card:hover {
+  border-color: rgba(63, 127, 47, 0.38);
+}
+
 .bole-picks-head,
 .list-head,
-.waytoagi-head {
+.waytoagi-head,
+.grant-policy-head {
   padding: 16px 18px;
   display: flex;
   flex-wrap: nowrap;
@@ -930,14 +1013,16 @@ summary:focus-visible {
 
 .bole-picks-head h2,
 .list-head h2,
-.waytoagi-head h2 {
+.waytoagi-head h2,
+.grant-policy-head h2 {
   margin: 0;
   font-size: 22px;
 }
 
 #bolePicksMeta,
 #resultCount,
-#waytoagiUpdatedAt {
+#waytoagiUpdatedAt,
+#grantPolicyUpdatedAt {
   color: var(--muted);
   font-size: 13px;
   white-space: nowrap;
@@ -2430,7 +2515,9 @@ summary:focus-visible {
   }
 
   .coverage-strip,
-  .health-grid {
+  .health-grid,
+  .grant-source-grid,
+  .grant-reference-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2679,6 +2766,11 @@ summary:focus-visible {
   .coverage-strip {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .grant-source-grid,
+  .grant-reference-grid {
+    grid-template-columns: 1fr;
   }
 
   .source-health-summary {
