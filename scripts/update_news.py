@@ -408,14 +408,6 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "max_items": 12,
     },
     {
-        "site_id": "grant_bnsfc",
-        "site_name": "中国科学基金",
-        "source": "中国科学基金",
-        "url": "https://www.sciengine.com/BNSFC/home",
-        "source_type": "journal",
-        "max_items": 8,
-    },
-    {
         "site_id": "grant_fundamental_research",
         "site_name": "Fundamental Research",
         "source": "ScienceDirect RSS",
@@ -424,6 +416,16 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "source_type": "journal",
         "max_items": 12,
         "kind": "rss",
+    },
+    {
+        "site_id": "grant_bnsfc",
+        "site_name": "中国科学基金",
+        "source": "中国科学基金",
+        "url": "https://www.sciengine.com/BNSFC/home",
+        "api_url": "https://www.sciengine.com/sciPublisher/journalDetailCurrentIssue?pageNo=1&pageSize=8&journalBaseId=221bb8ffec5b45d6a3ad2101d43b69b2",
+        "source_type": "journal",
+        "max_items": 8,
+        "kind": "sciengine_current_issue",
     },
     {
         "site_id": "grant_xssc",
@@ -1351,6 +1353,57 @@ def enrich_grant_policy_journal_items(session: requests.Session, items: list[Raw
         item.meta = meta
 
 
+def parse_sciengine_current_issue_items(
+    payload: Any,
+    source: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    rows = payload if isinstance(payload, list) else payload.get("list", []) if isinstance(payload, dict) else []
+    out: list[RawItem] = []
+    max_items = int(source.get("max_items") or 8)
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        title = clean_grant_policy_title(first_non_empty(row.get("title"), row.get("titleStr")))
+        doi = first_non_empty(row.get("doi"), row.get("baseId"), row.get("id"))
+        if not title or not doi:
+            continue
+        url = normalize_url(urljoin(str(source["url"]), f"/doi/{doi}"))
+        published = parse_date_any(
+            first_non_empty(
+                row.get("pubDate"),
+                row.get("purchaseDate"),
+                row.get("createDate"),
+                f"{row.get('pubYear')}-{row.get('pubMonth')}-01" if row.get("pubYear") and row.get("pubMonth") else "",
+            ),
+            now,
+        )
+        meta = grant_policy_meta(source, "基础研究期刊")
+        summary = clean_feed_summary_text(
+            first_non_empty(row.get("introStr"), row.get("intro"), row.get("abstract")),
+            max_chars=900,
+        )
+        if summary:
+            meta["summary"] = summary
+            meta["summary_source"] = "sciengine_current_issue"
+        if row.get("articleTypeStr"):
+            meta["article_type"] = row.get("articleTypeStr")
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=str(source["source"]),
+                title=title,
+                url=url,
+                published_at=published,
+                meta=meta,
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
+
+
 def fetch_grant_policy_source(
     session: requests.Session,
     source: dict[str, Any],
@@ -1360,11 +1413,20 @@ def fetch_grant_policy_source(
     error = None
     items: list[RawItem] = []
     try:
-        resp = session.get(str(source["url"]), timeout=25)
-        resp.raise_for_status()
+        if source.get("kind") == "sciengine_current_issue":
+            resp = session.post(
+                str(source.get("api_url") or source["url"]),
+                timeout=25,
+                headers={"Referer": str(source["url"])},
+            )
+            resp.raise_for_status()
+            items = parse_sciengine_current_issue_items(resp.json(), source, now)
+        else:
+            resp = session.get(str(source["url"]), timeout=25)
+            resp.raise_for_status()
         if source.get("kind") == "rss":
             items = parse_grant_policy_feed_items(resp.content, source, now)
-        else:
+        elif source.get("kind") != "sciengine_current_issue":
             resp.encoding = resp.encoding or resp.apparent_encoding
             items = parse_grant_policy_html_items(resp.text, source, now)
         enrich_grant_policy_journal_items(session, items)
@@ -1428,6 +1490,43 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
     return sanitize_public_payload(record)
 
 
+def add_grant_policy_journal_bilingual_fields(
+    records: list[dict[str, Any]],
+    session: requests.Session | None = None,
+    cache: dict[str, str] | None = None,
+    max_new_translations: int = 0,
+) -> tuple[list[dict[str, Any]], dict[str, str] | None]:
+    translated_now = 0
+    cache_map = cache if cache is not None else {}
+    for record in records:
+        if str(record.get("grant_source_type") or "") != "journal":
+            continue
+        title = clean_grant_policy_title(str(record.get("title") or ""))
+        if not title or not is_mostly_english(title):
+            continue
+
+        record["title_en"] = title
+        zh_title = str(record.get("title_zh") or "").strip()
+        if zh_title == title or not has_cjk(zh_title):
+            zh_title = cache_map.get(title, "")
+        if (
+            not zh_title
+            and session is not None
+            and translated_now < max(0, max_new_translations)
+        ):
+            translated = translate_to_zh_cn(session, title)
+            if translated and has_cjk(translated):
+                zh_title = translated
+                cache_map[title] = translated
+                translated_now += 1
+
+        if zh_title and has_cjk(zh_title):
+            record["title_zh"] = clean_grant_policy_title(zh_title)
+            record["title_bilingual"] = f"{record['title_zh']} / {title}"
+
+    return records, cache
+
+
 def build_grant_policy_payload(
     items: list[RawItem],
     statuses: list[dict[str, Any]],
@@ -1435,8 +1534,17 @@ def build_grant_policy_payload(
     generated_at: str,
     window_hours: int,
     now: datetime,
+    session: requests.Session | None = None,
+    title_cache: dict[str, str] | None = None,
+    max_new_translations: int = 0,
 ) -> dict[str, Any]:
     records = [grant_policy_record_from_raw(item, now) for item in items]
+    records, title_cache = add_grant_policy_journal_bilingual_fields(
+        records,
+        session=session,
+        cache=title_cache,
+        max_new_translations=max_new_translations,
+    )
     records = dedupe_items_by_title_url(records, random_pick=False)
     records.sort(
         key=lambda item: (
@@ -1449,6 +1557,11 @@ def build_grant_policy_payload(
         {
             "site_id": status.get("site_id"),
             "site_name": status.get("site_name"),
+            "site_display_name": (
+                "Fundamental Research（基础研究）"
+                if status.get("site_id") == "grant_fundamental_research"
+                else status.get("site_name")
+            ),
             "ok": status.get("ok"),
             "item_count": status.get("item_count"),
             "candidate": status.get("candidate"),
@@ -7246,6 +7359,9 @@ def main() -> int:
         generated_at=generated_at,
         window_hours=args.window_hours,
         now=now,
+        session=session,
+        title_cache=title_cache,
+        max_new_translations=max(0, args.translate_max_new),
     )
     github_projects_payload = build_github_projects_payload(
         github_project_candidates,

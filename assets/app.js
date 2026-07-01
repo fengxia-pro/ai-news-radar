@@ -140,11 +140,24 @@ const GRANT_POLICY_SITE_IDS = new Set([
   "grant_casisd",
 ]);
 
+const GRANT_JOURNAL_DISPLAY_NAMES = {
+  grant_fundamental_research: "Fundamental Research（基础研究）",
+  grant_bnsfc: "中国科学基金",
+};
+
+const GRANT_SOURCE_GROUP_ORDER = {
+  grant_nsfc: 0,
+  grant_fundamental_research: 1,
+  grant_bnsfc: 2,
+  grant_casisd: 3,
+  grant_qstheory: 4,
+};
+
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近一周公众号文章与已确认入口" },
   { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
-  { id: "hot", label: "热点（优先看）", short: "热点", description: "跨来源聚合后的优先阅读列表" },
+  { id: "hot", label: "热点流（优先看）", short: "热点流", description: "高优先级信号流：按来源质量、AI 相关度、时间和编辑分排序" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
   { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
   { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
@@ -286,6 +299,28 @@ function renderStickySummary() {
 
 function sourceKind(siteId) {
   return SOURCE_KINDS[siteId] || { label: "来源", tone: "default" };
+}
+
+function itemSourceDisplayName(item) {
+  if (!item) return "";
+  const siteId = item.site_id || "";
+  if (GRANT_JOURNAL_DISPLAY_NAMES[siteId]) return GRANT_JOURNAL_DISPLAY_NAMES[siteId];
+  if (itemSections(item).has("grant_policy") && item.grant_source_type === "journal") {
+    return item.site_name || item.source || siteId;
+  }
+  return item.source || item.site_name || siteId;
+}
+
+function sourceDisplayName(source) {
+  if (!source) return "";
+  return source.site_display_name || GRANT_JOURNAL_DISPLAY_NAMES[source.site_id] || source.site_name || source.site_id || "公开源";
+}
+
+function grantSourceGroupRank(items) {
+  const ranks = items
+    .map((item) => GRANT_SOURCE_GROUP_ORDER[item.site_id])
+    .filter((rank) => Number.isFinite(rank));
+  return ranks.length ? Math.min(...ranks) : Number.POSITIVE_INFINITY;
 }
 
 function sourceSignalTone(signal) {
@@ -628,7 +663,8 @@ function renderSectionSummary(filteredItems = null) {
   }
   const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
-  sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
+  const sectionName = section.id === "hot" ? "热点流" : section.label;
+  sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条 ${sectionName}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
   renderStickySummary();
 }
 
@@ -2329,13 +2365,13 @@ function renderBolePicks() {
   const remainingCount = Math.max(0, rows.length - top.length);
   if (topStoriesTitleEl) {
     topStoriesTitleEl.textContent = state.activeSection === "hot"
-      ? "今日重点信号"
+      ? "当前热点"
       : state.activeSection === "slow_professor"
       ? "慢教授近一周文章"
       : `${section.label}重点信号`;
   }
   const storyMeta = usesStories
-    ? `展示池：热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
+    ? `展示池：当前热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 多源聚合热点 · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
     : `展示池：${fmtNumber(rows.length)} 条`;
   bolePicksMetaEl.textContent = storyMeta;
   if (boleViewToggleEl) {
@@ -2470,7 +2506,7 @@ function signalSummaryText(row) {
     return item.summary;
   }
   if (itemSections(item).has("grant_policy")) {
-    return `${item.site_name || item.source || "公开来源"} · ${item.grant_topic || label} · 先看下方大白话简介判断是否点开。`;
+    return `${itemSourceDisplayName(item) || "公开来源"} · ${item.grant_topic || label} · 先看下方大白话简介判断是否点开。`;
   }
   if (itemSections(item).has("github_projects")) {
     const stars = Number(item.stars || 0);
@@ -2669,8 +2705,8 @@ function renderItemNode(item, context = {}) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
   const metaRow = node.querySelector(".meta-row");
   const siteEl = node.querySelector(".site");
-  siteEl.textContent = item.source || item.site_name;
-  if (context.source && context.source === item.source) {
+  siteEl.textContent = itemSourceDisplayName(item);
+  if (context.source && (context.source === item.source || context.source === itemSourceDisplayName(item))) {
     siteEl.hidden = true;
   }
   const kind = sourceKind(item.site_id);
@@ -2827,7 +2863,7 @@ function subgroupSummary(items, rawCount = items.length) {
 function sourceGroupEntries(items) {
   const groupMap = new Map();
   items.forEach((item) => {
-    const key = item.source || "未分区";
+    const key = itemSourceDisplayName(item) || "未分区";
     if (!groupMap.has(key)) {
       groupMap.set(key, []);
     }
@@ -2842,6 +2878,8 @@ function sourceGroupEntries(items) {
     }))
     .filter((group) => group.items.length)
     .sort((a, b) => {
+      const byGrantOrder = grantSourceGroupRank(a.items) - grantSourceGroupRank(b.items);
+      if (byGrantOrder !== 0) return byGrantOrder;
       const byScore = subgroupSortValue(b.items) - subgroupSortValue(a.items);
       if (byScore !== 0) return byScore;
       const byCount = b.items.length - a.items.length;
@@ -2923,7 +2961,7 @@ function groupedSites(items) {
   const siteMap = new Map();
   items.forEach((item) => {
     if (!siteMap.has(item.site_id)) {
-      siteMap.set(item.site_id, { siteName: item.site_name || item.site_id, rawItems: [] });
+      siteMap.set(item.site_id, { siteName: itemSourceDisplayName(item) || item.site_name || item.site_id, rawItems: [] });
     }
     siteMap.get(item.site_id).rawItems.push(item);
   });
@@ -2940,6 +2978,9 @@ function groupedSites(items) {
     })
     .filter(([, site]) => site.items.length)
     .sort((a, b) => {
+      const byGrantOrder = (GRANT_SOURCE_GROUP_ORDER[a[0]] ?? Number.POSITIVE_INFINITY)
+        - (GRANT_SOURCE_GROUP_ORDER[b[0]] ?? Number.POSITIVE_INFINITY);
+      if (byGrantOrder !== 0) return byGrantOrder;
       const byScore = subgroupSortValue(b[1].items) - subgroupSortValue(a[1].items);
       if (byScore !== 0) return byScore;
       const byCount = b[1].items.length - a[1].items.length;
@@ -3150,7 +3191,7 @@ function renderGrantPolicy(data = state.grantPolicyData) {
       card.target = "_blank";
       card.rel = "noopener noreferrer";
       const title = document.createElement("strong");
-      title.textContent = source.site_name || source.site_id || "公开源";
+      title.textContent = sourceDisplayName(source);
       const meta = document.createElement("span");
       meta.textContent = source.ok
         ? `${fmtNumber(source.item_count || 0)} 条 · 已接入`
@@ -3169,7 +3210,7 @@ function renderGrantPolicy(data = state.grantPolicyData) {
       link.target = "_blank";
       link.rel = "noopener noreferrer";
       const title = document.createElement("strong");
-      title.textContent = ref.site_name || ref.site_id || "国际对标";
+      title.textContent = sourceDisplayName(ref) || "国际对标";
       const desc = document.createElement("span");
       desc.textContent = ref.description || "国际项目检索入口";
       link.append(title, desc);

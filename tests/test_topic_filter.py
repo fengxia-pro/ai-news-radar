@@ -50,6 +50,7 @@ from scripts.update_news import (
     parse_github_project_markdown,
     parse_grant_policy_feed_items,
     parse_grant_policy_html_items,
+    parse_sciengine_current_issue_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
     SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
@@ -212,6 +213,71 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(payload["topic"], "国自然/科研政策")
         self.assertEqual(payload["items"][0]["source_tier"], "grant_policy")
         self.assertIn("basic science funding signals", payload["items"][0]["summary"])
+
+    def test_grant_policy_journal_items_get_chinese_title_and_display_name(self):
+        now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_fundamental_research",
+            "site_name": "Fundamental Research",
+            "source": "ScienceDirect RSS",
+            "url": "https://rss.sciencedirect.com/publication/science/26673258",
+            "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
+            "source_type": "journal",
+            "max_items": 5,
+        }
+        rss = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"><channel>
+          <item>
+            <title>Lattice Matching Theory in Advanced Batteries</title>
+            <link>https://www.sciencedirect.com/science/article/pii/S2667325826004723</link>
+            <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+          </item>
+        </channel></rss>
+        """
+
+        items = parse_grant_policy_feed_items(rss, source, now)
+        with patch("scripts.update_news.translate_to_zh_cn", return_value="先进电池中的晶格匹配理论"):
+            payload = build_grant_policy_payload(
+                items,
+                [{"site_id": source["site_id"], "site_name": source["site_name"], "ok": True, "item_count": 1}],
+                generated_at="2026-06-30T08:00:00Z",
+                window_hours=24,
+                now=now,
+                session=object(),
+                title_cache={},
+                max_new_translations=1,
+            )
+
+        self.assertEqual(payload["sources"][0]["site_display_name"], "Fundamental Research（基础研究）")
+        self.assertEqual(payload["items"][0]["title_en"], "Lattice Matching Theory in Advanced Batteries")
+        self.assertEqual(payload["items"][0]["title_zh"], "先进电池中的晶格匹配理论")
+
+    def test_sciengine_current_issue_parser_extracts_bnsfc_articles(self):
+        now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_bnsfc",
+            "site_name": "中国科学基金",
+            "source": "中国科学基金",
+            "url": "https://www.sciengine.com/BNSFC/home",
+            "source_type": "journal",
+            "max_items": 8,
+        }
+        payload = [
+            {
+                "title": "Focusing on the Targetome of Chronic Diseases to Foster New Paradigms in Innovative Drug Discovery",
+                "doi": "10.3724/BNSFC-2026.04.11.0001",
+                "pubYear": "2026",
+                "pubMonth": "4",
+                "intro": "This article discusses targetome-driven drug discovery.",
+            }
+        ]
+
+        items = parse_sciengine_current_issue_items(payload, source, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "grant_bnsfc")
+        self.assertIn("/doi/10.3724/BNSFC-2026.04.11.0001", items[0].url)
+        self.assertIn("targetome-driven", items[0].meta["summary"])
 
     def test_grant_policy_payload_keeps_unknown_publication_date_unknown(self):
         now = datetime(2026, 7, 1, 1, 0, tzinfo=timezone.utc)
