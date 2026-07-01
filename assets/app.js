@@ -789,9 +789,7 @@ function effectiveAllItems() {
 }
 
 function slowProfessorDisplayItems() {
-  const recent = Array.isArray(state.slowProfessorItems) ? state.slowProfessorItems : [];
-  if (recent.length) return recent;
-  return Array.isArray(state.slowProfessorConfirmedEntries) ? state.slowProfessorConfirmedEntries : [];
+  return Array.isArray(state.slowProfessorItems) ? state.slowProfessorItems : [];
 }
 
 function modeItems() {
@@ -2330,8 +2328,8 @@ function renderBolePicks() {
   if (topStoriesTitleEl) {
     topStoriesTitleEl.textContent = state.activeSection === "hot"
       ? "今日重点信号"
-      : state.activeSection === "slow_professor" && !state.slowProfessorItems.length
-      ? "慢教授已确认入口"
+      : state.activeSection === "slow_professor"
+      ? "慢教授近三日文章"
       : `${section.label}重点信号`;
   }
   const storyMeta = usesStories
@@ -2349,7 +2347,9 @@ function renderBolePicks() {
   if (!top.length) {
     const empty = document.createElement("div");
     empty.className = "bole-empty";
-    empty.textContent = "当前栏目和筛选条件下没有可展示的 Top 3。";
+    empty.textContent = state.activeSection === "slow_professor"
+      ? "暂无可核验的近三日公众号文章。已确认入口只保留在数据说明里，不进入近三日文章列表。"
+      : "当前栏目和筛选条件下没有可展示的 Top 3。";
     bolePicksListEl.appendChild(empty);
   } else {
     top.forEach((row, index) => {

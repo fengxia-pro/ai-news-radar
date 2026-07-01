@@ -1,5 +1,6 @@
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
 from unittest.mock import patch
 
 from scripts.update_news import (
@@ -287,6 +288,15 @@ class TopicFilterTests(unittest.TestCase):
         self.assertNotIn("563203", serialized)
         self.assertNotIn("慢生产力", serialized)
         self.assertNotIn("固定入口", serialized)
+
+    def test_slow_professor_frontend_does_not_backfill_confirmed_entries_as_recent_items(self):
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+        start = app_js.index("function slowProfessorDisplayItems()")
+        end = app_js.index("function modeItems()", start)
+        body = app_js[start:end]
+
+        self.assertIn("state.slowProfessorItems", body)
+        self.assertNotIn("state.slowProfessorConfirmedEntries", body)
 
     def test_grant_policy_journal_enrichment_reads_openalex_abstract(self):
         now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
