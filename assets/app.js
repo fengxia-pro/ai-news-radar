@@ -1515,6 +1515,47 @@ function cleanBriefText(text, max = 220) {
   return `${plain.slice(0, Math.max(0, max - 1)).trim()}…`;
 }
 
+function githubProjectPlainDescription(item, max = 170) {
+  const mention = Array.isArray(item.mention_summaries)
+    ? item.mention_summaries.find(Boolean)
+    : "";
+  const raw = cleanBriefText(mention || item.description || item.summary || item.title, 320);
+  if (!raw) return "这个开源项目的用途需要打开 README 进一步确认。";
+  const withoutPrefix = raw.replace(/^[^：:]{1,48}[：:]\s*/, "").trim();
+  return cleanBriefText(withoutPrefix || raw, max);
+}
+
+function githubProjectFunReason(item) {
+  const sources = Array.isArray(item.recommend_sources) ? item.recommend_sources.filter(Boolean) : [];
+  const sourceText = sources.length ? sources.slice(0, 3).join("、") : "公开 GitHub 来源";
+  const stars = Number(item.stars || 0);
+  const language = item.language || "未标注语言";
+  const topics = Array.isArray(item.topics) ? item.topics.filter(Boolean).slice(0, 4) : [];
+  const hay = [
+    item.title,
+    item.description,
+    item.summary,
+    ...(Array.isArray(item.mention_summaries) ? item.mention_summaries : []),
+    topics.join(" "),
+  ].join(" ").toLowerCase();
+  const traits = [];
+  if (sources.length > 1) traits.push(`被 ${sourceText} 同时推荐`);
+  else traits.push(`被 ${sourceText} 推荐`);
+  if (stars) traits.push(`${fmtNumber(stars)} stars，已有真实关注度`);
+  if (language && language !== "未标注语言") traits.push(`主要用 ${language} 写成`);
+  if (/game|游戏|斗地主|poker|solar|visual|3d|browser|desktop|gui|可视化|桌面|浏览器/.test(hay)) traits.push("能直接打开体验，反馈很直观");
+  if (/ai|llm|mcp|agent|voice|speech|asr|whisper|claude|codex|gemini|智能|语音/.test(hay)) traits.push("和 AI/Agent 工作流有连接点");
+  if (/cli|terminal|docker|self-host|offline|local|本地|离线|自托管|命令行/.test(hay)) traits.push("适合自己部署或顺手改造");
+  if (topics.length) traits.push(`主题标签：${topics.join(" / ")}`);
+  return cleanBriefText(traits.slice(0, 4).join("；"), 230);
+}
+
+function githubProjectExplainerText(item) {
+  const purpose = githubProjectPlainDescription(item);
+  const fun = githubProjectFunReason(item);
+  return `项目用途：${purpose} 好玩在哪里：${fun}。`;
+}
+
 function insightSummaryText(item, context = {}, max = 260) {
   return cleanBriefText(
     item.summary
@@ -2570,7 +2611,7 @@ function signalSummaryText(row) {
   if (itemSections(item).has("github_projects")) {
     const stars = Number(item.stars || 0);
     const lang = item.language || "多语言";
-    return `${item.repo_full_name || item.title} · ${lang}${stars ? ` · ${fmtNumber(stars)} stars` : ""} · 先看下方大白话判断是否值得打开。`;
+    return `${item.repo_full_name || item.title} · ${lang}${stars ? ` · ${fmtNumber(stars)} stars` : ""} · ${githubProjectPlainDescription(item, 110)}`;
   }
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
@@ -2751,7 +2792,7 @@ function feedSummaryText(item) {
     return grantPolicyFeynmanText(item);
   }
   if (itemSections(item).has("github_projects")) {
-    return item.github_project_reason || item.description || item.summary || "这个项目来自公开 GitHub 推荐源，建议打开仓库看 README、示例和维护状态。";
+    return githubProjectExplainerText(item);
   }
   if (itemSections(item).has("model_scores")) {
     return item.summary || `${item.model_name || item.title} 在 ${item.benchmark || item.source || "Vellum 榜单"} 中得分 ${item.score}${item.unit || ""}。`;

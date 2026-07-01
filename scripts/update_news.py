@@ -2114,17 +2114,41 @@ def github_project_score(record: dict[str, Any], now: datetime) -> int:
 
 
 def github_project_reason(record: dict[str, Any]) -> str:
-    desc = first_non_empty(record.get("description"), record.get("summary"), record.get("title"))
-    sources = "、".join(record.get("recommend_sources") or [])
+    mention_summaries = [str(item) for item in (record.get("mention_summaries") or []) if item]
+    desc = first_non_empty(mention_summaries[0] if mention_summaries else "", record.get("description"), record.get("summary"), record.get("title"))
+    desc = re.sub(r"^[^：:]{1,48}[：:]\s*", "", desc).strip() or desc
+    sources_list = [str(item) for item in (record.get("recommend_sources") or []) if item]
+    sources = "、".join(sources_list)
     stars = int(record.get("stars") or 0)
     language = first_non_empty(record.get("language"), "未标注语言")
-    parts = [f"大白话：{desc}"]
-    parts.append(f"为什么推荐：它被 {sources or '公开 GitHub 来源'} 提到，属于可以顺手点开试试的项目。")
-    if stars:
-        parts.append(f"热度参考：GitHub 约 {stars:,} stars，主要语言 {language}。")
+    topics = [str(item) for item in (record.get("topics") or []) if item][:4]
+    hay = " ".join(
+        [
+            str(record.get("title") or ""),
+            str(record.get("description") or ""),
+            str(record.get("summary") or ""),
+            " ".join(mention_summaries),
+            " ".join(topics),
+        ]
+    ).lower()
+    fun_bits: list[str] = []
+    if len(sources_list) > 1:
+        fun_bits.append(f"被 {sources} 同时推荐")
     else:
-        parts.append(f"热度参考：主要语言 {language}，star 数据本次未取到。")
-    return " ".join(parts)
+        fun_bits.append(f"被 {sources or '公开 GitHub 来源'} 推荐")
+    if stars:
+        fun_bits.append(f"GitHub 约 {stars:,} stars，已有真实关注度")
+    if language and language != "未标注语言":
+        fun_bits.append(f"主要用 {language} 写成")
+    if re.search(r"game|游戏|斗地主|poker|solar|visual|3d|browser|desktop|gui|可视化|桌面|浏览器", hay):
+        fun_bits.append("能直接打开体验，反馈很直观")
+    if re.search(r"ai|llm|mcp|agent|voice|speech|asr|whisper|claude|codex|gemini|智能|语音", hay):
+        fun_bits.append("和 AI/Agent 工作流有连接点")
+    if re.search(r"cli|terminal|docker|self-host|offline|local|本地|离线|自托管|命令行", hay):
+        fun_bits.append("适合自己部署或顺手改造")
+    if topics:
+        fun_bits.append(f"主题标签：{' / '.join(topics)}")
+    return f"项目用途：{desc} 好玩在哪里：{'；'.join(fun_bits[:4])}。"
 
 
 def select_balanced_github_project_records(records: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
