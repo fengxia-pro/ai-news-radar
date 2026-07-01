@@ -16,6 +16,8 @@ const state = {
   githubProjectData: null,
   githubProjectItems: [],
   githubProjectSources: [],
+  modelScoreData: null,
+  modelScoreItems: [],
   statsAi: [],
   totalAi: 0,
   totalRaw: 0,
@@ -124,6 +126,7 @@ const SOURCE_KINDS = {
   grant_most_service: { label: "科技管理", tone: "official" },
   grant_csb: { label: "科学通报", tone: "research" },
   grant_casisd: { label: "中科院", tone: "research" },
+  model_scores: { label: "模型评分", tone: "aihub" },
   github_hellogithub: { label: "HelloGitHub", tone: "builders" },
   github_weekly: { label: "科技周刊", tone: "builders" },
   github_awesome: { label: "Awesome", tone: "builders" },
@@ -153,10 +156,24 @@ const GRANT_SOURCE_GROUP_ORDER = {
   grant_qstheory: 4,
 };
 
+const MODEL_SCORE_SOURCE_ORDER = {
+  "Best Overall (Humanity's Last Exam)": 0,
+  "Best in Reasoning (GPQA Diamond)": 1,
+  "Best in Agentic Coding (SWE Bench)": 2,
+  "Best for Work Automations (AutoBench)": 3,
+  "Best in Computer Use (OSWorld)": 4,
+  "Best in Browsing (BrowseComp)": 5,
+  "Best in Terminal Use (Terminal-Bench 2.1)": 6,
+  "Fastest Models (Tokens/sec)": 7,
+  "Lowest Latency (TTFT)": 8,
+  "Cheapest Models (per 1M tokens)": 9,
+};
+
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近一周公众号文章与已确认入口" },
   { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
+  { id: "model_scores", label: "模型评分", short: "模型评分", description: "Vellum LLM Leaderboard 的最新模型评分与任务榜单" },
   { id: "hot", label: "热点流（优先看）", short: "热点流", description: "高优先级信号流：按来源质量、AI 相关度、时间和编辑分排序" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
   { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
@@ -524,6 +541,9 @@ function currentSiteStats() {
   if (state.activeSection === "github_projects") {
     return computeSiteStats(state.githubProjectItems || []);
   }
+  if (state.activeSection === "model_scores") {
+    return computeSiteStats(state.modelScoreItems || []);
+  }
   if (state.activeSection === "creator") {
     return computeSiteStats(state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi);
   }
@@ -555,6 +575,7 @@ function itemSourceType(item) {
   if (GRANT_POLICY_SITE_IDS.has(siteId) || tier === "grant_policy") return "grant_policy";
   if (tier === "slow_professor" || siteId === "wechat_slow_professor") return "community";
   if (tier === "github_projects" || siteId.startsWith("github_")) return "github_projects";
+  if (tier === "model_scores" || siteId === "model_scores") return "advanced";
   if (siteId === "official_ai" || tier === "official") return "official";
   if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
   if (siteId === "opmlrss" || tier === "user_opml") return "rss";
@@ -661,6 +682,13 @@ function renderSectionSummary(filteredItems = null) {
     renderStickySummary();
     return;
   }
+  if (state.activeSection === "model_scores") {
+    const updated = state.modelScoreData?.updated_label || "最新公开榜单";
+    const benchmarks = new Set(items.map((item) => item.benchmark || item.source).filter(Boolean));
+    sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条模型评分 · ${fmtNumber(benchmarks.size)} 个榜单/指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
+    renderStickySummary();
+    return;
+  }
   const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
   const sectionName = section.id === "hot" ? "热点流" : section.label;
@@ -749,6 +777,8 @@ function renderModeSwitch() {
     modeHintEl.textContent = `慢教授 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
   } else if (state.activeSection === "github_projects") {
     modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
+  } else if (state.activeSection === "model_scores") {
+    modeHintEl.textContent = `模型评分 · ${fmtNumber(state.modelScoreItems.length)} 条`;
   } else if (state.mode === "ai") {
     modeHintEl.textContent = `AI强相关 · ${fmtNumber(state.totalAi)} 条`;
   } else {
@@ -768,6 +798,7 @@ function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近一周文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
+  if (state.activeSection === "model_scores") return "模型评分 · Vellum LLM Leaderboard";
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
     : "情报流";
@@ -794,6 +825,13 @@ function itemSourceSortKey(item) {
 }
 
 function sortItemsForList(items) {
+  if (state.activeSection === "model_scores") {
+    return [...items].sort((a, b) => {
+      const bySource = (MODEL_SCORE_SOURCE_ORDER[a.source] ?? 99) - (MODEL_SCORE_SOURCE_ORDER[b.source] ?? 99);
+      if (bySource !== 0) return bySource;
+      return Number(a.rank || 999) - Number(b.rank || 999) || Number(b.score || b.ai_score || 0) - Number(a.score || a.ai_score || 0);
+    });
+  }
   const sorted = [...items];
   if (state.listSort === "latest") {
     return sorted.sort((a, b) => timelineMs(b) - timelineMs(a) || itemPriorityScore(b) - itemPriorityScore(a));
@@ -841,6 +879,13 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   }
   if (sectionId === "github_projects") {
     return [...(state.githubProjectItems || [])].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || Number(b.stars || 0) - Number(a.stars || 0));
+  }
+  if (sectionId === "model_scores") {
+    return [...(state.modelScoreItems || [])].sort((a, b) => {
+      const bySource = (MODEL_SCORE_SOURCE_ORDER[a.source] ?? 99) - (MODEL_SCORE_SOURCE_ORDER[b.source] ?? 99);
+      if (bySource !== 0) return bySource;
+      return Number(a.rank || 999) - Number(b.rank || 999) || Number(b.score || b.ai_score || 0) - Number(a.score || a.ai_score || 0);
+    });
   }
   if (sectionId === "creator") {
     const creatorSource = state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi;
@@ -1044,6 +1089,9 @@ function itemSections(item) {
   }
   if (item.source_tier === "github_projects" || String(item.site_id || "").startsWith("github_")) {
     sections.add("github_projects");
+  }
+  if (item.source_tier === "model_scores" || item.site_id === "model_scores") {
+    sections.add("model_scores");
   }
   const hasExplicitModelTerm = matchesAny(contentHay, [
     /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
@@ -2694,6 +2742,9 @@ function feedSummaryText(item) {
   if (itemSections(item).has("github_projects")) {
     return item.github_project_reason || item.description || item.summary || "这个项目来自公开 GitHub 推荐源，建议打开仓库看 README、示例和维护状态。";
   }
+  if (itemSections(item).has("model_scores")) {
+    return item.summary || `${item.model_name || item.title} 在 ${item.benchmark || item.source || "Vellum 榜单"} 中得分 ${item.score}${item.unit || ""}。`;
+  }
   if (itemSections(item).has("slow_professor") && item.summary) {
     return item.summary;
   }
@@ -3541,8 +3592,14 @@ async function loadGithubProjectData() {
   return res.json();
 }
 
+async function loadModelScoreData() {
+  const res = await fetch(`./data/model-scores.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 model-scores.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, slowProfessorResult, githubProjectsResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, slowProfessorResult, githubProjectsResult, modelScoresResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
@@ -3551,6 +3608,7 @@ async function init() {
     loadGrantPolicyData(),
     loadSlowProfessorData(),
     loadGithubProjectData(),
+    loadModelScoreData(),
   ]);
 
   if (briefResult.status === "fulfilled") {
@@ -3597,6 +3655,14 @@ async function init() {
     state.githubProjectData = null;
     state.githubProjectItems = [];
     state.githubProjectSources = [];
+  }
+
+  if (modelScoresResult.status === "fulfilled") {
+    state.modelScoreData = modelScoresResult.value;
+    state.modelScoreItems = Array.isArray(modelScoresResult.value.items) ? modelScoresResult.value.items : [];
+  } else {
+    state.modelScoreData = null;
+    state.modelScoreItems = [];
   }
 
   if (newsResult.status === "fulfilled") {
