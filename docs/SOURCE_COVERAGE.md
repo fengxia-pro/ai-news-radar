@@ -122,6 +122,14 @@ baseline, then let the aggregator layer add breadth.
   to Research are shown as international comparison entrypoints in v1, not
   full-project crawlers. WeChat public accounts stay out of the public site by
   default.
+- **GitHub 好玩项目专题**: writes a separate `data/github-projects.json`
+  payload and a `github_projects` summary in `data/source-status.json`. It reads
+  public Markdown from HelloGitHub, 科技爱好者周刊, and Awesome, extracts GitHub
+  repository links, then ranks candidates by source quality, beginner
+  friendliness, fun/practical keywords, multi-source mentions, GitHub stars, and
+  recent repo activity. It uses public GitHub Raw/API endpoints only; no token is
+  required, while `GITHUB_TOKEN`/`GH_TOKEN` can be used opportunistically in
+  GitHub Actions to increase rate limits.
 
 ## Disabled Default Sources
 

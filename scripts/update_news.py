@@ -455,6 +455,81 @@ GRANT_POLICY_REFERENCE_SOURCES: tuple[dict[str, str], ...] = (
     },
 )
 
+GITHUB_PROJECT_SOURCES: tuple[dict[str, Any], ...] = (
+    {
+        "site_id": "github_hellogithub",
+        "site_name": "HelloGitHub",
+        "repo": "521xueweihan/HelloGitHub",
+        "branch": "master",
+        "path": "content",
+        "file_pattern": r"HelloGitHub(\d+)\.md$",
+        "issue_url_template": "https://github.com/521xueweihan/HelloGitHub/blob/master/content/{name}",
+        "max_files": 3,
+        "max_candidates": 48,
+        "source_weight": 36,
+        "source_note": "中文、有趣、入门级开源项目月刊",
+    },
+    {
+        "site_id": "github_weekly",
+        "site_name": "科技爱好者周刊",
+        "repo": "ruanyf/weekly",
+        "branch": "master",
+        "path": "docs",
+        "file_pattern": r"issue-(\d+)\.md$",
+        "issue_url_template": "https://github.com/ruanyf/weekly/blob/master/docs/{name}",
+        "max_files": 5,
+        "max_candidates": 46,
+        "source_weight": 28,
+        "source_note": "长期技术周刊中的工具、项目和资源",
+    },
+    {
+        "site_id": "github_awesome",
+        "site_name": "Awesome",
+        "repo": "sindresorhus/awesome",
+        "branch": "main",
+        "readme_url": "https://raw.githubusercontent.com/sindresorhus/awesome/main/readme.md",
+        "source_url": "https://github.com/sindresorhus/awesome",
+        "max_candidates": 42,
+        "source_weight": 18,
+        "source_note": "全球网友整理的高质量资源目录入口",
+    },
+)
+
+GITHUB_PROJECT_SOURCE_IDS = frozenset(source["site_id"] for source in GITHUB_PROJECT_SOURCES)
+GITHUB_PROJECT_EXCLUDED_REPOS = frozenset(
+    {
+        "521xueweihan/hellogithub",
+        "ruanyf/weekly",
+        "sindresorhus/awesome",
+    }
+)
+GITHUB_PROJECT_META_LIMIT = 55
+GITHUB_PROJECT_OUTPUT_LIMIT = 45
+GITHUB_PROJECT_MIN_PER_SOURCE = 10
+GITHUB_PROJECT_FUN_KEYWORDS: tuple[str, ...] = (
+    "有趣",
+    "好玩",
+    "入门",
+    "新手",
+    "教程",
+    "学习",
+    "实战",
+    "开箱即用",
+    "轻量",
+    "工具",
+    "命令行",
+    "桌面",
+    "可视化",
+    "自动化",
+    "游戏",
+    "awesome",
+    "book",
+    "course",
+    "learn",
+    "tool",
+    "cli",
+)
+
 
 def utc_now() -> datetime:
     return datetime.now(tz=UTC)
@@ -548,11 +623,17 @@ def maybe_fix_mojibake(text: str) -> str:
     return s
 
 
+def htmlish_to_text(text: str) -> str:
+    if "<" not in text and "&" not in text:
+        return text
+    return BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+
+
 def clean_feed_summary_text(text: Any, max_chars: int = 360) -> str:
     raw = first_non_empty(text)
     if not raw:
         return ""
-    plain = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
+    plain = htmlish_to_text(raw)
     plain = maybe_fix_mojibake(re.sub(r"\s+", " ", plain).strip())
     if not plain:
         return ""
@@ -1270,6 +1351,447 @@ def build_grant_policy_payload(
             "微信公众号暂不进入公开站点。",
             "国际项目库 v1 仅作为对标入口，不做全量项目抓取。",
             "无稳定 RSS 的站点以公开页面轻量解析和状态候选方式接入。",
+        ],
+    }
+
+
+MARKDOWN_LINK_RE = re.compile(r"(!?)\[([^\]]{0,180})\]\((https?://[^)\s]+)\)")
+
+
+def github_api_headers() -> dict[str, str]:
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": f"{BROWSER_UA} AI-News-Radar-GitHub-Project-Radar/0.1",
+    }
+    token = first_non_empty(os.getenv("GITHUB_TOKEN"), os.getenv("GH_TOKEN"))
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def github_api_get_json(session: requests.Session, url: str) -> Any:
+    resp = session.get(url, headers=github_api_headers(), timeout=25)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def github_repo_from_url(raw_url: str) -> tuple[str, str]:
+    url = (raw_url or "").strip().replace("&amp;", "&")
+    parsed = urlparse(url)
+    if "hellogithub.com" in parsed.netloc.lower():
+        target = dict(parse_qsl(parsed.query)).get("target") or ""
+        if target:
+            return github_repo_from_url(target)
+    if parsed.netloc.lower() not in {"github.com", "www.github.com"}:
+        return "", ""
+    parts = [part for part in parsed.path.split("/") if part]
+    if len(parts) < 2:
+        return "", ""
+    owner, repo = parts[0].strip(), parts[1].strip()
+    if owner.lower() in {"sponsors", "topics", "collections", "marketplace", "features"}:
+        return "", ""
+    repo = re.sub(r"\.git$", "", repo, flags=re.IGNORECASE)
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+", owner) or not re.fullmatch(r"[A-Za-z0-9_.-]+", repo):
+        return "", ""
+    full_name = f"{owner}/{repo}"
+    if full_name.lower() in GITHUB_PROJECT_EXCLUDED_REPOS:
+        return "", ""
+    return full_name, f"https://github.com/{owner}/{repo}"
+
+
+def clean_markdown_context(line: str, max_chars: int = 260) -> str:
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", line or "")
+    text = MARKDOWN_LINK_RE.sub(lambda m: m.group(2).strip() or " ", text)
+    text = htmlish_to_text(text)
+    text = re.sub(r"^\s*(?:[-*+]|\d+[、.)）])\s*", "", text)
+    text = re.sub(r"\s+", " ", text).strip(" -—：:。")
+    text = maybe_fix_mojibake(text)
+    if len(text) <= max_chars:
+        return text
+    return text[: max_chars - 1].rstrip() + "…"
+
+
+def meaningful_project_title(label: str, full_name: str) -> str:
+    title = htmlish_to_text(label or "")
+    title = re.sub(r"\s+", " ", title).strip()
+    if not title or title.lower() in {"github", "github repo", "repo", "source", "源码", "开源", "项目", "代码", "地址", "via"}:
+        title = full_name.rsplit("/", 1)[-1]
+    return title[:100]
+
+
+def github_project_base_score(candidate: dict[str, Any]) -> int:
+    source_weight = int(candidate.get("source_weight") or 0)
+    context = f"{candidate.get('mention_title') or ''} {candidate.get('summary') or ''}".lower()
+    fun_bonus = min(18, sum(3 for keyword in GITHUB_PROJECT_FUN_KEYWORDS if keyword.lower() in context))
+    chinese_bonus = 8 if has_cjk(context) else 0
+    ai_bonus = 6 if re.search(r"\b(ai|llm|agent|codex|claude|gpt)\b|人工智能|大模型|智能体", context, flags=re.IGNORECASE) else 0
+    return min(82, source_weight + fun_bonus + chinese_bonus + ai_bonus)
+
+
+def parse_github_project_markdown(
+    markdown: str,
+    *,
+    source: dict[str, Any],
+    source_url: str,
+    source_title: str,
+    now: datetime,
+) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for line in (markdown or "").splitlines():
+        if "github.com" not in line.lower():
+            continue
+        for match in MARKDOWN_LINK_RE.finditer(line):
+            if match.group(1) == "!":
+                continue
+            full_name, repo_url = github_repo_from_url(match.group(3))
+            if not full_name or full_name.lower() in seen:
+                continue
+            seen.add(full_name.lower())
+            summary = clean_markdown_context(line)
+            out.append(
+                {
+                    "repo_full_name": full_name,
+                    "repo_url": repo_url,
+                    "mention_title": meaningful_project_title(match.group(2), full_name),
+                    "summary": summary,
+                    "site_id": source["site_id"],
+                    "site_name": source["site_name"],
+                    "source": source_title,
+                    "source_url": source_url,
+                    "source_note": source.get("source_note") or "",
+                    "source_weight": source.get("source_weight") or 0,
+                    "first_seen_at": iso(now),
+                    "base_score": 0,
+                }
+            )
+    for item in out:
+        item["base_score"] = github_project_base_score(item)
+    return out
+
+
+def github_raw_url(repo: str, branch: str, path: str) -> str:
+    return f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+
+
+def fetch_github_source_markdowns(session: requests.Session, source: dict[str, Any]) -> list[tuple[str, str, str]]:
+    if source.get("readme_url"):
+        resp = session.get(str(source["readme_url"]), headers={"User-Agent": BROWSER_UA}, timeout=25)
+        resp.raise_for_status()
+        return [(str(source.get("source_url") or source["readme_url"]), str(source["site_name"]), resp.text)]
+
+    repo = str(source["repo"])
+    branch = str(source.get("branch") or "master")
+    path = str(source.get("path") or "")
+    data = github_api_get_json(session, f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}")
+    if not isinstance(data, list):
+        raise ValueError(f"GitHub contents is not a list for {repo}/{path}")
+
+    pattern = re.compile(str(source.get("file_pattern") or r".*\.md$"))
+    files: list[tuple[int, str, str]] = []
+    for entry in data:
+        name = str(entry.get("name") or "")
+        m = pattern.search(name)
+        if not m:
+            continue
+        try:
+            order = int(m.group(1))
+        except Exception:
+            order = 0
+        download_url = str(entry.get("download_url") or github_raw_url(repo, branch, f"{path}/{name}".strip("/")))
+        files.append((order, name, download_url))
+    files.sort(reverse=True)
+
+    out: list[tuple[str, str, str]] = []
+    for _, name, download_url in files[: int(source.get("max_files") or 3)]:
+        resp = session.get(download_url, headers={"User-Agent": BROWSER_UA}, timeout=25)
+        resp.raise_for_status()
+        source_url = str(source.get("issue_url_template") or "").format(name=name) or download_url
+        source_title = f"{source['site_name']} · {re.sub(r'\\.md$', '', name)}"
+        out.append((source_url, source_title, resp.text))
+    return out
+
+
+def collect_github_project_sources(session: requests.Session, now: datetime) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    all_candidates: list[dict[str, Any]] = []
+    statuses: list[dict[str, Any]] = []
+    for source in GITHUB_PROJECT_SOURCES:
+        start = time.perf_counter()
+        error = None
+        candidates: list[dict[str, Any]] = []
+        try:
+            for source_url, source_title, markdown in fetch_github_source_markdowns(session, source):
+                candidates.extend(
+                    parse_github_project_markdown(
+                        markdown,
+                        source=source,
+                        source_url=source_url,
+                        source_title=source_title,
+                        now=now,
+                    )
+                )
+            candidates.sort(key=lambda item: item.get("base_score") or 0, reverse=True)
+            candidates = candidates[: int(source.get("max_candidates") or 40)]
+            all_candidates.extend(candidates)
+        except Exception as exc:
+            error = str(exc)
+        statuses.append(
+            {
+                "site_id": source["site_id"],
+                "site_name": source["site_name"],
+                "ok": error is None,
+                "item_count": len({item.get("repo_full_name") for item in candidates}),
+                "duration_ms": int((time.perf_counter() - start) * 1000),
+                "error": error,
+                "source_group": "github_projects",
+                "source_url": source.get("source_url") or f"https://github.com/{source.get('repo')}",
+                "candidate": error is not None or len(candidates) == 0,
+            }
+        )
+    return all_candidates, statuses
+
+
+def select_github_repos_for_meta(candidates: list[dict[str, Any]], limit: int = GITHUB_PROJECT_META_LIMIT) -> list[str]:
+    best: dict[str, int] = {}
+    for item in candidates:
+        full_name = str(item.get("repo_full_name") or "")
+        if not full_name:
+            continue
+        best[full_name] = max(best.get(full_name, 0), int(item.get("base_score") or 0))
+    return [
+        full_name
+        for full_name, _ in sorted(best.items(), key=lambda pair: pair[1], reverse=True)[:limit]
+    ]
+
+
+def fetch_github_repo_meta(session: requests.Session, full_name: str) -> dict[str, Any]:
+    try:
+        data = github_api_get_json(session, f"https://api.github.com/repos/{full_name}")
+    except Exception:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {
+        "full_name": data.get("full_name") or full_name,
+        "description": clean_feed_summary_text(data.get("description"), max_chars=360),
+        "stars": int(data.get("stargazers_count") or 0),
+        "forks": int(data.get("forks_count") or 0),
+        "watchers": int(data.get("subscribers_count") or 0),
+        "language": data.get("language") or "",
+        "topics": [str(t) for t in (data.get("topics") or [])[:8]],
+        "homepage": data.get("homepage") or "",
+        "updated_at": data.get("updated_at") or "",
+        "pushed_at": data.get("pushed_at") or "",
+        "archived": bool(data.get("archived")),
+        "disabled": bool(data.get("disabled")),
+    }
+
+
+def github_project_score(record: dict[str, Any], now: datetime) -> int:
+    stars = max(0, int(record.get("stars") or 0))
+    source_weight = int(record.get("source_weight") or 0)
+    source_count = int(record.get("source_count") or 1)
+    context = " ".join(
+        [
+            str(record.get("title") or ""),
+            str(record.get("summary") or ""),
+            str(record.get("description") or ""),
+            " ".join(record.get("topics") or []),
+        ]
+    ).lower()
+    fun_bonus = min(18, sum(3 for keyword in GITHUB_PROJECT_FUN_KEYWORDS if keyword.lower() in context))
+    beginner_bonus = 12 if "github_hellogithub" in set(record.get("source_ids") or []) else 0
+    weekly_bonus = 7 if "github_weekly" in set(record.get("source_ids") or []) else 0
+    chinese_bonus = 7 if has_cjk(context) else 0
+    multi_bonus = min(10, max(0, source_count - 1) * 5)
+    star_score = min(24, int(math.log10(stars + 1) * 6)) if stars else 0
+    updated = parse_iso(record.get("pushed_at") or record.get("updated_at"))
+    freshness = 0
+    if updated:
+        days = max(0, (now - updated).days)
+        if days <= 45:
+            freshness = 8
+        elif days <= 180:
+            freshness = 5
+        elif days <= 365:
+            freshness = 2
+    penalty = 18 if record.get("archived") or record.get("disabled") else 0
+    return max(1, min(100, source_weight + fun_bonus + beginner_bonus + weekly_bonus + chinese_bonus + multi_bonus + star_score + freshness - penalty))
+
+
+def github_project_reason(record: dict[str, Any]) -> str:
+    desc = first_non_empty(record.get("description"), record.get("summary"), record.get("title"))
+    sources = "、".join(record.get("recommend_sources") or [])
+    stars = int(record.get("stars") or 0)
+    language = first_non_empty(record.get("language"), "未标注语言")
+    parts = [f"大白话：{desc}"]
+    parts.append(f"为什么推荐：它被 {sources or '公开 GitHub 来源'} 提到，属于可以顺手点开试试的项目。")
+    if stars:
+        parts.append(f"热度参考：GitHub 约 {stars:,} stars，主要语言 {language}。")
+    else:
+        parts.append(f"热度参考：主要语言 {language}，star 数据本次未取到。")
+    return " ".join(parts)
+
+
+def select_balanced_github_project_records(records: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+    sorted_records = sorted(
+        records,
+        key=lambda item: (int(item.get("github_project_score") or 0), int(item.get("stars") or 0)),
+        reverse=True,
+    )
+    selected: list[dict[str, Any]] = []
+    selected_ids: set[str] = set()
+
+    for source_id in (source["site_id"] for source in GITHUB_PROJECT_SOURCES):
+        source_records = [
+            item
+            for item in sorted_records
+            if source_id in set(item.get("source_ids") or [])
+        ][:GITHUB_PROJECT_MIN_PER_SOURCE]
+        for item in source_records:
+            repo = str(item.get("repo_full_name") or item.get("id") or "")
+            if repo and repo not in selected_ids:
+                selected.append(item)
+                selected_ids.add(repo)
+
+    for item in sorted_records:
+        if len(selected) >= limit:
+            break
+        repo = str(item.get("repo_full_name") or item.get("id") or "")
+        if repo and repo not in selected_ids:
+            selected.append(item)
+            selected_ids.add(repo)
+
+    return sorted(
+        selected[:limit],
+        key=lambda item: (int(item.get("github_project_score") or 0), int(item.get("stars") or 0)),
+        reverse=True,
+    )
+
+
+def build_github_projects_payload(
+    candidates: list[dict[str, Any]],
+    statuses: list[dict[str, Any]],
+    *,
+    generated_at: str,
+    now: datetime,
+    session: requests.Session,
+) -> dict[str, Any]:
+    meta_by_repo = {
+        full_name: fetch_github_repo_meta(session, full_name)
+        for full_name in select_github_repos_for_meta(candidates)
+    }
+
+    by_repo: dict[str, dict[str, Any]] = {}
+    for item in candidates:
+        full_name = str(item.get("repo_full_name") or "")
+        if not full_name:
+            continue
+        record = by_repo.setdefault(
+            full_name,
+            {
+                "repo_full_name": full_name,
+                "url": item.get("repo_url") or f"https://github.com/{full_name}",
+                "title": item.get("mention_title") or full_name.rsplit("/", 1)[-1],
+                "title_zh": item.get("mention_title") or full_name.rsplit("/", 1)[-1],
+                "source_ids": [],
+                "recommend_sources": [],
+                "source_urls": [],
+                "mention_summaries": [],
+                "source_weight": 0,
+                "first_seen_at": item.get("first_seen_at") or generated_at,
+                "last_seen_at": generated_at,
+            },
+        )
+        source_id = str(item.get("site_id") or "")
+        if source_id and source_id not in record["source_ids"]:
+            record["source_ids"].append(source_id)
+        source_name = str(item.get("site_name") or item.get("source") or "")
+        if source_name and source_name not in record["recommend_sources"]:
+            record["recommend_sources"].append(source_name)
+        source_url = str(item.get("source_url") or "")
+        if source_url and source_url not in record["source_urls"]:
+            record["source_urls"].append(source_url)
+        summary = clean_feed_summary_text(item.get("summary"), max_chars=260)
+        if summary and summary not in record["mention_summaries"]:
+            record["mention_summaries"].append(summary)
+        record["source_weight"] = max(int(record.get("source_weight") or 0), int(item.get("source_weight") or 0))
+
+    records: list[dict[str, Any]] = []
+    for full_name, record in by_repo.items():
+        meta = meta_by_repo.get(full_name) or {}
+        primary_source_id = record["source_ids"][0] if record["source_ids"] else "github_projects"
+        primary_source_name = record["recommend_sources"][0] if record["recommend_sources"] else "GitHub项目"
+        description = first_non_empty(meta.get("description"), record["mention_summaries"][0] if record["mention_summaries"] else "")
+        title = record.get("title") or meta.get("full_name") or full_name
+        merged = {
+            "id": make_item_id(primary_source_id, primary_source_name, title, record["url"]),
+            "site_id": primary_source_id,
+            "site_name": primary_source_name,
+            "source": primary_source_name,
+            "title": title,
+            "title_zh": title,
+            "url": record["url"],
+            "published_at": None,
+            "first_seen_at": record.get("first_seen_at") or generated_at,
+            "last_seen_at": generated_at,
+            "ai_label": "github_project",
+            "ai_score": 0,
+            "source_tier": "github_projects",
+            "source_tier_label": "GitHub好玩项目",
+            "source_tier_rank": 1,
+            "repo_full_name": full_name,
+            "description": description,
+            "summary": first_non_empty(description, record["mention_summaries"][0] if record["mention_summaries"] else ""),
+            "mention_summaries": record["mention_summaries"][:4],
+            "recommend_sources": record["recommend_sources"],
+            "source_ids": record["source_ids"],
+            "source_urls": record["source_urls"][:4],
+            "source_count": len(record["source_ids"]),
+            "source_weight": int(record.get("source_weight") or 0),
+            "stars": int(meta.get("stars") or 0),
+            "forks": int(meta.get("forks") or 0),
+            "watchers": int(meta.get("watchers") or 0),
+            "language": meta.get("language") or "",
+            "topics": meta.get("topics") or [],
+            "homepage": meta.get("homepage") or "",
+            "updated_at": meta.get("updated_at") or "",
+            "pushed_at": meta.get("pushed_at") or "",
+            "archived": bool(meta.get("archived")),
+            "disabled": bool(meta.get("disabled")),
+            "github_project_date_label": "本次收录",
+        }
+        score = github_project_score(merged, now)
+        merged["github_project_score"] = score
+        merged["ai_score"] = score
+        merged["github_project_reason"] = github_project_reason(merged)
+        merged["ai_relevance_reason"] = merged["github_project_reason"]
+        records.append(merged)
+
+    records = select_balanced_github_project_records(records, GITHUB_PROJECT_OUTPUT_LIMIT)
+    sources = [
+        {
+            "site_id": status.get("site_id"),
+            "site_name": status.get("site_name"),
+            "ok": status.get("ok"),
+            "item_count": status.get("item_count"),
+            "candidate": status.get("candidate"),
+            "url": status.get("source_url"),
+            "error": status.get("error"),
+        }
+        for status in statuses
+    ]
+    return {
+        "generated_at": generated_at,
+        "topic": "GitHub好玩项目",
+        "ranking": "source_weight_beginner_fun_stars_freshness_v1",
+        "total_items": len(records),
+        "items": records,
+        "sources": sources,
+        "notes": [
+            "只读取公开 GitHub README / Markdown / API 元数据，不需要 token。",
+            "排序不是单纯 star 榜，HelloGitHub 的小白友好和周刊近期筛选会额外加权。",
+            "Awesome 在 v1 中作为高质量资源目录入口，不展开每个 Awesome 子列表的二级项目。",
         ],
     }
 
@@ -5977,6 +6499,7 @@ def main() -> int:
     merge_log_path = output_dir / "merge-log.json"
     waytoagi_path = output_dir / "waytoagi-7d.json"
     grant_policy_path = output_dir / "latest-grants-24h.json"
+    github_projects_path = output_dir / "github-projects.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
     paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
@@ -5988,6 +6511,8 @@ def main() -> int:
     raw_items, statuses = collect_all(session, now)
     grant_policy_items, grant_policy_statuses = collect_grant_policy_sources(session, now)
     statuses.extend(grant_policy_statuses)
+    github_project_candidates, github_project_statuses = collect_github_project_sources(session, now)
+    statuses.extend(github_project_statuses)
     rss_feed_statuses: list[dict[str, Any]] = []
     email_digest_payload, agentmail_status = maybe_fetch_agentmail_digest(
         session,
@@ -6230,6 +6755,13 @@ def main() -> int:
         window_hours=args.window_hours,
         now=now,
     )
+    github_projects_payload = build_github_projects_payload(
+        github_project_candidates,
+        github_project_statuses,
+        generated_at=generated_at,
+        now=now,
+        session=session,
+    )
 
     # site stats
     site_stat: dict[str, dict[str, Any]] = {}
@@ -6346,6 +6878,21 @@ def main() -> int:
             "reference_source_count": len(GRANT_POLICY_REFERENCE_SOURCES),
             "mode": "public_topic_lane",
         },
+        "github_projects": {
+            "enabled": True,
+            "item_count": len(github_projects_payload.get("items") or []),
+            "source_total": len(github_project_statuses),
+            "ok_sources": sum(1 for s in github_project_statuses if s.get("ok")),
+            "failed_sources": [s.get("site_id") for s in github_project_statuses if not s.get("ok")],
+            "candidate_sources": [
+                s.get("site_id")
+                for s in github_project_statuses
+                if s.get("candidate")
+            ],
+            "data_url": "data/github-projects.json",
+            "ranking": github_projects_payload.get("ranking"),
+            "mode": "public_topic_lane",
+        },
         "rss_opml": {
             "enabled": bool(args.rss_opml),
             "path": "configured" if args.rss_opml else None,
@@ -6401,6 +6948,10 @@ def main() -> int:
         json.dumps(sanitize_public_payload(grant_policy_payload), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    github_projects_path.write_text(
+        json.dumps(sanitize_public_payload(github_projects_payload), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     paid_source_state_path.write_text(
         json.dumps(sanitize_public_payload(paid_source_state), ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -6421,6 +6972,7 @@ def main() -> int:
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
     print(f"Wrote: {grant_policy_path} ({grant_policy_payload.get('total_items', 0)} grant policy items)")
+    print(f"Wrote: {github_projects_path} ({github_projects_payload.get('total_items', 0)} GitHub project items)")
     print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:
         print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")

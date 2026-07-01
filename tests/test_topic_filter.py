@@ -7,6 +7,7 @@ from scripts.update_news import (
     add_source_tier_fields,
     build_agentmail_digest_payload,
     build_creator_hot_items,
+    build_github_projects_payload,
     build_grant_policy_payload,
     build_latest_payloads,
     dedupe_items_by_title_url,
@@ -40,6 +41,7 @@ from scripts.update_news import (
     parse_tikhub_xiaohongshu_user_profiles,
     parse_anthropic_news_items,
     parse_follow_builders_items,
+    parse_github_project_markdown,
     parse_grant_policy_feed_items,
     parse_grant_policy_html_items,
     parse_openai_codex_changelog_items,
@@ -53,6 +55,96 @@ from scripts.update_news import (
 
 
 class TopicFilterTests(unittest.TestCase):
+    def test_parse_github_project_markdown_extracts_redirected_repo_links(self):
+        now = datetime(2026, 7, 1, 0, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "github_hellogithub",
+            "site_name": "HelloGitHub",
+            "source_weight": 36,
+            "source_note": "中文、有趣、入门级开源项目月刊",
+        }
+        markdown = """
+        1、[ds4](https://hellogithub.com/periodical/statistics/click?target=https://github.com/antirez/ds4)：Redis 作者写的 DeepSeek 专用推理引擎。
+        2、[项目主页](https://example.com/not-github)：不是 GitHub 项目。
+        """
+
+        items = parse_github_project_markdown(
+            markdown,
+            source=source,
+            source_url="https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md",
+            source_title="HelloGitHub · HelloGitHub122",
+            now=now,
+        )
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["repo_full_name"], "antirez/ds4")
+        self.assertEqual(items[0]["repo_url"], "https://github.com/antirez/ds4")
+        self.assertIn("DeepSeek", items[0]["summary"])
+        self.assertGreater(items[0]["base_score"], 36)
+
+    def test_build_github_projects_payload_ranks_with_public_repo_metadata(self):
+        now = datetime(2026, 7, 1, 0, 0, tzinfo=timezone.utc)
+        candidates = [
+            {
+                "repo_full_name": "antirez/ds4",
+                "repo_url": "https://github.com/antirez/ds4",
+                "mention_title": "ds4",
+                "summary": "Redis 作者写的 DeepSeek 专用推理引擎。",
+                "site_id": "github_hellogithub",
+                "site_name": "HelloGitHub",
+                "source": "HelloGitHub · HelloGitHub122",
+                "source_url": "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md",
+                "source_note": "中文、有趣、入门级开源项目月刊",
+                "source_weight": 36,
+                "first_seen_at": "2026-07-01T00:00:00Z",
+                "base_score": 60,
+            }
+        ]
+
+        test_case = self
+
+        class FakeSession:
+            def get(self, url, **kwargs):
+                class FakeResponse:
+                    status_code = 200
+
+                    def raise_for_status(self):
+                        return None
+
+                    def json(self):
+                        return {
+                            "full_name": "antirez/ds4",
+                            "description": "DeepSeek inference engine for local experiments",
+                            "stargazers_count": 4200,
+                            "forks_count": 180,
+                            "subscribers_count": 80,
+                            "language": "C",
+                            "topics": ["deepseek", "inference"],
+                            "homepage": "",
+                            "updated_at": "2026-06-28T00:00:00Z",
+                            "pushed_at": "2026-06-28T00:00:00Z",
+                            "archived": False,
+                            "disabled": False,
+                        }
+
+                test_case.assertIn("api.github.com/repos/antirez/ds4", url)
+                return FakeResponse()
+
+        payload = build_github_projects_payload(
+            candidates,
+            [{"site_id": "github_hellogithub", "site_name": "HelloGitHub", "ok": True, "item_count": 1}],
+            generated_at="2026-07-01T00:00:00Z",
+            now=now,
+            session=FakeSession(),
+        )
+
+        self.assertEqual(payload["topic"], "GitHub好玩项目")
+        self.assertEqual(payload["items"][0]["repo_full_name"], "antirez/ds4")
+        self.assertEqual(payload["items"][0]["stars"], 4200)
+        self.assertEqual(payload["items"][0]["language"], "C")
+        self.assertGreater(payload["items"][0]["github_project_score"], 70)
+        self.assertIn("HelloGitHub", payload["items"][0]["recommend_sources"])
+
     def test_grant_policy_html_parser_keeps_relevant_public_links(self):
         now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
         source = {

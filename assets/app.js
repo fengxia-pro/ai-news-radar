@@ -9,6 +9,9 @@ const state = {
   grantPolicyItems: [],
   grantPolicySources: [],
   grantPolicyReferenceSources: [],
+  githubProjectData: null,
+  githubProjectItems: [],
+  githubProjectSources: [],
   statsAi: [],
   totalAi: 0,
   totalRaw: 0,
@@ -116,6 +119,9 @@ const SOURCE_KINDS = {
   grant_most_service: { label: "科技管理", tone: "official" },
   grant_csb: { label: "科学通报", tone: "research" },
   grant_casisd: { label: "中科院", tone: "research" },
+  github_hellogithub: { label: "HelloGitHub", tone: "builders" },
+  github_weekly: { label: "科技周刊", tone: "builders" },
+  github_awesome: { label: "Awesome", tone: "builders" },
 };
 
 const GRANT_POLICY_SITE_IDS = new Set([
@@ -131,6 +137,7 @@ const GRANT_POLICY_SITE_IDS = new Set([
 
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
+  { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
   { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
   { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
@@ -258,6 +265,10 @@ function renderStickySummary() {
     stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 科研政策专题${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
+  if (state.activeSection === "github_projects") {
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 个 · GitHub好玩项目${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    return;
+  }
   const mode = state.mode === "all" ? "全量" : "AI强相关";
   stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · ${mode}${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
 }
@@ -362,6 +373,7 @@ function renderCoverageStrip(errorMessage = "") {
   const xApi = state.sourceStatus?.x_api || {};
   const socialdata = state.sourceStatus?.socialdata || {};
   const grantPolicy = state.sourceStatus?.grant_policy || {};
+  const githubProjects = state.sourceStatus?.github_projects || {};
   const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
   const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
   const officialCount = Number(siteRow("official_ai")?.item_count || 0);
@@ -388,6 +400,12 @@ function renderCoverageStrip(errorMessage = "") {
   const grantMeta = grantPolicy.enabled
     ? `公开源 ${fmtNumber(grantPolicy.ok_sources || 0)}/${fmtNumber(grantPolicy.source_total || 0)} · 国际入口 ${fmtNumber(grantPolicy.reference_source_count || 0)}`
     : "国自然 / 科研政策专题源";
+  const githubValue = githubProjects.enabled
+    ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
+    : "项目待生成";
+  const githubMeta = githubProjects.enabled
+    ? `公开源 ${fmtNumber(githubProjects.ok_sources || 0)}/${fmtNumber(githubProjects.source_total || 0)} · 趣味项目排序`
+    : "HelloGitHub / 科技周刊 / Awesome";
   const advancedValue = xPoolCount || mailCount
     ? `${xPoolCount ? `X ${fmtNumber(xPoolCount)}` : "X"} / ${mailCount ? `Mail ${fmtNumber(mailCount)}` : "Mail"}`
     : "X / Mail";
@@ -402,6 +420,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["国自然专题", grantValue, grantMeta, "official"],
+    ["GitHub项目", githubValue, githubMeta, "builders"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
     ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
@@ -445,6 +464,9 @@ function currentSiteStats() {
   if (state.activeSection === "grant_policy") {
     return computeSiteStats(state.grantPolicyItems || []);
   }
+  if (state.activeSection === "github_projects") {
+    return computeSiteStats(state.githubProjectItems || []);
+  }
   if (state.activeSection === "creator") {
     return computeSiteStats(state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi);
   }
@@ -457,6 +479,7 @@ function creatorHotScore(item) {
 }
 
 function highPriorityScore(item) {
+  if (itemSections(item).has("github_projects")) return normalizedPercent(item.github_project_score || item.ai_score);
   if (itemSections(item).has("creator") && creatorHotScore(item)) return creatorHotScore(item);
   return scorePercent(item);
 }
@@ -466,13 +489,14 @@ function isHighPriorityItem(item) {
 }
 
 function isCuratedItem(item) {
-  return item.site_id === "official_ai" || item.site_id === "aihot" || item.source_tier === "official" || item.source_tier === "curated";
+  return item.site_id === "official_ai" || item.site_id === "aihot" || item.source_tier === "official" || item.source_tier === "curated" || item.source_tier === "github_projects";
 }
 
 function itemSourceType(item) {
   const siteId = item.site_id || "";
   const tier = item.source_tier || "";
   if (GRANT_POLICY_SITE_IDS.has(siteId) || tier === "grant_policy") return "grant_policy";
+  if (tier === "github_projects" || siteId.startsWith("github_")) return "github_projects";
   if (siteId === "official_ai" || tier === "official") return "official";
   if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
   if (siteId === "opmlrss" || tier === "user_opml") return "rss";
@@ -563,6 +587,12 @@ function renderSectionSummary(filteredItems = null) {
     renderStickySummary();
     return;
   }
+  if (state.activeSection === "github_projects") {
+    const starTotal = items.reduce((sum, item) => sum + Number(item.stars || 0), 0);
+    sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 个好玩项目 · ${fmtNumber(sources.size)} 个推荐来源 · 合计 ${fmtNumber(starTotal)} stars · 小白友好优先`;
+    renderStickySummary();
+    return;
+  }
   const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
   sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
@@ -646,6 +676,8 @@ function renderModeSwitch() {
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.activeSection === "grant_policy") {
     modeHintEl.textContent = `科研政策 · ${fmtNumber(state.grantPolicyItems.length)} 条`;
+  } else if (state.activeSection === "github_projects") {
+    modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
   } else if (state.mode === "ai") {
     modeHintEl.textContent = `AI强相关 · ${fmtNumber(state.totalAi)} 条`;
   } else {
@@ -663,6 +695,7 @@ function renderModeSwitch() {
 
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
     : "情报流";
@@ -727,6 +760,9 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   if (sectionId === "grant_policy") {
     return [...(state.grantPolicyItems || [])].sort((a, b) => timelineMs(b) - timelineMs(a));
   }
+  if (sectionId === "github_projects") {
+    return [...(state.githubProjectItems || [])].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || Number(b.stars || 0) - Number(a.stars || 0));
+  }
   if (sectionId === "creator") {
     const creatorSource = state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi;
     return [...creatorSource].sort((a, b) => creatorHotScore(b) - creatorHotScore(a) || timelineMs(b) - timelineMs(a));
@@ -779,6 +815,7 @@ function itemLabelTone(item) {
   if (item.site_id === "official_ai") return "official";
   if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
   if (itemSections(item).has("grant_policy")) return "official";
+  if (itemSections(item).has("github_projects")) return "devtools";
   if (itemSections(item).has("creator")) return "creator";
   if (label === "model_release") return "models";
   if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
@@ -795,6 +832,7 @@ function itemTagTone(label) {
   if (text.includes("官方")) return "official";
   if (text.includes("精选") || text.includes("热点")) return "hot";
   if (text.includes("HN")) return "aggregate";
+  if (text.includes("GitHub") || text.includes("开源项目")) return "devtools";
   if (text.includes("国自然") || text.includes("科研政策")) return "official";
   if (text.includes("模型")) return "models";
   if (text.includes("开发")) return "devtools";
@@ -851,6 +889,7 @@ function freshnessPercent(item, halfLifeHours = 48) {
 }
 
 function itemPriorityScore(item) {
+  if (itemSections(item).has("github_projects")) return normalizedPercent(item.github_project_score || item.ai_score);
   const creatorScore = creatorHotScore(item);
   if (creatorScore && itemSections(item).has("creator")) return creatorScore;
   const internal = scorePercent(item);
@@ -874,6 +913,7 @@ function labelText(item) {
     industry_business: "行业动态",
     research_paper: "研究论文",
     research_policy: "科研政策",
+    github_project: "开源项目",
     robotics: "机器人",
     curated_hotlist: "热点",
     ai_tech: "技术趋势",
@@ -916,6 +956,9 @@ function itemSections(item) {
   const source = `${item.source || ""} ${item.site_name || ""}`.toLowerCase();
   if (GRANT_POLICY_SITE_IDS.has(item.site_id) || item.source_tier === "grant_policy") {
     sections.add("grant_policy");
+  }
+  if (item.source_tier === "github_projects" || String(item.site_id || "").startsWith("github_")) {
+    sections.add("github_projects");
   }
   const hasExplicitModelTerm = matchesAny(contentHay, [
     /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
@@ -1021,6 +1064,12 @@ function reasonText(item) {
     if (Number(item.creator_freshness_bonus || 0) > 0) parts.push("24h 加分");
     return `一周互动：${parts.join(" · ")}`;
   }
+  if (itemSections(item).has("github_projects")) {
+    const stars = Number(item.stars || 0);
+    const language = item.language || "未标注语言";
+    const sources = Array.isArray(item.recommend_sources) ? item.recommend_sources.slice(0, 3).join(" / ") : item.site_name;
+    return `推荐来源：${sources || "GitHub"} · ${stars ? `${fmtNumber(stars)} stars` : "热度待核"} · ${language}`;
+  }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 3) : [];
   if (signals.length) return `命中方向：${signals.join(" / ")}`;
   if (item.ai_relevance_reason) return String(item.ai_relevance_reason).replaceAll("_", " ");
@@ -1052,6 +1101,9 @@ function timelineMs(item) {
 function timeLabelText(item, fallbackIso = "") {
   if (itemSections(item).has("grant_policy") && item.grant_date_status === "unknown") {
     return item.grant_date_label || "日期待核";
+  }
+  if (itemSections(item).has("github_projects")) {
+    return item.github_project_date_label || "本次收录";
   }
   return fmtTime(timelineIso(item) || fallbackIso);
 }
@@ -1140,6 +1192,9 @@ function sourceSignal(item) {
   const hay = `${site} ${source}`.toLowerCase();
   if (site === "AI HOT") return "AI HOT精选";
   if (hay.includes("hackernews") || hay.includes("hacker news")) return "HN热议";
+  if (hay.includes("hellogithub")) return "HelloGitHub";
+  if (hay.includes("科技爱好者周刊") || hay.includes("weekly")) return "科技周刊";
+  if (hay.includes("awesome")) return "Awesome";
   if (source.includes("GitHub · Trending Today") || hay.includes("github")) return "GitHub趋势";
   if (site === "Official AI Updates") return "官方更新";
   if (site === "Follow Builders") return "Builders";
@@ -1155,6 +1210,9 @@ function sourcePriority(item) {
   if (signal === "官方更新") return 100;
   if (signal === "AI HOT精选") return 90;
   if (signal === "AIbase") return 82;
+  if (signal === "HelloGitHub") return 80;
+  if (signal === "科技周刊") return 76;
+  if (signal === "Awesome") return 68;
   if (signal === "Builders") return 74;
   if (signal === "抖音自媒体" || signal === "小红书自媒体") return 70;
   if (signal === "OPML") return 68;
@@ -1327,6 +1385,7 @@ function insightSummaryText(item, context = {}, max = 260) {
 }
 
 function paperLikeItem(item) {
+  if (itemSections(item).has("github_projects")) return false;
   const hay = [
     item.ai_label,
     item.grant_source_type,
@@ -2137,7 +2196,7 @@ function rankedBriefRows(stories) {
 
 function rankedFallbackRows(items) {
   const rows = rankedClustersForItems(items);
-  if (state.activeSection === "grant_policy") {
+  if (state.activeSection === "grant_policy" || state.activeSection === "github_projects") {
     return rows.sort((a, b) => itemPriorityScore(b.item) - itemPriorityScore(a.item) || timelineMs(b.item) - timelineMs(a.item));
   }
   return state.boleView === "hot"
@@ -2284,6 +2343,7 @@ function itemTagLabels(item, row = null) {
   if (item.site_id === "official_ai") tags.push("官方");
   if (item.site_id === "aihot") tags.push("AI HOT");
   if (sections.has("grant_policy")) tags.push("国自然");
+  if (sections.has("github_projects")) tags.push("GitHub项目");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
   if (sections.has("hn")) tags.push("社区热议");
@@ -2344,6 +2404,11 @@ function signalSummaryText(row) {
   if (itemSections(item).has("grant_policy")) {
     return `${item.site_name || item.source || "公开来源"} · ${item.grant_topic || label} · 先看下方大白话简介判断是否点开。`;
   }
+  if (itemSections(item).has("github_projects")) {
+    const stars = Number(item.stars || 0);
+    const lang = item.language || "多语言";
+    return `${item.repo_full_name || item.title} · ${lang}${stars ? ` · ${fmtNumber(stars)} stars` : ""} · 先看下方大白话判断是否值得打开。`;
+  }
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "核心方向：");
@@ -2357,6 +2422,9 @@ function whyImportantText(row) {
   const reasons = Array.isArray(story.reasons) ? story.reasons : [];
   if (sections.has("grant_policy")) {
     return "科研政策和基金入口会影响选题窗口、申报节奏、评审导向和后续项目设计。";
+  }
+  if (sections.has("github_projects")) {
+    return "这些项目已经被中文月刊、技术周刊或 Awesome 目录筛过一轮，适合拿来扩展工具箱、找灵感或练手。";
   }
   if (reasons.includes("official_source") && reasons.includes("multi_source")) {
     return "一手来源和聚合来源同时出现，说明它既有事实起点，也正在被外部信息流放大。";
@@ -2390,6 +2458,7 @@ function impactLabels(item) {
   if (sections.has("industry")) labels.push("企业 / 投资");
   if (sections.has("research")) labels.push("研究");
   if (sections.has("grant_policy")) labels.push("基金 / 政策");
+  if (sections.has("github_projects")) labels.push("开源项目");
   if (sections.has("models")) labels.push("模型团队");
   if (sections.has("community") || sections.has("hn")) labels.push("社区");
   return labels.slice(0, 3).length ? labels.slice(0, 3) : ["AI 观察者"];
@@ -2514,6 +2583,9 @@ function feedSummaryText(item) {
   if (itemSections(item).has("grant_policy")) {
     return grantPolicyFeynmanText(item);
   }
+  if (itemSections(item).has("github_projects")) {
+    return item.github_project_reason || item.description || item.summary || "这个项目来自公开 GitHub 推荐源，建议打开仓库看 README、示例和维护状态。";
+  }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;
   const reason = reasonText(item);
@@ -2539,6 +2611,8 @@ function renderItemNode(item, context = {}) {
   tagEl.className = `ai-tag tone-${itemLabelTone(item)}`;
   tagEl.textContent = itemSections(item).has("grant_policy")
     ? `${labelText(item)} · ${item.grant_topic || "专题"}`
+    : itemSections(item).has("github_projects")
+    ? `GitHub推荐 · ${normalizedPercent(item.github_project_score || item.ai_score) || "?"}分`
     : creatorScore && itemSections(item).has("creator")
     ? `自媒体热度 · ${creatorScore}分`
     : `${labelText(item)} · ${score || "?"}分`;
@@ -3334,14 +3408,21 @@ async function loadGrantPolicyData() {
   return res.json();
 }
 
+async function loadGithubProjectData() {
+  const res = await fetch(`./data/github-projects.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 github-projects.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, githubProjectsResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
     loadStoriesData(),
     loadGrantPolicyData(),
+    loadGithubProjectData(),
   ]);
 
   if (briefResult.status === "fulfilled") {
@@ -3366,6 +3447,16 @@ async function init() {
     state.grantPolicyItems = [];
     state.grantPolicySources = [];
     state.grantPolicyReferenceSources = [];
+  }
+
+  if (githubProjectsResult.status === "fulfilled") {
+    state.githubProjectData = githubProjectsResult.value;
+    state.githubProjectItems = Array.isArray(githubProjectsResult.value.items) ? githubProjectsResult.value.items : [];
+    state.githubProjectSources = Array.isArray(githubProjectsResult.value.sources) ? githubProjectsResult.value.sources : [];
+  } else {
+    state.githubProjectData = null;
+    state.githubProjectItems = [];
+    state.githubProjectSources = [];
   }
 
   if (newsResult.status === "fulfilled") {
