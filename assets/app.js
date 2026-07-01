@@ -111,6 +111,7 @@ const SOURCE_KINDS = {
   waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
   opmlrss: { label: "OPML", tone: "newsletter" },
+  wechat_slow_professor: { label: "公众号", tone: "newsletter" },
   grant_qstheory: { label: "科研政策", tone: "official" },
   grant_nsfc: { label: "国自然", tone: "official" },
   grant_bnsfc: { label: "科学基金", tone: "research" },
@@ -119,6 +120,7 @@ const SOURCE_KINDS = {
   grant_most_service: { label: "科技管理", tone: "official" },
   grant_csb: { label: "科学通报", tone: "research" },
   grant_casisd: { label: "中科院", tone: "research" },
+  grant_wechat_slow_professor: { label: "公众号", tone: "newsletter" },
   github_hellogithub: { label: "HelloGitHub", tone: "builders" },
   github_weekly: { label: "科技周刊", tone: "builders" },
   github_awesome: { label: "Awesome", tone: "builders" },
@@ -133,6 +135,7 @@ const GRANT_POLICY_SITE_IDS = new Set([
   "grant_most_service",
   "grant_csb",
   "grant_casisd",
+  "grant_wechat_slow_professor",
 ]);
 
 const SECTION_DEFS = [
@@ -500,6 +503,7 @@ function itemSourceType(item) {
   if (siteId === "official_ai" || tier === "official") return "official";
   if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
   if (siteId === "opmlrss" || tier === "user_opml") return "rss";
+  if (siteId === "wechat_slow_professor") return "community";
   if (siteId === "waytoagi" || siteId === "followbuilders" || siteId === "hackernews" || siteId === "zeli" || siteId === "aibase") return "community";
   if (siteId === "tikhub_douyin" || siteId === "tikhub_xiaohongshu") return "creator";
   if (siteId === "socialdata_x" || siteId === "xapi" || siteId === "agentmail") return "advanced";
@@ -1022,6 +1026,7 @@ function itemSections(item) {
   ) sections.add("creator");
 
   if (
+    item.site_id === "wechat_slow_professor" ||
     item.site_id === "waytoagi" ||
     item.site_id === "followbuilders" ||
     item.site_id === "aibase" ||
@@ -1460,6 +1465,9 @@ function paperFeynmanLine(plainText, evidence = "") {
 }
 
 function grantPolicyFeynmanText(item) {
+  if (item.site_id === "grant_wechat_slow_professor" && item.summary) {
+    return item.summary;
+  }
   const title = cleanBriefText(itemTitleText(item), 180);
   const site = item.site_name || item.source || "公开来源";
   const topic = item.grant_topic || "科研政策";
@@ -2401,6 +2409,9 @@ function signalSummaryText(row) {
   const label = story.importance_label || labelText(item);
   const sourceCount = rowSourceCount(row);
   const multi = row.sourceCount > 1 || row.mergedCount > 1;
+  if (item.site_id === "grant_wechat_slow_professor" && item.summary) {
+    return item.summary;
+  }
   if (itemSections(item).has("grant_policy")) {
     return `${item.site_name || item.source || "公开来源"} · ${item.grant_topic || label} · 先看下方大白话简介判断是否点开。`;
   }
@@ -2585,6 +2596,9 @@ function feedSummaryText(item) {
   }
   if (itemSections(item).has("github_projects")) {
     return item.github_project_reason || item.description || item.summary || "这个项目来自公开 GitHub 推荐源，建议打开仓库看 README、示例和维护状态。";
+  }
+  if (item.site_id === "wechat_slow_professor" && item.summary) {
+    return item.summary;
   }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;

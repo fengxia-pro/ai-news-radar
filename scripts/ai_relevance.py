@@ -155,6 +155,7 @@ SOURCE_PRIORS = {
     "aihubtoday": 0.45,
     "followbuilders": 0.25,
     "opmlrss": 0.15,
+    "wechat_slow_professor": 0.22,
     "xapi": 0.15,
     "socialdata_x": 0.15,
 }
@@ -380,6 +381,16 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
             label=_label_for_text(text, bool(tech_signals)),
             reason="trusted_ai_source_default_keep",
             signals=ai_signals or [site_id],
+            noise=noise,
+        )
+
+    if site_id == "wechat_slow_professor":
+        return _result(
+            is_ai_related=True,
+            score=max(AI_RELEVANCE_THRESHOLD, 0.68 + source_prior),
+            label="research_paper",
+            reason="user_curated_wechat_public_account",
+            signals=ai_signals + tech_signals or ["公众号", "国自然", "科研写作"],
             noise=noise,
         )
 

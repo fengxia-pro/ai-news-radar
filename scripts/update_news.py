@@ -118,6 +118,37 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
 )
 OFFICIAL_AI_MAX_AGE_DAYS = 45
 CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
+SLOW_PROFESSOR_WECHAT_SITE_ID = "wechat_slow_professor"
+SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID = "grant_wechat_slow_professor"
+SLOW_PROFESSOR_WECHAT_SOURCE = "公众号：慢教授的科研江湖"
+SLOW_PROFESSOR_WECHAT_ENV_NAMES = (
+    "SLOW_PROFESSOR_WECHAT_FEED_URL",
+    "WECHAT_SLOW_PROFESSOR_FEED_URL",
+)
+SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
+    {
+        "title": "慢教授的科研江湖固定入口：从顶刊文献中找到国自然科学问题",
+        "url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
+        "mirror_url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563204/page.htm",
+        "original_published_at": "2024-09-26T00:00:00+08:00",
+        "summary": (
+            "大白话：这篇文章教你把顶刊论文摘要拆成五句话，重点盯住第二句里的"
+            "“科学问题”，再把多篇顶刊的问题合并提炼，变成国自然申请书里更像样的"
+            "科学问题。固定关注源，不代表今天新发。"
+        ),
+    },
+    {
+        "title": "慢教授的科研江湖固定入口：用慢生产力准备国自然",
+        "url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563203/page.htm",
+        "mirror_url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563203/page.htm",
+        "original_published_at": "2024-09-26T00:00:00+08:00",
+        "summary": (
+            "大白话：这篇文章提醒科研人不要只靠临近截止前猛冲，而是把国自然准备拆到"
+            "日常深度阅读、思考和反复打磨里。它更像一个工作节奏提醒：少做杂事，"
+            "把质量最高的申请书慢慢磨出来。固定关注源，不代表今天新发。"
+        ),
+    },
+)
 CURATED_AI_MEDIA_FEEDS: tuple[dict[str, Any], ...] = (
     {
         "title": "The Decoder AI News",
@@ -1267,6 +1298,46 @@ def fetch_grant_policy_source(
     return items, status
 
 
+def fetch_slow_professor_wechat_grant_policy(
+    session: requests.Session,
+    now: datetime,
+) -> tuple[list[RawItem], dict[str, Any]]:
+    start = time.perf_counter()
+    error = None
+    items: list[RawItem] = []
+    try:
+        for raw in fetch_slow_professor_wechat(session, now):
+            meta = dict(raw.meta if isinstance(raw.meta, dict) else {})
+            meta["grant_topic"] = "国自然方法"
+            meta["grant_source_type"] = "wechat_public_account"
+            items.append(
+                RawItem(
+                    site_id=SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID,
+                    site_name="慢教授的科研江湖",
+                    source=SLOW_PROFESSOR_WECHAT_SOURCE,
+                    title=raw.title,
+                    url=raw.url,
+                    published_at=raw.published_at or now,
+                    meta=meta,
+                )
+            )
+    except Exception as exc:
+        error = str(exc)
+
+    status = {
+        "site_id": SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID,
+        "site_name": "慢教授的科研江湖",
+        "ok": error is None,
+        "item_count": len(items),
+        "duration_ms": int((time.perf_counter() - start) * 1000),
+        "error": error,
+        "source_group": "grant_policy",
+        "source_url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
+        "candidate": error is not None or len(items) == 0,
+    }
+    return items, status
+
+
 def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
     items: list[RawItem] = []
     statuses: list[dict[str, Any]] = []
@@ -1274,6 +1345,9 @@ def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tu
         source_items, status = fetch_grant_policy_source(session, source, now)
         items.extend(source_items)
         statuses.append(status)
+    source_items, status = fetch_slow_professor_wechat_grant_policy(session, now)
+    items.extend(source_items)
+    statuses.append(status)
     return items, statuses
 
 
@@ -2621,6 +2695,117 @@ def fetch_hacker_news_algolia(session: requests.Session, now: datetime) -> list[
     return parse_hn_algolia_hits(payloads, now)
 
 
+def slow_professor_wechat_feed_url() -> str:
+    for name in SLOW_PROFESSOR_WECHAT_ENV_NAMES:
+        value = str(os.environ.get(name) or "").strip()
+        if value:
+            return value
+    return ""
+
+
+def is_public_http_url(raw_url: str) -> bool:
+    try:
+        parsed = urlparse(raw_url)
+    except Exception:
+        return False
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return False
+    host = parsed.hostname or ""
+    return host not in {"localhost", "127.0.0.1", "::1"}
+
+
+def parse_slow_professor_wechat_feed(
+    content: bytes,
+    *,
+    feed_url: str,
+    now: datetime,
+) -> list[RawItem]:
+    if feedparser is not None:
+        entries = list(feedparser.parse(content).entries)
+    else:
+        entries = parse_feed_entries_via_xml(content)
+
+    out: list[RawItem] = []
+    for entry in entries[:8]:
+        title = maybe_fix_mojibake(str(entry.get("title", "")).strip())
+        link = str(entry.get("link", "")).strip()
+        if not title or not link:
+            continue
+        published = (
+            parse_date_any(entry.get("published"), now)
+            or parse_date_any(entry.get("updated"), now)
+            or parse_date_any(entry.get("pubDate"), now)
+            or now
+        )
+        summary = entry_summary_text(entry)
+        out.append(
+            RawItem(
+                site_id=SLOW_PROFESSOR_WECHAT_SITE_ID,
+                site_name="微信公众号",
+                source=SLOW_PROFESSOR_WECHAT_SOURCE,
+                title=title,
+                url=link,
+                published_at=published,
+                meta={
+                    "summary": summary,
+                    "feed_url": feed_url,
+                    "source_mode": "wechat_rss",
+                },
+            )
+        )
+    return out
+
+
+def fetch_slow_professor_wechat(session: requests.Session, now: datetime) -> list[RawItem]:
+    if not env_flag_default("SLOW_PROFESSOR_WECHAT_ENABLED", True):
+        return []
+
+    feed_url = slow_professor_wechat_feed_url()
+    if feed_url and is_public_http_url(feed_url):
+        try:
+            resp = session.get(
+                feed_url,
+                timeout=16,
+                headers={
+                    "User-Agent": BROWSER_UA,
+                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                },
+            )
+            resp.raise_for_status()
+            items = parse_slow_professor_wechat_feed(resp.content, feed_url=feed_url, now=now)
+            if items:
+                return items
+        except Exception:
+            # Fall back to stable public seeds so the public site still shows
+            # the account without relying on WeChat login/cookies.
+            pass
+
+    out: list[RawItem] = []
+    for seed in SLOW_PROFESSOR_WECHAT_SEED_ARTICLES:
+        title = first_non_empty(seed.get("title"), "慢教授的科研江湖固定入口")
+        url = first_non_empty(seed.get("url"), seed.get("mirror_url"))
+        if not url:
+            continue
+        out.append(
+            RawItem(
+                site_id=SLOW_PROFESSOR_WECHAT_SITE_ID,
+                site_name="微信公众号",
+                source=SLOW_PROFESSOR_WECHAT_SOURCE,
+                title=title,
+                url=url,
+                published_at=now,
+                meta={
+                    "summary": seed.get("summary") or "",
+                    "mirror_url": seed.get("mirror_url") or "",
+                    "original_published_at": seed.get("original_published_at") or "",
+                    "source_mode": "curated_seed",
+                },
+            )
+        )
+    return out
+
+
 def parse_anthropic_news_items(page_html: str, now: datetime) -> list[RawItem]:
     site_id = "official_ai"
     site_name = "Official AI Updates"
@@ -3498,6 +3683,7 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         ("tophub", "TopHub", fetch_tophub),
         ("zeli", "Zeli", fetch_zeli),
         ("hackernews", "Hacker News", fetch_hacker_news_algolia),
+        (SLOW_PROFESSOR_WECHAT_SITE_ID, "微信公众号：慢教授的科研江湖", fetch_slow_professor_wechat),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
         ("aihot", "AI HOT", fetch_aihot),
@@ -3948,6 +4134,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "waytoagi": ("community", "社区更新", 2),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
+    SLOW_PROFESSOR_WECHAT_SITE_ID: ("community", "微信公众号", 2),
     "tikhub_douyin": ("self_media", "自媒体源", 4),
     "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
@@ -6678,7 +6865,11 @@ def main() -> int:
             existing["url"] = url
             if raw.published_at:
                 # OPML RSS may fix previously wrong publish times; allow overwrite.
-                if raw.site_id == "opmlrss" or not existing.get("published_at"):
+                if (
+                    raw.site_id == "opmlrss"
+                    or raw.site_id == SLOW_PROFESSOR_WECHAT_SITE_ID
+                    or not existing.get("published_at")
+                ):
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
             apply_public_raw_meta(existing, raw)
