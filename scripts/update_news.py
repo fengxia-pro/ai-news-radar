@@ -410,21 +410,21 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
     {
         "site_id": "grant_fundamental_research",
         "site_name": "Fundamental Research",
-        "source": "ScienceDirect RSS",
-        "url": "https://rss.sciencedirect.com/publication/science/26673258",
+        "source": "Fundamental Research 最近一期",
+        "url": "https://www.sciencedirect.com/journal/fundamental-research/issues",
         "homepage_url": "https://www.sciencedirect.com/journal/fundamental-research",
         "source_type": "journal",
-        "max_items": 12,
-        "kind": "rss",
+        "max_items": 80,
+        "kind": "sciencedirect_latest_issue",
     },
     {
         "site_id": "grant_bnsfc",
         "site_name": "中国科学基金",
         "source": "中国科学基金",
         "url": "https://www.sciengine.com/BNSFC/home",
-        "api_url": "https://www.sciengine.com/sciPublisher/journalDetailCurrentIssue?pageNo=1&pageSize=8&journalBaseId=221bb8ffec5b45d6a3ad2101d43b69b2",
+        "api_url": "https://www.sciengine.com/sciPublisher/journalDetailCurrentIssue?pageNo=1&pageSize=50&journalBaseId=221bb8ffec5b45d6a3ad2101d43b69b2",
         "source_type": "journal",
-        "max_items": 8,
+        "max_items": 50,
         "kind": "sciengine_current_issue",
     },
     {
@@ -1179,6 +1179,11 @@ def grant_policy_meta(source: dict[str, Any], topic: str = "") -> dict[str, Any]
     }
 
 
+def metadata_only_journal_summary(text: Any) -> bool:
+    summary = clean_feed_summary_text(text, max_chars=120)
+    return bool(re.fullmatch(r"(image[,，]?\s*)?graphical abstract[.。]?", summary, flags=re.I))
+
+
 def parse_grant_policy_feed_items(feed_content: bytes, source: dict[str, Any], now: datetime) -> list[RawItem]:
     entries: list[dict[str, Any]] = []
     if feedparser is not None:
@@ -1404,6 +1409,95 @@ def parse_sciengine_current_issue_items(
     return out
 
 
+def jina_reader_url(url: str) -> str:
+    return f"https://r.jina.ai/http://{url}"
+
+
+def parse_sciencedirect_issue_items(
+    issue_markdown: str,
+    source: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    title_match = re.search(
+        r"Title:\s*Fundamental Research\s*\|\s*(Vol\s+\d+,\s*Issue\s+\d+,\s*Pages\s+[^(\n]+(?:\([^)]+\))?)",
+        issue_markdown,
+        flags=re.I,
+    )
+    issue_label = clean_feed_summary_text(title_match.group(1), max_chars=120) if title_match else "最近一期"
+    issue_date = parse_date_any(title_match.group(1) if title_match else "", now)
+    out: list[RawItem] = []
+    max_items = int(source.get("max_items") or 80)
+    pattern = re.compile(
+        r"select article\s+(?P<title>.+?)\n(?P<body>.*?)(?=\n\s*\d+\.\s+select article|\n\s*\d+\.\s+###|\Z)",
+        flags=re.I | re.S,
+    )
+    for match in pattern.finditer(issue_markdown):
+        title = clean_grant_policy_title(match.group("title"))
+        body = match.group("body")
+        if not title or title.lower() in {"outside front cover", "inside front cover"}:
+            continue
+        pdf_match = re.search(
+            r"https://www\.sciencedirect\.com/science/article/pii/([^)/?#]+)",
+            body,
+            flags=re.I,
+        )
+        if not pdf_match:
+            continue
+        pii = pdf_match.group(1)
+        article_url = f"https://www.sciencedirect.com/science/article/pii/{pii}"
+        abstract = ""
+        abstract_match = re.search(
+            r"#####\s*Abstract\s*\n+(?P<abstract>.*?)(?=\n\s*\d+\.\s+select article|\n\s*\d+\.\s+###|\n\s*#####|\Z)",
+            body,
+            flags=re.I | re.S,
+        )
+        if abstract_match:
+            abstract = clean_feed_summary_text(abstract_match.group("abstract"), max_chars=1400)
+            if metadata_only_journal_summary(abstract):
+                abstract = ""
+        meta = grant_policy_meta(source, "基础研究期刊")
+        meta["issue_label"] = issue_label
+        if abstract:
+            meta["summary"] = abstract
+            meta["summary_source"] = "sciencedirect_latest_issue"
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=str(source["source"]),
+                title=title,
+                url=article_url,
+                published_at=issue_date,
+                meta=meta,
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
+
+
+def fetch_sciencedirect_latest_issue_items(
+    session: requests.Session,
+    source: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    issues_resp = session.get(jina_reader_url(str(source["url"])), timeout=35)
+    issues_resp.raise_for_status()
+    latest_match = re.search(
+        r"\[Latest issue\]\((https://www\.sciencedirect\.com/journal/fundamental-research/vol/\d+/issue/\d+)\)",
+        issues_resp.text,
+    ) or re.search(
+        r"\[Volume\s+\d+,\s*Issue\s+\d+\]\((https://www\.sciencedirect\.com/journal/fundamental-research/vol/\d+/issue/\d+)\)",
+        issues_resp.text,
+    )
+    if not latest_match:
+        raise ValueError("ScienceDirect latest issue link not found")
+    issue_url = latest_match.group(1)
+    issue_resp = session.get(jina_reader_url(issue_url), timeout=60)
+    issue_resp.raise_for_status()
+    return parse_sciencedirect_issue_items(issue_resp.text, source, now)
+
+
 def fetch_grant_policy_source(
     session: requests.Session,
     source: dict[str, Any],
@@ -1421,12 +1515,14 @@ def fetch_grant_policy_source(
             )
             resp.raise_for_status()
             items = parse_sciengine_current_issue_items(resp.json(), source, now)
+        elif source.get("kind") == "sciencedirect_latest_issue":
+            items = fetch_sciencedirect_latest_issue_items(session, source, now)
         else:
             resp = session.get(str(source["url"]), timeout=25)
             resp.raise_for_status()
         if source.get("kind") == "rss":
             items = parse_grant_policy_feed_items(resp.content, source, now)
-        elif source.get("kind") != "sciengine_current_issue":
+        elif source.get("kind") not in {"sciengine_current_issue", "sciencedirect_latest_issue"}:
             resp.encoding = resp.encoding or resp.apparent_encoding
             items = parse_grant_policy_html_items(resp.text, source, now)
         enrich_grant_policy_journal_items(session, items)
@@ -1485,7 +1581,7 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
         "grant_source_type": grant_source_type,
     }
     summary = clean_feed_summary_text(meta.get("summary"), max_chars=1600)
-    if summary:
+    if summary and not metadata_only_journal_summary(summary):
         record["summary"] = summary
     return sanitize_public_payload(record)
 
@@ -1502,27 +1598,44 @@ def add_grant_policy_journal_bilingual_fields(
         if str(record.get("grant_source_type") or "") != "journal":
             continue
         title = clean_grant_policy_title(str(record.get("title") or ""))
-        if not title or not is_mostly_english(title):
-            continue
+        if title and is_mostly_english(title):
+            record["title_en"] = title
+            zh_title = str(record.get("title_zh") or "").strip()
+            if zh_title == title or not has_cjk(zh_title):
+                zh_title = cache_map.get(title, "")
+            if (
+                not zh_title
+                and session is not None
+                and translated_now < max(0, max_new_translations)
+            ):
+                translated = translate_to_zh_cn(session, title)
+                if translated and has_cjk(translated):
+                    zh_title = translated
+                    cache_map[title] = translated
+                    translated_now += 1
 
-        record["title_en"] = title
-        zh_title = str(record.get("title_zh") or "").strip()
-        if zh_title == title or not has_cjk(zh_title):
-            zh_title = cache_map.get(title, "")
-        if (
-            not zh_title
-            and session is not None
-            and translated_now < max(0, max_new_translations)
-        ):
-            translated = translate_to_zh_cn(session, title)
-            if translated and has_cjk(translated):
-                zh_title = translated
-                cache_map[title] = translated
-                translated_now += 1
+            if zh_title and has_cjk(zh_title):
+                record["title_zh"] = clean_grant_policy_title(zh_title)
+                record["title_bilingual"] = f"{record['title_zh']} / {title}"
 
-        if zh_title and has_cjk(zh_title):
-            record["title_zh"] = clean_grant_policy_title(zh_title)
-            record["title_bilingual"] = f"{record['title_zh']} / {title}"
+        summary = clean_feed_summary_text(record.get("summary"), max_chars=1200)
+        if summary and is_mostly_english(summary):
+            cache_key = f"summary::{hashlib.sha1(summary.encode('utf-8')).hexdigest()}"
+            zh_summary = str(record.get("summary_zh") or "").strip()
+            if not has_cjk(zh_summary):
+                zh_summary = cache_map.get(cache_key, "")
+            if (
+                not zh_summary
+                and session is not None
+                and translated_now < max(0, max_new_translations)
+            ):
+                translated = translate_to_zh_cn(session, summary)
+                if translated and has_cjk(translated):
+                    zh_summary = clean_feed_summary_text(translated, max_chars=1200)
+                    cache_map[cache_key] = zh_summary
+                    translated_now += 1
+            if zh_summary and has_cjk(zh_summary):
+                record["summary_zh"] = zh_summary
 
     return records, cache
 
@@ -1558,8 +1671,10 @@ def build_grant_policy_payload(
             "site_id": status.get("site_id"),
             "site_name": status.get("site_name"),
             "site_display_name": (
-                "Fundamental Research（基础研究）"
+                "Fundamental Research（基础研究，基金委主管/主办的期刊）"
                 if status.get("site_id") == "grant_fundamental_research"
+                else "中国科学基金（基金委主管/主办的期刊）"
+                if status.get("site_id") == "grant_bnsfc"
                 else status.get("site_name")
             ),
             "ok": status.get("ok"),

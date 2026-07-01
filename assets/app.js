@@ -141,8 +141,8 @@ const GRANT_POLICY_SITE_IDS = new Set([
 ]);
 
 const GRANT_JOURNAL_DISPLAY_NAMES = {
-  grant_fundamental_research: "Fundamental Research（基础研究）",
-  grant_bnsfc: "中国科学基金",
+  grant_fundamental_research: "Fundamental Research（基础研究，基金委主管/主办的期刊）",
+  grant_bnsfc: "中国科学基金（基金委主管/主办的期刊）",
 };
 
 const GRANT_SOURCE_GROUP_ORDER = {
@@ -2686,6 +2686,9 @@ function buildIntelCard(item, rank) {
 
 function feedSummaryText(item) {
   if (itemSections(item).has("grant_policy")) {
+    if (item.grant_source_type === "journal" && item.summary_zh) {
+      return `中文摘要：${cleanBriefText(item.summary_zh, 420)} ${grantPolicyFeynmanText(item)}`;
+    }
     return grantPolicyFeynmanText(item);
   }
   if (itemSections(item).has("github_projects")) {

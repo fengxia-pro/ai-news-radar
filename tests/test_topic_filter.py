@@ -50,6 +50,7 @@ from scripts.update_news import (
     parse_github_project_markdown,
     parse_grant_policy_feed_items,
     parse_grant_policy_html_items,
+    parse_sciencedirect_issue_items,
     parse_sciengine_current_issue_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
@@ -248,9 +249,48 @@ class TopicFilterTests(unittest.TestCase):
                 max_new_translations=1,
             )
 
-        self.assertEqual(payload["sources"][0]["site_display_name"], "Fundamental Research（基础研究）")
+        self.assertEqual(payload["sources"][0]["site_display_name"], "Fundamental Research（基础研究，基金委主管/主办的期刊）")
         self.assertEqual(payload["items"][0]["title_en"], "Lattice Matching Theory in Advanced Batteries")
         self.assertEqual(payload["items"][0]["title_zh"], "先进电池中的晶格匹配理论")
+
+    def test_grant_policy_journal_items_get_chinese_summary(self):
+        now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_fundamental_research",
+            "site_name": "Fundamental Research",
+            "source": "Fundamental Research 最近一期",
+            "url": "https://www.sciencedirect.com/journal/fundamental-research/issues",
+            "source_type": "journal",
+            "max_items": 5,
+        }
+        issue_markdown = """
+Title: Fundamental Research | Vol 6, Issue 3, Pages 1249-2014 (May 2026)
+
+1.   select article Artificial intelligence in echocardiography: Applications and future directions
+
+Review article Open access
+Pages 1251-1262[View PDF](https://www.sciencedirect.com/science/article/pii/S2667325825001025/pdfft?md5=x&pid=1-s2.0-S2667325825001025-main.pdf)##### Abstract
+
+Traditional ultrasound methods depend predominantly on evidence-based decision trees.
+        """
+        items = parse_sciencedirect_issue_items(issue_markdown, source, now)
+
+        with patch("scripts.update_news.translate_to_zh_cn") as tr:
+            tr.side_effect = ["超声心动图中的人工智能：应用与未来方向", "传统超声方法主要依赖基于证据的决策树。"]
+            payload = build_grant_policy_payload(
+                items,
+                [{"site_id": source["site_id"], "site_name": source["site_name"], "ok": True, "item_count": 1}],
+                generated_at="2026-06-30T08:00:00Z",
+                window_hours=24,
+                now=now,
+                session=object(),
+                title_cache={},
+                max_new_translations=2,
+            )
+
+        self.assertEqual(len(payload["items"]), 1)
+        self.assertEqual(payload["items"][0]["title_zh"], "超声心动图中的人工智能：应用与未来方向")
+        self.assertEqual(payload["items"][0]["summary_zh"], "传统超声方法主要依赖基于证据的决策树。")
 
     def test_sciengine_current_issue_parser_extracts_bnsfc_articles(self):
         now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
@@ -260,7 +300,7 @@ class TopicFilterTests(unittest.TestCase):
             "source": "中国科学基金",
             "url": "https://www.sciengine.com/BNSFC/home",
             "source_type": "journal",
-            "max_items": 8,
+            "max_items": 50,
         }
         payload = [
             {
@@ -269,12 +309,19 @@ class TopicFilterTests(unittest.TestCase):
                 "pubYear": "2026",
                 "pubMonth": "4",
                 "intro": "This article discusses targetome-driven drug discovery.",
-            }
+            },
+            {
+                "title": "Emerging Paradigms for Innovative Drug Discovery",
+                "doi": "10.3724/BNSFC-2026-0002",
+                "pubYear": "2026",
+                "pubMonth": "4",
+                "intro": "This article discusses a second paper in the current issue.",
+            },
         ]
 
         items = parse_sciengine_current_issue_items(payload, source, now)
 
-        self.assertEqual(len(items), 1)
+        self.assertEqual(len(items), 2)
         self.assertEqual(items[0].site_id, "grant_bnsfc")
         self.assertIn("/doi/10.3724/BNSFC-2026.04.11.0001", items[0].url)
         self.assertIn("targetome-driven", items[0].meta["summary"])
