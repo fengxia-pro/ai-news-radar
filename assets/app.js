@@ -213,6 +213,19 @@ function fmtTime(iso) {
   }).format(d);
 }
 
+function modelScoreTimeText(style = "detail") {
+  if (!state.modelScoreData?.generated_at && !state.modelScoreData?.updated_label) {
+    return style === "title" ? "更新时间待生成" : "更新时间待生成";
+  }
+  const collectedAt = fmtTime(state.modelScoreData?.generated_at);
+  const sourceLabel = state.modelScoreData?.updated_label || "";
+  if (style === "title") return `本站更新 ${collectedAt}`;
+  return [
+    sourceLabel ? `Vellum 标注：${sourceLabel}` : "",
+    `本站采集：${collectedAt}`,
+  ].filter(Boolean).join(" · ");
+}
+
 function fmtDate(iso) {
   if (!iso) return "未知日期";
   const d = new Date(`${iso}T00:00:00`);
@@ -686,7 +699,7 @@ function renderSectionSummary(filteredItems = null) {
     return;
   }
   if (state.activeSection === "model_scores") {
-    const updated = state.modelScoreData?.updated_label || "最新公开榜单";
+    const updated = modelScoreTimeText();
     sectionSummaryEl.textContent = `专题池 · GPQA / AIME / ARC-AGI 三个科研相关指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
     renderStickySummary();
     return;
@@ -800,7 +813,7 @@ function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近一周文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
-  if (state.activeSection === "model_scores") return "模型评分 · Vellum LLM Leaderboard";
+  if (state.activeSection === "model_scores") return `模型评分 · Vellum LLM Leaderboard · ${modelScoreTimeText("title")}`;
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
     : "情报流";
@@ -3150,7 +3163,10 @@ function renderModelScoreEmbed() {
   title.textContent = "科研最相关的三类模型能力";
   const meta = document.createElement("p");
   meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化。科研选模型优先看这三类能力。";
-  titleWrap.append(eyebrow, title, meta);
+  const timeMeta = document.createElement("p");
+  timeMeta.className = "model-score-time";
+  timeMeta.textContent = `更新时间：${modelScoreTimeText()}`;
+  titleWrap.append(eyebrow, title, timeMeta, meta);
 
   const link = document.createElement("a");
   link.className = "model-score-open";

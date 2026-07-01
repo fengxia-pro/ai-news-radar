@@ -930,6 +930,21 @@ summary:focus-visible {
   background: var(--surface-alt);
 }
 
+.grant-policy-visual {
+  margin: 0;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #050505;
+}
+
+.grant-policy-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+}
+
 .grant-policy-meta {
   display: flex;
   flex-wrap: wrap;
@@ -1027,8 +1042,10 @@ summary:focus-visible {
 .list-head h2,
 .waytoagi-head h2,
 .grant-policy-head h2 {
+  min-width: 0;
   margin: 0;
   font-size: 22px;
+  line-height: 1.3;
 }
 
 #bolePicksMeta,
@@ -2178,6 +2195,21 @@ summary:focus-visible {
   line-height: 1.65;
 }
 
+.model-score-research-head .model-score-time {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 6px;
+  padding: 3px 8px;
+  border: 1px solid rgba(38, 111, 71, 0.16);
+  border-radius: 999px;
+  background: rgba(63, 127, 47, 0.07);
+  color: var(--good);
+  font-size: 12.5px;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
 .model-score-open {
   flex: 0 0 auto;
   padding: 8px 12px;
@@ -2835,6 +2867,11 @@ summary:focus-visible {
   }
 
   .waytoagi-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .list-head {
     align-items: flex-start;
     flex-direction: column;
   }
