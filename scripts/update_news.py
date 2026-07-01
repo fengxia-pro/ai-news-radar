@@ -433,7 +433,9 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "source": "香山科学会议",
         "url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
         "source_type": "conference",
-        "max_items": 8,
+        "max_items": 16,
+        "section_max_items": 8,
+        "kind": "xssc_sections",
     },
     {
         "site_id": "grant_most_service",
@@ -1409,6 +1411,148 @@ def parse_sciengine_current_issue_items(
     return out
 
 
+XSSC_HOME_URL = "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew"
+XSSC_DOC_API = "https://xssc.ac.cn/api/webDocList/queryAllByPageFront"
+XSSC_PRE_EVENT_API = "https://xssc.ac.cn/api/preEvent/queryList"
+XSSC_NOTICE_CHANNEL_ID = "b9639498240340128956fb789c4904d9"
+
+
+def xssc_spa_detail_url(route: str, *parts: Any) -> str:
+    clean_parts = [str(part).strip("/") for part in parts if str(part or "").strip()]
+    suffix = "/".join([route.strip("/"), *clean_parts])
+    return f"https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/{suffix}"
+
+
+def xssc_topic_from_title(title: str) -> str:
+    title = clean_grant_policy_title(title)
+    match = re.search(r"[\"“](.+?)[\"”]", title)
+    if match:
+        return clean_grant_policy_title(match.group(1))
+    title = re.sub(r"^香山科学会议", "", title)
+    title = re.sub(r"学术讨论会.*$", "", title)
+    return clean_grant_policy_title(title) or "相关科学问题"
+
+
+def parse_xssc_notice_items(payload: Any, source: dict[str, Any], now: datetime) -> list[RawItem]:
+    rows = payload if isinstance(payload, list) else []
+    out: list[RawItem] = []
+    max_items = int(source.get("section_max_items") or source.get("max_items") or 8)
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        doc_id = first_non_empty(row.get("id"), row.get("docId"))
+        title = clean_grant_policy_title(first_non_empty(row.get("docName"), row.get("title")))
+        if not doc_id or not title:
+            continue
+        topic = clean_grant_policy_title(first_non_empty(row.get("docText"), xssc_topic_from_title(title)))
+        summary = clean_feed_summary_text(
+            f"会议公告：这场会围绕“{topic}”展开。重点看召开时间、会议主题和专家可能形成的主要共识。",
+            max_chars=360,
+        )
+        meta = grant_policy_meta(source, "会议公告")
+        meta["summary"] = summary
+        meta["xssc_section"] = "会议公告"
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=f"{source['source']} · 会议公告",
+                title=title,
+                url=xssc_spa_detail_url("detailsNew", doc_id),
+                published_at=parse_unix_timestamp(row.get("docDate")),
+                meta=meta,
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
+
+
+def parse_xssc_dynamic_items(payload: Any, source: dict[str, Any], now: datetime) -> list[RawItem]:
+    rows = payload if isinstance(payload, list) else []
+    out: list[RawItem] = []
+    max_items = int(source.get("section_max_items") or source.get("max_items") or 8)
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        prepare_id = first_non_empty(row.get("prepareSetupId"), row.get("id"))
+        meeting_name = clean_grant_policy_title(first_non_empty(row.get("meetingName"), row.get("nameChinese")))
+        if not prepare_id or not meeting_name:
+            continue
+        meeting_code = first_non_empty(row.get("meetingCode"))
+        title = f"香山科学会议第{meeting_code}次：{meeting_name}" if meeting_code else f"香山科学会议：{meeting_name}"
+        excerpt = clean_feed_summary_text(row.get("resume"), max_chars=260)
+        lead = f"会议动态：这条记录的是“{meeting_name}”这场香山会议的背景和核心问题。"
+        summary = clean_feed_summary_text(f"{lead}{excerpt}", max_chars=420) if excerpt else lead
+        meta = grant_policy_meta(source, "会议动态")
+        meta["summary"] = summary
+        meta["xssc_section"] = "会议动态"
+        if meeting_code:
+            meta["meeting_code"] = meeting_code
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=f"{source['source']} · 会议动态",
+                title=title,
+                url=xssc_spa_detail_url("meetingdetailsNew", prepare_id, "jkxq"),
+                published_at=parse_unix_timestamp(row.get("dateStart")),
+                meta=meta,
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
+
+
+def fetch_xssc_section_items(
+    session: requests.Session,
+    source: dict[str, Any],
+    now: datetime,
+) -> list[RawItem]:
+    section_max_items = int(source.get("section_max_items") or 8)
+    params = {"page": 1, "pageSize": section_max_items, "queryKey": "", "orderKey": ""}
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json;charset=UTF-8",
+        "Referer": XSSC_HOME_URL,
+        "User-Agent": BROWSER_UA,
+    }
+
+    notice_resp = session.post(
+        f"{XSSC_DOC_API}/{XSSC_NOTICE_CHANNEL_ID}/yes",
+        params=params,
+        data="null",
+        headers=headers,
+        timeout=25,
+    )
+    notice_resp.raise_for_status()
+    notice_resp.encoding = notice_resp.encoding or notice_resp.apparent_encoding
+
+    search_body = {
+        "type": None,
+        "researchArea": None,
+        "keyword": None,
+        "nameChinese": None,
+        "meetingCode": None,
+        "dataStart": None,
+        "dataStartClose": None,
+    }
+    dynamic_resp = session.post(
+        XSSC_PRE_EVENT_API,
+        params=params,
+        json=search_body,
+        headers={key: value for key, value in headers.items() if key.lower() != "content-type"},
+        timeout=25,
+    )
+    dynamic_resp.raise_for_status()
+    dynamic_resp.encoding = dynamic_resp.encoding or dynamic_resp.apparent_encoding
+
+    items = parse_xssc_notice_items(notice_resp.json(), source, now)
+    items.extend(parse_xssc_dynamic_items(dynamic_resp.json(), source, now))
+    return items[: int(source.get("max_items") or len(items))]
+
+
 def jina_reader_url(url: str) -> str:
     return f"https://r.jina.ai/http://{url}"
 
@@ -1517,12 +1661,14 @@ def fetch_grant_policy_source(
             items = parse_sciengine_current_issue_items(resp.json(), source, now)
         elif source.get("kind") == "sciencedirect_latest_issue":
             items = fetch_sciencedirect_latest_issue_items(session, source, now)
+        elif source.get("kind") == "xssc_sections":
+            items = fetch_xssc_section_items(session, source, now)
         else:
             resp = session.get(str(source["url"]), timeout=25)
             resp.raise_for_status()
         if source.get("kind") == "rss":
             items = parse_grant_policy_feed_items(resp.content, source, now)
-        elif source.get("kind") not in {"sciengine_current_issue", "sciencedirect_latest_issue"}:
+        elif source.get("kind") not in {"sciengine_current_issue", "sciencedirect_latest_issue", "xssc_sections"}:
             resp.encoding = resp.encoding or resp.apparent_encoding
             items = parse_grant_policy_html_items(resp.text, source, now)
         enrich_grant_policy_journal_items(session, items)
@@ -1559,6 +1705,7 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
     grant_source_type = str(meta.get("grant_source_type") or "public")
     tier_rank = 0 if grant_source_type in {"official", "policy"} else 1 if grant_source_type in {"research_policy", "conference"} else 3
     date_known = published is not None
+    record_url = raw.url if raw.site_id == "grant_xssc" and "#/" in raw.url else normalize_url(raw.url)
     record = {
         "id": make_item_id(raw.site_id, raw.source, raw.title, raw.url),
         "site_id": raw.site_id,
@@ -1566,7 +1713,7 @@ def grant_policy_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
         "source": raw.source,
         "title": clean_grant_policy_title(raw.title),
         "title_zh": clean_grant_policy_title(raw.title),
-        "url": normalize_url(raw.url),
+        "url": record_url,
         "published_at": iso(published),
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),

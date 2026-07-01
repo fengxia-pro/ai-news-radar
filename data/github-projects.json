@@ -1,9 +1,1909 @@
 {
-  "generated_at": "2026-07-01T10:40:14.026820Z",
+  "generated_at": "2026-07-01T12:08:14.164599Z",
   "topic": "GitHub好玩项目",
   "ranking": "source_weight_beginner_fun_stars_freshness_v1",
-  "total_items": 42,
+  "total_items": 45,
   "items": [
+    {
+      "id": "f7932b22523ec60904e666abb800b83c79c0db7c",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "dbx",
+      "title_zh": "dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 95,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "t8y2/dbx",
+      "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "summary": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "mention_summaries": [
+        "dbx：轻量级跨平台数据库桌面客户端。这是一款轻量级、跨平台、可离线使用的数据库桌面客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 40+ 种数据库。它集成了连接管理、SQL 编辑、数据表格和 AI 助手功能，并提供 Docker 自托管、Web 版、MCP Server 和 CLI。来自 @skyler 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 8001,
+      "forks": 687,
+      "watchers": 26,
+      "language": "Rust",
+      "topics": [
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "gui",
+        "mongodb",
+        "mysql",
+        "postgresql"
+      ],
+      "homepage": "https://dbxio.com",
+      "updated_at": "2026-07-01T12:08:54Z",
+      "pushed_at": "2026-07-01T12:03:09Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 95,
+      "github_project_reason": "大白话：15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,001 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,001 stars，主要语言 Rust。"
+    },
+    {
+      "id": "10cb3d2c8bf310a9c9f038b00e437388af01e839",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "fight-the-landlord",
+      "title_zh": "fight-the-landlord",
+      "url": "https://github.com/palemoky/fight-the-landlord",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 90,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "palemoky/fight-the-landlord",
+      "description": "🃏 让斗地主回归纯粹 - 无控牌，真公平",
+      "summary": "🃏 让斗地主回归纯粹 - 无控牌，真公平",
+      "mention_summaries": [
+        "fight-the-landlord：终端里的斗地主游戏。这是一款用 Go 编写的斗地主游戏，主打随机发牌、无控牌算法。支持联网对战、房间匹配、断线重连、记牌器、音乐开关等功能，还集成了快手开源的 DouZero 斗地主 AI，可作为机器人补位或对战",
+        "欢乐斗地主"
+      ],
+      "recommend_sources": [
+        "HelloGitHub",
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_hellogithub",
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md",
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-399.md"
+      ],
+      "source_count": 2,
+      "source_weight": 36,
+      "stars": 423,
+      "forks": 56,
+      "watchers": 1,
+      "language": "Go",
+      "topics": [
+        "poker",
+        "poker-game"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T09:30:13Z",
+      "pushed_at": "2026-07-01T01:08:31Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 90,
+      "github_project_reason": "大白话：🃏 让斗地主回归纯粹 - 无控牌，真公平 为什么推荐：它被 HelloGitHub、科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 423 stars，主要语言 Go。",
+      "ai_relevance_reason": "大白话：🃏 让斗地主回归纯粹 - 无控牌，真公平 为什么推荐：它被 HelloGitHub、科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 423 stars，主要语言 Go。"
+    },
+    {
+      "id": "d1b5f72f42fa487535a522dfc4c6523603836b9d",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "CapsWriter-Offline",
+      "title_zh": "CapsWriter-Offline",
+      "url": "https://github.com/HaujetZhao/CapsWriter-Offline",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 88,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "HaujetZhao/CapsWriter-Offline",
+      "description": "PC 端语音输入工具，离线识别，高准确率、低延迟，支持热词、LLM润色。按住CapsLock或鼠标侧键X2说话，松开自动上屏。",
+      "summary": "PC 端语音输入工具，离线识别，高准确率、低延迟，支持热词、LLM润色。按住CapsLock或鼠标侧键X2说话，松开自动上屏。",
+      "mention_summaries": [
+        "CapsWriter-Offline：超低延迟的离线语音输入工具。这是一款完全离线的语音输入工具，按住 CapsLock 键说话、松开即可转换为文字。支持实时语音识别、音频文件转录、数字格式转换、热词替换、LLM 润色等功能，所有录音均保存在本地，还可放进 U 盘即插即用。来自 @Anouâr 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 5967,
+      "forks": 547,
+      "watchers": 33,
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:09:39Z",
+      "pushed_at": "2026-06-10T16:03:39Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 88,
+      "github_project_reason": "大白话：PC 端语音输入工具，离线识别，高准确率、低延迟，支持热词、LLM润色。按住CapsLock或鼠标侧键X2说话，松开自动上屏。 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 5,967 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：PC 端语音输入工具，离线识别，高准确率、低延迟，支持热词、LLM润色。按住CapsLock或鼠标侧键X2说话，松开自动上屏。 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 5,967 stars，主要语言 Python。"
+    },
+    {
+      "id": "a9714c182193154d37611fae8171e86b85d7b7f5",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "PaperTodo",
+      "title_zh": "PaperTodo",
+      "url": "https://github.com/snownico0722/PaperTodo",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 88,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "snownico0722/PaperTodo",
+      "description": "极简 Windows 桌面便签工具。让桌面上有几张安静、可用、不会打扰人的纸。WPF 原生，支持待办与 Markdown。——A minimalist Windows desktop sticky note tool. It puts a few quiet, usable, and unobtrusive sheets of paper on your desktop. Native WPF, with support for to-dos and Markdown.",
+      "summary": "极简 Windows 桌面便签工具。让桌面上有几张安静、可用、不会打扰人的纸。WPF 原生，支持待办与 Markdown。——A minimalist Windows desktop sticky note tool. It puts a few quiet, usable, and unobtrusive sheets of paper on your desktop. Native WPF, with support for to-dos and Markdown.",
+      "mention_summaries": [
+        "PaperTodo：极简的 Windows 桌面便签工具。这是一款极简的 Windows 桌面便签工具，每张便签是独立无边框浮动窗口，无主窗口、无账号、无分类管理，内容自动保存。支持待办纸和笔记纸（轻量 Markdown 高亮）两种形态，可折叠成置顶小胶囊，自动贴到屏幕边缘。来自 @snownico0722 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 520,
+      "forks": 23,
+      "watchers": 0,
+      "language": "C#",
+      "topics": [
+        "avalonedit",
+        "csharp",
+        "desktop",
+        "markdown",
+        "minimalist",
+        "note-taking",
+        "notes",
+        "productivity"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:11:48Z",
+      "pushed_at": "2026-06-30T21:19:53Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 88,
+      "github_project_reason": "大白话：极简 Windows 桌面便签工具。让桌面上有几张安静、可用、不会打扰人的纸。WPF 原生，支持待办与 Markdown。——A minimalist Windows desktop sticky note tool. It puts a few quiet, usable, and unobtrusive sheets of paper on your desktop. Native WPF, with support for to-dos and Markdown. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 520 stars，主要语言 C#。",
+      "ai_relevance_reason": "大白话：极简 Windows 桌面便签工具。让桌面上有几张安静、可用、不会打扰人的纸。WPF 原生，支持待办与 Markdown。——A minimalist Windows desktop sticky note tool. It puts a few quiet, usable, and unobtrusive sheets of paper on your desktop. Native WPF, with support for to-dos and Markdown. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 520 stars，主要语言 C#。"
+    },
+    {
+      "id": "12ea49e05a3a821234e8c7bb7d4e60d5e9ba7668",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "cc-switch",
+      "title_zh": "cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 86,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "mention_summaries": [
+        "cc-switch：一键切换 AI 渠道配置的工具。这是一款跨平台的 AI 编程助手增强工具，支持 Claude Code、Codex 和 Gemini CLI 等。它提供了一键切换 API 节点、自动故障转移、Skills 统一管理、用量追踪等功能，适用于 Windows、macOS 和 Linux 平台。来自 @彩虹い知己 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 111679,
+      "forks": 7403,
+      "watchers": 191,
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "minimax"
+      ],
+      "homepage": "https://ccswitch.io",
+      "updated_at": "2026-07-01T12:11:56Z",
+      "pushed_at": "2026-07-01T09:05:19Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 86,
+      "github_project_reason": "大白话：A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 111,679 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 111,679 stars，主要语言 Rust。"
+    },
+    {
+      "id": "f3b380ff9de98b0674aa3a461bb31ab474bf982c",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "ai-engineering-from-scratch",
+      "title_zh": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 86,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "summary": "Learn it. Build it. Ship it for others.",
+      "mention_summaries": [
+        "ai-engineering-from-scratch：从零开始学习 AI 工程。这是一套免费、开源、完整的 AI 工程学习教程，共分为 20 个阶段、435 节课、学习时长约 320 小时。内容从线性代数等数学基础出发，贯穿机器学习基础、深度学习、Transformer、大语言模型、Agent 工程到多 Agent 系统等方面。每节课均需从数学推导开始编写代码、运行测试，从而深入理解它们的原理和运行机制"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 37016,
+      "forks": 6111,
+      "watchers": 227,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch"
+      ],
+      "homepage": "https://aiengineeringfromscratch.com",
+      "updated_at": "2026-07-01T11:57:02Z",
+      "pushed_at": "2026-06-25T19:43:11Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 86,
+      "github_project_reason": "大白话：Learn it. Build it. Ship it for others. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 37,016 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：Learn it. Build it. Ship it for others. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 37,016 stars，主要语言 Python。"
+    },
+    {
+      "id": "8d002f95984a0144252acac51c8f0b81c46c6a9b",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "OpenMAIC",
+      "title_zh": "OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 86,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "mention_summaries": [
+        "OpenMAIC：开源的 AI 互动课堂平台。该项目是由清华团队开发的多智能体互动课堂平台，可将任意主题或文档一键生成沉浸式课程，AI 老师和智能体同学实时授课、讨论、互动。它内置白板绘图和语音合成，课程可导出为 PPT 或交互式网页，支持 3D 可视化、模拟实验、小游戏、思维导图和在线编程。来自 @猪笑驴脸长 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 19193,
+      "forks": 3771,
+      "watchers": 107,
+      "language": "TypeScript",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:10:42Z",
+      "pushed_at": "2026-07-01T10:53:12Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 86,
+      "github_project_reason": "大白话：Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 19,193 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 19,193 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "5a09dcf9401533f0e1b1913ec41951e204f75e5b",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "Horizon",
+      "title_zh": "Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 86,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Thysrael/Horizon",
+      "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "summary": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "mention_summaries": [
+        "Horizon：你的专属 AI 新闻雷达工具。这是一款 AI 驱动的个人新闻聚合与简报生成工具，支持从 Hacker News、Reddit、RSS、Telegram、GitHub 等多渠道获取内容，经过去重、AI 评分过滤、背景信息补充与摘要生成后，自动生成中英双语日报。生成的简报可发布到 GitHub Pages，或通过邮件、飞书、Slack 等方式推送，并支持 Docker 部署与 GitHub Actions 定时运行。来自 @Thysrael 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 7742,
+      "forks": 1101,
+      "watchers": 23,
+      "language": "Python",
+      "topics": [
+        "aggregator",
+        "feishu-bot",
+        "llm",
+        "mcp",
+        "news",
+        "openclaw",
+        "python",
+        "webhook"
+      ],
+      "homepage": "https://www.horizon1123.top",
+      "updated_at": "2026-07-01T11:00:26Z",
+      "pushed_at": "2026-07-01T07:14:09Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 86,
+      "github_project_reason": "大白话：📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 7,742 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 7,742 stars，主要语言 Python。"
+    },
+    {
+      "id": "28e4113d5d6f6ecfa1072a376d6943c46bcd995d",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "codeburn",
+      "title_zh": "codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 85,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "getagentseal/codeburn",
+      "description": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "summary": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "mention_summaries": [
+        "codeburn：AI 编程助手 Token 用量分析工具。这是一款用于追踪 AI 编程助手 Token 用量的工具，支持 20 多款 AI 编程工具。它直接从磁盘读取会话数据，无需 API Key，然后通过 LiteLLM 计算每次调用成本。可按任务类型、模型、工具、项目和供应商等维度统计，支持优化建议、模型横向对比、消费分析，并可将数据导出为 CSV 或 JSON"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 8360,
+      "forks": 655,
+      "watchers": 25,
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "cursor-ide",
+        "developer-tools",
+        "observability"
+      ],
+      "homepage": "https://codeburn.app/",
+      "updated_at": "2026-07-01T11:57:56Z",
+      "pushed_at": "2026-07-01T11:18:06Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 85,
+      "github_project_reason": "大白话：Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,360 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,360 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "1119d195b486b480d67186ba3226a64d44e91c99",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "graphify",
+      "title_zh": "graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 83,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "mention_summaries": [
+        "graphify：把代码库变成知识图谱的技能包。该项目可以扫描代码仓库、Markdown、PDF、截图和音视频等文件，自动提取概念与关系，构建一个可查询的知识图谱。支持 Claude Code、Codex、OpenCode、Cursor 等多种 AI 编程工具，适合想让 AI 更好理解项目上下文、节省 token 用量的开发者"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 75093,
+      "forks": 7466,
+      "watchers": 253,
+      "language": "Python",
+      "topics": [
+        "antigravity",
+        "claude-code",
+        "codex",
+        "gemini",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "openclaw"
+      ],
+      "homepage": "https://graphifylabs.ai/",
+      "updated_at": "2026-07-01T12:09:28Z",
+      "pushed_at": "2026-07-01T11:00:49Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 83,
+      "github_project_reason": "大白话：AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 75,093 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 75,093 stars，主要语言 Python。"
+    },
+    {
+      "id": "2880a1124a6362ca1e0feaf6be294378fb926785",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "open-design",
+      "title_zh": "open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 83,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "nexu-io/open-design",
+      "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "summary": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+      "mention_summaries": [
+        "open-design：Claude Design 的开源替代品。该项目是 Claude Design 的开源替代方案，支持本地运行和部署到 Vercel，全程无需订阅和账号。它可以自动检测 PATH 中的 10+ 款 AI 编程 CLI 作为设计引擎，内置 30 多种可组合技能和 70+ 套品牌级设计系统。来自 @ChHsiching 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 73625,
+      "forks": 8370,
+      "watchers": 245,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents"
+      ],
+      "homepage": "https://open-design.ai",
+      "updated_at": "2026-07-01T12:12:31Z",
+      "pushed_at": "2026-07-01T12:09:16Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 83,
+      "github_project_reason": "大白话：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 73,625 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 73,625 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "c07ef8f34b205ea1560a56535dd02f96eb0a6dc8",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "abtop",
+      "title_zh": "abtop",
+      "url": "https://github.com/graykode/abtop",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 83,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "graykode/abtop",
+      "description": "Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens, context window, rate limits, and ports in real-time.",
+      "summary": "Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens, context window, rate limits, and ports in real-time.",
+      "mention_summaries": [
+        "abtop：像 top 一样监控 AI 编程助手的工具。这是一款监控多个 Claude Code、Codex CLI 等 AI 编程 Agent 的命令行工具，支持实时查看每个 Agent 会话的 token 用量、上下文窗口、速率限制和端口等信息"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 3212,
+      "forks": 290,
+      "watchers": 10,
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "ai-coding-agent",
+        "btop",
+        "claude-code",
+        "cli",
+        "codex",
+        "developer-tools",
+        "htop"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T11:31:59Z",
+      "pushed_at": "2026-06-29T06:47:03Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 83,
+      "github_project_reason": "大白话：Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens, context window, rate limits, and ports in real-time. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 3,212 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens, context window, rate limits, and ports in real-time. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 3,212 stars，主要语言 Rust。"
+    },
+    {
+      "id": "4b414e8a86db783a2be1f7b6b908b127a97a7425",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "paseo",
+      "title_zh": "paseo",
+      "url": "https://github.com/getpaseo/paseo",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 82,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "getpaseo/paseo",
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
+      "summary": "Orchestrate multiple coding agents from desktop and mobile",
+      "mention_summaries": [
+        "paseo：随时随地管理多个 AI 编程助手的平台。这是一款专为 Claude Code、Codex 和 OpenCode 打造的统一管理平台，提供 iOS、Android、桌面端、Web 和 CLI 等客户端，支持语音控制、跨设备协同和隔离开发等功能"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 9578,
+      "forks": 907,
+      "watchers": 27,
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes"
+      ],
+      "homepage": "https://paseo.sh",
+      "updated_at": "2026-07-01T12:01:37Z",
+      "pushed_at": "2026-06-30T21:47:12Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 82,
+      "github_project_reason": "大白话：Orchestrate multiple coding agents from desktop and mobile 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 9,578 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：Orchestrate multiple coding agents from desktop and mobile 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 9,578 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "218fc1328959014779862762b9ebaee95bacc8e2",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "OfficeCLI",
+      "title_zh": "OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 82,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "mention_summaries": [
+        "OfficeCLI：直接操作 Word、Excel 和 PPT 的命令行工具。这是一款无需安装 Office 即可创建、读取和修改 Word、Excel 和 PowerPoint 文件的命令行工具，安装后自动为 Claude Code、Cursor 等 AI 编程工具注入操作 Office 文件的技能"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 8268,
+      "forks": 614,
+      "watchers": 22,
+      "language": "C#",
+      "topics": [
+        "agent",
+        "ai",
+        "claude-code",
+        "cli",
+        "codex",
+        "docx",
+        "excel",
+        "office"
+      ],
+      "homepage": "https://officecli.ai",
+      "updated_at": "2026-07-01T11:29:35Z",
+      "pushed_at": "2026-06-30T15:12:54Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 82,
+      "github_project_reason": "大白话：OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,268 stars，主要语言 C#。",
+      "ai_relevance_reason": "大白话：OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,268 stars，主要语言 C#。"
+    },
+    {
+      "id": "7de5220be4931dfb8fcbbc9506f4d594b49948fd",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "gopass",
+      "title_zh": "gopass",
+      "url": "https://github.com/gopasspw/gopass",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 82,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "gopasspw/gopass",
+      "description": "The slightly more awesome standard unix password manager for teams",
+      "summary": "The slightly more awesome standard unix password manager for teams",
+      "mention_summaries": [
+        "gopass：专为团队设计的命令行密码管理器。这是一款用于存储管理和同步密码、密钥与证书的命令行工具，可作为 UNIX 密码工具 pass 的替代品。默认用 GPG 加密和 Git 管理凭据，可通过 Git 仓库在多设备、多人团队之间同步"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 6993,
+      "forks": 544,
+      "watchers": 73,
+      "language": "Go",
+      "topics": [
+        "git",
+        "go",
+        "gpg",
+        "hacktoberfest",
+        "password-manager",
+        "security"
+      ],
+      "homepage": "https://www.gopass.pw/",
+      "updated_at": "2026-07-01T03:52:01Z",
+      "pushed_at": "2026-06-11T07:24:43Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 82,
+      "github_project_reason": "大白话：The slightly more awesome standard unix password manager for teams 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 6,993 stars，主要语言 Go。",
+      "ai_relevance_reason": "大白话：The slightly more awesome standard unix password manager for teams 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 6,993 stars，主要语言 Go。"
+    },
+    {
+      "id": "a8223328291fa9d89701d64c4457435a42d555c6",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "claude-tap",
+      "title_zh": "claude-tap",
+      "url": "https://github.com/liaohch3/claude-tap",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 82,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "liaohch3/claude-tap",
+      "description": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "summary": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "mention_summaries": [
+        "claude-tap：AI 编程助手的 API 流量分析工具。这是一款用 Python 开发的工具，可追踪 AI 编程 CLI 工具的 API 请求，帮助用户查看每次调用 LLM 服务时的提示词、对话历史、工具调用结果、流式响应和 Token 用量。同时支持对比相邻请求，定位 Prompt 或参数的变化，兼容 Claude Code、Codex CLI、Gemini CLI、Cursor CLI 等 10 款主流 AI 编程工具"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 2255,
+      "forks": 212,
+      "watchers": 3,
+      "language": "Python",
+      "topics": [
+        "agent-debugging",
+        "agent-observability",
+        "ai-agents",
+        "ai-tools",
+        "api-debugging",
+        "claude-code",
+        "codex",
+        "codex-cli"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:01:57Z",
+      "pushed_at": "2026-06-28T03:31:10Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 82,
+      "github_project_reason": "大白话：Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 2,255 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 2,255 stars，主要语言 Python。"
+    },
+    {
+      "id": "c1b814a8c8da82b74e70704056c4458f82419933",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "hermes-agent",
+      "title_zh": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "summary": "The agent that grows with you",
+      "mention_summaries": [
+        "hermes-agent：越用越聪明的 AI 智能体。这是一款开源的自我进化型 AI Agent，能够与用户共同成长的个人 AI 助手。它内置学习循环机制，可根据过往任务经历自动创建和优化技能（Skills），支持跨会话持久化记忆、自由切换模型和接入多种消息平台。来自 @我GAp3t 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 206906,
+      "forks": 37475,
+      "watchers": 814,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot"
+      ],
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "updated_at": "2026-07-01T12:09:45Z",
+      "pushed_at": "2026-07-01T12:13:05Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：The agent that grows with you 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 206,906 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：The agent that grows with you 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 206,906 stars，主要语言 Python。"
+    },
+    {
+      "id": "5dac86584d811db8b3e8a576180d381af5ba743f",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "skills",
+      "title_zh": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "summary": "Skills for Real Engineers. Straight from my .claude directory.",
+      "mention_summaries": [
+        "skills：让 AI 编程工具告别瞎写的技能包。这是一款由资深开发者 Matt Pocock 打造的 AI 编码工具技能包，适用于 Claude Code、Codex 等，通过一行命令即可安装。它包含需求对齐、共享文档、红绿重构 TDD、问题诊断、问题拆分、架构优化等十余个可组合的技能，帮助开发者用工程化方法驾驭 AI，而不是漫无目的地 vibe coding"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 152491,
+      "forks": 13180,
+      "watchers": 950,
+      "language": "Shell",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:07:55Z",
+      "pushed_at": "2026-07-01T11:51:57Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：Skills for Real Engineers. Straight from my .claude directory. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 152,491 stars，主要语言 Shell。",
+      "ai_relevance_reason": "大白话：Skills for Real Engineers. Straight from my .claude directory. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 152,491 stars，主要语言 Shell。"
+    },
+    {
+      "id": "00ca94b3dffd905c662e2b059b9560575e5efc93",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "Scrapling",
+      "title_zh": "Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "mention_summaries": [
+        "Scrapling：自适应网页改版的 Python 爬虫框架。这是一款自适应的 Python 爬虫框架，解析器会学习网站结构变化，在页面改版后自动重新定位目标元素。内置开箱即用的抓取器，支持多会话并发、断点继续、域名屏蔽和 MCP 服务等功能。来自 @Karim shoair 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 67530,
+      "forks": 6667,
+      "watchers": 250,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction"
+      ],
+      "homepage": "https://scrapling.readthedocs.io/en/latest/",
+      "updated_at": "2026-07-01T12:13:06Z",
+      "pushed_at": "2026-06-29T22:21:14Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 67,530 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 67,530 stars，主要语言 Python。"
+    },
+    {
+      "id": "206f70c92b475e7eb864a88d7bebe768dc041afb",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "pixijs",
+      "title_zh": "pixijs",
+      "url": "https://github.com/pixijs/pixijs",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "pixijs/pixijs",
+      "description": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
+      "summary": "The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.",
+      "mention_summaries": [
+        "pixijs：极快的 Web 2D 渲染库。这是一款轻量级、高性能的 Web 2D 图形库，支持 WebGL 和 WebGPU 双渲染器。它提供简洁易用的 API，内置资源加载器、多点触控、动态纹理和滤镜等功能，适用于开发 Web 游戏、数据可视化等场景"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 47652,
+      "forks": 5037,
+      "watchers": 974,
+      "language": "TypeScript",
+      "topics": [
+        "canvas",
+        "canvas2d",
+        "data-visualization",
+        "game",
+        "glsl",
+        "javascript",
+        "pixi",
+        "pixijs"
+      ],
+      "homepage": "http://pixijs.com",
+      "updated_at": "2026-07-01T11:56:23Z",
+      "pushed_at": "2026-06-19T20:13:13Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 47,652 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 47,652 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "2b66771fa85e14e5793660f867c386ea93b6743d",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "claude-howto",
+      "title_zh": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "mention_summaries": [
+        "claude-howto：快速上手 Claude Code 的教程。该项目从输入 claude 命令开始，手把手教你如何将 Claude Code 功能组装起来，成为一套可复用的 Agent 工作流。它提供了清晰的学习路径和使用示范，也会解释功能背后的运行原理，旨在帮你理解 MCP、Hooks、Subagents 以便更好掌握它们。适合不想啃文档，但想系统化学习 Claude Code 的用户"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 39032,
+      "forks": 4704,
+      "watchers": 172,
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "homepage": "http://luongnv.com/claude-howto/",
+      "updated_at": "2026-07-01T11:59:52Z",
+      "pushed_at": "2026-07-01T05:59:06Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 39,032 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 39,032 stars，主要语言 Python。"
+    },
+    {
+      "id": "f889fff15f7e2b81ac0ec2c0806f3e11351d15da",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "ppt-master",
+      "title_zh": "ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "hugohe3/ppt-master",
+      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "summary": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "mention_summaries": [
+        "ppt-master：用 AI 将文档转换为可编辑的 PPT。该项目能够根据 PDF、Word、URL 和 Markdown 等格式的文档，生成可编辑的 .pptx 文件，支持调整文字、布局和样式。它内置多种画布格式，支持自定义模型，可集成到 Claude Code、Cursor、VS Code Copilot 等 AI 工具"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 35640,
+      "forks": 2977,
+      "watchers": 77,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint",
+        "powerpoint-generation",
+        "ppt",
+        "pptx",
+        "presentation"
+      ],
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "updated_at": "2026-07-01T12:10:38Z",
+      "pushed_at": "2026-07-01T07:36:10Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 35,640 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 35,640 stars，主要语言 Python。"
+    },
+    {
+      "id": "da71635895c550f2bd57659b8c0276f70870c4d9",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "openhuman",
+      "title_zh": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "mention_summaries": [
+        "openhuman：融入你日常生活的 AI 桌面助手。这是一款开源的 AI 桌面个人助手，内置带表情的桌面吉祥物，能够代替你参加在线会议，并在后台持续思考和记忆。它开箱即用、界面友好、无需复杂配置，可将数据以 Markdown 格式存入 SQLite 和兼容 Obsidian 的知识库，支持接入 Gmail、Notion、GitHub、Slack、Jira 等服务，每 20 分钟自动同步最新数据并更新记忆。来自 @JRZYgit 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 34041,
+      "forks": 3310,
+      "watchers": 178,
+      "language": "Rust",
+      "topics": [],
+      "homepage": "https://tinyhumans.ai/openhuman",
+      "updated_at": "2026-07-01T12:04:41Z",
+      "pushed_at": "2026-07-01T09:13:50Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：Your Personal AI super intelligence. Private, Simple and extremely powerful. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 34,041 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：Your Personal AI super intelligence. Private, Simple and extremely powerful. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 34,041 stars，主要语言 Rust。"
+    },
+    {
+      "id": "a69ae003a612d4cce38151a2579f1c096692b8b7",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "hyperframes",
+      "title_zh": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "mention_summaries": [
+        "hyperframes：用 HTML 制作视频的技能包。这是一个让开发者用 HTML 创作视频的技能包，内置 GSAP、anime.js、Lottie、Three.js 等框架，支持实时预览/编辑、背景移除、语音合成和字幕等功能，可无缝集成 Claude Code、Cursor、Codex、Gemini CLI 等工具"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub122.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 32478,
+      "forks": 3023,
+      "watchers": 84,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap",
+        "html",
+        "mcp",
+        "puppeteer"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:08:16Z",
+      "pushed_at": "2026-07-01T09:59:10Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：Write HTML. Render video. Built for agents. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 32,478 stars，主要语言 TypeScript。",
+      "ai_relevance_reason": "大白话：Write HTML. Render video. Built for agents. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 32,478 stars，主要语言 TypeScript。"
+    },
+    {
+      "id": "db9590d575867a7b24a2aae053dc0b78c75dd459",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "llmfit",
+      "title_zh": "llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "summary": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "mention_summaries": [
+        "llmfit：一条命令找出本地能运行的模型。这是一款用 Rust 编写的终端工具，能够自动检测本机的 CPU、GPU、内存等硬件信息，并推荐适合本地运行的大模型。它会从质量、速度、适配度和上下文等维度给模型打分排序，支持 Ollama、llama.cpp、MLX、vLLM、LM Studio 等主流本地推理环境"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub123.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 28941,
+      "forks": 1775,
+      "watchers": 81,
+      "language": "Rust",
+      "topics": [
+        "gguf",
+        "llm",
+        "localai",
+        "mlx",
+        "skill",
+        "unsloth"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T12:09:07Z",
+      "pushed_at": "2026-06-29T13:28:04Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：Hundreds of models & providers. One command to find what runs on your hardware. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 28,941 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：Hundreds of models & providers. One command to find what runs on your hardware. 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 28,941 stars，主要语言 Rust。"
+    },
+    {
+      "id": "df8c0a7e50ac73fb189628100be9155957dd970c",
+      "site_id": "github_hellogithub",
+      "site_name": "HelloGitHub",
+      "source": "HelloGitHub",
+      "title": "glow",
+      "title_zh": "glow",
+      "url": "https://github.com/charmbracelet/glow",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 80,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "charmbracelet/glow",
+      "description": "Render markdown on the CLI, with pizzazz! 💅🏻",
+      "summary": "Render markdown on the CLI, with pizzazz! 💅🏻",
+      "mention_summaries": [
+        "glow：直接在命令行浏览 Markdown 的工具。该项目是基于 Go 开发的命令行 Markdown 阅读器，提供 TUI 和 CLI 两种使用方式，可以自动扫描当前目录读取本地文件和远程 URL，支持自定义主题、语法高亮、分页等功能。来自 @DeShuiYu 的分享"
+      ],
+      "recommend_sources": [
+        "HelloGitHub"
+      ],
+      "source_ids": [
+        "github_hellogithub"
+      ],
+      "source_urls": [
+        "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub121.md"
+      ],
+      "source_count": 1,
+      "source_weight": 36,
+      "stars": 26105,
+      "forks": 713,
+      "watchers": 81,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "excitement",
+        "hacktoberfest",
+        "markdown"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T09:57:16Z",
+      "pushed_at": "2026-04-26T00:10:21Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 80,
+      "github_project_reason": "大白话：Render markdown on the CLI, with pizzazz! 💅🏻 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 26,105 stars，主要语言 Go。",
+      "ai_relevance_reason": "大白话：Render markdown on the CLI, with pizzazz! 💅🏻 为什么推荐：它被 HelloGitHub 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 26,105 stars，主要语言 Go。"
+    },
+    {
+      "id": "1e7e7776ba90301241cc5ff0ed5c31b9792c2020",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "长篇大论",
+      "title_zh": "长篇大论",
+      "url": "https://github.com/tursodatabase/turso",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 74,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "summary": "Turso is an in-process SQL database, compatible with SQLite.",
+      "mention_summaries": [
+        "开发团队精疲力尽，不胜其扰。有时候，关掉这些 PR，提交者还会跟你争论，用 AI 生成的长篇大论告诉开发团队“我没错，你们搞错了”，令人啼笑皆非"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-398.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 22498,
+      "forks": 1130,
+      "watchers": 93,
+      "language": "Rust",
+      "topics": [
+        "database",
+        "embedded-database",
+        "sql",
+        "sqlite3",
+        "webassembly"
+      ],
+      "homepage": "",
+      "updated_at": "2026-07-01T11:12:14Z",
+      "pushed_at": "2026-07-01T11:12:09Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 74,
+      "github_project_reason": "大白话：Turso is an in-process SQL database, compatible with SQLite. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 22,498 stars，主要语言 Rust。",
+      "ai_relevance_reason": "大白话：Turso is an in-process SQL database, compatible with SQLite. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 22,498 stars，主要语言 Rust。"
+    },
+    {
+      "id": "4e5acd439b6aaeae57aa1cd73b221e5c22a76bd5",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "最新版本 3.4.3",
+      "title_zh": "最新版本 3.4.3",
+      "url": "https://github.com/RsyncProject/rsync",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 72,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "RsyncProject/rsync",
+      "description": "An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases.",
+      "summary": "An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases.",
+      "mention_summaries": [
+        "最近，有人发现，它的最新版本 3.4.3 是由 Claude 生成的。这引发了轩然大波，怎么可以用 AI 去编写系统的基本命令呢，谁能保证不出错！"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-400.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 4972,
+      "forks": 559,
+      "watchers": 61,
+      "language": "C",
+      "topics": [],
+      "homepage": "https://rsync.samba.org",
+      "updated_at": "2026-07-01T07:40:29Z",
+      "pushed_at": "2026-06-21T04:14:41Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 72,
+      "github_project_reason": "大白话：An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 4,972 stars，主要语言 C。",
+      "ai_relevance_reason": "大白话：An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 4,972 stars，主要语言 C。"
+    },
+    {
+      "id": "ab654cacda54c85e359a7bca24b8408ebd22cbd5",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "FunClip",
+      "title_zh": "FunClip",
+      "url": "https://github.com/modelscope/FunClip",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 71,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "modelscope/FunClip",
+      "description": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+      "summary": "FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.",
+      "mention_summaries": [
+        "FunClip：智能视频裁剪工具。输入关键词或句子，自动定位视频中对应的片段，一键裁剪导出。（@LauraGPT 投稿）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-398.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 5875,
+      "forks": 708,
+      "watchers": 43,
+      "language": "Python",
+      "topics": [
+        "ai-tools",
+        "ai-video-editing",
+        "asr",
+        "auto-subtitles",
+        "chinese",
+        "content-creation",
+        "funasr",
+        "funclip"
+      ],
+      "homepage": "https://www.funasr.com",
+      "updated_at": "2026-07-01T10:29:59Z",
+      "pushed_at": "2026-06-29T20:47:23Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 71,
+      "github_project_reason": "大白话：FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 5,875 stars，主要语言 Python。",
+      "ai_relevance_reason": "大白话：FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 5,875 stars，主要语言 Python。"
+    },
+    {
+      "id": "7e4e2b49a4a051ca680cc117f9a41dbeab5c11cc",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "封面生成器",
+      "title_zh": "封面生成器",
+      "url": "https://github.com/eternityspring/article-tools",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 69,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "eternityspring/article-tools",
+      "description": "一套封面制作和x、微信公众号排版工具",
+      "summary": "一套封面制作和x、微信公众号排版工具",
+      "mention_summaries": [
+        "封面生成器（Cover Maker）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-401.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 672,
+      "forks": 118,
+      "watchers": 0,
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://eternityspring.github.io/article-tools/",
+      "updated_at": "2026-07-01T09:37:40Z",
+      "pushed_at": "2026-06-27T02:06:19Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 69,
+      "github_project_reason": "大白话：一套封面制作和x、微信公众号排版工具 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 672 stars，主要语言 HTML。",
+      "ai_relevance_reason": "大白话：一套封面制作和x、微信公众号排版工具 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 672 stars，主要语言 HTML。"
+    },
+    {
+      "id": "7f4ccc030241c62b730e7910ca958d908c06f1cb",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "SenseVoice",
+      "title_zh": "SenseVoice",
+      "url": "https://github.com/FunAudioLLM/SenseVoice",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 66,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "FunAudioLLM/SenseVoice",
+      "description": "Multilingual speech understanding: ASR + emotion recognition + audio event detection. 50+ languages, 15x faster than Whisper, non-autoregressive.",
+      "summary": "Multilingual speech understanding: ASR + emotion recognition + audio event detection. 50+ languages, 15x faster than Whisper, non-autoregressive.",
+      "mention_summaries": [
+        "SenseVoice：语音理解工具，可以识别语音、语种、情感、声音事件。（@LauraGPT 投稿）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-398.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 8734,
+      "forks": 789,
+      "watchers": 63,
+      "language": "C",
+      "topics": [
+        "asr",
+        "audio-analysis",
+        "audio-event-detection",
+        "cantonese",
+        "cross-lingual",
+        "emotion-detection",
+        "funasr",
+        "language-identification"
+      ],
+      "homepage": "https://funaudiollm.github.io/",
+      "updated_at": "2026-07-01T09:45:11Z",
+      "pushed_at": "2026-06-29T13:24:06Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 66,
+      "github_project_reason": "大白话：Multilingual speech understanding: ASR + emotion recognition + audio event detection. 50+ languages, 15x faster than Whisper, non-autoregressive. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,734 stars，主要语言 C。",
+      "ai_relevance_reason": "大白话：Multilingual speech understanding: ASR + emotion recognition + audio event detection. 50+ languages, 15x faster than Whisper, non-autoregressive. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 8,734 stars，主要语言 C。"
+    },
+    {
+      "id": "850ba9afaf210280131ec8213baa62ab4a40d6ea",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Solar Wanderer",
+      "title_zh": "Solar Wanderer",
+      "url": "https://github.com/hyqzz/Solar-Wanderer",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 66,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "hyqzz/Solar-Wanderer",
+      "description": "Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud.",
+      "summary": "Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud.",
+      "mention_summaries": [
+        "Solar Wanderer（遨游太阳系）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-401.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 533,
+      "forks": 29,
+      "watchers": 0,
+      "language": "JavaScript",
+      "topics": [
+        "3d",
+        "astronomy",
+        "browser-based",
+        "education",
+        "ephemeris",
+        "interactive",
+        "javascript",
+        "nasa"
+      ],
+      "homepage": "https://sw.icodestar.net",
+      "updated_at": "2026-07-01T11:25:16Z",
+      "pushed_at": "2026-06-26T06:24:01Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 66,
+      "github_project_reason": "大白话：Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 533 stars，主要语言 JavaScript。",
+      "ai_relevance_reason": "大白话：Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 533 stars，主要语言 JavaScript。"
+    },
+    {
+      "id": "70e81ce748b8f765985713d15967e23d0f1a0147",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "代码开源",
+      "title_zh": "代码开源",
+      "url": "https://github.com/antiboredom/ffmpeg-explorer",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 58,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "antiboredom/ffmpeg-explorer",
+      "description": "Create and render complex ffmpeg filtergraphs in the browser.",
+      "summary": "Create and render complex ffmpeg filtergraphs in the browser.",
+      "mention_summaries": [
+        "通过可视化图形、生成 FFmpeg 命令的网页应用，代码开源"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-397.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 617,
+      "forks": 29,
+      "watchers": 8,
+      "language": "Svelte",
+      "topics": [
+        "ffmpeg",
+        "flow",
+        "wasm"
+      ],
+      "homepage": "https://ffmpeg.lav.io",
+      "updated_at": "2026-06-29T07:07:04Z",
+      "pushed_at": "2024-07-12T17:29:35Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 58,
+      "github_project_reason": "大白话：Create and render complex ffmpeg filtergraphs in the browser. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 617 stars，主要语言 Svelte。",
+      "ai_relevance_reason": "大白话：Create and render complex ffmpeg filtergraphs in the browser. 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：GitHub 约 617 stars，主要语言 Svelte。"
+    },
+    {
+      "id": "84e7b26b6cffdb6c40c21d38bebfc432aad25334",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "PTP 时间同步技术书",
+      "title_zh": "PTP 时间同步技术书",
+      "url": "https://github.com/Lularible/ptp-book",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 42,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Lularible/ptp-book",
+      "description": "PTP 时间同步技术书",
+      "summary": "PTP 时间同步技术书",
+      "mention_summaries": [
+        "PTP 时间同步技术书"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-401.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 42,
+      "github_project_reason": "大白话：PTP 时间同步技术书 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
+      "ai_relevance_reason": "大白话：PTP 时间同步技术书 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
+    },
+    {
+      "id": "146b5a4d0ec23bbf0d4cf4d6efdb886da513e1e9",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "开源版",
+      "title_zh": "开源版",
+      "url": "https://github.com/altcha-org/altcha",
+      "published_at": null,
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
+      "ai_label": "github_project",
+      "ai_score": 42,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "altcha-org/altcha",
+      "description": "开源的 Captcha 替代品，用来过滤掉机器人，有开源版",
+      "summary": "开源的 Captcha 替代品，用来过滤掉机器人，有开源版",
+      "mention_summaries": [
+        "开源的 Captcha 替代品，用来过滤掉机器人，有开源版"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-400.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 42,
+      "github_project_reason": "大白话：开源的 Captcha 替代品，用来过滤掉机器人，有开源版 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
+      "ai_relevance_reason": "大白话：开源的 Captcha 替代品，用来过滤掉机器人，有开源版 为什么推荐：它被 科技爱好者周刊 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
+    },
     {
       "id": "f891e38889384bfb6bb31e8ca81e334ff08d1885",
       "site_id": "github_awesome",
@@ -13,8 +1913,8 @@
       "title_zh": "Awesome CLI",
       "url": "https://github.com/umutphp/awesome-cli",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 27,
       "source_tier": "github_projects",
@@ -61,8 +1961,8 @@
       "title_zh": "AI in Finance",
       "url": "https://github.com/georgezouq/awesome-ai-in-finance",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -109,8 +2009,8 @@
       "title_zh": "Conversational AI",
       "url": "https://github.com/jyguyomarch/awesome-conversational-ai",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -157,8 +2057,8 @@
       "title_zh": "Blockchain AI",
       "url": "https://github.com/steven2358/awesome-blockchain-ai",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -205,8 +2105,8 @@
       "title_zh": "Gemini CLI",
       "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -253,8 +2153,8 @@
       "title_zh": "Fuse",
       "url": "https://github.com/fuse-compound/awesome-fuse",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -301,8 +2201,8 @@
       "title_zh": "Node-RED",
       "url": "https://github.com/naimo84/awesome-nodered",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -349,8 +2249,8 @@
       "title_zh": "Backstage",
       "url": "https://github.com/shano/awesome-backstage",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -397,8 +2297,8 @@
       "title_zh": "Data Science",
       "url": "https://github.com/krzjoa/awesome-python-data-science",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -445,8 +2345,8 @@
       "title_zh": "Learning",
       "url": "https://github.com/iamericfletcher/awesome-r-learning-resources",
       "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
+      "first_seen_at": "2026-07-01T12:08:14.164599Z",
+      "last_seen_at": "2026-07-01T12:08:14.164599Z",
       "ai_label": "github_project",
       "ai_score": 21,
       "source_tier": "github_projects",
@@ -483,1562 +2383,26 @@
       "github_project_score": 21,
       "github_project_reason": "大白话：Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
       "ai_relevance_reason": "大白话：Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "0396b9dd3d4a8f918b4f8990e5ce8c09bad71c2b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Learning",
-      "title_zh": "Learning",
-      "url": "https://github.com/GustavBertram/awesome-common-lisp-learning",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "GustavBertram/awesome-common-lisp-learning",
-      "description": "Learning",
-      "summary": "Learning",
-      "mention_summaries": [
-        "Learning"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "949073d3611162b388df77e9a2465ea4325208c6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "ES6 Tools",
-      "title_zh": "ES6 Tools",
-      "url": "https://github.com/addyosmani/es6-tools",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "addyosmani/es6-tools",
-      "description": "ES6 Tools",
-      "summary": "ES6 Tools",
-      "mention_summaries": [
-        "ES6 Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：ES6 Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：ES6 Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "54a5145432a12abf6a81753d3de217edebe234e3",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Web Tools",
-      "title_zh": "Web Tools",
-      "url": "https://github.com/lvwzhen/tools",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "lvwzhen/tools",
-      "description": "Web Tools",
-      "summary": "Web Tools",
-      "mention_summaries": [
-        "Web Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Web Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Web Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "9b7ce939a114933ad3d005e0c5a475fa8de12e9b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Critical-Path Tools",
-      "title_zh": "Critical-Path Tools",
-      "url": "https://github.com/addyosmani/critical-path-css-tools",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "addyosmani/critical-path-css-tools",
-      "description": "Critical-Path Tools",
-      "summary": "Critical-Path Tools",
-      "mention_summaries": [
-        "Critical-Path Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Critical-Path Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Critical-Path Tools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "47dcacc676cdd3993b43af155aac0c93da806d5c",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Dojo Toolkit",
-      "title_zh": "Dojo Toolkit",
-      "url": "https://github.com/petk/awesome-dojo",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "petk/awesome-dojo",
-      "description": "Dojo Toolkit - JavaScript toolkit.",
-      "summary": "Dojo Toolkit - JavaScript toolkit.",
-      "mention_summaries": [
-        "Dojo Toolkit - JavaScript toolkit."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Dojo Toolkit - JavaScript toolkit. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Dojo Toolkit - JavaScript toolkit. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "9a6f4f93ae12564df57e7598595b9fff3feb0e45",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Chrome DevTools",
-      "title_zh": "Chrome DevTools",
-      "url": "https://github.com/ChromeDevTools/awesome-chrome-devtools",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "ChromeDevTools/awesome-chrome-devtools",
-      "description": "Chrome DevTools",
-      "summary": "Chrome DevTools",
-      "mention_summaries": [
-        "Chrome DevTools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Chrome DevTools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Chrome DevTools 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "b5af96f25915774cb9630e8c5a1ee275479ddbb8",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "PostCSS",
-      "title_zh": "PostCSS",
-      "url": "https://github.com/jdrgomes/awesome-postcss",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "jdrgomes/awesome-postcss",
-      "description": "PostCSS - CSS tool.",
-      "summary": "PostCSS - CSS tool.",
-      "mention_summaries": [
-        "PostCSS - CSS tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：PostCSS - CSS tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：PostCSS - CSS tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "f33a5fb8e561c61d71c569aae1400093b498d650",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "JAMstack",
-      "title_zh": "JAMstack",
-      "url": "https://github.com/automata/awesome-jamstack",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "automata/awesome-jamstack",
-      "description": "JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup.",
-      "summary": "JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup.",
-      "mention_summaries": [
-        "JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "0ad77469a3a45ffd2c2d58eaaac30bb46e3548d9",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Storybook",
-      "title_zh": "Storybook",
-      "url": "https://github.com/lauthieb/awesome-storybook",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "lauthieb/awesome-storybook",
-      "description": "Storybook - Development environment for UI components.",
-      "summary": "Storybook - Development environment for UI components.",
-      "mention_summaries": [
-        "Storybook - Development environment for UI components."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Storybook - Development environment for UI components. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Storybook - Development environment for UI components. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "880988b3621e0d2e9efe96925ce441d9cd3d5339",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Vert.x",
-      "title_zh": "Vert.x",
-      "url": "https://github.com/vert-x3/vertx-awesome",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "vert-x3/vertx-awesome",
-      "description": "Vert.x - Toolkit for building reactive apps on the JVM.",
-      "summary": "Vert.x - Toolkit for building reactive apps on the JVM.",
-      "mention_summaries": [
-        "Vert.x - Toolkit for building reactive apps on the JVM."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Vert.x - Toolkit for building reactive apps on the JVM. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Vert.x - Toolkit for building reactive apps on the JVM. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "f21348b8fbf000e8e9cd3541f5601f7d3ff67af6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Terraform",
-      "title_zh": "Terraform",
-      "url": "https://github.com/shuaibiyy/awesome-terraform",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "shuaibiyy/awesome-terraform",
-      "description": "Terraform - Tool for building, changing, and versioning infrastructure.",
-      "summary": "Terraform - Tool for building, changing, and versioning infrastructure.",
-      "mention_summaries": [
-        "Terraform - Tool for building, changing, and versioning infrastructure."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Terraform - Tool for building, changing, and versioning infrastructure. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Terraform - Tool for building, changing, and versioning infrastructure. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "a4b17745a465f279ff072ca651e61739f2b7706f",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Kustomize",
-      "title_zh": "Kustomize",
-      "url": "https://github.com/DevOpsHiveHQ/awesome-kustomize",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "DevOpsHiveHQ/awesome-kustomize",
-      "description": "Kustomize - Kubernetes native declarative configuration management tool.",
-      "summary": "Kustomize - Kubernetes native declarative configuration management tool.",
-      "mention_summaries": [
-        "Kustomize - Kubernetes native declarative configuration management tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Kustomize - Kubernetes native declarative configuration management tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Kustomize - Kubernetes native declarative configuration management tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "5831e4a75ea58f517963a3a4da4b586e778daa7c",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "OpenTofu",
-      "title_zh": "OpenTofu",
-      "url": "https://github.com/virtualroot/awesome-opentofu",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "virtualroot/awesome-opentofu",
-      "description": "OpenTofu - Open-source infrastructure as code tool.",
-      "summary": "OpenTofu - Open-source infrastructure as code tool.",
-      "mention_summaries": [
-        "OpenTofu - Open-source infrastructure as code tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：OpenTofu - Open-source infrastructure as code tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：OpenTofu - Open-source infrastructure as code tool. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "41ca6be9b3ff4629e47304333d9085c3bbec6093",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "University Courses",
-      "title_zh": "University Courses",
-      "url": "https://github.com/prakhar1989/awesome-courses",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "prakhar1989/awesome-courses",
-      "description": "University Courses",
-      "summary": "University Courses",
-      "mention_summaries": [
-        "University Courses"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：University Courses 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：University Courses 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "12fd19727167faedc1cd92d01f806fdc61acd842",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Machine Learning",
-      "title_zh": "Machine Learning",
-      "url": "https://github.com/josephmisiti/awesome-machine-learning",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "josephmisiti/awesome-machine-learning",
-      "description": "Machine Learning",
-      "summary": "Machine Learning",
-      "mention_summaries": [
-        "Machine Learning"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Machine Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Machine Learning 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "a0904dcb744b3a46ab6bd614d01a6843d903fcff",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "ML with Ruby",
-      "title_zh": "ML with Ruby",
-      "url": "https://github.com/arbox/machine-learning-with-ruby",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "arbox/machine-learning-with-ruby",
-      "description": "ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby.",
-      "summary": "ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby.",
-      "mention_summaries": [
-        "ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "7d022eaed0d3ad192245e08bb739bc657fed98fd",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Core ML Models",
-      "title_zh": "Core ML Models",
-      "url": "https://github.com/likedan/Awesome-CoreML-Models",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "likedan/Awesome-CoreML-Models",
-      "description": "Core ML Models - Models for Apple's machine learning framework.",
-      "summary": "Core ML Models - Models for Apple's machine learning framework.",
-      "mention_summaries": [
-        "Core ML Models - Models for Apple's machine learning framework."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Core ML Models - Models for Apple's machine learning framework. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Core ML Models - Models for Apple's machine learning framework. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "8c91dbd60c9eeb5e52e3b8f0b37eb47c983d7640",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "H2O",
-      "title_zh": "H2O",
-      "url": "https://github.com/h2oai/awesome-h2o",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "h2oai/awesome-h2o",
-      "description": "H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala.",
-      "summary": "H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala.",
-      "mention_summaries": [
-        "H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "eadbde5e8d63fb8d1c9d4ea9f2cf4d3ee7b351e2",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Software Engineering for Machine Learning",
-      "title_zh": "Software Engineering for Machine Learning",
-      "url": "https://github.com/SE-ML/awesome-seml",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "SE-ML/awesome-seml",
-      "description": "Software Engineering for Machine Learning - From experiment to production-level machine learning.",
-      "summary": "Software Engineering for Machine Learning - From experiment to production-level machine learning.",
-      "mention_summaries": [
-        "Software Engineering for Machine Learning - From experiment to production-level machine learning."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Software Engineering for Machine Learning - From experiment to production-level machine learning. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Software Engineering for Machine Learning - From experiment to production-level machine learning. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "f960fd3bf85ad286a2bb6181663bcdcd5947d2b6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "JAX",
-      "title_zh": "JAX",
-      "url": "https://github.com/n2cholas/awesome-jax",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "n2cholas/awesome-jax",
-      "description": "JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research.",
-      "summary": "JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research.",
-      "mention_summaries": [
-        "JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "4e943ce09c06e9322f93e8fcbb0b1e681be1f24e",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "XAI",
-      "title_zh": "XAI",
-      "url": "https://github.com/altamiracorp/awesome-xai",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "altamiracorp/awesome-xai",
-      "description": "XAI - Providing insight, explanations, and interpretability to machine learning methods.",
-      "summary": "XAI - Providing insight, explanations, and interpretability to machine learning methods.",
-      "mention_summaries": [
-        "XAI - Providing insight, explanations, and interpretability to machine learning methods."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：XAI - Providing insight, explanations, and interpretability to machine learning methods. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：XAI - Providing insight, explanations, and interpretability to machine learning methods. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "630fe7767e346455c06e5054430f0311e6bf90d2",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Deep Learning",
-      "title_zh": "Deep Learning",
-      "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "ChristosChristofidis/awesome-deep-learning",
-      "description": "Deep Learning - Neural networks.",
-      "summary": "Deep Learning - Neural networks.",
-      "mention_summaries": [
-        "Deep Learning - Neural networks."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Deep Learning - Neural networks. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Deep Learning - Neural networks. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "5a768906d2d6cf8bfbe134e401dfafee99f0889a",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "TensorFlow.js",
-      "title_zh": "TensorFlow.js",
-      "url": "https://github.com/aaronhma/awesome-tensorflow-js",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "aaronhma/awesome-tensorflow-js",
-      "description": "TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models.",
-      "summary": "TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models.",
-      "mention_summaries": [
-        "TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "0418851f46f8214bf2e62dcd353d7c6ad68a879a",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "TensorFlow Lite",
-      "title_zh": "TensorFlow Lite",
-      "url": "https://github.com/margaretmz/awesome-tensorflow-lite",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "margaretmz/awesome-tensorflow-lite",
-      "description": "TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning.",
-      "summary": "TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning.",
-      "mention_summaries": [
-        "TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "806ecce3db9254fa40b213ca712c60bcd7e8f435",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Papers",
-      "title_zh": "Papers",
-      "url": "https://github.com/terryum/awesome-deep-learning-papers",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "terryum/awesome-deep-learning-papers",
-      "description": "Papers - The most cited deep learning papers.",
-      "summary": "Papers - The most cited deep learning papers.",
-      "mention_summaries": [
-        "Papers - The most cited deep learning papers."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Papers - The most cited deep learning papers. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Papers - The most cited deep learning papers. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "7645e9339e0504d5d90223b317eb8013d871261d",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Information Retrieval",
-      "title_zh": "Information Retrieval",
-      "url": "https://github.com/harpribot/awesome-information-retrieval",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 21,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "harpribot/awesome-information-retrieval",
-      "description": "Information Retrieval - Learn to develop your own search engine.",
-      "summary": "Information Retrieval - Learn to develop your own search engine.",
-      "mention_summaries": [
-        "Information Retrieval - Learn to develop your own search engine."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 21,
-      "github_project_reason": "大白话：Information Retrieval - Learn to develop your own search engine. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Information Retrieval - Learn to develop your own search engine. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "4066e1507780509eccb0e743a58f1f562b3e1c90",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Firebase Genkit",
-      "title_zh": "Firebase Genkit",
-      "url": "https://github.com/xavidop/awesome-firebase-genkit",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "xavidop/awesome-firebase-genkit",
-      "description": "Firebase Genkit - An open-source framework for building AI-powered apps and features.",
-      "summary": "Firebase Genkit - An open-source framework for building AI-powered apps and features.",
-      "mention_summaries": [
-        "Firebase Genkit - An open-source framework for building AI-powered apps and features."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：Firebase Genkit - An open-source framework for building AI-powered apps and features. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Firebase Genkit - An open-source framework for building AI-powered apps and features. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "d55d60d23513916e2a30fde59d2cf7755218f121",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Generative AI",
-      "title_zh": "Generative AI",
-      "url": "https://github.com/steven2358/awesome-generative-ai",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "steven2358/awesome-generative-ai",
-      "description": "Generative AI - Automatically generates a wide range of unique content in text, image, and audio format.",
-      "summary": "Generative AI - Automatically generates a wide range of unique content in text, image, and audio format.",
-      "mention_summaries": [
-        "Generative AI - Automatically generates a wide range of unique content in text, image, and audio format."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：Generative AI - Automatically generates a wide range of unique content in text, image, and audio format. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Generative AI - Automatically generates a wide range of unique content in text, image, and audio format. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "e695626417fbda5fca8e1de4719c26816777273b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "CodeRabbit",
-      "title_zh": "CodeRabbit",
-      "url": "https://github.com/coderabbitai/awesome-coderabbit",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "coderabbitai/awesome-coderabbit",
-      "description": "CodeRabbit - AI-powered code review platform.",
-      "summary": "CodeRabbit - AI-powered code review platform.",
-      "mention_summaries": [
-        "CodeRabbit - AI-powered code review platform."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：CodeRabbit - AI-powered code review platform. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：CodeRabbit - AI-powered code review platform. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "c4c54ca18f3939a7f3ea9769eaa56b1117dd3257",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Whisper",
-      "title_zh": "Whisper",
-      "url": "https://github.com/sindresorhus/awesome-whisper",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "sindresorhus/awesome-whisper",
-      "description": "Whisper - Open-source AI-powered speech recognition system developed by OpenAI.",
-      "summary": "Whisper - Open-source AI-powered speech recognition system developed by OpenAI.",
-      "mention_summaries": [
-        "Whisper - Open-source AI-powered speech recognition system developed by OpenAI."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：Whisper - Open-source AI-powered speech recognition system developed by OpenAI. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Whisper - Open-source AI-powered speech recognition system developed by OpenAI. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "819bc443af06d30b4cf8f3f510267c54566af68e",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Claude Code",
-      "title_zh": "Claude Code",
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "hesreallyhim/awesome-claude-code",
-      "description": "Claude Code - Terminal-based AI coding assistant by Anthropic.",
-      "summary": "Claude Code - Terminal-based AI coding assistant by Anthropic.",
-      "mention_summaries": [
-        "Claude Code - Terminal-based AI coding assistant by Anthropic."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：Claude Code - Terminal-based AI coding assistant by Anthropic. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Claude Code - Terminal-based AI coding assistant by Anthropic. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
-    },
-    {
-      "id": "47ebcb359c9b54931ade55c89252ecf97f4d5ca4",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Copilot Agents",
-      "title_zh": "Copilot Agents",
-      "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
-      "published_at": null,
-      "first_seen_at": "2026-07-01T10:40:14.026820Z",
-      "last_seen_at": "2026-07-01T10:40:14.026820Z",
-      "ai_label": "github_project",
-      "ai_score": 18,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "Code-and-Sorts/awesome-copilot-agents",
-      "description": "Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions.",
-      "summary": "Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions.",
-      "mention_summaries": [
-        "Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 0,
-      "forks": 0,
-      "watchers": 0,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 18,
-      "github_project_reason": "大白话：Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。",
-      "ai_relevance_reason": "大白话：Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions. 为什么推荐：它被 Awesome 提到，属于可以顺手点开试试的项目。 热度参考：主要语言 未标注语言，star 数据本次未取到。"
     }
   ],
   "sources": [
     {
       "site_id": "github_hellogithub",
       "site_name": "HelloGitHub",
-      "ok": false,
-      "item_count": 0,
-      "candidate": true,
+      "ok": true,
+      "item_count": 48,
+      "candidate": false,
       "url": "https://github.com/521xueweihan/HelloGitHub",
-      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/521xueweihan/HelloGitHub/contents/content?ref=master"
+      "error": null
     },
     {
       "site_id": "github_weekly",
       "site_name": "科技爱好者周刊",
-      "ok": false,
-      "item_count": 0,
-      "candidate": true,
+      "ok": true,
+      "item_count": 46,
+      "candidate": false,
       "url": "https://github.com/ruanyf/weekly",
-      "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/ruanyf/weekly/contents/docs?ref=master"
+      "error": null
     },
     {
       "site_id": "github_awesome",

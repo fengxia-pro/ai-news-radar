@@ -52,6 +52,8 @@ from scripts.update_news import (
     parse_grant_policy_html_items,
     parse_sciencedirect_issue_items,
     parse_sciengine_current_issue_items,
+    parse_xssc_dynamic_items,
+    parse_xssc_notice_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
     SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
@@ -178,6 +180,70 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].site_id, "grant_nsfc")
         self.assertIn("国家自然科学基金", items[0].title)
         self.assertEqual(items[0].meta["grant_topic"], "项目申报")
+
+    def test_xssc_parsers_extract_notices_and_meeting_dynamics(self):
+        now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_xssc",
+            "site_name": "香山科学会议",
+            "source": "香山科学会议",
+            "url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
+            "source_type": "conference",
+            "max_items": 16,
+            "section_max_items": 8,
+        }
+        notice_ts = int(datetime(2026, 6, 30, 12, 0, tzinfo=timezone.utc).timestamp() * 1000)
+        dynamic_ts = int(datetime(2026, 6, 28, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
+
+        notices = parse_xssc_notice_items(
+            [
+                {
+                    "id": "doc-1",
+                    "docName": "香山科学会议“人工智能驱动绿色低碳水处理中的关键核心问题”学术讨论会将于07月16日在北京召开",
+                    "docText": "人工智能驱动绿色低碳水处理中的关键核心问题",
+                    "docDate": notice_ts,
+                }
+            ],
+            source,
+            now,
+        )
+        dynamics = parse_xssc_dynamic_items(
+            [
+                {
+                    "prepareSetupId": "prep-1",
+                    "meetingName": "国家航空应急救援体系现代化建设的思考",
+                    "meetingCode": "797",
+                    "dateStart": dynamic_ts,
+                    "resume": "<p>围绕航空应急救援体系、低空经济和社会治理现代化展开讨论。</p>",
+                }
+            ],
+            source,
+            now,
+        )
+
+        self.assertEqual(len(notices), 1)
+        self.assertEqual(notices[0].meta["grant_topic"], "会议公告")
+        self.assertIn("#/xsscNew/detailsNew/doc-1", notices[0].url)
+        self.assertIn("会议公告", notices[0].meta["summary"])
+        self.assertEqual(notices[0].published_at, datetime(2026, 6, 30, 12, 0, tzinfo=timezone.utc))
+
+        self.assertEqual(len(dynamics), 1)
+        self.assertEqual(dynamics[0].meta["grant_topic"], "会议动态")
+        self.assertIn("第797次", dynamics[0].title)
+        self.assertIn("#/xsscNew/meetingdetailsNew/prep-1/jkxq", dynamics[0].url)
+        self.assertIn("会议动态", dynamics[0].meta["summary"])
+        self.assertEqual(dynamics[0].published_at, datetime(2026, 6, 28, 0, 0, tzinfo=timezone.utc))
+
+        payload = build_grant_policy_payload(
+            notices + dynamics,
+            [{"site_id": source["site_id"], "site_name": source["site_name"], "ok": True, "item_count": 2}],
+            generated_at="2026-07-01T08:00:00Z",
+            window_hours=24,
+            now=now,
+        )
+        urls = {item["url"] for item in payload["items"]}
+        self.assertIn("https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/detailsNew/doc-1", urls)
+        self.assertIn("https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/meetingdetailsNew/prep-1/jkxq", urls)
 
     def test_grant_policy_feed_parser_supports_fundamental_research_rss(self):
         now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)

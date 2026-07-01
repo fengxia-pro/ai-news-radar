@@ -1683,7 +1683,14 @@ function grantPolicyFeynmanText(item) {
   }
 
   if (has("香山科学会议")) {
-    return "大白话：这是高层次学术会议线索。它常常反映一批专家正在讨论的前沿科学问题，适合用来寻找基础研究选题的早期信号。";
+    const evidence = insightSummaryText(item, {}, 260);
+    if (topic.includes("会议公告")) {
+      return paperFeynmanLine("大白话：这是会前公告，重点看这场会是否召开、什么时候开、主题是不是贴近你的研究方向。", evidence);
+    }
+    if (topic.includes("会议动态")) {
+      return paperFeynmanLine("大白话：这是会议动态/会议简况，重点看专家们围绕什么科学问题讨论，以及有没有形成值得追踪的共识。", evidence);
+    }
+    return paperFeynmanLine("大白话：这是高层次学术会议线索。它常常反映一批专家正在讨论的前沿科学问题，适合用来寻找基础研究选题的早期信号。", evidence);
   }
 
   if (has("科技管理", "国家重点研发计划", "科技计划")) {
