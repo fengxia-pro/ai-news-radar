@@ -13,14 +13,14 @@
       const addFrom = function (selector, vars, position) {
         if (document.querySelector(selector)) tl.from(selector, vars, position);
       };
-      addFrom(".hero-headline", { autoAlpha: 0, y: 18, duration: 0.5 });
-      addFrom(".hero-sub", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.2");
-      addFrom(".hero-meta", { autoAlpha: 0, y: 10, duration: 0.4 }, "-=0.25");
-      addFrom(".stat", { autoAlpha: 0, y: 14, scale: 0.98, stagger: 0.06, duration: 0.45 }, "-=0.15");
-      addFrom(".section-tab", { autoAlpha: 0, y: 10, stagger: 0.045, duration: 0.4 }, "-=0.2");
-      addFrom(".section-summary", { autoAlpha: 0, y: 8, duration: 0.35 }, "-=0.25");
-      addFrom(".primary-controls", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.15");
-      addFrom(".advanced-panel", { autoAlpha: 0, y: 8, duration: 0.4 }, "-=0.3");
+      addFrom(".hero-headline", { y: 18, duration: 0.5, clearProps: "transform" });
+      addFrom(".hero-sub", { y: 10, duration: 0.4, clearProps: "transform" }, "-=0.2");
+      addFrom(".hero-meta", { y: 10, duration: 0.4, clearProps: "transform" }, "-=0.25");
+      addFrom(".stat", { y: 10, scale: 0.98, stagger: 0.04, duration: 0.35, clearProps: "transform" }, "-=0.15");
+      addFrom(".section-tab", { y: 8, stagger: 0.03, duration: 0.3, clearProps: "transform" }, "-=0.2");
+      addFrom(".section-summary", { y: 6, duration: 0.3, clearProps: "transform" }, "-=0.25");
+      addFrom(".primary-controls", { y: 8, duration: 0.35, clearProps: "transform" }, "-=0.15");
+      addFrom(".advanced-panel", { y: 8, duration: 0.35, clearProps: "transform" }, "-=0.3");
     }, { once: true });
 
     // Top stories render after data loads; keep legacy selectors for old data views.

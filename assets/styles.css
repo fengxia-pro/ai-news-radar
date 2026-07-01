@@ -190,6 +190,10 @@ button {
   white-space: nowrap;
 }
 
+.stats:empty {
+  display: none;
+}
+
 .section-nav-wrap {
   grid-column: 1 / -1;
   display: grid;
@@ -210,6 +214,10 @@ button {
   border-radius: var(--radius);
   padding: 6px;
   background: rgba(255, 255, 255, 0.52);
+}
+
+.section-tabs:empty {
+  display: none;
 }
 
 .section-tabs::-webkit-scrollbar {
