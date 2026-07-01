@@ -169,6 +169,9 @@ const MODEL_SCORE_SOURCE_ORDER = {
   "Cheapest Models (per 1M tokens)": 9,
 };
 
+const MODEL_SCORE_LEADERBOARD_URL = "https://www.vellum.ai/llm-leaderboard";
+const MODEL_SCORE_RESEARCH_IMAGE = "./assets/screenshots/research-first-principles-20260701.png";
+
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
   { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近一周公众号文章与已确认入口" },
@@ -684,8 +687,7 @@ function renderSectionSummary(filteredItems = null) {
   }
   if (state.activeSection === "model_scores") {
     const updated = state.modelScoreData?.updated_label || "最新公开榜单";
-    const benchmarks = new Set(items.map((item) => item.benchmark || item.source).filter(Boolean));
-    sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条模型评分 · ${fmtNumber(benchmarks.size)} 个榜单/指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
+    sectionSummaryEl.textContent = `专题池 · GPQA / AIME / ARC-AGI 三个科研相关指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
     renderStickySummary();
     return;
   }
@@ -807,6 +809,8 @@ function listTitleText() {
 
 function renderListSortTools() {
   if (!listSortToolsEl) return;
+  listSortToolsEl.hidden = state.activeSection === "model_scores";
+  if (state.activeSection === "model_scores") return;
   const validSort = LIST_SORT_DEFS.some((item) => item.id === state.listSort);
   if (!validSort) state.listSort = "priority";
   listSortToolsEl.querySelectorAll("[data-sort]").forEach((button) => {
@@ -3085,7 +3089,118 @@ function renderSiteGroups(items) {
   document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
 }
 
+function renderModelScoreEmbed() {
+  const sourceUrl = state.modelScoreData?.source_url || MODEL_SCORE_LEADERBOARD_URL;
+  const metrics = Array.isArray(state.modelScoreData?.research_metrics) ? state.modelScoreData.research_metrics : [];
+  resultCountEl.textContent = `${fmtNumber(metrics.length)} 个科研指标`;
+  renderSectionSummary(state.modelScoreItems || []);
+  newsListEl.innerHTML = "";
+
+  const panel = document.createElement("section");
+  panel.className = "model-score-research";
+
+  const head = document.createElement("div");
+  head.className = "model-score-research-head";
+  const titleWrap = document.createElement("div");
+  const eyebrow = document.createElement("p");
+  eyebrow.className = "section-eyebrow";
+  eyebrow.textContent = "RESEARCH MODEL SCORE";
+  const title = document.createElement("h3");
+  title.textContent = "科研最相关的三类模型能力";
+  const meta = document.createElement("p");
+  meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化。科研选模型优先看这三类能力。";
+  titleWrap.append(eyebrow, title, meta);
+
+  const link = document.createElement("a");
+  link.className = "model-score-open";
+  link.href = sourceUrl;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Vellum 原榜单";
+  head.append(titleWrap, link);
+
+  const imagePanel = document.createElement("figure");
+  imagePanel.className = "model-score-context";
+  const image = document.createElement("img");
+  image.src = state.modelScoreData?.research_image || MODEL_SCORE_RESEARCH_IMAGE;
+  image.alt = "研究生14大学科科研的第一性原理";
+  image.loading = "lazy";
+  const caption = document.createElement("figcaption");
+  caption.textContent = "这张图解释了为什么科研模型评分不能只看聊天体验：基础学科看科学和数学推理，交叉学科看抽象泛化与机制发现。";
+  imagePanel.append(image, caption);
+
+  const metricIntro = document.createElement("div");
+  metricIntro.className = "model-score-intro";
+  [
+    ["GPQA", "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。"],
+    ["AIME", "复杂数学推理，适合判断模型做公式、证明、定量分析时是否稳。"],
+    ["ARC-AGI", "抽象规则归纳，接近科研中从少量现象发现机制、迁移到新问题的能力。"],
+  ].forEach(([label, text]) => {
+    const item = document.createElement("div");
+    const strong = document.createElement("strong");
+    strong.textContent = label;
+    const p = document.createElement("p");
+    p.textContent = text;
+    item.append(strong, p);
+    metricIntro.appendChild(item);
+  });
+
+  const chartGrid = document.createElement("div");
+  chartGrid.className = "model-score-chart-grid";
+  metrics.forEach((metric) => chartGrid.appendChild(renderModelScoreChart(metric)));
+
+  panel.append(head, imagePanel, metricIntro, chartGrid);
+  newsListEl.appendChild(panel);
+  document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+}
+
+function renderModelScoreChart(metric) {
+  const card = document.createElement("article");
+  card.className = `model-score-chart metric-${metric.id || "benchmark"}`;
+
+  const head = document.createElement("div");
+  head.className = "model-score-chart-head";
+  const label = document.createElement("span");
+  label.textContent = metric.label || "Benchmark";
+  const title = document.createElement("h4");
+  title.textContent = metric.title || metric.label || "模型评分";
+  const why = document.createElement("p");
+  why.textContent = metric.why || "";
+  head.append(label, title, why);
+
+  const rows = document.createElement("div");
+  rows.className = "model-score-bars";
+  const items = Array.isArray(metric.items) ? metric.items : [];
+  const maxScore = Math.max(...items.map((item) => Number(item.score) || 0), 100);
+  items.forEach((item, index) => {
+    const row = document.createElement("div");
+    row.className = "model-score-bar-row";
+    const top = document.createElement("div");
+    top.className = "model-score-bar-top";
+    const model = document.createElement("span");
+    model.textContent = `${index + 1}. ${item.model}`;
+    const score = document.createElement("strong");
+    score.textContent = `${item.score}%`;
+    top.append(model, score);
+    const track = document.createElement("div");
+    track.className = "model-score-bar-track";
+    const fill = document.createElement("span");
+    fill.style.width = `${Math.max(4, Math.min(100, ((Number(item.score) || 0) / maxScore) * 100))}%`;
+    track.appendChild(fill);
+    row.append(top, track);
+    rows.appendChild(row);
+  });
+
+  card.append(head, rows);
+  return card;
+}
+
 function renderList() {
+  if (state.activeSection === "model_scores") {
+    renderListSortTools();
+    renderModelScoreEmbed();
+    return;
+  }
   const filtered = getFilteredItems();
   renderListSortTools();
   resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;

@@ -7,7 +7,52 @@
   "notes": [
     "数据来自 Vellum LLM Leaderboard 页面公开榜单。",
     "分数为 Vellum 页面展示的公开 benchmark 分数；不同 benchmark 不宜直接横向相加。",
-    "本专题优先展示综合、推理、代码、办公自动化、电脑使用、浏览和终端使用等榜单。"
+    "本专题优先展示 GPQA、AIME、ARC-AGI 三个与科研判断最相关的指标：科学推理、数学推理、抽象泛化。"
+  ],
+  "research_image": "./assets/screenshots/research-first-principles-20260701.png",
+  "research_metrics": [
+    {
+      "id": "gpqa",
+      "label": "GPQA Diamond",
+      "title": "科学推理",
+      "why": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
+      "source_field": "gpqaReasoningNum",
+      "items": [
+        { "model": "Claude Sonnet 5", "score": 96.2 },
+        { "model": "Claude 3 Opus", "score": 95.4 },
+        { "model": "Gemini 3.1 Pro", "score": 94.3 },
+        { "model": "Claude Opus 4.7", "score": 94.2 },
+        { "model": "Claude Fable 5", "score": 94.1 }
+      ]
+    },
+    {
+      "id": "aime",
+      "label": "AIME",
+      "title": "数学推理",
+      "why": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
+      "source_field": "numAime2025MathCompetition",
+      "items": [
+        { "model": "Gemini 3 Pro", "score": 100 },
+        { "model": "GPT 5.2", "score": 100 },
+        { "model": "Claude Opus 4.6", "score": 99.8 },
+        { "model": "Kimi K2 Thinking", "score": 99.1 },
+        { "model": "GPT oss 20b", "score": 98.7 }
+      ]
+    },
+    {
+      "id": "arc-agi",
+      "label": "ARC-AGI",
+      "title": "抽象泛化",
+      "why": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
+      "source_field": "numArcAgi2",
+      "items": [
+        { "model": "GPT-5.5", "score": 85 },
+        { "model": "Gemini 3.1 Pro", "score": 77.1 },
+        { "model": "Gemini 3.5 Flash", "score": 72.1 },
+        { "model": "Claude Opus 4.6", "score": 68.8 },
+        { "model": "Claude Sonnet 4.6", "score": 58.3 }
+      ]
+    }
   ],
   "items": [
     {
