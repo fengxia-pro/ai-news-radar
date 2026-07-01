@@ -93,7 +93,7 @@
       "site_id": "wechat_slow_professor",
       "site_name": "微信公众号：慢教授的科研江湖",
       "ok": true,
-      "item_count": 0,
+      "item_count": 6,
       "duration_ms": 0,
       "error": null
     },
@@ -301,14 +301,14 @@
   },
   "slow_professor": {
     "enabled": true,
-    "item_count": 5,
+    "item_count": 6,
     "confirmed_entry_count": 1,
     "source_total": 1,
     "ok_sources": 1,
     "candidate_sources": [],
     "data_url": "data/latest-slow-professor-7d.json",
     "window_hours": 168,
-    "source_mode": "manual_wechat_link+opml_wechat_rss",
+    "source_mode": "manual_wechat_link",
     "mode": "public_topic_lane"
   },
   "github_projects": {

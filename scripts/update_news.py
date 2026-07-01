@@ -152,6 +152,36 @@ SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
             "保护范围大不大、会不会被别人无效掉。"
         ),
     },
+    {
+        "title": "我用 Codex 管书稿项目的第一条经验：先别让它动文件",
+        "url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
+        "published_at": "2026-06-30T05:30:39+08:00",
+        "summary": "这篇文章提醒科研写作和书稿项目中，先让 Codex 帮你理解结构、列计划、确认风险，再决定是否动文件。",
+    },
+    {
+        "title": "审别人的稿子，才是最快的写作训练-慢老师的技能",
+        "url": "https://mp.weixin.qq.com/s/ymxMnNTiBjgcfBZh6vXVEQ",
+        "published_at": "2026-06-29T05:30:47+08:00",
+        "summary": "这篇文章讲如何通过审读他人的稿子训练自己的写作判断，适合科研写作和论文修改场景。",
+    },
+    {
+        "title": "那些离开高校的人，并没有把学术还回去",
+        "url": "https://mp.weixin.qq.com/s/2QdYvG0sZlgnwx3rps-6og",
+        "published_at": "2026-06-28T10:56:58+08:00",
+        "summary": "这篇文章讨论离开高校之后，学术训练、研究视角和表达能力如何继续留在个人工作方式里。",
+    },
+    {
+        "title": "原来 Cover Letter 里还可以放图",
+        "url": "https://mp.weixin.qq.com/s/dB9WjxcQQm3GVm_oPLVbJg",
+        "published_at": "2026-06-25T05:31:07+08:00",
+        "summary": "这篇文章围绕 SCI 投稿 Cover Letter 写作，提示可以用图更清楚地呈现文章亮点和审稿人需要快速理解的信息。",
+    },
+    {
+        "title": "慢教授科研江湖近一周文章（用户确认）",
+        "url": "https://mp.weixin.qq.com/s/b8yqugVgQ-wS3lCDIKmiFg",
+        "published_at": "2026-06-30T12:00:00+08:00",
+        "summary": "这是用户确认的慢教授科研江湖近一周微信原文链接。当前公开抓取无法读取标题，先作为已确认近一周文章保留。",
+    },
 )
 CURATED_AI_MEDIA_FEEDS: tuple[dict[str, Any], ...] = (
     {
