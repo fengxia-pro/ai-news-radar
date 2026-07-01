@@ -3391,7 +3391,7 @@ def build_slow_professor_payload(
         ]
 
     existing = existing_payload if isinstance(existing_payload, dict) else {}
-    if not records and isinstance(existing.get("items"), list):
+    if isinstance(existing.get("items"), list):
         cached_items = [
             item
             for item in existing.get("items", [])
@@ -3400,7 +3400,8 @@ def build_slow_professor_payload(
             and (item.get("is_recent_7d") or item.get("is_recent_3d"))
         ]
         if cached_items:
-            records = cached_items
+            records = dedupe_items_by_title_url([*records, *cached_items], random_pick=False)
+            records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
     confirmed_entries = slow_professor_confirmed_entries(now)
     feed_url = slow_professor_wechat_feed_url()
