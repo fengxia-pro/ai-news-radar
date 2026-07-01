@@ -119,33 +119,22 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
 OFFICIAL_AI_MAX_AGE_DAYS = 45
 CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
 SLOW_PROFESSOR_WECHAT_SITE_ID = "wechat_slow_professor"
-SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID = "grant_wechat_slow_professor"
 SLOW_PROFESSOR_WECHAT_SOURCE = "公众号：慢教授的科研江湖"
+SLOW_PROFESSOR_WECHAT_WINDOW_HOURS = 72
+SLOW_PROFESSOR_WECHAT_DATA_FILE = "latest-slow-professor-3d.json"
 SLOW_PROFESSOR_WECHAT_ENV_NAMES = (
     "SLOW_PROFESSOR_WECHAT_FEED_URL",
     "WECHAT_SLOW_PROFESSOR_FEED_URL",
 )
 SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
     {
-        "title": "慢教授的科研江湖固定入口：从顶刊文献中找到国自然科学问题",
+        "title": "慢教授的科研江湖：从顶刊文献中找到国自然科学问题",
         "url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
-        "mirror_url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563204/page.htm",
-        "original_published_at": "2024-09-26T00:00:00+08:00",
+        "original_published_at": "",
         "summary": (
             "大白话：这篇文章教你把顶刊论文摘要拆成五句话，重点盯住第二句里的"
             "“科学问题”，再把多篇顶刊的问题合并提炼，变成国自然申请书里更像样的"
-            "科学问题。固定关注源，不代表今天新发。"
-        ),
-    },
-    {
-        "title": "慢教授的科研江湖固定入口：用慢生产力准备国自然",
-        "url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563203/page.htm",
-        "mirror_url": "https://www2.scut.edu.cn/TAO_EES/2024/0926/c32662a563203/page.htm",
-        "original_published_at": "2024-09-26T00:00:00+08:00",
-        "summary": (
-            "大白话：这篇文章提醒科研人不要只靠临近截止前猛冲，而是把国自然准备拆到"
-            "日常深度阅读、思考和反复打磨里。它更像一个工作节奏提醒：少做杂事，"
-            "把质量最高的申请书慢慢磨出来。固定关注源，不代表今天新发。"
+            "科学问题。这是你明确给出的微信原文入口，不把它冒充为近三日新发文章。"
         ),
     },
 )
@@ -1298,46 +1287,6 @@ def fetch_grant_policy_source(
     return items, status
 
 
-def fetch_slow_professor_wechat_grant_policy(
-    session: requests.Session,
-    now: datetime,
-) -> tuple[list[RawItem], dict[str, Any]]:
-    start = time.perf_counter()
-    error = None
-    items: list[RawItem] = []
-    try:
-        for raw in fetch_slow_professor_wechat(session, now):
-            meta = dict(raw.meta if isinstance(raw.meta, dict) else {})
-            meta["grant_topic"] = "国自然方法"
-            meta["grant_source_type"] = "wechat_public_account"
-            items.append(
-                RawItem(
-                    site_id=SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID,
-                    site_name="慢教授的科研江湖",
-                    source=SLOW_PROFESSOR_WECHAT_SOURCE,
-                    title=raw.title,
-                    url=raw.url,
-                    published_at=raw.published_at or now,
-                    meta=meta,
-                )
-            )
-    except Exception as exc:
-        error = str(exc)
-
-    status = {
-        "site_id": SLOW_PROFESSOR_WECHAT_GRANT_SITE_ID,
-        "site_name": "慢教授的科研江湖",
-        "ok": error is None,
-        "item_count": len(items),
-        "duration_ms": int((time.perf_counter() - start) * 1000),
-        "error": error,
-        "source_group": "grant_policy",
-        "source_url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
-        "candidate": error is not None or len(items) == 0,
-    }
-    return items, status
-
-
 def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
     items: list[RawItem] = []
     statuses: list[dict[str, Any]] = []
@@ -1345,9 +1294,6 @@ def collect_grant_policy_sources(session: requests.Session, now: datetime) -> tu
         source_items, status = fetch_grant_policy_source(session, source, now)
         items.extend(source_items)
         statuses.append(status)
-    source_items, status = fetch_slow_professor_wechat_grant_policy(session, now)
-    items.extend(source_items)
-    statuses.append(status)
     return items, statuses
 
 
@@ -1422,7 +1368,7 @@ def build_grant_policy_payload(
         "sources": sources,
         "reference_sources": list(GRANT_POLICY_REFERENCE_SOURCES),
         "notes": [
-            "微信公众号暂不进入公开站点。",
+            "微信公众号不混入国自然专题；慢教授公众号走独立专题。",
             "国际项目库 v1 仅作为对标入口，不做全量项目抓取。",
             "无稳定 RSS 的站点以公开页面轻量解析和状态候选方式接入。",
         ],
@@ -2778,33 +2724,165 @@ def fetch_slow_professor_wechat(session: requests.Session, now: datetime) -> lis
             if items:
                 return items
         except Exception:
-            # Fall back to stable public seeds so the public site still shows
-            # the account without relying on WeChat login/cookies.
+            # Do not synthesize公众号文章 when the feed is unavailable.
+            # The dedicated topic payload exposes a clear "needs feed" status.
             pass
 
-    out: list[RawItem] = []
+    return []
+
+
+def slow_professor_confirmed_entries(now: datetime) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
     for seed in SLOW_PROFESSOR_WECHAT_SEED_ARTICLES:
-        title = first_non_empty(seed.get("title"), "慢教授的科研江湖固定入口")
-        url = first_non_empty(seed.get("url"), seed.get("mirror_url"))
+        title = first_non_empty(seed.get("title"), "慢教授的科研江湖确认入口")
+        url = first_non_empty(seed.get("url"))
         if not url:
             continue
-        out.append(
-            RawItem(
-                site_id=SLOW_PROFESSOR_WECHAT_SITE_ID,
-                site_name="微信公众号",
-                source=SLOW_PROFESSOR_WECHAT_SOURCE,
-                title=title,
-                url=url,
-                published_at=now,
-                meta={
+        published = parse_date_any(seed.get("original_published_at"), now)
+        entries.append(
+            sanitize_public_payload(
+                {
+                    "id": make_item_id(SLOW_PROFESSOR_WECHAT_SITE_ID, SLOW_PROFESSOR_WECHAT_SOURCE, title, url),
+                    "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                    "site_name": "慢教授的科研江湖",
+                    "source": SLOW_PROFESSOR_WECHAT_SOURCE,
+                    "title": title,
+                    "title_zh": title,
+                    "url": normalize_url(url),
+                    "published_at": iso(published),
+                    "first_seen_at": iso(now),
+                    "last_seen_at": iso(now),
                     "summary": seed.get("summary") or "",
-                    "mirror_url": seed.get("mirror_url") or "",
-                    "original_published_at": seed.get("original_published_at") or "",
-                    "source_mode": "curated_seed",
-                },
+                    "ai_label": "research_policy",
+                    "ai_score": 0.88,
+                    "source_tier": "slow_professor",
+                    "source_tier_label": "慢教授公众号",
+                    "source_tier_rank": 1,
+                    "date_status": "confirmed_entry",
+                    "date_label": "已确认入口",
+                    "source_mode": "confirmed_entry",
+                    "is_recent_3d": False,
+                }
             )
         )
-    return out
+    return entries
+
+
+def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
+    meta = raw.meta if isinstance(raw.meta, dict) else {}
+    published = raw.published_at
+    summary = clean_feed_summary_text(meta.get("summary"), max_chars=900)
+    date_known = published is not None
+    recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
+    record = {
+        "id": make_item_id(raw.site_id, raw.source, raw.title, raw.url),
+        "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+        "site_name": "慢教授的科研江湖",
+        "source": SLOW_PROFESSOR_WECHAT_SOURCE,
+        "title": maybe_fix_mojibake(raw.title.strip()),
+        "title_zh": maybe_fix_mojibake(raw.title.strip()),
+        "url": normalize_url(raw.url),
+        "published_at": iso(published),
+        "first_seen_at": iso(now),
+        "last_seen_at": iso(now),
+        "summary": summary or "大白话：这是慢教授的科研江湖最近 3 日内抓到的公众号文章，建议打开原文判断是否与你的国自然、SCI 写作或科研工作流有关。",
+        "ai_label": "research_policy",
+        "ai_score": 0.9,
+        "source_tier": "slow_professor",
+        "source_tier_label": "慢教授公众号",
+        "source_tier_rank": 1,
+        "date_status": "known" if date_known else "unknown",
+        "date_label": "近三日文章" if date_known else "日期待核",
+        "source_mode": meta.get("source_mode") or "wechat_rss",
+        "is_recent_3d": bool(published and published >= recent_start),
+    }
+    return sanitize_public_payload(record)
+
+
+def load_json_payload(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def build_slow_professor_payload(
+    items: list[RawItem],
+    statuses: list[dict[str, Any]],
+    *,
+    generated_at: str,
+    now: datetime,
+    existing_payload: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
+    records = [
+        slow_professor_record_from_raw(item, now)
+        for item in items
+        if item.published_at and item.published_at >= recent_start
+    ]
+    records = dedupe_items_by_title_url(records, random_pick=False)
+    records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
+
+    sources = [
+        {
+            "site_id": status.get("site_id"),
+            "site_name": status.get("site_name"),
+            "ok": status.get("ok"),
+            "item_count": status.get("item_count"),
+            "candidate": status.get("candidate"),
+            "url": "configured" if slow_professor_wechat_feed_url() else "",
+            "error": status.get("error"),
+        }
+        for status in statuses
+        if status.get("site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID
+    ]
+    if not sources:
+        sources = [
+            {
+                "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "微信公众号：慢教授的科研江湖",
+                "ok": True,
+                "item_count": len(records),
+                "candidate": not bool(records),
+                "url": "configured" if slow_professor_wechat_feed_url() else "",
+                "error": None,
+            }
+        ]
+
+    existing = existing_payload if isinstance(existing_payload, dict) else {}
+    if not records and isinstance(existing.get("items"), list):
+        cached_items = [
+            item
+            for item in existing.get("items", [])
+            if isinstance(item, dict)
+            and item.get("site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID
+            and item.get("is_recent_3d")
+        ]
+        if cached_items:
+            records = cached_items
+
+    confirmed_entries = slow_professor_confirmed_entries(now)
+    feed_url = slow_professor_wechat_feed_url()
+    source_mode = "wechat_rss" if records else ("feed_configured_no_recent_items" if feed_url else "needs_public_feed_url")
+    return {
+        "generated_at": generated_at,
+        "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
+        "topic": "慢教授科研江湖",
+        "total_items": len(records),
+        "items": records,
+        "confirmed_entry_count": len(confirmed_entries),
+        "confirmed_entries": confirmed_entries,
+        "sources": sources,
+        "source_mode": source_mode,
+        "notes": [
+            "本专题只把可核验的 RSS/Atom 条目当作近三日文章。",
+            "未配置公网 RSS/WeWe 地址时，不用第三方转载页冒充公众号文章。",
+            "已确认入口只代表用户明确给过的微信原文，不代表最近三日新发。",
+        ],
+    }
 
 
 def parse_anthropic_news_items(page_html: str, now: datetime) -> list[RawItem]:
@@ -4119,9 +4197,16 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
 def event_time(record: dict[str, Any]) -> datetime | None:
     # RSS sources must rely on the source's publish time only.
     # first_seen_at is fetch time and would falsely mark historical items as "24h".
-    if str(record.get("site_id") or "") == "opmlrss":
+    if str(record.get("site_id") or "") in {"opmlrss", SLOW_PROFESSOR_WECHAT_SITE_ID}:
         return parse_iso(record.get("published_at"))
     return parse_iso(record.get("published_at")) or parse_iso(record.get("first_seen_at"))
+
+
+def is_legacy_invalid_slow_professor_record(record: dict[str, Any]) -> bool:
+    if str(record.get("site_id") or "") != SLOW_PROFESSOR_WECHAT_SITE_ID:
+        return False
+    hay = f"{record.get('title') or ''} {record.get('url') or ''}".lower()
+    return "scut.edu.cn" in hay or "慢生产力" in hay or "固定入口" in hay
 
 
 SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
@@ -4135,7 +4220,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "waytoagi": ("community", "社区更新", 2),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
-    SLOW_PROFESSOR_WECHAT_SITE_ID: ("community", "微信公众号", 2),
+    SLOW_PROFESSOR_WECHAT_SITE_ID: ("slow_professor", "慢教授公众号", 1),
     "tikhub_douyin": ("self_media", "自媒体源", 4),
     "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
@@ -6687,12 +6772,18 @@ def main() -> int:
     merge_log_path = output_dir / "merge-log.json"
     waytoagi_path = output_dir / "waytoagi-7d.json"
     grant_policy_path = output_dir / "latest-grants-24h.json"
+    slow_professor_path = output_dir / SLOW_PROFESSOR_WECHAT_DATA_FILE
     github_projects_path = output_dir / "github-projects.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
     paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
 
     archive = load_archive(archive_path)
+    archive = {
+        item_id: record
+        for item_id, record in archive.items()
+        if not is_legacy_invalid_slow_professor_record(record)
+    }
     paid_source_state = load_paid_source_state(paid_source_state_path)
 
     session = create_session()
@@ -6940,6 +7031,16 @@ def main() -> int:
     daily_brief_payload = build_daily_brief_payload(stories, generated_at=generated_at, window_hours=args.window_hours)
     stories_merged_payload = build_stories_payload(stories, generated_at=generated_at, window_hours=args.window_hours)
     merge_log_payload = build_merge_log_payload(merge_events, generated_at=generated_at)
+    slow_professor_source_items = [
+        raw for raw in raw_items if raw.site_id == SLOW_PROFESSOR_WECHAT_SITE_ID
+    ]
+    slow_professor_payload = build_slow_professor_payload(
+        slow_professor_source_items,
+        statuses,
+        generated_at=generated_at,
+        now=now,
+        existing_payload=load_json_payload(slow_professor_path),
+    )
     grant_policy_payload = build_grant_policy_payload(
         grant_policy_items,
         grant_policy_statuses,
@@ -7070,6 +7171,22 @@ def main() -> int:
             "reference_source_count": len(GRANT_POLICY_REFERENCE_SOURCES),
             "mode": "public_topic_lane",
         },
+        "slow_professor": {
+            "enabled": True,
+            "item_count": len(slow_professor_payload.get("items") or []),
+            "confirmed_entry_count": len(slow_professor_payload.get("confirmed_entries") or []),
+            "source_total": len(slow_professor_payload.get("sources") or []),
+            "ok_sources": sum(1 for s in slow_professor_payload.get("sources") or [] if s.get("ok")),
+            "candidate_sources": [
+                s.get("site_id")
+                for s in slow_professor_payload.get("sources") or []
+                if s.get("candidate")
+            ],
+            "data_url": f"data/{SLOW_PROFESSOR_WECHAT_DATA_FILE}",
+            "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
+            "source_mode": slow_professor_payload.get("source_mode"),
+            "mode": "public_topic_lane",
+        },
         "github_projects": {
             "enabled": True,
             "item_count": len(github_projects_payload.get("items") or []),
@@ -7140,6 +7257,10 @@ def main() -> int:
         json.dumps(sanitize_public_payload(grant_policy_payload), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    slow_professor_path.write_text(
+        json.dumps(sanitize_public_payload(slow_professor_payload), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     github_projects_path.write_text(
         json.dumps(sanitize_public_payload(github_projects_payload), ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -7164,6 +7285,7 @@ def main() -> int:
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
     print(f"Wrote: {grant_policy_path} ({grant_policy_payload.get('total_items', 0)} grant policy items)")
+    print(f"Wrote: {slow_professor_path} ({slow_professor_payload.get('total_items', 0)} slow professor items)")
     print(f"Wrote: {github_projects_path} ({github_projects_payload.get('total_items', 0)} GitHub project items)")
     print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:

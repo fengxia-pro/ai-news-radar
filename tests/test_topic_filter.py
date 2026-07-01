@@ -10,6 +10,7 @@ from scripts.update_news import (
     build_github_projects_payload,
     build_grant_policy_payload,
     build_latest_payloads,
+    build_slow_professor_payload,
     dedupe_items_by_title_url,
     enrich_grant_policy_journal_items,
     fetch_agentmail_digest,
@@ -36,6 +37,7 @@ from scripts.update_news import (
     parse_date_any,
     parse_feed_entries_via_xml,
     parse_hn_algolia_hits,
+    parse_slow_professor_wechat_feed,
     parse_tikhub_douyin_items,
     parse_tikhub_xiaohongshu_items,
     parse_tikhub_xiaohongshu_user_profiles,
@@ -46,6 +48,8 @@ from scripts.update_news import (
     parse_grant_policy_html_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
+    SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
+    SLOW_PROFESSOR_WECHAT_SITE_ID,
     source_tier_for_site,
     source_tier_sort_key,
     sync_paid_source_status_timestamps,
@@ -239,6 +243,50 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(payload["items"][0]["grant_date_status"], "unknown")
         self.assertEqual(payload["items"][0]["grant_date_label"], "日期待核")
         self.assertEqual(payload["items"][0]["first_seen_at"], "2026-07-01T01:00:00Z")
+
+    def test_slow_professor_topic_keeps_only_recent_feed_items(self):
+        now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
+        atom = """<?xml version="1.0" encoding="UTF-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <entry>
+            <title>近三日文章：如何提炼国自然科学问题</title>
+            <link href="https://mp.weixin.qq.com/s/recent123"/>
+            <updated>2026-06-30T10:00:00+08:00</updated>
+            <summary>把文献中的问题拆出来，再变成申请书里的科学问题。</summary>
+          </entry>
+          <entry>
+            <title>旧文章：不要混进近三日</title>
+            <link href="https://mp.weixin.qq.com/s/old123"/>
+            <updated>2026-06-20T10:00:00+08:00</updated>
+            <summary>旧内容。</summary>
+          </entry>
+        </feed>
+        """.encode("utf-8")
+
+        items = parse_slow_professor_wechat_feed(atom, feed_url="https://example.com/wechat.atom", now=now)
+        payload = build_slow_professor_payload(
+            items,
+            [{"site_id": SLOW_PROFESSOR_WECHAT_SITE_ID, "site_name": "微信公众号：慢教授的科研江湖", "ok": True, "item_count": len(items)}],
+            generated_at="2026-07-01T08:00:00Z",
+            now=now,
+        )
+
+        self.assertEqual(payload["topic"], "慢教授科研江湖")
+        self.assertEqual(payload["total_items"], 1)
+        self.assertIn("近三日文章", payload["items"][0]["title"])
+        self.assertEqual(payload["items"][0]["source_tier"], "slow_professor")
+        self.assertGreaterEqual(payload["confirmed_entry_count"], 1)
+
+    def test_slow_professor_confirmed_entries_do_not_use_scut_mirrors(self):
+        serialized = "\n".join(
+            f"{item.get('title', '')} {item.get('url', '')} {item.get('mirror_url', '')}"
+            for item in SLOW_PROFESSOR_WECHAT_SEED_ARTICLES
+        )
+
+        self.assertNotIn("scut.edu.cn", serialized)
+        self.assertNotIn("563203", serialized)
+        self.assertNotIn("慢生产力", serialized)
+        self.assertNotIn("固定入口", serialized)
 
     def test_grant_policy_journal_enrichment_reads_openalex_abstract(self):
         now = datetime(2026, 6, 30, 8, 0, tzinfo=timezone.utc)

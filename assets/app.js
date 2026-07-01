@@ -9,6 +9,10 @@ const state = {
   grantPolicyItems: [],
   grantPolicySources: [],
   grantPolicyReferenceSources: [],
+  slowProfessorData: null,
+  slowProfessorItems: [],
+  slowProfessorConfirmedEntries: [],
+  slowProfessorSources: [],
   githubProjectData: null,
   githubProjectItems: [],
   githubProjectSources: [],
@@ -111,7 +115,7 @@ const SOURCE_KINDS = {
   waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
   opmlrss: { label: "OPML", tone: "newsletter" },
-  wechat_slow_professor: { label: "公众号", tone: "newsletter" },
+  wechat_slow_professor: { label: "慢教授", tone: "newsletter" },
   grant_qstheory: { label: "科研政策", tone: "official" },
   grant_nsfc: { label: "国自然", tone: "official" },
   grant_bnsfc: { label: "科学基金", tone: "research" },
@@ -120,7 +124,6 @@ const SOURCE_KINDS = {
   grant_most_service: { label: "科技管理", tone: "official" },
   grant_csb: { label: "科学通报", tone: "research" },
   grant_casisd: { label: "中科院", tone: "research" },
-  grant_wechat_slow_professor: { label: "公众号", tone: "newsletter" },
   github_hellogithub: { label: "HelloGitHub", tone: "builders" },
   github_weekly: { label: "科技周刊", tone: "builders" },
   github_awesome: { label: "Awesome", tone: "builders" },
@@ -135,11 +138,11 @@ const GRANT_POLICY_SITE_IDS = new Set([
   "grant_most_service",
   "grant_csb",
   "grant_casisd",
-  "grant_wechat_slow_professor",
 ]);
 
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
+  { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近 3 日公众号文章与已确认入口" },
   { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
   { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
@@ -268,6 +271,11 @@ function renderStickySummary() {
     stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 科研政策专题${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
+  if (state.activeSection === "slow_professor") {
+    const confirmedCount = state.slowProfessorConfirmedEntries.length;
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授近3日专题 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    return;
+  }
   if (state.activeSection === "github_projects") {
     stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 个 · GitHub好玩项目${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
@@ -376,6 +384,7 @@ function renderCoverageStrip(errorMessage = "") {
   const xApi = state.sourceStatus?.x_api || {};
   const socialdata = state.sourceStatus?.socialdata || {};
   const grantPolicy = state.sourceStatus?.grant_policy || {};
+  const slowProfessor = state.sourceStatus?.slow_professor || {};
   const githubProjects = state.sourceStatus?.github_projects || {};
   const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
   const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
@@ -403,6 +412,12 @@ function renderCoverageStrip(errorMessage = "") {
   const grantMeta = grantPolicy.enabled
     ? `公开源 ${fmtNumber(grantPolicy.ok_sources || 0)}/${fmtNumber(grantPolicy.source_total || 0)} · 国际入口 ${fmtNumber(grantPolicy.reference_source_count || 0)}`
     : "国自然 / 科研政策专题源";
+  const slowProfessorValue = slowProfessor.enabled
+    ? `${fmtNumber(slowProfessor.item_count || state.slowProfessorItems.length)} 条`
+    : "专题待生成";
+  const slowProfessorMeta = slowProfessor.enabled
+    ? `近3日 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessor.source_mode === "needs_public_feed_url" ? "待公网RSS" : "RSS已接入"}`
+    : "慢教授科研江湖公众号专题";
   const githubValue = githubProjects.enabled
     ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
     : "项目待生成";
@@ -423,6 +438,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["国自然专题", grantValue, grantMeta, "official"],
+    ["慢教授专题", slowProfessorValue, slowProfessorMeta, "private"],
     ["GitHub项目", githubValue, githubMeta, "builders"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
@@ -467,6 +483,9 @@ function currentSiteStats() {
   if (state.activeSection === "grant_policy") {
     return computeSiteStats(state.grantPolicyItems || []);
   }
+  if (state.activeSection === "slow_professor") {
+    return computeSiteStats(slowProfessorDisplayItems());
+  }
   if (state.activeSection === "github_projects") {
     return computeSiteStats(state.githubProjectItems || []);
   }
@@ -499,11 +518,11 @@ function itemSourceType(item) {
   const siteId = item.site_id || "";
   const tier = item.source_tier || "";
   if (GRANT_POLICY_SITE_IDS.has(siteId) || tier === "grant_policy") return "grant_policy";
+  if (tier === "slow_professor" || siteId === "wechat_slow_professor") return "community";
   if (tier === "github_projects" || siteId.startsWith("github_")) return "github_projects";
   if (siteId === "official_ai" || tier === "official") return "official";
   if (siteId === "curated_media" || siteId === "aibreakfast" || siteId === "aihot") return "media";
   if (siteId === "opmlrss" || tier === "user_opml") return "rss";
-  if (siteId === "wechat_slow_professor") return "community";
   if (siteId === "waytoagi" || siteId === "followbuilders" || siteId === "hackernews" || siteId === "zeli" || siteId === "aibase") return "community";
   if (siteId === "tikhub_douyin" || siteId === "tikhub_xiaohongshu") return "creator";
   if (siteId === "socialdata_x" || siteId === "xapi" || siteId === "agentmail") return "advanced";
@@ -588,6 +607,16 @@ function renderSectionSummary(filteredItems = null) {
     const datedCount = items.filter((item) => item.published_at && item.grant_date_status !== "unknown").length;
     const unknownDateCount = Math.max(0, items.length - datedCount);
     sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条国自然 / 科研政策信号 · ${fmtNumber(datedCount)} 条有发布时间 · ${fmtNumber(unknownDateCount)} 条日期待核 · ${fmtNumber(sources.size)} 个来源`;
+    renderStickySummary();
+    return;
+  }
+  if (state.activeSection === "slow_professor") {
+    const recentCount = state.slowProfessorItems.length;
+    const confirmedCount = state.slowProfessorConfirmedEntries.length;
+    const mode = state.slowProfessorData?.source_mode === "needs_public_feed_url"
+      ? "待配置公网 RSS/WeWe"
+      : "RSS/Atom 可用";
+    sectionSummaryEl.textContent = `专题池 · 近3日 ${fmtNumber(recentCount)} 条 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 不使用第三方转载页冒充公众号`;
     renderStickySummary();
     return;
   }
@@ -680,6 +709,8 @@ function renderModeSwitch() {
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.activeSection === "grant_policy") {
     modeHintEl.textContent = `科研政策 · ${fmtNumber(state.grantPolicyItems.length)} 条`;
+  } else if (state.activeSection === "slow_professor") {
+    modeHintEl.textContent = `慢教授 · 近3日 ${fmtNumber(state.slowProfessorItems.length)} 条`;
   } else if (state.activeSection === "github_projects") {
     modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
   } else if (state.mode === "ai") {
@@ -699,6 +730,7 @@ function renderModeSwitch() {
 
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近3日文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
@@ -756,6 +788,12 @@ function effectiveAllItems() {
   return state.allDedup ? state.itemsAll : state.itemsAllRaw;
 }
 
+function slowProfessorDisplayItems() {
+  const recent = Array.isArray(state.slowProfessorItems) ? state.slowProfessorItems : [];
+  if (recent.length) return recent;
+  return Array.isArray(state.slowProfessorConfirmedEntries) ? state.slowProfessorConfirmedEntries : [];
+}
+
 function modeItems() {
   return state.mode === "all" ? effectiveAllItems() : state.itemsAi;
 }
@@ -763,6 +801,9 @@ function modeItems() {
 function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   if (sectionId === "grant_policy") {
     return [...(state.grantPolicyItems || [])].sort((a, b) => timelineMs(b) - timelineMs(a));
+  }
+  if (sectionId === "slow_professor") {
+    return slowProfessorDisplayItems().sort((a, b) => timelineMs(b) - timelineMs(a));
   }
   if (sectionId === "github_projects") {
     return [...(state.githubProjectItems || [])].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || Number(b.stars || 0) - Number(a.stars || 0));
@@ -819,6 +860,7 @@ function itemLabelTone(item) {
   if (item.site_id === "official_ai") return "official";
   if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
   if (itemSections(item).has("grant_policy")) return "official";
+  if (itemSections(item).has("slow_professor")) return "community";
   if (itemSections(item).has("github_projects")) return "devtools";
   if (itemSections(item).has("creator")) return "creator";
   if (label === "model_release") return "models";
@@ -960,6 +1002,9 @@ function itemSections(item) {
   const source = `${item.source || ""} ${item.site_name || ""}`.toLowerCase();
   if (GRANT_POLICY_SITE_IDS.has(item.site_id) || item.source_tier === "grant_policy") {
     sections.add("grant_policy");
+  }
+  if (item.site_id === "wechat_slow_professor" || item.source_tier === "slow_professor") {
+    sections.add("slow_professor");
   }
   if (item.source_tier === "github_projects" || String(item.site_id || "").startsWith("github_")) {
     sections.add("github_projects");
@@ -1107,6 +1152,10 @@ function timeLabelText(item, fallbackIso = "") {
   if (itemSections(item).has("grant_policy") && item.grant_date_status === "unknown") {
     return item.grant_date_label || "日期待核";
   }
+  if (itemSections(item).has("slow_professor")) {
+    if (item.date_status === "confirmed_entry") return item.date_label || "已确认入口";
+    if (!item.published_at) return item.date_label || "日期待核";
+  }
   if (itemSections(item).has("github_projects")) {
     return item.github_project_date_label || "本次收录";
   }
@@ -1196,6 +1245,7 @@ function sourceSignal(item) {
   const source = item.source || "";
   const hay = `${site} ${source}`.toLowerCase();
   if (site === "AI HOT") return "AI HOT精选";
+  if (item.site_id === "wechat_slow_professor" || hay.includes("慢教授")) return "慢教授";
   if (hay.includes("hackernews") || hay.includes("hacker news")) return "HN热议";
   if (hay.includes("hellogithub")) return "HelloGitHub";
   if (hay.includes("科技爱好者周刊") || hay.includes("weekly")) return "科技周刊";
@@ -1215,6 +1265,7 @@ function sourcePriority(item) {
   if (signal === "官方更新") return 100;
   if (signal === "AI HOT精选") return 90;
   if (signal === "AIbase") return 82;
+  if (signal === "慢教授") return 82;
   if (signal === "HelloGitHub") return 80;
   if (signal === "科技周刊") return 76;
   if (signal === "Awesome") return 68;
@@ -1465,9 +1516,6 @@ function paperFeynmanLine(plainText, evidence = "") {
 }
 
 function grantPolicyFeynmanText(item) {
-  if (item.site_id === "grant_wechat_slow_professor" && item.summary) {
-    return item.summary;
-  }
   const title = cleanBriefText(itemTitleText(item), 180);
   const site = item.site_name || item.source || "公开来源";
   const topic = item.grant_topic || "科研政策";
@@ -2261,7 +2309,7 @@ function renderBolePicks() {
 
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const filtered = getFilteredItems();
-  const storyPools = state.activeSection === "grant_policy"
+  const storyPools = state.activeSection === "grant_policy" || state.activeSection === "slow_professor"
     ? { brief: [], followup: [], merged: [] }
     : currentStoryPools(filtered);
   const availableStoryPool = storyPools.brief.length
@@ -2279,7 +2327,13 @@ function renderBolePicks() {
     : rankedFallbackRows(filtered).slice(0, defaultLimit);
   const top = rows.slice(0, 3);
   const remainingCount = Math.max(0, rows.length - top.length);
-  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日重点信号" : `${section.label}重点信号`;
+  if (topStoriesTitleEl) {
+    topStoriesTitleEl.textContent = state.activeSection === "hot"
+      ? "今日重点信号"
+      : state.activeSection === "slow_professor" && !state.slowProfessorItems.length
+      ? "慢教授已确认入口"
+      : `${section.label}重点信号`;
+  }
   const storyMeta = usesStories
     ? `展示池：热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
     : `展示池：${fmtNumber(rows.length)} 条`;
@@ -2351,6 +2405,7 @@ function itemTagLabels(item, row = null) {
   if (item.site_id === "official_ai") tags.push("官方");
   if (item.site_id === "aihot") tags.push("AI HOT");
   if (sections.has("grant_policy")) tags.push("国自然");
+  if (sections.has("slow_professor")) tags.push("慢教授");
   if (sections.has("github_projects")) tags.push("GitHub项目");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
@@ -2409,7 +2464,7 @@ function signalSummaryText(row) {
   const label = story.importance_label || labelText(item);
   const sourceCount = rowSourceCount(row);
   const multi = row.sourceCount > 1 || row.mergedCount > 1;
-  if (item.site_id === "grant_wechat_slow_professor" && item.summary) {
+  if (itemSections(item).has("slow_professor") && item.summary) {
     return item.summary;
   }
   if (itemSections(item).has("grant_policy")) {
@@ -2469,6 +2524,7 @@ function impactLabels(item) {
   if (sections.has("industry")) labels.push("企业 / 投资");
   if (sections.has("research")) labels.push("研究");
   if (sections.has("grant_policy")) labels.push("基金 / 政策");
+  if (sections.has("slow_professor")) labels.push("科研写作");
   if (sections.has("github_projects")) labels.push("开源项目");
   if (sections.has("models")) labels.push("模型团队");
   if (sections.has("community") || sections.has("hn")) labels.push("社区");
@@ -2597,7 +2653,7 @@ function feedSummaryText(item) {
   if (itemSections(item).has("github_projects")) {
     return item.github_project_reason || item.description || item.summary || "这个项目来自公开 GitHub 推荐源，建议打开仓库看 README、示例和维护状态。";
   }
-  if (item.site_id === "wechat_slow_professor" && item.summary) {
+  if (itemSections(item).has("slow_professor") && item.summary) {
     return item.summary;
   }
   const signals = Array.isArray(item.ai_signals) ? item.ai_signals.filter(Boolean).slice(0, 2) : [];
@@ -2938,7 +2994,9 @@ function renderList() {
   if (!filtered.length) {
     const empty = document.createElement("div");
     empty.className = "empty";
-    empty.textContent = "当前筛选条件下没有结果。";
+    empty.textContent = state.activeSection === "slow_professor"
+      ? "暂无可核验的近三日公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
+      : "当前筛选条件下没有结果。";
     newsListEl.appendChild(empty);
     return;
   }
@@ -3067,7 +3125,7 @@ function renderGrantPolicy(data = state.grantPolicyData) {
       `公开源 ${fmtNumber(okSources)}/${fmtNumber(sources.length)}`,
       `专题条目 ${fmtNumber(items.length)}`,
       `国际入口 ${fmtNumber(refs.length)}`,
-      "公众号暂不公开",
+      "公众号已拆到慢教授专题",
     ];
     parts.forEach((text, index) => {
       if (index) {
@@ -3422,6 +3480,12 @@ async function loadGrantPolicyData() {
   return res.json();
 }
 
+async function loadSlowProfessorData() {
+  const res = await fetch(`./data/latest-slow-professor-3d.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 latest-slow-professor-3d.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function loadGithubProjectData() {
   const res = await fetch(`./data/github-projects.json?t=${Date.now()}`);
   if (!res.ok) throw new Error(`加载 github-projects.json 失败: ${res.status}`);
@@ -3429,13 +3493,14 @@ async function loadGithubProjectData() {
 }
 
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, githubProjectsResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, slowProfessorResult, githubProjectsResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
     loadStoriesData(),
     loadGrantPolicyData(),
+    loadSlowProfessorData(),
     loadGithubProjectData(),
   ]);
 
@@ -3461,6 +3526,18 @@ async function init() {
     state.grantPolicyItems = [];
     state.grantPolicySources = [];
     state.grantPolicyReferenceSources = [];
+  }
+
+  if (slowProfessorResult.status === "fulfilled") {
+    state.slowProfessorData = slowProfessorResult.value;
+    state.slowProfessorItems = Array.isArray(slowProfessorResult.value.items) ? slowProfessorResult.value.items : [];
+    state.slowProfessorConfirmedEntries = Array.isArray(slowProfessorResult.value.confirmed_entries) ? slowProfessorResult.value.confirmed_entries : [];
+    state.slowProfessorSources = Array.isArray(slowProfessorResult.value.sources) ? slowProfessorResult.value.sources : [];
+  } else {
+    state.slowProfessorData = null;
+    state.slowProfessorItems = [];
+    state.slowProfessorConfirmedEntries = [];
+    state.slowProfessorSources = [];
   }
 
   if (githubProjectsResult.status === "fulfilled") {
