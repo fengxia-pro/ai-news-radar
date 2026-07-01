@@ -142,6 +142,18 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "用中转服务访问 Claude 的朋友，请注意",
+        "url": "https://mp.weixin.qq.com/s/WlN2ncbniAHgbh-oGUibCQ",
+        "published_at": "2026-07-02T07:51:06+08:00",
+        "summary": (
+            "今早一位读者告诉我账号被封了，群里也有人反馈同样的情况。"
+            "刚好看到一篇技术分析，有开发者拆开了 Claude Code 的代码，"
+            "发现它会悄悄检查我们是不是通过中转服务在用。"
+            "检查方式藏在一行日期文本的撇号里，肉眼完全看不出来，"
+            "但每条请求都带着这个隐形标记。"
+        ),
+    },
+    {
         "title": "专利事务所真正值钱的地方，就两个字",
         "url": "https://mp.weixin.qq.com/s/4Ts9LjEq1jexG0A2CUSmyA",
         "published_at": "2026-07-01T12:00:00+08:00",
