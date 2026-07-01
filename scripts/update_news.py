@@ -7,6 +7,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.utils import parseaddr
 import hashlib
+import html as html_lib
 import json
 import math
 import os
@@ -133,7 +134,7 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
         "url": "https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ",
         "original_published_at": "",
         "summary": (
-            "大白话：这篇文章教你把顶刊论文摘要拆成五句话，重点盯住第二句里的"
+            "这篇文章教你把顶刊论文摘要拆成五句话，重点盯住第二句里的"
             "“科学问题”，再把多篇顶刊的问题合并提炼，变成国自然申请书里更像样的"
             "科学问题。这是你明确给出的微信原文入口，不把它冒充为近一周新发文章。"
         ),
@@ -145,9 +146,10 @@ SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
         "url": "https://mp.weixin.qq.com/s/4Ts9LjEq1jexG0A2CUSmyA",
         "published_at": "2026-07-01T12:00:00+08:00",
         "summary": (
-            "大白话：这是你明确给出的慢教授科研江湖今日微信原文。"
-            "因为 WeWe/RSS 源暂时还没刷新到这条，先按用户确认的微信原文放入近一周专题；"
-            "后续 RSS 抓到同一链接后会自动按 URL 去重。"
+            "老师问我，AI 智能体这么厉害了，专利是不是可以自己申请不用找事务所了？"
+            "可以少找，但不能不找。智能体能替我们整理材料、写初稿、跑检索，"
+            "但事务所真正值钱的地方只有两个字。这两个字决定了我们的专利能不能授权、"
+            "保护范围大不大、会不会被别人无效掉。"
         ),
     },
 )
@@ -700,6 +702,89 @@ def entry_summary_text(entry: Any) -> str:
             content_value,
         )
     )
+
+
+def extract_wechat_article_meta_from_html(page_html: str) -> dict[str, str]:
+    soup = BeautifulSoup(page_html or "", "html.parser")
+
+    def meta_content(**attrs: str) -> str:
+        node = soup.find("meta", attrs=attrs)
+        return clean_feed_summary_text(node.get("content") if node else "", max_chars=520)
+
+    def js_var(name: str) -> str:
+        match = re.search(rf"var\s+{re.escape(name)}\s*=\s*(['\"])(.*?)\1", page_html or "", re.S)
+        if not match:
+            return ""
+        value = html_lib.unescape(match.group(2).replace("\\/", "/"))
+        if "\\" in value:
+            try:
+                value = json.loads(f'"{value}"')
+            except Exception:
+                pass
+        return clean_feed_summary_text(value, max_chars=520)
+
+    title = first_non_empty(
+        meta_content(property="og:title"),
+        meta_content(name="twitter:title"),
+        js_var("msg_title"),
+    )
+    summary = first_non_empty(
+        meta_content(property="og:description"),
+        meta_content(name="description"),
+        meta_content(name="twitter:description"),
+        js_var("msg_desc"),
+    )
+    return {"title": title, "summary": summary}
+
+
+def is_wechat_article_url(raw_url: str) -> bool:
+    try:
+        parsed = urlparse(raw_url or "")
+    except Exception:
+        return False
+    return parsed.netloc.endswith("mp.weixin.qq.com") and parsed.path.startswith("/s/")
+
+
+def fetch_wechat_article_meta(getter: Any, raw_url: str) -> dict[str, str]:
+    if not is_wechat_article_url(raw_url):
+        return {}
+    try:
+        resp = getter(
+            raw_url,
+            timeout=14,
+            headers={
+                "User-Agent": BROWSER_UA,
+                "Referer": "https://mp.weixin.qq.com/",
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            },
+        )
+        if hasattr(resp, "raise_for_status"):
+            resp.raise_for_status()
+        text = getattr(resp, "text", None)
+        if not text and getattr(resp, "content", None):
+            text = resp.content.decode("utf-8", errors="ignore")
+        return extract_wechat_article_meta_from_html(str(text or ""))
+    except Exception:
+        return {}
+
+
+def enrich_slow_professor_item_summaries(items: list[RawItem], getter: Any) -> None:
+    for item in items:
+        if item.site_id != SLOW_PROFESSOR_WECHAT_SITE_ID:
+            continue
+        meta = item.meta if isinstance(item.meta, dict) else {}
+        existing_summary = clean_feed_summary_text(meta.get("summary"), max_chars=520)
+        if existing_summary:
+            continue
+        article_meta = fetch_wechat_article_meta(getter, item.url)
+        article_summary = clean_feed_summary_text(article_meta.get("summary"), max_chars=520)
+        if article_summary:
+            meta["summary"] = article_summary
+            meta["summary_source"] = "wechat_article_meta"
+        article_title = first_non_empty(article_meta.get("title"))
+        if article_title and not item.title:
+            item.title = article_title
+        item.meta = meta
 
 
 def abstract_from_openalex_inverted_index(inverted: Any) -> str:
@@ -2739,6 +2824,7 @@ def fetch_slow_professor_wechat(session: requests.Session, now: datetime) -> lis
             )
             resp.raise_for_status()
             items = parse_slow_professor_wechat_feed(resp.content, feed_url=feed_url, now=now)
+            enrich_slow_professor_item_summaries(items, session.get)
             if items:
                 return items
         except Exception:
@@ -2832,7 +2918,7 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
         "published_at": iso(published),
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),
-        "summary": summary or "大白话：这是慢教授的科研江湖最近一周内抓到的公众号文章。这里按公众号来源和发布时间收录，不用国自然、基金或 AI 关键词筛掉。",
+        "summary": summary or "暂无摘要。建议打开微信原文查看文章导语和正文。",
         "ai_label": "research_writing",
         "ai_score": 0.9,
         "source_tier": "slow_professor",
@@ -4163,6 +4249,7 @@ def fetch_opml_rss(
                             url=link,
                             published_at=published,
                             meta={
+                                "summary": entry_summary_text(entry),
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
                                 "source_mode": source_mode,
@@ -4189,6 +4276,7 @@ def fetch_opml_rss(
                             url=entry.get("link", ""),
                             published_at=published,
                             meta={
+                                "summary": entry.get("summary", ""),
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
                                 "source_mode": source_mode,
@@ -4197,6 +4285,9 @@ def fetch_opml_rss(
                     )
         except Exception as exc:
             error = str(exc)
+
+        if is_slow_professor_feed and local_items:
+            enrich_slow_professor_item_summaries(local_items, requests.get)
 
         duration_ms = int((time.perf_counter() - start) * 1000)
         public_feed_url = "configured" if is_slow_professor_feed else original_feed_url

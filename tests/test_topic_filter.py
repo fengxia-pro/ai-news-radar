@@ -15,6 +15,7 @@ from scripts.update_news import (
     build_slow_professor_payload,
     dedupe_items_by_title_url,
     enrich_grant_policy_journal_items,
+    extract_wechat_article_meta_from_html,
     fetch_agentmail_digest,
     fetch_aihot,
     fetch_ai_hubtoday,
@@ -360,6 +361,20 @@ class TopicFilterTests(unittest.TestCase):
         self.assertNotIn("563203", serialized)
         self.assertNotIn("慢生产力", serialized)
         self.assertNotIn("固定入口", serialized)
+
+    def test_slow_professor_article_meta_extracts_description(self):
+        html = """
+        <html><head>
+          <meta property="og:title" content="专利事务所真正值钱的地方，就两个字" />
+          <meta property="og:description" content="老师问我，AI 智能体这么厉害了，专利是不是可以自己申请不用找事务所了？事务所真正值钱的地方只有两个字。" />
+        </head><body></body></html>
+        """
+
+        meta = extract_wechat_article_meta_from_html(html)
+
+        self.assertEqual(meta["title"], "专利事务所真正值钱的地方，就两个字")
+        self.assertIn("事务所真正值钱", meta["summary"])
+        self.assertNotIn("大白话", meta["summary"])
 
     def test_slow_professor_frontend_does_not_backfill_confirmed_entries_as_recent_items(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
