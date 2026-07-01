@@ -2858,7 +2858,8 @@ summary:focus-visible {
   .mode-hint,
   .advanced-summary,
   #resultCount,
-  #waytoagiUpdatedAt {
+  #waytoagiUpdatedAt,
+  #grantPolicyUpdatedAt {
     white-space: normal;
   }
 
@@ -2866,7 +2867,8 @@ summary:focus-visible {
     margin-left: 0;
   }
 
-  .waytoagi-head {
+  .waytoagi-head,
+  .grant-policy-head {
     align-items: flex-start;
     flex-direction: column;
   }
