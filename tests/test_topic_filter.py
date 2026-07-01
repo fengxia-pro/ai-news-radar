@@ -252,13 +252,19 @@ class TopicFilterTests(unittest.TestCase):
         atom = """<?xml version="1.0" encoding="UTF-8"?>
         <feed xmlns="http://www.w3.org/2005/Atom">
           <entry>
-            <title>近三日文章：如何提炼国自然科学问题</title>
+            <title>近一周文章：如何提炼国自然科学问题</title>
             <link href="https://mp.weixin.qq.com/s/recent123"/>
             <updated>2026-06-30T10:00:00+08:00</updated>
             <summary>把文献中的问题拆出来，再变成申请书里的科学问题。</summary>
           </entry>
           <entry>
-            <title>旧文章：不要混进近三日</title>
+            <title>一周内旧文：超过三天但仍要显示</title>
+            <link href="https://mp.weixin.qq.com/s/week123"/>
+            <updated>2026-06-26T10:00:00+08:00</updated>
+            <summary>近一周窗口应该收录这类文章。</summary>
+          </entry>
+          <entry>
+            <title>旧文章：不要混进近一周</title>
             <link href="https://mp.weixin.qq.com/s/old123"/>
             <updated>2026-06-20T10:00:00+08:00</updated>
             <summary>旧内容。</summary>
@@ -275,8 +281,11 @@ class TopicFilterTests(unittest.TestCase):
         )
 
         self.assertEqual(payload["topic"], "慢教授科研江湖")
-        self.assertEqual(payload["total_items"], 1)
-        self.assertIn("近三日文章", payload["items"][0]["title"])
+        self.assertGreaterEqual(payload["total_items"], 2)
+        self.assertTrue(any("近一周文章" in item["title"] for item in payload["items"]))
+        self.assertTrue(any("超过三天但仍要显示" in item["title"] for item in payload["items"]))
+        self.assertTrue(any("专利事务所真正值钱的地方" in item["title"] for item in payload["items"]))
+        self.assertFalse(any("不要混进近一周" in item["title"] for item in payload["items"]))
         self.assertEqual(payload["items"][0]["source_tier"], "slow_professor")
         self.assertGreaterEqual(payload["confirmed_entry_count"], 1)
 
@@ -288,7 +297,7 @@ class TopicFilterTests(unittest.TestCase):
             content = """<?xml version="1.0" encoding="UTF-8"?>
             <feed xmlns="http://www.w3.org/2005/Atom">
               <entry>
-                <title>慢教授近三日文章：聊聊科研人的时间管理</title>
+                <title>慢教授近一周文章：聊聊科研人的时间管理</title>
                 <link href="https://mp.weixin.qq.com/s/timebox123"/>
                 <updated>2026-07-01T08:30:00+08:00</updated>
                 <summary>这是一篇不含 AI、基金、国自然关键词的公众号文章。</summary>
@@ -337,8 +346,9 @@ class TopicFilterTests(unittest.TestCase):
             now=now,
         )
 
-        self.assertEqual(payload["total_items"], 1)
-        self.assertIn("时间管理", payload["items"][0]["title"])
+        self.assertGreaterEqual(payload["total_items"], 2)
+        self.assertTrue(any("时间管理" in item["title"] for item in payload["items"]))
+        self.assertTrue(any("专利事务所真正值钱的地方" in item["title"] for item in payload["items"]))
 
     def test_slow_professor_confirmed_entries_do_not_use_scut_mirrors(self):
         serialized = "\n".join(

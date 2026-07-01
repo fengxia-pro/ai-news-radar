@@ -120,8 +120,9 @@ OFFICIAL_AI_MAX_AGE_DAYS = 45
 CURATED_AI_MEDIA_MAX_AGE_DAYS = 30
 SLOW_PROFESSOR_WECHAT_SITE_ID = "wechat_slow_professor"
 SLOW_PROFESSOR_WECHAT_SOURCE = "公众号：慢教授的科研江湖"
-SLOW_PROFESSOR_WECHAT_WINDOW_HOURS = 72
-SLOW_PROFESSOR_WECHAT_DATA_FILE = "latest-slow-professor-3d.json"
+SLOW_PROFESSOR_WECHAT_WINDOW_HOURS = 168
+SLOW_PROFESSOR_WECHAT_DATA_FILE = "latest-slow-professor-7d.json"
+SLOW_PROFESSOR_WECHAT_LEGACY_DATA_FILE = "latest-slow-professor-3d.json"
 SLOW_PROFESSOR_WECHAT_ENV_NAMES = (
     "SLOW_PROFESSOR_WECHAT_FEED_URL",
     "WECHAT_SLOW_PROFESSOR_FEED_URL",
@@ -134,7 +135,19 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
         "summary": (
             "大白话：这篇文章教你把顶刊论文摘要拆成五句话，重点盯住第二句里的"
             "“科学问题”，再把多篇顶刊的问题合并提炼，变成国自然申请书里更像样的"
-            "科学问题。这是你明确给出的微信原文入口，不把它冒充为近三日新发文章。"
+            "科学问题。这是你明确给出的微信原文入口，不把它冒充为近一周新发文章。"
+        ),
+    },
+)
+SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
+    {
+        "title": "专利事务所真正值钱的地方，就两个字",
+        "url": "https://mp.weixin.qq.com/s/4Ts9LjEq1jexG0A2CUSmyA",
+        "published_at": "2026-07-01T12:00:00+08:00",
+        "summary": (
+            "大白话：这是你明确给出的慢教授科研江湖今日微信原文。"
+            "因为 WeWe/RSS 源暂时还没刷新到这条，先按用户确认的微信原文放入近一周专题；"
+            "后续 RSS 抓到同一链接后会自动按 URL 去重。"
         ),
     },
 )
@@ -2766,11 +2779,39 @@ def slow_professor_confirmed_entries(now: datetime) -> list[dict[str, Any]]:
                     "date_status": "confirmed_entry",
                     "date_label": "已确认入口",
                     "source_mode": "confirmed_entry",
+                    "is_recent_7d": False,
                     "is_recent_3d": False,
                 }
             )
         )
     return entries
+
+
+def slow_professor_manual_recent_items(now: datetime) -> list[RawItem]:
+    items: list[RawItem] = []
+    for seed in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES:
+        title = first_non_empty(seed.get("title"), "慢教授科研江湖：近一周文章")
+        url = first_non_empty(seed.get("url"))
+        if not url:
+            continue
+        published = parse_date_any(seed.get("published_at"), now)
+        items.append(
+            RawItem(
+                site_id=SLOW_PROFESSOR_WECHAT_SITE_ID,
+                site_name="慢教授的科研江湖",
+                source=SLOW_PROFESSOR_WECHAT_SOURCE,
+                title=title,
+                url=normalize_url(url),
+                published_at=published,
+                meta={
+                    "summary": seed.get("summary") or "",
+                    "source_mode": "manual_wechat_link",
+                    "date_status": "user_confirmed_recent",
+                    "date_label": "用户确认的近一周文章",
+                },
+            )
+        )
+    return items
 
 
 def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
@@ -2779,6 +2820,7 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
     summary = clean_feed_summary_text(meta.get("summary"), max_chars=900)
     date_known = published is not None
     recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
+    legacy_three_day_start = now - timedelta(hours=72)
     record = {
         "id": make_item_id(raw.site_id, raw.source, raw.title, raw.url),
         "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
@@ -2790,16 +2832,17 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
         "published_at": iso(published),
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),
-        "summary": summary or "大白话：这是慢教授的科研江湖最近 3 日内抓到的公众号文章。这里按公众号来源和发布时间收录，不用国自然、基金或 AI 关键词筛掉。",
+        "summary": summary or "大白话：这是慢教授的科研江湖最近一周内抓到的公众号文章。这里按公众号来源和发布时间收录，不用国自然、基金或 AI 关键词筛掉。",
         "ai_label": "research_writing",
         "ai_score": 0.9,
         "source_tier": "slow_professor",
         "source_tier_label": "慢教授公众号",
         "source_tier_rank": 1,
-        "date_status": "known" if date_known else "unknown",
-        "date_label": "近三日文章" if date_known else "日期待核",
+        "date_status": str(meta.get("date_status") or ("known" if date_known else "unknown")),
+        "date_label": str(meta.get("date_label") or ("近一周文章" if date_known else "日期待核")),
         "source_mode": meta.get("source_mode") or "wechat_rss",
-        "is_recent_3d": bool(published and published >= recent_start),
+        "is_recent_7d": bool(published and published >= recent_start),
+        "is_recent_3d": bool(published and published >= legacy_three_day_start),
     }
     return sanitize_public_payload(record)
 
@@ -2823,9 +2866,10 @@ def build_slow_professor_payload(
     existing_payload: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
+    source_items = [*items, *slow_professor_manual_recent_items(now)]
     records = [
         slow_professor_record_from_raw(item, now)
-        for item in items
+        for item in source_items
         if item.published_at and item.published_at >= recent_start
     ]
     records = dedupe_items_by_title_url(records, random_pick=False)
@@ -2868,15 +2912,20 @@ def build_slow_professor_payload(
             for item in existing.get("items", [])
             if isinstance(item, dict)
             and item.get("site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID
-            and item.get("is_recent_3d")
+            and (item.get("is_recent_7d") or item.get("is_recent_3d"))
         ]
         if cached_items:
             records = cached_items
 
     confirmed_entries = slow_professor_confirmed_entries(now)
     feed_url = slow_professor_wechat_feed_url()
+    record_modes = {
+        str(record.get("source_mode") or "").strip()
+        for record in records
+        if str(record.get("source_mode") or "").strip()
+    }
     source_mode = (
-        str(records[0].get("source_mode") or "wechat_rss")
+        "+".join(sorted(record_modes))
         if records
         else ("feed_configured_no_recent_items" if feed_url else "needs_public_feed_url")
     )
@@ -2891,9 +2940,9 @@ def build_slow_professor_payload(
         "sources": sources,
         "source_mode": source_mode,
         "notes": [
-            "本专题按公众号来源和发布时间收录慢教授的科研江湖近三日文章，不做国自然、基金或 AI 关键词过滤。",
+            "本专题按公众号来源和发布时间收录慢教授的科研江湖近一周文章，不做国自然、基金或 AI 关键词过滤。",
             "未配置公网 RSS/WeWe 地址时，不用第三方转载页冒充公众号文章。",
-            "已确认入口只代表用户明确给过的微信原文，不代表最近三日新发。",
+            "已确认入口只代表用户明确给过的微信原文，不代表最近一周新发。",
         ],
     }
 
@@ -6806,6 +6855,7 @@ def main() -> int:
     waytoagi_path = output_dir / "waytoagi-7d.json"
     grant_policy_path = output_dir / "latest-grants-24h.json"
     slow_professor_path = output_dir / SLOW_PROFESSOR_WECHAT_DATA_FILE
+    slow_professor_legacy_path = output_dir / SLOW_PROFESSOR_WECHAT_LEGACY_DATA_FILE
     github_projects_path = output_dir / "github-projects.json"
     title_cache_path = output_dir / "title-zh-cache.json"
     email_digest_path = output_dir / AGENTMAIL_DIGEST_FILE
@@ -7319,6 +7369,11 @@ def main() -> int:
         json.dumps(sanitize_public_payload(slow_professor_payload), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    if slow_professor_legacy_path != slow_professor_path:
+        slow_professor_legacy_path.write_text(
+            json.dumps(sanitize_public_payload(slow_professor_payload), ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
     github_projects_path.write_text(
         json.dumps(sanitize_public_payload(github_projects_payload), ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -7344,6 +7399,8 @@ def main() -> int:
     print(f"Wrote: {status_path}")
     print(f"Wrote: {grant_policy_path} ({grant_policy_payload.get('total_items', 0)} grant policy items)")
     print(f"Wrote: {slow_professor_path} ({slow_professor_payload.get('total_items', 0)} slow professor items)")
+    if slow_professor_legacy_path != slow_professor_path:
+        print(f"Wrote: {slow_professor_legacy_path} (compatibility copy)")
     print(f"Wrote: {github_projects_path} ({github_projects_payload.get('total_items', 0)} GitHub project items)")
     print(f"Wrote: {paid_source_state_path}")
     if email_digest_payload is not None:

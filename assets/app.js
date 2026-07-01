@@ -142,7 +142,7 @@ const GRANT_POLICY_SITE_IDS = new Set([
 
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
-  { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近 3 日公众号文章与已确认入口" },
+  { id: "slow_professor", label: "慢教授", short: "慢教授", description: "慢教授科研江湖近一周公众号文章与已确认入口" },
   { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
   { id: "hot", label: "热点（优先看）", short: "热点", description: "跨来源聚合后的优先阅读列表" },
   { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
@@ -273,7 +273,7 @@ function renderStickySummary() {
   }
   if (state.activeSection === "slow_professor") {
     const confirmedCount = state.slowProfessorConfirmedEntries.length;
-    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授近3日专题 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授近一周专题 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
   if (state.activeSection === "github_projects") {
@@ -416,7 +416,7 @@ function renderCoverageStrip(errorMessage = "") {
     ? `${fmtNumber(slowProfessor.item_count || state.slowProfessorItems.length)} 条`
     : "专题待生成";
   const slowProfessorMeta = slowProfessor.enabled
-    ? `近3日 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessor.source_mode === "needs_public_feed_url" ? "待公网RSS" : "RSS已接入"}`
+    ? `近一周 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessor.source_mode === "needs_public_feed_url" ? "待公网RSS" : "RSS已接入"}`
     : "慢教授科研江湖公众号专题";
   const githubValue = githubProjects.enabled
     ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
@@ -616,7 +616,7 @@ function renderSectionSummary(filteredItems = null) {
     const mode = state.slowProfessorData?.source_mode === "needs_public_feed_url"
       ? "待配置公网 RSS/WeWe"
       : "RSS/Atom 可用";
-    sectionSummaryEl.textContent = `专题池 · 近3日 ${fmtNumber(recentCount)} 条 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 不使用第三方转载页冒充公众号`;
+    sectionSummaryEl.textContent = `专题池 · 近一周 ${fmtNumber(recentCount)} 条 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 不使用第三方转载页冒充公众号`;
     renderStickySummary();
     return;
   }
@@ -710,7 +710,7 @@ function renderModeSwitch() {
   if (state.activeSection === "grant_policy") {
     modeHintEl.textContent = `科研政策 · ${fmtNumber(state.grantPolicyItems.length)} 条`;
   } else if (state.activeSection === "slow_professor") {
-    modeHintEl.textContent = `慢教授 · 近3日 ${fmtNumber(state.slowProfessorItems.length)} 条`;
+    modeHintEl.textContent = `慢教授 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
   } else if (state.activeSection === "github_projects") {
     modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
   } else if (state.mode === "ai") {
@@ -730,7 +730,7 @@ function renderModeSwitch() {
 
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
-  if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近3日文章";
+  if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近一周文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
@@ -2331,7 +2331,7 @@ function renderBolePicks() {
     topStoriesTitleEl.textContent = state.activeSection === "hot"
       ? "今日重点信号"
       : state.activeSection === "slow_professor"
-      ? "慢教授近三日文章"
+      ? "慢教授近一周文章"
       : `${section.label}重点信号`;
   }
   const storyMeta = usesStories
@@ -2350,7 +2350,7 @@ function renderBolePicks() {
     const empty = document.createElement("div");
     empty.className = "bole-empty";
     empty.textContent = state.activeSection === "slow_professor"
-      ? "暂无可核验的近三日公众号文章。已确认入口只保留在数据说明里，不进入近三日文章列表。"
+      ? "暂无可核验的近一周公众号文章。已确认入口只保留在数据说明里，不进入近一周文章列表。"
       : "当前栏目和筛选条件下没有可展示的 Top 3。";
     bolePicksListEl.appendChild(empty);
   } else {
@@ -2997,7 +2997,7 @@ function renderList() {
     const empty = document.createElement("div");
     empty.className = "empty";
     empty.textContent = state.activeSection === "slow_professor"
-      ? "暂无可核验的近三日公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
+      ? "暂无可核验的近一周公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
       : "当前筛选条件下没有结果。";
     newsListEl.appendChild(empty);
     return;
@@ -3483,8 +3483,11 @@ async function loadGrantPolicyData() {
 }
 
 async function loadSlowProfessorData() {
-  const res = await fetch(`./data/latest-slow-professor-3d.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 latest-slow-professor-3d.json 失败: ${res.status}`);
+  let res = await fetch(`./data/latest-slow-professor-7d.json?t=${Date.now()}`);
+  if (!res.ok) {
+    res = await fetch(`./data/latest-slow-professor-3d.json?t=${Date.now()}`);
+  }
+  if (!res.ok) throw new Error(`加载 latest-slow-professor-7d.json 失败: ${res.status}`);
   return res.json();
 }
 
