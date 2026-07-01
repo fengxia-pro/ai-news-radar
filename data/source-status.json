@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T09:35:45.688871Z",
+  "generated_at": "2026-07-01T10:17:54.784151Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
       "item_count": 204,
-      "duration_ms": 16812,
+      "duration_ms": 17587,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "Curated Media",
       "ok": true,
       "item_count": 42,
-      "duration_ms": 10686,
+      "duration_ms": 12182,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 1014,
+      "duration_ms": 1794,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 39,
-      "duration_ms": 2108,
+      "duration_ms": 1433,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 1885,
+      "duration_ms": 2074,
       "error": null
     },
     {
@@ -46,15 +46,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 3381,
+      "duration_ms": 3423,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 435,
-      "duration_ms": 15862,
+      "item_count": 440,
+      "duration_ms": 15279,
       "error": null
     },
     {
@@ -62,15 +62,15 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 4882,
+      "duration_ms": 4079,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3052,
-      "duration_ms": 3242,
+      "item_count": 3053,
+      "duration_ms": 2688,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 78,
-      "duration_ms": 1283,
+      "duration_ms": 1281,
       "error": null
     },
     {
@@ -86,23 +86,25 @@
       "site_name": "Hacker News",
       "ok": true,
       "item_count": 11,
-      "duration_ms": 20159,
+      "duration_ms": 16287,
       "error": null
     },
     {
       "site_id": "wechat_slow_professor",
       "site_name": "微信公众号：慢教授的科研江湖",
       "ok": true,
-      "item_count": 0,
+      "item_count": 10,
       "duration_ms": 0,
-      "error": null
+      "error": null,
+      "source_mode": "opml_wechat_rss",
+      "feed_url": "configured"
     },
     {
       "site_id": "aihubtoday",
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 23,
-      "duration_ms": 2365,
+      "duration_ms": 1750,
       "error": null
     },
     {
@@ -110,7 +112,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 423,
+      "duration_ms": 457,
       "error": null
     },
     {
@@ -118,7 +120,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 107,
-      "duration_ms": 221,
+      "duration_ms": 215,
       "error": null
     },
     {
@@ -126,7 +128,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 129,
-      "duration_ms": 3000,
+      "duration_ms": 4162,
       "error": null
     },
     {
@@ -134,7 +136,7 @@
       "site_name": "求是网",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 182,
+      "duration_ms": 198,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.qstheory.cn/",
@@ -145,7 +147,7 @@
       "site_name": "国家自然科学基金委员会",
       "ok": true,
       "item_count": 12,
-      "duration_ms": 239,
+      "duration_ms": 219,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.nsfc.gov.cn/",
@@ -154,10 +156,10 @@
     {
       "site_id": "grant_bnsfc",
       "site_name": "中国科学基金",
-      "ok": true,
+      "ok": false,
       "item_count": 0,
-      "duration_ms": 717,
-      "error": null,
+      "duration_ms": 5002,
+      "error": "HTTPSConnectionPool(host='www.sciengine.com', port=443): Max retries exceeded with url: /BNSFC/home (Caused by ResponseError('too many 502 error responses'))",
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/BNSFC/home",
       "candidate": true
@@ -167,7 +169,7 @@
       "site_name": "Fundamental Research",
       "ok": true,
       "item_count": 12,
-      "duration_ms": 17598,
+      "duration_ms": 15900,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciencedirect.com/journal/fundamental-research",
@@ -178,7 +180,7 @@
       "site_name": "香山科学会议",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 133,
+      "duration_ms": 114,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
@@ -189,7 +191,7 @@
       "site_name": "国家科技管理信息系统",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 299,
+      "duration_ms": 310,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://service.most.gov.cn/",
@@ -200,7 +202,7 @@
       "site_name": "科学通报",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 604,
+      "duration_ms": 700,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/CSB/home",
@@ -211,7 +213,7 @@
       "site_name": "中国科学院科技战略咨询研究院",
       "ok": true,
       "item_count": 8,
-      "duration_ms": 173,
+      "duration_ms": 184,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "http://www.casisd.cn/",
@@ -222,7 +224,7 @@
       "site_name": "HelloGitHub",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 1004,
+      "duration_ms": 956,
       "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/521xueweihan/HelloGitHub/contents/content?ref=master",
       "source_group": "github_projects",
       "source_url": "https://github.com/521xueweihan/HelloGitHub",
@@ -233,7 +235,7 @@
       "site_name": "科技爱好者周刊",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 234,
       "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/ruanyf/weekly/contents/docs?ref=master",
       "source_group": "github_projects",
       "source_url": "https://github.com/ruanyf/weekly",
@@ -244,7 +246,7 @@
       "site_name": "Awesome",
       "ok": true,
       "item_count": 42,
-      "duration_ms": 1066,
+      "duration_ms": 877,
       "error": null,
       "source_group": "github_projects",
       "source_url": "https://github.com/sindresorhus/awesome",
@@ -255,7 +257,7 @@
       "site_name": "WaytoAGI",
       "ok": true,
       "item_count": 6,
-      "duration_ms": 4148,
+      "duration_ms": 3847,
       "error": null
     },
     {
@@ -263,39 +265,40 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 2181,
-      "duration_ms": 17010,
+      "item_count": 2131,
+      "duration_ms": 18529,
       "error": null,
-      "feed_count": 10,
-      "effective_feed_count": 10,
-      "ok_feed_count": 10,
+      "feed_count": 11,
+      "effective_feed_count": 11,
+      "ok_feed_count": 11,
       "failed_feed_count": 0,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 27,
+  "successful_sites": 26,
   "failed_sites": [
+    "grant_bnsfc",
     "github_hellogithub",
     "github_weekly"
   ],
   "zero_item_sites": [
-    "wechat_slow_professor",
-    "grant_bnsfc",
     "grant_xssc",
     "grant_most_service",
     "grant_csb"
   ],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 7486,
-  "items_before_topic_filter": 7769,
-  "items_in_24h": 869,
+  "fetched_raw_items": 7442,
+  "items_before_topic_filter": 8088,
+  "items_in_24h": 894,
   "grant_policy": {
     "enabled": true,
     "item_count": 33,
     "source_total": 8,
-    "ok_sources": 8,
-    "failed_sources": [],
+    "ok_sources": 7,
+    "failed_sources": [
+      "grant_bnsfc"
+    ],
     "candidate_sources": [
       "grant_bnsfc",
       "grant_xssc",
@@ -308,14 +311,14 @@
   },
   "slow_professor": {
     "enabled": true,
-    "item_count": 0,
+    "item_count": 2,
     "confirmed_entry_count": 1,
     "source_total": 1,
     "ok_sources": 1,
     "candidate_sources": [],
     "data_url": "data/latest-slow-professor-3d.json",
     "window_hours": 72,
-    "source_mode": "needs_public_feed_url",
+    "source_mode": "opml_wechat_rss",
     "mode": "public_topic_lane"
   },
   "github_projects": {
@@ -338,14 +341,32 @@
   "rss_opml": {
     "enabled": true,
     "path": "configured",
-    "feed_total": 10,
-    "effective_feed_total": 10,
-    "ok_feeds": 10,
+    "feed_total": 11,
+    "effective_feed_total": 11,
+    "ok_feeds": 11,
     "failed_feeds": [],
-    "zero_item_feeds": [],
+    "zero_item_feeds": [
+      "https://blog.langchain.com/rss/"
+    ],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
+      {
+        "site_id": "opmlrss:e62723262a",
+        "site_name": "OPML RSS",
+        "feed_title": "GitHub Changelog",
+        "feed_url": "https://github.blog/changelog/feed/",
+        "effective_feed_url": "https://github.blog/changelog/feed/",
+        "ok": true,
+        "item_count": 10,
+        "duration_ms": 1340,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null,
+        "topic_site_id": null
+      },
       {
         "site_id": "opmlrss:c39414c568",
         "site_name": "OPML RSS",
@@ -354,12 +375,13 @@
         "effective_feed_url": "https://blog.google/technology/ai/rss/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 2850,
+        "duration_ms": 1218,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:0ea3c11e0b",
@@ -369,12 +391,29 @@
         "effective_feed_url": "https://deepmind.google/blog/rss.xml",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 2355,
+        "duration_ms": 1150,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
+      },
+      {
+        "site_id": "opmlrss:11a1d8efe3",
+        "site_name": "OPML RSS",
+        "feed_title": "Google Developer Tools",
+        "feed_url": "https://blog.google/technology/developers/rss/",
+        "effective_feed_url": "https://blog.google/technology/developers/rss/",
+        "ok": true,
+        "item_count": 20,
+        "duration_ms": 1421,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:33e649875b",
@@ -384,12 +423,13 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 813,
-        "duration_ms": 1409,
+        "duration_ms": 2526,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:969629fda3",
@@ -399,12 +439,29 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 183,
+        "duration_ms": 167,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
+      },
+      {
+        "site_id": "opmlrss:fba8da98a4",
+        "site_name": "OPML RSS",
+        "feed_title": "LangChain Blog",
+        "feed_url": "https://blog.langchain.com/rss/",
+        "effective_feed_url": "https://blog.langchain.com/rss/",
+        "ok": true,
+        "item_count": 0,
+        "duration_ms": 2328,
+        "error": null,
+        "skipped": false,
+        "skip_reason": null,
+        "replaced": false,
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:a53c22ca17",
@@ -414,12 +471,13 @@
         "effective_feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1215,
+        "duration_ms": 1253,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:ebc5cd4677",
@@ -429,12 +487,13 @@
         "effective_feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 3386,
+        "duration_ms": 3259,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
         "site_id": "opmlrss:3ae57466b5",
@@ -444,57 +503,29 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 1028,
-        "duration_ms": 2076,
+        "duration_ms": 1814,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": null
       },
       {
-        "site_id": "opmlrss:d1c587ecba",
+        "site_id": "opmlrss:b4272ed103",
         "site_name": "OPML RSS",
-        "feed_title": "Simon Willison",
-        "feed_url": "https://simonwillison.net/atom/everything/",
-        "effective_feed_url": "https://simonwillison.net/atom/everything/",
-        "ok": true,
-        "item_count": 30,
-        "duration_ms": 1108,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:965e5d5db4",
-        "site_name": "OPML RSS",
-        "feed_title": "Wired AI",
-        "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "effective_feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "feed_title": "慢教授的科研江湖",
+        "feed_url": "configured",
+        "effective_feed_url": "configured",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 854,
+        "duration_ms": 2053,
         "error": null,
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
-        "bridge_type": null
-      },
-      {
-        "site_id": "opmlrss:d9ed8f749d",
-        "site_name": "OPML RSS",
-        "feed_title": "宝玉",
-        "feed_url": "https://baoyu.io/feed.xml",
-        "effective_feed_url": "https://baoyu.io/feed.xml",
-        "ok": true,
-        "item_count": 50,
-        "duration_ms": 1574,
-        "error": null,
-        "skipped": false,
-        "skip_reason": null,
-        "replaced": false,
-        "bridge_type": null
+        "bridge_type": null,
+        "topic_site_id": "wechat_slow_professor"
       }
     ]
   },

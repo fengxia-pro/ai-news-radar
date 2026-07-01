@@ -1,6 +1,7 @@
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 from scripts.update_news import (
@@ -18,6 +19,7 @@ from scripts.update_news import (
     fetch_aihot,
     fetch_ai_hubtoday,
     fetch_hacker_news_algolia,
+    fetch_opml_rss,
     fetch_socialdata_list_tweets,
     fetch_tikhub_search,
     hn_algolia_keyword_score,
@@ -277,6 +279,66 @@ class TopicFilterTests(unittest.TestCase):
         self.assertIn("近三日文章", payload["items"][0]["title"])
         self.assertEqual(payload["items"][0]["source_tier"], "slow_professor")
         self.assertGreaterEqual(payload["confirmed_entry_count"], 1)
+
+    @patch("scripts.update_news.requests.get")
+    def test_slow_professor_opml_feed_keeps_non_ai_non_grant_articles(self, mock_get):
+        now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
+
+        class FakeResponse:
+            content = """<?xml version="1.0" encoding="UTF-8"?>
+            <feed xmlns="http://www.w3.org/2005/Atom">
+              <entry>
+                <title>慢教授近三日文章：聊聊科研人的时间管理</title>
+                <link href="https://mp.weixin.qq.com/s/timebox123"/>
+                <updated>2026-07-01T08:30:00+08:00</updated>
+                <summary>这是一篇不含 AI、基金、国自然关键词的公众号文章。</summary>
+              </entry>
+            </feed>
+            """.encode("utf-8")
+            text = content.decode("utf-8")
+
+            def raise_for_status(self):
+                return None
+
+        mock_get.return_value = FakeResponse()
+
+        with TemporaryDirectory() as tmpdir:
+            opml_path = Path(tmpdir) / "follow.opml"
+            opml_path.write_text(
+                """<?xml version="1.0" encoding="UTF-8"?>
+                <opml version="2.0"><body>
+                  <outline text="Other" title="Other" type="atom"
+                    xmlUrl="https://example.com/other.atom"
+                    htmlUrl="https://example.com" />
+                  <outline text="慢教授的科研江湖" title="慢教授的科研江湖" type="atom"
+                    xmlUrl="http://localhost:4000/feeds/MP_WXS_3933506434.atom"
+                    htmlUrl="https://mp.weixin.qq.com/s/HuCpOPa38n6bfciXS8JBpQ" />
+                </body></opml>
+                """,
+                encoding="utf-8",
+            )
+
+            items, _, feed_statuses = fetch_opml_rss(now, opml_path, max_feeds=1)
+
+        slow_items = [item for item in items if item.site_id == SLOW_PROFESSOR_WECHAT_SITE_ID]
+        self.assertEqual(len(slow_items), 1)
+        self.assertIn("时间管理", slow_items[0].title)
+        self.assertTrue(any(s.get("topic_site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID for s in feed_statuses))
+
+        payload = build_slow_professor_payload(
+            slow_items,
+            [{
+                "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "微信公众号：慢教授的科研江湖",
+                "ok": True,
+                "item_count": len(slow_items),
+            }],
+            generated_at="2026-07-01T08:00:00Z",
+            now=now,
+        )
+
+        self.assertEqual(payload["total_items"], 1)
+        self.assertIn("时间管理", payload["items"][0]["title"])
 
     def test_slow_professor_confirmed_entries_do_not_use_scut_mirrors(self):
         serialized = "\n".join(

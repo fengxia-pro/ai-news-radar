@@ -878,6 +878,7 @@ function itemTagTone(label) {
   if (text.includes("HN")) return "aggregate";
   if (text.includes("GitHub") || text.includes("开源项目")) return "devtools";
   if (text.includes("国自然") || text.includes("科研政策")) return "official";
+  if (text.includes("科研写作")) return "research";
   if (text.includes("模型")) return "models";
   if (text.includes("开发")) return "devtools";
   if (text.includes("研究")) return "research";
@@ -957,6 +958,7 @@ function labelText(item) {
     industry_business: "行业动态",
     research_paper: "研究论文",
     research_policy: "科研政策",
+    research_writing: "科研写作",
     github_project: "开源项目",
     robotics: "机器人",
     curated_hotlist: "热点",

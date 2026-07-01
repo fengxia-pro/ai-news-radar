@@ -2650,15 +2650,20 @@ def slow_professor_wechat_feed_url() -> str:
     return ""
 
 
-def is_public_http_url(raw_url: str) -> bool:
+def is_http_url(raw_url: str) -> bool:
     try:
         parsed = urlparse(raw_url)
     except Exception:
         return False
-    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
-        return False
-    host = parsed.hostname or ""
-    return host not in {"localhost", "127.0.0.1", "::1"}
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def is_slow_professor_feed_descriptor(feed: dict[str, Any]) -> bool:
+    title = str(feed.get("title") or feed.get("feed_title") or "").strip()
+    feed_url = str(feed.get("xml_url") or feed.get("feed_url") or feed.get("effective_feed_url") or "").strip()
+    html_url = str(feed.get("html_url") or "").strip()
+    hay = f"{title} {feed_url} {html_url}"
+    return "慢教授的科研江湖" in hay or "MP_WXS_3933506434" in hay
 
 
 def parse_slow_professor_wechat_feed(
@@ -2708,7 +2713,7 @@ def fetch_slow_professor_wechat(session: requests.Session, now: datetime) -> lis
         return []
 
     feed_url = slow_professor_wechat_feed_url()
-    if feed_url and is_public_http_url(feed_url):
+    if feed_url and is_http_url(feed_url):
         try:
             resp = session.get(
                 feed_url,
@@ -2753,7 +2758,7 @@ def slow_professor_confirmed_entries(now: datetime) -> list[dict[str, Any]]:
                     "first_seen_at": iso(now),
                     "last_seen_at": iso(now),
                     "summary": seed.get("summary") or "",
-                    "ai_label": "research_policy",
+                    "ai_label": "research_writing",
                     "ai_score": 0.88,
                     "source_tier": "slow_professor",
                     "source_tier_label": "慢教授公众号",
@@ -2785,8 +2790,8 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
         "published_at": iso(published),
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),
-        "summary": summary or "大白话：这是慢教授的科研江湖最近 3 日内抓到的公众号文章，建议打开原文判断是否与你的国自然、SCI 写作或科研工作流有关。",
-        "ai_label": "research_policy",
+        "summary": summary or "大白话：这是慢教授的科研江湖最近 3 日内抓到的公众号文章。这里按公众号来源和发布时间收录，不用国自然、基金或 AI 关键词筛掉。",
+        "ai_label": "research_writing",
         "ai_score": 0.9,
         "source_tier": "slow_professor",
         "source_tier_label": "慢教授公众号",
@@ -2833,7 +2838,11 @@ def build_slow_professor_payload(
             "ok": status.get("ok"),
             "item_count": status.get("item_count"),
             "candidate": status.get("candidate"),
-            "url": "configured" if slow_professor_wechat_feed_url() else "",
+            "url": "configured" if (
+                slow_professor_wechat_feed_url()
+                or status.get("feed_url")
+                or status.get("effective_feed_url")
+            ) else "",
             "error": status.get("error"),
         }
         for status in statuses
@@ -2866,7 +2875,11 @@ def build_slow_professor_payload(
 
     confirmed_entries = slow_professor_confirmed_entries(now)
     feed_url = slow_professor_wechat_feed_url()
-    source_mode = "wechat_rss" if records else ("feed_configured_no_recent_items" if feed_url else "needs_public_feed_url")
+    source_mode = (
+        str(records[0].get("source_mode") or "wechat_rss")
+        if records
+        else ("feed_configured_no_recent_items" if feed_url else "needs_public_feed_url")
+    )
     return {
         "generated_at": generated_at,
         "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
@@ -2878,7 +2891,7 @@ def build_slow_professor_payload(
         "sources": sources,
         "source_mode": source_mode,
         "notes": [
-            "本专题只把可核验的 RSS/Atom 条目当作近三日文章。",
+            "本专题按公众号来源和发布时间收录慢教授的科研江湖近三日文章，不做国自然、基金或 AI 关键词过滤。",
             "未配置公网 RSS/WeWe 地址时，不用第三方转载页冒充公众号文章。",
             "已确认入口只代表用户明确给过的微信原文，不代表最近三日新发。",
         ],
@@ -3982,7 +3995,13 @@ def fetch_opml_rss(
 ) -> tuple[list[RawItem], dict[str, Any], list[dict[str, Any]]]:
     feeds = parse_opml_subscriptions(opml_path)
     if max_feeds > 0:
-        feeds = feeds[:max_feeds]
+        selected = feeds[:max_feeds]
+        selected_urls = {feed.get("xml_url") for feed in selected}
+        for feed in feeds[max_feeds:]:
+            if is_slow_professor_feed_descriptor(feed) and feed.get("xml_url") not in selected_urls:
+                selected.append(feed)
+                selected_urls.add(feed.get("xml_url"))
+        feeds = selected
 
     out: list[RawItem] = []
     feed_statuses: list[dict[str, Any]] = []
@@ -4031,6 +4050,7 @@ def fetch_opml_rss(
         original_feed_url = str(feed.get("xml_url_original") or feed_url)
         feed_title = feed["title"]
         feed_id = hashlib.sha1(feed_url.encode("utf-8")).hexdigest()[:10]
+        is_slow_professor_feed = is_slow_professor_feed_descriptor(feed)
         start = time.perf_counter()
         error = None
         local_items: list[RawItem] = []
@@ -4081,17 +4101,22 @@ def fetch_opml_rss(
                     )
                     if not published:
                         continue
+                    site_id = SLOW_PROFESSOR_WECHAT_SITE_ID if is_slow_professor_feed else "opmlrss"
+                    site_name = "微信公众号" if is_slow_professor_feed else "OPML RSS"
+                    item_source = SLOW_PROFESSOR_WECHAT_SOURCE if is_slow_professor_feed else source_name
+                    source_mode = "opml_wechat_rss" if is_slow_professor_feed else "opml_rss"
                     local_items.append(
                         RawItem(
-                            site_id="opmlrss",
-                            site_name="OPML RSS",
-                            source=source_name,
+                            site_id=site_id,
+                            site_name=site_name,
+                            source=item_source,
                             title=title,
                             url=link,
                             published_at=published,
                             meta={
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
+                                "source_mode": source_mode,
                             },
                         )
                     )
@@ -4102,17 +4127,22 @@ def fetch_opml_rss(
                     published = parse_date_any(entry.get("published"), now)
                     if not published:
                         continue
+                    site_id = SLOW_PROFESSOR_WECHAT_SITE_ID if is_slow_professor_feed else "opmlrss"
+                    site_name = "微信公众号" if is_slow_professor_feed else "OPML RSS"
+                    item_source = SLOW_PROFESSOR_WECHAT_SOURCE if is_slow_professor_feed else source_name
+                    source_mode = "opml_wechat_rss" if is_slow_professor_feed else "opml_rss"
                     local_items.append(
                         RawItem(
-                            site_id="opmlrss",
-                            site_name="OPML RSS",
-                            source=source_name,
+                            site_id=site_id,
+                            site_name=site_name,
+                            source=item_source,
                             title=entry.get("title", ""),
                             url=entry.get("link", ""),
                             published_at=published,
                             meta={
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
+                                "source_mode": source_mode,
                             },
                         )
                     )
@@ -4120,12 +4150,14 @@ def fetch_opml_rss(
             error = str(exc)
 
         duration_ms = int((time.perf_counter() - start) * 1000)
+        public_feed_url = "configured" if is_slow_professor_feed else original_feed_url
+        public_effective_feed_url = "configured" if is_slow_professor_feed else feed_url
         status = {
             "site_id": f"opmlrss:{feed_id}",
             "site_name": "OPML RSS",
             "feed_title": feed_title,
-            "feed_url": original_feed_url,
-            "effective_feed_url": feed_url,
+            "feed_url": public_feed_url,
+            "effective_feed_url": public_effective_feed_url,
             "ok": error is None,
             "item_count": len(local_items),
             "duration_ms": duration_ms,
@@ -4134,6 +4166,7 @@ def fetch_opml_rss(
             "skip_reason": None,
             "replaced": bool(original_feed_url != feed_url),
             "bridge_type": feed.get("bridge_type"),
+            "topic_site_id": SLOW_PROFESSOR_WECHAT_SITE_ID if is_slow_professor_feed else None,
         }
         return local_items, status
 
@@ -6907,6 +6940,31 @@ def main() -> int:
             )
             raw_items.extend(rss_items)
             statuses.append(rss_summary_status)
+            slow_opml_statuses = [
+                s for s in rss_feed_statuses
+                if s.get("topic_site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID
+            ]
+            if slow_opml_statuses:
+                slow_ok = any(bool(s.get("ok")) for s in slow_opml_statuses)
+                slow_count = sum(int(s.get("item_count") or 0) for s in slow_opml_statuses)
+                slow_error = "; ".join(
+                    str(s.get("error") or "")
+                    for s in slow_opml_statuses
+                    if s.get("error")
+                ) or None
+                slow_feed_configured = any(
+                    s.get("effective_feed_url") or s.get("feed_url")
+                    for s in slow_opml_statuses
+                )
+                for status in statuses:
+                    if status.get("site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID:
+                        status["ok"] = slow_ok
+                        status["item_count"] = slow_count
+                        status["error"] = slow_error
+                        status["source_mode"] = "opml_wechat_rss"
+                        if slow_feed_configured:
+                            status["feed_url"] = "configured"
+                        break
         else:
             statuses.append(
                 {

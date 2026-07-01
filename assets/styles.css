@@ -200,15 +200,15 @@ button {
 }
 
 .section-tabs {
-  display: flex;
-  gap: 4px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
   align-items: center;
-  overflow-x: auto;
+  overflow: visible;
   scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line-soft);
   border-radius: var(--radius);
-  padding: 4px;
+  padding: 6px;
   background: rgba(255, 255, 255, 0.52);
 }
 
@@ -217,14 +217,15 @@ button {
 }
 
 .section-tab {
-  flex: 0 0 auto;
+  min-width: 0;
   min-height: 40px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   border: 1px solid transparent;
   border-radius: var(--radius);
-  padding: 0 11px;
+  padding: 0 8px;
   color: var(--muted);
   background: transparent;
   font-size: 13px;
@@ -2616,7 +2617,8 @@ summary:focus-visible {
   }
 
   .section-tabs {
-    padding-bottom: 1px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 5px;
   }
 
   .section-tab {
@@ -2829,6 +2831,10 @@ summary:focus-visible {
   .section-tab {
     gap: 6px;
     font-size: 12px;
+  }
+
+  .section-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .section-tab strong {
