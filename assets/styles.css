@@ -2574,28 +2574,35 @@ summary:focus-visible {
   }
 
   .stats {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    align-items: stretch;
-    gap: 8px;
-    padding: 11px;
-    overflow: visible;
-    white-space: normal;
+    display: flex;
+    gap: 7px;
+    padding: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .stats::-webkit-scrollbar {
+    display: none;
   }
 
   .stat-prefix {
-    grid-column: 1 / -1;
+    flex: 0 0 auto;
+    align-self: center;
     font-size: 13px;
     line-height: 1.2;
   }
 
   .stat {
+    flex: 0 0 auto;
+    min-width: 96px;
     display: grid;
-    gap: 3px;
+    gap: 2px;
     align-content: center;
     border: 1px solid var(--line-soft);
     border-radius: var(--radius);
-    padding: 8px 9px;
+    padding: 7px 9px;
     background: rgba(255, 255, 255, 0.62);
   }
 
@@ -2617,7 +2624,7 @@ summary:focus-visible {
     top: 0;
     margin-right: -12px;
     margin-left: -12px;
-    padding: 8px 12px;
+    padding: 7px 12px;
     border-top: 1px solid rgba(23, 23, 23, 0.06);
     border-bottom: 1px solid rgba(23, 23, 23, 0.08);
     background: rgba(244, 250, 238, 0.96);
@@ -2625,17 +2632,22 @@ summary:focus-visible {
   }
 
   .section-tabs {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding: 5px;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px;
   }
 
   .section-tab {
-    min-height: 38px;
-    padding: 0 10px;
+    flex: 0 0 auto;
+    min-height: 34px;
+    padding: 0 9px;
   }
 
   .section-summary {
     font-size: 12px;
+    line-height: 1.35;
   }
 
   .mode-hint,
@@ -2816,9 +2828,8 @@ summary:focus-visible {
   }
 
   .stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-    padding: 10px;
+    gap: 6px;
+    padding: 7px;
   }
 
   .coverage-strip {
@@ -2842,7 +2853,7 @@ summary:focus-visible {
   }
 
   .section-tabs {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: none;
   }
 
   .section-tab strong {
