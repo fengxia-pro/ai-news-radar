@@ -1581,7 +1581,8 @@ def fetch_github_source_markdowns(session: requests.Session, source: dict[str, A
         resp = session.get(download_url, headers={"User-Agent": BROWSER_UA}, timeout=25)
         resp.raise_for_status()
         source_url = str(source.get("issue_url_template") or "").format(name=name) or download_url
-        source_title = f"{source['site_name']} · {re.sub(r'\\.md$', '', name)}"
+        source_issue_name = re.sub(r"\.md$", "", name)
+        source_title = f"{source['site_name']} · {source_issue_name}"
         out.append((source_url, source_title, resp.text))
     return out
 
