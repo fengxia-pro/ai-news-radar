@@ -56,6 +56,7 @@ from scripts.update_news import (
     parse_xssc_notice_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
+    RABBIT_PROFESSOR_WECHAT_SITE_ID,
     SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
     SLOW_PROFESSOR_WECHAT_SITE_ID,
     source_tier_for_site,
@@ -1496,6 +1497,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(source_tier_for_site("opmlrss:abc123")["source_tier"], "user_opml")
         self.assertEqual(source_tier_for_site("socialdata_x")["source_tier"], "advanced")
         self.assertEqual(source_tier_for_site("tikhub_xiaohongshu")["source_tier"], "self_media")
+        self.assertEqual(source_tier_for_site(RABBIT_PROFESSOR_WECHAT_SITE_ID)["source_tier"], "self_media")
         self.assertEqual(source_tier_for_site("zeli")["source_tier"], "discussion")
         self.assertEqual(source_tier_for_site("newsnow")["source_tier_label"], "热议参考")
 
@@ -2375,6 +2377,33 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
 
         self.assertEqual([item["id"] for item in items], ["week-hot", "fresh-low"])
         self.assertGreater(items[0]["creator_hot_score"], items[1]["creator_hot_score"])
+
+    def test_build_creator_hot_items_includes_manual_wechat_self_media(self):
+        import datetime as _dt
+
+        now = _dt.datetime.fromisoformat("2026-07-02T12:30:00+00:00")
+        archive = {
+            "rabbit": {
+                "id": "rabbit",
+                "site_id": RABBIT_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "兔教授是我",
+                "source": "公众号：兔教授是我",
+                "title": "实测 Claude Science 写文献综述：它强在哪儿？",
+                "url": "https://mp.weixin.qq.com/s/zXN92yhSewXnKijZhJddUA",
+                "published_at": "2026-07-02T09:54:30Z",
+                "first_seen_at": now.isoformat(),
+                "last_seen_at": now.isoformat(),
+                "summary": "Claude Science 写文献综述，查 PubMed 并核验 DOI/PMID。",
+                "creator_metrics": {"likes": 0, "comments": 0, "collects": 0, "shares": 0},
+                "ai_is_related": True,
+                "ai_score": 0.9,
+            }
+        }
+
+        items = build_creator_hot_items(archive, now, ai_only=True)
+
+        self.assertEqual([item["id"] for item in items], ["rabbit"])
+        self.assertEqual(items[0]["source_tier"], "self_media")
 
     def test_parse_tikhub_xiaohongshu_accepts_millisecond_api_time(self):
         import datetime as _dt

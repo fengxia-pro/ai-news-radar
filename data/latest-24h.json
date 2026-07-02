@@ -1,15 +1,15 @@
 {
   "generated_at": "2026-07-02T11:09:58.700187Z",
   "window_hours": 24,
-  "total_items": 763,
-  "total_items_ai_raw": 817,
-  "total_items_raw": 7002,
-  "total_items_all_mode": 6562,
+  "total_items": 764,
+  "total_items_ai_raw": 818,
+  "total_items_raw": 7003,
+  "total_items_all_mode": 6563,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 135257,
-  "site_count": 29,
-  "source_count": 120,
+  "archive_total": 135258,
+  "site_count": 30,
+  "source_count": 121,
   "site_stats": [
     {
       "site_id": "buzzing",
@@ -184,6 +184,12 @@
       "site_name": "Awesome",
       "count": 0,
       "raw_count": 0
+    },
+    {
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "?????",
+      "count": 1,
+      "raw_count": 1
     }
   ],
   "creator_window_days": 7,
@@ -934,6 +940,45 @@
       "title_en": null,
       "title_zh": "腾讯AgentMail邮箱接入教程。Agent Mail 是 QQ 邮箱团队为 Agent 打造的专属邮箱服务。它与个人邮箱隔离，原生适配 Agent，助力你安全、高效地用 Agent 收发邮件。整个接入只需发送一句话、用微信扫码授权即可完成。 第一步：注册Agent Mail 邮箱，可以用微信登录，每个微信帐号可以注册两个邮箱号。 第二步：复制安装指南并部署到你常用的智能体平台我常用的是workbuddy和IMA·copilot，教…",
       "title_bilingual": "腾讯AgentMail邮箱接入教程。Agent Mail 是 QQ 邮箱团队为 Agent 打造的专属邮箱服务。它与个人邮箱隔离，原生适配 Agent，助力你安全、高效地用 Agent 收发邮件。整个接入只需发送一句话、用微信扫码授权即可完成。 第一步：注册Agent Mail 邮箱，可以用微信登录，每个微信帐号可以注册两个邮箱号。 第二步：复制安装指南并部署到你常用的智能体平台我常用的是workbuddy和IMA·copilot，教…"
+    },
+    {
+      "id": "7bcdfa5ceb95e9ef558719707ef9062fe955b2f0",
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "兔教授是我",
+      "source": "公众号：兔教授是我",
+      "title": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "title_zh": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "url": "https://mp.weixin.qq.com/s/zXN92yhSewXnKijZhJddUA",
+      "published_at": "2026-07-02T09:54:30Z",
+      "first_seen_at": "2026-07-02T11:09:58.700187Z",
+      "last_seen_at": "2026-07-02T11:09:58.700187Z",
+      "ai_label": "model_release",
+      "ai_score": 0.65,
+      "ai_relevance_score": 0.9,
+      "ai_is_related": true,
+      "creator_metrics": {
+        "likes": 0,
+        "comments": 0,
+        "collects": 0,
+        "shares": 0
+      },
+      "date_label": "用户确认的公众号文章",
+      "date_status": "user_confirmed_recent",
+      "search_surface": "wechat_manual",
+      "source_mode": "manual_wechat_link",
+      "summary": "我本地实测了 Claude Science 写文献综述的能力。它不是直接一键生成，而是先搭框架，再查 PubMed、核验 DOI/PMID、整理参考文献、生成图表，最后写成综述。本文结合实测截图，拆解它的真实流程和最终成稿质量。",
+      "ai_relevance_reason": "matched_ai_signal",
+      "ai_signals": [
+        "claude"
+      ],
+      "ai_noise": [],
+      "source_tier": "self_media",
+      "source_tier_label": "自媒体源",
+      "source_tier_rank": 4,
+      "creator_engagement_total": 0.0,
+      "creator_heat_score": 0.0,
+      "creator_freshness_bonus": 15.0,
+      "creator_hot_score": 15.0
     }
   ],
   "creator_items_all": [
@@ -1719,6 +1764,45 @@
       "title_bilingual": "腾讯AgentMail邮箱接入教程。Agent Mail 是 QQ 邮箱团队为 Agent 打造的专属邮箱服务。它与个人邮箱隔离，原生适配 Agent，助力你安全、高效地用 Agent 收发邮件。整个接入只需发送一句话、用微信扫码授权即可完成。 第一步：注册Agent Mail 邮箱，可以用微信登录，每个微信帐号可以注册两个邮箱号。 第二步：复制安装指南并部署到你常用的智能体平台我常用的是workbuddy和IMA·copilot，教…"
     },
     {
+      "id": "7bcdfa5ceb95e9ef558719707ef9062fe955b2f0",
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "兔教授是我",
+      "source": "公众号：兔教授是我",
+      "title": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "title_zh": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "url": "https://mp.weixin.qq.com/s/zXN92yhSewXnKijZhJddUA",
+      "published_at": "2026-07-02T09:54:30Z",
+      "first_seen_at": "2026-07-02T11:09:58.700187Z",
+      "last_seen_at": "2026-07-02T11:09:58.700187Z",
+      "ai_label": "model_release",
+      "ai_score": 0.65,
+      "ai_relevance_score": 0.9,
+      "ai_is_related": true,
+      "creator_metrics": {
+        "likes": 0,
+        "comments": 0,
+        "collects": 0,
+        "shares": 0
+      },
+      "date_label": "用户确认的公众号文章",
+      "date_status": "user_confirmed_recent",
+      "search_surface": "wechat_manual",
+      "source_mode": "manual_wechat_link",
+      "summary": "我本地实测了 Claude Science 写文献综述的能力。它不是直接一键生成，而是先搭框架，再查 PubMed、核验 DOI/PMID、整理参考文献、生成图表，最后写成综述。本文结合实测截图，拆解它的真实流程和最终成稿质量。",
+      "ai_relevance_reason": "matched_ai_signal",
+      "ai_signals": [
+        "claude"
+      ],
+      "ai_noise": [],
+      "source_tier": "self_media",
+      "source_tier_label": "自媒体源",
+      "source_tier_rank": 4,
+      "creator_engagement_total": 0.0,
+      "creator_heat_score": 0.0,
+      "creator_freshness_bonus": 15.0,
+      "creator_hot_score": 15.0
+    },
+    {
       "id": "aad1dcc7badb8a8085892a5e5df9d582858fade5",
       "site_id": "tikhub_douyin",
       "site_name": "TikHub Douyin",
@@ -1755,6 +1839,41 @@
     }
   ],
   "items": [
+    {
+      "id": "7bcdfa5ceb95e9ef558719707ef9062fe955b2f0",
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "兔教授是我",
+      "source": "公众号：兔教授是我",
+      "title": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "title_zh": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "url": "https://mp.weixin.qq.com/s/zXN92yhSewXnKijZhJddUA",
+      "published_at": "2026-07-02T09:54:30Z",
+      "first_seen_at": "2026-07-02T11:09:58.700187Z",
+      "last_seen_at": "2026-07-02T11:09:58.700187Z",
+      "ai_label": "model_release",
+      "ai_score": 0.65,
+      "ai_relevance_score": 0.9,
+      "ai_is_related": true,
+      "creator_metrics": {
+        "likes": 0,
+        "comments": 0,
+        "collects": 0,
+        "shares": 0
+      },
+      "date_label": "用户确认的公众号文章",
+      "date_status": "user_confirmed_recent",
+      "search_surface": "wechat_manual",
+      "source_mode": "manual_wechat_link",
+      "summary": "我本地实测了 Claude Science 写文献综述的能力。它不是直接一键生成，而是先搭框架，再查 PubMed、核验 DOI/PMID、整理参考文献、生成图表，最后写成综述。本文结合实测截图，拆解它的真实流程和最终成稿质量。",
+      "ai_relevance_reason": "matched_ai_signal",
+      "ai_signals": [
+        "claude"
+      ],
+      "ai_noise": [],
+      "source_tier": "self_media",
+      "source_tier_label": "自媒体源",
+      "source_tier_rank": 4
+    },
     {
       "id": "b954e525e8b0e58dae91fe2ac4b715b3283c2dd6",
       "site_id": "official_ai",
@@ -21329,6 +21448,41 @@
     }
   ],
   "items_ai": [
+    {
+      "id": "7bcdfa5ceb95e9ef558719707ef9062fe955b2f0",
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "兔教授是我",
+      "source": "公众号：兔教授是我",
+      "title": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "title_zh": "实测 Claude Science 写文献综述：它强在哪儿？",
+      "url": "https://mp.weixin.qq.com/s/zXN92yhSewXnKijZhJddUA",
+      "published_at": "2026-07-02T09:54:30Z",
+      "first_seen_at": "2026-07-02T11:09:58.700187Z",
+      "last_seen_at": "2026-07-02T11:09:58.700187Z",
+      "ai_label": "model_release",
+      "ai_score": 0.65,
+      "ai_relevance_score": 0.9,
+      "ai_is_related": true,
+      "creator_metrics": {
+        "likes": 0,
+        "comments": 0,
+        "collects": 0,
+        "shares": 0
+      },
+      "date_label": "用户确认的公众号文章",
+      "date_status": "user_confirmed_recent",
+      "search_surface": "wechat_manual",
+      "source_mode": "manual_wechat_link",
+      "summary": "我本地实测了 Claude Science 写文献综述的能力。它不是直接一键生成，而是先搭框架，再查 PubMed、核验 DOI/PMID、整理参考文献、生成图表，最后写成综述。本文结合实测截图，拆解它的真实流程和最终成稿质量。",
+      "ai_relevance_reason": "matched_ai_signal",
+      "ai_signals": [
+        "claude"
+      ],
+      "ai_noise": [],
+      "source_tier": "self_media",
+      "source_tier_label": "自媒体源",
+      "source_tier_rank": 4
+    },
     {
       "id": "b954e525e8b0e58dae91fe2ac4b715b3283c2dd6",
       "site_id": "official_ai",

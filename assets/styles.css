@@ -152,6 +152,10 @@ button {
   margin-top: 4px;
 }
 
+.hero-links[hidden] {
+  display: none;
+}
+
 .hero-link {
   display: inline-flex;
   align-items: center;

@@ -272,9 +272,17 @@
       "failed_feed_count": 0,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
+    },
+    {
+      "site_id": "wechat_rabbit_professor",
+      "site_name": "???????????",
+      "ok": true,
+      "item_count": 1,
+      "duration_ms": 0,
+      "error": null
     }
   ],
-  "successful_sites": 29,
+  "successful_sites": 30,
   "failed_sites": [],
   "zero_item_sites": [
     "wechat_slow_professor",
@@ -282,9 +290,9 @@
     "grant_csb"
   ],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 7473,
-  "items_before_topic_filter": 7002,
-  "items_in_24h": 763,
+  "fetched_raw_items": 7474,
+  "items_before_topic_filter": 7003,
+  "items_in_24h": 764,
   "grant_policy": {
     "enabled": true,
     "item_count": 131,
