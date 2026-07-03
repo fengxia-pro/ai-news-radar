@@ -14,6 +14,7 @@ from scripts.update_news import (
     build_latest_payloads,
     build_slow_professor_payload,
     dedupe_items_by_title_url,
+    DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
     enrich_grant_policy_journal_items,
     extract_wechat_article_meta_from_html,
     fetch_agentmail_digest,
@@ -1498,6 +1499,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(source_tier_for_site("socialdata_x")["source_tier"], "advanced")
         self.assertEqual(source_tier_for_site("tikhub_xiaohongshu")["source_tier"], "self_media")
         self.assertEqual(source_tier_for_site(RABBIT_PROFESSOR_WECHAT_SITE_ID)["source_tier"], "self_media")
+        self.assertEqual(source_tier_for_site(DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID)["source_tier"], "self_media")
         self.assertEqual(source_tier_for_site("zeli")["source_tier"], "discussion")
         self.assertEqual(source_tier_for_site("newsnow")["source_tier_label"], "热议参考")
 

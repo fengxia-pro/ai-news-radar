@@ -138,6 +138,16 @@ RABBIT_PROFESSOR_WECHAT_ARTICLES: tuple[dict[str, str], ...] = (
         ),
     },
 )
+DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID = "wechat_digital_life_khazix"
+DIGITAL_LIFE_KHAZIX_WECHAT_SOURCE = "公众号：数字生命卡兹克"
+DIGITAL_LIFE_KHAZIX_WECHAT_ARTICLES: tuple[dict[str, str], ...] = (
+    {
+        "title": "记一个我被Claude Fable 5震撼的瞬间。",
+        "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
+        "published_at": "2026-07-03T08:16:00+08:00",
+        "summary": "为智能干杯",
+    },
+)
 SLOW_PROFESSOR_WECHAT_ENV_NAMES = (
     "SLOW_PROFESSOR_WECHAT_FEED_URL",
     "WECHAT_SLOW_PROFESSOR_FEED_URL",
@@ -377,7 +387,12 @@ TIKHUB_XHS_PROFILE_URL_BASE = "https://www.xiaohongshu.com/user/profile"
 CREATOR_HOT_WINDOW_DAYS = 7
 CREATOR_FRESHNESS_BONUS_HOURS = 24
 CREATOR_FRESHNESS_BONUS_POINTS = 15.0
-CREATOR_SITE_IDS = frozenset({"tikhub_douyin", "tikhub_xiaohongshu", RABBIT_PROFESSOR_WECHAT_SITE_ID})
+CREATOR_SITE_IDS = frozenset({
+    "tikhub_douyin",
+    "tikhub_xiaohongshu",
+    RABBIT_PROFESSOR_WECHAT_SITE_ID,
+    DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
+})
 # --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
 # Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
 # only expose coarse buckets (不限/一天内/一周内/半年内), so we ask the API for
@@ -3409,6 +3424,43 @@ def fetch_rabbit_professor_wechat(session: requests.Session, now: datetime) -> l
     return items
 
 
+def fetch_digital_life_khazix_wechat(session: requests.Session, now: datetime) -> list[RawItem]:
+    items: list[RawItem] = []
+    for seed in DIGITAL_LIFE_KHAZIX_WECHAT_ARTICLES:
+        title = first_non_empty(seed.get("title"), "数字生命卡兹克：近期文章")
+        url = first_non_empty(seed.get("url"))
+        if not url:
+            continue
+        published = parse_date_any(seed.get("published_at"), now)
+        summary = clean_feed_summary_text(seed.get("summary"), max_chars=900)
+        article_meta = fetch_wechat_article_meta(session.get, url)
+        article_title = first_non_empty(article_meta.get("title"), title)
+        article_summary = clean_feed_summary_text(article_meta.get("summary"), max_chars=900) or summary
+        items.append(
+            RawItem(
+                site_id=DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
+                site_name="数字生命卡兹克",
+                source=DIGITAL_LIFE_KHAZIX_WECHAT_SOURCE,
+                title=article_title,
+                url=normalize_url(url),
+                published_at=published,
+                meta={
+                    "summary": article_summary,
+                    "creator_metrics": {"likes": 0, "comments": 0, "collects": 0, "shares": 0},
+                    "ai_label": "model_release",
+                    "ai_score": 0.9,
+                    "ai_relevance_score": 0.9,
+                    "ai_is_related": True,
+                    "source_mode": "manual_wechat_link",
+                    "date_status": "user_confirmed_recent",
+                    "date_label": "用户确认的公众号文章",
+                    "search_surface": "wechat_manual",
+                },
+            )
+        )
+    return items
+
+
 def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
     meta = raw.meta if isinstance(raw.meta, dict) else {}
     published = raw.published_at
@@ -4422,6 +4474,7 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         ("hackernews", "Hacker News", fetch_hacker_news_algolia),
         (SLOW_PROFESSOR_WECHAT_SITE_ID, "微信公众号：慢教授的科研江湖", fetch_slow_professor_wechat),
         (RABBIT_PROFESSOR_WECHAT_SITE_ID, "微信公众号：兔教授是我", fetch_rabbit_professor_wechat),
+        (DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID, "微信公众号：数字生命卡兹克", fetch_digital_life_khazix_wechat),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
         ("aihot", "AI HOT", fetch_aihot),
@@ -4881,7 +4934,12 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
 def event_time(record: dict[str, Any]) -> datetime | None:
     # RSS sources must rely on the source's publish time only.
     # first_seen_at is fetch time and would falsely mark historical items as "24h".
-    if str(record.get("site_id") or "") in {"opmlrss", SLOW_PROFESSOR_WECHAT_SITE_ID, RABBIT_PROFESSOR_WECHAT_SITE_ID}:
+    if str(record.get("site_id") or "") in {
+        "opmlrss",
+        SLOW_PROFESSOR_WECHAT_SITE_ID,
+        RABBIT_PROFESSOR_WECHAT_SITE_ID,
+        DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
+    }:
         return parse_iso(record.get("published_at"))
     return parse_iso(record.get("published_at")) or parse_iso(record.get("first_seen_at"))
 
@@ -4906,6 +4964,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "opmlrss": ("user_opml", "RSS/OPML", 3),
     SLOW_PROFESSOR_WECHAT_SITE_ID: ("slow_professor", "慢教授公众号", 1),
     RABBIT_PROFESSOR_WECHAT_SITE_ID: ("self_media", "自媒体源", 4),
+    DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID: ("self_media", "自媒体源", 4),
     "tikhub_douyin": ("self_media", "自媒体源", 4),
     "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
@@ -7672,6 +7731,7 @@ def main() -> int:
                     raw.site_id == "opmlrss"
                     or raw.site_id == SLOW_PROFESSOR_WECHAT_SITE_ID
                     or raw.site_id == RABBIT_PROFESSOR_WECHAT_SITE_ID
+                    or raw.site_id == DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID
                     or not existing.get("published_at")
                 ):
                     existing["published_at"] = iso(raw.published_at)
