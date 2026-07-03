@@ -156,6 +156,16 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "我做了一个 AI+科研雷达：既看国家研究方向，也看 AI 最新变化",
+        "url": "https://mp.weixin.qq.com/s/VSJUFEYtfl6dLnfEDVcQHA",
+        "published_at": "2026-07-03T05:30:00+08:00",
+        "summary": (
+            "很多科研人一边问国自然选题从哪来，一边问 AI 工具怎么选。"
+            "其实这两件事都需要同一种能力，科研雷达。慢老师做的 AI+科研雷达，"
+            "不是让大家多刷信息，而是把公开信号转译成可执行的选题判断和工具决策。"
+        ),
+    },
+    {
         "title": "用中转服务访问 Claude 的朋友，请注意",
         "url": "https://mp.weixin.qq.com/s/WlN2ncbniAHgbh-oGUibCQ",
         "published_at": "2026-07-02T07:51:06+08:00",
