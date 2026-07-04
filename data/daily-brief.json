@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T21:04:23.049251Z",
+  "generated_at": "2026-07-04T22:30:02.019510Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 19,
   "items": [
     {
       "story_id": "story_14db553be425",
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7671,
-      "importance": 0.7671,
-      "importance_score": 0.7671,
+      "score": 0.764,
+      "importance": 0.764,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8418,
+        "recency": 0.8246,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -119,15 +119,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7364,
-      "importance": 0.7364,
-      "importance_score": 0.7364,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7931,
+        "recency": 0.7769,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -179,15 +179,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7275,
-      "importance": 0.7275,
-      "importance_score": 0.7275,
+      "score": 0.7246,
+      "importance": 0.7246,
+      "importance_score": 0.7246,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8108,
+        "recency": 0.7942,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -311,15 +311,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6866,
-      "importance": 0.6866,
-      "importance_score": 0.6866,
+      "score": 0.6831,
+      "importance": 0.6831,
+      "importance_score": 0.6831,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.54,
         "ai_relevance": 0.71,
-        "recency": 0.958,
+        "recency": 0.9384,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -337,198 +337,81 @@
       }
     },
     {
-      "story_id": "story_616f8e70b9f8",
-      "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增",
-      "url": "https://epoch.ai/data-insights/cve-severity-spike",
-      "primary_url": "https://epoch.ai/data-insights/cve-severity-spike",
-      "source": "epoch.ai",
-      "source_name": "Buzzing",
+      "story_id": "story_9c79f138d1f8",
+      "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents",
+      "url": "https://rakyll.org/coding-agents",
+      "primary_url": "https://rakyll.org/coding-agents",
+      "source": "Lobsters (技术社区)",
+      "source_name": "Info Flow",
       "sources": [
         {
-          "id": "7b0bcf1e441f6017f37dafeb3786a3bbce814539",
-          "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增",
-          "url": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "epoch.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-04T09:11:45.212000Z"
+          "id": "8c196101e3bd2aae0cffc8298c99b28fb503daa5",
+          "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents",
+          "url": "https://rakyll.org/coding-agents",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-04T18:30:17Z"
         },
         {
-          "id": "49b6ac7b0f225bb8a3b657f8a856d972ca57dcca",
-          "title": "Claude Mythos 预览版发布后新的严重漏洞激增 / New serious vulnerabilities spiked around release of Claude Mythos Preview",
-          "url": "https://news.ycombinator.com/item?id=48780056",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-03T22:36:37.813000Z"
-        },
-        {
-          "id": "61909141a734290bb3a0ad945426676e0626feb2",
-          "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增 / New serious vulnerabilities spiked around release of Claude Mythos Preview",
-          "url": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-03T21:16:16Z"
+          "id": "0849b3f7c13f90597fa11b68b3cb61ba05a04fc9",
+          "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents · rakyll.org",
+          "url": "https://rakyll.org/coding-agents",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-04T18:30:17Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "epoch.ai",
-        "hackernews"
+        "Lobsters (技术社区)"
       ],
       "items": [
         {
-          "id": "7b0bcf1e441f6017f37dafeb3786a3bbce814539",
-          "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增",
-          "url": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "epoch.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-04T09:11:45.212000Z"
+          "id": "8c196101e3bd2aae0cffc8298c99b28fb503daa5",
+          "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents",
+          "url": "https://rakyll.org/coding-agents",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-04T18:30:17Z"
         },
         {
-          "id": "49b6ac7b0f225bb8a3b657f8a856d972ca57dcca",
-          "title": "Claude Mythos 预览版发布后新的严重漏洞激增 / New serious vulnerabilities spiked around release of Claude Mythos Preview",
-          "url": "https://news.ycombinator.com/item?id=48780056",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-03T22:36:37.813000Z"
-        },
-        {
-          "id": "61909141a734290bb3a0ad945426676e0626feb2",
-          "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增 / New serious vulnerabilities spiked around release of Claude Mythos Preview",
-          "url": "https://epoch.ai/data-insights/cve-severity-spike",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-03T21:16:16Z"
+          "id": "0849b3f7c13f90597fa11b68b3cb61ba05a04fc9",
+          "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents · rakyll.org",
+          "url": "https://rakyll.org/coding-agents",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-04T18:30:17Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5424,
-      "importance": 0.5424,
-      "importance_score": 0.5424,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5357,
+      "importance": 0.5357,
+      "importance_score": 0.5357,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8424,
-        "story_heat": 0.5
+        "recency": 0.9439,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T21:16:16Z",
-      "latest_at": "2026-07-04T09:11:45.212000Z",
+      "earliest_at": "2026-07-04T18:30:17Z",
+      "latest_at": "2026-07-04T18:30:17Z",
       "primary_item": {
-        "id": "7b0bcf1e441f6017f37dafeb3786a3bbce814539",
-        "title": "在Claude Mythos预览版发布前后，新发现的严重漏洞数量激增",
-        "url": "https://epoch.ai/data-insights/cve-severity-spike",
-        "source": "epoch.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_b7e86ff92336",
-      "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半",
-      "url": "https://www.wafer.ai/blog/glm52-amd",
-      "primary_url": "https://www.wafer.ai/blog/glm52-amd",
-      "source": "www.wafer.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "080d7749fd52aba3fb6472de65e14d78b7d7af7e",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "www.wafer.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-04T02:31:35.646000Z"
-        },
-        {
-          "id": "9ecda57c66fe24481e8c7e612c808664ba26d77e",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半 / GLM5.2 on AMD MI355X at 2626 tok/s/node at over 2x lower cost than Blackwell",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-03T21:49:06Z"
-        },
-        {
-          "id": "1bae42dd1741066c292419fab2e69b257a252ff5",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半 / Performance per dollar is getting faster and cheaper",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-03T21:49:06Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "www.wafer.ai"
-      ],
-      "items": [
-        {
-          "id": "080d7749fd52aba3fb6472de65e14d78b7d7af7e",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "www.wafer.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-04T02:31:35.646000Z"
-        },
-        {
-          "id": "9ecda57c66fe24481e8c7e612c808664ba26d77e",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半 / GLM5.2 on AMD MI355X at 2626 tok/s/node at over 2x lower cost than Blackwell",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-03T21:49:06Z"
-        },
-        {
-          "id": "1bae42dd1741066c292419fab2e69b257a252ff5",
-          "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半 / Performance per dollar is getting faster and cheaper",
-          "url": "https://www.wafer.ai/blog/glm52-amd",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-03T21:49:06Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5285,
-      "importance": 0.5285,
-      "importance_score": 0.5285,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.765,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-03T21:49:06Z",
-      "latest_at": "2026-07-04T02:31:35.646000Z",
-      "primary_item": {
-        "id": "080d7749fd52aba3fb6472de65e14d78b7d7af7e",
-        "title": "在 AMD MI355X 上运行的 GLM5.2，每节点吞吐量达 2626 tok/s，成本仅为 Blackwell 的不到一半",
-        "url": "https://www.wafer.ai/blog/glm52-amd",
-        "source": "www.wafer.ai",
-        "source_name": "Buzzing"
+        "id": "8c196101e3bd2aae0cffc8298c99b28fb503daa5",
+        "title": "关于编程代理的思考 · rakyll.org / Thoughts on coding agents",
+        "url": "https://rakyll.org/coding-agents",
+        "source": "Lobsters (技术社区)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -584,15 +467,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5278,
-      "importance": 0.5278,
-      "importance_score": 0.5278,
+      "score": 0.5245,
+      "importance": 0.5245,
+      "importance_score": 0.5245,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8998,
+        "recency": 0.8815,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,15 +546,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5229,
-      "importance": 0.5229,
-      "importance_score": 0.5229,
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8725,
+        "recency": 0.8547,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -742,15 +625,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
+      "score": 0.5161,
+      "importance": 0.5161,
+      "importance_score": 0.5161,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8521,
+        "recency": 0.8347,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -821,15 +704,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5136,
-      "importance": 0.5136,
-      "importance_score": 0.5136,
+      "score": 0.5106,
+      "importance": 0.5106,
+      "importance_score": 0.5106,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8211,
+        "recency": 0.8043,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -900,15 +783,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5077,
-      "importance": 0.5077,
-      "importance_score": 0.5077,
+      "score": 0.5048,
+      "importance": 0.5048,
+      "importance_score": 0.5048,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7885,
+        "recency": 0.7724,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -979,15 +862,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5072,
-      "importance": 0.5072,
-      "importance_score": 0.5072,
+      "score": 0.5043,
+      "importance": 0.5043,
+      "importance_score": 0.5043,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7855,
+        "recency": 0.7695,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1058,15 +941,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5046,
-      "importance": 0.5046,
-      "importance_score": 0.5046,
+      "score": 0.5017,
+      "importance": 0.5017,
+      "importance_score": 0.5017,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.771,
+        "recency": 0.7552,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1137,15 +1020,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5229,
-      "importance": 0.5229,
-      "importance_score": 0.5229,
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8725,
+        "recency": 0.8547,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1216,15 +1099,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.518,
-      "importance": 0.518,
-      "importance_score": 0.518,
+      "score": 0.5149,
+      "importance": 0.5149,
+      "importance_score": 0.5149,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8456,
+        "recency": 0.8284,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1295,15 +1178,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5136,
-      "importance": 0.5136,
-      "importance_score": 0.5136,
+      "score": 0.5105,
+      "importance": 0.5105,
+      "importance_score": 0.5105,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8209,
+        "recency": 0.8041,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1321,80 +1204,79 @@
       }
     },
     {
-      "story_id": "story_2e04f3e69e59",
-      "title": "Claude 的 Electron Mac 应用程序极其糟糕，是内部人员所为 / Claude's Criminally Bad Electron Mac App Is an Inside Job",
-      "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
-      "primary_url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+      "story_id": "story_30ac56cabc02",
+      "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
+      "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+      "primary_url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
       "source": "Hacker News · 24h最热",
       "source_name": "Zeli",
       "sources": [
         {
-          "id": "6946947ee19f4eabd1b586cc7da5f48be7d20b02",
-          "title": "Claude 的 Electron Mac 应用程序极其糟糕，是内部人员所为 / Claude's Criminally Bad Electron Mac App Is an Inside Job",
-          "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+          "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
+          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
+          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-04T00:01:23Z"
+          "published_at": "2026-07-03T22:46:18Z"
         },
         {
-          "id": "2678cac44e38d601f3f5c52843d9c80fd1afe32c",
-          "title": "★ Claude 的极其糟糕的 Electron Mac 应用程序是内部人员所为 / ★ Claude’s Criminally Bad Electron Mac App Is an Inside Job",
-          "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
-          "source": "Daring Fireball",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-03T21:24:05Z"
+          "id": "dd3e44657bab409de0897fbaad07d9ca7ae06604",
+          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
+          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-03T22:46:18Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Daring Fireball",
         "Hacker News · 24h最热"
       ],
       "items": [
         {
-          "id": "6946947ee19f4eabd1b586cc7da5f48be7d20b02",
-          "title": "Claude 的 Electron Mac 应用程序极其糟糕，是内部人员所为 / Claude's Criminally Bad Electron Mac App Is an Inside Job",
-          "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+          "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
+          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
+          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-04T00:01:23Z"
+          "published_at": "2026-07-03T22:46:18Z"
         },
         {
-          "id": "2678cac44e38d601f3f5c52843d9c80fd1afe32c",
-          "title": "★ Claude 的极其糟糕的 Electron Mac 应用程序是内部人员所为 / ★ Claude’s Criminally Bad Electron Mac App Is an Inside Job",
-          "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
-          "source": "Daring Fireball",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-03T21:24:05Z"
+          "id": "dd3e44657bab409de0897fbaad07d9ca7ae06604",
+          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
+          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-03T22:46:18Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4986,
-      "importance": 0.4986,
-      "importance_score": 0.4986,
+      "score": 0.4936,
+      "importance": 0.4936,
+      "importance_score": 0.4936,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7379,
+        "recency": 0.7099,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T21:24:05Z",
-      "latest_at": "2026-07-04T00:01:23Z",
+      "earliest_at": "2026-07-03T22:46:18Z",
+      "latest_at": "2026-07-03T22:46:18Z",
       "primary_item": {
-        "id": "6946947ee19f4eabd1b586cc7da5f48be7d20b02",
-        "title": "Claude 的 Electron Mac 应用程序极其糟糕，是内部人员所为 / Claude's Criminally Bad Electron Mac App Is an Inside Job",
-        "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+        "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
+        "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
+        "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
       }
@@ -1453,15 +1335,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5229,
-      "importance": 0.5229,
-      "importance_score": 0.5229,
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8725,
+        "recency": 0.8547,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1532,15 +1414,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5136,
-      "importance": 0.5136,
-      "importance_score": 0.5136,
+      "score": 0.5105,
+      "importance": 0.5105,
+      "importance_score": 0.5105,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8209,
+        "recency": 0.8041,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1558,30 +1440,30 @@
       }
     },
     {
-      "story_id": "story_30ac56cabc02",
-      "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
-      "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
-      "primary_url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+      "story_id": "story_374bcce2a56f",
+      "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches",
+      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
+      "primary_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
       "source": "Hacker News · 24h最热",
       "source_name": "Zeli",
       "sources": [
         {
-          "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
-          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
-          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "id": "149bb261267401f1de46a124cee45d1503b04343",
+          "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches",
+          "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-03T22:46:18Z"
+          "published_at": "2026-07-03T22:40:29Z"
         },
         {
-          "id": "dd3e44657bab409de0897fbaad07d9ca7ae06604",
-          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
-          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "id": "021404ebcdd10f9848461b5c0b211ecc57ff9f11",
+          "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches: new research",
+          "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-03T22:46:18Z"
+          "published_at": "2026-07-03T22:40:29Z"
         }
       ],
       "source_count": 2,
@@ -1590,47 +1472,47 @@
       ],
       "items": [
         {
-          "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
-          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
-          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "id": "149bb261267401f1de46a124cee45d1503b04343",
+          "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches",
+          "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-03T22:46:18Z"
+          "published_at": "2026-07-03T22:40:29Z"
         },
         {
-          "id": "dd3e44657bab409de0897fbaad07d9ca7ae06604",
-          "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
-          "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+          "id": "021404ebcdd10f9848461b5c0b211ecc57ff9f11",
+          "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches: new research",
+          "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-07-03T22:46:18Z"
+          "published_at": "2026-07-03T22:40:29Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4962,
-      "importance": 0.4962,
-      "importance_score": 0.4962,
+      "score": 0.4934,
+      "importance": 0.4934,
+      "importance_score": 0.4934,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7247,
+        "recency": 0.7089,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T22:46:18Z",
-      "latest_at": "2026-07-03T22:46:18Z",
+      "earliest_at": "2026-07-03T22:40:29Z",
+      "latest_at": "2026-07-03T22:40:29Z",
       "primary_item": {
-        "id": "0f5897aec7717231ec2963b2b5a1b7ac3bf536ad",
-        "title": "17世纪阿姆斯特丹范德海登兄弟的消防系统 / Amsterdam invented the fire department",
-        "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department",
+        "id": "149bb261267401f1de46a124cee45d1503b04343",
+        "title": "巨树向顶端树枝输送水分毫无困难 / Giant trees have no trouble pumping water to top branches",
+        "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
       }
