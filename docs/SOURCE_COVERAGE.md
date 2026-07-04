@@ -113,7 +113,8 @@ baseline, then let the aggregator layer add breadth.
 - **国自然/科研政策专题**: writes a separate
   `data/latest-grants-24h.json` payload and a `grant_policy` summary in
   `data/source-status.json`. This lane is not gated by AI relevance scoring and
-  does not change `latest-24h.json`. Built-in public sources cover 求是网、国家
+  does not change `latest-24h.json`. Built-in public sources cover 求是网政策文章（首页、科教、网评、经济频道）、
+  国家
   自然科学基金委员会首页、国家自然科学基金委员会项目指南列表、中国科学基金、Fundamental
   Research、香山科学会议、国家科技管理信息系统、科学通报、中国科学院科技战略咨询研究院. Fundamental Research uses
   ScienceDirect's public RSS feed; other sources use focused public-page parsing

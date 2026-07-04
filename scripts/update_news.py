@@ -465,6 +465,27 @@ GRANT_POLICY_KEYWORDS: tuple[str, ...] = (
     "nsfc",
 )
 
+QSTHEORY_POLICY_KEYWORDS: tuple[str, ...] = (
+    "科技",
+    "科学",
+    "创新",
+    "基础研究",
+    "人工智能",
+    "AI",
+    "数智",
+    "数字",
+    "具身智能",
+    "新质生产力",
+    "未来产业",
+    "教育科技人才",
+    "科技强国",
+    "人才",
+    "高校",
+    "产学研",
+    "专精特新",
+    "新赛道",
+)
+
 GRANT_POLICY_SOURCE_IDS = frozenset(
     {
         "grant_qstheory",
@@ -486,7 +507,13 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "source": "求是",
         "url": "https://www.qstheory.cn/",
         "source_type": "policy",
-        "max_items": 8,
+        "section_urls": (
+            "https://www.qstheory.cn/science/index.htm",
+            "https://www.qstheory.cn/qswp.htm",
+            "https://www.qstheory.cn/economy/index.htm",
+        ),
+        "max_items": 30,
+        "kind": "qstheory_policy",
     },
     {
         "site_id": "grant_nsfc",
@@ -1252,6 +1279,11 @@ def grant_policy_keyword_hit(text: str) -> bool:
     return any(keyword.lower() in hay for keyword in GRANT_POLICY_KEYWORDS)
 
 
+def qstheory_policy_keyword_hit(text: str) -> bool:
+    hay = (text or "").lower()
+    return any(keyword.lower() in hay for keyword in QSTHEORY_POLICY_KEYWORDS)
+
+
 def infer_grant_policy_date(text: str, now: datetime) -> datetime | None:
     s = text or ""
     patterns = (
@@ -1290,6 +1322,79 @@ def nearest_grant_policy_context(anchor: Any, title: str, now: datetime, max_lev
         parent = getattr(parent, "parent", None)
     compact = " ".join(chunks)
     return f"{title} {compact}".strip()
+
+
+def qstheory_article_date_from_url(raw_url: str) -> datetime | None:
+    m = re.search(r"/(20\d{2})(\d{2})(\d{2})/", raw_url or "")
+    if not m:
+        return None
+    try:
+        return datetime(
+            int(m.group(1)),
+            int(m.group(2)),
+            int(m.group(3)),
+            tzinfo=SH_TZ,
+        ).astimezone(UTC)
+    except Exception:
+        return None
+
+
+def qstheory_policy_topic(title: str) -> str:
+    text = title or ""
+    if "基础研究" in text:
+        return "基础研究政策"
+    if "人工智能" in text or "AI" in text or "具身智能" in text or "数智" in text:
+        return "人工智能政策"
+    if "教育科技人才" in text or ("教育" in text and "科技" in text and "人才" in text):
+        return "教育科技人才"
+    if "未来产业" in text or "新质生产力" in text or "新赛道" in text:
+        return "未来产业"
+    return "科研政策"
+
+
+def parse_qstheory_policy_items(page_html: str, source: dict[str, Any], now: datetime, base_url: str | None = None) -> list[RawItem]:
+    soup = BeautifulSoup(page_html, "html.parser")
+    out: list[RawItem] = []
+    seen_urls: set[str] = set()
+    max_items = int(source.get("max_items") or 20)
+    page_url = str(base_url or source["url"])
+
+    for anchor in soup.find_all("a"):
+        href = str(anchor.get("href") or "").strip()
+        if not href or href.startswith(("javascript:", "#", "mailto:")):
+            continue
+        url = normalize_url(urljoin(page_url, href))
+        if not re.search(r"qstheory\.(?:cn|com)/20\d{6}/[^/]+/c\.html$", url):
+            continue
+        if url in seen_urls:
+            continue
+
+        title = clean_grant_policy_title(anchor.get_text(" ", strip=True) or str(anchor.get("title") or ""))
+        if len(title) < 4:
+            continue
+        if len(title) > 180:
+            title = title[:180].rstrip()
+        context = nearest_grant_policy_context(anchor, title, now)
+        if not qstheory_policy_keyword_hit(title):
+            continue
+
+        seen_urls.add(url)
+        published = qstheory_article_date_from_url(url) or infer_grant_policy_date(context, now)
+        meta = grant_policy_meta(source, qstheory_policy_topic(title))
+        out.append(
+            RawItem(
+                site_id=str(source["site_id"]),
+                site_name=str(source["site_name"]),
+                source=str(source["source"]),
+                title=title,
+                url=url,
+                published_at=published,
+                meta=meta,
+            )
+        )
+        if len(out) >= max_items:
+            break
+    return out
 
 
 def grant_policy_meta(source: dict[str, Any], topic: str = "") -> dict[str, Any]:
@@ -1766,7 +1871,23 @@ def fetch_grant_policy_source(
     error = None
     items: list[RawItem] = []
     try:
-        if source.get("kind") == "sciengine_current_issue":
+        if source.get("kind") == "qstheory_policy":
+            seen_urls: set[str] = set()
+            source_urls = [str(source["url"]), *[str(url) for url in source.get("section_urls", ())]]
+            for page_url in source_urls:
+                resp = session.get(page_url, timeout=25)
+                resp.raise_for_status()
+                resp.encoding = resp.encoding or resp.apparent_encoding
+                for item in parse_qstheory_policy_items(resp.text, source, now, base_url=page_url):
+                    if item.url in seen_urls:
+                        continue
+                    seen_urls.add(item.url)
+                    items.append(item)
+                    if len(items) >= int(source.get("max_items") or 20):
+                        break
+                if len(items) >= int(source.get("max_items") or 20):
+                    break
+        elif source.get("kind") == "sciengine_current_issue":
             resp = session.post(
                 str(source.get("api_url") or source["url"]),
                 timeout=25,
@@ -1783,7 +1904,7 @@ def fetch_grant_policy_source(
             resp.raise_for_status()
         if source.get("kind") == "rss":
             items = parse_grant_policy_feed_items(resp.content, source, now)
-        elif source.get("kind") not in {"sciengine_current_issue", "sciencedirect_latest_issue", "xssc_sections"}:
+        elif source.get("kind") not in {"qstheory_policy", "sciengine_current_issue", "sciencedirect_latest_issue", "xssc_sections"}:
             resp.encoding = resp.encoding or resp.apparent_encoding
             items = parse_grant_policy_html_items(resp.text, source, now)
         enrich_grant_policy_journal_items(session, items)

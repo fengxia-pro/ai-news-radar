@@ -51,6 +51,7 @@ from scripts.update_news import (
     parse_github_project_markdown,
     parse_grant_policy_feed_items,
     parse_grant_policy_html_items,
+    parse_qstheory_policy_items,
     parse_sciencedirect_issue_items,
     parse_sciengine_current_issue_items,
     parse_xssc_dynamic_items,
@@ -239,6 +240,31 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].site_id, "grant_nsfc_guides")
         self.assertEqual(items[0].published_at.date().isoformat(), "2026-07-02")
         self.assertEqual(items[0].meta["grant_topic"], "项目申报")
+
+    def test_qstheory_policy_parser_keeps_policy_articles_not_navigation(self):
+        now = datetime(2026, 7, 4, 0, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_qstheory",
+            "site_name": "求是网",
+            "source": "求是",
+            "url": "https://www.qstheory.cn/",
+            "source_type": "policy",
+            "max_items": 10,
+        }
+        html = """
+        <a href="/qssp/index.htm">求是视频</a>
+        <a href="https://www.qstheory.cn/20260701/9297a12c7ac44fb695522d065413abf7/c.html">向着科技强国的目标加速迈进</a>
+        <a href="https://www.qstheory.cn/20260623/875940a06e44439ca0fdc61610d75d6a/c.html">把握全球技术演进态势 抢占具身智能发展先机</a>
+        <a href="https://www.qstheory.cn/20260630/513feeb0897e40b2a02ec9396c0464dc/c.html">父亲对我们的影响历久弥新</a>
+        """
+
+        items = parse_qstheory_policy_items(html, source, now)
+
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0].published_at.date().isoformat(), "2026-06-30")
+        self.assertIn("科技强国", items[0].title)
+        self.assertEqual(items[1].meta["grant_topic"], "人工智能政策")
+        self.assertNotIn("求是视频", {item.title for item in items})
 
     def test_xssc_parsers_extract_notices_and_meeting_dynamics(self):
         now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)

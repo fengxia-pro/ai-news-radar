@@ -118,7 +118,7 @@ const SOURCE_KINDS = {
   newsnow: { label: "聚合", tone: "aggregate" },
   opmlrss: { label: "OPML", tone: "newsletter" },
   wechat_slow_professor: { label: "慢教授", tone: "newsletter" },
-  grant_qstheory: { label: "科研政策", tone: "official" },
+  grant_qstheory: { label: "求是政策", tone: "official" },
   grant_nsfc: { label: "国自然", tone: "official" },
   grant_nsfc_guides: { label: "项目指南", tone: "official" },
   grant_bnsfc: { label: "科学基金", tone: "research" },
