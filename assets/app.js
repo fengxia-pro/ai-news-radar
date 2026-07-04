@@ -152,8 +152,9 @@ const GRANT_SOURCE_GROUP_ORDER = {
   grant_nsfc: 0,
   grant_fundamental_research: 1,
   grant_bnsfc: 2,
-  grant_casisd: 3,
-  grant_qstheory: 4,
+  grant_csb: 3,
+  grant_casisd: 4,
+  grant_qstheory: 5,
 };
 
 const MODEL_SCORE_SOURCE_ORDER = {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T00:10:20.356710Z",
+  "generated_at": "2026-07-04T00:21:49.092951Z",
   "sites": [
     {
       "site_id": "official_ai",
@@ -150,7 +150,7 @@
       "site_name": "求是网",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1363,
+      "duration_ms": 178,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.qstheory.cn/",
@@ -161,7 +161,7 @@
       "site_name": "国家自然科学基金委员会",
       "ok": true,
       "item_count": 12,
-      "duration_ms": 2347,
+      "duration_ms": 209,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.nsfc.gov.cn/",
@@ -170,20 +170,20 @@
     {
       "site_id": "grant_fundamental_research",
       "site_name": "Fundamental Research",
-      "ok": false,
-      "item_count": 0,
-      "duration_ms": 3505,
-      "error": "ScienceDirect latest issue link not found",
+      "ok": true,
+      "item_count": 76,
+      "duration_ms": 73324,
+      "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciencedirect.com/journal/fundamental-research",
-      "candidate": true
+      "candidate": false
     },
     {
       "site_id": "grant_bnsfc",
       "site_name": "中国科学基金",
       "ok": true,
       "item_count": 18,
-      "duration_ms": 4073,
+      "duration_ms": 2641,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/BNSFC/home",
@@ -194,7 +194,7 @@
       "site_name": "香山科学会议",
       "ok": true,
       "item_count": 16,
-      "duration_ms": 3802,
+      "duration_ms": 832,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
@@ -205,7 +205,7 @@
       "site_name": "国家科技管理信息系统",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 2577,
+      "duration_ms": 321,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://service.most.gov.cn/",
@@ -215,19 +215,19 @@
       "site_id": "grant_csb",
       "site_name": "科学通报",
       "ok": true,
-      "item_count": 0,
-      "duration_ms": 1508,
+      "item_count": 20,
+      "duration_ms": 2043,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/CSB/home",
-      "candidate": true
+      "candidate": false
     },
     {
       "site_id": "grant_casisd",
       "site_name": "中国科学院科技战略咨询研究院",
       "ok": true,
       "item_count": 8,
-      "duration_ms": 1550,
+      "duration_ms": 219,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "http://www.casisd.cn/",
@@ -290,15 +290,13 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 29,
+  "successful_sites": 30,
   "failed_sites": [
-    "aihot",
-    "grant_fundamental_research"
+    "aihot"
   ],
   "zero_item_sites": [
     "wechat_slow_professor",
-    "grant_most_service",
-    "grant_csb"
+    "grant_most_service"
   ],
   "empty_advanced_sources": [],
   "fetched_raw_items": 7333,
@@ -306,16 +304,12 @@
   "items_in_24h": 588,
   "grant_policy": {
     "enabled": true,
-    "item_count": 55,
+    "item_count": 151,
     "source_total": 8,
-    "ok_sources": 7,
-    "failed_sources": [
-      "grant_fundamental_research"
-    ],
+    "ok_sources": 8,
+    "failed_sources": [],
     "candidate_sources": [
-      "grant_fundamental_research",
-      "grant_most_service",
-      "grant_csb"
+      "grant_most_service"
     ],
     "data_url": "data/latest-grants-24h.json",
     "reference_source_count": 4,

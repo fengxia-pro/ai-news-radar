@@ -57,6 +57,7 @@ from scripts.update_news import (
     parse_xssc_notice_items,
     parse_openai_codex_changelog_items,
     redact_public_text,
+    GRANT_POLICY_SOURCES,
     RABBIT_PROFESSOR_WECHAT_SITE_ID,
     SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
     SLOW_PROFESSOR_WECHAT_SITE_ID,
@@ -393,6 +394,46 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(items[0].site_id, "grant_bnsfc")
         self.assertIn("/doi/10.3724/BNSFC-2026.04.11.0001", items[0].url)
         self.assertIn("targetome-driven", items[0].meta["summary"])
+
+    def test_grant_csb_source_uses_sciengine_current_issue_api(self):
+        source = next(item for item in GRANT_POLICY_SOURCES if item["site_id"] == "grant_csb")
+
+        self.assertEqual(source["kind"], "sciengine_current_issue")
+        self.assertIn("/restData/journalDetailCurrentIssue", source["api_url"])
+        self.assertIn("journalBaseId=tJmzTo54emWeubAbY", source["api_url"])
+        self.assertGreaterEqual(source["max_items"], 20)
+
+    def test_sciengine_current_issue_parser_extracts_csb_articles(self):
+        now = datetime(2026, 7, 4, 0, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_csb",
+            "site_name": "科学通报",
+            "source": "科学通报 最近一期",
+            "url": "https://www.sciengine.com/CSB/home",
+            "source_type": "journal",
+            "max_items": 20,
+        }
+        payload = [
+            {
+                "titleStr": "Research progress and prospect of heterosis utilization in <italic>indica</italic>-<italic>japonica</italic> rice",
+                "doi": "10.1360/CSB-2026-0326",
+                "pubDate": 1780329600000,
+                "introStr": "This review tracks crop breeding and biological innovation.",
+                "articleTypeStr": "Review",
+            }
+        ]
+
+        items = parse_sciengine_current_issue_items(payload, source, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "grant_csb")
+        self.assertEqual(
+            items[0].title,
+            "Research progress and prospect of heterosis utilization in indica-japonica rice",
+        )
+        self.assertEqual(items[0].published_at.date().isoformat(), "2026-06-01")
+        self.assertIn("/doi/10.1360/CSB-2026-0326", items[0].url)
+        self.assertEqual(items[0].meta["article_type"], "Review")
 
     def test_grant_policy_payload_keeps_unknown_publication_date_unknown(self):
         now = datetime(2026, 7, 1, 1, 0, tzinfo=timezone.utc)

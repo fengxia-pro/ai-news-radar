@@ -536,10 +536,12 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
     {
         "site_id": "grant_csb",
         "site_name": "科学通报",
-        "source": "科学通报",
+        "source": "科学通报 最近一期",
         "url": "https://www.sciengine.com/CSB/home",
+        "api_url": "https://www.sciengine.com/restData/journalDetailCurrentIssue?pageNo=1&pageSize=80&journalBaseId=tJmzTo54emWeubAbY",
         "source_type": "journal",
-        "max_items": 8,
+        "max_items": 80,
+        "kind": "sciengine_current_issue",
     },
     {
         "site_id": "grant_casisd",
@@ -1228,6 +1230,10 @@ def parse_date_any(value: Any, now: datetime) -> datetime | None:
 
 def clean_grant_policy_title(text: str) -> str:
     title = re.sub(r"\s+", " ", maybe_fix_mojibake(text or "")).strip()
+    if "<" in title and ">" in title:
+        title = BeautifulSoup(title, "html.parser").get_text(" ", strip=True)
+        title = re.sub(r"\s+", " ", title).strip()
+        title = re.sub(r"(?<=[A-Za-z])\s*-\s*(?=[A-Za-z])", "-", title)
     title = re.sub(r"^[\s·・|｜>\-—–:：]+", "", title).strip()
     return title
 
