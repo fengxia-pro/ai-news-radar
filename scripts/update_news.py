@@ -469,6 +469,7 @@ GRANT_POLICY_SOURCE_IDS = frozenset(
     {
         "grant_qstheory",
         "grant_nsfc",
+        "grant_nsfc_guides",
         "grant_bnsfc",
         "grant_fundamental_research",
         "grant_xssc",
@@ -494,6 +495,14 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "url": "https://www.nsfc.gov.cn/",
         "source_type": "official",
         "max_items": 12,
+    },
+    {
+        "site_id": "grant_nsfc_guides",
+        "site_name": "国家自然科学基金委员会",
+        "source": "国自然项目指南",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
+        "source_type": "official",
+        "max_items": 30,
     },
     {
         "site_id": "grant_fundamental_research",
@@ -1267,6 +1276,22 @@ def infer_grant_policy_date(text: str, now: datetime) -> datetime | None:
     return None
 
 
+def nearest_grant_policy_context(anchor: Any, title: str, now: datetime, max_levels: int = 5) -> str:
+    chunks: list[str] = []
+    parent = getattr(anchor, "parent", None)
+    for _ in range(max_levels):
+        if parent is None or getattr(parent, "name", "") in {"body", "html"}:
+            break
+        text = parent.get_text(" ", strip=True)
+        if text:
+            chunks.append(text)
+        if text and infer_grant_policy_date(text, now):
+            break
+        parent = getattr(parent, "parent", None)
+    compact = " ".join(chunks)
+    return f"{title} {compact}".strip()
+
+
 def grant_policy_meta(source: dict[str, Any], topic: str = "") -> dict[str, Any]:
     return {
         "grant_topic": topic or "科研政策",
@@ -1378,11 +1403,7 @@ def parse_grant_policy_html_items(page_html: str, source: dict[str, Any], now: d
         if not url.startswith("http") or url in seen_urls:
             continue
 
-        parent_text = ""
-        parent = anchor.parent
-        if parent is not None and getattr(parent, "name", "") not in {"body", "html"}:
-            parent_text = parent.get_text(" ", strip=True)
-        context = f"{title} {parent_text}"
+        context = nearest_grant_policy_context(anchor, title, now)
         if not (grant_policy_keyword_hit(context) or broad_journal_source):
             continue
 

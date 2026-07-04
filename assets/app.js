@@ -120,6 +120,7 @@ const SOURCE_KINDS = {
   wechat_slow_professor: { label: "慢教授", tone: "newsletter" },
   grant_qstheory: { label: "科研政策", tone: "official" },
   grant_nsfc: { label: "国自然", tone: "official" },
+  grant_nsfc_guides: { label: "项目指南", tone: "official" },
   grant_bnsfc: { label: "科学基金", tone: "research" },
   grant_fundamental_research: { label: "基础研究", tone: "research" },
   grant_xssc: { label: "香山会议", tone: "research" },
@@ -135,6 +136,7 @@ const SOURCE_KINDS = {
 const GRANT_POLICY_SITE_IDS = new Set([
   "grant_qstheory",
   "grant_nsfc",
+  "grant_nsfc_guides",
   "grant_bnsfc",
   "grant_fundamental_research",
   "grant_xssc",
@@ -150,11 +152,12 @@ const GRANT_JOURNAL_DISPLAY_NAMES = {
 
 const GRANT_SOURCE_GROUP_ORDER = {
   grant_nsfc: 0,
-  grant_fundamental_research: 1,
-  grant_bnsfc: 2,
-  grant_csb: 3,
-  grant_casisd: 4,
-  grant_qstheory: 5,
+  grant_nsfc_guides: 1,
+  grant_fundamental_research: 2,
+  grant_bnsfc: 3,
+  grant_csb: 4,
+  grant_casisd: 5,
+  grant_qstheory: 6,
 };
 
 const MODEL_SCORE_SOURCE_ORDER = {

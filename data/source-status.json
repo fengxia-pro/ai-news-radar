@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T00:21:49.092951Z",
+  "generated_at": "2026-07-04T00:31:06.607395Z",
   "sites": [
     {
       "site_id": "official_ai",
@@ -150,7 +150,7 @@
       "site_name": "求是网",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 178,
+      "duration_ms": 205,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.qstheory.cn/",
@@ -161,7 +161,7 @@
       "site_name": "国家自然科学基金委员会",
       "ok": true,
       "item_count": 12,
-      "duration_ms": 209,
+      "duration_ms": 249,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.nsfc.gov.cn/",
@@ -172,7 +172,7 @@
       "site_name": "Fundamental Research",
       "ok": true,
       "item_count": 76,
-      "duration_ms": 73324,
+      "duration_ms": 70176,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciencedirect.com/journal/fundamental-research",
@@ -183,7 +183,7 @@
       "site_name": "中国科学基金",
       "ok": true,
       "item_count": 18,
-      "duration_ms": 2641,
+      "duration_ms": 2241,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/BNSFC/home",
@@ -194,7 +194,7 @@
       "site_name": "香山科学会议",
       "ok": true,
       "item_count": 16,
-      "duration_ms": 832,
+      "duration_ms": 1043,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
@@ -205,7 +205,7 @@
       "site_name": "国家科技管理信息系统",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 321,
+      "duration_ms": 267,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://service.most.gov.cn/",
@@ -216,7 +216,7 @@
       "site_name": "科学通报",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2043,
+      "duration_ms": 2524,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/CSB/home",
@@ -227,7 +227,7 @@
       "site_name": "中国科学院科技战略咨询研究院",
       "ok": true,
       "item_count": 8,
-      "duration_ms": 219,
+      "duration_ms": 218,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "http://www.casisd.cn/",
@@ -288,9 +288,20 @@
       "failed_feed_count": 0,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
+    },
+    {
+      "site_id": "grant_nsfc_guides",
+      "site_name": "国家自然科学基金委员会",
+      "ok": true,
+      "item_count": 30,
+      "duration_ms": 37,
+      "error": null,
+      "source_group": "grant_policy",
+      "source_url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
+      "candidate": false
     }
   ],
-  "successful_sites": 30,
+  "successful_sites": 31,
   "failed_sites": [
     "aihot"
   ],
@@ -304,9 +315,9 @@
   "items_in_24h": 588,
   "grant_policy": {
     "enabled": true,
-    "item_count": 151,
-    "source_total": 8,
-    "ok_sources": 8,
+    "item_count": 181,
+    "source_total": 9,
+    "ok_sources": 9,
     "failed_sources": [],
     "candidate_sources": [
       "grant_most_service"

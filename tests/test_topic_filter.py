@@ -184,6 +184,62 @@ class TopicFilterTests(unittest.TestCase):
         self.assertIn("国家自然科学基金", items[0].title)
         self.assertEqual(items[0].meta["grant_topic"], "项目申报")
 
+    def test_grant_policy_html_parser_reads_nsfc_slider_date(self):
+        now = datetime(2026, 7, 4, 0, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_nsfc",
+            "site_name": "国家自然科学基金委员会",
+            "source": "国自然基金官网",
+            "url": "https://www.nsfc.gov.cn/",
+            "source_type": "official",
+            "max_items": 5,
+        }
+        html = """
+        <div class="lunbo">
+          <div class="info-slider">
+            <div class="info-container pointer">
+              <a href="/p1/3381/2821/138247.html"
+                 title="内蒙古自治区人民政府加入国家自然科学基金区域创新发展联合基金（第二期）协议签约仪式在呼和浩特举行"></a>
+            </div>
+          </div>
+          <span>07-03</span>
+        </div>
+        """
+
+        items = parse_grant_policy_html_items(html, source, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].published_at.date().isoformat(), "2026-07-02")
+        self.assertIn("内蒙古自治区", items[0].title)
+
+    def test_grant_policy_html_parser_reads_nsfc_guide_list_date(self):
+        now = datetime(2026, 7, 4, 0, 0, tzinfo=timezone.utc)
+        source = {
+            "site_id": "grant_nsfc_guides",
+            "site_name": "国家自然科学基金委员会",
+            "source": "国自然项目指南",
+            "url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
+            "source_type": "official",
+            "max_items": 5,
+        }
+        html = """
+        <ul class="wzy-ul">
+          <li class="wzy-item">
+            <div class="wzy-item-time">
+              <div><a class="wzy-box-c" href="/p1/3381/2824/138178.html">国家自然科学基金湖北人形机器人联合基金重大专项2026年项目指南</a></div>
+              <span>2026-07-03</span>
+            </div>
+          </li>
+        </ul>
+        """
+
+        items = parse_grant_policy_html_items(html, source, now)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].site_id, "grant_nsfc_guides")
+        self.assertEqual(items[0].published_at.date().isoformat(), "2026-07-02")
+        self.assertEqual(items[0].meta["grant_topic"], "项目申报")
+
     def test_xssc_parsers_extract_notices_and_meeting_dynamics(self):
         now = datetime(2026, 7, 1, 8, 0, tzinfo=timezone.utc)
         source = {
