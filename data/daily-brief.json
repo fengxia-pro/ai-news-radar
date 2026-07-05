@@ -1,8 +1,127 @@
 {
-  "generated_at": "2026-07-05T15:22:55.385291Z",
+  "generated_at": "2026-07-05T16:36:05.425232Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_44de5f528adc",
+      "title": "Anthropic Claude Design 反向工程提示词开源更新",
+      "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "primary_url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "16ee3dc27a79867bef6d7de9d096f0cc1e418de5",
+          "title": "Anthropic Claude Design 反向工程提示词开源更新",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-05T15:35:42.919000Z"
+        },
+        {
+          "id": "556d990e0610ac068dc5c497c1dd8680c8cf4c91",
+          "title": "Claude 设计系统提示词",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-05T15:35:42.919000Z"
+        },
+        {
+          "id": "fcf645aa0c889b567ca58d551d3a8bc4dac81a97",
+          "title": "克劳德设计系统提示 / Claude Design System Prompt",
+          "url": "https://news.ycombinator.com/item?id=48792399",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-05T11:45:00.018000Z"
+        },
+        {
+          "id": "f87a36d546cd99be1223bb000e95ea2562d07032",
+          "title": "Anthropic Claude Design 反向工程提示词开源更新 / Claude Design System Prompt",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-05T08:43:37Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "16ee3dc27a79867bef6d7de9d096f0cc1e418de5",
+          "title": "Anthropic Claude Design 反向工程提示词开源更新",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-05T15:35:42.919000Z"
+        },
+        {
+          "id": "556d990e0610ac068dc5c497c1dd8680c8cf4c91",
+          "title": "Claude 设计系统提示词",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-05T15:35:42.919000Z"
+        },
+        {
+          "id": "fcf645aa0c889b567ca58d551d3a8bc4dac81a97",
+          "title": "克劳德设计系统提示 / Claude Design System Prompt",
+          "url": "https://news.ycombinator.com/item?id=48792399",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-05T11:45:00.018000Z"
+        },
+        {
+          "id": "f87a36d546cd99be1223bb000e95ea2562d07032",
+          "title": "Anthropic Claude Design 反向工程提示词开源更新 / Claude Design System Prompt",
+          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-05T08:43:37Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.843,
+      "importance": 0.843,
+      "importance_score": 0.843,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9856,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-05T08:43:37Z",
+      "latest_at": "2026-07-05T15:35:42.919000Z",
+      "primary_item": {
+        "id": "16ee3dc27a79867bef6d7de9d096f0cc1e418de5",
+        "title": "Anthropic Claude Design 反向工程提示词开源更新",
+        "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
     {
       "story_id": "story_ae60d5911c44",
       "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
@@ -57,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.774,
-      "importance": 0.774,
-      "importance_score": 0.774,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8968,
+        "recency": 0.8811,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -86,13 +205,31 @@
     },
     {
       "story_id": "story_2df82173bb28",
-      "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
+      "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "source": "社区更新 · 2026-07-05",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "3a5920148152ebbc651d634969fe3012dbb461fb",
+          "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-07-05",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-07-05T16:36:05.425232Z"
+        },
+        {
+          "id": "5a0eea87bd6fc7842136e4dc0c778b08d603ef42",
+          "title": "正在做前端开发、依赖AI编程工具的开发者，不容错过这款开源工具。Meta 把自家用了整整8年的设计系统Astryx 给开源了。它支撑过 Facebook、Instagram、Threads 等超过13000个应用的界面开发，见过各种复杂场景，踩过无数坑，然后被一点点打磨到现在这个状态。快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-07-05",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-07-05T16:36:05.425232Z"
+        },
+        {
           "id": "893612912fa5c7c925508d78c6f07c061042b85d",
           "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -165,13 +302,31 @@
           "published_at": "2026-07-04T18:06:02.838228Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 10,
       "source_names": [
         "社区更新 · 2026-07-04",
         "社区更新 · 2026-07-05"
       ],
       "items": [
         {
+          "id": "3a5920148152ebbc651d634969fe3012dbb461fb",
+          "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-07-05",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-07-05T16:36:05.425232Z"
+        },
+        {
+          "id": "5a0eea87bd6fc7842136e4dc0c778b08d603ef42",
+          "title": "正在做前端开发、依赖AI编程工具的开发者，不容错过这款开源工具。Meta 把自家用了整整8年的设计系统Astryx 给开源了。它支撑过 Facebook、Instagram、Threads 等超过13000个应用的界面开发，见过各种复杂场景，踩过无数坑，然后被一点点打磨到现在这个状态。快来试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-07-05",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-07-05T16:36:05.425232Z"
+        },
+        {
           "id": "893612912fa5c7c925508d78c6f07c061042b85d",
           "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -244,8 +399,8 @@
           "published_at": "2026-07-04T18:06:02.838228Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
+      "item_count": 10,
+      "duplicate_count": 10,
       "score": 0.6692,
       "importance": 0.6692,
       "importance_score": 0.6692,
@@ -262,40 +417,40 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-04T18:06:02.838228Z",
-      "latest_at": "2026-07-05T15:22:55.385291Z",
+      "latest_at": "2026-07-05T16:36:05.425232Z",
       "primary_item": {
-        "id": "893612912fa5c7c925508d78c6f07c061042b85d",
-        "title": "Pincus 是 Zynga 创始人，也经历过 Web、社交网络、移动游戏三轮计算平台变化。他的新书《Life at the Speed of Play》总结的是一套产品和创始人打法。今天的 PM、创业者和 AI 产品团队读这期，最有用的部分，是一个冷门命题被讲清楚了：当投资人都在看企业 AI，消费产品团队应该怎样判断时机、设计新产品、撑过没有共识的早期。",
+        "id": "3a5920148152ebbc651d634969fe3012dbb461fb",
+        "title": "如果你在使用Codex搭载GPT5.5 Pro模型处理复杂推理过程中频繁遭遇AI降智，梦飞这篇实操指南可以帮你快速解决。文中附带检测脚本，还给出了完整配置修改流程，快来一起检测下。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-07-05",
         "source_name": "WaytoAGI"
       }
     },
     {
-      "story_id": "story_d7e88052ae44",
-      "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-      "url": "https://news.ycombinator.com/item?id=48793298",
-      "primary_url": "https://news.ycombinator.com/item?id=48793298",
+      "story_id": "story_d900ec4b1bf6",
+      "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+      "url": "https://news.ycombinator.com/item?id=48795174",
+      "primary_url": "https://news.ycombinator.com/item?id=48795174",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
-          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-          "url": "https://news.ycombinator.com/item?id=48793298",
+          "id": "6c18215290354b98b0b5010bc72185e5c3095c9f",
+          "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+          "url": "https://news.ycombinator.com/item?id=48795174",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-05T15:23:38.058000Z"
+          "published_at": "2026-07-05T16:15:01.932000Z"
         },
         {
-          "id": "89ebd91e13853e7391eb854e8c1987494f07f504",
-          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-          "url": "https://prediohq.com",
+          "id": "37b07960c20bfbfbb84c351ad7c851a028c29bda",
+          "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+          "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-07-05T11:30:14Z"
+          "published_at": "2026-07-05T15:49:18Z"
         }
       ],
       "source_count": 2,
@@ -305,47 +460,47 @@
       ],
       "items": [
         {
-          "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
-          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-          "url": "https://news.ycombinator.com/item?id=48793298",
+          "id": "6c18215290354b98b0b5010bc72185e5c3095c9f",
+          "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+          "url": "https://news.ycombinator.com/item?id=48795174",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-05T15:23:38.058000Z"
+          "published_at": "2026-07-05T16:15:01.932000Z"
         },
         {
-          "id": "89ebd91e13853e7391eb854e8c1987494f07f504",
-          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-          "url": "https://prediohq.com",
+          "id": "37b07960c20bfbfbb84c351ad7c851a028c29bda",
+          "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+          "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-07-05T11:30:14Z"
+          "published_at": "2026-07-05T15:49:18Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5449,
+      "importance": 0.5449,
+      "importance_score": 0.5449,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9949,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-05T11:30:14Z",
-      "latest_at": "2026-07-05T15:23:38.058000Z",
+      "earliest_at": "2026-07-05T15:49:18Z",
+      "latest_at": "2026-07-05T16:15:01.932000Z",
       "primary_item": {
-        "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
-        "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
-        "url": "https://news.ycombinator.com/item?id=48793298",
+        "id": "6c18215290354b98b0b5010bc72185e5c3095c9f",
+        "title": "自动飞行伞跟随并保护用户免受雨淋和阳光照射 / Autonomous flying umbrella follows and shields users from rain and sunlight",
+        "url": "https://news.ycombinator.com/item?id=48795174",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
@@ -404,15 +559,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5422,
-      "importance": 0.5422,
-      "importance_score": 0.5422,
+      "score": 0.5392,
+      "importance": 0.5392,
+      "importance_score": 0.5392,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9802,
+        "recency": 0.9631,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -483,15 +638,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
+      "score": 0.5341,
+      "importance": 0.5341,
+      "importance_score": 0.5341,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9518,
+        "recency": 0.9352,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -562,15 +717,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5356,
-      "importance": 0.5356,
-      "importance_score": 0.5356,
+      "score": 0.5326,
+      "importance": 0.5326,
+      "importance_score": 0.5326,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9431,
+        "recency": 0.9267,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -660,15 +815,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5347,
-      "importance": 0.5347,
-      "importance_score": 0.5347,
+      "score": 0.5321,
+      "importance": 0.5321,
+      "importance_score": 0.5321,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7992,
+        "recency": 0.7852,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -738,15 +893,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5196,
-      "importance": 0.5196,
-      "importance_score": 0.5196,
+      "score": 0.517,
+      "importance": 0.517,
+      "importance_score": 0.517,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8547,
+        "recency": 0.8398,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -761,6 +916,85 @@
         "url": "https://www.hogbaysoftware.com/posts/moby-dick-workout",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_d7e88052ae44",
+      "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+      "url": "https://news.ycombinator.com/item?id=48793298",
+      "primary_url": "https://news.ycombinator.com/item?id=48793298",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
+          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+          "url": "https://news.ycombinator.com/item?id=48793298",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-05T15:23:38.058000Z"
+        },
+        {
+          "id": "89ebd91e13853e7391eb854e8c1987494f07f504",
+          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+          "url": "https://prediohq.com",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-05T11:30:14Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
+          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+          "url": "https://news.ycombinator.com/item?id=48793298",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-05T15:23:38.058000Z"
+        },
+        {
+          "id": "89ebd91e13853e7391eb854e8c1987494f07f504",
+          "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+          "url": "https://prediohq.com",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-05T11:30:14Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9827,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-05T11:30:14Z",
+      "latest_at": "2026-07-05T15:23:38.058000Z",
+      "primary_item": {
+        "id": "357be83223bf8a775dd349ab4908d405b32ff73a",
+        "title": "西班牙的地籍 API 从 2003 年开始就是 SOAP，所以我构建了一个 JSON 包装器 (+MCP) / Spain's cadastre API is SOAP from 2003, so I built a JSON wrapper (+MCP)",
+        "url": "https://news.ycombinator.com/item?id=48793298",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -817,15 +1051,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
+      "score": 0.5341,
+      "importance": 0.5341,
+      "importance_score": 0.5341,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9516,
+        "recency": 0.935,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -896,15 +1130,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
+      "score": 0.5341,
+      "importance": 0.5341,
+      "importance_score": 0.5341,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9518,
+        "recency": 0.9352,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -918,85 +1152,6 @@
         "title": "斯泰皮特 / CodexBar / steipete /      CodexBar",
         "url": "https://github.com/steipete/CodexBar",
         "source": "github",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_44de5f528adc",
-      "title": "克劳德设计系统提示 / Claude Design System Prompt",
-      "url": "https://news.ycombinator.com/item?id=48792399",
-      "primary_url": "https://news.ycombinator.com/item?id=48792399",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "fcf645aa0c889b567ca58d551d3a8bc4dac81a97",
-          "title": "克劳德设计系统提示 / Claude Design System Prompt",
-          "url": "https://news.ycombinator.com/item?id=48792399",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-05T11:45:00.018000Z"
-        },
-        {
-          "id": "f87a36d546cd99be1223bb000e95ea2562d07032",
-          "title": "克劳德设计系统提示 / Claude Design System Prompt",
-          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-05T08:43:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "fcf645aa0c889b567ca58d551d3a8bc4dac81a97",
-          "title": "克劳德设计系统提示 / Claude Design System Prompt",
-          "url": "https://news.ycombinator.com/item?id=48792399",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-05T11:45:00.018000Z"
-        },
-        {
-          "id": "f87a36d546cd99be1223bb000e95ea2562d07032",
-          "title": "克劳德设计系统提示 / Claude Design System Prompt",
-          "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-05T08:43:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9489,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-05T08:43:37Z",
-      "latest_at": "2026-07-05T11:45:00.018000Z",
-      "primary_item": {
-        "id": "fcf645aa0c889b567ca58d551d3a8bc4dac81a97",
-        "title": "克劳德设计系统提示 / Claude Design System Prompt",
-        "url": "https://news.ycombinator.com/item?id=48792399",
-        "source": "hackernews",
         "source_name": "NewsNow"
       }
     },
@@ -1054,15 +1209,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5304,
-      "importance": 0.5304,
-      "importance_score": 0.5304,
+      "score": 0.5275,
+      "importance": 0.5275,
+      "importance_score": 0.5275,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9145,
+        "recency": 0.8986,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1132,15 +1287,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.499,
-      "importance": 0.499,
-      "importance_score": 0.499,
+      "score": 0.4966,
+      "importance": 0.4966,
+      "importance_score": 0.4966,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7397,
+        "recency": 0.7268,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1210,15 +1365,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4974,
-      "importance": 0.4974,
-      "importance_score": 0.4974,
+      "score": 0.4951,
+      "importance": 0.4951,
+      "importance_score": 0.4951,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7309,
+        "recency": 0.7181,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1288,15 +1443,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5086,
-      "importance": 0.5086,
-      "importance_score": 0.5086,
+      "score": 0.5061,
+      "importance": 0.5061,
+      "importance_score": 0.5061,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7936,
+        "recency": 0.7797,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1367,15 +1522,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5332,
-      "importance": 0.5332,
-      "importance_score": 0.5332,
+      "score": 0.5303,
+      "importance": 0.5303,
+      "importance_score": 0.5303,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9301,
+        "recency": 0.9139,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1446,15 +1601,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5298,
-      "importance": 0.5298,
-      "importance_score": 0.5298,
+      "score": 0.5269,
+      "importance": 0.5269,
+      "importance_score": 0.5269,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.911,
+        "recency": 0.8951,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1525,15 +1680,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5262,
-      "importance": 0.5262,
-      "importance_score": 0.5262,
+      "score": 0.5234,
+      "importance": 0.5234,
+      "importance_score": 0.5234,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8912,
+        "recency": 0.8757,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1548,84 +1703,6 @@
         "url": "https://news.ycombinator.com/item?id=48791380",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_09d5ebd5eb2a",
-      "title": "[Claude] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-      "url": "https://www.v2ex.com/t/1225003",
-      "primary_url": "https://www.v2ex.com/t/1225003",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "7d353032b7daa24cf69029deb13679e494371135",
-          "title": "[Claude] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-          "url": "https://www.v2ex.com/t/1225003",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-04T16:19:27Z"
-        },
-        {
-          "id": "926c3b12a08ac735cdc96746f144a82e670e9c96",
-          "title": "[程序员] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-          "url": "https://www.v2ex.com/t/1225003",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-04T16:19:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "7d353032b7daa24cf69029deb13679e494371135",
-          "title": "[Claude] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-          "url": "https://www.v2ex.com/t/1225003",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-04T16:19:27Z"
-        },
-        {
-          "id": "926c3b12a08ac735cdc96746f144a82e670e9c96",
-          "title": "[程序员] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-          "url": "https://www.v2ex.com/t/1225003",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-04T16:19:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4948,
-      "importance": 0.4948,
-      "importance_score": 0.4948,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7168,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-04T16:19:27Z",
-      "latest_at": "2026-07-04T16:19:27Z",
-      "primary_item": {
-        "id": "7d353032b7daa24cf69029deb13679e494371135",
-        "title": "[Claude] 之前的 Claude code 账号被封了，重新注册了一个还会被封吗？",
-        "url": "https://www.v2ex.com/t/1225003",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
       }
     },
     {
@@ -1681,15 +1758,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4966,
-      "importance": 0.4966,
-      "importance_score": 0.4966,
+      "score": 0.4944,
+      "importance": 0.4944,
+      "importance_score": 0.4944,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7269,
+        "recency": 0.7142,
         "story_heat": 0.25
       },
       "category": "watch",
