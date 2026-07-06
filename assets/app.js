@@ -445,6 +445,15 @@ function renderCoverageCard(label, value, meta, tone = "") {
   return node;
 }
 
+function slowProfessorSourceModeLabel(mode, short = false) {
+  const value = String(mode || "").trim();
+  if (value === "needs_public_feed_url") return short ? "待公网RSS" : "待配置公网 RSS/WeWe";
+  if (value === "feed_configured_no_recent_items") return short ? "RSS无新文" : "RSS已配置，暂无近一周新文";
+  if (value.includes("wechat_rss") || value.includes("opml_wechat_rss")) return short ? "RSS已接入" : "RSS/Atom 可用";
+  if (value.includes("manual_wechat_link")) return "手动确认入口";
+  return short ? "来源已接入" : "来源已接入";
+}
+
 function renderCoverageStrip(errorMessage = "") {
   if (!coverageStripEl) return;
   coverageStripEl.innerHTML = "";
@@ -488,7 +497,7 @@ function renderCoverageStrip(errorMessage = "") {
     ? `${fmtNumber(slowProfessor.item_count || state.slowProfessorItems.length)} 条`
     : "专题待生成";
   const slowProfessorMeta = slowProfessor.enabled
-    ? `近一周 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessor.source_mode === "needs_public_feed_url" ? "待公网RSS" : "RSS已接入"}`
+    ? `近一周 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessorSourceModeLabel(slowProfessor.source_mode, true)}`
     : "慢教授科研江湖公众号专题";
   const githubValue = githubProjects.enabled
     ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
@@ -689,9 +698,7 @@ function renderSectionSummary(filteredItems = null) {
   if (state.activeSection === "slow_professor") {
     const recentCount = state.slowProfessorItems.length;
     const confirmedCount = state.slowProfessorConfirmedEntries.length;
-    const mode = state.slowProfessorData?.source_mode === "needs_public_feed_url"
-      ? "待配置公网 RSS/WeWe"
-      : "RSS/Atom 可用";
+    const mode = slowProfessorSourceModeLabel(state.slowProfessorData?.source_mode);
     sectionSummaryEl.textContent = `专题池 · 近一周 ${fmtNumber(recentCount)} 条 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 不使用第三方转载页冒充公众号`;
     renderStickySummary();
     return;

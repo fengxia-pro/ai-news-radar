@@ -166,6 +166,33 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "演示一次就变成 Skill，我当场就羡慕了-一个好用的插件",
+        "url": "https://mp.weixin.qq.com/s/JUK76dFQdVQ3BtjZBi4_wQ",
+        "published_at": "2026-07-06T11:01:02+08:00",
+        "summary": (
+            "这篇文章从朋友用 Codex 报劳务费的现场演示说起，解释 Record & Replay "
+            "如何把重复流程沉淀成可复用 Skill。对科研人的报销、结题、归档等重复工作很有参考价值。"
+        ),
+    },
+    {
+        "title": "科研人为什么要读《写作是门手艺》",
+        "url": "https://mp.weixin.qq.com/s/Gsi_Jxjm0KABuGEfuE-gPA",
+        "published_at": "2026-07-05T11:00:20+08:00",
+        "summary": (
+            "这篇文章把写作从天赋拉回到手艺，提醒科研人写作不是站在高处表达正确，"
+            "而是在材料、读者和自己之间一遍遍把事情想清楚。"
+        ),
+    },
+    {
+        "title": "从一个撇号说起：科研人用 AI，不能只看好不好用",
+        "url": "https://mp.weixin.qq.com/s/_D4yz4915Tu7qVmjKV34lw",
+        "published_at": "2026-07-04T11:00:00+08:00",
+        "summary": (
+            "这篇文章从 Claude Code 隐藏识别代码被移除说起，提醒科研人使用 AI 工具时，"
+            "不仅要看效果，也要看入口来源、权限范围、数据脱敏、操作留痕和可追溯性。"
+        ),
+    },
+    {
         "title": "我做了一个 AI+科研雷达：既看国家研究方向，也看 AI 最新变化",
         "url": "https://mp.weixin.qq.com/s/VSJUFEYtfl6dLnfEDVcQHA",
         "published_at": "2026-07-03T05:30:00+08:00",
