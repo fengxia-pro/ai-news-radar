@@ -1155,6 +1155,16 @@ summary:focus-visible {
   line-height: 1.55;
 }
 
+.grant-book-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .grant-book-details {
   border-top: 1px solid var(--line-soft);
   padding-top: 8px;

@@ -8,6 +8,7 @@ import pytest
 from scripts.update_grant_books import (
     ALLOWED_GATE_DECISIONS,
     BANNED_ACCESS_DOMAINS,
+    DEEP_READ_REQUIRED_FIELDS,
     build_payload,
     candidate_records,
     candidate_sources,
@@ -130,3 +131,29 @@ def test_public_access_links_use_legal_sources():
         for url in checked_urls
         for banned in BANNED_ACCESS_DOMAINS
     )
+
+
+def test_road_book_has_full_manslow_deep_read_framework():
+    payload = build_payload(load_seed(), generated_at="2026-07-08T00:00:00Z")
+    road_book = next(
+        item for item in payload["items"] if item["id"] == "book-nsfc-application-road-phenomena-laws"
+    )
+    framework = road_book["deep_read_framework"]
+
+    assert road_book["gate_decision"] == "继续深读"
+    assert road_book["deep_read_available"] is True
+    assert road_book["source_check"]["version_status"] == "OCR 初读版"
+    assert set(DEEP_READ_REQUIRED_FIELDS).issubset(framework)
+    assert len(framework["key_mechanisms"]) >= 3
+    assert len(framework["reading_questions"]) >= 5
+
+
+def test_deep_read_framework_requires_all_required_fields():
+    seed = load_seed()
+    road_book = next(
+        item for item in seed["items"] if item["id"] == "book-nsfc-application-road-phenomena-laws"
+    )
+    road_book["deep_read_framework"].pop("core_claim")
+
+    with pytest.raises(ValueError, match="core_claim"):
+        build_payload(seed, generated_at="2026-07-08T00:00:00Z")

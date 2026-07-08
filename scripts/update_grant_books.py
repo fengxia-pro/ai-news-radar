@@ -11,6 +11,17 @@ from urllib.parse import urlparse
 ALLOWED_GATE_DECISIONS = {"继续深读", "先读局部", "暂不深读"}
 ALLOWED_VERSION_STATUS = {"视觉抽样版", "OCR 初读版", "全文精读版"}
 BANNED_ACCESS_DOMAINS = ("z-library", "1lib", "z-lib")
+DEEP_READ_REQUIRED_FIELDS = (
+    "plain_logic",
+    "core_claim",
+    "logic_chain",
+    "chapter_function_map",
+    "key_mechanisms",
+    "original_evidence",
+    "method_translation",
+    "inference_advice",
+    "reading_questions",
+)
 
 GROUPS: tuple[dict[str, str], ...] = (
     {
@@ -86,6 +97,29 @@ def validate_access_links(record: dict[str, Any]) -> None:
         reject_banned_access_url(str(record.get("id", "<unknown>")), link["url"])
 
 
+def has_deep_read_content(value: Any) -> bool:
+    if isinstance(value, str):
+        return bool(value.strip())
+    if isinstance(value, list):
+        return bool(value) and all(isinstance(item, str) and item.strip() for item in value)
+    return False
+
+
+def validate_deep_read_framework(record: dict[str, Any]) -> None:
+    framework = record.get("deep_read_framework")
+    if not framework:
+        return
+    if not (
+        record.get("gate_decision") == "继续深读" or record.get("deep_read_manual_override")
+    ):
+        raise ValueError(f"{record['id']} Stage 2 只能用于继续深读或人工指定条目")
+    if not isinstance(framework, dict):
+        raise ValueError(f"{record['id']} deep_read_framework 必须是对象")
+    for field in DEEP_READ_REQUIRED_FIELDS:
+        if not has_deep_read_content(framework.get(field)):
+            raise ValueError(f"{record['id']} deep_read_framework 缺少 {field}")
+
+
 def validate_source_check(record: dict[str, Any]) -> None:
     source_check = record.get("source_check")
     if not isinstance(source_check, dict):
@@ -126,10 +160,7 @@ def validate_record(record: dict[str, Any]) -> None:
         raise ValueError(f"{record['id']} gate_decision 必须是固定三选一")
     validate_source_check(record)
     validate_access_links(record)
-    if record.get("deep_read_framework") and not (
-        record.get("gate_decision") == "继续深读" or record.get("deep_read_manual_override")
-    ):
-        raise ValueError(f"{record['id']} Stage 2 只能用于继续深读或人工指定条目")
+    validate_deep_read_framework(record)
 
 
 def public_record(record: dict[str, Any]) -> dict[str, Any]:

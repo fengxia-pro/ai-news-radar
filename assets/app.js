@@ -3338,13 +3338,24 @@ function grantBookGateTone(decision) {
 }
 
 function appendGrantBookFact(parent, label, value) {
-  if (!value) return;
+  if (!value || (Array.isArray(value) && !value.length)) return;
   const row = document.createElement("div");
   row.className = "grant-book-fact";
   const labelEl = document.createElement("span");
   labelEl.textContent = label;
-  const valueEl = document.createElement("p");
-  valueEl.textContent = value;
+  let valueEl;
+  if (Array.isArray(value)) {
+    valueEl = document.createElement("ul");
+    valueEl.className = "grant-book-list";
+    value.filter(Boolean).forEach((entry) => {
+      const item = document.createElement("li");
+      item.textContent = entry;
+      valueEl.appendChild(item);
+    });
+  } else {
+    valueEl = document.createElement("p");
+    valueEl.textContent = value;
+  }
   row.append(labelEl, valueEl);
   parent.appendChild(row);
 }
@@ -3404,9 +3415,14 @@ function renderGrantBookCard(item) {
     deep.appendChild(deepTitle);
     [
       ["大白话核心逻辑", item.deep_read_framework.plain_logic],
+      ["一句话核心论点", item.deep_read_framework.core_claim],
       ["全书逻辑链", item.deep_read_framework.logic_chain],
+      ["章节功能图", item.deep_read_framework.chapter_function_map],
+      ["3-5 个关键机制", item.deep_read_framework.key_mechanisms],
+      ["原书证据", item.deep_read_framework.original_evidence],
       ["作者方法转译", item.deep_read_framework.method_translation],
       ["推断建议", item.deep_read_framework.inference_advice],
+      ["下一轮读书问题清单", item.deep_read_framework.reading_questions],
     ].forEach(([label, value]) => appendGrantBookFact(deep, label, value));
     details.appendChild(deep);
   }
