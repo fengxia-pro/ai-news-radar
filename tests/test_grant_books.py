@@ -148,6 +148,28 @@ def test_road_book_has_full_manslow_deep_read_framework():
     assert len(framework["reading_questions"]) >= 5
 
 
+def test_every_continue_book_has_full_deep_read_framework():
+    payload = build_payload(load_seed(), generated_at="2026-07-08T00:00:00Z")
+    continue_books = [item for item in payload["items"] if item["gate_decision"] == "继续深读"]
+
+    assert continue_books
+    for item in continue_books:
+        framework = item.get("deep_read_framework")
+        assert item["deep_read_available"] is True
+        assert framework
+        assert set(DEEP_READ_REQUIRED_FIELDS).issubset(framework)
+
+
+def test_continue_book_without_deep_read_framework_is_rejected():
+    seed = load_seed()
+    continue_book = next(item for item in seed["items"] if item.get("gate_decision") == "继续深读")
+    continue_book.pop("deep_read_framework", None)
+    continue_book["deep_read_available"] = False
+
+    with pytest.raises(ValueError, match="继续深读"):
+        build_payload(seed, generated_at="2026-07-08T00:00:00Z")
+
+
 def test_deep_read_framework_requires_all_required_fields():
     seed = load_seed()
     road_book = next(

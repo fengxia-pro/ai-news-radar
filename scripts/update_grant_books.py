@@ -158,6 +158,8 @@ def validate_record(record: dict[str, Any]) -> None:
         raise ValueError(f"{record['id']} 不是书目条目，不能进入高校教师书架")
     if record.get("gate_decision") not in ALLOWED_GATE_DECISIONS:
         raise ValueError(f"{record['id']} gate_decision 必须是固定三选一")
+    if record.get("gate_decision") == "继续深读" and not record.get("deep_read_framework"):
+        raise ValueError(f"{record['id']} 标记为继续深读时必须提供 Stage 2 深读框架")
     validate_source_check(record)
     validate_access_links(record)
     validate_deep_read_framework(record)
@@ -176,7 +178,7 @@ def public_record(record: dict[str, Any]) -> dict[str, Any]:
     output.setdefault("ai_label", "reading_gate")
     output.setdefault("ai_score", 0)
     output.setdefault("url", output.get("source_url", ""))
-    output["deep_read_available"] = bool(output.get("deep_read_available"))
+    output["deep_read_available"] = bool(output.get("deep_read_framework"))
     return output
 
 
