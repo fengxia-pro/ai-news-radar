@@ -9,6 +9,8 @@ const state = {
   grantPolicyItems: [],
   grantPolicySources: [],
   grantPolicyReferenceSources: [],
+  grantBookData: null,
+  grantBookItems: [],
   slowProfessorData: null,
   slowProfessorItems: [],
   slowProfessorConfirmedEntries: [],
@@ -127,6 +129,7 @@ const SOURCE_KINDS = {
   grant_most_service: { label: "科技管理", tone: "official" },
   grant_csb: { label: "科学通报", tone: "research" },
   grant_casisd: { label: "中科院", tone: "research" },
+  grant_books: { label: "教师书架", tone: "research" },
   model_scores: { label: "模型评分", tone: "aihub" },
   github_hellogithub: { label: "HelloGitHub", tone: "builders" },
   github_weekly: { label: "科技周刊", tone: "builders" },
@@ -190,6 +193,7 @@ const SECTION_DEFS = [
   { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
   { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
   { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
+  { id: "grant_books", label: "高校教师书架", short: "教师书架", description: "按慢老师读书方法论组织的高校教师科研成长书架" },
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
@@ -319,6 +323,10 @@ function renderStickySummary() {
   ].filter(Boolean);
   if (state.activeSection === "grant_policy") {
     stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 科研政策专题${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    return;
+  }
+  if (state.activeSection === "grant_books") {
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 高校教师书架${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
   if (state.activeSection === "slow_professor") {
@@ -465,6 +473,7 @@ function renderCoverageStrip(errorMessage = "") {
   const xApi = state.sourceStatus?.x_api || {};
   const socialdata = state.sourceStatus?.socialdata || {};
   const grantPolicy = state.sourceStatus?.grant_policy || {};
+  const grantBooks = state.grantBookData || {};
   const slowProfessor = state.sourceStatus?.slow_professor || {};
   const githubProjects = state.sourceStatus?.github_projects || {};
   const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
@@ -493,6 +502,8 @@ function renderCoverageStrip(errorMessage = "") {
   const grantMeta = grantPolicy.enabled
     ? `公开源 ${fmtNumber(grantPolicy.ok_sources || 0)}/${fmtNumber(grantPolicy.source_total || 0)} · 国际入口 ${fmtNumber(grantPolicy.reference_source_count || 0)}`
     : "国自然 / 科研政策专题源";
+  const grantBookCount = Number(grantBooks.total_items || state.grantBookItems.length || 0);
+  const grantBookCandidateCount = Number(grantBooks.candidate_count || 0);
   const slowProfessorValue = slowProfessor.enabled
     ? `${fmtNumber(slowProfessor.item_count || state.slowProfessorItems.length)} 条`
     : "专题待生成";
@@ -519,6 +530,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["国自然专题", grantValue, grantMeta, "official"],
+    ["高校教师书架", `${fmtNumber(grantBookCount)} 条`, `候选待核 ${fmtNumber(grantBookCandidateCount)} 条 · 慢老师读书方法论`, "official"],
     ["慢教授专题", slowProfessorValue, slowProfessorMeta, "private"],
     ["GitHub项目", githubValue, githubMeta, "builders"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
@@ -564,6 +576,9 @@ function currentSiteStats() {
   if (state.activeSection === "grant_policy") {
     return computeSiteStats(state.grantPolicyItems || []);
   }
+  if (state.activeSection === "grant_books") {
+    return computeSiteStats(state.grantBookItems || []);
+  }
   if (state.activeSection === "slow_professor") {
     return computeSiteStats(slowProfessorDisplayItems());
   }
@@ -602,6 +617,7 @@ function itemSourceType(item) {
   const siteId = item.site_id || "";
   const tier = item.source_tier || "";
   if (GRANT_POLICY_SITE_IDS.has(siteId) || tier === "grant_policy") return "grant_policy";
+  if (tier === "grant_books" || siteId.startsWith("grant_books")) return "grant_books";
   if (tier === "slow_professor" || siteId === "wechat_slow_professor") return "community";
   if (tier === "github_projects" || siteId.startsWith("github_")) return "github_projects";
   if (tier === "model_scores" || siteId === "model_scores") return "advanced";
@@ -692,6 +708,13 @@ function renderSectionSummary(filteredItems = null) {
     const datedCount = items.filter((item) => item.published_at && item.grant_date_status !== "unknown").length;
     const unknownDateCount = Math.max(0, items.length - datedCount);
     sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条国自然 / 科研政策信号 · ${fmtNumber(datedCount)} 条有发布时间 · ${fmtNumber(unknownDateCount)} 条日期待核 · ${fmtNumber(sources.size)} 个来源`;
+    renderStickySummary();
+    return;
+  }
+  if (state.activeSection === "grant_books") {
+    const candidateCount = Number(state.grantBookData?.candidate_count || 0);
+    const continueCount = items.filter((item) => item.gate_decision === "继续深读").length;
+    sectionSummaryEl.textContent = `专题池 · ${fmtNumber(items.length)} 条已核验阅读门槛 · ${fmtNumber(continueCount)} 条建议继续深读 · 候选待核 ${fmtNumber(candidateCount)} 条 · 不做普通书名堆叠`;
     renderStickySummary();
     return;
   }
@@ -799,6 +822,8 @@ function renderModeSwitch() {
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.activeSection === "grant_policy") {
     modeHintEl.textContent = `科研政策 · ${fmtNumber(state.grantPolicyItems.length)} 条`;
+  } else if (state.activeSection === "grant_books") {
+    modeHintEl.textContent = `高校教师书架 · ${fmtNumber(state.grantBookItems.length)} 条`;
   } else if (state.activeSection === "slow_professor") {
     modeHintEl.textContent = `慢教授 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
   } else if (state.activeSection === "github_projects") {
@@ -822,6 +847,7 @@ function renderModeSwitch() {
 
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  if (state.activeSection === "grant_books") return "高校教师书架 · 阅读门槛";
   if (state.activeSection === "slow_professor") return "慢教授科研江湖 · 近一周文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
   if (state.activeSection === "model_scores") return `模型评分 · Vellum LLM Leaderboard · ${modelScoreTimeText("title")}`;
@@ -833,8 +859,8 @@ function listTitleText() {
 
 function renderListSortTools() {
   if (!listSortToolsEl) return;
-  listSortToolsEl.hidden = state.activeSection === "model_scores";
-  if (state.activeSection === "model_scores") return;
+  listSortToolsEl.hidden = state.activeSection === "model_scores" || state.activeSection === "grant_books";
+  if (state.activeSection === "model_scores" || state.activeSection === "grant_books") return;
   const validSort = LIST_SORT_DEFS.some((item) => item.id === state.listSort);
   if (!validSort) state.listSort = "priority";
   listSortToolsEl.querySelectorAll("[data-sort]").forEach((button) => {
@@ -902,6 +928,16 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   if (sectionId === "grant_policy") {
     return [...(state.grantPolicyItems || [])].sort((a, b) => timelineMs(b) - timelineMs(a));
   }
+  if (sectionId === "grant_books") {
+    const groupOrder = new Map((state.grantBookData?.groups || []).map((group, index) => [group.id, index]));
+    return [...(state.grantBookItems || [])].sort((a, b) => {
+      const byGroup = (groupOrder.get(a.group) ?? 99) - (groupOrder.get(b.group) ?? 99);
+      if (byGroup !== 0) return byGroup;
+      const byDecision = String(a.gate_decision || "").localeCompare(String(b.gate_decision || ""), "zh-CN");
+      if (byDecision !== 0) return byDecision;
+      return String(a.title || "").localeCompare(String(b.title || ""), "zh-CN");
+    });
+  }
   if (sectionId === "slow_professor") {
     return slowProfessorDisplayItems().sort((a, b) => timelineMs(b) - timelineMs(a));
   }
@@ -926,6 +962,24 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   return source.filter((item) => itemMatchesSection(item, sectionId));
 }
 
+function grantBookSearchText(item) {
+  return [
+    item.title,
+    item.authors,
+    item.publisher,
+    item.group,
+    item.gate_decision,
+    item.one_sentence_conclusion,
+    item.real_problem,
+    item.core_tension,
+    item.why_for_university_teachers,
+    item.fit,
+    item.not_fit,
+    item.first_reading_route,
+    item.evidence_boundary,
+  ].filter(Boolean).join(" ");
+}
+
 function getFilteredItems() {
   const q = state.query.trim().toLowerCase();
   const preliminary = sectionItems().filter((item) => {
@@ -933,7 +987,9 @@ function getFilteredItems() {
     if (state.authorFilter && (item.site_id !== "socialdata_x" || item.source !== state.authorFilter)) return false;
     if (state.sourceTypeFilter && itemSourceType(item) !== state.sourceTypeFilter) return false;
     if (!q) return true;
-    const hay = `${item.title || ""} ${item.title_zh || ""} ${item.title_en || ""} ${item.site_name || ""} ${item.source || ""}`.toLowerCase();
+    const hay = state.activeSection === "grant_books"
+      ? grantBookSearchText(item).toLowerCase()
+      : `${item.title || ""} ${item.title_zh || ""} ${item.title_en || ""} ${item.site_name || ""} ${item.source || ""}`.toLowerCase();
     return hay.includes(q);
   });
   const multiKeys = multiSourceEventKeys(preliminary);
@@ -2462,6 +2518,10 @@ function buildBoleFollowupPanel(rows, topCount, usesStories) {
 
 function renderBolePicks() {
   if (!bolePicksListEl || !bolePicksMetaEl) return;
+  if (state.activeSection === "grant_books") {
+    if (bolePicksWrapEl) bolePicksWrapEl.hidden = true;
+    return;
+  }
   bolePicksListEl.innerHTML = "";
   bolePicksListEl.className = "top-stories-grid";
   if (boleViewToggleEl) boleViewToggleEl.hidden = true;
@@ -3263,7 +3323,170 @@ function renderModelScoreChart(metric) {
   return card;
 }
 
+function grantBookGroupMeta(groupId) {
+  return (state.grantBookData?.groups || []).find((group) => group.id === groupId) || {
+    id: groupId,
+    title: groupId || "未分组",
+    description: "",
+  };
+}
+
+function grantBookGateTone(decision) {
+  if (decision === "继续深读") return "continue";
+  if (decision === "暂不深读") return "pause";
+  return "partial";
+}
+
+function appendGrantBookFact(parent, label, value) {
+  if (!value) return;
+  const row = document.createElement("div");
+  row.className = "grant-book-fact";
+  const labelEl = document.createElement("span");
+  labelEl.textContent = label;
+  const valueEl = document.createElement("p");
+  valueEl.textContent = value;
+  row.append(labelEl, valueEl);
+  parent.appendChild(row);
+}
+
+function renderGrantBookCard(item) {
+  const card = document.createElement("article");
+  card.className = `grant-book-card gate-${grantBookGateTone(item.gate_decision)}`;
+
+  const head = document.createElement("div");
+  head.className = "grant-book-card-head";
+  const tag = document.createElement("span");
+  tag.className = "grant-book-gate";
+  tag.textContent = item.gate_decision || "先读局部";
+  const meta = document.createElement("span");
+  meta.className = "grant-book-meta";
+  meta.textContent = [item.authors, item.publisher, item.published_date, item.isbn ? `ISBN ${item.isbn}` : ""].filter(Boolean).join(" · ");
+  head.append(tag, meta);
+
+  const title = document.createElement("h3");
+  title.textContent = item.title || "未命名书目";
+
+  const conclusion = document.createElement("p");
+  conclusion.className = "grant-book-conclusion";
+  conclusion.textContent = item.one_sentence_conclusion || "";
+
+  const facts = document.createElement("div");
+  facts.className = "grant-book-facts";
+  appendGrantBookFact(facts, "真实问题", item.real_problem);
+  appendGrantBookFact(facts, "适合谁", item.fit);
+  appendGrantBookFact(facts, "先读路线", item.first_reading_route);
+
+  const details = document.createElement("details");
+  details.className = "grant-book-details";
+  const summary = document.createElement("summary");
+  summary.textContent = "查看慢老师阅读门槛";
+  details.appendChild(summary);
+
+  const detailGrid = document.createElement("div");
+  detailGrid.className = "grant-book-detail-grid";
+  appendGrantBookFact(detailGrid, "证据边界", item.evidence_boundary);
+  appendGrantBookFact(detailGrid, "核心张力", item.core_tension);
+  appendGrantBookFact(detailGrid, "为什么适合高校老师", item.why_for_university_teachers);
+  appendGrantBookFact(detailGrid, "不适合谁", item.not_fit);
+  const sourceCheck = item.source_check || {};
+  appendGrantBookFact(detailGrid, "来源核查", [
+    sourceCheck.source_type,
+    Array.isArray(sourceCheck.evidence_available) ? sourceCheck.evidence_available.join("、") : "",
+    sourceCheck.version_status,
+  ].filter(Boolean).join(" · "));
+  details.appendChild(detailGrid);
+
+  if (item.deep_read_available && item.deep_read_framework) {
+    const deep = document.createElement("div");
+    deep.className = "grant-book-deep-read";
+    const deepTitle = document.createElement("strong");
+    deepTitle.textContent = "Stage 2 深读框架";
+    deep.appendChild(deepTitle);
+    [
+      ["大白话核心逻辑", item.deep_read_framework.plain_logic],
+      ["全书逻辑链", item.deep_read_framework.logic_chain],
+      ["作者方法转译", item.deep_read_framework.method_translation],
+      ["推断建议", item.deep_read_framework.inference_advice],
+    ].forEach(([label, value]) => appendGrantBookFact(deep, label, value));
+    details.appendChild(deep);
+  }
+
+  const actions = document.createElement("div");
+  actions.className = "grant-book-actions";
+  if (item.source_url) {
+    const link = document.createElement("a");
+    link.href = item.source_url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "查看来源";
+    actions.appendChild(link);
+  }
+  const status = document.createElement("span");
+  status.textContent = `${item.source_check?.version_status || "证据待核"} · ${item.deep_read_available ? "已有深读框架" : "Stage 1 简介门槛"}`;
+  actions.appendChild(status);
+
+  card.append(head, title, conclusion, facts, details, actions);
+  return card;
+}
+
+function renderGrantBookList() {
+  const filtered = getFilteredItems();
+  renderListSortTools();
+  resultCountEl.textContent = `${fmtNumber(filtered.length)} 条`;
+  renderSectionSummary(filtered);
+  newsListEl.innerHTML = "";
+  _renderListToken += 1;
+
+  if (!filtered.length) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.textContent = "当前没有符合筛选条件的已核验书目。候选书不会公开展示，需要先补齐来源核查和证据边界。";
+    newsListEl.appendChild(empty);
+    return;
+  }
+
+  const groups = state.grantBookData?.groups || [];
+  groups.forEach((group) => {
+    const groupItems = filtered.filter((item) => item.group === group.id);
+    if (!groupItems.length) return;
+    const section = document.createElement("section");
+    section.className = "grant-book-group";
+    const head = document.createElement("div");
+    head.className = "grant-book-group-head";
+    const title = document.createElement("h3");
+    title.textContent = group.title || group.id;
+    const desc = document.createElement("p");
+    desc.textContent = group.description || "";
+    head.append(title, desc);
+    const grid = document.createElement("div");
+    grid.className = "grant-book-grid";
+    groupItems.forEach((item) => grid.appendChild(renderGrantBookCard(item)));
+    section.append(head, grid);
+    newsListEl.appendChild(section);
+  });
+
+  const ungrouped = filtered.filter((item) => !groups.some((group) => group.id === item.group));
+  if (ungrouped.length) {
+    const fallback = document.createElement("section");
+    fallback.className = "grant-book-group";
+    const head = document.createElement("div");
+    head.className = "grant-book-group-head";
+    const title = document.createElement("h3");
+    title.textContent = "未分组";
+    head.appendChild(title);
+    const grid = document.createElement("div");
+    grid.className = "grant-book-grid";
+    ungrouped.forEach((item) => grid.appendChild(renderGrantBookCard(item)));
+    fallback.append(head, grid);
+    newsListEl.appendChild(fallback);
+  }
+}
+
 function renderList() {
+  if (state.activeSection === "grant_books") {
+    renderGrantBookList();
+    return;
+  }
   if (state.activeSection === "model_scores") {
     renderListSortTools();
     renderModelScoreEmbed();
@@ -3767,6 +3990,12 @@ async function loadGrantPolicyData() {
   return res.json();
 }
 
+async function loadGrantBookData() {
+  const res = await fetch(`./data/grant-books.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 grant-books.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function loadSlowProfessorData() {
   let res = await fetch(`./data/latest-slow-professor-7d.json?t=${Date.now()}`);
   if (!res.ok) {
@@ -3789,13 +4018,14 @@ async function loadModelScoreData() {
 }
 
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, slowProfessorResult, githubProjectsResult, modelScoresResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, storiesResult, grantsResult, grantBooksResult, slowProfessorResult, githubProjectsResult, modelScoresResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
     loadStoriesData(),
     loadGrantPolicyData(),
+    loadGrantBookData(),
     loadSlowProfessorData(),
     loadGithubProjectData(),
     loadModelScoreData(),
@@ -3823,6 +4053,14 @@ async function init() {
     state.grantPolicyItems = [];
     state.grantPolicySources = [];
     state.grantPolicyReferenceSources = [];
+  }
+
+  if (grantBooksResult.status === "fulfilled") {
+    state.grantBookData = grantBooksResult.value;
+    state.grantBookItems = Array.isArray(grantBooksResult.value.items) ? grantBooksResult.value.items : [];
+  } else {
+    state.grantBookData = null;
+    state.grantBookItems = [];
   }
 
   if (slowProfessorResult.status === "fulfilled") {

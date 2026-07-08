@@ -123,6 +123,14 @@ baseline, then let the aggregator layer add breadth.
   to Research are shown as international comparison entrypoints in v1, not
   full-project crawlers. WeChat public accounts stay out of the public site by
   default.
+- **高校教师书架专题**: reads `data/grant-books.json`, which is generated
+  from the manually reviewed `data/grant-books.seed.json` by
+  `scripts/update_grant_books.py`. This lane is a reading-gate bookshelf, not a
+  news feed, and public entries must be books. Public entries must include `source_check`, one of the three
+  `gate_decision` labels, and an evidence boundary; unverified items stay in
+  `data/grant-books-candidates.json` and are not rendered publicly. Official
+  notices, application rules, and other non-book materials belong in the
+  国自然/科研政策专题, not this bookshelf.
 - **GitHub 好玩项目专题**: writes a separate `data/github-projects.json`
   payload and a `github_projects` summary in `data/source-status.json`. It reads
   public Markdown from HelloGitHub, 科技爱好者周刊, and Awesome, extracts GitHub

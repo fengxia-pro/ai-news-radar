@@ -1022,6 +1022,187 @@ summary:focus-visible {
   border-color: rgba(63, 127, 47, 0.38);
 }
 
+.grant-book-group {
+  display: grid;
+  gap: 12px;
+  padding: 16px 18px 4px;
+}
+
+.grant-book-group + .grant-book-group {
+  border-top: 1px solid var(--line-soft);
+  margin-top: 12px;
+  padding-top: 18px;
+}
+
+.grant-book-group-head {
+  display: grid;
+  gap: 4px;
+}
+
+.grant-book-group-head h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.grant-book-group-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.grant-book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.grant-book-card {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.grant-book-card.gate-continue {
+  border-color: rgba(47, 125, 69, 0.28);
+}
+
+.grant-book-card.gate-partial {
+  border-color: rgba(154, 103, 0, 0.22);
+}
+
+.grant-book-card.gate-pause {
+  border-color: rgba(80, 80, 80, 0.18);
+}
+
+.grant-book-card-head,
+.grant-book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.grant-book-gate {
+  flex: 0 0 auto;
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: rgba(63, 127, 47, 0.1);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.grant-book-card.gate-partial .grant-book-gate {
+  background: rgba(154, 103, 0, 0.1);
+  color: #8a5d00;
+}
+
+.grant-book-card.gate-pause .grant-book-gate {
+  background: rgba(80, 80, 80, 0.08);
+  color: var(--muted);
+}
+
+.grant-book-meta,
+.grant-book-actions span {
+  min-width: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.grant-book-card h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.grant-book-conclusion {
+  margin: 0;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.grant-book-facts,
+.grant-book-detail-grid,
+.grant-book-deep-read {
+  display: grid;
+  gap: 8px;
+}
+
+.grant-book-fact {
+  display: grid;
+  gap: 3px;
+}
+
+.grant-book-fact > span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.grant-book-fact p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.grant-book-details {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 8px;
+}
+
+.grant-book-details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.grant-book-details[open] summary {
+  margin-bottom: 9px;
+}
+
+.grant-book-deep-read {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.grant-book-deep-read > strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.grant-book-actions {
+  justify-content: space-between;
+  border-top: 1px solid var(--line-soft);
+  padding-top: 9px;
+}
+
+.grant-book-actions a {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.grant-book-actions a:hover {
+  text-decoration: underline;
+}
+
+.list-sort-tools[hidden] {
+  display: none !important;
+}
+
 .bole-picks-head,
 .list-head,
 .waytoagi-head,
