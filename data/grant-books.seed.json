@@ -1,5 +1,15 @@
 {
   "source_url": "data/grant-books.seed.json",
+  "candidate_sources": [
+    {
+      "id": "slow_professor_shop_window",
+      "name": "慢教授的科研江湖公众号商品橱窗",
+      "source_type": "公众号商品橱窗",
+      "use": "作为高校教师书架的书目候选发现源；只收录书，不收录课程、服务或非书商品。",
+      "public_boundary": "商品橱窗只能证明这本书被推荐或可发现；公开进入书架前还必须核验书名、作者、出版社、ISBN或出版信息，并完成 source_check 与 Stage 1 阅读门槛。",
+      "status": "accepted_candidate_source"
+    }
+  ],
   "items": [
     {
       "id": "book-from-technical-to-scientific-question",

@@ -9,6 +9,7 @@ from scripts.update_grant_books import (
     ALLOWED_GATE_DECISIONS,
     build_payload,
     candidate_records,
+    candidate_sources,
 )
 
 
@@ -25,6 +26,7 @@ def test_public_payload_only_contains_verified_items():
 
     assert payload["topic"] == "高校教师书架"
     assert payload["candidate_count"] == 1
+    assert payload["candidate_sources"]
     assert payload["items"]
     assert all(item["verification_status"] == "verified" for item in payload["items"])
     assert "candidate-condense-scientific-question-cases" not in {item["id"] for item in payload["items"]}
@@ -93,3 +95,20 @@ def test_candidate_records_are_separate_from_public_payload():
     assert len(candidates) == 1
     assert candidates[0]["verification_status"] == "candidate"
     assert candidates[0]["missing"]
+
+
+def test_slow_professor_shop_window_is_candidate_source_only():
+    seed = load_seed()
+    sources = candidate_sources(seed)
+    payload = build_payload(seed, generated_at="2026-07-08T00:00:00Z")
+
+    slow_professor_source = next(
+        source for source in sources if source["id"] == "slow_professor_shop_window"
+    )
+    assert slow_professor_source["name"] == "慢教授的科研江湖公众号商品橱窗"
+    assert slow_professor_source["status"] == "accepted_candidate_source"
+    assert "公开进入书架前" in slow_professor_source["public_boundary"]
+    assert any(
+        status["site_id"] == "grant_books_candidate_source_slow_professor_shop_window"
+        for status in payload["source_status"]
+    )

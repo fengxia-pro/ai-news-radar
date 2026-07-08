@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T00:00:00Z",
+  "generated_at": "2026-07-08T09:30:00Z",
   "topic": "高校教师书架",
   "method": "manslow-reading-gate",
   "positioning": "给高校教师看的科研成长书架：国自然、论文写作、科研设计与学术表达，先判断值不值得读，再决定是否深读。",
@@ -687,6 +687,17 @@
     }
   ],
   "candidate_count": 1,
+  "candidate_sources": [
+    {
+      "id": "slow_professor_shop_window",
+      "name": "慢教授的科研江湖公众号商品橱窗",
+      "source_type": "公众号商品橱窗",
+      "use": "作为高校教师书架的书目候选发现源；只收录书，不收录课程、服务或非书商品。",
+      "public_boundary": "商品橱窗只能证明这本书被推荐或可发现；公开进入书架前还必须核验书名、作者、出版社、ISBN或出版信息，并完成 source_check 与 Stage 1 阅读门槛。",
+      "status": "accepted_candidate_source",
+      "source_url": ""
+    }
+  ],
   "source_status": [
     {
       "site_id": "grant_books_manual_seed",
@@ -695,11 +706,22 @@
       "item_count": 7,
       "candidate_count": 1,
       "source_url": "data/grant-books.seed.json"
+    },
+    {
+      "site_id": "grant_books_candidate_source_slow_professor_shop_window",
+      "site_name": "慢教授的科研江湖公众号商品橱窗",
+      "ok": true,
+      "item_count": 0,
+      "candidate_count": 0,
+      "source_url": "",
+      "status": "accepted_candidate_source",
+      "note": "商品橱窗只能证明这本书被推荐或可发现；公开进入书架前还必须核验书名、作者、出版社、ISBN或出版信息，并完成 source_check 与 Stage 1 阅读门槛。"
     }
   ],
   "notes": [
     "本专题按慢老师读书方法论组织，先做来源核查和简介门槛，不默认全文深读。",
     "只有 verification_status=verified 的条目进入公开书架。",
+    "慢教授的科研江湖公众号商品橱窗可作为候选书发现源，但公开上架前仍需二次核验书目信息和证据边界。",
     "Stage 2 深读框架只用于继续深读或人工指定条目。"
   ]
 }

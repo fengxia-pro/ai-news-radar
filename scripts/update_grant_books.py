@@ -124,10 +124,30 @@ def public_record(record: dict[str, Any]) -> dict[str, Any]:
     return output
 
 
+def candidate_sources(seed: dict[str, Any]) -> list[dict[str, Any]]:
+    sources: list[dict[str, Any]] = []
+    for source in seed.get("candidate_sources") or []:
+        for field in ("id", "name", "source_type", "use", "public_boundary", "status"):
+            require_text(source, field)
+        sources.append(
+            {
+                "id": source["id"],
+                "name": source["name"],
+                "source_type": source["source_type"],
+                "use": source["use"],
+                "public_boundary": source["public_boundary"],
+                "status": source["status"],
+                "source_url": source.get("source_url", ""),
+            }
+        )
+    return sources
+
+
 def build_payload(seed: dict[str, Any], *, generated_at: str) -> dict[str, Any]:
     seed_items = list(seed.get("items") or [])
     public_items: list[dict[str, Any]] = []
     candidates = candidate_records(seed)
+    candidate_source_list = candidate_sources(seed)
     for record in seed_items:
         status = record.get("verification_status")
         if status == "verified":
@@ -155,6 +175,7 @@ def build_payload(seed: dict[str, Any], *, generated_at: str) -> dict[str, Any]:
         "groups": groups,
         "items": public_items,
         "candidate_count": len(candidates),
+        "candidate_sources": candidate_source_list,
         "source_status": [
             {
                 "site_id": "grant_books_manual_seed",
@@ -164,10 +185,31 @@ def build_payload(seed: dict[str, Any], *, generated_at: str) -> dict[str, Any]:
                 "candidate_count": len(candidates),
                 "source_url": seed.get("source_url", ""),
             }
+        ]
+        + [
+            {
+                "site_id": f"grant_books_candidate_source_{source['id']}",
+                "site_name": source["name"],
+                "ok": True,
+                "item_count": 0,
+                "candidate_count": len(
+                    [
+                        record
+                        for record in seed_items
+                        if record.get("verification_status") != "verified"
+                        and record.get("candidate_source_id") == source["id"]
+                    ]
+                ),
+                "source_url": source.get("source_url", ""),
+                "status": source["status"],
+                "note": source["public_boundary"],
+            }
+            for source in candidate_source_list
         ],
         "notes": [
             "本专题按慢老师读书方法论组织，先做来源核查和简介门槛，不默认全文深读。",
             "只有 verification_status=verified 的条目进入公开书架。",
+            "慢教授的科研江湖公众号商品橱窗可作为候选书发现源，但公开上架前仍需二次核验书目信息和证据边界。",
             "Stage 2 深读框架只用于继续深读或人工指定条目。",
         ],
     }
@@ -175,19 +217,23 @@ def build_payload(seed: dict[str, Any], *, generated_at: str) -> dict[str, Any]:
 
 def candidate_records(seed: dict[str, Any]) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
+    source_by_id = {source["id"]: source for source in candidate_sources(seed)}
     for record in seed.get("items") or []:
         if record.get("verification_status") == "verified":
             continue
-        candidates.append(
-            {
-                "id": record.get("id"),
-                "title": record.get("title"),
-                "group": record.get("group"),
-                "verification_status": record.get("verification_status") or "candidate",
-                "source_url": record.get("source_url", ""),
-                "missing": record.get("missing") or ["source_check", "evidence_boundary"],
-            }
-        )
+        candidate = {
+            "id": record.get("id"),
+            "title": record.get("title"),
+            "group": record.get("group"),
+            "verification_status": record.get("verification_status") or "candidate",
+            "source_url": record.get("source_url", ""),
+            "missing": record.get("missing") or ["source_check", "evidence_boundary"],
+        }
+        source_id = record.get("candidate_source_id")
+        if source_id:
+            candidate["candidate_source_id"] = source_id
+            candidate["candidate_source"] = source_by_id.get(source_id, {}).get("name", source_id)
+        candidates.append(candidate)
     return candidates
 
 

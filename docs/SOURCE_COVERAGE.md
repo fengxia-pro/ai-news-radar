@@ -130,7 +130,10 @@ baseline, then let the aggregator layer add breadth.
   `gate_decision` labels, and an evidence boundary; unverified items stay in
   `data/grant-books-candidates.json` and are not rendered publicly. Official
   notices, application rules, and other non-book materials belong in the
-  国自然/科研政策专题, not this bookshelf.
+  国自然/科研政策专题, not this bookshelf. 慢教授的科研江湖公众号商品橱窗 can
+  be used as a candidate discovery source for books, but it is not enough by
+  itself for public rendering; each book still needs bibliographic verification
+  and a Stage 1 reading-gate record before it can enter `data/grant-books.json`.
 - **GitHub 好玩项目专题**: writes a separate `data/github-projects.json`
   payload and a `github_projects` summary in `data/source-status.json`. It reads
   public Markdown from HelloGitHub, 科技爱好者周刊, and Awesome, extracts GitHub
