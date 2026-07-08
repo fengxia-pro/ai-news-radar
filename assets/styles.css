@@ -1130,11 +1130,32 @@ summary:focus-visible {
   line-height: 1.6;
 }
 
-.grant-book-facts,
+.grant-book-stage,
 .grant-book-detail-grid,
 .grant-book-deep-read {
   display: grid;
   gap: 8px;
+}
+
+.grant-book-stage {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 10px;
+}
+
+.grant-book-stage > strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.grant-book-stage-two {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.grant-book-stage-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .grant-book-fact {

@@ -3381,24 +3381,30 @@ function renderGrantBookCard(item) {
   conclusion.className = "grant-book-conclusion";
   conclusion.textContent = item.one_sentence_conclusion || "";
 
-  const facts = document.createElement("div");
-  facts.className = "grant-book-facts";
-  appendGrantBookFact(facts, "真实问题", item.real_problem);
-  appendGrantBookFact(facts, "适合谁", item.fit);
-  appendGrantBookFact(facts, "先读路线", item.first_reading_route);
+  const stageOne = document.createElement("div");
+  stageOne.className = "grant-book-stage";
+  const stageOneTitle = document.createElement("strong");
+  stageOneTitle.textContent = "第一阶段：简介门槛";
+  stageOne.appendChild(stageOneTitle);
+  appendGrantBookFact(stageOne, "1. 这本书解决什么真实问题？", item.real_problem);
+  appendGrantBookFact(stageOne, "2. 为什么可能吸引我？", item.why_for_university_teachers);
+  appendGrantBookFact(stageOne, "3. 适合谁，不适合谁？", [
+    item.fit ? `适合：${item.fit}` : "",
+    item.not_fit ? `不适合：${item.not_fit}` : "",
+  ].filter(Boolean));
+  appendGrantBookFact(stageOne, "4. 是否建议继续读？", `${item.gate_decision || "先读局部"}：${item.one_sentence_conclusion || ""}`);
+  appendGrantBookFact(stageOne, "5. 如果继续，先读哪些章节？", item.first_reading_route);
 
   const details = document.createElement("details");
   details.className = "grant-book-details";
   const summary = document.createElement("summary");
-  summary.textContent = "查看慢老师阅读门槛";
+  summary.textContent = "查看证据边界与来源核查";
   details.appendChild(summary);
 
   const detailGrid = document.createElement("div");
   detailGrid.className = "grant-book-detail-grid";
   appendGrantBookFact(detailGrid, "证据边界", item.evidence_boundary);
   appendGrantBookFact(detailGrid, "核心张力", item.core_tension);
-  appendGrantBookFact(detailGrid, "为什么适合高校老师", item.why_for_university_teachers);
-  appendGrantBookFact(detailGrid, "不适合谁", item.not_fit);
   const sourceCheck = item.source_check || {};
   appendGrantBookFact(detailGrid, "来源核查", [
     sourceCheck.source_type,
@@ -3407,24 +3413,30 @@ function renderGrantBookCard(item) {
   ].filter(Boolean).join(" · "));
   details.appendChild(detailGrid);
 
+  const stageTwo = document.createElement("div");
+  stageTwo.className = "grant-book-stage grant-book-stage-two";
   if (item.deep_read_available && item.deep_read_framework) {
-    const deep = document.createElement("div");
-    deep.className = "grant-book-deep-read";
-    const deepTitle = document.createElement("strong");
-    deepTitle.textContent = "Stage 2 深读框架";
-    deep.appendChild(deepTitle);
+    const stageTwoTitle = document.createElement("strong");
+    stageTwoTitle.textContent = "第二阶段：深读框架";
+    stageTwo.appendChild(stageTwoTitle);
     [
-      ["大白话核心逻辑", item.deep_read_framework.plain_logic],
-      ["一句话核心论点", item.deep_read_framework.core_claim],
-      ["全书逻辑链", item.deep_read_framework.logic_chain],
-      ["章节功能图", item.deep_read_framework.chapter_function_map],
-      ["3-5 个关键机制", item.deep_read_framework.key_mechanisms],
-      ["原书证据", item.deep_read_framework.original_evidence],
-      ["作者方法转译", item.deep_read_framework.method_translation],
-      ["推断建议", item.deep_read_framework.inference_advice],
-      ["下一轮读书问题清单", item.deep_read_framework.reading_questions],
-    ].forEach(([label, value]) => appendGrantBookFact(deep, label, value));
-    details.appendChild(deep);
+      ["1. 用大白话讲全书核心逻辑。", item.deep_read_framework.plain_logic],
+      ["2. 给出一句话核心论点。", item.deep_read_framework.core_claim],
+      ["3. 梳理全书逻辑链。", item.deep_read_framework.logic_chain],
+      ["4. 解释章节之间为什么这样排列。", item.deep_read_framework.chapter_function_map],
+      ["5. 提炼 3-5 个关键机制。", item.deep_read_framework.key_mechanisms],
+      ["6A. 原书证据", item.deep_read_framework.original_evidence],
+      ["6B. 作者方法转译", item.deep_read_framework.method_translation],
+      ["6C. 推断建议", item.deep_read_framework.inference_advice],
+      ["7. 下一轮读书问题清单。", item.deep_read_framework.reading_questions],
+    ].forEach(([label, value]) => appendGrantBookFact(stageTwo, label, value));
+  } else {
+    const stageTwoTitle = document.createElement("strong");
+    stageTwoTitle.textContent = "第二阶段：深读框架";
+    const note = document.createElement("p");
+    note.className = "grant-book-stage-note";
+    note.textContent = "当前只做第一阶段简介门槛，暂未进入深读框架。";
+    stageTwo.append(stageTwoTitle, note);
   }
 
   let access = null;
@@ -3469,7 +3481,7 @@ function renderGrantBookCard(item) {
   status.textContent = `${item.source_check?.version_status || "证据待核"} · ${item.deep_read_available ? "已有深读框架" : "Stage 1 简介门槛"}`;
   actions.appendChild(status);
 
-  card.append(head, title, conclusion, facts, details);
+  card.append(head, title, conclusion, stageOne, stageTwo, details);
   if (access) card.appendChild(access);
   card.appendChild(actions);
   return card;

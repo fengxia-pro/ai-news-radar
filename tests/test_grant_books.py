@@ -157,3 +157,24 @@ def test_deep_read_framework_requires_all_required_fields():
 
     with pytest.raises(ValueError, match="core_claim"):
         build_payload(seed, generated_at="2026-07-08T00:00:00Z")
+
+
+def test_frontend_uses_manslow_question_template():
+    app_js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+    required_labels = [
+        "第一阶段：简介门槛",
+        "1. 这本书解决什么真实问题？",
+        "2. 为什么可能吸引我？",
+        "3. 适合谁，不适合谁？",
+        "4. 是否建议继续读？",
+        "第二阶段：深读框架",
+        "1. 用大白话讲全书核心逻辑。",
+        "2. 给出一句话核心论点。",
+        "3. 梳理全书逻辑链。",
+        "4. 解释章节之间为什么这样排列。",
+        "5. 提炼 3-5 个关键机制。",
+        "7. 下一轮读书问题清单。",
+    ]
+
+    for label in required_labels:
+        assert label in app_js
