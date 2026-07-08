@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:51:18.041909Z",
+  "generated_at": "2026-07-08T17:43:25.284296Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -132,15 +132,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.8765,
-      "importance": 0.8765,
-      "importance_score": 0.8765,
+      "score": 0.8721,
+      "importance": 0.8721,
+      "importance_score": 0.8721,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8992,
+        "recency": 0.8752,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -157,6 +157,293 @@
         "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d7499a6963c6",
+      "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "primary_url": "https://openai.com/index/introducing-gpt-live",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "1566758863d4711f264c204bdc76017a1cfaafca",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "bda0da780e29f43df71a04769d0a3557258dce37",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "74c267a44df4f2550ba99d0149b684c13a5473c7",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / GPT‑Live",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-08T17:03:19Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "1566758863d4711f264c204bdc76017a1cfaafca",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "bda0da780e29f43df71a04769d0a3557258dce37",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "74c267a44df4f2550ba99d0149b684c13a5473c7",
+          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / GPT‑Live",
+          "url": "https://openai.com/index/introducing-gpt-live",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-08T17:03:19Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8694,
+      "importance": 0.8694,
+      "importance_score": 0.8694,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7742,
+        "story_heat": 0.5
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T00:00:00Z",
+      "latest_at": "2026-07-08T17:03:19Z",
+      "primary_item": {
+        "id": "1566758863d4711f264c204bdc76017a1cfaafca",
+        "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
+        "url": "https://openai.com/index/introducing-gpt-live",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_5535aeb9eb9d",
+      "title": "代理商数据 / Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "primary_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+          "title": "代理商数据 / Data for Agents",
+          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T17:16:05Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+          "title": "代理商数据 / Data for Agents",
+          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T17:16:05Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8668,
+      "importance": 0.8668,
+      "importance_score": 0.8668,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.9934,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T17:16:05Z",
+      "latest_at": "2026-07-08T17:16:05Z",
+      "primary_item": {
+        "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+        "title": "代理商数据 / Data for Agents",
+        "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_c2a416d6e7fa",
+      "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "items": [
+        {
+          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8476,
+      "importance": 0.8476,
+      "importance_score": 0.8476,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9754,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T16:00:00Z",
+      "latest_at": "2026-07-08T16:00:00Z",
+      "primary_item": {
+        "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+        "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_634d04b72ccb",
+      "title": "GitHub Mobile：修复与 Copilot 云代理的合并冲突 / GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+      "primary_url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c7270fda48482cfd737d63200627b9103fa60835",
+          "title": "GitHub Mobile：修复与 Copilot 云代理的合并冲突 / GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+          "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T09:45:22Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "c7270fda48482cfd737d63200627b9103fa60835",
+          "title": "GitHub Mobile：修复与 Copilot 云代理的合并冲突 / GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+          "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T09:45:22Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8384,
+      "importance": 0.8384,
+      "importance_score": 0.8384,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.94,
+        "recency": 0.8913,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T09:45:22Z",
+      "latest_at": "2026-07-08T09:45:22Z",
+      "primary_item": {
+        "id": "c7270fda48482cfd737d63200627b9103fa60835",
+        "title": "GitHub Mobile：修复与 Copilot 云代理的合并冲突 / GitHub Mobile: Fix merge conflicts with Copilot cloud agent",
+        "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -251,15 +538,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8333,
-      "importance": 0.8333,
-      "importance_score": 0.8333,
+      "score": 0.8286,
+      "importance": 0.8286,
+      "importance_score": 0.8286,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9814,
+        "recency": 0.9553,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -276,68 +563,6 @@
         "url": "https://mistral.ai/news/robostral-navigate",
         "source": "Mistral AI：News（网页）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f2a3364a10eb",
-      "title": "本机速度 vLLM 变压器建模后端 / Native-speed vLLM transformers modeling backend",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "primary_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-          "title": "本机速度 vLLM 变压器建模后端 / Native-speed vLLM transformers modeling backend",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-          "title": "本机速度 vLLM 变压器建模后端 / Native-speed vLLM transformers modeling backend",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8332,
-      "importance": 0.8332,
-      "importance_score": 0.8332,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7954,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T00:00:00Z",
-      "latest_at": "2026-07-08T00:00:00Z",
-      "primary_item": {
-        "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-        "title": "本机速度 vLLM 变压器建模后端 / Native-speed vLLM transformers modeling backend",
-        "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -375,15 +600,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8292,
-      "importance": 0.8292,
-      "importance_score": 0.8292,
+      "score": 0.8254,
+      "importance": 0.8254,
+      "importance_score": 0.8254,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7954,
+        "recency": 0.7742,
         "story_heat": 0.0
       },
       "category": "official",
@@ -403,64 +628,84 @@
       }
     },
     {
-      "story_id": "story_69bcbdfd037d",
-      "title": "在使用 API 中添加审核周期和采用阶段的时间 / Add review cycles and time to adoption phases in the usage API",
-      "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-      "primary_url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-      "source": "GitHub Changelog",
+      "story_id": "story_f2a3364a10eb",
+      "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "primary_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "a5feaff0761a737305f4d564bc7d2bcb7df6d254",
-          "title": "在使用 API 中添加审核周期和采用阶段的时间 / Add review cycles and time to adoption phases in the usage API",
-          "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-          "source": "GitHub Changelog",
+          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
+          "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
+          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T04:53:01Z"
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "6efe429bd106908b4a6d1b5d7599f25c13388f77",
+          "title": "原生速度的 vLLM transformers 建模后端",
+          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T00:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
       ],
       "items": [
         {
-          "id": "a5feaff0761a737305f4d564bc7d2bcb7df6d254",
-          "title": "在使用 API 中添加审核周期和采用阶段的时间 / Add review cycles and time to adoption phases in the usage API",
-          "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-          "source": "GitHub Changelog",
+          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
+          "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
+          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T04:53:01Z"
+          "published_at": "2026-07-08T00:00:00Z"
+        },
+        {
+          "id": "6efe429bd106908b4a6d1b5d7599f25c13388f77",
+          "title": "原生速度的 vLLM transformers 建模后端",
+          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T00:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8176,
-      "importance": 0.8176,
-      "importance_score": 0.8176,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8544,
+      "importance": 0.8544,
+      "importance_score": 0.8544,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8535,
-        "story_heat": 0.0
+        "ai_relevance": 1.0,
+        "recency": 0.7742,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T04:53:01Z",
-      "latest_at": "2026-07-08T04:53:01Z",
+      "earliest_at": "2026-07-08T00:00:00Z",
+      "latest_at": "2026-07-08T00:00:00Z",
       "primary_item": {
-        "id": "a5feaff0761a737305f4d564bc7d2bcb7df6d254",
-        "title": "在使用 API 中添加审核周期和采用阶段的时间 / Add review cycles and time to adoption phases in the usage API",
-        "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-        "source": "GitHub Changelog",
+        "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
+        "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
+        "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -537,15 +782,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.814,
-      "importance": 0.814,
-      "importance_score": 0.814,
+      "score": 0.8098,
+      "importance": 0.8098,
+      "importance_score": 0.8098,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8801,
+        "recency": 0.8567,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -636,15 +881,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8122,
-      "importance": 0.8122,
-      "importance_score": 0.8122,
+      "score": 0.8082,
+      "importance": 0.8082,
+      "importance_score": 0.8082,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8368,
+        "recency": 0.8145,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -664,83 +909,21 @@
       }
     },
     {
-      "story_id": "story_ca9a2a21da07",
-      "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
-      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "primary_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
-          "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
-          "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-07T21:15:33Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
-          "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
-          "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-07T21:15:33Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8176,
-      "importance": 0.8176,
-      "importance_score": 0.8176,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7645,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-07T21:15:33Z",
-      "latest_at": "2026-07-07T21:15:33Z",
-      "primary_item": {
-        "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
-        "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
-        "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_d4caa9e3147d",
-      "title": "Kimi K2.7 现已适用于 Copilot Business 和 Enterprise / Kimi K2.7 now available for Copilot Business and Enterprise",
-      "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-      "primary_url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+      "story_id": "story_dfe713495d65",
+      "title": "npm 安装时安全性和 GAT绕过2fa 弃用 / npm install-time security and GAT bypass2fa deprecation",
+      "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
+      "primary_url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "b427cd492df69b4d3c3f1408299434345a197ded",
-          "title": "Kimi K2.7 现已适用于 Copilot Business 和 Enterprise / Kimi K2.7 now available for Copilot Business and Enterprise",
-          "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+          "id": "3b7c7ed42b52bc9ade924f40fbb594c3a618c853",
+          "title": "npm 安装时安全性和 GAT绕过2fa 弃用 / npm install-time security and GAT bypass2fa deprecation",
+          "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T00:05:35Z"
+          "published_at": "2026-07-08T15:00:40Z"
         }
       ],
       "source_count": 1,
@@ -749,26 +932,26 @@
       ],
       "items": [
         {
-          "id": "b427cd492df69b4d3c3f1408299434345a197ded",
-          "title": "Kimi K2.7 现已适用于 Copilot Business 和 Enterprise / Kimi K2.7 now available for Copilot Business and Enterprise",
-          "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+          "id": "3b7c7ed42b52bc9ade924f40fbb594c3a618c853",
+          "title": "npm 安装时安全性和 GAT绕过2fa 弃用 / npm install-time security and GAT bypass2fa deprecation",
+          "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T00:05:35Z"
+          "published_at": "2026-07-08T15:00:40Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8154,
-      "importance": 0.8154,
-      "importance_score": 0.8154,
+      "score": 0.8371,
+      "importance": 0.8371,
+      "importance_score": 0.8371,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7964,
+        "ai_relevance": 0.87,
+        "recency": 0.9616,
         "story_heat": 0.0
       },
       "category": "official",
@@ -777,14 +960,137 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T00:05:35Z",
-      "latest_at": "2026-07-08T00:05:35Z",
+      "earliest_at": "2026-07-08T15:00:40Z",
+      "latest_at": "2026-07-08T15:00:40Z",
       "primary_item": {
-        "id": "b427cd492df69b4d3c3f1408299434345a197ded",
-        "title": "Kimi K2.7 现已适用于 Copilot Business 和 Enterprise / Kimi K2.7 now available for Copilot Business and Enterprise",
-        "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+        "id": "3b7c7ed42b52bc9ade924f40fbb594c3a618c853",
+        "title": "npm 安装时安全性和 GAT绕过2fa 弃用 / npm install-time security and GAT bypass2fa deprecation",
+        "url": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_de9286311527",
+      "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "primary_url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+          "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+          "url": "https://openai.com/index/k-12-educators-practical-skills",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+          "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+          "url": "https://openai.com/index/k-12-educators-practical-skills",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.833,
+      "importance": 0.833,
+      "importance_score": 0.833,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8945,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T10:00:00Z",
+      "latest_at": "2026-07-08T10:00:00Z",
+      "primary_item": {
+        "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+        "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+        "url": "https://openai.com/index/k-12-educators-practical-skills",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_2196b908122c",
+      "title": "ChatGPT Voice：口述文章的新体验",
+      "url": "https://x.com/jxnlco/status/2074905289237942512",
+      "primary_url": "https://x.com/jxnlco/status/2074905289237942512",
+      "source": "X：Jason Liu (@jxnlco)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "879e68ddb908bd8891975783c493222176970b37",
+          "title": "ChatGPT Voice：口述文章的新体验",
+          "url": "https://x.com/jxnlco/status/2074905289237942512",
+          "source": "X：Jason Liu (@jxnlco)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T17:15:45Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Jason Liu (@jxnlco)"
+      ],
+      "items": [
+        {
+          "id": "879e68ddb908bd8891975783c493222176970b37",
+          "title": "ChatGPT Voice：口述文章的新体验",
+          "url": "https://x.com/jxnlco/status/2074905289237942512",
+          "source": "X：Jason Liu (@jxnlco)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T17:15:45Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7784,
+      "importance": 0.7784,
+      "importance_score": 0.7784,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9934,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T17:15:45Z",
+      "latest_at": "2026-07-08T17:15:45Z",
+      "primary_item": {
+        "id": "879e68ddb908bd8891975783c493222176970b37",
+        "title": "ChatGPT Voice：口述文章的新体验",
+        "url": "https://x.com/jxnlco/status/2074905289237942512",
+        "source": "X：Jason Liu (@jxnlco)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -879,15 +1185,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8124,
-      "importance": 0.8124,
-      "importance_score": 0.8124,
+      "score": 0.8083,
+      "importance": 0.8083,
+      "importance_score": 0.8083,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8487,
+        "recency": 0.8261,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -904,6 +1210,68 @@
         "url": "https://blog.zksecurity.xyz/posts/circl-bugs",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0c8f668136ff",
+      "title": "GitHub Mobile：Copilot CLI 会话的实时通知 / GitHub Mobile: Live notifications for Copilot CLI sessions",
+      "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+      "primary_url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "a6d307ffa926be03ed5ab65a80f738c50789dab7",
+          "title": "GitHub Mobile：Copilot CLI 会话的实时通知 / GitHub Mobile: Live notifications for Copilot CLI sessions",
+          "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T09:45:09Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "a6d307ffa926be03ed5ab65a80f738c50789dab7",
+          "title": "GitHub Mobile：Copilot CLI 会话的实时通知 / GitHub Mobile: Live notifications for Copilot CLI sessions",
+          "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T09:45:09Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8324,
+      "importance": 0.8324,
+      "importance_score": 0.8324,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8913,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T09:45:09Z",
+      "latest_at": "2026-07-08T09:45:09Z",
+      "primary_item": {
+        "id": "a6d307ffa926be03ed5ab65a80f738c50789dab7",
+        "title": "GitHub Mobile：Copilot CLI 会话的实时通知 / GitHub Mobile: Live notifications for Copilot CLI sessions",
+        "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -959,15 +1327,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7768,
-      "importance": 0.7768,
-      "importance_score": 0.7768,
+      "score": 0.7724,
+      "importance": 0.7724,
+      "importance_score": 0.7724,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9121,
+        "recency": 0.8878,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1021,15 +1389,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7702,
-      "importance": 0.7702,
-      "importance_score": 0.7702,
+      "score": 0.7657,
+      "importance": 0.7657,
+      "importance_score": 0.7657,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9477,
+        "recency": 0.9225,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1044,106 +1412,6 @@
         "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
         "url": "https://x.com/berryxia/status/2074827915779580055",
         "source": "X：Berry Xia (@berryxia)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e2be33636230",
-      "title": "Rowboat：开源、本地优先的桌面AI助手",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "primary_url": "https://github.com/rowboatlabs/rowboat",
-      "source": "Hacker News：AI 热帖",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0a367a1ae1f30bf387c227f6dc57e5a7ace64d8b",
-          "title": "Rowboat：开源、本地优先的桌面AI助手",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-07T16:10:44Z"
-        },
-        {
-          "id": "714ea864cb1ba25214517302fe79105a5c75c083",
-          "title": "Show HN: Rowboat——Claude Desktop 的开源、本地优先替代方案",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-07T16:17:31.301000Z"
-        },
-        {
-          "id": "8c4bf7d0007db5d17b80574c9a1529838dd96ffe",
-          "title": "Rowboat：开源、本地优先的桌面AI助手 / Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-07T16:10:44Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News：AI 热帖",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "0a367a1ae1f30bf387c227f6dc57e5a7ace64d8b",
-          "title": "Rowboat：开源、本地优先的桌面AI助手",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-07T16:10:44Z"
-        },
-        {
-          "id": "714ea864cb1ba25214517302fe79105a5c75c083",
-          "title": "Show HN: Rowboat——Claude Desktop 的开源、本地优先替代方案",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-07T16:17:31.301000Z"
-        },
-        {
-          "id": "8c4bf7d0007db5d17b80574c9a1529838dd96ffe",
-          "title": "Rowboat：开源、本地优先的桌面AI助手 / Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-          "url": "https://github.com/rowboatlabs/rowboat",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-07T16:10:44Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7685,
-      "importance": 0.7685,
-      "importance_score": 0.7685,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7104,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-07T16:10:44Z",
-      "latest_at": "2026-07-07T16:17:31.301000Z",
-      "primary_item": {
-        "id": "0a367a1ae1f30bf387c227f6dc57e5a7ace64d8b",
-        "title": "Rowboat：开源、本地优先的桌面AI助手",
-        "url": "https://github.com/rowboatlabs/rowboat",
-        "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
       }
     },
@@ -1182,15 +1450,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7649,
-      "importance": 0.7649,
-      "importance_score": 0.7649,
+      "score": 0.7608,
+      "importance": 0.7608,
+      "importance_score": 0.7608,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8685,
+        "recency": 0.8454,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1262,15 +1530,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8313,
+        "recency": 0.8091,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1290,347 +1558,65 @@
       }
     },
     {
-      "story_id": "story_3141dc0b0f22",
-      "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
-      "url": "https://x.com/shao__meng/status/2074661249804366310",
-      "primary_url": "https://x.com/shao__meng/status/2074661249804366310",
-      "source": "X：邵猛 (@shao__meng)",
-      "source_name": "AI HOT",
+      "story_id": "story_ca9a2a21da07",
+      "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "primary_url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
-          "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
-          "url": "https://x.com/shao__meng/status/2074661249804366310",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T01:06:01Z"
+          "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
+          "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
+          "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-07T21:15:33Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：邵猛 (@shao__meng)"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
-          "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
-          "url": "https://x.com/shao__meng/status/2074661249804366310",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T01:06:01Z"
+          "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
+          "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
+          "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-07T21:15:33Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7571,
-      "importance": 0.7571,
-      "importance_score": 0.7571,
-      "importance_label": "行业动态",
+      "score": 0.8139,
+      "importance": 0.8139,
+      "importance_score": 0.8139,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8081,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7441,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T01:06:01Z",
-      "latest_at": "2026-07-08T01:06:01Z",
+      "earliest_at": "2026-07-07T21:15:33Z",
+      "latest_at": "2026-07-07T21:15:33Z",
       "primary_item": {
-        "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
-        "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
-        "url": "https://x.com/shao__meng/status/2074661249804366310",
-        "source": "X：邵猛 (@shao__meng)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a21a2c62d75d",
-      "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
-      "url": "https://www.ithome.com/0/974/169.htm",
-      "primary_url": "https://www.ithome.com/0/974/169.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "97f7d0ca3409897250466842e3968e118c32f8e1",
-          "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
-          "url": "https://www.ithome.com/0/974/169.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T09:55:17Z"
-        },
-        {
-          "id": "45f07a6667890e78181627288634074faec0ef9b",
-          "title": "未上报凶手暴力 ChatGPT 对话，加拿大一省拟就校园枪击案起诉 OpenAI",
-          "url": "https://www.ithome.com/0/974/169.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-08T09:55:17Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "97f7d0ca3409897250466842e3968e118c32f8e1",
-          "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
-          "url": "https://www.ithome.com/0/974/169.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T09:55:17Z"
-        },
-        {
-          "id": "45f07a6667890e78181627288634074faec0ef9b",
-          "title": "未上报凶手暴力 ChatGPT 对话，加拿大一省拟就校园枪击案起诉 OpenAI",
-          "url": "https://www.ithome.com/0/974/169.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-08T09:55:17Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7868,
-      "importance": 0.7868,
-      "importance_score": 0.7868,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9179,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T09:55:17Z",
-      "latest_at": "2026-07-08T09:55:17Z",
-      "primary_item": {
-        "id": "97f7d0ca3409897250466842e3968e118c32f8e1",
-        "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
-        "url": "https://www.ithome.com/0/974/169.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e758be6eba3c",
-      "title": "Replit 推出社区档案与力量排名",
-      "url": "https://x.com/Replit/status/2074871322220339515",
-      "primary_url": "https://x.com/Replit/status/2074871322220339515",
-      "source": "X：Replit (@Replit)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0169cf4b82ecd38354a1351785a001857624a687",
-          "title": "Replit 推出社区档案与力量排名",
-          "url": "https://x.com/Replit/status/2074871322220339515",
-          "source": "X：Replit (@Replit)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T15:00:47Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Replit (@Replit)"
-      ],
-      "items": [
-        {
-          "id": "0169cf4b82ecd38354a1351785a001857624a687",
-          "title": "Replit 推出社区档案与力量排名",
-          "url": "https://x.com/Replit/status/2074871322220339515",
-          "source": "X：Replit (@Replit)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T15:00:47Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7534,
-      "importance": 0.7534,
-      "importance_score": 0.7534,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9879,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T15:00:47Z",
-      "latest_at": "2026-07-08T15:00:47Z",
-      "primary_item": {
-        "id": "0169cf4b82ecd38354a1351785a001857624a687",
-        "title": "Replit 推出社区档案与力量排名",
-        "url": "https://x.com/Replit/status/2074871322220339515",
-        "source": "X：Replit (@Replit)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_938362203d1a",
-      "title": "腾讯Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与DeepSeek-V4-Pro打平",
-      "url": "https://www.aibase.com/news/29471",
-      "primary_url": "https://www.aibase.com/news/29471",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "5be8a3781223582c8472abb798c3ae04db3cf1ac",
-          "title": "腾讯Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与DeepSeek-V4-Pro打平",
-          "url": "https://www.aibase.com/news/29471",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-08T09:28:58.492982Z"
-        },
-        {
-          "id": "9e02208bfb37efb30bd1dcca905629fa819c6721",
-          "title": "腾讯 Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与 DeepSeek-V4-Pro 打平",
-          "url": "https://www.aibase.com/zh/news/29471",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "5be8a3781223582c8472abb798c3ae04db3cf1ac",
-          "title": "腾讯Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与DeepSeek-V4-Pro打平",
-          "url": "https://www.aibase.com/news/29471",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-08T09:28:58.492982Z"
-        },
-        {
-          "id": "9e02208bfb37efb30bd1dcca905629fa819c6721",
-          "title": "腾讯 Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与 DeepSeek-V4-Pro 打平",
-          "url": "https://www.aibase.com/zh/news/29471",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7768,
-      "importance": 0.7768,
-      "importance_score": 0.7768,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9121,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T09:28:58.492982Z",
-      "latest_at": "2026-07-08T09:28:58.492982Z",
-      "primary_item": {
-        "id": "5be8a3781223582c8472abb798c3ae04db3cf1ac",
-        "title": "腾讯Hy3 编程评测出炉：参数只有对手五分之一，代码能力却与DeepSeek-V4-Pro打平",
-        "url": "https://www.aibase.com/news/29471",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_e1f940717613",
-      "title": "OpenRouter聊天室推出一键零数据保留",
-      "url": "https://x.com/OpenRouter/status/2074870468394250461",
-      "primary_url": "https://x.com/OpenRouter/status/2074870468394250461",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cc94c1c773b89eaaefce3c828d1807dae558a77b",
-          "title": "OpenRouter聊天室推出一键零数据保留",
-          "url": "https://x.com/OpenRouter/status/2074870468394250461",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T14:57:23Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenRouter (@OpenRouter)"
-      ],
-      "items": [
-        {
-          "id": "cc94c1c773b89eaaefce3c828d1807dae558a77b",
-          "title": "OpenRouter聊天室推出一键零数据保留",
-          "url": "https://x.com/OpenRouter/status/2074870468394250461",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T14:57:23Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7443,
-      "importance": 0.7443,
-      "importance_score": 0.7443,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9871,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-08T14:57:23Z",
-      "latest_at": "2026-07-08T14:57:23Z",
-      "primary_item": {
-        "id": "cc94c1c773b89eaaefce3c828d1807dae558a77b",
-        "title": "OpenRouter聊天室推出一键零数据保留",
-        "url": "https://x.com/OpenRouter/status/2074870468394250461",
-        "source": "X：OpenRouter (@OpenRouter)",
-        "source_name": "AI HOT"
+        "id": "a27838ed16dc940a8e8d6435c5fe2120004c3976",
+        "title": "一键从 Hugging Face 到 Amazon SageMaker Studio / From Hugging Face to Amazon SageMaker Studio in one click",
+        "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     }
   ]
