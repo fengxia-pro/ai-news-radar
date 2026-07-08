@@ -3411,6 +3411,34 @@ function renderGrantBookCard(item) {
     details.appendChild(deep);
   }
 
+  let access = null;
+  const accessLinks = Array.isArray(item.access_links) ? item.access_links.filter((link) => link?.url) : [];
+  if (item.access_note || accessLinks.length) {
+    access = document.createElement("div");
+    access.className = "grant-book-access";
+    const accessTitle = document.createElement("strong");
+    accessTitle.textContent = "合法获取";
+    access.appendChild(accessTitle);
+    if (item.access_note) {
+      const accessNote = document.createElement("p");
+      accessNote.textContent = item.access_note;
+      access.appendChild(accessNote);
+    }
+    if (accessLinks.length) {
+      const accessList = document.createElement("div");
+      accessList.className = "grant-book-access-links";
+      accessLinks.forEach((accessLink) => {
+        const link = document.createElement("a");
+        link.href = accessLink.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = accessLink.label || "获取入口";
+        accessList.appendChild(link);
+      });
+      access.appendChild(accessList);
+    }
+  }
+
   const actions = document.createElement("div");
   actions.className = "grant-book-actions";
   if (item.source_url) {
@@ -3425,7 +3453,9 @@ function renderGrantBookCard(item) {
   status.textContent = `${item.source_check?.version_status || "证据待核"} · ${item.deep_read_available ? "已有深读框架" : "Stage 1 简介门槛"}`;
   actions.appendChild(status);
 
-  card.append(head, title, conclusion, facts, details, actions);
+  card.append(head, title, conclusion, facts, details);
+  if (access) card.appendChild(access);
+  card.appendChild(actions);
   return card;
 }
 

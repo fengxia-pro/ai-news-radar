@@ -7,6 +7,7 @@ import pytest
 
 from scripts.update_grant_books import (
     ALLOWED_GATE_DECISIONS,
+    BANNED_ACCESS_DOMAINS,
     build_payload,
     candidate_records,
     candidate_sources,
@@ -111,4 +112,21 @@ def test_slow_professor_shop_window_is_candidate_source_only():
     assert any(
         status["site_id"] == "grant_books_candidate_source_slow_professor_shop_window"
         for status in payload["source_status"]
+    )
+
+
+def test_public_access_links_use_legal_sources():
+    payload = build_payload(load_seed(), generated_at="2026-07-08T00:00:00Z")
+    road_book = next(
+        item for item in payload["items"] if item["id"] == "book-nsfc-application-road-phenomena-laws"
+    )
+    access_links = road_book.get("access_links") or []
+
+    assert road_book["access_note"].startswith("不提供未授权 PDF 下载")
+    assert {link["kind"] for link in access_links} >= {"source_review", "legal_purchase", "library_search"}
+    checked_urls = [road_book["source_url"], *[link["url"] for link in access_links]]
+    assert all(
+        banned not in url.lower()
+        for url in checked_urls
+        for banned in BANNED_ACCESS_DOMAINS
     )

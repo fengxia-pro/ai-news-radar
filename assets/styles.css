@@ -1182,6 +1182,47 @@ summary:focus-visible {
   font-size: 13px;
 }
 
+.grant-book-access {
+  display: grid;
+  gap: 7px;
+  border-top: 1px solid var(--line-soft);
+  padding-top: 9px;
+}
+
+.grant-book-access > strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.grant-book-access p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.grant-book-access-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.grant-book-access-links a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 9px;
+  color: var(--accent);
+  background: var(--surface-soft);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.grant-book-access-links a:hover {
+  border-color: rgba(46, 125, 50, 0.35);
+  text-decoration: underline;
+}
+
 .grant-book-actions {
   justify-content: space-between;
   border-top: 1px solid var(--line-soft);

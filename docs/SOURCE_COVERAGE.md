@@ -134,6 +134,9 @@ baseline, then let the aggregator layer add breadth.
   be used as a candidate discovery source for books, but it is not enough by
   itself for public rendering; each book still needs bibliographic verification
   and a Stage 1 reading-gate record before it can enter `data/grant-books.json`.
+  Public access links may point to reviews, publisher/bookstore pages, legal
+  ebook platforms, or library catalog searches; unauthorized PDF download sites
+  such as Z-Library/1lib/z-lib must not be published.
 - **GitHub 好玩项目专题**: writes a separate `data/github-projects.json`
   payload and a `github_projects` summary in `data/source-status.json`. It reads
   public Markdown from HelloGitHub, 科技爱好者周刊, and Awesome, extracts GitHub

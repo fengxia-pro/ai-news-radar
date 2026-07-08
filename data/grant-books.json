@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:30:00Z",
+  "generated_at": "2026-07-08T10:00:00Z",
   "topic": "高校教师书架",
   "method": "manslow-reading-gate",
   "positioning": "给高校教师看的科研成长书架：国自然、论文写作、科研设计与学术表达，先判断值不值得读，再决定是否深读。",
@@ -51,6 +51,24 @@
           "deep_read_available": false,
           "verification_status": "verified",
           "source_url": "https://news.sciencenet.cn/sbhtmlnews/2019/6/347070.shtm?id=347070",
+          "access_note": "不提供未授权 PDF 下载；优先通过书评页、正规书店或所在高校图书馆馆藏获取。",
+          "access_links": [
+            {
+              "label": "中国科学报书评",
+              "url": "https://news.sciencenet.cn/sbhtmlnews/2019/6/347070.shtm?id=347070",
+              "kind": "source_review"
+            },
+            {
+              "label": "北方图书城书目信息/购书",
+              "url": "https://www.96192.com/product/detail/577761",
+              "kind": "legal_purchase"
+            },
+            {
+              "label": "WorldCat 馆藏检索（ISBN）",
+              "url": "https://search.worldcat.org/search?q=bn%3A9787030602411",
+              "kind": "library_search"
+            }
+          ],
           "updated_at": "2026-07-08",
           "site_id": "grant_books_grant_application",
           "site_name": "高校教师书架",
@@ -407,6 +425,24 @@
       "deep_read_available": false,
       "verification_status": "verified",
       "source_url": "https://news.sciencenet.cn/sbhtmlnews/2019/6/347070.shtm?id=347070",
+      "access_note": "不提供未授权 PDF 下载；优先通过书评页、正规书店或所在高校图书馆馆藏获取。",
+      "access_links": [
+        {
+          "label": "中国科学报书评",
+          "url": "https://news.sciencenet.cn/sbhtmlnews/2019/6/347070.shtm?id=347070",
+          "kind": "source_review"
+        },
+        {
+          "label": "北方图书城书目信息/购书",
+          "url": "https://www.96192.com/product/detail/577761",
+          "kind": "legal_purchase"
+        },
+        {
+          "label": "WorldCat 馆藏检索（ISBN）",
+          "url": "https://search.worldcat.org/search?q=bn%3A9787030602411",
+          "kind": "library_search"
+        }
+      ],
       "updated_at": "2026-07-08",
       "site_id": "grant_books_grant_application",
       "site_name": "高校教师书架",

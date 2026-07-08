@@ -5,10 +5,12 @@ import json
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 
 ALLOWED_GATE_DECISIONS = {"继续深读", "先读局部", "暂不深读"}
 ALLOWED_VERSION_STATUS = {"视觉抽样版", "OCR 初读版", "全文精读版"}
+BANNED_ACCESS_DOMAINS = ("z-library", "1lib", "z-lib")
 
 GROUPS: tuple[dict[str, str], ...] = (
     {
@@ -62,6 +64,28 @@ def require_list(record: dict[str, Any], field: str) -> None:
         raise ValueError(f"{record.get('id', '<unknown>')} 字段 {field} 必须是非空列表")
 
 
+def reject_banned_access_url(record_id: str, url: str) -> None:
+    hostname = urlparse(url).hostname or ""
+    normalized = hostname.lower()
+    if any(domain in normalized for domain in BANNED_ACCESS_DOMAINS):
+        raise ValueError(f"{record_id} access/source url 不能使用未授权下载站点: {hostname}")
+
+
+def validate_access_links(record: dict[str, Any]) -> None:
+    reject_banned_access_url(str(record.get("id", "<unknown>")), str(record.get("source_url") or ""))
+    links = record.get("access_links")
+    if links is None:
+        return
+    if not isinstance(links, list):
+        raise ValueError(f"{record.get('id', '<unknown>')} access_links 必须是列表")
+    for link in links:
+        if not isinstance(link, dict):
+            raise ValueError(f"{record.get('id', '<unknown>')} access_links 条目必须是对象")
+        for field in ("label", "url", "kind"):
+            require_text(link, field)
+        reject_banned_access_url(str(record.get("id", "<unknown>")), link["url"])
+
+
 def validate_source_check(record: dict[str, Any]) -> None:
     source_check = record.get("source_check")
     if not isinstance(source_check, dict):
@@ -101,6 +125,7 @@ def validate_record(record: dict[str, Any]) -> None:
     if record.get("gate_decision") not in ALLOWED_GATE_DECISIONS:
         raise ValueError(f"{record['id']} gate_decision 必须是固定三选一")
     validate_source_check(record)
+    validate_access_links(record)
     if record.get("deep_read_framework") and not (
         record.get("gate_decision") == "继续深读" or record.get("deep_read_manual_override")
     ):
