@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T22:34:03.093309Z",
+  "generated_at": "2026-07-09T00:16:36.636312Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -30,18 +30,18 @@
           "published_at": "2026-07-08T13:00:00Z"
         },
         {
-          "id": "79a2e87d0b4710f886bdc0ba3286f606bfca2fb1",
+          "id": "888663806c2cbc353d34c6020c85a0ae760bc7f5",
           "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / OpenAI no longer recommends SWE-Bench Pro",
           "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-07-08T21:03:51Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News",
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
@@ -65,26 +65,26 @@
           "published_at": "2026-07-08T13:00:00Z"
         },
         {
-          "id": "79a2e87d0b4710f886bdc0ba3286f606bfca2fb1",
+          "id": "888663806c2cbc353d34c6020c85a0ae760bc7f5",
           "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / OpenAI no longer recommends SWE-Bench Pro",
           "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-07-08T21:03:51Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8908,
-      "importance": 0.8908,
-      "importance_score": 0.8908,
+      "score": 0.887,
+      "importance": 0.887,
+      "importance_score": 0.887,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.97,
-        "recency": 0.871,
+        "recency": 0.8497,
         "story_heat": 0.5
       },
       "category": "official",
@@ -101,107 +101,6 @@
         "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / Separating signal from noise in coding evaluations",
         "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
         "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_f2a3364a10eb",
-      "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "primary_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-          "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "6efe429bd106908b4a6d1b5d7599f25c13388f77",
-          "title": "原生速度的 vLLM transformers 建模后端",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "aca921c6d55d05c43d1e4bc9f5a739046d120794",
-          "title": "原生速度 vLLM Transformer 建模后端",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "huggingface.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-08T18:05:51.366000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）",
-        "huggingface.co"
-      ],
-      "items": [
-        {
-          "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-          "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "6efe429bd106908b4a6d1b5d7599f25c13388f77",
-          "title": "原生速度的 vLLM transformers 建模后端",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "aca921c6d55d05c43d1e4bc9f5a739046d120794",
-          "title": "原生速度 vLLM Transformer 建模后端",
-          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-          "source": "huggingface.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-08T18:05:51.366000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8699,
-      "importance": 0.8699,
-      "importance_score": 0.8699,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7219,
-        "story_heat": 0.5
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T00:00:00Z",
-      "latest_at": "2026-07-08T18:05:51.366000Z",
-      "primary_item": {
-        "id": "2b20caf8be18578bbbf163a30f998b12257393e5",
-        "title": "原生速度的 vLLM transformers 建模后端 / Native-speed vLLM transformers modeling backend",
-        "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -259,18 +158,18 @@
           "published_at": "2026-07-08T08:29:47.091000Z"
         },
         {
-          "id": "68ce452810e6362b607d38a17c0ed8140e7a52d2",
+          "id": "149b395bda8209106bf9356f6cd604ca32b0e32f",
           "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞 / GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
           "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-07-08T05:25:35Z"
         }
       ],
       "source_count": 6,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "Lobsters (技术社区)",
         "hackernews",
@@ -323,26 +222,26 @@
           "published_at": "2026-07-08T08:29:47.091000Z"
         },
         {
-          "id": "68ce452810e6362b607d38a17c0ed8140e7a52d2",
+          "id": "149b395bda8209106bf9356f6cd604ca32b0e32f",
           "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞 / GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
           "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-07-08T05:25:35Z"
         }
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.8615,
-      "importance": 0.8615,
-      "importance_score": 0.8615,
+      "score": 0.8579,
+      "importance": 0.8579,
+      "importance_score": 0.8579,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8161,
+        "recency": 0.7962,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -359,6 +258,68 @@
         "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5535aeb9eb9d",
+      "title": "代理商数据 / Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "primary_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+          "title": "代理商数据 / Data for Agents",
+          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T17:16:05Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+          "title": "代理商数据 / Data for Agents",
+          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T17:16:05Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8507,
+      "importance": 0.8507,
+      "importance_score": 0.8507,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.9037,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T17:16:05Z",
+      "latest_at": "2026-07-08T17:16:05Z",
+      "primary_item": {
+        "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
+        "title": "代理商数据 / Data for Agents",
+        "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -396,15 +357,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8471,
-      "importance": 0.8471,
-      "importance_score": 0.8471,
+      "score": 0.8428,
+      "importance": 0.8428,
+      "importance_score": 0.8428,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9727,
+        "recency": 0.949,
         "story_heat": 0.0
       },
       "category": "official",
@@ -458,15 +419,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8405,
-      "importance": 0.8405,
-      "importance_score": 0.8405,
+      "score": 0.8362,
+      "importance": 0.8362,
+      "importance_score": 0.8362,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9804,
+        "recency": 0.9565,
         "story_heat": 0.0
       },
       "category": "official",
@@ -482,169 +443,6 @@
         "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
         "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
         "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_d7499a6963c6",
-      "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "primary_url": "https://openai.com/index/introducing-gpt-live",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "1566758863d4711f264c204bdc76017a1cfaafca",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "bda0da780e29f43df71a04769d0a3557258dce37",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "74c267a44df4f2550ba99d0149b684c13a5473c7",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / GPT‑Live",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-08T17:03:19Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "1566758863d4711f264c204bdc76017a1cfaafca",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "bda0da780e29f43df71a04769d0a3557258dce37",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T00:00:00Z"
-        },
-        {
-          "id": "74c267a44df4f2550ba99d0149b684c13a5473c7",
-          "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / GPT‑Live",
-          "url": "https://openai.com/index/introducing-gpt-live",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-08T17:03:19Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8599,
-      "importance": 0.8599,
-      "importance_score": 0.8599,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7219,
-        "story_heat": 0.5
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T00:00:00Z",
-      "latest_at": "2026-07-08T17:03:19Z",
-      "primary_item": {
-        "id": "1566758863d4711f264c204bdc76017a1cfaafca",
-        "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型 / Introducing GPT-Live",
-        "url": "https://openai.com/index/introducing-gpt-live",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_5535aeb9eb9d",
-      "title": "代理商数据 / Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "primary_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
-          "title": "代理商数据 / Data for Agents",
-          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T17:16:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
-          "title": "代理商数据 / Data for Agents",
-          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T17:16:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8547,
-      "importance": 0.8547,
-      "importance_score": 0.8547,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.9263,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T17:16:05Z",
-      "latest_at": "2026-07-08T17:16:05Z",
-      "primary_item": {
-        "id": "2cca5aea8ac52a4b7b0dbb9734a6748bcc4cde9d",
-        "title": "代理商数据 / Data for Agents",
-        "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -740,15 +538,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8169,
-      "importance": 0.8169,
-      "importance_score": 0.8169,
+      "score": 0.813,
+      "importance": 0.813,
+      "importance_score": 0.813,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8908,
+        "recency": 0.869,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -765,68 +563,6 @@
         "url": "https://mistral.ai/news/robostral-navigate",
         "source": "Mistral AI：News（网页）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.143.0 / Codex CLI 0.143.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b96bf72e90172017de5c8d627a99cb4b47baf860",
-          "title": "法典 CLI 0.143.0 / Codex CLI 0.143.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "b96bf72e90172017de5c8d627a99cb4b47baf860",
-          "title": "法典 CLI 0.143.0 / Codex CLI 0.143.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8159,
-      "importance": 0.8159,
-      "importance_score": 0.8159,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7219,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T00:00:00Z",
-      "latest_at": "2026-07-08T00:00:00Z",
-      "primary_item": {
-        "id": "b96bf72e90172017de5c8d627a99cb4b47baf860",
-        "title": "法典 CLI 0.143.0 / Codex CLI 0.143.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -864,15 +600,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8415,
-      "importance": 0.8415,
-      "importance_score": 0.8415,
+      "score": 0.8374,
+      "importance": 0.8374,
+      "importance_score": 0.8374,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9418,
+        "recency": 0.9188,
         "story_heat": 0.0
       },
       "category": "official",
@@ -926,15 +662,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8357,
-      "importance": 0.8357,
-      "importance_score": 0.8357,
+      "score": 0.8317,
+      "importance": 0.8317,
+      "importance_score": 0.8317,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9095,
+        "recency": 0.8873,
         "story_heat": 0.0
       },
       "category": "official",
@@ -950,6 +686,68 @@
         "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
         "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
         "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_41b85c9cdb7a",
+      "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "primary_url": "https://openai.com/index/government-national-security-partnerships",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
+          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
+          "url": "https://openai.com/index/government-national-security-partnerships",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T13:30:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
+          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
+          "url": "https://openai.com/index/government-national-security-partnerships",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T13:30:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8261,
+      "importance": 0.8261,
+      "importance_score": 0.8261,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8559,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T13:30:00Z",
+      "latest_at": "2026-07-08T13:30:00Z",
+      "primary_item": {
+        "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
+        "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
+        "url": "https://openai.com/index/government-national-security-partnerships",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -1026,15 +824,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7994,
-      "importance": 0.7994,
-      "importance_score": 0.7994,
+      "score": 0.7959,
+      "importance": 0.7959,
+      "importance_score": 0.7959,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7988,
+        "recency": 0.7794,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1125,15 +923,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7983,
-      "importance": 0.7983,
-      "importance_score": 0.7983,
+      "score": 0.795,
+      "importance": 0.795,
+      "importance_score": 0.795,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7595,
+        "recency": 0.741,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1187,15 +985,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8413,
-      "importance": 0.8413,
-      "importance_score": 0.8413,
+      "score": 0.8369,
+      "importance": 0.8369,
+      "importance_score": 0.8369,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9848,
+        "recency": 0.9608,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1211,68 +1009,6 @@
         "title": "内部源安全建议已普遍可用 / Innersource security advisories are generally available",
         "url": "https://github.blog/changelog/2026-07-08-innersource-security-advisories-are-generally-available",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_41b85c9cdb7a",
-      "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "primary_url": "https://openai.com/index/government-national-security-partnerships",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-          "url": "https://openai.com/index/government-national-security-partnerships",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T13:30:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-          "url": "https://openai.com/index/government-national-security-partnerships",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T13:30:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8299,
-      "importance": 0.8299,
-      "importance_score": 0.8299,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8773,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T13:30:00Z",
-      "latest_at": "2026-07-08T13:30:00Z",
-      "primary_item": {
-        "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-        "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-        "url": "https://openai.com/index/government-national-security-partnerships",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -1311,15 +1047,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7663,
-      "importance": 0.7663,
-      "importance_score": 0.7663,
+      "score": 0.7623,
+      "importance": 0.7623,
+      "importance_score": 0.7623,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9263,
+        "recency": 0.9037,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1335,6 +1071,68 @@
         "url": "https://x.com/jxnlco/status/2074905289237942512",
         "source": "X：Jason Liu (@jxnlco)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_de9286311527",
+      "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "primary_url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+          "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+          "url": "https://openai.com/index/k-12-educators-practical-skills",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+          "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+          "url": "https://openai.com/index/k-12-educators-practical-skills",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8185,
+      "importance": 0.8185,
+      "importance_score": 0.8185,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8137,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T10:00:00Z",
+      "latest_at": "2026-07-08T10:00:00Z",
+      "primary_item": {
+        "id": "3f6683043bf73f7539527e0c801f2599a2d2c67d",
+        "title": "帮助 K-12 教育工作者培养实用的人工智能技能 / Helping K–12 educators build practical AI skills",
+        "url": "https://openai.com/index/k-12-educators-practical-skills",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1390,15 +1188,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
+      "score": 0.758,
+      "importance": 0.758,
+      "importance_score": 0.758,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8278,
+        "recency": 0.8076,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1452,15 +1250,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7544,
-      "importance": 0.7544,
-      "importance_score": 0.7544,
+      "score": 0.7507,
+      "importance": 0.7507,
+      "importance_score": 0.7507,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8602,
+        "recency": 0.8392,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1513,21 +1311,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7505,
-      "importance": 0.7505,
-      "importance_score": 0.7505,
+      "score": 0.747,
+      "importance": 0.747,
+      "importance_score": 0.747,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7883,
+        "recency": 0.7691,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-08T06:05:32Z",
       "latest_at": "2026-07-08T06:05:32Z",
@@ -1574,15 +1371,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8396,
-      "importance": 0.8396,
-      "importance_score": 0.8396,
+      "score": 0.8353,
+      "importance": 0.8353,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9753,
+        "recency": 0.9515,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1599,6 +1396,146 @@
         "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_0a4741a19553",
+      "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+      "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+      "primary_url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9b1813c273f4075a9c61d682c1734d981a0eeeba",
+          "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+          "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T03:03:22Z"
+        },
+        {
+          "id": "403013bddf9cfb52db46563ec398efd7f3319ad2",
+          "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知 / Ant Group’s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception",
+          "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-08T03:03:22Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "9b1813c273f4075a9c61d682c1734d981a0eeeba",
+          "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+          "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T03:03:22Z"
+        },
+        {
+          "id": "403013bddf9cfb52db46563ec398efd7f3319ad2",
+          "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知 / Ant Group’s Robbyant Open-Sources LingBot-Vision: A 1B Boundary-Centric Vision Foundation Model for Dense Spatial Perception",
+          "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-08T03:03:22Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7421,
+      "importance": 0.7421,
+      "importance_score": 0.7421,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7361,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-08T03:03:22Z",
+      "latest_at": "2026-07-08T03:03:22Z",
+      "primary_item": {
+        "id": "9b1813c273f4075a9c61d682c1734d981a0eeeba",
+        "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+        "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_3141dc0b0f22",
+      "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+      "url": "https://x.com/shao__meng/status/2074661249804366310",
+      "primary_url": "https://x.com/shao__meng/status/2074661249804366310",
+      "source": "X：邵猛 (@shao__meng)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
+          "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+          "url": "https://x.com/shao__meng/status/2074661249804366310",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T01:06:01Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：邵猛 (@shao__meng)"
+      ],
+      "items": [
+        {
+          "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
+          "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+          "url": "https://x.com/shao__meng/status/2074661249804366310",
+          "source": "X：邵猛 (@shao__meng)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T01:06:01Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7404,
+      "importance": 0.7404,
+      "importance_score": 0.7404,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7156,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-08T01:06:01Z",
+      "latest_at": "2026-07-08T01:06:01Z",
+      "primary_item": {
+        "id": "4c6ee0578dce923499b5d675ab3913477ad67981",
+        "title": "Claude开发者分享两种多智能体模式：Advisor和Orchestrator",
+        "url": "https://x.com/shao__meng/status/2074661249804366310",
+        "source": "X：邵猛 (@shao__meng)",
+        "source_name": "AI HOT"
       }
     }
   ]
