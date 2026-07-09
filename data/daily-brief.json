@@ -1,106 +1,67 @@
 {
-  "generated_at": "2026-07-09T12:10:45.802148Z",
+  "generated_at": "2026-07-09T15:42:18.179687Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_eaad4cbcfa7f",
-      "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "primary_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "source": "OpenAI News",
+      "story_id": "story_3f5c6212602a",
+      "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "primary_url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "5237c2d47f7e1265bb14c03a806f22d9d78e9b1e",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / Separating signal from noise in coding evaluations",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "OpenAI News",
+          "id": "602db55ea0f01347e40139da035e5d4e57b78000",
+          "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+          "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T13:00:00Z"
-        },
-        {
-          "id": "3952d15a35a38f3fd6065379cb0a0cf517084d5e",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T13:00:00Z"
-        },
-        {
-          "id": "888663806c2cbc353d34c6020c85a0ae760bc7f5",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / OpenAI no longer recommends SWE-Bench Pro",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-08T21:03:51Z"
+          "published_at": "2026-07-09T14:25:33Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "5237c2d47f7e1265bb14c03a806f22d9d78e9b1e",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / Separating signal from noise in coding evaluations",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "OpenAI News",
+          "id": "602db55ea0f01347e40139da035e5d4e57b78000",
+          "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+          "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T13:00:00Z"
-        },
-        {
-          "id": "3952d15a35a38f3fd6065379cb0a0cf517084d5e",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T13:00:00Z"
-        },
-        {
-          "id": "888663806c2cbc353d34c6020c85a0ae760bc7f5",
-          "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / OpenAI no longer recommends SWE-Bench Pro",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-08T21:03:51Z"
+          "published_at": "2026-07-09T14:25:33Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8628,
-      "importance": 0.8628,
-      "importance_score": 0.8628,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8487,
+      "importance": 0.8487,
+      "importance_score": 0.8487,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.97,
-        "recency": 0.7155,
-        "story_heat": 0.5
+        "ai_relevance": 0.91,
+        "recency": 0.9817,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T13:00:00Z",
-      "latest_at": "2026-07-08T21:03:51Z",
+      "earliest_at": "2026-07-09T14:25:33Z",
+      "latest_at": "2026-07-09T14:25:33Z",
       "primary_item": {
-        "id": "5237c2d47f7e1265bb14c03a806f22d9d78e9b1e",
-        "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷 / Separating signal from noise in coding evaluations",
-        "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-        "source": "OpenAI News",
+        "id": "602db55ea0f01347e40139da035e5d4e57b78000",
+        "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+        "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -139,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.825,
-      "importance": 0.825,
-      "importance_score": 0.825,
+      "score": 0.8182,
+      "importance": 0.8182,
+      "importance_score": 0.8182,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.761,
+        "recency": 0.7232,
         "story_heat": 0.0
       },
       "category": "official",
@@ -163,6 +124,168 @@
         "title": "代理商数据 / Data for Agents",
         "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d7ccf9cc0fa2",
+      "title": "Claude 推出反思功能（Beta）",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "primary_url": "https://www.anthropic.com/news/reflect-with-claude",
+      "source": "Anthropic：Newsroom（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "47efe8f8345975a98791a28e613f14eb6d4b9020",
+          "title": "Claude 推出反思功能（Beta）",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T13:40:30.163000Z"
+        },
+        {
+          "id": "dbfaf7147acfcfb7278b1ecf00c6f9bed1f14fe0",
+          "title": "反思如何使用克劳德的新方法 / A new way to reflect on how you use Claude",
+          "url": "https://news.ycombinator.com/item?id=48845526",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-09T15:14:50.508000Z"
+        },
+        {
+          "id": "e4805c951ab9c11efad27b62a6ba710e8adccd70",
+          "title": "Claude 推出反思功能（Beta） / A new way to reflect on how you use Claude",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-09T13:30:33Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Anthropic：Newsroom（网页）",
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "47efe8f8345975a98791a28e613f14eb6d4b9020",
+          "title": "Claude 推出反思功能（Beta）",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T13:40:30.163000Z"
+        },
+        {
+          "id": "dbfaf7147acfcfb7278b1ecf00c6f9bed1f14fe0",
+          "title": "反思如何使用克劳德的新方法 / A new way to reflect on how you use Claude",
+          "url": "https://news.ycombinator.com/item?id=48845526",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-09T15:14:50.508000Z"
+        },
+        {
+          "id": "e4805c951ab9c11efad27b62a6ba710e8adccd70",
+          "title": "Claude 推出反思功能（Beta） / A new way to reflect on how you use Claude",
+          "url": "https://www.anthropic.com/news/reflect-with-claude",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-09T13:30:33Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8154,
+      "importance": 0.8154,
+      "importance_score": 0.8154,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9711,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-09T13:30:33Z",
+      "latest_at": "2026-07-09T15:14:50.508000Z",
+      "primary_item": {
+        "id": "47efe8f8345975a98791a28e613f14eb6d4b9020",
+        "title": "Claude 推出反思功能（Beta）",
+        "url": "https://www.anthropic.com/news/reflect-with-claude",
+        "source": "Anthropic：Newsroom（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_450af95c2f12",
+      "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
+          "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
+          "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T21:11:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "items": [
+        {
+          "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
+          "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
+          "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T21:11:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8018,
+      "importance": 0.8018,
+      "importance_score": 0.8018,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7655,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-08T21:11:56Z",
+      "latest_at": "2026-07-08T21:11:56Z",
+      "primary_item": {
+        "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
+        "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
+        "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
+        "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
       }
     },
@@ -201,15 +324,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8158,
-      "importance": 0.8158,
-      "importance_score": 0.8158,
+      "score": 0.8087,
+      "importance": 0.8087,
+      "importance_score": 0.8087,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7991,
+        "recency": 0.7594,
         "story_heat": 0.0
       },
       "category": "official",
@@ -226,187 +349,6 @@
         "url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_450af95c2f12",
-      "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
-      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
-          "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
-          "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T21:11:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "items": [
-        {
-          "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
-          "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
-          "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T21:11:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.809,
-      "importance": 0.809,
-      "importance_score": 0.809,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8055,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T21:11:56Z",
-      "latest_at": "2026-07-08T21:11:56Z",
-      "primary_item": {
-        "id": "32c25b9f66a1668de61662188c040d0bad2a73c6",
-        "title": "使用 GitHub Agentic Workflows 自动化跨存储库文档 / Automating cross-repo documentation with GitHub Agentic Workflows",
-        "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_9f661bf376d1",
-      "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
-      "url": "https://mistral.ai/news/robostral-navigate",
-      "primary_url": "https://mistral.ai/news/robostral-navigate",
-      "source": "Mistral AI：News（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9603ada35633ee3a2b044bddffe571e3776fc612",
-          "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T14:33:24.981000Z"
-        },
-        {
-          "id": "600bcfb19dba24bbcf97cee88e6c5cae0fb872bd",
-          "title": "Mistral 的 Robostral Navigate：最先进的机器人导航模型 / Mistral's Robostral Navigate: a state of the art robotics navigation model",
-          "url": "https://news.ycombinator.com/item?id=48832212",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-08T15:52:04.196000Z"
-        },
-        {
-          "id": "b59b36237b0b9464cc075c4579d965327560ebe6",
-          "title": "Mistral 的 Robostral Navigate：一种最先进的机器人导航模型",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "mistral.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-08T15:41:26.903000Z"
-        },
-        {
-          "id": "37adbd3d50be01c2eaf5208bbbb013629c079ffa",
-          "title": "Robostral Navigate：Mistral AI 首个具身导航模型 / Mistral's Robostral Navigate: a state of the art robotics navigation model",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-08T14:09:17Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Mistral AI：News（网页）",
-        "hackernews",
-        "mistral.ai"
-      ],
-      "items": [
-        {
-          "id": "9603ada35633ee3a2b044bddffe571e3776fc612",
-          "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "Mistral AI：News（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T14:33:24.981000Z"
-        },
-        {
-          "id": "600bcfb19dba24bbcf97cee88e6c5cae0fb872bd",
-          "title": "Mistral 的 Robostral Navigate：最先进的机器人导航模型 / Mistral's Robostral Navigate: a state of the art robotics navigation model",
-          "url": "https://news.ycombinator.com/item?id=48832212",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-08T15:52:04.196000Z"
-        },
-        {
-          "id": "b59b36237b0b9464cc075c4579d965327560ebe6",
-          "title": "Mistral 的 Robostral Navigate：一种最先进的机器人导航模型",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "mistral.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-08T15:41:26.903000Z"
-        },
-        {
-          "id": "37adbd3d50be01c2eaf5208bbbb013629c079ffa",
-          "title": "Robostral Navigate：Mistral AI 首个具身导航模型 / Mistral's Robostral Navigate: a state of the art robotics navigation model",
-          "url": "https://mistral.ai/news/robostral-navigate",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-08T14:09:17Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.7883,
-      "importance": 0.7883,
-      "importance_score": 0.7883,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7318,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T14:09:17Z",
-      "latest_at": "2026-07-08T15:52:04.196000Z",
-      "primary_item": {
-        "id": "9603ada35633ee3a2b044bddffe571e3776fc612",
-        "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
-        "url": "https://mistral.ai/news/robostral-navigate",
-        "source": "Mistral AI：News（网页）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -463,15 +405,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
+      "score": 0.7749,
+      "importance": 0.7749,
+      "importance_score": 0.7749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9488,
+        "recency": 0.9017,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -544,15 +486,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7824,
-      "importance": 0.7824,
-      "importance_score": 0.7824,
+      "score": 0.7741,
+      "importance": 0.7741,
+      "importance_score": 0.7741,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9265,
+        "recency": 0.8805,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -572,49 +514,49 @@
       }
     },
     {
-      "story_id": "story_2f563a485d38",
-      "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
-      "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-      "primary_url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-      "source": "GitHub Changelog",
+      "story_id": "story_c2a416d6e7fa",
+      "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+      "source": "GitHub AI & ML",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
-          "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
-          "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-          "source": "GitHub Changelog",
+          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+          "source": "GitHub AI & ML",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T18:24:55Z"
+          "published_at": "2026-07-08T16:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "GitHub AI & ML"
       ],
       "items": [
         {
-          "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
-          "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
-          "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-          "source": "GitHub Changelog",
+          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+          "source": "GitHub AI & ML",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-08T18:24:55Z"
+          "published_at": "2026-07-08T16:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8113,
-      "importance": 0.8113,
-      "importance_score": 0.8113,
+      "score": 0.7998,
+      "importance": 0.7998,
+      "importance_score": 0.7998,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7737,
+        "recency": 0.7101,
         "story_heat": 0.0
       },
       "category": "official",
@@ -623,13 +565,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T18:24:55Z",
-      "latest_at": "2026-07-08T18:24:55Z",
+      "earliest_at": "2026-07-08T16:00:00Z",
+      "latest_at": "2026-07-08T16:00:00Z",
       "primary_item": {
-        "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
-        "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
-        "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-        "source": "GitHub Changelog",
+        "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
+        "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
+        "source": "GitHub AI & ML",
         "source_name": "Official AI Updates"
       }
     },
@@ -687,15 +629,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.778,
-      "importance": 0.778,
-      "importance_score": 0.778,
+      "score": 0.7695,
+      "importance": 0.7695,
+      "importance_score": 0.7695,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9523,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -715,49 +657,110 @@
       }
     },
     {
-      "story_id": "story_c2a416d6e7fa",
-      "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
+      "story_id": "story_a32a34d2c909",
+      "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+      "url": "https://x.com/OpenBMB/status/2075218678027850154",
+      "primary_url": "https://x.com/OpenBMB/status/2075218678027850154",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
-          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T16:00:00Z"
+          "id": "fe9ee38957cf741af001de5061747f5f14343f7e",
+          "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+          "url": "https://x.com/OpenBMB/status/2075218678027850154",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T14:01:03Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub AI & ML"
+        "X：面壁智能 OpenBMB (@OpenBMB)"
       ],
       "items": [
         {
-          "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
-          "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T16:00:00Z"
+          "id": "fe9ee38957cf741af001de5061747f5f14343f7e",
+          "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+          "url": "https://x.com/OpenBMB/status/2075218678027850154",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T14:01:03Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8065,
-      "importance": 0.8065,
-      "importance_score": 0.8065,
+      "score": 0.7603,
+      "importance": 0.7603,
+      "importance_score": 0.7603,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9759,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-09T14:01:03Z",
+      "latest_at": "2026-07-09T14:01:03Z",
+      "primary_item": {
+        "id": "fe9ee38957cf741af001de5061747f5f14343f7e",
+        "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+        "url": "https://x.com/OpenBMB/status/2075218678027850154",
+        "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2f563a485d38",
+      "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
+      "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+      "primary_url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
+          "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
+          "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T18:24:55Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
+          "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
+          "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-08T18:24:55Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8044,
+      "importance": 0.8044,
+      "importance_score": 0.8044,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7472,
+        "recency": 0.7353,
         "story_heat": 0.0
       },
       "category": "official",
@@ -766,76 +769,74 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-08T16:00:00Z",
-      "latest_at": "2026-07-08T16:00:00Z",
+      "earliest_at": "2026-07-08T18:24:55Z",
+      "latest_at": "2026-07-08T18:24:55Z",
       "primary_item": {
-        "id": "ac55f22041029dcf20ceb60fd8acc953ff799fcb",
-        "title": "GitHub Copilot 如何为 GitHub Pages 启用零 DNS 配置 / How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-        "source": "GitHub AI & ML",
+        "id": "2ec70553aca65f7b2e45acb2b77522e61919b5ab",
+        "title": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布 / GitHub Copilot in Visual Studio Code, June 2026 releases",
+        "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_41b85c9cdb7a",
-      "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "primary_url": "https://openai.com/index/government-national-security-partnerships",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_42476497d8e5",
+      "title": "Meta 发布 Muse Spark 1.1 模型",
+      "url": "https://x.com/AIatMeta/status/2075218647359111460",
+      "primary_url": "https://x.com/AIatMeta/status/2075218647359111460",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-          "url": "https://openai.com/index/government-national-security-partnerships",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T13:30:00Z"
+          "id": "0ae509b1c96ff1362ebb33d6918de5c63b488f1b",
+          "title": "Meta 发布 Muse Spark 1.1 模型",
+          "url": "https://x.com/AIatMeta/status/2075218647359111460",
+          "source": "X：AI at Meta (@AIatMeta)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T14:00:55Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "X：AI at Meta (@AIatMeta)"
       ],
       "items": [
         {
-          "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-          "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-          "url": "https://openai.com/index/government-national-security-partnerships",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T13:30:00Z"
+          "id": "0ae509b1c96ff1362ebb33d6918de5c63b488f1b",
+          "title": "Meta 发布 Muse Spark 1.1 模型",
+          "url": "https://x.com/AIatMeta/status/2075218647359111460",
+          "source": "X：AI at Meta (@AIatMeta)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T14:00:55Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8017,
-      "importance": 0.8017,
-      "importance_score": 0.8017,
-      "importance_label": "官方更新",
+      "score": 0.7423,
+      "importance": 0.7423,
+      "importance_score": 0.7423,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7207,
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9759,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-08T13:30:00Z",
-      "latest_at": "2026-07-08T13:30:00Z",
+      "earliest_at": "2026-07-09T14:00:55Z",
+      "latest_at": "2026-07-09T14:00:55Z",
       "primary_item": {
-        "id": "555bc3285c16faa16a3d0b7f1aaae0db801c09bc",
-        "title": "我们与政府和国家安全伙伴关系的方法 / Our approach to government and national security partnerships",
-        "url": "https://openai.com/index/government-national-security-partnerships",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "0ae509b1c96ff1362ebb33d6918de5c63b488f1b",
+        "title": "Meta 发布 Muse Spark 1.1 模型",
+        "url": "https://x.com/AIatMeta/status/2075218647359111460",
+        "source": "X：AI at Meta (@AIatMeta)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -892,15 +893,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7799,
-      "importance": 0.7799,
-      "importance_score": 0.7799,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9293,
+        "recency": 0.8831,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -916,6 +917,187 @@
         "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
         "url": "https://www.ithome.com/0/974/517.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2196b908122c",
+      "title": "ChatGPT Voice：口述文章的新体验",
+      "url": "https://x.com/jxnlco/status/2074905289237942512",
+      "primary_url": "https://x.com/jxnlco/status/2074905289237942512",
+      "source": "X：Jason Liu (@jxnlco)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "879e68ddb908bd8891975783c493222176970b37",
+          "title": "ChatGPT Voice：口述文章的新体验",
+          "url": "https://x.com/jxnlco/status/2074905289237942512",
+          "source": "X：Jason Liu (@jxnlco)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T17:15:45Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Jason Liu (@jxnlco)"
+      ],
+      "items": [
+        {
+          "id": "879e68ddb908bd8891975783c493222176970b37",
+          "title": "ChatGPT Voice：口述文章的新体验",
+          "url": "https://x.com/jxnlco/status/2074905289237942512",
+          "source": "X：Jason Liu (@jxnlco)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T17:15:45Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7298,
+      "importance": 0.7298,
+      "importance_score": 0.7298,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7232,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-08T17:15:45Z",
+      "latest_at": "2026-07-08T17:15:45Z",
+      "primary_item": {
+        "id": "879e68ddb908bd8891975783c493222176970b37",
+        "title": "ChatGPT Voice：口述文章的新体验",
+        "url": "https://x.com/jxnlco/status/2074905289237942512",
+        "source": "X：Jason Liu (@jxnlco)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0fb7f6c1e25b",
+      "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
+      "url": "https://www.aibase.com/news/29502",
+      "primary_url": "https://www.aibase.com/news/29502",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
+          "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
+          "url": "https://www.aibase.com/news/29502",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-09T12:10:45.802148Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
+          "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
+          "url": "https://www.aibase.com/news/29502",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-09T12:10:45.802148Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7587,
+      "importance": 0.7587,
+      "importance_score": 0.7587,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9504,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-09T12:10:45.802148Z",
+      "latest_at": "2026-07-09T12:10:45.802148Z",
+      "primary_item": {
+        "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
+        "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
+        "url": "https://www.aibase.com/news/29502",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_dec72a4f204c",
+      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
+          "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+          "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T19:56:37Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Ars Technica：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
+          "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+          "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-08T19:56:37Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7229,
+      "importance": 0.7229,
+      "importance_score": 0.7229,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7517,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-08T19:56:37Z",
+      "latest_at": "2026-07-08T19:56:37Z",
+      "primary_item": {
+        "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
+        "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+        "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+        "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -954,15 +1136,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8096,
-      "importance": 0.8096,
-      "importance_score": 0.8096,
+      "score": 0.8024,
+      "importance": 0.8024,
+      "importance_score": 0.8024,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8091,
+        "recency": 0.7689,
         "story_heat": 0.0
       },
       "category": "official",
@@ -982,49 +1164,49 @@
       }
     },
     {
-      "story_id": "story_0fb7f6c1e25b",
-      "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
-      "url": "https://www.aibase.com/news/29502",
-      "primary_url": "https://www.aibase.com/news/29502",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_d296c213b987",
+      "title": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+      "url": "https://www.ithome.com/0/974/744.htm",
+      "primary_url": "https://www.ithome.com/0/974/744.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
-          "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
-          "url": "https://www.aibase.com/news/29502",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-09T12:10:45.802148Z"
+          "id": "ecead2417a84261a5320a2127de452e7a1df9490",
+          "title": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+          "url": "https://www.ithome.com/0/974/744.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T13:01:09Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
-          "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
-          "url": "https://www.aibase.com/news/29502",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-09T12:10:45.802148Z"
+          "id": "ecead2417a84261a5320a2127de452e7a1df9490",
+          "title": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+          "url": "https://www.ithome.com/0/974/744.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-09T13:01:09Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7578,
+      "importance": 0.7578,
+      "importance_score": 0.7578,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.962,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1032,316 +1214,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-09T12:10:45.802148Z",
-      "latest_at": "2026-07-09T12:10:45.802148Z",
+      "earliest_at": "2026-07-09T13:01:09Z",
+      "latest_at": "2026-07-09T13:01:09Z",
       "primary_item": {
-        "id": "535f065ae2ca72dd2690f365760bed3e4c40240c",
-        "title": "OpenAI炮轰AI评测\"标杆\"： 731 道题近三成有缺陷， 8 个月通过率从23%飙到80%已失灵",
-        "url": "https://www.aibase.com/news/29502",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2196b908122c",
-      "title": "ChatGPT Voice：口述文章的新体验",
-      "url": "https://x.com/jxnlco/status/2074905289237942512",
-      "primary_url": "https://x.com/jxnlco/status/2074905289237942512",
-      "source": "X：Jason Liu (@jxnlco)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "879e68ddb908bd8891975783c493222176970b37",
-          "title": "ChatGPT Voice：口述文章的新体验",
-          "url": "https://x.com/jxnlco/status/2074905289237942512",
-          "source": "X：Jason Liu (@jxnlco)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T17:15:45Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Jason Liu (@jxnlco)"
-      ],
-      "items": [
-        {
-          "id": "879e68ddb908bd8891975783c493222176970b37",
-          "title": "ChatGPT Voice：口述文章的新体验",
-          "url": "https://x.com/jxnlco/status/2074905289237942512",
-          "source": "X：Jason Liu (@jxnlco)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T17:15:45Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7366,
-      "importance": 0.7366,
-      "importance_score": 0.7366,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.761,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-08T17:15:45Z",
-      "latest_at": "2026-07-08T17:15:45Z",
-      "primary_item": {
-        "id": "879e68ddb908bd8891975783c493222176970b37",
-        "title": "ChatGPT Voice：口述文章的新体验",
-        "url": "https://x.com/jxnlco/status/2074905289237942512",
-        "source": "X：Jason Liu (@jxnlco)",
+        "id": "ecead2417a84261a5320a2127de452e7a1df9490",
+        "title": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+        "url": "https://www.ithome.com/0/974/744.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dec72a4f204c",
-      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
-      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
-          "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
-          "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T19:56:37Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Ars Technica：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
-          "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
-          "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T19:56:37Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.73,
-      "importance": 0.73,
-      "importance_score": 0.73,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.791,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-08T19:56:37Z",
-      "latest_at": "2026-07-08T19:56:37Z",
-      "primary_item": {
-        "id": "19262ee768e7fcba8f7cd263e34bd3bdc2f187e8",
-        "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
-        "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-        "source": "Ars Technica：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_5d670371f68d",
-      "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
-      "url": "https://x.com/runwayml/status/2074982268175630814",
-      "primary_url": "https://x.com/runwayml/status/2074982268175630814",
-      "source": "X：Runway (@runwayml)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "32865bd97cf74f27440efce695f063620648524a",
-          "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
-          "url": "https://x.com/runwayml/status/2074982268175630814",
-          "source": "X：Runway (@runwayml)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T22:21:38Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Runway (@runwayml)"
-      ],
-      "items": [
-        {
-          "id": "32865bd97cf74f27440efce695f063620648524a",
-          "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
-          "url": "https://x.com/runwayml/status/2074982268175630814",
-          "source": "X：Runway (@runwayml)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T22:21:38Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.726,
-      "importance": 0.726,
-      "importance_score": 0.726,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8191,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-08T22:21:38Z",
-      "latest_at": "2026-07-08T22:21:38Z",
-      "primary_item": {
-        "id": "32865bd97cf74f27440efce695f063620648524a",
-        "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
-        "url": "https://x.com/runwayml/status/2074982268175630814",
-        "source": "X：Runway (@runwayml)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7695175fa495",
-      "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "primary_url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5f1161aae05285ff66deedadf26060d8716b302a",
-          "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-          "url": "https://www.anthropic.com/research/off-switch-dual-use",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T23:27:02.554000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Research（发表成果 · 网页）"
-      ],
-      "items": [
-        {
-          "id": "5f1161aae05285ff66deedadf26060d8716b302a",
-          "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-          "url": "https://www.anthropic.com/research/off-switch-dual-use",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-08T23:27:02.554000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7254,
-      "importance": 0.7254,
-      "importance_score": 0.7254,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8321,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-08T23:27:02.554000Z",
-      "latest_at": "2026-07-08T23:27:02.554000Z",
-      "primary_item": {
-        "id": "5f1161aae05285ff66deedadf26060d8716b302a",
-        "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-        "url": "https://www.anthropic.com/research/off-switch-dual-use",
-        "source": "Anthropic：Research（发表成果 · 网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ce2436329e7b",
-      "title": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出 / Enterprise-managed OpenTelemetry export for VS Code and CLI",
-      "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "primary_url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "dc8d60599ab200e5955dc21c6a580e694060f841",
-          "title": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出 / Enterprise-managed OpenTelemetry export for VS Code and CLI",
-          "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T20:50:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "dc8d60599ab200e5955dc21c6a580e694060f841",
-          "title": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出 / Enterprise-managed OpenTelemetry export for VS Code and CLI",
-          "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-08T20:50:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8082,
-      "importance": 0.8082,
-      "importance_score": 0.8082,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8013,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-08T20:50:07Z",
-      "latest_at": "2026-07-08T20:50:07Z",
-      "primary_item": {
-        "id": "dc8d60599ab200e5955dc21c6a580e694060f841",
-        "title": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出 / Enterprise-managed OpenTelemetry export for VS Code and CLI",
-        "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1379,15 +1259,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7342,
-      "importance": 0.7342,
-      "importance_score": 0.7342,
+      "score": 0.7267,
+      "importance": 0.7267,
+      "importance_score": 0.7267,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.848,
+        "recency": 0.8059,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1402,6 +1282,66 @@
         "url": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_244239f648c4",
+      "title": "AI\"按量计费\"吓退企业高管：近三分之一承认不懂经济账，算力账单成了黑箱",
+      "url": "https://www.aibase.com/news/29500",
+      "primary_url": "https://www.aibase.com/news/29500",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fbd3e3000c5121b8fbe73fff617850d88d44aeae",
+          "title": "AI\"按量计费\"吓退企业高管：近三分之一承认不懂经济账，算力账单成了黑箱",
+          "url": "https://www.aibase.com/news/29500",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-09T08:32:31.047046Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fbd3e3000c5121b8fbe73fff617850d88d44aeae",
+          "title": "AI\"按量计费\"吓退企业高管：近三分之一承认不懂经济账，算力账单成了黑箱",
+          "url": "https://www.aibase.com/news/29500",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-09T08:32:31.047046Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7499,
+      "importance": 0.7499,
+      "importance_score": 0.7499,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9017,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-09T08:32:31.047046Z",
+      "latest_at": "2026-07-09T08:32:31.047046Z",
+      "primary_item": {
+        "id": "fbd3e3000c5121b8fbe73fff617850d88d44aeae",
+        "title": "AI\"按量计费\"吓退企业高管：近三分之一承认不懂经济账，算力账单成了黑箱",
+        "url": "https://www.aibase.com/news/29500",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
