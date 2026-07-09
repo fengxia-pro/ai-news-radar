@@ -60,6 +60,7 @@ from scripts.update_news import (
     redact_public_text,
     GRANT_POLICY_SOURCES,
     RABBIT_PROFESSOR_WECHAT_SITE_ID,
+    SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES,
     SLOW_PROFESSOR_WECHAT_SEED_ARTICLES,
     SLOW_PROFESSOR_WECHAT_SITE_ID,
     source_tier_for_site,
@@ -665,6 +666,37 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertNotIn("563203", serialized)
         self.assertNotIn("慢生产力", serialized)
         self.assertNotIn("固定入口", serialized)
+
+    def test_slow_professor_user_confirmed_recent_wechat_links_are_listed(self):
+        now = datetime(2026, 7, 9, 8, 0, tzinfo=timezone.utc)
+        expected_urls = {
+            "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
+            "https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g",
+            "https://mp.weixin.qq.com/s/OLsdBnQ_BwGkBUFeRO-Cpg",
+            "https://mp.weixin.qq.com/s/JUK76dFQdVQ3BtjZBi4_wQ",
+        }
+        manual_urls = {item["url"] for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES}
+
+        payload = build_slow_professor_payload(
+            [],
+            [{
+                "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "微信公众号：慢教授的科研江湖",
+                "ok": True,
+                "item_count": 0,
+            }],
+            generated_at="2026-07-09T08:00:00Z",
+            now=now,
+        )
+        payload_items = {item["url"]: item for item in payload["items"]}
+
+        self.assertTrue(expected_urls.issubset(manual_urls))
+        self.assertTrue(expected_urls.issubset(payload_items))
+        for url in expected_urls:
+            self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
+            self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
+        self.assertIn("标题待核验", payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["title"])
+        self.assertIn("微信环境验证页拦截", payload_items["https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g"]["summary"])
 
     def test_slow_professor_article_meta_extracts_description(self):
         html = """

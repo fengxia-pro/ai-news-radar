@@ -166,6 +166,36 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-1）",
+        "url": "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
+        "published_at": "2026-07-09T12:00:00+08:00",
+        "summary": (
+            "这是用户在 2026-07-09 确认需要更新到网站的慢教授科研江湖微信原文入口。"
+            "公开抓取被微信环境验证页拦截，当前无法核验标题和正文；先作为用户确认近一周文章展示，"
+            "后续获得标题、截图或公众号后台信息后再替换为正式标题摘要。"
+        ),
+    },
+    {
+        "title": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-2）",
+        "url": "https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g",
+        "published_at": "2026-07-09T11:59:00+08:00",
+        "summary": (
+            "这是用户在 2026-07-09 确认需要更新到网站的慢教授科研江湖微信原文入口。"
+            "公开抓取被微信环境验证页拦截，当前无法核验标题和正文；先作为用户确认近一周文章展示，"
+            "后续获得标题、截图或公众号后台信息后再替换为正式标题摘要。"
+        ),
+    },
+    {
+        "title": "已购用户请查收：顶刊 SCI 写作手册第六版，正式以技能形式更新",
+        "url": "https://mp.weixin.qq.com/s/OLsdBnQ_BwGkBUFeRO-Cpg",
+        "published_at": "2026-07-07T05:30:00+08:00",
+        "summary": (
+            "这篇文章说明顶刊 SCI 写作手册第六版已升级为可被 Claude Code、Codex "
+            "以及其他智能体调用的技能系统，把科学问题、创新点、期刊画像、图布局、"
+            "参考文献核证、投稿自审和返修转投串成完整论文工作流。"
+        ),
+    },
+    {
         "title": "演示一次就变成 Skill，我当场就羡慕了-一个好用的插件",
         "url": "https://mp.weixin.qq.com/s/JUK76dFQdVQ3BtjZBi4_wQ",
         "published_at": "2026-07-06T11:01:02+08:00",
