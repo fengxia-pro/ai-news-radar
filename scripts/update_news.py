@@ -166,29 +166,37 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
-        "title": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-1）",
+        "title": "《写作是门手艺》核心逻辑梳理",
         "url": "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
         "published_at": "2026-07-09T12:00:00+08:00",
+        "article_theme": (
+            "科研写作如何从作文思维转向知识生产：用《写作是门手艺》梳理论文写作的底层逻辑。"
+        ),
         "summary": (
-            "这是用户在 2026-07-09 确认需要更新到网站的慢教授科研江湖微信原文入口。"
-            "公开抓取被微信环境验证页拦截，当前无法核验标题和正文；先作为用户确认近一周文章展示，"
-            "后续获得标题、截图或公众号后台信息后再替换为正式标题摘要。"
+            "很多研究生写论文卡住，不是不会写字，而是还停在作文思维。"
+            "本文用《写作是门手艺》十篇地图，拆解科研写作如何从表达自我走向生产知识。"
         ),
     },
     {
-        "title": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-2）",
+        "title": "认识自己这件事，也可以让 Codex/Claude Code 帮我们照一照",
         "url": "https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g",
         "published_at": "2026-07-09T11:59:00+08:00",
+        "article_theme": (
+            "把 AI 当作工作流镜子：用 Codex/Claude Code 梳理自己的科研任务、模板、Skill 与记忆边界。"
+        ),
         "summary": (
-            "这是用户在 2026-07-09 确认需要更新到网站的慢教授科研江湖微信原文入口。"
-            "公开抓取被微信环境验证页拦截，当前无法核验标题和正文；先作为用户确认近一周文章展示，"
-            "后续获得标题、截图或公众号后台信息后再替换为正式标题摘要。"
+            "这篇文章提醒科研人，Codex/Claude Code 不只是写稿工具，也能成为工作流镜子，"
+            "帮助我们梳理常做任务、模板、清单、Skill 与记忆边界，在使用 AI 中更清楚地认识自己，"
+            "沉淀属于自己的科研方法。"
         ),
     },
     {
         "title": "已购用户请查收：顶刊 SCI 写作手册第六版，正式以技能形式更新",
         "url": "https://mp.weixin.qq.com/s/OLsdBnQ_BwGkBUFeRO-Cpg",
         "published_at": "2026-07-07T05:30:00+08:00",
+        "article_theme": (
+            "顶刊 SCI 写作手册第六版升级为可调用 Skill：把论文写作流程沉淀成智能体工作流。"
+        ),
         "summary": (
             "这篇文章说明顶刊 SCI 写作手册第六版已升级为可被 Claude Code、Codex "
             "以及其他智能体调用的技能系统，把科学问题、创新点、期刊画像、图布局、"
@@ -199,6 +207,9 @@ SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
         "title": "演示一次就变成 Skill，我当场就羡慕了-一个好用的插件",
         "url": "https://mp.weixin.qq.com/s/JUK76dFQdVQ3BtjZBi4_wQ",
         "published_at": "2026-07-06T11:01:02+08:00",
+        "article_theme": (
+            "Record & Replay 把重复演示变成可复用 Skill：给科研报销、结题、归档等流程做自动化模板。"
+        ),
         "summary": (
             "这篇文章从朋友用 Codex 报劳务费的现场演示说起，解释 Record & Replay "
             "如何把重复流程沉淀成可复用 Skill。对科研人的报销、结题、归档等重复工作很有参考价值。"
@@ -3583,6 +3594,7 @@ def slow_professor_manual_recent_items(now: datetime) -> list[RawItem]:
                 published_at=published,
                 meta={
                     "summary": seed.get("summary") or "",
+                    "article_theme": seed.get("article_theme") or "",
                     "source_mode": "manual_wechat_link",
                     "date_status": "user_confirmed_recent",
                     "date_label": "用户确认的近一周文章",
@@ -3670,6 +3682,7 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
     meta = raw.meta if isinstance(raw.meta, dict) else {}
     published = raw.published_at
     summary = clean_feed_summary_text(meta.get("summary"), max_chars=900)
+    article_theme = clean_feed_summary_text(meta.get("article_theme"), max_chars=240)
     date_known = published is not None
     recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
     legacy_three_day_start = now - timedelta(hours=72)
@@ -3685,6 +3698,7 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
         "first_seen_at": iso(now),
         "last_seen_at": iso(now),
         "summary": summary or "暂无摘要。建议打开微信原文查看文章导语和正文。",
+        "article_theme": article_theme,
         "ai_label": "research_writing",
         "ai_score": 0.9,
         "source_tier": "slow_professor",
@@ -3709,6 +3723,28 @@ def load_json_payload(path: Path) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {}
 
 
+def dedupe_slow_professor_records_by_url(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    out_without_url: list[dict[str, Any]] = []
+    by_url: dict[str, dict[str, Any]] = {}
+
+    def quality(record: dict[str, Any]) -> tuple[int, int, float]:
+        title = str(record.get("title") or "")
+        has_theme = 1 if str(record.get("article_theme") or "").strip() else 0
+        has_real_title = 0 if "标题待核验" in title else 1
+        seen = parse_iso(record.get("first_seen_at") or record.get("last_seen_at") or "") or datetime.min.replace(tzinfo=UTC)
+        return has_theme, has_real_title, seen.timestamp()
+
+    for record in records:
+        url = normalize_url(str(record.get("url") or ""))
+        if not url:
+            out_without_url.append(record)
+            continue
+        existing = by_url.get(url)
+        if existing is None or quality(record) > quality(existing):
+            by_url[url] = record
+    return [*out_without_url, *by_url.values()]
+
+
 def build_slow_professor_payload(
     items: list[RawItem],
     statuses: list[dict[str, Any]],
@@ -3725,6 +3761,7 @@ def build_slow_professor_payload(
         if item.published_at and item.published_at >= recent_start
     ]
     records = dedupe_items_by_title_url(records, random_pick=False)
+    records = dedupe_slow_professor_records_by_url(records)
     records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
     sources = [
@@ -3768,6 +3805,7 @@ def build_slow_professor_payload(
         ]
         if cached_items:
             records = dedupe_items_by_title_url([*records, *cached_items], random_pick=False)
+            records = dedupe_slow_professor_records_by_url(records)
             records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
     confirmed_entries = slow_professor_confirmed_entries(now)

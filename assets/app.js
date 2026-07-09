@@ -2891,6 +2891,11 @@ function feedSummaryText(item) {
   return `${labelText(item)} · AI 相关度 ${scorePercent(item) || "待评估"}。`;
 }
 
+function slowProfessorArticleThemeText(item) {
+  if (!itemSections(item).has("slow_professor")) return "";
+  return cleanBriefText(item.article_theme || item.article_topic || "", 180);
+}
+
 function renderItemNode(item, context = {}) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
   const metaRow = node.querySelector(".meta-row");
@@ -2949,6 +2954,18 @@ function renderItemNode(item, context = {}) {
     titleEl.textContent = item.title || zh || en;
   }
   titleEl.href = item.url;
+  const articleTheme = slowProfessorArticleThemeText(item);
+  if (articleTheme) {
+    const themeEl = document.createElement("p");
+    themeEl.className = "article-theme";
+    const label = document.createElement("span");
+    label.className = "article-theme-label";
+    label.textContent = "文章主题";
+    const text = document.createElement("span");
+    text.textContent = articleTheme;
+    themeEl.append(label, text);
+    titleEl.insertAdjacentElement("afterend", themeEl);
+  }
   const summaryEl = node.querySelector(".news-summary");
   if (summaryEl) summaryEl.textContent = feedSummaryText(item);
   return node;

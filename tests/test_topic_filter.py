@@ -695,8 +695,46 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         for url in expected_urls:
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
-        self.assertIn("标题待核验", payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["title"])
-        self.assertIn("微信环境验证页拦截", payload_items["https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g"]["summary"])
+            self.assertTrue(payload_items[url].get("title"))
+        self.assertEqual(payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["title"], "《写作是门手艺》核心逻辑梳理")
+        self.assertIn("写作是门手艺", payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["article_theme"])
+        self.assertIn("Codex/Claude Code", payload_items["https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g"]["title"])
+        self.assertIn("工作流镜子", payload_items["https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g"]["article_theme"])
+
+        stale_payload = {
+            "items": [{
+                **payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"],
+                "title": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-1）",
+                "title_zh": "慢教授科研江湖新文章（用户确认，标题待核验 2026-07-09-1）",
+                "article_theme": "",
+            }]
+        }
+        refreshed = build_slow_professor_payload(
+            [],
+            [{
+                "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "微信公众号：慢教授的科研江湖",
+                "ok": True,
+                "item_count": 0,
+            }],
+            generated_at="2026-07-09T08:30:00Z",
+            now=now,
+            existing_payload=stale_payload,
+        )
+        matching = [
+            item
+            for item in refreshed["items"]
+            if item["url"] == "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"
+        ]
+        self.assertEqual(len(matching), 1)
+        self.assertEqual(matching[0]["title"], "《写作是门手艺》核心逻辑梳理")
+
+    def test_slow_professor_frontend_renders_article_theme(self):
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+
+        self.assertIn("function slowProfessorArticleThemeText", app_js)
+        self.assertIn("article-theme", app_js)
+        self.assertIn("文章主题", app_js)
 
     def test_slow_professor_article_meta_extracts_description(self):
         html = """
