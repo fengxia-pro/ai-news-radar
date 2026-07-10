@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T03:50:44.747610Z",
+  "generated_at": "2026-07-10T07:41:42.669247Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8691,
-      "importance": 0.8691,
-      "importance_score": 0.8691,
+      "score": 0.8616,
+      "importance": 0.8616,
+      "importance_score": 0.8616,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7728,
+        "recency": 0.731,
         "story_heat": 0.5
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8412,
-      "importance": 0.8412,
-      "importance_score": 0.8412,
+      "score": 0.8329,
+      "importance": 0.8329,
+      "importance_score": 0.8329,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8512,
+        "recency": 0.8052,
         "story_heat": 0.0
       },
       "category": "official",
@@ -258,15 +258,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8275,
-      "importance": 0.8275,
-      "importance_score": 0.8275,
+      "score": 0.8186,
+      "importance": 0.8186,
+      "importance_score": 0.8186,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9161,
+        "recency": 0.8665,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -339,15 +339,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8441,
-      "importance": 0.8441,
-      "importance_score": 0.8441,
+      "score": 0.8366,
+      "importance": 0.8366,
+      "importance_score": 0.8366,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7728,
+        "recency": 0.731,
         "story_heat": 0.25
       },
       "category": "official",
@@ -365,6 +365,87 @@
         "url": "https://openai.com/index/gpt-5-6",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_c3ab093dbe41",
+      "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "url": "https://www.ithome.com/0/975/078.htm",
+      "primary_url": "https://www.ithome.com/0/975/078.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "bf79a15b6298ca280c41076e65f02137385eea5c",
+          "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+          "url": "https://www.ithome.com/0/975/078.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:26:10Z"
+        },
+        {
+          "id": "a27cd8c18b7359149d81583486c91663f5b1e80a",
+          "title": "扎克伯格首度回应 Meta“算力过剩”：没人会嫌算力太多，但租出去更赚钱",
+          "url": "https://www.ithome.com/0/975/078.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-10T07:26:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "bf79a15b6298ca280c41076e65f02137385eea5c",
+          "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+          "url": "https://www.ithome.com/0/975/078.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:26:10Z"
+        },
+        {
+          "id": "a27cd8c18b7359149d81583486c91663f5b1e80a",
+          "title": "扎克伯格首度回应 Meta“算力过剩”：没人会嫌算力太多，但租出去更赚钱",
+          "url": "https://www.ithome.com/0/975/078.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-10T07:26:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8009,
+      "importance": 0.8009,
+      "importance_score": 0.8009,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9963,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-10T07:26:10Z",
+      "latest_at": "2026-07-10T07:26:10Z",
+      "primary_item": {
+        "id": "bf79a15b6298ca280c41076e65f02137385eea5c",
+        "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+        "url": "https://www.ithome.com/0/975/078.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -421,15 +502,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7829,
+      "importance": 0.7829,
+      "importance_score": 0.7829,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9459,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -483,15 +564,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8203,
-      "importance": 0.8203,
-      "importance_score": 0.8203,
+      "score": 0.8123,
+      "importance": 0.8123,
+      "importance_score": 0.8123,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8238,
+        "recency": 0.7793,
         "story_heat": 0.0
       },
       "category": "official",
@@ -583,15 +664,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7873,
-      "importance": 0.7873,
-      "importance_score": 0.7873,
+      "score": 0.7794,
+      "importance": 0.7794,
+      "importance_score": 0.7794,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8149,
+        "recency": 0.7709,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -607,6 +688,67 @@
         "title": "Claude 推出反思功能（Beta）",
         "url": "https://www.anthropic.com/news/reflect-with-claude",
         "source": "Anthropic：Newsroom（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_499734c731df",
+      "title": "马斯克承认Anthropic是当前AI领导者",
+      "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "992fca95b26fd842bf8cd8a87c02f03574fbcd3b",
+          "title": "马斯克承认Anthropic是当前AI领导者",
+          "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:20:46Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "992fca95b26fd842bf8cd8a87c02f03574fbcd3b",
+          "title": "马斯克承认Anthropic是当前AI领导者",
+          "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:20:46Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7757,
+      "importance": 0.7757,
+      "importance_score": 0.7757,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.995,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-10T07:20:46Z",
+      "latest_at": "2026-07-10T07:20:46Z",
+      "primary_item": {
+        "id": "992fca95b26fd842bf8cd8a87c02f03574fbcd3b",
+        "title": "马斯克承认Anthropic是当前AI领导者",
+        "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -664,15 +806,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7809,
-      "importance": 0.7809,
-      "importance_score": 0.7809,
+      "score": 0.772,
+      "importance": 0.772,
+      "importance_score": 0.772,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9185,
+        "recency": 0.8689,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -726,15 +868,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8333,
-      "importance": 0.8333,
-      "importance_score": 0.8333,
+      "score": 0.8254,
+      "importance": 0.8254,
+      "importance_score": 0.8254,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.807,
+        "recency": 0.7634,
         "story_heat": 0.0
       },
       "category": "official",
@@ -788,15 +930,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7637,
-      "importance": 0.7637,
-      "importance_score": 0.7637,
+      "score": 0.7548,
+      "importance": 0.7548,
+      "importance_score": 0.7548,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9117,
+        "recency": 0.8624,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -811,6 +953,67 @@
         "title": "GPT-5.6家族推出，Sol获53.6分",
         "url": "https://x.com/testingcatalog/status/2075330856499990830",
         "source": "X：Testing Catalog (@testingcatalog)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_46606c79e2c4",
+      "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "url": "https://x.com/elonmusk/status/2075478792273842370",
+      "primary_url": "https://x.com/elonmusk/status/2075478792273842370",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f765b7f5dd2f5564d45c96336c273153549df809",
+          "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+          "url": "https://x.com/elonmusk/status/2075478792273842370",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:14:39Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "items": [
+        {
+          "id": "f765b7f5dd2f5564d45c96336c273153549df809",
+          "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+          "url": "https://x.com/elonmusk/status/2075478792273842370",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-10T07:14:39Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7544,
+      "importance": 0.7544,
+      "importance_score": 0.7544,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9935,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-10T07:14:39Z",
+      "latest_at": "2026-07-10T07:14:39Z",
+      "primary_item": {
+        "id": "f765b7f5dd2f5564d45c96336c273153549df809",
+        "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+        "url": "https://x.com/elonmusk/status/2075478792273842370",
+        "source": "X：Elon Musk (@elonmusk, xAI)",
         "source_name": "AI HOT"
       }
     },
@@ -849,21 +1052,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7577,
-      "importance": 0.7577,
-      "importance_score": 0.7577,
+      "score": 0.7493,
+      "importance": 0.7493,
+      "importance_score": 0.7493,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8617,
+        "recency": 0.8151,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-09T17:32:10Z",
       "latest_at": "2026-07-09T17:32:10Z",
@@ -929,22 +1131,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7573,
-      "importance": 0.7573,
-      "importance_score": 0.7573,
+      "score": 0.7478,
+      "importance": 0.7478,
+      "importance_score": 0.7478,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9703,
+        "recency": 0.9178,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-10T01:45:26Z",
       "latest_at": "2026-07-10T01:45:26Z",
@@ -991,15 +1192,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8155,
-      "importance": 0.8155,
-      "importance_score": 0.8155,
+      "score": 0.8073,
+      "importance": 0.8073,
+      "importance_score": 0.8073,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8416,
+        "recency": 0.7961,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1053,21 +1254,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7527,
-      "importance": 0.7527,
-      "importance_score": 0.7527,
+      "score": 0.7435,
+      "importance": 0.7435,
+      "importance_score": 0.7435,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9506,
+        "recency": 0.8992,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-10T00:20:20.110000Z",
       "latest_at": "2026-07-10T00:20:20.110000Z",
@@ -1133,15 +1333,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7805,
-      "importance": 0.7805,
-      "importance_score": 0.7805,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9164,
+        "recency": 0.8668,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1161,163 +1361,64 @@
       }
     },
     {
-      "story_id": "story_9c73846f1249",
-      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-      "url": "https://www.ithome.com/0/974/508.htm",
-      "primary_url": "https://www.ithome.com/0/974/508.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_b1be13fe5108",
+      "title": "Kimi联合美国运通与农业银行正式发行首张AI原生信用卡",
+      "url": "https://www.aibase.com/news/29526",
+      "primary_url": "https://www.aibase.com/news/29526",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "a2f501cf21cb01f411ad10144d46d76a09ca70e1",
-          "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-          "url": "https://www.ithome.com/0/974/508.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T06:53:40Z"
-        },
-        {
-          "id": "564709296f1eb6f1ac908fd769b43f3b9d1c9815",
-          "title": "无限世界、实时交互，蚂蚁灵波开源 LingBot-World 2.0 世界模型",
-          "url": "https://www.ithome.com/0/974/508.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-09T06:53:40Z"
+          "id": "4a39cb680452f4ea48c05a1d6b973a19efe1cc93",
+          "title": "Kimi联合美国运通与农业银行正式发行首张AI原生信用卡",
+          "url": "https://www.aibase.com/news/29526",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-10T07:41:42.669247Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "a2f501cf21cb01f411ad10144d46d76a09ca70e1",
-          "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-          "url": "https://www.ithome.com/0/974/508.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T06:53:40Z"
-        },
-        {
-          "id": "564709296f1eb6f1ac908fd769b43f3b9d1c9815",
-          "title": "无限世界、实时交互，蚂蚁灵波开源 LingBot-World 2.0 世界模型",
-          "url": "https://www.ithome.com/0/974/508.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-09T06:53:40Z"
+          "id": "4a39cb680452f4ea48c05a1d6b973a19efe1cc93",
+          "title": "Kimi联合美国运通与农业银行正式发行首张AI原生信用卡",
+          "url": "https://www.aibase.com/news/29526",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-10T07:41:42.669247Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7486,
-      "importance": 0.7486,
-      "importance_score": 0.7486,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.73,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7389,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-09T06:53:40Z",
-      "latest_at": "2026-07-09T06:53:40Z",
-      "primary_item": {
-        "id": "a2f501cf21cb01f411ad10144d46d76a09ca70e1",
-        "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-        "url": "https://www.ithome.com/0/974/508.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1c2e0b9ec777",
-      "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
-      "url": "https://cognition.com/blog/swe-1-7",
-      "primary_url": "https://cognition.com/blog/swe-1-7",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "60521aa071bdc891ec43640ed49f03791c17803a",
-          "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
-          "url": "https://cognition.com/blog/swe-1-7",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:46:17.901000Z"
-        },
-        {
-          "id": "29675c47433ebe96c44d819c56cf2e1043cbe5a2",
-          "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-          "url": "https://cognition.com/blog/swe-1-7",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:46:17.901000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "60521aa071bdc891ec43640ed49f03791c17803a",
-          "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
-          "url": "https://cognition.com/blog/swe-1-7",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:46:17.901000Z"
-        },
-        {
-          "id": "29675c47433ebe96c44d819c56cf2e1043cbe5a2",
-          "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-          "url": "https://cognition.com/blog/swe-1-7",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:46:17.901000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7745,
-      "importance": 0.7745,
-      "importance_score": 0.7745,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.916,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-09T21:46:17.901000Z",
-      "latest_at": "2026-07-09T21:46:17.901000Z",
+      "earliest_at": "2026-07-10T07:41:42.669247Z",
+      "latest_at": "2026-07-10T07:41:42.669247Z",
       "primary_item": {
-        "id": "60521aa071bdc891ec43640ed49f03791c17803a",
-        "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
-        "url": "https://cognition.com/blog/swe-1-7",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
+        "id": "4a39cb680452f4ea48c05a1d6b973a19efe1cc93",
+        "title": "Kimi联合美国运通与农业银行正式发行首张AI原生信用卡",
+        "url": "https://www.aibase.com/news/29526",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1374,15 +1475,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7433,
-      "importance": 0.7433,
-      "importance_score": 0.7433,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7595,
+        "recency": 0.7184,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1397,126 +1498,6 @@
         "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
         "url": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
         "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9baa133cc339",
-      "title": "OpenAI 发布最强模型与最佳博文",
-      "url": "https://x.com/sama/status/2075266471316615436",
-      "primary_url": "https://x.com/sama/status/2075266471316615436",
-      "source": "X：Sam Altman (@sama)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "25f0fc9766ee6d9cf5aba2d2f27d81e4b747bcb9",
-          "title": "OpenAI 发布最强模型与最佳博文",
-          "url": "https://x.com/sama/status/2075266471316615436",
-          "source": "X：Sam Altman (@sama)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T17:10:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Sam Altman (@sama)"
-      ],
-      "items": [
-        {
-          "id": "25f0fc9766ee6d9cf5aba2d2f27d81e4b747bcb9",
-          "title": "OpenAI 发布最强模型与最佳博文",
-          "url": "https://x.com/sama/status/2075266471316615436",
-          "source": "X：Sam Altman (@sama)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T17:10:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8573,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-09T17:10:58Z",
-      "latest_at": "2026-07-09T17:10:58Z",
-      "primary_item": {
-        "id": "25f0fc9766ee6d9cf5aba2d2f27d81e4b747bcb9",
-        "title": "OpenAI 发布最强模型与最佳博文",
-        "url": "https://x.com/sama/status/2075266471316615436",
-        "source": "X：Sam Altman (@sama)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_71bfd20a6f64",
-      "title": "ChatGPT Sites将创意变可发布网站",
-      "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-      "primary_url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "99c26dd85bc29e0b1b3731cff1e1ccd3f82f0236",
-          "title": "ChatGPT Sites将创意变可发布网站",
-          "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:27:27Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenAI Developers (@OpenAIDevs)"
-      ],
-      "items": [
-        {
-          "id": "99c26dd85bc29e0b1b3731cff1e1ccd3f82f0236",
-          "title": "ChatGPT Sites将创意变可发布网站",
-          "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-09T21:27:27Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7397,
-      "importance": 0.7397,
-      "importance_score": 0.7397,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9119,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-09T21:27:27Z",
-      "latest_at": "2026-07-09T21:27:27Z",
-      "primary_item": {
-        "id": "99c26dd85bc29e0b1b3731cff1e1ccd3f82f0236",
-        "title": "ChatGPT Sites将创意变可发布网站",
-        "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-        "source": "X：OpenAI Developers (@OpenAIDevs)",
         "source_name": "AI HOT"
       }
     }
