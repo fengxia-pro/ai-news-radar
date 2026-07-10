@@ -22,6 +22,7 @@ from scripts.update_news import (
     fetch_ai_watts_wechat,
     fetch_aihot,
     fetch_ai_hubtoday,
+    fetch_digital_life_khazix_wechat,
     fetch_hacker_news_algolia,
     fetch_opml_rss,
     fetch_socialdata_list_tweets,
@@ -813,6 +814,58 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(source_tier_for_site(AI_WATTS_WECHAT_SITE_ID)["source_tier"], "self_media")
         self.assertEqual(len(creator_items), 1)
         self.assertEqual(creator_items[0]["site_id"], AI_WATTS_WECHAT_SITE_ID)
+        self.assertTrue(creator_items[0]["ai_is_related"])
+
+    def test_digital_life_khazix_latest_article_enters_creator_pool(self):
+        now = datetime(2026, 7, 10, 8, 0, tzinfo=timezone.utc)
+
+        class FakeResponse:
+            text = """
+            <html><head>
+              <meta property="og:title" content="GPT-5.6深夜上线，ChatGPT和Codex正式合并，一个时代结束了。" />
+              <meta property="og:description" content="屠龙少年回来了" />
+            </head><body></body></html>
+            """
+
+            def raise_for_status(self):
+                return None
+
+        class FakeSession:
+            def get(self, *_args, **_kwargs):
+                return FakeResponse()
+
+        raw_items = fetch_digital_life_khazix_wechat(FakeSession(), now)
+        raw = raw_items[0]
+        record = add_source_tier_fields({
+            "id": "digital_life_khazix_latest_article",
+            "site_id": raw.site_id,
+            "site_name": raw.site_name,
+            "source": raw.source,
+            "title": raw.title,
+            "url": raw.url,
+            "published_at": "2026-07-09T22:11:13Z",
+            "first_seen_at": "2026-07-10T00:00:00Z",
+            "last_seen_at": "2026-07-10T00:00:00Z",
+            "summary": raw.meta["summary"],
+            "creator_metrics": raw.meta["creator_metrics"],
+            "ai_label": raw.meta["ai_label"],
+            "ai_score": raw.meta["ai_score"],
+            "ai_relevance_score": raw.meta["ai_relevance_score"],
+            "ai_is_related": raw.meta["ai_is_related"],
+            "source_mode": raw.meta["source_mode"],
+            "date_status": raw.meta["date_status"],
+            "date_label": raw.meta["date_label"],
+        })
+        archive = {record["id"]: record}
+        creator_items = build_creator_hot_items(archive, now, ai_only=True)
+
+        self.assertEqual(raw.site_id, DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID)
+        self.assertEqual(raw.site_name, "数字生命卡兹克")
+        self.assertEqual(raw.title, "GPT-5.6深夜上线，ChatGPT和Codex正式合并，一个时代结束了。")
+        self.assertIn("屠龙少年", raw.meta["summary"])
+        self.assertEqual(source_tier_for_site(DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID)["source_tier"], "self_media")
+        self.assertEqual(len(creator_items), 1)
+        self.assertEqual(creator_items[0]["site_id"], DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID)
         self.assertTrue(creator_items[0]["ai_is_related"])
 
     def test_grant_policy_journal_enrichment_reads_openalex_abstract(self):

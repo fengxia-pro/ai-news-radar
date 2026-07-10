@@ -142,6 +142,12 @@ DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID = "wechat_digital_life_khazix"
 DIGITAL_LIFE_KHAZIX_WECHAT_SOURCE = "公众号：数字生命卡兹克"
 DIGITAL_LIFE_KHAZIX_WECHAT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "GPT-5.6深夜上线，ChatGPT和Codex正式合并，一个时代结束了。",
+        "url": "https://mp.weixin.qq.com/s/EqgGQ2TkKhSv1eCKVLD-Vg",
+        "published_at": "2026-07-10T06:11:13+08:00",
+        "summary": "屠龙少年回来了",
+    },
+    {
         "title": "记一个我被Claude Fable 5震撼的瞬间。",
         "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
         "published_at": "2026-07-03T08:16:00+08:00",
