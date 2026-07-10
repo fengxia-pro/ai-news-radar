@@ -148,6 +148,16 @@ DIGITAL_LIFE_KHAZIX_WECHAT_ARTICLES: tuple[dict[str, str], ...] = (
         "summary": "为智能干杯",
     },
 )
+AI_WATTS_WECHAT_SITE_ID = "wechat_ai_watts"
+AI_WATTS_WECHAT_SOURCE = "公众号：AI沃茨"
+AI_WATTS_WECHAT_ARTICLES: tuple[dict[str, str], ...] = (
+    {
+        "title": "可算找到一个能统一管理所有Agent还不用额外订阅的开源项目了！",
+        "url": "https://mp.weixin.qq.com/s/j0H4o9EFbpqILPFBuZqMdA",
+        "published_at": "2026-07-09T12:03:23+08:00",
+        "summary": "谁说没有原生态的Agent OS的",
+    },
+)
 SLOW_PROFESSOR_WECHAT_ENV_NAMES = (
     "SLOW_PROFESSOR_WECHAT_FEED_URL",
     "WECHAT_SLOW_PROFESSOR_FEED_URL",
@@ -460,6 +470,7 @@ CREATOR_SITE_IDS = frozenset({
     "tikhub_xiaohongshu",
     RABBIT_PROFESSOR_WECHAT_SITE_ID,
     DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
+    AI_WATTS_WECHAT_SITE_ID,
 })
 # --- TikHub search ranking / time-window tuning (edit here, no env var needed) ---
 # Exact recency window for TikHub results, in days. Douyin/Xiaohongshu search
@@ -3678,6 +3689,43 @@ def fetch_digital_life_khazix_wechat(session: requests.Session, now: datetime) -
     return items
 
 
+def fetch_ai_watts_wechat(session: requests.Session, now: datetime) -> list[RawItem]:
+    items: list[RawItem] = []
+    for seed in AI_WATTS_WECHAT_ARTICLES:
+        title = first_non_empty(seed.get("title"), "AI沃茨：近期文章")
+        url = first_non_empty(seed.get("url"))
+        if not url:
+            continue
+        published = parse_date_any(seed.get("published_at"), now)
+        summary = clean_feed_summary_text(seed.get("summary"), max_chars=900)
+        article_meta = fetch_wechat_article_meta(session.get, url)
+        article_title = first_non_empty(article_meta.get("title"), title)
+        article_summary = clean_feed_summary_text(article_meta.get("summary"), max_chars=900) or summary
+        items.append(
+            RawItem(
+                site_id=AI_WATTS_WECHAT_SITE_ID,
+                site_name="AI沃茨",
+                source=AI_WATTS_WECHAT_SOURCE,
+                title=article_title,
+                url=normalize_url(url),
+                published_at=published,
+                meta={
+                    "summary": article_summary,
+                    "creator_metrics": {"likes": 0, "comments": 0, "collects": 0, "shares": 0},
+                    "ai_label": "agent_workflow",
+                    "ai_score": 0.9,
+                    "ai_relevance_score": 0.9,
+                    "ai_is_related": True,
+                    "source_mode": "manual_wechat_link",
+                    "date_status": "user_confirmed_recent",
+                    "date_label": "用户确认的公众号文章",
+                    "search_surface": "wechat_manual",
+                },
+            )
+        )
+    return items
+
+
 def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any]:
     meta = raw.meta if isinstance(raw.meta, dict) else {}
     published = raw.published_at
@@ -4718,6 +4766,7 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         (SLOW_PROFESSOR_WECHAT_SITE_ID, "微信公众号：慢教授的科研江湖", fetch_slow_professor_wechat),
         (RABBIT_PROFESSOR_WECHAT_SITE_ID, "微信公众号：兔教授是我", fetch_rabbit_professor_wechat),
         (DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID, "微信公众号：数字生命卡兹克", fetch_digital_life_khazix_wechat),
+        (AI_WATTS_WECHAT_SITE_ID, "微信公众号：AI沃茨", fetch_ai_watts_wechat),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
         ("aihot", "AI HOT", fetch_aihot),
@@ -5182,6 +5231,7 @@ def event_time(record: dict[str, Any]) -> datetime | None:
         SLOW_PROFESSOR_WECHAT_SITE_ID,
         RABBIT_PROFESSOR_WECHAT_SITE_ID,
         DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
+        AI_WATTS_WECHAT_SITE_ID,
     }:
         return parse_iso(record.get("published_at"))
     return parse_iso(record.get("published_at")) or parse_iso(record.get("first_seen_at"))
@@ -5208,6 +5258,7 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     SLOW_PROFESSOR_WECHAT_SITE_ID: ("slow_professor", "慢教授公众号", 1),
     RABBIT_PROFESSOR_WECHAT_SITE_ID: ("self_media", "自媒体源", 4),
     DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID: ("self_media", "自媒体源", 4),
+    AI_WATTS_WECHAT_SITE_ID: ("self_media", "自媒体源", 4),
     "tikhub_douyin": ("self_media", "自媒体源", 4),
     "tikhub_xiaohongshu": ("self_media", "自媒体源", 4),
     "xapi": ("advanced", "高级源", 4),
@@ -7975,6 +8026,7 @@ def main() -> int:
                     or raw.site_id == SLOW_PROFESSOR_WECHAT_SITE_ID
                     or raw.site_id == RABBIT_PROFESSOR_WECHAT_SITE_ID
                     or raw.site_id == DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID
+                    or raw.site_id == AI_WATTS_WECHAT_SITE_ID
                     or not existing.get("published_at")
                 ):
                     existing["published_at"] = iso(raw.published_at)
