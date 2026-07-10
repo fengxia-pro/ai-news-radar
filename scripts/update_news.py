@@ -182,6 +182,20 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "读者问，第六版顶刊SCI究竟做了哪些升级呢？",
+        "url": "https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw",
+        "published_at": "2026-07-10T11:00:00+08:00",
+        "article_theme": (
+            "顶刊 SCI 写作手册第六版升级解读：从一本 Word 手册，变成 Claude Code、Codex "
+            "可调用的论文全生命周期写作技能。"
+        ),
+        "summary": (
+            "第六版把 SCI 写作手册从一本 Word，做成了能被 Claude Code、Codex 调用的技能。"
+            "它先建论文档案替你记住主线，用研究雷达从六个维度判断方向值不值得做，"
+            "再按论文全生命周期一路陪你写。四个重点升级、一张触发语速查、投稿前自审都在里面。"
+        ),
+    },
+    {
         "title": "《写作是门手艺》核心逻辑梳理",
         "url": "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
         "published_at": "2026-07-09T12:00:00+08:00",

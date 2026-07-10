@@ -671,8 +671,9 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertNotIn("固定入口", serialized)
 
     def test_slow_professor_user_confirmed_recent_wechat_links_are_listed(self):
-        now = datetime(2026, 7, 9, 8, 0, tzinfo=timezone.utc)
+        now = datetime(2026, 7, 10, 8, 0, tzinfo=timezone.utc)
         expected_urls = {
+            "https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw",
             "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
             "https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g",
             "https://mp.weixin.qq.com/s/OLsdBnQ_BwGkBUFeRO-Cpg",
@@ -688,7 +689,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
                 "ok": True,
                 "item_count": 0,
             }],
-            generated_at="2026-07-09T08:00:00Z",
+            generated_at="2026-07-10T08:00:00Z",
             now=now,
         )
         payload_items = {item["url"]: item for item in payload["items"]}
@@ -699,6 +700,12 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
             self.assertTrue(payload_items[url].get("title"))
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw"]["title"],
+            "读者问，第六版顶刊SCI究竟做了哪些升级呢？",
+        )
+        self.assertIn("顶刊 SCI 写作手册第六版", payload_items["https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw"]["article_theme"])
+        self.assertIn("Claude Code、Codex", payload_items["https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw"]["summary"])
         self.assertEqual(payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["title"], "《写作是门手艺》核心逻辑梳理")
         self.assertIn("写作是门手艺", payload_items["https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ"]["article_theme"])
         self.assertIn("Codex/Claude Code", payload_items["https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g"]["title"])
