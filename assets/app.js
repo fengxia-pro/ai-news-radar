@@ -59,6 +59,11 @@ const stickySummaryTextEl = document.getElementById("stickySummaryText");
 const searchInputEl = document.getElementById("searchInput");
 const resultCountEl = document.getElementById("resultCount");
 const listTitleEl = document.getElementById("listTitle");
+const entryAiCountEl = document.getElementById("entryAiCount");
+const entryHighCountEl = document.getElementById("entryHighCount");
+const entryCuratedCountEl = document.getElementById("entryCuratedCount");
+const entryHealthCountEl = document.getElementById("entryHealthCount");
+const entryDigestNoteEl = document.getElementById("entryDigestNote");
 const itemTpl = document.getElementById("itemTpl");
 const modeAiBtnEl = document.getElementById("modeAiBtn");
 const modeAllBtnEl = document.getElementById("modeAllBtn");
@@ -276,8 +281,30 @@ function setStats() {
     node.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div>`;
     statsEl.appendChild(node);
   });
+  renderEntryDigest({
+    aiCount: state.totalAi || items.length,
+    highCount,
+    curatedCount,
+    totalSites,
+    okSites,
+  });
   renderStickySummary();
   renderSourceStatusPill();
+}
+
+function renderEntryDigest({ aiCount, highCount, curatedCount, totalSites, okSites }) {
+  if (!entryAiCountEl || !entryHighCountEl || !entryCuratedCountEl || !entryHealthCountEl) return;
+  entryAiCountEl.textContent = `${fmtNumber(aiCount)} 条`;
+  entryHighCountEl.textContent = `${fmtNumber(highCount)} 条`;
+  entryCuratedCountEl.textContent = `${fmtNumber(curatedCount)} 条`;
+  entryHealthCountEl.textContent = totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 正常` : "加载中";
+  if (!entryDigestNoteEl) return;
+  const failed = failedSourceCount();
+  const time = state.generatedAt ? fmtTime(state.generatedAt) : "";
+  const statusText = totalSites
+    ? (failed ? `失败 ${fmtNumber(failed)} 项` : "全部源正常")
+    : "源状态加载中";
+  entryDigestNoteEl.textContent = [time ? `更新时间 ${time}` : "", statusText].filter(Boolean).join(" · ") || "正在接入今日数据...";
 }
 
 function failedSourceCount(status = state.sourceStatus) {
