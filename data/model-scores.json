@@ -7,7 +7,7 @@
   "notes": [
     "数据来自 Vellum LLM Leaderboard 页面公开榜单。",
     "分数为 Vellum 页面展示的公开 benchmark 分数；不同 benchmark 不宜直接横向相加。",
-    "本专题优先展示 GPQA、AIME、ARC-AGI 三个与科研判断最相关的指标：科学推理、数学推理、抽象泛化。"
+    "本专题展示 GPQA、AIME、ARC-AGI、Work Automations 和 Computer Use 五类指标：科研推理、数学推理、抽象泛化、工作流自动化和真实电脑操作。"
   ],
   "research_image": "./assets/screenshots/research-first-principles-20260701.png",
   "research_metrics": [
@@ -18,12 +18,29 @@
       "why": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "source_field": "gpqaReasoningNum",
       "items": [
-        { "model": "Claude Sonnet 5", "score": 96.2 },
-        { "model": "Claude 3 Opus", "score": 95.4 },
-        { "model": "Gemini 3.1 Pro", "score": 94.3 },
-        { "model": "Claude Opus 4.7", "score": 94.2 },
-        { "model": "Claude Fable 5", "score": 94.1 }
-      ]
+        {
+          "model": "Claude Sonnet 5",
+          "score": 96.2
+        },
+        {
+          "model": "Claude 3 Opus",
+          "score": 95.4
+        },
+        {
+          "model": "Gemini 3.1 Pro",
+          "score": 94.3
+        },
+        {
+          "model": "Claude Opus 4.7",
+          "score": 94.2
+        },
+        {
+          "model": "Claude Fable 5",
+          "score": 94.1
+        }
+      ],
+      "intro_label": "GPQA",
+      "intro": "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。"
     },
     {
       "id": "aime",
@@ -32,12 +49,29 @@
       "why": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "source_field": "numAime2025MathCompetition",
       "items": [
-        { "model": "Gemini 3 Pro", "score": 100 },
-        { "model": "GPT 5.2", "score": 100 },
-        { "model": "Claude Opus 4.6", "score": 99.8 },
-        { "model": "Kimi K2 Thinking", "score": 99.1 },
-        { "model": "GPT oss 20b", "score": 98.7 }
-      ]
+        {
+          "model": "Gemini 3 Pro",
+          "score": 100
+        },
+        {
+          "model": "GPT 5.2",
+          "score": 100
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "score": 99.8
+        },
+        {
+          "model": "Kimi K2 Thinking",
+          "score": 99.1
+        },
+        {
+          "model": "GPT oss 20b",
+          "score": 98.7
+        }
+      ],
+      "intro_label": "AIME",
+      "intro": "复杂数学推理，适合判断模型做公式、证明、定量分析时是否稳。"
     },
     {
       "id": "arc-agi",
@@ -46,11 +80,90 @@
       "why": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "source_field": "numArcAgi2",
       "items": [
-        { "model": "GPT-5.5", "score": 85 },
-        { "model": "Gemini 3.1 Pro", "score": 77.1 },
-        { "model": "Gemini 3.5 Flash", "score": 72.1 },
-        { "model": "Claude Opus 4.6", "score": 68.8 },
-        { "model": "Claude Sonnet 4.6", "score": 58.3 }
+        {
+          "model": "GPT-5.5",
+          "score": 85
+        },
+        {
+          "model": "Gemini 3.1 Pro",
+          "score": 77.1
+        },
+        {
+          "model": "Gemini 3.5 Flash",
+          "score": 72.1
+        },
+        {
+          "model": "Claude Opus 4.6",
+          "score": 68.8
+        },
+        {
+          "model": "Claude Sonnet 4.6",
+          "score": 58.3
+        }
+      ],
+      "intro_label": "ARC-AGI",
+      "intro": "抽象规则归纳，接近科研中从少量现象发现机制、迁移到新问题的能力。"
+    },
+    {
+      "id": "work-automations",
+      "label": "Work Automations",
+      "intro_label": "Work Automations",
+      "title": "工作自动化",
+      "why": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
+      "intro": "多步办公流程执行，看模型能否调工具、跟状态、把工作闭环跑完。",
+      "source_field": "numAutoBench",
+      "items": [
+        {
+          "model": "Claude Fable 5",
+          "score": 17.4
+        },
+        {
+          "model": "Claude Opus 4.8",
+          "score": 15.5
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "score": 13.5
+        },
+        {
+          "model": "GPT-5.5",
+          "score": 12.9
+        },
+        {
+          "model": "Claude Sonnet 4.6",
+          "score": 5.3
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "label": "Computer Use",
+      "intro_label": "Computer Use",
+      "title": "电脑操作",
+      "why": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
+      "intro": "真实桌面界面操作，看模型能否看屏幕、点击输入、跨应用完成任务。",
+      "source_field": "numOsWorld",
+      "items": [
+        {
+          "model": "Claude Fable 5",
+          "score": 85
+        },
+        {
+          "model": "Claude Opus 4.8",
+          "score": 83.4
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "score": 81.2
+        },
+        {
+          "model": "GPT-5.5",
+          "score": 78.7
+        },
+        {
+          "model": "Claude Sonnet 4.6",
+          "score": 78.5
+        }
       ]
     }
   ],

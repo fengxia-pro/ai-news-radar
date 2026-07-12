@@ -3249,9 +3249,9 @@ function renderModelScoreEmbed() {
   eyebrow.className = "section-eyebrow";
   eyebrow.textContent = "RESEARCH MODEL SCORE";
   const title = document.createElement("h3");
-  title.textContent = "科研最相关的三类模型能力";
+  title.textContent = "科研与工作流最相关的五类模型能力";
   const meta = document.createElement("p");
-  meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化。科研选模型优先看这三类能力。";
+  meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化，Work Automations 看办公流程执行，Computer Use 看真实电脑操作。";
   const timeMeta = document.createElement("p");
   timeMeta.className = "model-score-time";
   timeMeta.textContent = `更新时间：${modelScoreTimeText()}`;
@@ -3272,24 +3272,25 @@ function renderModelScoreEmbed() {
   image.alt = "研究生14大学科科研的第一性原理";
   image.loading = "lazy";
   const caption = document.createElement("figcaption");
-  caption.textContent = "这张图解释了为什么科研模型评分不能只看聊天体验：基础学科看科学和数学推理，交叉学科看抽象泛化与机制发现。";
+  caption.textContent = "这张图解释了为什么科研模型评分不能只看聊天体验：基础学科看科学和数学推理，交叉学科看抽象泛化与机制发现，日常科研工作还要看自动化与电脑操作能力。";
   imagePanel.append(image, caption);
 
   const metricIntro = document.createElement("div");
   metricIntro.className = "model-score-intro";
-  [
-    ["GPQA", "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。"],
-    ["AIME", "复杂数学推理，适合判断模型做公式、证明、定量分析时是否稳。"],
-    ["ARC-AGI", "抽象规则归纳，接近科研中从少量现象发现机制、迁移到新问题的能力。"],
-  ].forEach(([label, text]) => {
-    const item = document.createElement("div");
-    const strong = document.createElement("strong");
-    strong.textContent = label;
-    const p = document.createElement("p");
-    p.textContent = text;
-    item.append(strong, p);
-    metricIntro.appendChild(item);
-  });
+  metrics
+    .map((metric) => [
+      metric.intro_label || metric.label || metric.title || "指标",
+      metric.intro || metric.why || "",
+    ])
+    .forEach(([label, text]) => {
+      const item = document.createElement("div");
+      const strong = document.createElement("strong");
+      strong.textContent = label;
+      const p = document.createElement("p");
+      p.textContent = text;
+      item.append(strong, p);
+      metricIntro.appendChild(item);
+    });
 
   const chartGrid = document.createElement("div");
   chartGrid.className = "model-score-chart-grid";

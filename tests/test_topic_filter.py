@@ -1,3 +1,4 @@
+import json
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
@@ -747,6 +748,20 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn("文章主题", app_js)
         self.assertIn("wechat_ai_watts", app_js)
         self.assertIn("AI沃茨", app_js)
+
+    def test_model_scores_include_work_automation_and_computer_use_cards(self):
+        model_scores = json.loads(Path("data/model-scores.json").read_text(encoding="utf-8"))
+        metrics = {metric["id"]: metric for metric in model_scores["research_metrics"]}
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+
+        self.assertEqual(len(model_scores["research_metrics"]), 5)
+        self.assertIn("work-automations", metrics)
+        self.assertIn("computer-use", metrics)
+        self.assertEqual(metrics["work-automations"]["items"][0], {"model": "Claude Fable 5", "score": 17.4})
+        self.assertEqual(metrics["computer-use"]["items"][0], {"model": "Claude Fable 5", "score": 85})
+        self.assertIn("科研与工作流最相关的五类模型能力", app_js)
+        self.assertIn("metric.intro_label", app_js)
+        self.assertNotIn("科研最相关的三类模型能力", app_js)
 
     def test_slow_professor_article_meta_extracts_description(self):
         html = """
