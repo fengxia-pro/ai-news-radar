@@ -7,7 +7,7 @@
   "notes": [
     "数据来自 Vellum LLM Leaderboard 页面公开榜单。",
     "分数为 Vellum 页面展示的公开 benchmark 分数；不同 benchmark 不宜直接横向相加。",
-    "本专题展示 GPQA、AIME、ARC-AGI、Work Automations 和 Computer Use 五类指标：科研推理、数学推理、抽象泛化、工作流自动化和真实电脑操作。"
+    "本专题展示 GPQA、AIME、ARC-AGI、Work Automations、Computer Use 和 Terminal Use 六类指标：科研推理、数学推理、抽象泛化、工作流自动化、真实电脑操作和终端环境执行。"
   ],
   "research_image": "./assets/screenshots/research-first-principles-20260701.png",
   "research_metrics": [
@@ -163,6 +163,37 @@
         {
           "model": "Claude Sonnet 4.6",
           "score": 78.5
+        }
+      ]
+    },
+    {
+      "id": "terminal-use",
+      "label": "Terminal Use",
+      "intro_label": "Terminal Use",
+      "title": "终端操作",
+      "why": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
+      "intro": "终端环境任务执行，看模型能否理解命令行反馈、连续操作并把开发/运维流程跑完。",
+      "source_field": "numTerminalBench21",
+      "items": [
+        {
+          "model": "Claude Mythos 5",
+          "score": 88
+        },
+        {
+          "model": "Claude Fable 5",
+          "score": 84.3
+        },
+        {
+          "model": "GPT-5.5",
+          "score": 82.7
+        },
+        {
+          "model": "GLM 5.2",
+          "score": 81
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "score": 80.4
         }
       ]
     }

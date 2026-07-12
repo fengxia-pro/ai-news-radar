@@ -3249,9 +3249,9 @@ function renderModelScoreEmbed() {
   eyebrow.className = "section-eyebrow";
   eyebrow.textContent = "RESEARCH MODEL SCORE";
   const title = document.createElement("h3");
-  title.textContent = "科研与工作流最相关的五类模型能力";
+  title.textContent = "科研与工作流最相关的六类模型能力";
   const meta = document.createElement("p");
-  meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化，Work Automations 看办公流程执行，Computer Use 看真实电脑操作。";
+  meta.textContent = "GPQA 看科学推理，AIME 看数学推理，ARC-AGI 看抽象泛化，Work Automations 看办公流程执行，Computer Use 看真实电脑操作，Terminal Use 看终端环境执行。";
   const timeMeta = document.createElement("p");
   timeMeta.className = "model-score-time";
   timeMeta.textContent = `更新时间：${modelScoreTimeText()}`;
@@ -3272,7 +3272,7 @@ function renderModelScoreEmbed() {
   image.alt = "研究生14大学科科研的第一性原理";
   image.loading = "lazy";
   const caption = document.createElement("figcaption");
-  caption.textContent = "这张图解释了为什么科研模型评分不能只看聊天体验：基础学科看科学和数学推理，交叉学科看抽象泛化与机制发现，日常科研工作还要看自动化与电脑操作能力。";
+  caption.textContent = "这张图解释了为什么科研模型评分不能只看聊天体验：基础学科看科学和数学推理，交叉学科看抽象泛化与机制发现，日常科研工作还要看自动化、电脑操作和终端执行能力。";
   imagePanel.append(image, caption);
 
   const metricIntro = document.createElement("div");
