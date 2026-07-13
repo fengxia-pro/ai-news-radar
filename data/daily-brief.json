@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T19:36:03.934782Z",
+  "generated_at": "2026-07-13T21:01:58.252068Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -56,15 +56,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8466,
-      "importance": 0.8466,
-      "importance_score": 0.8466,
+      "score": 0.8439,
+      "importance": 0.8439,
+      "importance_score": 0.8439,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7535,
+        "recency": 0.7381,
         "story_heat": 0.25
       },
       "category": "official",
@@ -119,15 +119,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8348,
-      "importance": 0.8348,
-      "importance_score": 0.8348,
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9489,
+        "recency": 0.9294,
         "story_heat": 0.0
       },
       "category": "official",
@@ -200,15 +200,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.806,
-      "importance": 0.806,
-      "importance_score": 0.806,
+      "score": 0.8024,
+      "importance": 0.8024,
+      "importance_score": 0.8024,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9742,
+        "recency": 0.9543,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -224,6 +224,87 @@
         "title": "OpenAI 面向普通用户发布提示词指南：从结果出发，少写步骤",
         "url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result",
         "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b4553fdd4116",
+      "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
+      "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
+          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
+          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-13T19:17:51Z"
+        },
+        {
+          "id": "3e2a74ff0e7291c8b9691da54b3ef0e5f41835f1",
+          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密 / Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
+          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T19:17:51Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "Ars Technica：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
+          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
+          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-13T19:17:51Z"
+        },
+        {
+          "id": "3e2a74ff0e7291c8b9691da54b3ef0e5f41835f1",
+          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密 / Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
+          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T19:17:51Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7851,
+      "importance": 0.7851,
+      "importance_score": 0.7851,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9753,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-13T19:17:51Z",
+      "latest_at": "2026-07-13T19:17:51Z",
+      "primary_item": {
+        "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
+        "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
+        "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+        "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -281,15 +362,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7661,
-      "importance": 0.7661,
-      "importance_score": 0.7661,
+      "score": 0.7629,
+      "importance": 0.7629,
+      "importance_score": 0.7629,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8527,
+        "recency": 0.8352,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -343,15 +424,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7654,
-      "importance": 0.7654,
-      "importance_score": 0.7654,
+      "score": 0.7626,
+      "importance": 0.7626,
+      "importance_score": 0.7626,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7544,
+        "recency": 0.739,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -366,67 +447,6 @@
         "title": "xAI 官方 Grok CLI 被曝静默上传整个代码库及用户密钥",
         "url": "https://mp.weixin.qq.com/s/6c6vGMJAVMbh6UhNVw4dcg",
         "source": "公众号：数字生命卡兹克",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_b4553fdd4116",
-      "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
-      "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-      "source": "Ars Technica：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
-          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
-          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-13T19:17:51Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Ars Technica：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
-          "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
-          "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-          "source": "Ars Technica：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-13T19:17:51Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7638,
-      "importance": 0.7638,
-      "importance_score": 0.7638,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9956,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-13T19:17:51Z",
-      "latest_at": "2026-07-13T19:17:51Z",
-      "primary_item": {
-        "id": "ba9477519e0bfc39758f5e78d36c4fac5b08f1e3",
-        "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
-        "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-        "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -465,15 +485,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7593,
-      "importance": 0.7593,
-      "importance_score": 0.7593,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8703,
+        "recency": 0.8525,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -526,15 +546,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7591,
-      "importance": 0.7591,
-      "importance_score": 0.7591,
+      "score": 0.7558,
+      "importance": 0.7558,
+      "importance_score": 0.7558,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.886,
+        "recency": 0.8678,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -587,21 +607,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7529,
-      "importance": 0.7529,
-      "importance_score": 0.7529,
+      "score": 0.7497,
+      "importance": 0.7497,
+      "importance_score": 0.7497,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8682,
+        "recency": 0.8505,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-13T09:48:59Z",
       "latest_at": "2026-07-13T09:48:59Z",
@@ -667,15 +686,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7416,
-      "importance": 0.7416,
-      "importance_score": 0.7416,
+      "score": 0.7389,
+      "importance": 0.7389,
+      "importance_score": 0.7389,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7501,
+        "recency": 0.7347,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -747,15 +766,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7672,
-      "importance": 0.7672,
-      "importance_score": 0.7672,
+      "score": 0.7639,
+      "importance": 0.7639,
+      "importance_score": 0.7639,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.892,
+        "recency": 0.8737,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -828,15 +847,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7585,
-      "importance": 0.7585,
-      "importance_score": 0.7585,
+      "score": 0.7555,
+      "importance": 0.7555,
+      "importance_score": 0.7555,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8104,
+        "recency": 0.7938,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -890,15 +909,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.74,
-      "importance": 0.74,
-      "importance_score": 0.74,
+      "score": 0.7372,
+      "importance": 0.7372,
+      "importance_score": 0.7372,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7636,
+        "recency": 0.748,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -950,15 +969,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7493,
-      "importance": 0.7493,
-      "importance_score": 0.7493,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8985,
+        "recency": 0.8801,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1082,15 +1101,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6639,
-      "importance": 0.6639,
-      "importance_score": 0.6639,
+      "score": 0.6603,
+      "importance": 0.6603,
+      "importance_score": 0.6603,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9704,
+        "recency": 0.9505,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1142,15 +1161,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7493,
-      "importance": 0.7493,
-      "importance_score": 0.7493,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8985,
+        "recency": 0.8801,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1202,15 +1221,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7493,
-      "importance": 0.7493,
-      "importance_score": 0.7493,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8985,
+        "recency": 0.8801,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1225,6 +1244,84 @@
         "url": "https://www.aibase.com/news/29550",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6358ddebecad",
+      "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
+      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "primary_url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "d30e94a3e3bf4a087b2a4656cebd2b4ff5fec66b",
+          "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
+          "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-13T17:00:00Z"
+        },
+        {
+          "id": "c5fa62c2f6615c3470719c358a68309b01e36503",
+          "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple’s lawsuit against OpenAI",
+          "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T17:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "d30e94a3e3bf4a087b2a4656cebd2b4ff5fec66b",
+          "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
+          "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-13T17:00:00Z"
+        },
+        {
+          "id": "c5fa62c2f6615c3470719c358a68309b01e36503",
+          "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple’s lawsuit against OpenAI",
+          "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T17:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6178,
+      "importance": 0.6178,
+      "importance_score": 0.6178,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.9434,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-13T17:00:00Z",
+      "latest_at": "2026-07-13T17:00:00Z",
+      "primary_item": {
+        "id": "d30e94a3e3bf4a087b2a4656cebd2b4ff5fec66b",
+        "title": "苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控 / The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
+        "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+        "source": "The Verge",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -1262,15 +1359,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7411,
-      "importance": 0.7411,
-      "importance_score": 0.7411,
+      "score": 0.7379,
+      "importance": 0.7379,
+      "importance_score": 0.7379,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8527,
+        "recency": 0.8352,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1288,74 +1385,74 @@
       }
     },
     {
-      "story_id": "story_3bb21a6673df",
-      "title": "Show HN：BillAI Bass，使用 Strands 代理的 AI 驱动的大嘴 Billy Bass / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-      "url": "https://news.ycombinator.com/item?id=48896599",
-      "primary_url": "https://news.ycombinator.com/item?id=48896599",
+      "story_id": "story_7596375c34fb",
+      "title": "Show HN：PlanWright – AI 编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+      "url": "https://news.ycombinator.com/item?id=48897969",
+      "primary_url": "https://news.ycombinator.com/item?id=48897969",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "1b20635e1882662eab988b069e14cbef656c98d3",
-          "title": "Show HN：BillAI Bass，使用 Strands 代理的 AI 驱动的大嘴 Billy Bass / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-          "url": "https://news.ycombinator.com/item?id=48896599",
+          "id": "8dae23469af8cdb4109495d99f25da1014472554",
+          "title": "Show HN：PlanWright – AI 编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+          "url": "https://news.ycombinator.com/item?id=48897969",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-13T19:37:14.267000Z"
+          "published_at": "2026-07-13T21:02:59.644000Z"
         },
         {
-          "id": "37797f74e17305fad14285eb7949619bb6c92429",
-          "title": "Show HN: BillAI Bass：一款基于Strands Agents技术、由人工智能驱动的“大嘴比利·巴斯”",
-          "url": "https://github.com/morganwilliscloud/billai-bass",
-          "source": "github.com",
+          "id": "cbfb17a357e8e68b2fcff60def488cd6cd9541aa",
+          "title": "Show HN: PlanWright——一个用于人工智能编码代理的控制平面",
+          "url": "https://planwright.tools",
+          "source": "planwright.tools",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-13T18:25:33.396000Z"
+          "published_at": "2026-07-13T20:01:46.597000Z"
         },
         {
-          "id": "d4a53b44127cd79b5e12b8258341b7433c19bb1e",
-          "title": "Show HN: BillAI Bass：一款基于Strands Agents技术、由人工智能驱动的“大嘴比利·巴斯” / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-          "url": "https://github.com/morganwilliscloud/billai-bass",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T18:18:23Z"
+          "id": "f08dc15868358e60ce2199c640ae0dc1eef2bb07",
+          "title": "Show HN: PlanWright——一个用于人工智能编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+          "url": "https://planwright.tools",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T19:59:50Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com",
-        "hackernews"
+        "Hacker News",
+        "hackernews",
+        "planwright.tools"
       ],
       "items": [
         {
-          "id": "1b20635e1882662eab988b069e14cbef656c98d3",
-          "title": "Show HN：BillAI Bass，使用 Strands 代理的 AI 驱动的大嘴 Billy Bass / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-          "url": "https://news.ycombinator.com/item?id=48896599",
+          "id": "8dae23469af8cdb4109495d99f25da1014472554",
+          "title": "Show HN：PlanWright – AI 编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+          "url": "https://news.ycombinator.com/item?id=48897969",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-13T19:37:14.267000Z"
+          "published_at": "2026-07-13T21:02:59.644000Z"
         },
         {
-          "id": "37797f74e17305fad14285eb7949619bb6c92429",
-          "title": "Show HN: BillAI Bass：一款基于Strands Agents技术、由人工智能驱动的“大嘴比利·巴斯”",
-          "url": "https://github.com/morganwilliscloud/billai-bass",
-          "source": "github.com",
+          "id": "cbfb17a357e8e68b2fcff60def488cd6cd9541aa",
+          "title": "Show HN: PlanWright——一个用于人工智能编码代理的控制平面",
+          "url": "https://planwright.tools",
+          "source": "planwright.tools",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-13T18:25:33.396000Z"
+          "published_at": "2026-07-13T20:01:46.597000Z"
         },
         {
-          "id": "d4a53b44127cd79b5e12b8258341b7433c19bb1e",
-          "title": "Show HN: BillAI Bass：一款基于Strands Agents技术、由人工智能驱动的“大嘴比利·巴斯” / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-          "url": "https://github.com/morganwilliscloud/billai-bass",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T18:18:23Z"
+          "id": "f08dc15868358e60ce2199c640ae0dc1eef2bb07",
+          "title": "Show HN: PlanWright——一个用于人工智能编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+          "url": "https://planwright.tools",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-13T19:59:50Z"
         }
       ],
       "item_count": 3,
@@ -1375,74 +1472,14 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T18:18:23Z",
-      "latest_at": "2026-07-13T19:37:14.267000Z",
+      "earliest_at": "2026-07-13T19:59:50Z",
+      "latest_at": "2026-07-13T21:02:59.644000Z",
       "primary_item": {
-        "id": "1b20635e1882662eab988b069e14cbef656c98d3",
-        "title": "Show HN：BillAI Bass，使用 Strands 代理的 AI 驱动的大嘴 Billy Bass / Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
-        "url": "https://news.ycombinator.com/item?id=48896599",
+        "id": "8dae23469af8cdb4109495d99f25da1014472554",
+        "title": "Show HN：PlanWright – AI 编码代理的控制平面 / Show HN: PlanWright – A control plane for AI coding agents",
+        "url": "https://news.ycombinator.com/item?id=48897969",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_62ff3681c8ca",
-      "title": "商汤开源SenseNova-Vision统一视觉大模型，单模型横扫四大核心视觉任务",
-      "url": "https://www.aibase.com/news/29543",
-      "primary_url": "https://www.aibase.com/news/29543",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "9d68d05ed5af54d03c13db6fdc69da4d9d7857e1",
-          "title": "商汤开源SenseNova-Vision统一视觉大模型，单模型横扫四大核心视觉任务",
-          "url": "https://www.aibase.com/news/29543",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "9d68d05ed5af54d03c13db6fdc69da4d9d7857e1",
-          "title": "商汤开源SenseNova-Vision统一视觉大模型，单模型横扫四大核心视觉任务",
-          "url": "https://www.aibase.com/news/29543",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7411,
-      "importance": 0.7411,
-      "importance_score": 0.7411,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8527,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-13T08:33:47.081477Z",
-      "latest_at": "2026-07-13T08:33:47.081477Z",
-      "primary_item": {
-        "id": "9d68d05ed5af54d03c13db6fdc69da4d9d7857e1",
-        "title": "商汤开源SenseNova-Vision统一视觉大模型，单模型横扫四大核心视觉任务",
-        "url": "https://www.aibase.com/news/29543",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
