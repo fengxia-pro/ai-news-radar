@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T22:02:59.214193Z",
+  "generated_at": "2026-07-14T23:26:29.721194Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8741,
-      "importance": 0.8741,
-      "importance_score": 0.8741,
+      "score": 0.8705,
+      "importance": 0.8705,
+      "importance_score": 0.8705,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9914,
+        "recency": 0.9717,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -157,15 +157,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8368,
-      "importance": 0.8368,
-      "importance_score": 0.8368,
+      "score": 0.8333,
+      "importance": 0.8333,
+      "importance_score": 0.8333,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9599,
+        "recency": 0.9408,
         "story_heat": 0.0
       },
       "category": "official",
@@ -219,15 +219,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
+      "score": 0.8257,
+      "importance": 0.8257,
+      "importance_score": 0.8257,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9163,
+        "recency": 0.8981,
         "story_heat": 0.0
       },
       "category": "official",
@@ -281,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8233,
-      "importance": 0.8233,
-      "importance_score": 0.8233,
+      "score": 0.8202,
+      "importance": 0.8202,
+      "importance_score": 0.8202,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8403,
+        "recency": 0.8236,
         "story_heat": 0.0
       },
       "category": "official",
@@ -400,15 +400,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.849,
-      "importance": 0.849,
-      "importance_score": 0.849,
+      "score": 0.8455,
+      "importance": 0.8455,
+      "importance_score": 0.8455,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9688,
+        "recency": 0.9495,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -462,15 +462,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8169,
-      "importance": 0.8169,
-      "importance_score": 0.8169,
+      "score": 0.8143,
+      "importance": 0.8143,
+      "importance_score": 0.8143,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7273,
+        "recency": 0.7128,
         "story_heat": 0.0
       },
       "category": "official",
@@ -487,6 +487,87 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3e68f8ee554f",
+      "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "primary_url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:50:11Z"
+        },
+        {
+          "id": "f9625a0d0960866a08717676fff7dee35c7c16c5",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库 / OpenAI’s new flagship model deletes files on its own, people keep warning",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T21:50:11Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:50:11Z"
+        },
+        {
+          "id": "f9625a0d0960866a08717676fff7dee35c7c16c5",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库 / OpenAI’s new flagship model deletes files on its own, people keep warning",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T21:50:11Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8005,
+      "importance": 0.8005,
+      "importance_score": 0.8005,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9771,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T21:50:11Z",
+      "latest_at": "2026-07-14T21:50:11Z",
+      "primary_item": {
+        "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+        "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+        "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -524,15 +605,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8307,
-      "importance": 0.8307,
-      "importance_score": 0.8307,
+      "score": 0.8273,
+      "importance": 0.8273,
+      "importance_score": 0.8273,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9259,
+        "recency": 0.9075,
         "story_heat": 0.0
       },
       "category": "official",
@@ -624,15 +705,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.787,
-      "importance": 0.787,
-      "importance_score": 0.787,
+      "score": 0.784,
+      "importance": 0.784,
+      "importance_score": 0.784,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8299,
+        "recency": 0.8134,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -686,15 +767,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
+      "score": 0.8083,
+      "importance": 0.8083,
+      "importance_score": 0.8083,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7273,
+        "recency": 0.7128,
         "story_heat": 0.0
       },
       "category": "official",
@@ -714,83 +795,63 @@
       }
     },
     {
-      "story_id": "story_b98c65f859f0",
-      "title": "Google 因 AI 训练再遭出版商集体诉讼",
-      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-      "primary_url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-      "source": "TechCrunch：AI（RSS）",
+      "story_id": "story_d7a72e9aa349",
+      "title": "Codex 周活超700万，两月更新150+项",
+      "url": "https://x.com/OpenAIDevs/status/2077166520392970529",
+      "primary_url": "https://x.com/OpenAIDevs/status/2077166520392970529",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "29280d50c21ea6130e6110d918142a03656a01b8",
-          "title": "Google 因 AI 训练再遭出版商集体诉讼",
-          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-          "source": "TechCrunch：AI（RSS）",
+          "id": "5d91636db5625e900361a03a18921524a4153cb4",
+          "title": "Codex 周活超700万，两月更新150+项",
+          "url": "https://x.com/OpenAIDevs/status/2077166520392970529",
+          "source": "X：OpenAI Developers (@OpenAIDevs)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-14T18:33:31Z"
-        },
-        {
-          "id": "c3d992291ef6ebc6ba68272513e267b5d4febc7f",
-          "title": "Google 因 AI 训练再遭出版商集体诉讼 / Google faces another AI training lawsuit from major publishers",
-          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T18:33:31Z"
+          "published_at": "2026-07-14T23:01:05Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
+        "X：OpenAI Developers (@OpenAIDevs)"
       ],
       "items": [
         {
-          "id": "29280d50c21ea6130e6110d918142a03656a01b8",
-          "title": "Google 因 AI 训练再遭出版商集体诉讼",
-          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-          "source": "TechCrunch：AI（RSS）",
+          "id": "5d91636db5625e900361a03a18921524a4153cb4",
+          "title": "Codex 周活超700万，两月更新150+项",
+          "url": "https://x.com/OpenAIDevs/status/2077166520392970529",
+          "source": "X：OpenAI Developers (@OpenAIDevs)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-14T18:33:31Z"
-        },
-        {
-          "id": "c3d992291ef6ebc6ba68272513e267b5d4febc7f",
-          "title": "Google 因 AI 训练再遭出版商集体诉讼 / Google faces another AI training lawsuit from major publishers",
-          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T18:33:31Z"
+          "published_at": "2026-07-14T23:01:05Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7778,
-      "importance": 0.7778,
-      "importance_score": 0.7778,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7725,
+      "importance": 0.7725,
+      "importance_score": 0.7725,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9508,
-        "story_heat": 0.25
+        "recency": 0.9939,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-14T18:33:31Z",
-      "latest_at": "2026-07-14T18:33:31Z",
+      "earliest_at": "2026-07-14T23:01:05Z",
+      "latest_at": "2026-07-14T23:01:05Z",
       "primary_item": {
-        "id": "29280d50c21ea6130e6110d918142a03656a01b8",
-        "title": "Google 因 AI 训练再遭出版商集体诉讼",
-        "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-        "source": "TechCrunch：AI（RSS）",
+        "id": "5d91636db5625e900361a03a18921524a4153cb4",
+        "title": "Codex 周活超700万，两月更新150+项",
+        "url": "https://x.com/OpenAIDevs/status/2077166520392970529",
+        "source": "X：OpenAI Developers (@OpenAIDevs)",
         "source_name": "AI HOT"
       }
     },
@@ -829,15 +890,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8297,
-      "importance": 0.8297,
-      "importance_score": 0.8297,
+      "score": 0.8266,
+      "importance": 0.8266,
+      "importance_score": 0.8266,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8763,
+        "recency": 0.8588,
         "story_heat": 0.0
       },
       "category": "official",
@@ -910,15 +971,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7591,
-      "importance": 0.7591,
-      "importance_score": 0.7591,
+      "score": 0.7562,
+      "importance": 0.7562,
+      "importance_score": 0.7562,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8138,
+        "recency": 0.7976,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -972,15 +1033,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
+      "score": 0.8083,
+      "importance": 0.8083,
+      "importance_score": 0.8083,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7273,
+        "recency": 0.7128,
         "story_heat": 0.0
       },
       "category": "official",
@@ -997,6 +1058,87 @@
         "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_b98c65f859f0",
+      "title": "Google 因 AI 训练再遭出版商集体诉讼",
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+      "primary_url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "29280d50c21ea6130e6110d918142a03656a01b8",
+          "title": "Google 因 AI 训练再遭出版商集体诉讼",
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T18:33:31Z"
+        },
+        {
+          "id": "c3d992291ef6ebc6ba68272513e267b5d4febc7f",
+          "title": "Google 因 AI 训练再遭出版商集体诉讼 / Google faces another AI training lawsuit from major publishers",
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T18:33:31Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "29280d50c21ea6130e6110d918142a03656a01b8",
+          "title": "Google 因 AI 训练再遭出版商集体诉讼",
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T18:33:31Z"
+        },
+        {
+          "id": "c3d992291ef6ebc6ba68272513e267b5d4febc7f",
+          "title": "Google 因 AI 训练再遭出版商集体诉讼 / Google faces another AI training lawsuit from major publishers",
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T18:33:31Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7743,
+      "importance": 0.7743,
+      "importance_score": 0.7743,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9319,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T18:33:31Z",
+      "latest_at": "2026-07-14T18:33:31Z",
+      "primary_item": {
+        "id": "29280d50c21ea6130e6110d918142a03656a01b8",
+        "title": "Google 因 AI 训练再遭出版商集体诉讼",
+        "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1034,15 +1176,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
+      "score": 0.7429,
+      "importance": 0.7429,
+      "importance_score": 0.7429,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.829,
+        "recency": 0.8125,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1094,15 +1236,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7449,
-      "importance": 0.7449,
-      "importance_score": 0.7449,
+      "score": 0.7416,
+      "importance": 0.7416,
+      "importance_score": 0.7416,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9071,
+        "recency": 0.889,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1116,87 +1258,6 @@
         "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
         "url": "https://x.com/googleaidevs/status/2077049898059354565",
         "source": "X：Google AI for Developers (@googleaidevs)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a4b29ff806d7",
-      "title": "纽约州暂停所有新建大型数据中心项目",
-      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-      "primary_url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-          "title": "纽约州暂停所有新建大型数据中心项目",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:59Z"
-        },
-        {
-          "id": "0270c884a779ec63062be205b14ce881b4f6415e",
-          "title": "纽约州暂停所有新建大型数据中心项目 / New York State halts construction of all new data centers",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T15:17:59Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-          "title": "纽约州暂停所有新建大型数据中心项目",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:59Z"
-        },
-        {
-          "id": "0270c884a779ec63062be205b14ce881b4f6415e",
-          "title": "纽约州暂停所有新建大型数据中心项目 / New York State halts construction of all new data centers",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T15:17:59Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7729,
-      "importance": 0.7729,
-      "importance_score": 0.7729,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9071,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T15:17:59Z",
-      "latest_at": "2026-07-14T15:17:59Z",
-      "primary_item": {
-        "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-        "title": "纽约州暂停所有新建大型数据中心项目",
-        "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-        "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1235,15 +1296,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7395,
-      "importance": 0.7395,
-      "importance_score": 0.7395,
+      "score": 0.7366,
+      "importance": 0.7366,
+      "importance_score": 0.7366,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8275,
+        "recency": 0.811,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1333,15 +1394,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7981,
-      "importance": 0.7981,
-      "importance_score": 0.7981,
+      "score": 0.7948,
+      "importance": 0.7948,
+      "importance_score": 0.7948,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.925,
+        "recency": 0.9066,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1395,15 +1456,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7326,
-      "importance": 0.7326,
-      "importance_score": 0.7326,
+      "score": 0.7294,
+      "importance": 0.7294,
+      "importance_score": 0.7294,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9056,
+        "recency": 0.8876,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1418,87 +1479,6 @@
         "url": "https://www.anthropic.com/news/claude-for-teachers",
         "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_3329ba8670e1",
-      "title": "DeepSeek梁文锋身价飙升至 360 亿美元，成AI公司新首富",
-      "url": "https://www.aibase.com/news/29585",
-      "primary_url": "https://www.aibase.com/news/29585",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "ff51bf03aa54c2dccbcebcb0d0ff06ae82d630aa",
-          "title": "DeepSeek梁文锋身价飙升至 360 亿美元，成AI公司新首富",
-          "url": "https://www.aibase.com/news/29585",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-14T09:08:17.402620Z"
-        },
-        {
-          "id": "b6a3edf220780dcddd8ae827d2d6095554275f4d",
-          "title": "DeepSeek 梁文锋身价飙升至 360 亿美元，成 AI 公司新首富",
-          "url": "https://www.ithome.com/0/976/525.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-14T07:30:11Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "ff51bf03aa54c2dccbcebcb0d0ff06ae82d630aa",
-          "title": "DeepSeek梁文锋身价飙升至 360 亿美元，成AI公司新首富",
-          "url": "https://www.aibase.com/news/29585",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-14T09:08:17.402620Z"
-        },
-        {
-          "id": "b6a3edf220780dcddd8ae827d2d6095554275f4d",
-          "title": "DeepSeek 梁文锋身价飙升至 360 亿美元，成 AI 公司新首富",
-          "url": "https://www.ithome.com/0/976/525.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-14T07:30:11Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.762,
-      "importance": 0.762,
-      "importance_score": 0.762,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8299,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T07:30:11Z",
-      "latest_at": "2026-07-14T09:08:17.402620Z",
-      "primary_item": {
-        "id": "ff51bf03aa54c2dccbcebcb0d0ff06ae82d630aa",
-        "title": "DeepSeek梁文锋身价飙升至 360 亿美元，成AI公司新首富",
-        "url": "https://www.aibase.com/news/29585",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
