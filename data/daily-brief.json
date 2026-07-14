@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T00:58:16.942888Z",
+  "generated_at": "2026-07-14T04:11:03.143830Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8406,
-      "importance": 0.8406,
-      "importance_score": 0.8406,
+      "score": 0.8326,
+      "importance": 0.8326,
+      "importance_score": 0.8326,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9812,
+        "recency": 0.9367,
         "story_heat": 0.0
       },
       "category": "official",
@@ -137,15 +137,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8246,
-      "importance": 0.8246,
-      "importance_score": 0.8246,
+      "score": 0.8168,
+      "importance": 0.8168,
+      "importance_score": 0.8168,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9558,
+        "recency": 0.9125,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -237,15 +237,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8004,
-      "importance": 0.8004,
-      "importance_score": 0.8004,
+      "score": 0.7929,
+      "importance": 0.7929,
+      "importance_score": 0.7929,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9213,
+        "recency": 0.8796,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -262,6 +262,87 @@
         "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
         "source": "Ars Technica：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_07ac207c908f",
+      "title": "谷歌发布移动端AI应用更新:首次支持历史聊天记录搜索与文件上传",
+      "url": "https://www.aibase.com/news/29571",
+      "primary_url": "https://www.aibase.com/news/29571",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "bd9e5f40a376b287269be28d897d6526bc0f2e23",
+          "title": "谷歌发布移动端AI应用更新:首次支持历史聊天记录搜索与文件上传",
+          "url": "https://www.aibase.com/news/29571",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        },
+        {
+          "id": "8e15cda859a881f511a1e082c7efad35ea9ffa84",
+          "title": "谷歌发布移动端 AI 应用更新：首次支持历史聊天记录搜索与文件上传",
+          "url": "https://www.aibase.com/zh/news/29571",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "bd9e5f40a376b287269be28d897d6526bc0f2e23",
+          "title": "谷歌发布移动端AI应用更新:首次支持历史聊天记录搜索与文件上传",
+          "url": "https://www.aibase.com/news/29571",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        },
+        {
+          "id": "8e15cda859a881f511a1e082c7efad35ea9ffa84",
+          "title": "谷歌发布移动端 AI 应用更新：首次支持历史聊天记录搜索与文件上传",
+          "url": "https://www.aibase.com/zh/news/29571",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
+      "primary_item": {
+        "id": "bd9e5f40a376b287269be28d897d6526bc0f2e23",
+        "title": "谷歌发布移动端AI应用更新:首次支持历史聊天记录搜索与文件上传",
+        "url": "https://www.aibase.com/news/29571",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -318,15 +399,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7929,
-      "importance": 0.7929,
-      "importance_score": 0.7929,
+      "score": 0.7855,
+      "importance": 0.7855,
+      "importance_score": 0.7855,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9015,
+        "recency": 0.8607,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -380,15 +461,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.822,
-      "importance": 0.822,
-      "importance_score": 0.822,
+      "score": 0.8149,
+      "importance": 0.8149,
+      "importance_score": 0.8149,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8781,
+        "recency": 0.8382,
         "story_heat": 0.0
       },
       "category": "official",
@@ -461,15 +542,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.776,
+      "importance": 0.776,
+      "importance_score": 0.776,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9861,
+        "recency": 0.9414,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -489,49 +570,49 @@
       }
     },
     {
-      "story_id": "story_02a06a222558",
-      "title": "Siri 迎来全面 AI 进化!苹果正式发布 iOS27首个公开测试版",
-      "url": "https://www.aibase.com/news/29554",
-      "primary_url": "https://www.aibase.com/news/29554",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_a0366cc85c2f",
+      "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
+      "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
+      "primary_url": "https://x.com/SenseTime_AI/status/2076828658531262619",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "505571f79490fe18955ef5ae607db74059e390b6",
-          "title": "Siri 迎来全面 AI 进化!苹果正式发布 iOS27首个公开测试版",
-          "url": "https://www.aibase.com/news/29554",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-14T00:58:16.942888Z"
+          "id": "b5851a195823881985167c1306ffc765d134db35",
+          "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
+          "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
+          "source": "X：商汤 SenseTime (@SenseTime_AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T00:38:32Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "X：商汤 SenseTime (@SenseTime_AI)"
       ],
       "items": [
         {
-          "id": "505571f79490fe18955ef5ae607db74059e390b6",
-          "title": "Siri 迎来全面 AI 进化!苹果正式发布 iOS27首个公开测试版",
-          "url": "https://www.aibase.com/news/29554",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-14T00:58:16.942888Z"
+          "id": "b5851a195823881985167c1306ffc765d134db35",
+          "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
+          "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
+          "source": "X：商汤 SenseTime (@SenseTime_AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T00:38:32Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7646,
+      "importance": 0.7646,
+      "importance_score": 0.7646,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9501,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -539,14 +620,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-14T00:58:16.942888Z",
-      "latest_at": "2026-07-14T00:58:16.942888Z",
+      "earliest_at": "2026-07-14T00:38:32Z",
+      "latest_at": "2026-07-14T00:38:32Z",
       "primary_item": {
-        "id": "505571f79490fe18955ef5ae607db74059e390b6",
-        "title": "Siri 迎来全面 AI 进化!苹果正式发布 iOS27首个公开测试版",
-        "url": "https://www.aibase.com/news/29554",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "b5851a195823881985167c1306ffc765d134db35",
+        "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
+        "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
+        "source": "X：商汤 SenseTime (@SenseTime_AI)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -584,15 +665,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7476,
-      "importance": 0.7476,
-      "importance_score": 0.7476,
+      "score": 0.741,
+      "importance": 0.741,
+      "importance_score": 0.741,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8054,
+        "recency": 0.7689,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -644,15 +725,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7472,
-      "importance": 0.7472,
-      "importance_score": 0.7472,
+      "score": 0.7405,
+      "importance": 0.7405,
+      "importance_score": 0.7405,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8199,
+        "recency": 0.7827,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -667,6 +748,67 @@
         "url": "https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag",
         "source": "公众号：腾讯混元",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_dd3ee811834c",
+      "title": "200 余名顶尖专家含 16 位诺奖得主联合呼吁：必须引导AI朝着有利于人类的方向发展",
+      "url": "https://www.aibase.com/news/29569",
+      "primary_url": "https://www.aibase.com/news/29569",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1c091a9830f5dd847b0fbc5b459bd189d6d022c0",
+          "title": "200 余名顶尖专家含 16 位诺奖得主联合呼吁：必须引导AI朝着有利于人类的方向发展",
+          "url": "https://www.aibase.com/news/29569",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "1c091a9830f5dd847b0fbc5b459bd189d6d022c0",
+          "title": "200 余名顶尖专家含 16 位诺奖得主联合呼吁：必须引导AI朝着有利于人类的方向发展",
+          "url": "https://www.aibase.com/news/29569",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
+      "primary_item": {
+        "id": "1c091a9830f5dd847b0fbc5b459bd189d6d022c0",
+        "title": "200 余名顶尖专家含 16 位诺奖得主联合呼吁：必须引导AI朝着有利于人类的方向发展",
+        "url": "https://www.aibase.com/news/29569",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -704,15 +846,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7412,
-      "importance": 0.7412,
-      "importance_score": 0.7412,
+      "score": 0.7347,
+      "importance": 0.7347,
+      "importance_score": 0.7347,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8034,
+        "recency": 0.767,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -726,6 +868,66 @@
         "title": "Seedream 5.0 Pro 测评：图像编辑门槛爆降",
         "url": "https://x.com/op7418/status/2076604797202161800",
         "source": "X：歸藏 (@op7418)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_06b01ccbc202",
+      "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
+      "url": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
+      "primary_url": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "3be2a942cb7f57af8a91c3c763b561cee8ebb817",
+          "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
+          "url": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T02:29:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：面壁智能（MiniCPM）"
+      ],
+      "items": [
+        {
+          "id": "3be2a942cb7f57af8a91c3c763b561cee8ebb817",
+          "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
+          "url": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T02:29:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7302,
+      "importance": 0.7302,
+      "importance_score": 0.7302,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9757,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-14T02:29:00Z",
+      "latest_at": "2026-07-14T02:29:00Z",
+      "primary_item": {
+        "id": "3be2a942cb7f57af8a91c3c763b561cee8ebb817",
+        "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
+        "url": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
+        "source": "公众号：面壁智能（MiniCPM）",
         "source_name": "AI HOT"
       }
     },
@@ -783,22 +985,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7552,
-      "importance": 0.7552,
-      "importance_score": 0.7552,
+      "score": 0.7484,
+      "importance": 0.7484,
+      "importance_score": 0.7484,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8254,
+        "recency": 0.788,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-13T11:41:01Z",
       "latest_at": "2026-07-13T11:41:01Z",
@@ -811,162 +1012,184 @@
       }
     },
     {
-      "story_id": "story_dc1c34a70469",
-      "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI芯片税收成主要财源",
-      "url": "https://www.aibase.com/news/29549",
-      "primary_url": "https://www.aibase.com/news/29549",
+      "story_id": "story_391b4b26f79e",
+      "title": "AI主权新突破：德国研究联盟发布开源大模型Soofi S",
+      "url": "https://www.aibase.com/news/29563",
+      "primary_url": "https://www.aibase.com/news/29563",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "351f409b8c43c884be9dede43e04e787aec8793a",
-          "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI芯片税收成主要财源",
-          "url": "https://www.aibase.com/news/29549",
+          "id": "15ce8dbe8436f82066d0136835b15780dcf60f3c",
+          "title": "AI主权新突破：德国研究联盟发布开源大模型Soofi S",
+          "url": "https://www.aibase.com/news/29563",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        },
-        {
-          "id": "5ae22696c15178764cb6beb37d6d6180508ca049",
-          "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI 芯片税收成主要来源",
-          "url": "https://www.ithome.com/0/976/012.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T07:14:40Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "351f409b8c43c884be9dede43e04e787aec8793a",
-          "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI芯片税收成主要财源",
-          "url": "https://www.aibase.com/news/29549",
+          "id": "15ce8dbe8436f82066d0136835b15780dcf60f3c",
+          "title": "AI主权新突破：德国研究联盟发布开源大模型Soofi S",
+          "url": "https://www.aibase.com/news/29563",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        },
-        {
-          "id": "5ae22696c15178764cb6beb37d6d6180508ca049",
-          "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI 芯片税收成主要来源",
-          "url": "https://www.ithome.com/0/976/012.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T07:14:40Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7546,
-      "importance": 0.7546,
-      "importance_score": 0.7546,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.789,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-13T07:14:40Z",
-      "latest_at": "2026-07-13T08:33:47.081477Z",
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
       "primary_item": {
-        "id": "351f409b8c43c884be9dede43e04e787aec8793a",
-        "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI芯片税收成主要财源",
-        "url": "https://www.aibase.com/news/29549",
+        "id": "15ce8dbe8436f82066d0136835b15780dcf60f3c",
+        "title": "AI主权新突破：德国研究联盟发布开源大模型Soofi S",
+        "url": "https://www.aibase.com/news/29563",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_181aad88bf9c",
-      "title": "努比亚AI宠物机器人iMoochi定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-      "url": "https://www.aibase.com/news/29541",
-      "primary_url": "https://www.aibase.com/news/29541",
+      "story_id": "story_282f3f896467",
+      "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑",
+      "url": "https://www.aibase.com/news/29566",
+      "primary_url": "https://www.aibase.com/news/29566",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "9132a8a4bda51df30f925f3d73111d4d7079ddad",
-          "title": "努比亚AI宠物机器人iMoochi定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-          "url": "https://www.aibase.com/news/29541",
+          "id": "f7a6a03b96a5119f6a98d00374a8fc11228bb1b5",
+          "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑",
+          "url": "https://www.aibase.com/news/29566",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T05:02:27.629809Z"
-        },
-        {
-          "id": "525c3271839491bd18897603baa12db3362be93b",
-          "title": "努比亚 AI 宠物机器人 iMoochi 定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-          "url": "https://www.ithome.com/0/975/885.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T02:32:13Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "9132a8a4bda51df30f925f3d73111d4d7079ddad",
-          "title": "努比亚AI宠物机器人iMoochi定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-          "url": "https://www.aibase.com/news/29541",
+          "id": "f7a6a03b96a5119f6a98d00374a8fc11228bb1b5",
+          "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑",
+          "url": "https://www.aibase.com/news/29566",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T05:02:27.629809Z"
-        },
-        {
-          "id": "525c3271839491bd18897603baa12db3362be93b",
-          "title": "努比亚 AI 宠物机器人 iMoochi 定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-          "url": "https://www.ithome.com/0/975/885.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T02:32:13Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7476,
-      "importance": 0.7476,
-      "importance_score": 0.7476,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7499,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-13T02:32:13Z",
-      "latest_at": "2026-07-13T05:02:27.629809Z",
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
       "primary_item": {
-        "id": "9132a8a4bda51df30f925f3d73111d4d7079ddad",
-        "title": "努比亚AI宠物机器人iMoochi定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
-        "url": "https://www.aibase.com/news/29541",
+        "id": "f7a6a03b96a5119f6a98d00374a8fc11228bb1b5",
+        "title": "Meta大手笔：斥资 500 亿美元打造5GW数据中心，AI算力格局迎来重塑",
+        "url": "https://www.aibase.com/news/29566",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_c4995cdde0fd",
+      "title": "OpenAI发布用户提示词指南:面向常规界面与Codex构建统一框架",
+      "url": "https://www.aibase.com/news/29565",
+      "primary_url": "https://www.aibase.com/news/29565",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a3685dbdd2712fcff0bd13481221fa0f78f0cf97",
+          "title": "OpenAI发布用户提示词指南:面向常规界面与Codex构建统一框架",
+          "url": "https://www.aibase.com/news/29565",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "a3685dbdd2712fcff0bd13481221fa0f78f0cf97",
+          "title": "OpenAI发布用户提示词指南:面向常规界面与Codex构建统一框架",
+          "url": "https://www.aibase.com/news/29565",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-14T04:11:03.143830Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
+      "primary_item": {
+        "id": "a3685dbdd2712fcff0bd13481221fa0f78f0cf97",
+        "title": "OpenAI发布用户提示词指南:面向常规界面与Codex构建统一框架",
+        "url": "https://www.aibase.com/news/29565",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1078,15 +1301,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6508,
-      "importance": 0.6508,
-      "importance_score": 0.6508,
+      "score": 0.6435,
+      "importance": 0.6435,
+      "importance_score": 0.6435,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8979,
+        "recency": 0.8572,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1104,21 +1327,21 @@
       }
     },
     {
-      "story_id": "story_05bb3eadde15",
-      "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
-      "url": "https://www.aibase.com/news/29552",
-      "primary_url": "https://www.aibase.com/news/29552",
+      "story_id": "story_c09037e36347",
+      "title": "OpenAI员工集体声援CEO奥尔特曼：他乐于听取不同意见，内部批评文化被赞\"有人情味\"",
+      "url": "https://www.aibase.com/news/29555",
+      "primary_url": "https://www.aibase.com/news/29555",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "a576d1a2cef8248f32acae9eff1f657628d2ed6f",
-          "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
-          "url": "https://www.aibase.com/news/29552",
+          "id": "d55338b63416856fa44870e4012afff610ec441e",
+          "title": "OpenAI员工集体声援CEO奥尔特曼：他乐于听取不同意见，内部批评文化被赞\"有人情味\"",
+          "url": "https://www.aibase.com/news/29555",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
       "source_count": 1,
@@ -1127,98 +1350,39 @@
       ],
       "items": [
         {
-          "id": "a576d1a2cef8248f32acae9eff1f657628d2ed6f",
-          "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
-          "url": "https://www.aibase.com/news/29552",
+          "id": "d55338b63416856fa44870e4012afff610ec441e",
+          "title": "OpenAI员工集体声援CEO奥尔特曼：他乐于听取不同意见，内部批评文化被赞\"有人情味\"",
+          "url": "https://www.aibase.com/news/29555",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
+          "published_at": "2026-07-14T04:11:03.143830Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8315,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-13T12:11:28.211780Z",
-      "latest_at": "2026-07-13T12:11:28.211780Z",
+      "earliest_at": "2026-07-14T04:11:03.143830Z",
+      "latest_at": "2026-07-14T04:11:03.143830Z",
       "primary_item": {
-        "id": "a576d1a2cef8248f32acae9eff1f657628d2ed6f",
-        "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
-        "url": "https://www.aibase.com/news/29552",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_0bd34d8ebc49",
-      "title": "微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-      "url": "https://www.aibase.com/news/29553",
-      "primary_url": "https://www.aibase.com/news/29553",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "4e33eb43aa48079fde1096428514561723a95a0c",
-          "title": "微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-          "url": "https://www.aibase.com/news/29553",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "4e33eb43aa48079fde1096428514561723a95a0c",
-          "title": "微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-          "url": "https://www.aibase.com/news/29553",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8315,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-13T12:11:28.211780Z",
-      "latest_at": "2026-07-13T12:11:28.211780Z",
-      "primary_item": {
-        "id": "4e33eb43aa48079fde1096428514561723a95a0c",
-        "title": "微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
-        "url": "https://www.aibase.com/news/29553",
+        "id": "d55338b63416856fa44870e4012afff610ec441e",
+        "title": "OpenAI员工集体声援CEO奥尔特曼：他乐于听取不同意见，内部批评文化被赞\"有人情味\"",
+        "url": "https://www.aibase.com/news/29555",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1276,15 +1440,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6084,
-      "importance": 0.6084,
-      "importance_score": 0.6084,
+      "score": 0.6011,
+      "importance": 0.6011,
+      "importance_score": 0.6011,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.58,
         "ai_relevance": 0.71,
-        "recency": 0.8913,
+        "recency": 0.8509,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1299,243 +1463,6 @@
         "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
         "source": "The Verge",
         "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_a1fa564a6b63",
-      "title": "如果用户选择退出人工智能培训，三星健康应用程序将威胁删除数据 / Samsung Health app threatens data deletion if users opt out AI training",
-      "url": "https://news.ycombinator.com/item?id=48897991",
-      "primary_url": "https://news.ycombinator.com/item?id=48897991",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "6947d58fc5d2051e11831d0ae972e88f520cd981",
-          "title": "如果用户选择退出人工智能培训，三星健康应用程序将威胁删除数据 / Samsung Health app threatens data deletion if users opt out AI training",
-          "url": "https://news.ycombinator.com/item?id=48897991",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-13T22:01:47.303000Z"
-        },
-        {
-          "id": "1bbe17350152f4ded5bcf208f9006d04f9f4ca97",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "neow.in",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-13T21:50:30.967000Z"
-        },
-        {
-          "id": "86c079d51682f3a7544c9ab44a03de4bf121a974",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据 / Samsung Health app threatens data deletion if users opt out AI training",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T20:01:43Z"
-        },
-        {
-          "id": "db8ffc72498a5e04787bec6c4c0142816fb3bf1e",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据 / Samsung will delete your health data if you don't let them use it to train AI",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-13T20:01:43Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "neow.in"
-      ],
-      "items": [
-        {
-          "id": "6947d58fc5d2051e11831d0ae972e88f520cd981",
-          "title": "如果用户选择退出人工智能培训，三星健康应用程序将威胁删除数据 / Samsung Health app threatens data deletion if users opt out AI training",
-          "url": "https://news.ycombinator.com/item?id=48897991",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-13T22:01:47.303000Z"
-        },
-        {
-          "id": "1bbe17350152f4ded5bcf208f9006d04f9f4ca97",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "neow.in",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-13T21:50:30.967000Z"
-        },
-        {
-          "id": "86c079d51682f3a7544c9ab44a03de4bf121a974",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据 / Samsung Health app threatens data deletion if users opt out AI training",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-13T20:01:43Z"
-        },
-        {
-          "id": "db8ffc72498a5e04787bec6c4c0142816fb3bf1e",
-          "title": "如果您不允许三星将您的健康数据用于训练人工智能，三星将删除这些数据 / Samsung will delete your health data if you don't let them use it to train AI",
-          "url": "https://neow.in/cWsyMTV3",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-13T20:01:43Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5883,
-      "importance": 0.5883,
-      "importance_score": 0.5883,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9584,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-13T20:01:43Z",
-      "latest_at": "2026-07-13T22:01:47.303000Z",
-      "primary_item": {
-        "id": "6947d58fc5d2051e11831d0ae972e88f520cd981",
-        "title": "如果用户选择退出人工智能培训，三星健康应用程序将威胁删除数据 / Samsung Health app threatens data deletion if users opt out AI training",
-        "url": "https://news.ycombinator.com/item?id=48897991",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_b3c3f980dac1",
-      "title": "米哈游AI陪伴软件《BSide: Olivia Lin》开启抢先体验，支持MIDI上传生成音乐视频",
-      "url": "https://www.aibase.com/news/29550",
-      "primary_url": "https://www.aibase.com/news/29550",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "c11b08a26ab91efa3bcfa74723d76a64d60947a6",
-          "title": "米哈游AI陪伴软件《BSide: Olivia Lin》开启抢先体验，支持MIDI上传生成音乐视频",
-          "url": "https://www.aibase.com/news/29550",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "c11b08a26ab91efa3bcfa74723d76a64d60947a6",
-          "title": "米哈游AI陪伴软件《BSide: Olivia Lin》开启抢先体验，支持MIDI上传生成音乐视频",
-          "url": "https://www.aibase.com/news/29550",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T12:11:28.211780Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8315,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-13T12:11:28.211780Z",
-      "latest_at": "2026-07-13T12:11:28.211780Z",
-      "primary_item": {
-        "id": "c11b08a26ab91efa3bcfa74723d76a64d60947a6",
-        "title": "米哈游AI陪伴软件《BSide: Olivia Lin》开启抢先体验，支持MIDI上传生成音乐视频",
-        "url": "https://www.aibase.com/news/29550",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_86c792186562",
-      "title": "哈啰试水AI校园社交，推出精准交友产品“Match”",
-      "url": "https://www.aibase.com/news/29544",
-      "primary_url": "https://www.aibase.com/news/29544",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "67fa45155b3ba23d32ef90dcc8be13c8c9ccd291",
-          "title": "哈啰试水AI校园社交，推出精准交友产品“Match”",
-          "url": "https://www.aibase.com/news/29544",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "67fa45155b3ba23d32ef90dcc8be13c8c9ccd291",
-          "title": "哈啰试水AI校园社交，推出精准交友产品“Match”",
-          "url": "https://www.aibase.com/news/29544",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-13T08:33:47.081477Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7296,
-      "importance": 0.7296,
-      "importance_score": 0.7296,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.789,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-13T08:33:47.081477Z",
-      "latest_at": "2026-07-13T08:33:47.081477Z",
-      "primary_item": {
-        "id": "67fa45155b3ba23d32ef90dcc8be13c8c9ccd291",
-        "title": "哈啰试水AI校园社交，推出精准交友产品“Match”",
-        "url": "https://www.aibase.com/news/29544",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
