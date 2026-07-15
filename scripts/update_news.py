@@ -182,6 +182,42 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "从选题到结题全程陪你：我把教改手册重做成了技能",
+        "url": "https://mp.weixin.qq.com/s/XgadaOQ2fVVc1wExZQnLfg",
+        "published_at": "2026-07-15T05:30:00+08:00",
+        "article_theme": (
+            "把教改申报与结题流程重做成可调用 Skill：让选题、模板、证据积累和结题材料形成连续工作流。"
+        ),
+        "summary": (
+            "这篇文章说明慢老师把教改手册重做成技能系统，围绕教改申报到结题的全过程，"
+            "让工具记住真实模板，帮助科研人持续积累证据、组织材料并推进结题。"
+        ),
+    },
+    {
+        "title": "Codex 把 5 小时限制拆了，趁现在",
+        "url": "https://mp.weixin.qq.com/s/WZO8sfTCxR8A7lgIGL-OrQ",
+        "published_at": "2026-07-13T07:22:10+08:00",
+        "article_theme": (
+            "围绕 Codex 使用限制和额度变化，提醒科研人趁工具窗口期整理长任务、批量任务和工作流资产。"
+        ),
+        "summary": (
+            "这篇文章记录 Codex 相关使用限制变化带来的短期窗口，提示科研人把长任务、"
+            "批量处理和可复用工作流尽快沉淀下来，避免只把工具当作临时聊天入口。"
+        ),
+    },
+    {
+        "title": "让 Codex 记住你：科研人必须掌握的三套记忆系统",
+        "url": "https://mp.weixin.qq.com/s/8LWjXFwJYGnO6_9OKZgW9A",
+        "published_at": "2026-07-13T05:30:00+08:00",
+        "article_theme": (
+            "科研人使用 Codex 的三套记忆系统：把个人偏好、项目规则和反复踩坑的稳定流程分层沉淀。"
+        ),
+        "summary": (
+            "这篇文章从 Codex 容易忘记上下文的真实体验出发，讲清科研人应该如何区分全局偏好、"
+            "项目规则和可复用流程记忆，让智能体逐步理解自己的工作方式。"
+        ),
+    },
+    {
         "title": "读者问，第六版顶刊SCI究竟做了哪些升级呢？",
         "url": "https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw",
         "published_at": "2026-07-10T11:00:00+08:00",

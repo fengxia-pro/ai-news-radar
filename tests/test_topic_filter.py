@@ -672,13 +672,14 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertNotIn("固定入口", serialized)
 
     def test_slow_professor_user_confirmed_recent_wechat_links_are_listed(self):
-        now = datetime(2026, 7, 10, 8, 0, tzinfo=timezone.utc)
+        now = datetime(2026, 7, 15, 0, 0, tzinfo=timezone.utc)
         expected_urls = {
+            "https://mp.weixin.qq.com/s/XgadaOQ2fVVc1wExZQnLfg",
+            "https://mp.weixin.qq.com/s/WZO8sfTCxR8A7lgIGL-OrQ",
+            "https://mp.weixin.qq.com/s/8LWjXFwJYGnO6_9OKZgW9A",
             "https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw",
             "https://mp.weixin.qq.com/s/KvhRQ2tXFcbOjv_xGQUpyQ",
             "https://mp.weixin.qq.com/s/iWltAp671aETBDfJ6_ZL5g",
-            "https://mp.weixin.qq.com/s/OLsdBnQ_BwGkBUFeRO-Cpg",
-            "https://mp.weixin.qq.com/s/JUK76dFQdVQ3BtjZBi4_wQ",
         }
         manual_urls = {item["url"] for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES}
 
@@ -690,7 +691,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
                 "ok": True,
                 "item_count": 0,
             }],
-            generated_at="2026-07-10T08:00:00Z",
+            generated_at="2026-07-15T00:00:00Z",
             now=now,
         )
         payload_items = {item["url"]: item for item in payload["items"]}
@@ -701,6 +702,12 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
             self.assertTrue(payload_items[url].get("title"))
+        self.assertEqual(payload_items["https://mp.weixin.qq.com/s/XgadaOQ2fVVc1wExZQnLfg"]["title"], "从选题到结题全程陪你：我把教改手册重做成了技能")
+        self.assertIn("教改申报", payload_items["https://mp.weixin.qq.com/s/XgadaOQ2fVVc1wExZQnLfg"]["article_theme"])
+        self.assertEqual(payload_items["https://mp.weixin.qq.com/s/WZO8sfTCxR8A7lgIGL-OrQ"]["title"], "Codex 把 5 小时限制拆了，趁现在")
+        self.assertIn("额度变化", payload_items["https://mp.weixin.qq.com/s/WZO8sfTCxR8A7lgIGL-OrQ"]["article_theme"])
+        self.assertEqual(payload_items["https://mp.weixin.qq.com/s/8LWjXFwJYGnO6_9OKZgW9A"]["title"], "让 Codex 记住你：科研人必须掌握的三套记忆系统")
+        self.assertIn("三套记忆系统", payload_items["https://mp.weixin.qq.com/s/8LWjXFwJYGnO6_9OKZgW9A"]["article_theme"])
         self.assertEqual(
             payload_items["https://mp.weixin.qq.com/s/3I8eZ-dz_gQOLSiIyqfbiw"]["title"],
             "读者问，第六版顶刊SCI究竟做了哪些升级呢？",
@@ -746,6 +753,9 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn("function slowProfessorArticleThemeText", app_js)
         self.assertIn("article-theme", app_js)
         self.assertIn("文章主题", app_js)
+        self.assertIn("慢教授的科研江湖公众号文章", app_js)
+        self.assertIn("const slowProfessorItemCount = state.slowProfessorItems.length || slowProfessor.item_count || 0;", app_js)
+        self.assertNotIn("慢教授专题", app_js)
         self.assertIn("wechat_ai_watts", app_js)
         self.assertIn("AI沃茨", app_js)
 
