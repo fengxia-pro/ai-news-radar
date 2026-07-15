@@ -3927,7 +3927,7 @@ def build_slow_professor_payload(
     return {
         "generated_at": generated_at,
         "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
-        "topic": "慢教授科研江湖",
+        "topic": "慢教授的科研江湖公众号文章",
         "total_items": len(records),
         "items": records,
         "confirmed_entry_count": len(confirmed_entries),
