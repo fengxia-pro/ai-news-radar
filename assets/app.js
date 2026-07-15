@@ -119,7 +119,7 @@ const SOURCE_KINDS = {
   waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
   opmlrss: { label: "OPML", tone: "newsletter" },
-  wechat_slow_professor: { label: "慢教授的科研江湖公众号文章", tone: "newsletter" },
+  wechat_slow_professor: { label: "慢教授的科研江湖文章", tone: "newsletter" },
   wechat_ai_watts: { label: "AI沃茨", tone: "creator" },
   grant_qstheory: { label: "求是政策", tone: "official" },
   grant_nsfc: { label: "国自然", tone: "official" },
@@ -182,7 +182,7 @@ const MODEL_SCORE_RESEARCH_IMAGE = "./assets/screenshots/research-first-principl
 
 const SECTION_DEFS = [
   { id: "grant_policy", label: "国自然", short: "国自然", description: "国自然、科研政策、基础研究期刊和国际对标入口" },
-  { id: "slow_professor", label: "慢教授的科研江湖公众号文章", short: "慢教授的科研江湖公众号文章", description: "慢教授的科研江湖公众号文章与已确认入口" },
+  { id: "slow_professor", label: "慢教授的科研江湖文章", short: "慢教授的科研江湖文章", description: "慢教授的科研江湖文章与已确认入口" },
   { id: "github_projects", label: "GitHub", short: "GitHub", description: "HelloGitHub、科技爱好者周刊、Awesome 推荐的好玩开源项目" },
   { id: "model_scores", label: "模型评分", short: "模型评分", description: "Vellum LLM Leaderboard 的最新模型评分与任务榜单" },
   { id: "hot", label: "热点流（优先看）", short: "热点流", description: "高优先级信号流：按来源质量、AI 相关度、时间和编辑分排序" },
@@ -332,7 +332,7 @@ function renderStickySummary() {
   }
   if (state.activeSection === "slow_professor") {
     const confirmedCount = state.slowProfessorConfirmedEntries.length;
-    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授的科研江湖公众号文章 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授的科研江湖文章 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
   if (state.activeSection === "github_projects") {
@@ -511,7 +511,7 @@ function renderCoverageStrip(errorMessage = "") {
     : "专题待生成";
   const slowProfessorMeta = slowProfessor.enabled
     ? `近一周 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessorSourceModeLabel(slowProfessor.source_mode, true)}`
-    : "慢教授的科研江湖公众号文章";
+    : "慢教授的科研江湖文章";
   const githubValue = githubProjects.enabled
     ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
     : "项目待生成";
@@ -533,7 +533,7 @@ function renderCoverageStrip(errorMessage = "") {
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["国自然专题", grantValue, grantMeta, "official"],
     ["高校教师书架", `${fmtNumber(grantBookCount)} 条`, `候选待核 ${fmtNumber(grantBookCandidateCount)} 条 · 慢老师读书方法论`, "official"],
-    ["慢教授的科研江湖公众号文章", slowProfessorValue, slowProfessorMeta, "private"],
+    ["慢教授的科研江湖文章", slowProfessorValue, slowProfessorMeta, "private"],
     ["GitHub项目", githubValue, githubMeta, "builders"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
@@ -827,7 +827,7 @@ function renderModeSwitch() {
   } else if (state.activeSection === "grant_books") {
     modeHintEl.textContent = `高校教师书架 · ${fmtNumber(state.grantBookItems.length)} 条`;
   } else if (state.activeSection === "slow_professor") {
-    modeHintEl.textContent = `慢教授的科研江湖公众号文章 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
+    modeHintEl.textContent = `慢教授的科研江湖文章 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
   } else if (state.activeSection === "github_projects") {
     modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
   } else if (state.activeSection === "model_scores") {
@@ -850,7 +850,7 @@ function renderModeSwitch() {
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   if (state.activeSection === "grant_books") return "高校教师书架 · 阅读门槛";
-  if (state.activeSection === "slow_professor") return "慢教授的科研江湖公众号文章";
+  if (state.activeSection === "slow_professor") return "慢教授的科研江湖文章";
   if (state.activeSection === "github_projects") return "GitHub · 好玩项目榜";
   if (state.activeSection === "model_scores") return `模型评分 · Vellum LLM Leaderboard · ${modelScoreTimeText("title")}`;
   const pool = state.mode === "all"
@@ -1415,7 +1415,7 @@ function sourceSignal(item) {
   const source = item.source || "";
   const hay = `${site} ${source}`.toLowerCase();
   if (site === "AI HOT") return "AI HOT精选";
-  if (item.site_id === "wechat_slow_professor" || hay.includes("慢教授")) return "慢教授的科研江湖公众号文章";
+  if (item.site_id === "wechat_slow_professor" || hay.includes("慢教授")) return "慢教授的科研江湖文章";
   if (hay.includes("hackernews") || hay.includes("hacker news")) return "HN热议";
   if (hay.includes("hellogithub")) return "HelloGitHub";
   if (hay.includes("科技爱好者周刊") || hay.includes("weekly")) return "科技周刊";
@@ -1435,7 +1435,7 @@ function sourcePriority(item) {
   if (signal === "官方更新") return 100;
   if (signal === "AI HOT精选") return 90;
   if (signal === "AIbase") return 82;
-  if (signal === "慢教授的科研江湖公众号文章") return 82;
+  if (signal === "慢教授的科研江湖文章") return 82;
   if (signal === "HelloGitHub") return 80;
   if (signal === "科技周刊") return 76;
   if (signal === "Awesome") return 68;
@@ -2553,7 +2553,7 @@ function renderBolePicks() {
     topStoriesTitleEl.textContent = state.activeSection === "hot"
       ? "当前热点"
       : state.activeSection === "slow_professor"
-      ? "慢教授的科研江湖公众号文章"
+      ? "慢教授的科研江湖文章"
       : `${section.label}重点信号`;
   }
   const storyMeta = usesStories
@@ -2629,7 +2629,7 @@ function itemTagLabels(item, row = null) {
   if (item.site_id === "official_ai") tags.push("官方");
   if (item.site_id === "aihot") tags.push("AI HOT");
   if (sections.has("grant_policy")) tags.push("国自然");
-  if (sections.has("slow_professor")) tags.push("慢教授的科研江湖公众号文章");
+  if (sections.has("slow_professor")) tags.push("慢教授的科研江湖文章");
   if (sections.has("github_projects")) tags.push("GitHub项目");
   if (sections.has("models")) tags.push("模型发布");
   if (sections.has("devtools")) tags.push("开发者");
@@ -3713,7 +3713,7 @@ function renderGrantPolicy(data = state.grantPolicyData) {
       `公开源 ${fmtNumber(okSources)}/${fmtNumber(sources.length)}`,
       `专题条目 ${fmtNumber(items.length)}`,
       `国际入口 ${fmtNumber(refs.length)}`,
-      "公众号已拆到慢教授的科研江湖公众号文章",
+      "公众号已拆到慢教授的科研江湖文章",
     ];
     parts.forEach((text, index) => {
       if (index) {

@@ -590,7 +590,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             now=now,
         )
 
-        self.assertEqual(payload["topic"], "慢教授的科研江湖公众号文章")
+        self.assertEqual(payload["topic"], "慢教授的科研江湖文章")
         self.assertGreaterEqual(payload["total_items"], 2)
         self.assertTrue(any("近一周文章" in item["title"] for item in payload["items"]))
         self.assertTrue(any("超过三天但仍要显示" in item["title"] for item in payload["items"]))
@@ -753,10 +753,10 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn("function slowProfessorArticleThemeText", app_js)
         self.assertIn("article-theme", app_js)
         self.assertIn("文章主题", app_js)
-        self.assertIn('{ id: "slow_professor", label: "慢教授的科研江湖公众号文章"', app_js)
-        self.assertIn('wechat_slow_professor: { label: "慢教授的科研江湖公众号文章"', app_js)
-        self.assertIn('tags.push("慢教授的科研江湖公众号文章")', app_js)
-        self.assertIn("慢教授的科研江湖公众号文章", app_js)
+        self.assertIn('{ id: "slow_professor", label: "慢教授的科研江湖文章"', app_js)
+        self.assertIn('wechat_slow_professor: { label: "慢教授的科研江湖文章"', app_js)
+        self.assertIn('tags.push("慢教授的科研江湖文章")', app_js)
+        self.assertIn("慢教授的科研江湖文章", app_js)
         self.assertIn("const slowProfessorItemCount = state.slowProfessorItems.length || slowProfessor.item_count || 0;", app_js)
         self.assertNotIn("慢教授专题", app_js)
         self.assertIn("wechat_ai_watts", app_js)
