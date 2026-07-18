@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-17T23:26:54.841991Z",
+  "generated_at": "2026-07-18T00:59:39.386661Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 184,
-      "duration_ms": 8715,
+      "item_count": 183,
+      "duration_ms": 8934,
       "error": null
     },
     {
       "site_id": "curated_media",
       "site_name": "Curated Media",
       "ok": true,
-      "item_count": 31,
-      "duration_ms": 2438,
+      "item_count": 45,
+      "duration_ms": 3645,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 6,
-      "duration_ms": 204,
+      "duration_ms": 205,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 40,
-      "duration_ms": 27,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 413,
+      "duration_ms": 457,
       "error": null
     },
     {
@@ -46,15 +46,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 267,
+      "duration_ms": 309,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 366,
-      "duration_ms": 11550,
+      "item_count": 368,
+      "duration_ms": 11167,
       "error": null
     },
     {
@@ -62,23 +62,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1117,
+      "duration_ms": 1385,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3040,
-      "duration_ms": 831,
+      "item_count": 3036,
+      "duration_ms": 1783,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 62,
-      "duration_ms": 639,
+      "item_count": 65,
+      "duration_ms": 4158,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "Hacker News",
       "ok": true,
       "item_count": 5,
-      "duration_ms": 6005,
+      "duration_ms": 15542,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "微信公众号：兔教授是我",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 2271,
+      "duration_ms": 2813,
       "error": null
     },
     {
@@ -110,7 +110,7 @@
       "site_name": "微信公众号：数字生命卡兹克",
       "ok": true,
       "item_count": 2,
-      "duration_ms": 3374,
+      "duration_ms": 3482,
       "error": null
     },
     {
@@ -118,7 +118,7 @@
       "site_name": "微信公众号：AI沃茨",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1281,
+      "duration_ms": 2029,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 25,
-      "duration_ms": 309,
+      "duration_ms": 402,
       "error": null
     },
     {
@@ -134,31 +134,31 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1132,
+      "duration_ms": 2601,
       "error": null
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "ok": true,
-      "item_count": 103,
-      "duration_ms": 266,
+      "item_count": 102,
+      "duration_ms": 1073,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
-      "ok": true,
-      "item_count": 124,
-      "duration_ms": 1656,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 28753,
+      "error": "HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=36kr (Caused by ResponseError('too many 500 error responses'))"
     },
     {
       "site_id": "grant_qstheory",
       "site_name": "求是网",
       "ok": true,
       "item_count": 30,
-      "duration_ms": 1417,
+      "duration_ms": 1289,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.qstheory.cn/",
@@ -169,7 +169,7 @@
       "site_name": "国家自然科学基金委员会",
       "ok": true,
       "item_count": 12,
-      "duration_ms": 1752,
+      "duration_ms": 2678,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.nsfc.gov.cn/",
@@ -180,7 +180,7 @@
       "site_name": "国家自然科学基金委员会",
       "ok": true,
       "item_count": 30,
-      "duration_ms": 224,
+      "duration_ms": 228,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
@@ -191,7 +191,7 @@
       "site_name": "Fundamental Research",
       "ok": true,
       "item_count": 76,
-      "duration_ms": 49283,
+      "duration_ms": 49267,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciencedirect.com/journal/fundamental-research",
@@ -202,7 +202,7 @@
       "site_name": "中国科学基金",
       "ok": true,
       "item_count": 18,
-      "duration_ms": 3837,
+      "duration_ms": 3291,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/BNSFC/home",
@@ -213,7 +213,7 @@
       "site_name": "香山科学会议",
       "ok": true,
       "item_count": 16,
-      "duration_ms": 2309,
+      "duration_ms": 2561,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew",
@@ -224,7 +224,7 @@
       "site_name": "国家科技管理信息系统",
       "ok": true,
       "item_count": 0,
-      "duration_ms": 1514,
+      "duration_ms": 1516,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://service.most.gov.cn/",
@@ -235,7 +235,7 @@
       "site_name": "科学通报",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2592,
+      "duration_ms": 2527,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "https://www.sciengine.com/CSB/home",
@@ -246,7 +246,7 @@
       "site_name": "中国科学院科技战略咨询研究院",
       "ok": true,
       "item_count": 8,
-      "duration_ms": 1171,
+      "duration_ms": 1045,
       "error": null,
       "source_group": "grant_policy",
       "source_url": "http://www.casisd.cn/",
@@ -257,7 +257,7 @@
       "site_name": "HelloGitHub",
       "ok": true,
       "item_count": 48,
-      "duration_ms": 673,
+      "duration_ms": 802,
       "error": null,
       "source_group": "github_projects",
       "source_url": "https://github.com/521xueweihan/HelloGitHub",
@@ -268,7 +268,7 @@
       "site_name": "科技爱好者周刊",
       "ok": true,
       "item_count": 46,
-      "duration_ms": 888,
+      "duration_ms": 980,
       "error": null,
       "source_group": "github_projects",
       "source_url": "https://github.com/ruanyf/weekly",
@@ -279,7 +279,7 @@
       "site_name": "Awesome",
       "ok": true,
       "item_count": 42,
-      "duration_ms": 119,
+      "duration_ms": 170,
       "error": null,
       "source_group": "github_projects",
       "source_url": "https://github.com/sindresorhus/awesome",
@@ -290,7 +290,7 @@
       "site_name": "WaytoAGI",
       "ok": true,
       "item_count": 6,
-      "duration_ms": 5396,
+      "duration_ms": 5300,
       "error": null
     },
     {
@@ -299,7 +299,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 2238,
-      "duration_ms": 5563,
+      "duration_ms": 7222,
       "error": null,
       "feed_count": 13,
       "effective_feed_count": 13,
@@ -309,16 +309,18 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 33,
-  "failed_sites": [],
+  "successful_sites": 32,
+  "failed_sites": [
+    "newsnow"
+  ],
   "zero_item_sites": [
     "wechat_slow_professor",
     "grant_most_service"
   ],
   "empty_advanced_sources": [],
-  "fetched_raw_items": 7404,
-  "items_before_topic_filter": 6940,
-  "items_in_24h": 744,
+  "fetched_raw_items": 7293,
+  "items_before_topic_filter": 6931,
+  "items_in_24h": 745,
   "grant_policy": {
     "enabled": true,
     "item_count": 210,
@@ -376,7 +378,7 @@
         "effective_feed_url": "https://baoyu.io/feed.xml",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 550,
+        "duration_ms": 802,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -392,7 +394,7 @@
         "effective_feed_url": "https://github.blog/changelog/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 135,
+        "duration_ms": 66,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -408,7 +410,7 @@
         "effective_feed_url": "https://blog.google/technology/ai/rss/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 247,
+        "duration_ms": 253,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -424,7 +426,7 @@
         "effective_feed_url": "https://deepmind.google/blog/rss.xml",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 333,
+        "duration_ms": 373,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -440,7 +442,7 @@
         "effective_feed_url": "https://blog.google/technology/developers/rss/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 272,
+        "duration_ms": 245,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -456,7 +458,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 829,
-        "duration_ms": 309,
+        "duration_ms": 703,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -472,7 +474,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1269,
+        "duration_ms": 1259,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -488,7 +490,7 @@
         "effective_feed_url": "https://blog.langchain.com/rss/",
         "ok": true,
         "item_count": 0,
-        "duration_ms": 696,
+        "duration_ms": 920,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -504,7 +506,7 @@
         "effective_feed_url": "https://news.microsoft.com/source/topics/ai/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 129,
+        "duration_ms": 120,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -520,7 +522,7 @@
         "effective_feed_url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
         "ok": true,
         "item_count": 100,
-        "duration_ms": 818,
+        "duration_ms": 789,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -536,7 +538,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 1039,
-        "duration_ms": 626,
+        "duration_ms": 1363,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -552,7 +554,7 @@
         "effective_feed_url": "https://simonwillison.net/atom/everything/",
         "ok": true,
         "item_count": 30,
-        "duration_ms": 99,
+        "duration_ms": 194,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -568,7 +570,7 @@
         "effective_feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 80,
+        "duration_ms": 135,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -600,7 +602,7 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-07-17",
+    "generated_date_utc": "2026-07-18",
     "disabled_reason": "no_bearer_token"
   },
   "socialdata": {
@@ -625,7 +627,7 @@
     "run_utc_minute_max": 10,
     "last_run_at": "2026-06-29T21:07:48.528628Z",
     "last_success_at": "2026-06-29T21:07:48.528628Z",
-    "generated_date_utc": "2026-07-17",
+    "generated_date_utc": "2026-07-18",
     "disabled_reason": "no_api_key"
   },
   "tikhub": {
@@ -655,7 +657,7 @@
     "run_utc_minute_max": 10,
     "last_run_at": "2026-06-29T09:01:44.281285Z",
     "last_success_at": "2026-06-29T09:01:44.281285Z",
-    "generated_date_utc": "2026-07-17",
+    "generated_date_utc": "2026-07-18",
     "disabled_reason": "no_api_key"
   }
 }
