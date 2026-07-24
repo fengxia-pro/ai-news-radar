@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T01:01:32.548256Z",
+  "generated_at": "2026-07-24T07:35:37.188634Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8517,
-      "importance": 0.8517,
-      "importance_score": 0.8517,
+      "score": 0.8359,
+      "importance": 0.8359,
+      "importance_score": 0.8359,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9647,
+        "recency": 0.8774,
         "story_heat": 0.0
       },
       "category": "official",
@@ -157,15 +157,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8335,
-      "importance": 0.8335,
-      "importance_score": 0.8335,
+      "score": 0.8183,
+      "importance": 0.8183,
+      "importance_score": 0.8183,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9326,
+        "recency": 0.8482,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -219,15 +219,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8449,
-      "importance": 0.8449,
-      "importance_score": 0.8449,
+      "score": 0.8298,
+      "importance": 0.8298,
+      "importance_score": 0.8298,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9273,
+        "recency": 0.8434,
         "story_heat": 0.0
       },
       "category": "official",
@@ -244,6 +244,372 @@
         "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_37e28291df02",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "url": "https://www.ithome.com/0/981/137.htm",
+      "primary_url": "https://www.ithome.com/0/981/137.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+          "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T06:48:04Z"
+        },
+        {
+          "id": "62bcc0d11d0dc1598af8fbe54037057aec7de792",
+          "title": "FLUX 3 多模态 AI 模型登场：支持单次生成 20 秒多样化视频",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-24T06:48:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+          "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T06:48:04Z"
+        },
+        {
+          "id": "62bcc0d11d0dc1598af8fbe54037057aec7de792",
+          "title": "FLUX 3 多模态 AI 模型登场：支持单次生成 20 秒多样化视频",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-24T06:48:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7936,
+      "importance": 0.7936,
+      "importance_score": 0.7936,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9886,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T06:48:04Z",
+      "latest_at": "2026-07-24T06:48:04Z",
+      "primary_item": {
+        "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+        "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+        "url": "https://www.ithome.com/0/981/137.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_4efe088ce067",
+      "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+      "url": "https://www.aibase.com/news/29870",
+      "primary_url": "https://www.aibase.com/news/29870",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "url": "https://www.aibase.com/news/29870",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        },
+        {
+          "id": "6c28fad4160110e958f4ea6ff7e868b01640a370",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "url": "https://www.aibase.com/zh/news/29870",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "url": "https://www.aibase.com/news/29870",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        },
+        {
+          "id": "6c28fad4160110e958f4ea6ff7e868b01640a370",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "url": "https://www.aibase.com/zh/news/29870",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T07:35:37.188634Z",
+      "latest_at": "2026-07-24T07:35:37.188634Z",
+      "primary_item": {
+        "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+        "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+        "url": "https://www.aibase.com/news/29870",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_53c15e4668db",
+      "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+      "primary_url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
+          "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T20:38:22Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
+          "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T20:38:22Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8257,
+      "importance": 0.8257,
+      "importance_score": 0.8257,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8537,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T20:38:22Z",
+      "latest_at": "2026-07-23T20:38:22Z",
+      "primary_item": {
+        "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
+        "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+        "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_95b1a68f21aa",
+      "title": "德国黑森林实验室发布Flux3 多模态模型：原生音频生成， 20 秒音视频同步输出",
+      "url": "https://www.aibase.com/news/29865",
+      "primary_url": "https://www.aibase.com/news/29865",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b00270cbadede8a5f07839b1d3db8f69424deb3f",
+          "title": "德国黑森林实验室发布Flux3 多模态模型：原生音频生成， 20 秒音视频同步输出",
+          "url": "https://www.aibase.com/news/29865",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        },
+        {
+          "id": "bf868498ddc784929084cf9bf3b0ca22cc18702a",
+          "title": "德国黑森林实验室发布 Flux3 多模态模型：原生音频生成，20 秒音视频同步输出",
+          "url": "https://www.aibase.com/zh/news/29865",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "b00270cbadede8a5f07839b1d3db8f69424deb3f",
+          "title": "德国黑森林实验室发布Flux3 多模态模型：原生音频生成， 20 秒音视频同步输出",
+          "url": "https://www.aibase.com/news/29865",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        },
+        {
+          "id": "bf868498ddc784929084cf9bf3b0ca22cc18702a",
+          "title": "德国黑森林实验室发布 Flux3 多模态模型：原生音频生成，20 秒音视频同步输出",
+          "url": "https://www.aibase.com/zh/news/29865",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T07:35:37.188634Z",
+      "latest_at": "2026-07-24T07:35:37.188634Z",
+      "primary_item": {
+        "id": "b00270cbadede8a5f07839b1d3db8f69424deb3f",
+        "title": "德国黑森林实验室发布Flux3 多模态模型：原生音频生成， 20 秒音视频同步输出",
+        "url": "https://www.aibase.com/news/29865",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_b2558e56df95",
+      "title": "ChatGPT 桌面版上线语音控制多智能体",
+      "url": "https://x.com/OpenAI/status/2080378182469857576",
+      "primary_url": "https://x.com/OpenAI/status/2080378182469857576",
+      "source": "X：OpenAI (@OpenAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
+          "title": "ChatGPT 桌面版上线语音控制多智能体",
+          "url": "https://x.com/OpenAI/status/2080378182469857576",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T19:43:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：OpenAI (@OpenAI)"
+      ],
+      "items": [
+        {
+          "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
+          "title": "ChatGPT 桌面版上线语音控制多智能体",
+          "url": "https://x.com/OpenAI/status/2080378182469857576",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T19:43:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7602,
+      "importance": 0.7602,
+      "importance_score": 0.7602,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8424,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T19:43:04Z",
+      "latest_at": "2026-07-23T19:43:04Z",
+      "primary_item": {
+        "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
+        "title": "ChatGPT 桌面版上线语音控制多智能体",
+        "url": "https://x.com/OpenAI/status/2080378182469857576",
+        "source": "X：OpenAI (@OpenAI)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -300,15 +666,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8037,
-      "importance": 0.8037,
-      "importance_score": 0.8037,
+      "score": 0.7878,
+      "importance": 0.7878,
+      "importance_score": 0.7878,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9784,
+        "recency": 0.8898,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -324,129 +690,6 @@
         "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
         "url": "https://www.ithome.com/0/980/890.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_53c15e4668db",
-      "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
-      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "primary_url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
-          "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
-          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-23T20:38:22Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
-          "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
-          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-23T20:38:22Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.841,
-      "importance": 0.841,
-      "importance_score": 0.841,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9386,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T20:38:22Z",
-      "latest_at": "2026-07-23T20:38:22Z",
-      "primary_item": {
-        "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
-        "title": "GitHub MCP 服务器支持下一个 MCP 规范 / GitHub MCP Server supports the next MCP specification",
-        "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_b2558e56df95",
-      "title": "ChatGPT 桌面版上线语音控制多智能体",
-      "url": "https://x.com/OpenAI/status/2080378182469857576",
-      "primary_url": "https://x.com/OpenAI/status/2080378182469857576",
-      "source": "X：OpenAI (@OpenAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
-          "title": "ChatGPT 桌面版上线语音控制多智能体",
-          "url": "https://x.com/OpenAI/status/2080378182469857576",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T19:43:04Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenAI (@OpenAI)"
-      ],
-      "items": [
-        {
-          "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
-          "title": "ChatGPT 桌面版上线语音控制多智能体",
-          "url": "https://x.com/OpenAI/status/2080378182469857576",
-          "source": "X：OpenAI (@OpenAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T19:43:04Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7753,
-      "importance": 0.7753,
-      "importance_score": 0.7753,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9262,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T19:43:04Z",
-      "latest_at": "2026-07-23T19:43:04Z",
-      "primary_item": {
-        "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
-        "title": "ChatGPT 桌面版上线语音控制多智能体",
-        "url": "https://x.com/OpenAI/status/2080378182469857576",
-        "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
       }
     },
@@ -504,15 +747,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7681,
-      "importance": 0.7681,
-      "importance_score": 0.7681,
+      "score": 0.754,
+      "importance": 0.754,
+      "importance_score": 0.754,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8637,
+        "recency": 0.7856,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -529,67 +772,6 @@
         "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_451cb0155ac2",
-      "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-      "url": "https://www.aibase.com/news/29847",
-      "primary_url": "https://www.aibase.com/news/29847",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-          "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "url": "https://www.aibase.com/news/29847",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-          "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "url": "https://www.aibase.com/news/29847",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-24T01:01:32.548256Z",
-      "latest_at": "2026-07-24T01:01:32.548256Z",
-      "primary_item": {
-        "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-        "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-        "url": "https://www.aibase.com/news/29847",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -646,15 +828,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.767,
-      "importance": 0.767,
-      "importance_score": 0.767,
+      "score": 0.7524,
+      "importance": 0.7524,
+      "importance_score": 0.7524,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8909,
+        "recency": 0.8103,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -727,15 +909,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7661,
-      "importance": 0.7661,
-      "importance_score": 0.7661,
+      "score": 0.7522,
+      "importance": 0.7522,
+      "importance_score": 0.7522,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8528,
+        "recency": 0.7756,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -789,21 +971,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7638,
-      "importance": 0.7638,
-      "importance_score": 0.7638,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.929,
+        "recency": 0.8449,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-23T19:55:29.530000Z",
       "latest_at": "2026-07-23T19:55:29.530000Z",
@@ -850,21 +1031,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
+      "score": 0.7453,
+      "importance": 0.7453,
+      "importance_score": 0.7453,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8352,
+        "recency": 0.7597,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-23T12:33:27Z",
       "latest_at": "2026-07-23T12:33:27Z",
@@ -930,15 +1110,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7856,
-      "importance": 0.7856,
-      "importance_score": 0.7856,
+      "score": 0.7708,
+      "importance": 0.7708,
+      "importance_score": 0.7708,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9113,
+        "recency": 0.8288,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -992,15 +1172,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7411,
-      "importance": 0.7411,
-      "importance_score": 0.7411,
+      "score": 0.7264,
+      "importance": 0.7264,
+      "importance_score": 0.7264,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9026,
+        "recency": 0.8209,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1015,67 +1195,6 @@
         "url": "https://x.com/gdb/status/2080351159638704615",
         "source": "X：Greg Brockman (@gdb)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_cd081ecec4db",
-      "title": "谷歌旗舰模型Gemini 3.5 Pro难产延期，人才流失与军方合作引发内部士气危机",
-      "url": "https://www.aibase.com/news/29845",
-      "primary_url": "https://www.aibase.com/news/29845",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "15894256d18acd6c57ee3a5db941d0a99f7cbcd7",
-          "title": "谷歌旗舰模型Gemini 3.5 Pro难产延期，人才流失与军方合作引发内部士气危机",
-          "url": "https://www.aibase.com/news/29845",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "15894256d18acd6c57ee3a5db941d0a99f7cbcd7",
-          "title": "谷歌旗舰模型Gemini 3.5 Pro难产延期，人才流失与军方合作引发内部士气危机",
-          "url": "https://www.aibase.com/news/29845",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-24T01:01:32.548256Z",
-      "latest_at": "2026-07-24T01:01:32.548256Z",
-      "primary_item": {
-        "id": "15894256d18acd6c57ee3a5db941d0a99f7cbcd7",
-        "title": "谷歌旗舰模型Gemini 3.5 Pro难产延期，人才流失与军方合作引发内部士气危机",
-        "url": "https://www.aibase.com/news/29845",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1113,15 +1232,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8274,
-      "importance": 0.8274,
-      "importance_score": 0.8274,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9077,
+        "recency": 0.8256,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1141,241 +1260,21 @@
       }
     },
     {
-      "story_id": "story_a34a897d283a",
-      "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-      "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "primary_url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-          "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T04:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：小红书技术（dots.llm）"
-      ],
-      "items": [
-        {
-          "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-          "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T04:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7355,
-      "importance": 0.7355,
-      "importance_score": 0.7355,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7381,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T04:00:00Z",
-      "latest_at": "2026-07-23T04:00:00Z",
-      "primary_item": {
-        "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-        "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-        "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-        "source": "公众号：小红书技术（dots.llm）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9f6d35e74fe5",
-      "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存\"作弊\"行为",
-      "url": "https://www.ithome.com/0/980/471.htm",
-      "primary_url": "https://www.ithome.com/0/980/471.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ae6e9bd3cff48e46c6abbacc23d62b1edd1f0ea1",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存\"作弊\"行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T02:51:59Z"
-        },
-        {
-          "id": "3595caa7689e2675c96cabaf464300832911181e",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存在「作弊」行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8d5408770ce9f1e4966f428aa9ebc4adbcdfa2d7",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存“作弊”行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-23T02:51:59Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "ae6e9bd3cff48e46c6abbacc23d62b1edd1f0ea1",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存\"作弊\"行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T02:51:59Z"
-        },
-        {
-          "id": "3595caa7689e2675c96cabaf464300832911181e",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存在「作弊」行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "8d5408770ce9f1e4966f428aa9ebc4adbcdfa2d7",
-          "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存“作弊”行为",
-          "url": "https://www.ithome.com/0/980/471.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-23T02:51:59Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7653,
-      "importance": 0.7653,
-      "importance_score": 0.7653,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7262,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T02:51:59Z",
-      "latest_at": "2026-07-23T03:24:02.452699Z",
-      "primary_item": {
-        "id": "ae6e9bd3cff48e46c6abbacc23d62b1edd1f0ea1",
-        "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存\"作弊\"行为",
-        "url": "https://www.ithome.com/0/980/471.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_112b4523d36f",
-      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-      "url": "https://x.com/satyanadella/status/2080329851127669104",
-      "primary_url": "https://x.com/satyanadella/status/2080329851127669104",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d72daa2e5b7b6321ccd98fbe31c3a75f08bef8e2",
-          "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-          "url": "https://x.com/satyanadella/status/2080329851127669104",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T16:31:01Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Satya Nadella (@satyanadella)"
-      ],
-      "items": [
-        {
-          "id": "d72daa2e5b7b6321ccd98fbe31c3a75f08bef8e2",
-          "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-          "url": "https://x.com/satyanadella/status/2080329851127669104",
-          "source": "X：Satya Nadella (@satyanadella)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T16:31:01Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7258,
-      "importance": 0.7258,
-      "importance_score": 0.7258,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8844,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T16:31:01Z",
-      "latest_at": "2026-07-23T16:31:01Z",
-      "primary_item": {
-        "id": "d72daa2e5b7b6321ccd98fbe31c3a75f08bef8e2",
-        "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-        "url": "https://x.com/satyanadella/status/2080329851127669104",
-        "source": "X：Satya Nadella (@satyanadella)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dfdb40a6777e",
-      "title": "马斯克呼吁AI实验室携手审查安全问题，愿与奥尔特曼\"冰释前嫌\"并力挺中国AI加入合作",
-      "url": "https://www.aibase.com/news/29846",
-      "primary_url": "https://www.aibase.com/news/29846",
+      "story_id": "story_8fd9659387dd",
+      "title": "ChatGPT 桌面端装上了\"真人口吻\"：GPT-Live 语音上线，你说话它就在后台干活",
+      "url": "https://www.aibase.com/news/29863",
+      "primary_url": "https://www.aibase.com/news/29863",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "c1d6f1ef5f83b2957645faf0871bada29445c9aa",
-          "title": "马斯克呼吁AI实验室携手审查安全问题，愿与奥尔特曼\"冰释前嫌\"并力挺中国AI加入合作",
-          "url": "https://www.aibase.com/news/29846",
+          "id": "4ef1aeff61248ba37a1eda260ccfa8aa426bb49c",
+          "title": "ChatGPT 桌面端装上了\"真人口吻\"：GPT-Live 语音上线，你说话它就在后台干活",
+          "url": "https://www.aibase.com/news/29863",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
+          "published_at": "2026-07-24T07:35:37.188634Z"
         }
       ],
       "source_count": 1,
@@ -1384,13 +1283,13 @@
       ],
       "items": [
         {
-          "id": "c1d6f1ef5f83b2957645faf0871bada29445c9aa",
-          "title": "马斯克呼吁AI实验室携手审查安全问题，愿与奥尔特曼\"冰释前嫌\"并力挺中国AI加入合作",
-          "url": "https://www.aibase.com/news/29846",
+          "id": "4ef1aeff61248ba37a1eda260ccfa8aa426bb49c",
+          "title": "ChatGPT 桌面端装上了\"真人口吻\"：GPT-Live 语音上线，你说话它就在后台干活",
+          "url": "https://www.aibase.com/news/29863",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T01:01:32.548256Z"
+          "published_at": "2026-07-24T07:35:37.188634Z"
         }
       ],
       "item_count": 1,
@@ -1411,12 +1310,135 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-24T01:01:32.548256Z",
-      "latest_at": "2026-07-24T01:01:32.548256Z",
+      "earliest_at": "2026-07-24T07:35:37.188634Z",
+      "latest_at": "2026-07-24T07:35:37.188634Z",
       "primary_item": {
-        "id": "c1d6f1ef5f83b2957645faf0871bada29445c9aa",
-        "title": "马斯克呼吁AI实验室携手审查安全问题，愿与奥尔特曼\"冰释前嫌\"并力挺中国AI加入合作",
-        "url": "https://www.aibase.com/news/29846",
+        "id": "4ef1aeff61248ba37a1eda260ccfa8aa426bb49c",
+        "title": "ChatGPT 桌面端装上了\"真人口吻\"：GPT-Live 语音上线，你说话它就在后台干活",
+        "url": "https://www.aibase.com/news/29863",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_660c6350b79c",
+      "title": "公共预览版中的 GitHub 问题中的代理自动化控制 / Agent automation controls in GitHub Issues in public preview",
+      "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+      "primary_url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "bc43672efad43350530cee56250f555e6a0d9b73",
+          "title": "公共预览版中的 GitHub 问题中的代理自动化控制 / Agent automation controls in GitHub Issues in public preview",
+          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T15:30:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "bc43672efad43350530cee56250f555e6a0d9b73",
+          "title": "公共预览版中的 GitHub 问题中的代理自动化控制 / Agent automation controls in GitHub Issues in public preview",
+          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T15:30:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8067,
+      "importance": 0.8067,
+      "importance_score": 0.8067,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7927,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T15:30:29Z",
+      "latest_at": "2026-07-23T15:30:29Z",
+      "primary_item": {
+        "id": "bc43672efad43350530cee56250f555e6a0d9b73",
+        "title": "公共预览版中的 GitHub 问题中的代理自动化控制 / Agent automation controls in GitHub Issues in public preview",
+        "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_86a897ea7bdc",
+      "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+      "url": "https://www.aibase.com/news/29868",
+      "primary_url": "https://www.aibase.com/news/29868",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+          "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "url": "https://www.aibase.com/news/29868",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+          "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "url": "https://www.aibase.com/news/29868",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T07:35:37.188634Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T07:35:37.188634Z",
+      "latest_at": "2026-07-24T07:35:37.188634Z",
+      "primary_item": {
+        "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+        "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+        "url": "https://www.aibase.com/news/29868",
         "source": "AIbase",
         "source_name": "AIbase"
       }
