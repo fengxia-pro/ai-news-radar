@@ -182,6 +182,78 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "硕士博士大论文修改技能V1.1，请查收哈",
+        "url": "https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg",
+        "published_at": "2026-07-25T05:30:00+08:00",
+        "article_theme": (
+            "把硕博大论文修改拆成可调用 Skill V1.1：先读取学校模板，再检查主线、证据、结构、数据与交付质量。"
+        ),
+        "summary": (
+            "微信付费文章的公开预览显示，这次升级围绕学校正式模板、论文主线、数据与单位、"
+            "证据链、目录和公式以及最终交付质量组织修改流程；未公开的付费正文不作延伸概括。"
+        ),
+    },
+    {
+        "title": "别急着给智能体塞满技能：先装好两个元技能",
+        "url": "https://mp.weixin.qq.com/s/0H8yEYDuZepfDGSECWDsag",
+        "published_at": "2026-07-24T07:18:00+08:00",
+        "article_theme": (
+            "技能不是越多越好：先用 find-skills 找候选，再用 Snyk Agent Scan 做来源与安全检查。"
+        ),
+        "summary": (
+            "文章建议先定义真实需求，再寻找候选技能，最后核查来源、权限和安全风险。"
+            "两个元技能的价值，是把“找技能”和“装前审查”变成稳定入口。"
+        ),
+    },
+    {
+        "title": "一个社科老师讲“故事化”，理工科人要不要听？——慢老师读《写作是门手艺》小感",
+        "url": "https://mp.weixin.qq.com/s/kh3HWqAcLY7F_jGzgXCtqA",
+        "published_at": "2026-07-23T11:00:00+08:00",
+        "article_theme": (
+            "科研写作的故事化不是编故事，而是用定位、提炼、剪裁和展示，把证据组织成可信、易懂且有张力的论证。"
+        ),
+        "summary": (
+            "文章从理工科科研写作的真实疑问出发，说明故事化要同时守住趣味、可理解性和可信度，"
+            "并通过定位、提炼、剪裁、展示和情绪弧线让研究问题与证据更容易被读者理解。"
+        ),
+    },
+    {
+        "title": "顶刊SCI论文手册用户的新福利（一个技能）",
+        "url": "https://mp.weixin.qq.com/s/pLfanzP5Zw9GLZmCbv0VJw",
+        "published_at": "2026-07-22T18:11:00+08:00",
+        "article_theme": (
+            "把顶刊 SCI 手册升级为可调用技能，一次生成模块化解读、Word、PPTX、PDF、逐字稿、彩排提纲和 MP3。"
+        ),
+        "summary": (
+            "文章介绍顶刊 SCI 论文手册用户可使用的新技能，并明确列出七类交付物："
+            "13 模块 Markdown、Word、PPTX、PDF、逐字稿、彩排提纲和独立 MP3。"
+        ),
+    },
+    {
+        "title": "Codex 或 Claude Code 里fork如何使用呢？",
+        "url": "https://mp.weixin.qq.com/s/f2MNdWHvfO6k1bE1tJ81Hw",
+        "published_at": "2026-07-21T05:30:00+08:00",
+        "article_theme": (
+            "用 Fork 围绕同一科研问题并行比较机制创新、方法创新与工程性能路线，再用同一标准回收最优方案。"
+        ),
+        "summary": (
+            "文章用科研路线比较解释 Fork：先保留共同起点，再分支尝试不同方案，"
+            "用同一套评价标准比较，最后把最优结论和产物回收到主线，并注意文件输出目录隔离。"
+        ),
+    },
+    {
+        "title": "慢老师读《写作是门手艺》WSPC 的一点体会：写作要倒着来",
+        "url": "https://mp.weixin.qq.com/s/bZMlvXdAZNC5UcMXmyhtiQ",
+        "published_at": "2026-07-20T05:30:00+08:00",
+        "article_theme": (
+            "科研写作要倒着来：先明确核心概念，再提出问题、组织材料，最后动笔，即 C→P→S→W。"
+        ),
+        "summary": (
+            "文章把《写作是门手艺》的 WSPC 重新理解为 C→P→S→W："
+            "先想清楚核心概念和科学问题，再围绕问题选择材料、搭结构，最后才进入文字表达。"
+        ),
+    },
+    {
         "title": "从选题到结题全程陪你：我把教改手册重做成了技能",
         "url": "https://mp.weixin.qq.com/s/XgadaOQ2fVVc1wExZQnLfg",
         "published_at": "2026-07-15T05:30:00+08:00",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T12:20:00Z",
-  "updated_label": "updated 1 Jul 2026",
+  "generated_at": "2026-07-25T00:01:02Z",
+  "updated_label": "updated 24 Jul 2026",
   "source_name": "Vellum LLM Leaderboard",
   "source_url": "https://www.vellum.ai/llm-leaderboard",
   "topic": "模型评分",
@@ -27,16 +27,16 @@
           "score": 95.4
         },
         {
+          "model": "GPT-5.6 Sol",
+          "score": 94.6
+        },
+        {
           "model": "Gemini 3.1 Pro",
           "score": 94.3
         },
         {
           "model": "Claude Opus 4.7",
           "score": 94.2
-        },
-        {
-          "model": "Claude Fable 5",
-          "score": 94.1
         }
       ],
       "intro_label": "GPQA",
@@ -81,6 +81,10 @@
       "source_field": "numArcAgi2",
       "items": [
         {
+          "model": "GPT-5.6 Sol",
+          "score": 92.5
+        },
+        {
           "model": "GPT-5.5",
           "score": 85
         },
@@ -95,10 +99,6 @@
         {
           "model": "Claude Opus 4.6",
           "score": 68.8
-        },
-        {
-          "model": "Claude Sonnet 4.6",
-          "score": 58.3
         }
       ],
       "intro_label": "ARC-AGI",
@@ -114,6 +114,14 @@
       "source_field": "numAutoBench",
       "items": [
         {
+          "model": "Claude Opus 5",
+          "score": 26
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 18.1
+        },
+        {
           "model": "Claude Fable 5",
           "score": 17.4
         },
@@ -124,14 +132,6 @@
         {
           "model": "Claude Sonnet 5",
           "score": 13.5
-        },
-        {
-          "model": "GPT-5.5",
-          "score": 12.9
-        },
-        {
-          "model": "Claude Sonnet 4.6",
-          "score": 5.3
         }
       ]
     },
@@ -176,6 +176,14 @@
       "source_field": "numTerminalBench21",
       "items": [
         {
+          "model": "GPT-5.6 Sol",
+          "score": 88.8
+        },
+        {
+          "model": "Kimi K3",
+          "score": 88.3
+        },
+        {
           "model": "Claude Mythos 5",
           "score": 88
         },
@@ -184,21 +192,32 @@
           "score": 84.3
         },
         {
-          "model": "GPT-5.5",
-          "score": 82.7
-        },
-        {
-          "model": "GLM 5.2",
-          "score": 81
-        },
-        {
-          "model": "Claude Sonnet 5",
-          "score": 80.4
+          "model": "GPT-5.6 Luna",
+          "score": 84.3
         }
       ]
     }
   ],
   "items": [
+    {
+      "id": "vellum-overall-claude-opus-5",
+      "site_id": "model_scores",
+      "site_name": "Vellum LLM Leaderboard",
+      "source": "Best Overall (Humanity's Last Exam)",
+      "source_tier": "model_scores",
+      "ai_label": "model_score",
+      "ai_score": 64.7,
+      "model_name": "Claude Opus 5",
+      "benchmark": "Humanity's Last Exam",
+      "score": 64.7,
+      "unit": "%",
+      "rank": 1,
+      "title": "Claude Opus 5 · Best Overall 64.7%",
+      "title_zh": "Claude Opus 5：综合榜第 1，64.7%",
+      "summary": "Vellum 综合榜 Best Overall 最高分模型，基准为 Humanity's Last Exam。",
+      "url": "https://www.vellum.ai/llm-leaderboard",
+      "published_at": "2026-07-24T00:00:00Z"
+    },
     {
       "id": "vellum-overall-claude-mythos-5",
       "site_id": "model_scores",
@@ -211,12 +230,12 @@
       "benchmark": "Humanity's Last Exam",
       "score": 64.5,
       "unit": "%",
-      "rank": 1,
+      "rank": 2,
       "title": "Claude Mythos 5 · Best Overall 64.5%",
-      "title_zh": "Claude Mythos 5：综合榜第 1，64.5%",
-      "summary": "Vellum 综合榜 Best Overall 最高分模型，基准为 Humanity's Last Exam。",
+      "title_zh": "Claude Mythos 5：综合榜第 2，64.5%",
+      "summary": "Vellum 综合榜 Best Overall 第二名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-overall-claude-opus-4-8",
@@ -230,12 +249,12 @@
       "benchmark": "Humanity's Last Exam",
       "score": 57.9,
       "unit": "%",
-      "rank": 2,
+      "rank": 3,
       "title": "Claude Opus 4.8 · Best Overall 57.9%",
-      "title_zh": "Claude Opus 4.8：综合榜第 2，57.9%",
-      "summary": "Vellum 综合榜 Best Overall 第二名，基准为 Humanity's Last Exam。",
+      "title_zh": "Claude Opus 4.8：综合榜第 3，57.9%",
+      "summary": "Vellum 综合榜 Best Overall 第三名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-overall-claude-sonnet-5",
@@ -249,12 +268,31 @@
       "benchmark": "Humanity's Last Exam",
       "score": 57.4,
       "unit": "%",
-      "rank": 3,
+      "rank": 4,
       "title": "Claude Sonnet 5 · Best Overall 57.4%",
-      "title_zh": "Claude Sonnet 5：综合榜第 3，57.4%",
-      "summary": "Vellum 综合榜 Best Overall 第三名，基准为 Humanity's Last Exam。",
+      "title_zh": "Claude Sonnet 5：综合榜第 4，57.4%",
+      "summary": "Vellum 综合榜 Best Overall 第四名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
+    },
+    {
+      "id": "vellum-overall-kimi-k3",
+      "site_id": "model_scores",
+      "site_name": "Vellum LLM Leaderboard",
+      "source": "Best Overall (Humanity's Last Exam)",
+      "source_tier": "model_scores",
+      "ai_label": "model_score",
+      "ai_score": 56,
+      "model_name": "Kimi K3",
+      "benchmark": "Humanity's Last Exam",
+      "score": 56,
+      "unit": "%",
+      "rank": 5,
+      "title": "Kimi K3 · Best Overall 56%",
+      "title_zh": "Kimi K3：综合榜第 5，56%",
+      "summary": "Vellum 综合榜 Best Overall 第五名，基准为 Humanity's Last Exam。",
+      "url": "https://www.vellum.ai/llm-leaderboard",
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-overall-glm-5-2",
@@ -268,12 +306,12 @@
       "benchmark": "Humanity's Last Exam",
       "score": 54.7,
       "unit": "%",
-      "rank": 4,
+      "rank": 6,
       "title": "GLM 5.2 · Best Overall 54.7%",
-      "title_zh": "GLM 5.2：综合榜第 4，54.7%",
-      "summary": "Vellum 综合榜 Best Overall 第四名，基准为 Humanity's Last Exam。",
+      "title_zh": "GLM 5.2：综合榜第 6，54.7%",
+      "summary": "Vellum 综合榜 Best Overall 第六名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-overall-kimi-k2-6",
@@ -287,12 +325,12 @@
       "benchmark": "Humanity's Last Exam",
       "score": 54,
       "unit": "%",
-      "rank": 5,
+      "rank": 7,
       "title": "Kimi K2.6 · Best Overall 54%",
-      "title_zh": "Kimi K2.6：综合榜第 5，54%",
-      "summary": "Vellum 综合榜 Best Overall 第五名，基准为 Humanity's Last Exam。",
+      "title_zh": "Kimi K2.6：综合榜第 7，54%",
+      "summary": "Vellum 综合榜 Best Overall 第七名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-overall-deepseek-v4-flash",
@@ -306,50 +344,12 @@
       "benchmark": "Humanity's Last Exam",
       "score": 51.6,
       "unit": "%",
-      "rank": 6,
-      "title": "DeepSeek V4 Flash · Best Overall 51.6%",
-      "title_zh": "DeepSeek V4 Flash：综合榜第 6，51.6%",
-      "summary": "Vellum 综合榜 Best Overall 第六名，基准为 Humanity's Last Exam。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
-    },
-    {
-      "id": "vellum-overall-deepseek-v4-pro",
-      "site_id": "model_scores",
-      "site_name": "Vellum LLM Leaderboard",
-      "source": "Best Overall (Humanity's Last Exam)",
-      "source_tier": "model_scores",
-      "ai_label": "model_score",
-      "ai_score": 48.2,
-      "model_name": "DeepSeek V4 Pro",
-      "benchmark": "Humanity's Last Exam",
-      "score": 48.2,
-      "unit": "%",
-      "rank": 7,
-      "title": "DeepSeek V4 Pro · Best Overall 48.2%",
-      "title_zh": "DeepSeek V4 Pro：综合榜第 7，48.2%",
-      "summary": "Vellum 综合榜 Best Overall 第七名，基准为 Humanity's Last Exam。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
-    },
-    {
-      "id": "vellum-overall-gemini-3-pro",
-      "site_id": "model_scores",
-      "site_name": "Vellum LLM Leaderboard",
-      "source": "Best Overall (Humanity's Last Exam)",
-      "source_tier": "model_scores",
-      "ai_label": "model_score",
-      "ai_score": 45.8,
-      "model_name": "Gemini 3 Pro",
-      "benchmark": "Humanity's Last Exam",
-      "score": 45.8,
-      "unit": "%",
       "rank": 8,
-      "title": "Gemini 3 Pro · Best Overall 45.8%",
-      "title_zh": "Gemini 3 Pro：综合榜第 8，45.8%",
+      "title": "DeepSeek V4 Flash · Best Overall 51.6%",
+      "title_zh": "DeepSeek V4 Flash：综合榜第 8，51.6%",
       "summary": "Vellum 综合榜 Best Overall 第八名，基准为 Humanity's Last Exam。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-reasoning-claude-sonnet-5",
@@ -368,45 +368,45 @@
       "title_zh": "Claude Sonnet 5：推理榜第 1，96.2%",
       "summary": "Vellum 推理榜 Best in Reasoning 第一名，基准为 GPQA Diamond。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
-      "id": "vellum-coding-claude-mythos-5",
+      "id": "vellum-coding-gpt-5-6-sol",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
       "source": "Best in Agentic Coding (SWE Bench)",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 95.5,
-      "model_name": "Claude Mythos 5",
+      "ai_score": 96.2,
+      "model_name": "GPT-5.6 Sol",
       "benchmark": "SWE Bench",
-      "score": 95.5,
+      "score": 96.2,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Mythos 5 · Agentic Coding 95.5%",
-      "title_zh": "Claude Mythos 5：智能体编程榜第 1，95.5%",
+      "title": "GPT-5.6 Sol · Agentic Coding 96.2%",
+      "title_zh": "GPT-5.6 Sol：智能体编程榜第 1，96.2%",
       "summary": "Vellum Agentic Coding 榜第一名，基准为 SWE Bench。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
-      "id": "vellum-work-automation-claude-fable-5",
+      "id": "vellum-work-automation-claude-opus-5",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
       "source": "Best for Work Automations (AutoBench)",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 17.4,
-      "model_name": "Claude Fable 5",
+      "ai_score": 26,
+      "model_name": "Claude Opus 5",
       "benchmark": "AutoBench",
-      "score": 17.4,
+      "score": 26,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Fable 5 · Work Automations 17.4%",
-      "title_zh": "Claude Fable 5：办公自动化榜第 1，17.4%",
+      "title": "Claude Opus 5 · Work Automations 26%",
+      "title_zh": "Claude Opus 5：办公自动化榜第 1，26%",
       "summary": "Vellum Work Automations 榜第一名，基准为 AutoBench。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-computer-use-claude-fable-5",
@@ -425,45 +425,45 @@
       "title_zh": "Claude Fable 5：电脑使用榜第 1，85%",
       "summary": "Vellum Computer Use 榜第一名，基准为 OSWorld。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
-      "id": "vellum-browsing-claude-fable-5",
+      "id": "vellum-browsing-gpt-5-6-sol",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
       "source": "Best in Browsing (BrowseComp)",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88,
-      "model_name": "Claude Fable 5",
+      "ai_score": 92.2,
+      "model_name": "GPT-5.6 Sol",
       "benchmark": "BrowseComp",
-      "score": 88,
+      "score": 92.2,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Fable 5 · Browsing 88%",
-      "title_zh": "Claude Fable 5：浏览能力榜第 1，88%",
+      "title": "GPT-5.6 Sol · Browsing 92.2%",
+      "title_zh": "GPT-5.6 Sol：浏览能力榜第 1，92.2%",
       "summary": "Vellum Browsing 榜第一名，基准为 BrowseComp。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
-      "id": "vellum-terminal-claude-mythos-5",
+      "id": "vellum-terminal-gpt-5-6-sol",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
       "source": "Best in Terminal Use (Terminal-Bench 2.1)",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88,
-      "model_name": "Claude Mythos 5",
+      "ai_score": 88.8,
+      "model_name": "GPT-5.6 Sol",
       "benchmark": "Terminal-Bench 2.1",
-      "score": 88,
+      "score": 88.8,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Mythos 5 · Terminal Use 88%",
-      "title_zh": "Claude Mythos 5：终端使用榜第 1，88%",
+      "title": "GPT-5.6 Sol · Terminal Use 88.8%",
+      "title_zh": "GPT-5.6 Sol：终端使用榜第 1，88.8%",
       "summary": "Vellum Terminal Use 榜第一名，基准为 Terminal-Bench 2.1。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-fastest-llama-4-scout",
@@ -482,7 +482,7 @@
       "title_zh": "Llama 4 Scout：速度榜第 1，2600 t/s",
       "summary": "Vellum Fastest Models 榜第一名，吞吐速度 2600 tokens/sec。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-latency-gpt-5-3-codex",
@@ -501,7 +501,7 @@
       "title_zh": "GPT-5.3 Codex：最低延迟榜第 1，0.003s",
       "summary": "Vellum Lowest Latency 榜第一名，首 token 延迟 0.003 秒。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     },
     {
       "id": "vellum-cheapest-nova-micro",
@@ -520,7 +520,7 @@
       "title_zh": "Nova Micro：低价榜第 1，$0.04 / $0.14",
       "summary": "Vellum Cheapest Models 榜第一名，价格为 $0.04 输入 / $0.14 输出每百万 tokens。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": "2026-07-01T00:00:00Z"
+      "published_at": "2026-07-24T00:00:00Z"
     }
   ]
 }

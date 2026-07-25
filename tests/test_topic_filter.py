@@ -747,6 +747,38 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(len(matching), 1)
         self.assertEqual(matching[0]["title"], "《写作是门手艺》核心逻辑梳理")
 
+    def test_slow_professor_july_20_to_25_articles_are_deduplicated_and_current(self):
+        now = datetime(2026, 7, 25, 8, 0, tzinfo=timezone.utc)
+        expected_urls = {
+            "https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg",
+            "https://mp.weixin.qq.com/s/0H8yEYDuZepfDGSECWDsag",
+            "https://mp.weixin.qq.com/s/kh3HWqAcLY7F_jGzgXCtqA",
+            "https://mp.weixin.qq.com/s/pLfanzP5Zw9GLZmCbv0VJw",
+            "https://mp.weixin.qq.com/s/f2MNdWHvfO6k1bE1tJ81Hw",
+            "https://mp.weixin.qq.com/s/bZMlvXdAZNC5UcMXmyhtiQ",
+        }
+        manual_urls = [item["url"] for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES]
+
+        payload = build_slow_professor_payload(
+            [],
+            [],
+            generated_at="2026-07-25T08:00:00Z",
+            now=now,
+        )
+        payload_items = {item["url"]: item for item in payload["items"]}
+
+        self.assertTrue(expected_urls.issubset(payload_items))
+        self.assertEqual(manual_urls.count("https://mp.weixin.qq.com/s/pLfanzP5Zw9GLZmCbv0VJw"), 1)
+        self.assertEqual(payload_items["https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg"]["title"], "硕士博士大论文修改技能V1.1，请查收哈")
+        self.assertIn("付费文章的公开预览", payload_items["https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg"]["summary"])
+        self.assertIn("find-skills", payload_items["https://mp.weixin.qq.com/s/0H8yEYDuZepfDGSECWDsag"]["article_theme"])
+        self.assertIn("七类交付物", payload_items["https://mp.weixin.qq.com/s/pLfanzP5Zw9GLZmCbv0VJw"]["summary"])
+        self.assertIn("C→P→S→W", payload_items["https://mp.weixin.qq.com/s/bZMlvXdAZNC5UcMXmyhtiQ"]["article_theme"])
+        for url in expected_urls:
+            self.assertTrue(payload_items[url]["is_recent_7d"])
+            self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
+            self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
+
     def test_slow_professor_frontend_renders_article_theme(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
 
@@ -771,10 +803,14 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn("work-automations", metrics)
         self.assertIn("computer-use", metrics)
         self.assertIn("terminal-use", metrics)
-        self.assertEqual(metrics["work-automations"]["items"][0], {"model": "Claude Fable 5", "score": 17.4})
+        self.assertEqual(metrics["gpqa"]["items"][2], {"model": "GPT-5.6 Sol", "score": 94.6})
+        self.assertEqual(metrics["arc-agi"]["items"][0], {"model": "GPT-5.6 Sol", "score": 92.5})
+        self.assertEqual(metrics["work-automations"]["items"][0], {"model": "Claude Opus 5", "score": 26})
+        self.assertEqual(metrics["work-automations"]["items"][1], {"model": "GPT-5.6 Sol", "score": 18.1})
         self.assertEqual(metrics["computer-use"]["items"][0], {"model": "Claude Fable 5", "score": 85})
-        self.assertEqual(metrics["terminal-use"]["items"][0], {"model": "Claude Mythos 5", "score": 88})
-        self.assertEqual(metrics["terminal-use"]["items"][1], {"model": "Claude Fable 5", "score": 84.3})
+        self.assertEqual(metrics["terminal-use"]["items"][0], {"model": "GPT-5.6 Sol", "score": 88.8})
+        self.assertEqual(metrics["terminal-use"]["items"][1], {"model": "Kimi K3", "score": 88.3})
+        self.assertEqual(metrics["terminal-use"]["items"][2], {"model": "Claude Mythos 5", "score": 88})
         self.assertIn("科研与工作流最相关的六类模型能力", app_js)
         self.assertIn("Terminal Use 看终端环境执行", app_js)
         self.assertIn("metric.intro_label", app_js)
