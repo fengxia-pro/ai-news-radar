@@ -772,6 +772,10 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(payload_items["https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg"]["title"], "硕士博士大论文修改技能V1.1，请查收哈")
         self.assertIn("付费文章的公开预览", payload_items["https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg"]["summary"])
         self.assertIn("find-skills", payload_items["https://mp.weixin.qq.com/s/0H8yEYDuZepfDGSECWDsag"]["article_theme"])
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/kh3HWqAcLY7F_jGzgXCtqA"]["title"],
+            '一个社科老师讲"故事化"，理工科人要不要听？——慢老师读《写作是门手艺》小感',
+        )
         self.assertIn("七类交付物", payload_items["https://mp.weixin.qq.com/s/pLfanzP5Zw9GLZmCbv0VJw"]["summary"])
         self.assertIn("C→P→S→W", payload_items["https://mp.weixin.qq.com/s/bZMlvXdAZNC5UcMXmyhtiQ"]["article_theme"])
         for url in expected_urls:

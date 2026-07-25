@@ -206,7 +206,7 @@ SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
         ),
     },
     {
-        "title": "一个社科老师讲“故事化”，理工科人要不要听？——慢老师读《写作是门手艺》小感",
+        "title": "一个社科老师讲\"故事化\"，理工科人要不要听？——慢老师读《写作是门手艺》小感",
         "url": "https://mp.weixin.qq.com/s/kh3HWqAcLY7F_jGzgXCtqA",
         "published_at": "2026-07-23T11:00:00+08:00",
         "article_theme": (
