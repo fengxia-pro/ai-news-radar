@@ -783,6 +783,52 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
 
+    def test_slow_professor_history_is_cumulative_and_cached_items_are_retained(self):
+        now = datetime(2026, 7, 25, 8, 0, tzinfo=timezone.utc)
+        cached_only_url = "https://mp.weixin.qq.com/s/cached-history-only"
+        existing_payload = {
+            "items": [{
+                "id": "cached-history-only",
+                "site_id": SLOW_PROFESSOR_WECHAT_SITE_ID,
+                "site_name": "慢教授的科研江湖",
+                "source": "公众号：慢教授的科研江湖",
+                "title": "仅存在于既有网站数据中的历史文章",
+                "title_zh": "仅存在于既有网站数据中的历史文章",
+                "url": cached_only_url,
+                "published_at": "2026-06-01T00:00:00Z",
+                "first_seen_at": "2026-06-02T00:00:00Z",
+                "last_seen_at": "2026-06-02T00:00:00Z",
+                "summary": "用于验证历史文章不会被时间窗口清理。",
+                "source_mode": "manual_wechat_link",
+                "is_recent_7d": True,
+                "is_recent_3d": True,
+            }]
+        }
+
+        payload = build_slow_professor_payload(
+            [],
+            [],
+            generated_at="2026-07-25T08:00:00Z",
+            now=now,
+            existing_payload=existing_payload,
+        )
+        payload_items = {item["url"]: item for item in payload["items"]}
+        manual_urls = {
+            item["url"]
+            for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES
+        }
+
+        self.assertEqual(len(manual_urls), 24)
+        self.assertTrue(manual_urls.issubset(payload_items))
+        self.assertIn(cached_only_url, payload_items)
+        self.assertFalse(payload_items[cached_only_url]["is_recent_7d"])
+        self.assertFalse(payload_items[cached_only_url]["is_recent_3d"])
+        self.assertTrue(payload_items[cached_only_url]["is_historical"])
+        self.assertEqual(payload["retention_mode"], "cumulative_history")
+        self.assertEqual(payload["total_items"], 25)
+        self.assertEqual(payload["recent_7d_count"], 6)
+        self.assertEqual(payload["historical_count"], 19)
+
     def test_slow_professor_frontend_renders_article_theme(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
 
@@ -794,6 +840,9 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn('tags.push("慢教授的科研江湖文章")', app_js)
         self.assertIn("慢教授的科研江湖文章", app_js)
         self.assertIn("const slowProfessorItemCount = state.slowProfessorItems.length || slowProfessor.item_count || 0;", app_js)
+        self.assertIn("function slowProfessorRecent7dCount()", app_js)
+        self.assertIn("累计收录", app_js)
+        self.assertIn("历史文章永久保留", app_js)
         self.assertNotIn("慢教授专题", app_js)
         self.assertIn("wechat_ai_watts", app_js)
         self.assertIn("AI沃茨", app_js)

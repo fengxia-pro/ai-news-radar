@@ -332,7 +332,8 @@ function renderStickySummary() {
   }
   if (state.activeSection === "slow_professor") {
     const confirmedCount = state.slowProfessorConfirmedEntries.length;
-    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · 慢教授的科研江湖文章 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
+    const recentCount = slowProfessorRecent7dCount();
+    stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 篇 · 慢教授的科研江湖文章 · 近一周 ${fmtNumber(recentCount)} 篇 · 已确认入口 ${fmtNumber(confirmedCount)} 条${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
     return;
   }
   if (state.activeSection === "github_projects") {
@@ -507,10 +508,10 @@ function renderCoverageStrip(errorMessage = "") {
   const grantBookCandidateCount = Number(grantBooks.candidate_count || 0);
   const slowProfessorItemCount = state.slowProfessorItems.length || slowProfessor.item_count || 0;
   const slowProfessorValue = slowProfessor.enabled
-    ? `${fmtNumber(slowProfessorItemCount)} 条`
+    ? `${fmtNumber(slowProfessorItemCount)} 篇`
     : "专题待生成";
   const slowProfessorMeta = slowProfessor.enabled
-    ? `近一周 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessorSourceModeLabel(slowProfessor.source_mode, true)}`
+    ? `累计收录 · 近一周 ${fmtNumber(slowProfessorRecent7dCount())} 篇 · 已确认入口 ${fmtNumber(slowProfessor.confirmed_entry_count || state.slowProfessorConfirmedEntries.length)} · ${slowProfessorSourceModeLabel(slowProfessor.source_mode, true)}`
     : "慢教授的科研江湖文章";
   const githubValue = githubProjects.enabled
     ? `${fmtNumber(githubProjects.item_count || state.githubProjectItems.length)} 个`
@@ -721,10 +722,11 @@ function renderSectionSummary(filteredItems = null) {
     return;
   }
   if (state.activeSection === "slow_professor") {
-    const recentCount = state.slowProfessorItems.length;
+    const totalCount = state.slowProfessorItems.length;
+    const recentCount = slowProfessorRecent7dCount();
     const confirmedCount = state.slowProfessorConfirmedEntries.length;
     const mode = slowProfessorSourceModeLabel(state.slowProfessorData?.source_mode);
-    sectionSummaryEl.textContent = `专题池 · 近一周 ${fmtNumber(recentCount)} 条 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 不使用第三方转载页冒充公众号`;
+    sectionSummaryEl.textContent = `专题池 · 累计 ${fmtNumber(totalCount)} 篇 · 近一周 ${fmtNumber(recentCount)} 篇 · 已确认入口 ${fmtNumber(confirmedCount)} 条 · ${mode} · 历史文章永久保留`;
     renderStickySummary();
     return;
   }
@@ -827,7 +829,7 @@ function renderModeSwitch() {
   } else if (state.activeSection === "grant_books") {
     modeHintEl.textContent = `高校教师书架 · ${fmtNumber(state.grantBookItems.length)} 条`;
   } else if (state.activeSection === "slow_professor") {
-    modeHintEl.textContent = `慢教授的科研江湖文章 · 近一周 ${fmtNumber(state.slowProfessorItems.length)} 条`;
+    modeHintEl.textContent = `慢教授的科研江湖文章 · 累计 ${fmtNumber(state.slowProfessorItems.length)} 篇 · 近一周 ${fmtNumber(slowProfessorRecent7dCount())} 篇`;
   } else if (state.activeSection === "github_projects") {
     modeHintEl.textContent = `GitHub项目 · ${fmtNumber(state.githubProjectItems.length)} 个`;
   } else if (state.activeSection === "model_scores") {
@@ -920,6 +922,12 @@ function effectiveAllItems() {
 
 function slowProfessorDisplayItems() {
   return Array.isArray(state.slowProfessorItems) ? state.slowProfessorItems : [];
+}
+
+function slowProfessorRecent7dCount() {
+  const declared = Number(state.slowProfessorData?.recent_7d_count);
+  if (Number.isFinite(declared) && declared >= 0) return declared;
+  return slowProfessorDisplayItems().filter((item) => item?.is_recent_7d).length;
 }
 
 function modeItems() {
@@ -2572,7 +2580,7 @@ function renderBolePicks() {
     const empty = document.createElement("div");
     empty.className = "bole-empty";
     empty.textContent = state.activeSection === "slow_professor"
-      ? "暂无可核验的近一周公众号文章。已确认入口只保留在数据说明里，不进入近一周文章列表。"
+      ? "暂无可核验的慢教授公众号文章。已确认入口只保留在数据说明里，不直接作为文章卡片。"
       : "当前栏目和筛选条件下没有可展示的 Top 3。";
     bolePicksListEl.appendChild(empty);
   } else {
@@ -3583,7 +3591,7 @@ function renderList() {
     const empty = document.createElement("div");
     empty.className = "empty";
     empty.textContent = state.activeSection === "slow_professor"
-      ? "暂无可核验的近一周公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
+      ? "暂无可核验的慢教授公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
       : "当前筛选条件下没有结果。";
     newsListEl.appendChild(empty);
     return;

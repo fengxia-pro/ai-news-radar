@@ -3889,6 +3889,17 @@ def slow_professor_record_from_raw(raw: RawItem, now: datetime) -> dict[str, Any
     return sanitize_public_payload(record)
 
 
+def refresh_slow_professor_recency(record: dict[str, Any], now: datetime) -> dict[str, Any]:
+    refreshed = dict(record)
+    published = parse_iso(refreshed.get("published_at"))
+    recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
+    legacy_three_day_start = now - timedelta(hours=72)
+    refreshed["is_recent_7d"] = bool(published and published >= recent_start)
+    refreshed["is_recent_3d"] = bool(published and published >= legacy_three_day_start)
+    refreshed["is_historical"] = not refreshed["is_recent_7d"]
+    return sanitize_public_payload(refreshed)
+
+
 def load_json_payload(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}
@@ -3930,15 +3941,18 @@ def build_slow_professor_payload(
     existing_payload: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     recent_start = now - timedelta(hours=SLOW_PROFESSOR_WECHAT_WINDOW_HOURS)
-    source_items = [*items, *slow_professor_manual_recent_items(now)]
-    records = [
+    recent_feed_records = [
         slow_professor_record_from_raw(item, now)
-        for item in source_items
+        for item in items
         if item.published_at and item.published_at >= recent_start
     ]
+    manual_records = [
+        slow_professor_record_from_raw(item, now)
+        for item in slow_professor_manual_recent_items(now)
+    ]
+    records = [*recent_feed_records, *manual_records]
     records = dedupe_items_by_title_url(records, random_pick=False)
     records = dedupe_slow_professor_records_by_url(records)
-    records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
 
     sources = [
         {
@@ -3973,16 +3987,19 @@ def build_slow_professor_payload(
     existing = existing_payload if isinstance(existing_payload, dict) else {}
     if isinstance(existing.get("items"), list):
         cached_items = [
-            item
+            refresh_slow_professor_recency(item, now)
             for item in existing.get("items", [])
             if isinstance(item, dict)
             and item.get("site_id") == SLOW_PROFESSOR_WECHAT_SITE_ID
-            and (item.get("is_recent_7d") or item.get("is_recent_3d"))
         ]
         if cached_items:
             records = dedupe_items_by_title_url([*records, *cached_items], random_pick=False)
             records = dedupe_slow_professor_records_by_url(records)
-            records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
+
+    records = [refresh_slow_professor_recency(record, now) for record in records]
+    records.sort(key=lambda item: parse_iso(item.get("published_at")) or datetime.min.replace(tzinfo=UTC), reverse=True)
+    recent_7d_count = sum(1 for record in records if record.get("is_recent_7d"))
+    historical_count = len(records) - recent_7d_count
 
     confirmed_entries = slow_professor_confirmed_entries(now)
     feed_url = slow_professor_wechat_feed_url()
@@ -4001,13 +4018,17 @@ def build_slow_professor_payload(
         "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
         "topic": "慢教授的科研江湖文章",
         "total_items": len(records),
+        "recent_7d_count": recent_7d_count,
+        "historical_count": historical_count,
+        "retention_mode": "cumulative_history",
         "items": records,
         "confirmed_entry_count": len(confirmed_entries),
         "confirmed_entries": confirmed_entries,
         "sources": sources,
         "source_mode": source_mode,
         "notes": [
-            "本专题按公众号来源和发布时间收录慢教授的科研江湖近一周文章，不做国自然、基金或 AI 关键词过滤。",
+            "本专题累计保留已经收录的慢教授科研江湖文章；近一周状态单独标记，历史文章不会因时间窗口自动删除。",
+            "公众号公开源只新增近一周文章；用户确认并已纳入历史清单的微信原文永久保留。",
             "未配置公网 RSS/WeWe 地址时，不用第三方转载页冒充公众号文章。",
             "已确认入口只代表用户明确给过的微信原文，不代表最近一周新发。",
         ],
@@ -8372,6 +8393,8 @@ def main() -> int:
         "slow_professor": {
             "enabled": True,
             "item_count": len(slow_professor_payload.get("items") or []),
+            "recent_7d_count": int(slow_professor_payload.get("recent_7d_count") or 0),
+            "historical_count": int(slow_professor_payload.get("historical_count") or 0),
             "confirmed_entry_count": len(slow_professor_payload.get("confirmed_entries") or []),
             "source_total": len(slow_professor_payload.get("sources") or []),
             "ok_sources": sum(1 for s in slow_professor_payload.get("sources") or [] if s.get("ok")),
@@ -8383,6 +8406,7 @@ def main() -> int:
             "data_url": f"data/{SLOW_PROFESSOR_WECHAT_DATA_FILE}",
             "window_hours": SLOW_PROFESSOR_WECHAT_WINDOW_HOURS,
             "source_mode": slow_professor_payload.get("source_mode"),
+            "retention_mode": slow_professor_payload.get("retention_mode"),
             "mode": "public_topic_lane",
         },
         "github_projects": {
