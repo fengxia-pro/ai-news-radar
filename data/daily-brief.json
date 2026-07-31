@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T04:02:11.932448Z",
+  "generated_at": "2026-07-31T07:23:29.918490Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8937,
-      "importance": 0.8937,
-      "importance_score": 0.8937,
+      "score": 0.8872,
+      "importance": 0.8872,
+      "importance_score": 0.8872,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7707,
+        "recency": 0.7342,
         "story_heat": 0.75
       },
       "category": "official",
@@ -121,6 +121,143 @@
         "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_945ecdf346e3",
+      "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "primary_url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "30991f97bf0f8d90c3e956f81625ef377ba92bda",
+          "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-31T04:57:18.494000Z"
+        },
+        {
+          "id": "d16a12a7d756f24b6b9333a4d75260566b0628d0",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制。试试看",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "www.ctgt.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-31T04:57:18.494000Z"
+        },
+        {
+          "id": "55fb76fec5df85d31a652b9de8edd8996a0d724f",
+          "title": "Show HN：将 DeepSeek 提炼为 GPT-OSS 并不会转移审查制度。尝试一下 / Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://news.ycombinator.com/item?id=49113599",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-30T21:05:34.639000Z"
+        },
+        {
+          "id": "0b50c642d7508dab77d935158c12266317951581",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中并不会带来审查。试试看",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "www.ctgt.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-30T18:17:20.178000Z"
+        },
+        {
+          "id": "f7b4aa2760ca6c843f930071c0896b5674b97753",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中并不会带来审查。试试看 / Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-30T18:13:06Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.ctgt.ai"
+      ],
+      "items": [
+        {
+          "id": "30991f97bf0f8d90c3e956f81625ef377ba92bda",
+          "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-31T04:57:18.494000Z"
+        },
+        {
+          "id": "d16a12a7d756f24b6b9333a4d75260566b0628d0",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制。试试看",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "www.ctgt.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-31T04:57:18.494000Z"
+        },
+        {
+          "id": "55fb76fec5df85d31a652b9de8edd8996a0d724f",
+          "title": "Show HN：将 DeepSeek 提炼为 GPT-OSS 并不会转移审查制度。尝试一下 / Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://news.ycombinator.com/item?id=49113599",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-30T21:05:34.639000Z"
+        },
+        {
+          "id": "0b50c642d7508dab77d935158c12266317951581",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中并不会带来审查。试试看",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "www.ctgt.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-30T18:17:20.178000Z"
+        },
+        {
+          "id": "f7b4aa2760ca6c843f930071c0896b5674b97753",
+          "title": "Show HN: 将 DeepSeek 整合到 GPT-OSS 中并不会带来审查。试试看 / Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-30T18:13:06Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.8794,
+      "importance": 0.8794,
+      "importance_score": 0.8794,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9654,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-30T18:13:06Z",
+      "latest_at": "2026-07-31T04:57:18.494000Z",
+      "primary_item": {
+        "id": "30991f97bf0f8d90c3e956f81625ef377ba92bda",
+        "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+        "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -177,15 +314,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8581,
-      "importance": 0.8581,
-      "importance_score": 0.8581,
+      "score": 0.8511,
+      "importance": 0.8511,
+      "importance_score": 0.8511,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.97,
-        "recency": 0.8286,
+        "recency": 0.7894,
         "story_heat": 0.25
       },
       "category": "official",
@@ -259,15 +396,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8516,
-      "importance": 0.8516,
-      "importance_score": 0.8516,
+      "score": 0.8443,
+      "importance": 0.8443,
+      "importance_score": 0.8443,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8589,
+        "recency": 0.8183,
         "story_heat": 0.25
       },
       "category": "official",
@@ -341,15 +478,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8408,
-      "importance": 0.8408,
-      "importance_score": 0.8408,
+      "score": 0.8336,
+      "importance": 0.8336,
+      "importance_score": 0.8336,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8434,
+        "recency": 0.8035,
         "story_heat": 0.25
       },
       "category": "official",
@@ -404,15 +541,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8354,
-      "importance": 0.8354,
-      "importance_score": 0.8354,
+      "score": 0.8284,
+      "importance": 0.8284,
+      "importance_score": 0.8284,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8302,
+        "recency": 0.791,
         "story_heat": 0.0
       },
       "category": "official",
@@ -432,26 +569,107 @@
       }
     },
     {
-      "story_id": "story_385c62f510dc",
-      "title": "MiniMax发布通用全模态模型H3，15秒2K音视频生成价格不到主流模型三分之一",
-      "url": "https://www.aibase.com/news/30026",
-      "primary_url": "https://www.aibase.com/news/30026",
+      "story_id": "story_85df304afeef",
+      "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+      "url": "https://www.ithome.com/0/984/130.htm",
+      "primary_url": "https://www.ithome.com/0/984/130.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c862842096f6825a1c5a6b60a9c5bf81d4181471",
+          "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+          "url": "https://www.ithome.com/0/984/130.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-31T06:38:54Z"
+        },
+        {
+          "id": "1e83b7ca5b7b174bb055c9d4db0ff161f0127c5e",
+          "title": "国家发改委：人工智能相关行业保持 30% 以上的高增长，截至 6 月底全国智能算力规模达到去年同期 2.8 倍",
+          "url": "https://www.ithome.com/0/984/130.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-31T06:38:54Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "c862842096f6825a1c5a6b60a9c5bf81d4181471",
+          "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+          "url": "https://www.ithome.com/0/984/130.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-31T06:38:54Z"
+        },
+        {
+          "id": "1e83b7ca5b7b174bb055c9d4db0ff161f0127c5e",
+          "title": "国家发改委：人工智能相关行业保持 30% 以上的高增长，截至 6 月底全国智能算力规模达到去年同期 2.8 倍",
+          "url": "https://www.ithome.com/0/984/130.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-31T06:38:54Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7937,
+      "importance": 0.7937,
+      "importance_score": 0.7937,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9893,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-31T06:38:54Z",
+      "latest_at": "2026-07-31T06:38:54Z",
+      "primary_item": {
+        "id": "c862842096f6825a1c5a6b60a9c5bf81d4181471",
+        "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+        "url": "https://www.ithome.com/0/984/130.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_57752590bd93",
+      "title": "Claude“闯出”测试环境?Anthropic承认AI模型曾入侵三家机构系统",
+      "url": "https://www.aibase.com/news/30039",
+      "primary_url": "https://www.aibase.com/news/30039",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "857543124e813d9562ef12e2ffae04d915a722c9",
-          "title": "MiniMax发布通用全模态模型H3，15秒2K音视频生成价格不到主流模型三分之一",
-          "url": "https://www.aibase.com/news/30026",
+          "id": "f8f0da172515497479d626826067a5fe65b4c5bb",
+          "title": "Claude“闯出”测试环境?Anthropic承认AI模型曾入侵三家机构系统",
+          "url": "https://www.aibase.com/news/30039",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-31T04:02:11.932448Z"
+          "published_at": "2026-07-31T07:23:29.918490Z"
         },
         {
-          "id": "841fa9c90d66fda780a0d3b0f79d9c6cc8975a1d",
-          "title": "MiniMax 发布通用全模态模型 H3，15 秒 2K 音视频生成价格不到主流模型三分之一",
-          "url": "https://www.aibase.com/zh/news/30026",
+          "id": "816823a4299c305649bc35caac782fc637cce85d",
+          "title": "Claude「闯出」测试环境？Anthropic 承认 AI 模型曾入侵三家机构系统",
+          "url": "https://www.aibase.com/zh/news/30039",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -465,18 +683,18 @@
       ],
       "items": [
         {
-          "id": "857543124e813d9562ef12e2ffae04d915a722c9",
-          "title": "MiniMax发布通用全模态模型H3，15秒2K音视频生成价格不到主流模型三分之一",
-          "url": "https://www.aibase.com/news/30026",
+          "id": "f8f0da172515497479d626826067a5fe65b4c5bb",
+          "title": "Claude“闯出”测试环境?Anthropic承认AI模型曾入侵三家机构系统",
+          "url": "https://www.aibase.com/news/30039",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-31T04:02:11.932448Z"
+          "published_at": "2026-07-31T07:23:29.918490Z"
         },
         {
-          "id": "841fa9c90d66fda780a0d3b0f79d9c6cc8975a1d",
-          "title": "MiniMax 发布通用全模态模型 H3，15 秒 2K 音视频生成价格不到主流模型三分之一",
-          "url": "https://www.aibase.com/zh/news/30026",
+          "id": "816823a4299c305649bc35caac782fc637cce85d",
+          "title": "Claude「闯出」测试环境？Anthropic 承认 AI 模型曾入侵三家机构系统",
+          "url": "https://www.aibase.com/zh/news/30039",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -502,12 +720,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-31T04:02:11.932448Z",
-      "latest_at": "2026-07-31T04:02:11.932448Z",
+      "earliest_at": "2026-07-31T07:23:29.918490Z",
+      "latest_at": "2026-07-31T07:23:29.918490Z",
       "primary_item": {
-        "id": "857543124e813d9562ef12e2ffae04d915a722c9",
-        "title": "MiniMax发布通用全模态模型H3，15秒2K音视频生成价格不到主流模型三分之一",
-        "url": "https://www.aibase.com/news/30026",
+        "id": "f8f0da172515497479d626826067a5fe65b4c5bb",
+        "title": "Claude“闯出”测试环境?Anthropic承认AI模型曾入侵三家机构系统",
+        "url": "https://www.aibase.com/news/30039",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -547,15 +765,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8225,
-      "importance": 0.8225,
-      "importance_score": 0.8225,
+      "score": 0.815,
+      "importance": 0.815,
+      "importance_score": 0.815,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8807,
+        "recency": 0.8391,
         "story_heat": 0.0
       },
       "category": "official",
@@ -628,15 +846,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7769,
-      "importance": 0.7769,
-      "importance_score": 0.7769,
+      "score": 0.7693,
+      "importance": 0.7693,
+      "importance_score": 0.7693,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8962,
+        "recency": 0.8538,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -656,64 +874,84 @@
       }
     },
     {
-      "story_id": "story_c7dbaf790e17",
-      "title": "国家发改委：将加快《人工智能法》立法进程",
-      "url": "https://www.ithome.com/0/983/974.htm",
-      "primary_url": "https://www.ithome.com/0/983/974.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_f460f990aa88",
+      "title": "Google Earth推出基于Nano Banana 2的全新图像生成功能  一键生成逼真AI场景与历史风貌",
+      "url": "https://www.aibase.com/news/30036",
+      "primary_url": "https://www.aibase.com/news/30036",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
-          "title": "国家发改委：将加快《人工智能法》立法进程",
-          "url": "https://www.ithome.com/0/983/974.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T02:48:12Z"
+          "id": "ff00e81506a81108204980aee48393ae9dbd45ca",
+          "title": "Google Earth推出基于Nano Banana 2的全新图像生成功能  一键生成逼真AI场景与历史风貌",
+          "url": "https://www.aibase.com/news/30036",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-31T07:23:29.918490Z"
+        },
+        {
+          "id": "ae3404d0e0357ebc15bdadcf8a3691b475ac2088",
+          "title": "Google Earth 推出基于 Nano Banana 2 的全新图像生成功能，一键生成逼真 AI 场景与历史风貌",
+          "url": "https://www.aibase.com/zh/news/30036",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "IT之家（RSS）"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
-          "title": "国家发改委：将加快《人工智能法》立法进程",
-          "url": "https://www.ithome.com/0/983/974.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T02:48:12Z"
+          "id": "ff00e81506a81108204980aee48393ae9dbd45ca",
+          "title": "Google Earth推出基于Nano Banana 2的全新图像生成功能  一键生成逼真AI场景与历史风貌",
+          "url": "https://www.aibase.com/news/30036",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-31T07:23:29.918490Z"
+        },
+        {
+          "id": "ae3404d0e0357ebc15bdadcf8a3691b475ac2088",
+          "title": "Google Earth 推出基于 Nano Banana 2 的全新图像生成功能，一键生成逼真 AI 场景与历史风貌",
+          "url": "https://www.aibase.com/zh/news/30036",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7734,
-      "importance": 0.7734,
-      "importance_score": 0.7734,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9823,
-        "story_heat": 0.0
+        "recency": 1.0,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-31T02:48:12Z",
-      "latest_at": "2026-07-31T02:48:12Z",
+      "earliest_at": "2026-07-31T07:23:29.918490Z",
+      "latest_at": "2026-07-31T07:23:29.918490Z",
       "primary_item": {
-        "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
-        "title": "国家发改委：将加快《人工智能法》立法进程",
-        "url": "https://www.ithome.com/0/983/974.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
+        "id": "ff00e81506a81108204980aee48393ae9dbd45ca",
+        "title": "Google Earth推出基于Nano Banana 2的全新图像生成功能  一键生成逼真AI场景与历史风貌",
+        "url": "https://www.aibase.com/news/30036",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -770,15 +1008,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7633,
-      "importance": 0.7633,
-      "importance_score": 0.7633,
+      "score": 0.7561,
+      "importance": 0.7561,
+      "importance_score": 0.7561,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8371,
+        "recency": 0.7975,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -798,84 +1036,64 @@
       }
     },
     {
-      "story_id": "story_6e425eb5bd4d",
-      "title": "OpenAI回应ChatGPT桌面版界面争议：年底前移除“Work”标签页",
-      "url": "https://www.aibase.com/news/30024",
-      "primary_url": "https://www.aibase.com/news/30024",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_7bdbbc9438d6",
+      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "primary_url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "fca9ffef5e901d6e2acedbb33094ca4f22b3a0b4",
-          "title": "OpenAI回应ChatGPT桌面版界面争议：年底前移除“Work”标签页",
-          "url": "https://www.aibase.com/news/30024",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-31T04:02:11.932448Z"
-        },
-        {
-          "id": "82ea878f45dd5ac3b5bd2a5cc013c94d2b3a9c14",
-          "title": "OpenAI 回应 ChatGPT 桌面版界面争议：年底前移除「Work」标签页",
-          "url": "https://www.aibase.com/zh/news/30024",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "6d9b4c34043c6868841e634ff88d5579ce934753",
+          "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+          "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+          "source": "字节 Seed：Research Feed（网页内嵌数据）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-30T16:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "字节 Seed：Research Feed（网页内嵌数据）"
       ],
       "items": [
         {
-          "id": "fca9ffef5e901d6e2acedbb33094ca4f22b3a0b4",
-          "title": "OpenAI回应ChatGPT桌面版界面争议：年底前移除“Work”标签页",
-          "url": "https://www.aibase.com/news/30024",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-31T04:02:11.932448Z"
-        },
-        {
-          "id": "82ea878f45dd5ac3b5bd2a5cc013c94d2b3a9c14",
-          "title": "OpenAI 回应 ChatGPT 桌面版界面争议：年底前移除「Work」标签页",
-          "url": "https://www.aibase.com/zh/news/30024",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "6d9b4c34043c6868841e634ff88d5579ce934753",
+          "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+          "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+          "source": "字节 Seed：Research Feed（网页内嵌数据）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-30T16:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.25
+        "recency": 0.8007,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-31T04:02:11.932448Z",
-      "latest_at": "2026-07-31T04:02:11.932448Z",
+      "earliest_at": "2026-07-30T16:00:00Z",
+      "latest_at": "2026-07-30T16:00:00Z",
       "primary_item": {
-        "id": "fca9ffef5e901d6e2acedbb33094ca4f22b3a0b4",
-        "title": "OpenAI回应ChatGPT桌面版界面争议：年底前移除“Work”标签页",
-        "url": "https://www.aibase.com/news/30024",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "6d9b4c34043c6868841e634ff88d5579ce934753",
+        "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+        "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+        "source": "字节 Seed：Research Feed（网页内嵌数据）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -913,15 +1131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8212,
-      "importance": 0.8212,
-      "importance_score": 0.8212,
+      "score": 0.8141,
+      "importance": 0.8141,
+      "importance_score": 0.8141,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8288,
+        "recency": 0.7896,
         "story_heat": 0.0
       },
       "category": "official",
@@ -994,15 +1212,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7588,
-      "importance": 0.7588,
-      "importance_score": 0.7588,
+      "score": 0.7517,
+      "importance": 0.7517,
+      "importance_score": 0.7517,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8288,
+        "recency": 0.7896,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1075,15 +1293,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.757,
-      "importance": 0.757,
-      "importance_score": 0.757,
+      "score": 0.7502,
+      "importance": 0.7502,
+      "importance_score": 0.7502,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8025,
+        "recency": 0.7645,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1156,22 +1374,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7528,
-      "importance": 0.7528,
-      "importance_score": 0.7528,
+      "score": 0.7465,
+      "importance": 0.7465,
+      "importance_score": 0.7465,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7458,
+        "recency": 0.7105,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-30T07:43:29Z",
       "latest_at": "2026-07-30T07:43:29Z",
@@ -1218,15 +1435,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7461,
-      "importance": 0.7461,
-      "importance_score": 0.7461,
+      "score": 0.7382,
+      "importance": 0.7382,
+      "importance_score": 0.7382,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9304,
+        "recency": 0.8864,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1244,242 +1461,123 @@
       }
     },
     {
-      "story_id": "story_afc6fe5a6238",
-      "title": "Gemini Spark 集成 Chrome 自动浏览功能",
-      "url": "https://x.com/GeminiApp/status/2082923048362299629",
-      "primary_url": "https://x.com/GeminiApp/status/2082923048362299629",
-      "source": "X：Gemini (@GeminiApp)",
+      "story_id": "story_50c27142bb03",
+      "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
+      "url": "https://x.com/deepseek_ai/status/2083084415157022911",
+      "primary_url": "https://x.com/deepseek_ai/status/2083084415157022911",
+      "source": "X：DeepSeek (@deepseek_ai)",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "a86878c3c4aba63600699821e27811ceebaa75ce",
-          "title": "Gemini Spark 集成 Chrome 自动浏览功能",
-          "url": "https://x.com/GeminiApp/status/2082923048362299629",
-          "source": "X：Gemini (@GeminiApp)",
+          "id": "53bec70486733b445e4fe4ec7169886d8a6ac08f",
+          "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
+          "url": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "source": "X：DeepSeek (@deepseek_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-30T20:15:28Z"
+          "published_at": "2026-07-31T06:56:41Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Gemini (@GeminiApp)"
+        "X：DeepSeek (@deepseek_ai)"
       ],
       "items": [
         {
-          "id": "a86878c3c4aba63600699821e27811ceebaa75ce",
-          "title": "Gemini Spark 集成 Chrome 自动浏览功能",
-          "url": "https://x.com/GeminiApp/status/2082923048362299629",
-          "source": "X：Gemini (@GeminiApp)",
+          "id": "53bec70486733b445e4fe4ec7169886d8a6ac08f",
+          "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
+          "url": "https://x.com/deepseek_ai/status/2083084415157022911",
+          "source": "X：DeepSeek (@deepseek_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-30T20:15:28Z"
+          "published_at": "2026-07-31T06:56:41Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7425,
-      "importance": 0.7425,
-      "importance_score": 0.7425,
+      "score": 0.7364,
+      "importance": 0.7364,
+      "importance_score": 0.7364,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8937,
+        "recency": 0.9936,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-30T20:15:28Z",
-      "latest_at": "2026-07-30T20:15:28Z",
+      "earliest_at": "2026-07-31T06:56:41Z",
+      "latest_at": "2026-07-31T06:56:41Z",
       "primary_item": {
-        "id": "a86878c3c4aba63600699821e27811ceebaa75ce",
-        "title": "Gemini Spark 集成 Chrome 自动浏览功能",
-        "url": "https://x.com/GeminiApp/status/2082923048362299629",
-        "source": "X：Gemini (@GeminiApp)",
+        "id": "53bec70486733b445e4fe4ec7169886d8a6ac08f",
+        "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
+        "url": "https://x.com/deepseek_ai/status/2083084415157022911",
+        "source": "X：DeepSeek (@deepseek_ai)",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_243a427cff99",
-      "title": "Replit Design 推出数百设计模板",
-      "url": "https://x.com/Replit/status/2082979584799060267",
-      "primary_url": "https://x.com/Replit/status/2082979584799060267",
-      "source": "X：Replit (@Replit)",
+      "story_id": "story_c7dbaf790e17",
+      "title": "国家发改委：将加快《人工智能法》立法进程",
+      "url": "https://www.ithome.com/0/983/974.htm",
+      "primary_url": "https://www.ithome.com/0/983/974.htm",
+      "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "1576e93d57dd15e04534aaf8abeb638fa46900af",
-          "title": "Replit Design 推出数百设计模板",
-          "url": "https://x.com/Replit/status/2082979584799060267",
-          "source": "X：Replit (@Replit)",
+          "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
+          "title": "国家发改委：将加快《人工智能法》立法进程",
+          "url": "https://www.ithome.com/0/983/974.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-31T00:00:07Z"
+          "published_at": "2026-07-31T02:48:12Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Replit (@Replit)"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "1576e93d57dd15e04534aaf8abeb638fa46900af",
-          "title": "Replit Design 推出数百设计模板",
-          "url": "https://x.com/Replit/status/2082979584799060267",
-          "source": "X：Replit (@Replit)",
+          "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
+          "title": "国家发改委：将加快《人工智能法》立法进程",
+          "url": "https://www.ithome.com/0/983/974.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-31T00:00:07Z"
+          "published_at": "2026-07-31T02:48:12Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7394,
-      "importance": 0.7394,
-      "importance_score": 0.7394,
+      "score": 0.7651,
+      "importance": 0.7651,
+      "importance_score": 0.7651,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.66,
+        "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9434,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-31T00:00:07Z",
-      "latest_at": "2026-07-31T00:00:07Z",
+      "earliest_at": "2026-07-31T02:48:12Z",
+      "latest_at": "2026-07-31T02:48:12Z",
       "primary_item": {
-        "id": "1576e93d57dd15e04534aaf8abeb638fa46900af",
-        "title": "Replit Design 推出数百设计模板",
-        "url": "https://x.com/Replit/status/2082979584799060267",
-        "source": "X：Replit (@Replit)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_235ce9288be4",
-      "title": "Google Earth 集成 Nano Banana 2 图像生成",
-      "url": "https://x.com/GoogleAI/status/2082902334984609936",
-      "primary_url": "https://x.com/GoogleAI/status/2082902334984609936",
-      "source": "X：Google AI (@GoogleAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0868d412089140b46edc3f1649b972040bed8699",
-          "title": "Google Earth 集成 Nano Banana 2 图像生成",
-          "url": "https://x.com/GoogleAI/status/2082902334984609936",
-          "source": "X：Google AI (@GoogleAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-30T18:53:09Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Google AI (@GoogleAI)"
-      ],
-      "items": [
-        {
-          "id": "0868d412089140b46edc3f1649b972040bed8699",
-          "title": "Google Earth 集成 Nano Banana 2 图像生成",
-          "url": "https://x.com/GoogleAI/status/2082902334984609936",
-          "source": "X：Google AI (@GoogleAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-30T18:53:09Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8762,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-30T18:53:09Z",
-      "latest_at": "2026-07-30T18:53:09Z",
-      "primary_item": {
-        "id": "0868d412089140b46edc3f1649b972040bed8699",
-        "title": "Google Earth 集成 Nano Banana 2 图像生成",
-        "url": "https://x.com/GoogleAI/status/2082902334984609936",
-        "source": "X：Google AI (@GoogleAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_351e94ae0e4c",
-      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-      "url": "https://x.com/OpenRouter/status/2082882158574911564",
-      "primary_url": "https://x.com/OpenRouter/status/2082882158574911564",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d7be7168fbb415576642561539fb592c1ba3b13e",
-          "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-          "url": "https://x.com/OpenRouter/status/2082882158574911564",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-30T17:32:59Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：OpenRouter (@OpenRouter)"
-      ],
-      "items": [
-        {
-          "id": "d7be7168fbb415576642561539fb592c1ba3b13e",
-          "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-          "url": "https://x.com/OpenRouter/status/2082882158574911564",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-30T17:32:59Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8595,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-30T17:32:59Z",
-      "latest_at": "2026-07-30T17:32:59Z",
-      "primary_item": {
-        "id": "d7be7168fbb415576642561539fb592c1ba3b13e",
-        "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-        "url": "https://x.com/OpenRouter/status/2082882158574911564",
-        "source": "X：OpenRouter (@OpenRouter)",
+        "id": "96f8a210f6ec3e094fa97bbe422488013d4d710e",
+        "title": "国家发改委：将加快《人工智能法》立法进程",
+        "url": "https://www.ithome.com/0/983/974.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     }
