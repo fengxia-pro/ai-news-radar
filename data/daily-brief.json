@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:03:53.628368Z",
+  "generated_at": "2026-08-02T17:33:39.911184Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7634,
-      "importance": 0.7634,
-      "importance_score": 0.7634,
+      "score": 0.7598,
+      "importance": 0.7598,
+      "importance_score": 0.7598,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9267,
+        "recency": 0.9069,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -161,15 +161,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7441,
-      "importance": 0.7441,
-      "importance_score": 0.7441,
+      "score": 0.7408,
+      "importance": 0.7408,
+      "importance_score": 0.7408,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8697,
+        "recency": 0.8511,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -188,12 +188,39 @@
     },
     {
       "story_id": "story_2df82173bb28",
-      "title": "如果你已经会让 AI 帮自己写代码、查资料，但一到团队协作就变乱：谁的记忆算谁的？文件和权限怎么隔离？AI 能不能在Slack里一起推进项目？这篇就很好理解。YC开源了他们内部使用的多Agent协作框架：QM。它让每个员工、每个频道、每个项目都有独立的记忆、文件、密钥权限、定时任务和沙箱环境；还能接入 Pi、OpenCode、Codex、Claude Code 等不同Agent框架，避免被单一模型或工具绑定。",
+      "title": "Anthropic、OpenAI 和 DeepSeek 正在向同一个想法靠拢：将系统提示词用作奖励函数。下面会从 RLHF 一路讲到 RULER，拆解强化学习在智能体上的演进，并保留对应代码。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-08-01",
+      "source": "社区更新 · 2026-08-02",
       "source_name": "WaytoAGI",
       "sources": [
+        {
+          "id": "bfe7880a9b408cd372e730fe4301e81172c5b164",
+          "title": "Anthropic、OpenAI 和 DeepSeek 正在向同一个想法靠拢：将系统提示词用作奖励函数。下面会从 RLHF 一路讲到 RULER，拆解强化学习在智能体上的演进，并保留对应代码。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
+        {
+          "id": "cc419cc91b2ee4849448a4918d30a682c93d5e00",
+          "title": "很多团队开发Agent，注意力都放在模型、MCP、Skills和Harness 上，但真正容易被忽略的是：公司的规则、业务定义、历史经验，到底该用什么格式交给Agent，才能长期维护、迁移和验证。这篇文章把Google Cloud推出的OKF讲得很清楚。它有点像AI时代的“HTML”，把组织知识整理成可打开、可审查、可版本管理的Knowledge Bundle。未来企业真正沉淀下来的资产，可能是一套持续更新的可信知识层。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
+        {
+          "id": "56642e3a381f2e92a105fec8510054c4aa23e6da",
+          "title": "本周「AI 论文精选」把智能体工程、模型训练、安全监控和算力优化串了起来：NOOA把Agent写成Python 对象，ACM让智能体自己管理上下文，ReOPD复用教师轨迹降低训练成本，JAXBench提醒大家“文档和搜索”对工具调用很关键，还覆盖不可见推理、文件系统记忆、角色漂移等风险点。来看看哪些思路已经能迁移到真实项目里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
         {
           "id": "c06e1536ca165c819ac55c05b2693fb3441cb121",
           "title": "作者对Codex Micro，这个vibecoding 键盘做了配置体验和拆机。它没有本地AI、也没有内置麦克风，主要负责输入、灯光、通信和供电；同时也遇到了 USB 卡顿、HID 读取中断等稳定性问题。一起来看看230美元到底买到的是什么。",
@@ -211,40 +238,41 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-08-01T17:35:37.812122Z"
-        },
-        {
-          "id": "961db9ce643831a109b7d562d2efbeb5a4d5134a",
-          "title": "大多数人用 Codex 的方式，是开一个会话、交代一件事、等它做完。这种用法只动用了它很小一部分能力。这篇文章把几个关键概念讲得很清楚：Task、Subagent、Worktree、SSH、Handoff、Automation。已经会用Codex、想处理复杂项目的人不容错过！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
-        },
-        {
-          "id": "e21e886d0cf89b666afd8d7fc1fea8962c35fe43",
-          "title": "如果你最近也在担心：AI越来越强，我现在到底该学什么、往哪走，才不容易被甩下？这篇很适合普通人看看。Khan Academy 创始人Sal Khan用网约车、工程师、学生论文这些真实例子，讲了AI正在怎么改变工作，人该把力气花在哪里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
-        },
-        {
-          "id": "4a5eb18c0f953f38d547226fa91d38a5829ecfcb",
-          "title": "阿K烧了5w积分，用30+案例全面测试了MiniMax H3，覆盖商用级多场景、多模态参考、原生音画生成、精准编辑、复杂复合内容生成等等。结果发现H3在UI 动效、产品广告、片头字体、拼贴动画、短剧上表现比较突出。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
         }
       ],
       "source_count": 5,
       "source_names": [
-        "社区更新 · 2026-08-01"
+        "社区更新 · 2026-08-01",
+        "社区更新 · 2026-08-02"
       ],
       "items": [
+        {
+          "id": "bfe7880a9b408cd372e730fe4301e81172c5b164",
+          "title": "Anthropic、OpenAI 和 DeepSeek 正在向同一个想法靠拢：将系统提示词用作奖励函数。下面会从 RLHF 一路讲到 RULER，拆解强化学习在智能体上的演进，并保留对应代码。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
+        {
+          "id": "cc419cc91b2ee4849448a4918d30a682c93d5e00",
+          "title": "很多团队开发Agent，注意力都放在模型、MCP、Skills和Harness 上，但真正容易被忽略的是：公司的规则、业务定义、历史经验，到底该用什么格式交给Agent，才能长期维护、迁移和验证。这篇文章把Google Cloud推出的OKF讲得很清楚。它有点像AI时代的“HTML”，把组织知识整理成可打开、可审查、可版本管理的Knowledge Bundle。未来企业真正沉淀下来的资产，可能是一套持续更新的可信知识层。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
+        {
+          "id": "56642e3a381f2e92a105fec8510054c4aa23e6da",
+          "title": "本周「AI 论文精选」把智能体工程、模型训练、安全监控和算力优化串了起来：NOOA把Agent写成Python 对象，ACM让智能体自己管理上下文，ReOPD复用教师轨迹降低训练成本，JAXBench提醒大家“文档和搜索”对工具调用很关键，还覆盖不可见推理、文件系统记忆、角色漂移等风险点。来看看哪些思路已经能迁移到真实项目里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-02",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-02T17:33:39.911184Z"
+        },
         {
           "id": "c06e1536ca165c819ac55c05b2693fb3441cb121",
           "title": "作者对Codex Micro，这个vibecoding 键盘做了配置体验和拆机。它没有本地AI、也没有内置麦克风，主要负责输入、灯光、通信和供电；同时也遇到了 USB 卡顿、HID 读取中断等稳定性问题。一起来看看230美元到底买到的是什么。",
@@ -262,59 +290,32 @@
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
           "published_at": "2026-08-01T17:35:37.812122Z"
-        },
-        {
-          "id": "961db9ce643831a109b7d562d2efbeb5a4d5134a",
-          "title": "大多数人用 Codex 的方式，是开一个会话、交代一件事、等它做完。这种用法只动用了它很小一部分能力。这篇文章把几个关键概念讲得很清楚：Task、Subagent、Worktree、SSH、Handoff、Automation。已经会用Codex、想处理复杂项目的人不容错过！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
-        },
-        {
-          "id": "e21e886d0cf89b666afd8d7fc1fea8962c35fe43",
-          "title": "如果你最近也在担心：AI越来越强，我现在到底该学什么、往哪走，才不容易被甩下？这篇很适合普通人看看。Khan Academy 创始人Sal Khan用网约车、工程师、学生论文这些真实例子，讲了AI正在怎么改变工作，人该把力气花在哪里。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
-        },
-        {
-          "id": "4a5eb18c0f953f38d547226fa91d38a5829ecfcb",
-          "title": "阿K烧了5w积分，用30+案例全面测试了MiniMax H3，覆盖商用级多场景、多模态参考、原生音画生成、精准编辑、复杂复合内容生成等等。结果发现H3在UI 动效、产品广告、片头字体、拼贴动画、短剧上表现比较突出。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-01",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-01T16:29:21.284790Z"
         }
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6235,
-      "importance": 0.6235,
-      "importance_score": 0.6235,
+      "score": 0.6817,
+      "importance": 0.6817,
+      "importance_score": 0.6817,
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.4752,
+        "editorial": 0.4896,
         "source_tier": 0.54,
-        "ai_relevance": 0.66,
-        "recency": 0.7229,
+        "ai_relevance": 0.68,
+        "recency": 1.0,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-01T16:29:21.284790Z",
-      "latest_at": "2026-08-01T17:35:37.812122Z",
+      "earliest_at": "2026-08-01T17:35:37.812122Z",
+      "latest_at": "2026-08-02T17:33:39.911184Z",
       "primary_item": {
-        "id": "ef8a92139ed81c0d03704b1795eac9596de0060e",
-        "title": "如果你已经会让 AI 帮自己写代码、查资料，但一到团队协作就变乱：谁的记忆算谁的？文件和权限怎么隔离？AI 能不能在Slack里一起推进项目？这篇就很好理解。YC开源了他们内部使用的多Agent协作框架：QM。它让每个员工、每个频道、每个项目都有独立的记忆、文件、密钥权限、定时任务和沙箱环境；还能接入 Pi、OpenCode、Codex、Claude Code 等不同Agent框架，避免被单一模型或工具绑定。",
+        "id": "bfe7880a9b408cd372e730fe4301e81172c5b164",
+        "title": "Anthropic、OpenAI 和 DeepSeek 正在向同一个想法靠拢：将系统提示词用作奖励函数。下面会从 RLHF 一路讲到 RULER，拆解强化学习在智能体上的演进，并保留对应代码。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-08-01",
+        "source": "社区更新 · 2026-08-02",
         "source_name": "WaytoAGI"
       }
     },
@@ -447,15 +448,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.5917,
-      "importance": 0.5917,
-      "importance_score": 0.5917,
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8385,
+        "recency": 0.8206,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -526,15 +527,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
+      "score": 0.5623,
+      "importance": 0.5623,
+      "importance_score": 0.5623,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.8435,
+        "recency": 0.8255,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -552,54 +553,55 @@
       }
     },
     {
-      "story_id": "story_65ef8d2bbdc6",
-      "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
-      "url": "https://hub.baai.ac.cn/view/56822",
-      "primary_url": "https://hub.baai.ac.cn/view/56822",
+      "story_id": "story_5a3c7608e5bd",
+      "title": "AI 不会成为世界的主人，但 AI 公司可能会",
+      "url": "https://www.huxiu.com/article/4880099.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4880099.html?f=rss",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
-          "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
-          "url": "https://hub.baai.ac.cn/view/56822",
+          "id": "ca097917620308fa4cedc97f93c203ce311b5ebd",
+          "title": "AI 不会成为世界的主人，但 AI 公司可能会",
+          "url": "https://www.huxiu.com/article/4880099.html?f=rss",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "71d4355c0b9a9716b61f04fe9e4cf6ff40d06f43",
-          "title": "Nat. Comput. Sci. | 结构比对驱动的跨图建模实现功能性 RNA 设计",
-          "url": "https://hub.baai.ac.cn/view/56822",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "b7ba7b252657370e380709b2095f58c1f3c886e7",
+          "title": "AI不会成为世界的主人，但AI公司可能会。",
+          "url": "https://www.huxiu.com/article/4880099.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T16:00:22Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI"
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
       ],
       "items": [
         {
-          "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
-          "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
-          "url": "https://hub.baai.ac.cn/view/56822",
+          "id": "ca097917620308fa4cedc97f93c203ce311b5ebd",
+          "title": "AI 不会成为世界的主人，但 AI 公司可能会",
+          "url": "https://www.huxiu.com/article/4880099.html?f=rss",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "71d4355c0b9a9716b61f04fe9e4cf6ff40d06f43",
-          "title": "Nat. Comput. Sci. | 结构比对驱动的跨图建模实现功能性 RNA 设计",
-          "url": "https://hub.baai.ac.cn/view/56822",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "b7ba7b252657370e380709b2095f58c1f3c886e7",
+          "title": "AI不会成为世界的主人，但AI公司可能会。",
+          "url": "https://www.huxiu.com/article/4880099.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T16:00:22Z"
         }
       ],
       "item_count": 2,
@@ -619,14 +621,93 @@
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-02T11:19:57.279315Z",
-      "latest_at": "2026-08-02T16:03:53.628368Z",
+      "earliest_at": "2026-08-02T16:00:22Z",
+      "latest_at": "2026-08-02T17:33:39.911184Z",
       "primary_item": {
-        "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
-        "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
-        "url": "https://hub.baai.ac.cn/view/56822",
+        "id": "ca097917620308fa4cedc97f93c203ce311b5ebd",
+        "title": "AI 不会成为世界的主人，但 AI 公司可能会",
+        "url": "https://www.huxiu.com/article/4880099.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_08d31deaaabe",
+      "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理",
+      "url": "https://sprocket-demo.spikonado.com",
+      "primary_url": "https://sprocket-demo.spikonado.com",
+      "source": "sprocket-demo.spikonado.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "59dada4b0290f134c6813aa3084093f5f0b4f3b5",
+          "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理",
+          "url": "https://sprocket-demo.spikonado.com",
+          "source": "sprocket-demo.spikonado.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T16:40:49.061000Z"
+        },
+        {
+          "id": "fbc2fc17e6bdb4748a80a9bf092ef9610cd736f7",
+          "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理 / Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
+          "url": "https://sprocket-demo.spikonado.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-02T16:26:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "sprocket-demo.spikonado.com"
+      ],
+      "items": [
+        {
+          "id": "59dada4b0290f134c6813aa3084093f5f0b4f3b5",
+          "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理",
+          "url": "https://sprocket-demo.spikonado.com",
+          "source": "sprocket-demo.spikonado.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T16:40:49.061000Z"
+        },
+        {
+          "id": "fbc2fc17e6bdb4748a80a9bf092ef9610cd736f7",
+          "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理 / Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
+          "url": "https://sprocket-demo.spikonado.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-02T16:26:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5435,
+      "importance": 0.5435,
+      "importance_score": 0.5435,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9874,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T16:26:19Z",
+      "latest_at": "2026-08-02T16:40:49.061000Z",
+      "primary_item": {
+        "id": "59dada4b0290f134c6813aa3084093f5f0b4f3b5",
+        "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理",
+        "url": "https://sprocket-demo.spikonado.com",
+        "source": "sprocket-demo.spikonado.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -683,15 +764,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5419,
-      "importance": 0.5419,
-      "importance_score": 0.5419,
+      "score": 0.5381,
+      "importance": 0.5381,
+      "importance_score": 0.5381,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9783,
+        "recency": 0.9574,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -762,15 +843,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5339,
-      "importance": 0.5339,
-      "importance_score": 0.5339,
+      "score": 0.5303,
+      "importance": 0.5303,
+      "importance_score": 0.5303,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9341,
+        "recency": 0.9141,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -841,15 +922,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5327,
-      "importance": 0.5327,
-      "importance_score": 0.5327,
+      "score": 0.5291,
+      "importance": 0.5291,
+      "importance_score": 0.5291,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9269,
+        "recency": 0.9071,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -920,15 +1001,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5245,
-      "importance": 0.5245,
-      "importance_score": 0.5245,
+      "score": 0.5211,
+      "importance": 0.5211,
+      "importance_score": 0.5211,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8818,
+        "recency": 0.863,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -943,6 +1024,85 @@
         "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
         "source": "www.wafer.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_09e43c4dbf4f",
+      "title": "AI 正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+      "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4880101.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "524fbfe15cde7d42399fe84b98ed195169dcf858",
+          "title": "AI 正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+          "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2dac4fa96e89ff3739eaa5f2f1d5e3c6a93a7467",
+          "title": "AI正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+          "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T16:04:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "524fbfe15cde7d42399fe84b98ed195169dcf858",
+          "title": "AI 正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+          "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2dac4fa96e89ff3739eaa5f2f1d5e3c6a93a7467",
+          "title": "AI正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+          "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T16:04:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T16:04:41Z",
+      "latest_at": "2026-08-02T17:33:39.911184Z",
+      "primary_item": {
+        "id": "524fbfe15cde7d42399fe84b98ed195169dcf858",
+        "title": "AI 正导致一场知识的转基因危机，多数人将沦为认知肉鸡？",
+        "url": "https://www.huxiu.com/article/4880101.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -1018,15 +1178,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5417,
-      "importance": 0.5417,
-      "importance_score": 0.5417,
+      "score": 0.5385,
+      "importance": 0.5385,
+      "importance_score": 0.5385,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8385,
+        "recency": 0.8206,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1097,15 +1257,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5029,
-      "importance": 0.5029,
-      "importance_score": 0.5029,
+      "score": 0.5,
+      "importance": 0.5,
+      "importance_score": 0.5,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7618,
+        "recency": 0.7455,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1175,15 +1335,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4999,
-      "importance": 0.4999,
-      "importance_score": 0.4999,
+      "score": 0.497,
+      "importance": 0.497,
+      "importance_score": 0.497,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7448,
+        "recency": 0.7289,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1254,15 +1414,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.527,
-      "importance": 0.527,
-      "importance_score": 0.527,
+      "score": 0.5235,
+      "importance": 0.5235,
+      "importance_score": 0.5235,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8954,
+        "recency": 0.8762,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1280,80 +1440,79 @@
       }
     },
     {
-      "story_id": "story_099ccf3a13ec",
-      "title": "从 TPU 到自我进化的 Agent，Jeff Dean 如何判断 AI 的下一步",
-      "url": "https://news.qq.com/rain/a/20260802A07RV800",
-      "primary_url": "https://news.qq.com/rain/a/20260802A07RV800",
+      "story_id": "story_65ef8d2bbdc6",
+      "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
+      "url": "https://hub.baai.ac.cn/view/56822",
+      "primary_url": "https://hub.baai.ac.cn/view/56822",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "bbaa0fc68a3a20473cf5c1290e76fd3c26728363",
-          "title": "从 TPU 到自我进化的 Agent，Jeff Dean 如何判断 AI 的下一步",
-          "url": "https://news.qq.com/rain/a/20260802A07RV800",
+          "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
+          "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
+          "url": "https://hub.baai.ac.cn/view/56822",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "e5eabaf8fccf9a37472fc8330ceeaeb2714e432c",
-          "title": "从TPU到自我进化的Agent，Jeff Dean如何判断AI的下一步",
-          "url": "https://www.huxiu.com/article/4880039.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T05:07:32Z"
+          "id": "71d4355c0b9a9716b61f04fe9e4cf6ff40d06f43",
+          "title": "Nat. Comput. Sci. | 结构比对驱动的跨图建模实现功能性 RNA 设计",
+          "url": "https://hub.baai.ac.cn/view/56822",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI",
-        "虎嗅 (Huxiu)"
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "bbaa0fc68a3a20473cf5c1290e76fd3c26728363",
-          "title": "从 TPU 到自我进化的 Agent，Jeff Dean 如何判断 AI 的下一步",
-          "url": "https://news.qq.com/rain/a/20260802A07RV800",
+          "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
+          "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
+          "url": "https://hub.baai.ac.cn/view/56822",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "e5eabaf8fccf9a37472fc8330ceeaeb2714e432c",
-          "title": "从TPU到自我进化的Agent，Jeff Dean如何判断AI的下一步",
-          "url": "https://www.huxiu.com/article/4880039.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T05:07:32Z"
+          "id": "71d4355c0b9a9716b61f04fe9e4cf6ff40d06f43",
+          "title": "Nat. Comput. Sci. | 结构比对驱动的跨图建模实现功能性 RNA 设计",
+          "url": "https://hub.baai.ac.cn/view/56822",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.524,
-      "importance": 0.524,
-      "importance_score": 0.524,
+      "score": 0.542,
+      "importance": 0.542,
+      "importance_score": 0.542,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8789,
+        "recency": 0.9786,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-02T05:07:32Z",
-      "latest_at": "2026-08-02T07:07:37.490990Z",
+      "earliest_at": "2026-08-02T11:19:57.279315Z",
+      "latest_at": "2026-08-02T16:03:53.628368Z",
       "primary_item": {
-        "id": "bbaa0fc68a3a20473cf5c1290e76fd3c26728363",
-        "title": "从 TPU 到自我进化的 Agent，Jeff Dean 如何判断 AI 的下一步",
-        "url": "https://news.qq.com/rain/a/20260802A07RV800",
+        "id": "c58c6df89cf2e91ff13781f9b351e4429f6b565c",
+        "title": "结构比对驱动的跨图建模实现功能性 RNA 设计",
+        "url": "https://hub.baai.ac.cn/view/56822",
         "source": "Readhub · AI",
         "source_name": "TopHub"
       }
@@ -1412,15 +1571,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5365,
-      "importance": 0.5365,
-      "importance_score": 0.5365,
+      "score": 0.5329,
+      "importance": 0.5329,
+      "importance_score": 0.5329,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9484,
+        "recency": 0.9281,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1490,15 +1649,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4966,
-      "importance": 0.4966,
-      "importance_score": 0.4966,
+      "score": 0.4938,
+      "importance": 0.4938,
+      "importance_score": 0.4938,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7266,
+        "recency": 0.711,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1513,164 +1672,6 @@
         "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_9913dded4f75",
-      "title": "初创公司 Majestic 推出 AI 服务器「普罗米修斯」，可选配 8TB-128TB LPDDR6 内存",
-      "url": "https://www.ithome.com/0/984/671.htm",
-      "primary_url": "https://www.ithome.com/0/984/671.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "34f53649cf093a81fa348fe320de2adf87398de0",
-          "title": "初创公司 Majestic 推出 AI 服务器「普罗米修斯」，可选配 8TB-128TB LPDDR6 内存",
-          "url": "https://www.ithome.com/0/984/671.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "c70a424ede9564b97959e47d0150984604ec6b21",
-          "title": "初创公司 Majestic 推出 AI 服务器“普罗米修斯”，可选配 8TB-128TB LPDDR6 内存",
-          "url": "https://www.ithome.com/0/984/671.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T02:06:47Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "34f53649cf093a81fa348fe320de2adf87398de0",
-          "title": "初创公司 Majestic 推出 AI 服务器「普罗米修斯」，可选配 8TB-128TB LPDDR6 内存",
-          "url": "https://www.ithome.com/0/984/671.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "c70a424ede9564b97959e47d0150984604ec6b21",
-          "title": "初创公司 Majestic 推出 AI 服务器“普罗米修斯”，可选配 8TB-128TB LPDDR6 内存",
-          "url": "https://www.ithome.com/0/984/671.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T02:06:47Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5172,
-      "importance": 0.5172,
-      "importance_score": 0.5172,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8411,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T02:06:47Z",
-      "latest_at": "2026-08-02T04:04:51.755722Z",
-      "primary_item": {
-        "id": "34f53649cf093a81fa348fe320de2adf87398de0",
-        "title": "初创公司 Majestic 推出 AI 服务器「普罗米修斯」，可选配 8TB-128TB LPDDR6 内存",
-        "url": "https://www.ithome.com/0/984/671.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_8bfd4174f55c",
-      "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-      "url": "https://news.ycombinator.com/item?id=49143001",
-      "primary_url": "https://news.ycombinator.com/item?id=49143001",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://news.ycombinator.com/item?id=49143001",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T10:53:17.361000Z"
-        },
-        {
-          "id": "448465f8e3efbcbdbc6b0875972fea9f5c7b8c4b",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://publicdomainreview.org/essay/ars-notoria",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T10:18:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://news.ycombinator.com/item?id=49143001",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T10:53:17.361000Z"
-        },
-        {
-          "id": "448465f8e3efbcbdbc6b0875972fea9f5c7b8c4b",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://publicdomainreview.org/essay/ars-notoria",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T10:18:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.928,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T10:18:24Z",
-      "latest_at": "2026-08-02T10:53:17.361000Z",
-      "primary_item": {
-        "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-        "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-        "url": "https://news.ycombinator.com/item?id=49143001",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     }
   ]
