@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T19:18:11.500755Z",
+  "generated_at": "2026-08-02T20:29:22.918150Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7558,
-      "importance": 0.7558,
-      "importance_score": 0.7558,
+      "score": 0.7531,
+      "importance": 0.7531,
+      "importance_score": 0.7531,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8843,
+        "recency": 0.8693,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -161,15 +161,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.737,
-      "importance": 0.737,
-      "importance_score": 0.737,
+      "score": 0.7345,
+      "importance": 0.7345,
+      "importance_score": 0.7345,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.83,
+        "recency": 0.8159,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -293,15 +293,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6772,
-      "importance": 0.6772,
-      "importance_score": 0.6772,
+      "score": 0.6742,
+      "importance": 0.6742,
+      "importance_score": 0.6742,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.54,
         "ai_relevance": 0.68,
-        "recency": 0.9752,
+        "recency": 0.9586,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -447,15 +447,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.5848,
-      "importance": 0.5848,
-      "importance_score": 0.5848,
+      "score": 0.5824,
+      "importance": 0.5824,
+      "importance_score": 0.5824,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8002,
+        "recency": 0.7866,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -470,6 +470,104 @@
         "url": "https://news.ycombinator.com/item?id=49139102",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_8bfd4174f55c",
+      "title": "人工智能：《Ars Notoria》与即时知识的承诺",
+      "url": "https://publicdomainreview.org/essay/ars-notoria",
+      "primary_url": "https://publicdomainreview.org/essay/ars-notoria",
+      "source": "publicdomainreview.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9bd646e11821729d4ce7d7df6b6ee9bfc374e134",
+          "title": "人工智能：《Ars Notoria》与即时知识的承诺",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "publicdomainreview.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T19:20:48.057000Z"
+        },
+        {
+          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://news.ycombinator.com/item?id=49143001",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T10:53:17.361000Z"
+        },
+        {
+          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
+          "title": "人工智能：《Ars Notoria》与即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T10:18:24Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "publicdomainreview.org"
+      ],
+      "items": [
+        {
+          "id": "9bd646e11821729d4ce7d7df6b6ee9bfc374e134",
+          "title": "人工智能：《Ars Notoria》与即时知识的承诺",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "publicdomainreview.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T19:20:48.057000Z"
+        },
+        {
+          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://news.ycombinator.com/item?id=49143001",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T10:53:17.361000Z"
+        },
+        {
+          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
+          "title": "人工智能：《Ars Notoria》与即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T10:18:24Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5679,
+      "importance": 0.5679,
+      "importance_score": 0.5679,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9836,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T10:18:24Z",
+      "latest_at": "2026-08-02T19:20:48.057000Z",
+      "primary_item": {
+        "id": "9bd646e11821729d4ce7d7df6b6ee9bfc374e134",
+        "title": "人工智能：《Ars Notoria》与即时知识的承诺",
+        "url": "https://publicdomainreview.org/essay/ars-notoria",
+        "source": "publicdomainreview.org",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -526,15 +624,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5586,
-      "importance": 0.5586,
-      "importance_score": 0.5586,
+      "score": 0.5562,
+      "importance": 0.5562,
+      "importance_score": 0.5562,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.805,
+        "recency": 0.7913,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -605,15 +703,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.983,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -684,15 +782,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5391,
-      "importance": 0.5391,
-      "importance_score": 0.5391,
+      "score": 0.5362,
+      "importance": 0.5362,
+      "importance_score": 0.5362,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9628,
+        "recency": 0.9465,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -763,15 +861,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5339,
-      "importance": 0.5339,
-      "importance_score": 0.5339,
+      "score": 0.531,
+      "importance": 0.531,
+      "importance_score": 0.531,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9336,
+        "recency": 0.9178,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -842,15 +940,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5263,
-      "importance": 0.5263,
-      "importance_score": 0.5263,
+      "score": 0.5235,
+      "importance": 0.5235,
+      "importance_score": 0.5235,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8914,
+        "recency": 0.8763,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -921,15 +1019,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.525,
-      "importance": 0.525,
-      "importance_score": 0.525,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8846,
+        "recency": 0.8696,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -944,6 +1042,85 @@
         "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
         "source": "ankursethi.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_87444f9634f8",
+      "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "url": "https://news.ycombinator.com/item?id=49147622",
+      "primary_url": "https://news.ycombinator.com/item?id=49147622",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "de2aebe71cb4fe599af5e34eec552b9a233564ad",
+          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+          "url": "https://news.ycombinator.com/item?id=49147622",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T20:30:06.975000Z"
+        },
+        {
+          "id": "9cdb16941baa8ae1980e1cc4ee81f9dfaf77b800",
+          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+          "url": "https://frogs.vaguespac.es",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T19:42:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "de2aebe71cb4fe599af5e34eec552b9a233564ad",
+          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+          "url": "https://news.ycombinator.com/item?id=49147622",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T20:30:06.975000Z"
+        },
+        {
+          "id": "9cdb16941baa8ae1980e1cc4ee81f9dfaf77b800",
+          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+          "url": "https://frogs.vaguespac.es",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T19:42:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T19:42:08Z",
+      "latest_at": "2026-08-02T20:30:06.975000Z",
+      "primary_item": {
+        "id": "de2aebe71cb4fe599af5e34eec552b9a233564ad",
+        "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+        "url": "https://news.ycombinator.com/item?id=49147622",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -964,18 +1141,18 @@
           "published_at": "2026-08-02T07:21:18.343000Z"
         },
         {
-          "id": "32875495637ba4a81f2a31fa16f5dc0f1b30a531",
+          "id": "d89d97419f20cd1b2221e3de57317710ce95278b",
           "title": "在 MI355X 上运行 Kimi K3，其性价比优于 B300 / Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
           "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-02T04:21:14Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "www.wafer.ai"
       ],
       "items": [
@@ -989,26 +1166,26 @@
           "published_at": "2026-08-02T07:21:18.343000Z"
         },
         {
-          "id": "32875495637ba4a81f2a31fa16f5dc0f1b30a531",
+          "id": "d89d97419f20cd1b2221e3de57317710ce95278b",
           "title": "在 MI355X 上运行 Kimi K3，其性价比优于 B300 / Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
           "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-02T04:21:14Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5173,
-      "importance": 0.5173,
-      "importance_score": 0.5173,
+      "score": 0.5147,
+      "importance": 0.5147,
+      "importance_score": 0.5147,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8415,
+        "recency": 0.8272,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1079,15 +1256,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9752,
+        "recency": 0.9586,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1102,104 +1279,6 @@
         "url": "https://www.huxiu.com/article/4880099.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_aebc4b890a8b",
-      "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-      "url": "https://news.ycombinator.com/item?id=49140340",
-      "primary_url": "https://news.ycombinator.com/item?id=49140340",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "206af265b950be5f12e82285bf43bfc57041e321",
-          "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-          "url": "https://news.ycombinator.com/item?id=49140340",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T03:52:11.555000Z"
-        },
-        {
-          "id": "94b722cdb7dc5fd8479e73dbee0e694962e45b97",
-          "title": "Show HN: CostPerPrompt – 实时 AI API 定价及实际工作负载成本计算器",
-          "url": "https://costperprompt.com",
-          "source": "costperprompt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T02:01:09.958000Z"
-        },
-        {
-          "id": "ea352b51ccf016520ecfc34b60e184a9ca79edde",
-          "title": "Show HN: CostPerPrompt – 实时 AI API 定价及实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-          "url": "https://costperprompt.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T01:56:44Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "costperprompt.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "206af265b950be5f12e82285bf43bfc57041e321",
-          "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-          "url": "https://news.ycombinator.com/item?id=49140340",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T03:52:11.555000Z"
-        },
-        {
-          "id": "94b722cdb7dc5fd8479e73dbee0e694962e45b97",
-          "title": "Show HN: CostPerPrompt – 实时 AI API 定价及实际工作负载成本计算器",
-          "url": "https://costperprompt.com",
-          "source": "costperprompt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T02:01:09.958000Z"
-        },
-        {
-          "id": "ea352b51ccf016520ecfc34b60e184a9ca79edde",
-          "title": "Show HN: CostPerPrompt – 实时 AI API 定价及实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-          "url": "https://costperprompt.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T01:56:44Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8002,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T01:56:44Z",
-      "latest_at": "2026-08-02T03:52:11.555000Z",
-      "primary_item": {
-        "id": "206af265b950be5f12e82285bf43bfc57041e321",
-        "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器 / Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-        "url": "https://news.ycombinator.com/item?id=49140340",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1256,15 +1335,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4967,
-      "importance": 0.4967,
-      "importance_score": 0.4967,
+      "score": 0.4944,
+      "importance": 0.4944,
+      "importance_score": 0.4944,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.727,
+        "recency": 0.7146,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1279,84 +1358,6 @@
         "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
         "source": "www.bfswa.blog",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a408ae343b81",
-      "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google News is just Forrest Gump's shrimp boat now",
-      "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-      "primary_url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "2b934a65975d6796053016dc655dd7f10dd371b1",
-          "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google News is just Forrest Gump's shrimp boat now",
-          "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T19:39:43Z"
-        },
-        {
-          "id": "c3528c96b05981a59f507f676f9fbe8e78f92945",
-          "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google has abandoned Google News?",
-          "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T19:39:43Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "2b934a65975d6796053016dc655dd7f10dd371b1",
-          "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google News is just Forrest Gump's shrimp boat now",
-          "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T19:39:43Z"
-        },
-        {
-          "id": "c3528c96b05981a59f507f676f9fbe8e78f92945",
-          "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google has abandoned Google News?",
-          "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T19:39:43Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4937,
-      "importance": 0.4937,
-      "importance_score": 0.4937,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7108,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-01T19:39:43Z",
-      "latest_at": "2026-08-01T19:39:43Z",
-      "primary_item": {
-        "id": "2b934a65975d6796053016dc655dd7f10dd371b1",
-        "title": "如今的谷歌新闻，不过就是《阿甘正传》里那艘捕虾船罢了 / Google News is just Forrest Gump's shrimp boat now",
-        "url": "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     },
     {
@@ -1413,15 +1414,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5196,
-      "importance": 0.5196,
-      "importance_score": 0.5196,
+      "score": 0.517,
+      "importance": 0.517,
+      "importance_score": 0.517,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8545,
+        "recency": 0.84,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1436,6 +1437,85 @@
         "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_cfdd2789b4ea",
+      "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+      "url": "https://news.ycombinator.com/item?id=49147606",
+      "primary_url": "https://news.ycombinator.com/item?id=49147606",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "22d23d553d32775a95bc6a7675c3cfb7edd56004",
+          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+          "url": "https://news.ycombinator.com/item?id=49147606",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T20:30:06.975000Z"
+        },
+        {
+          "id": "68c67fdf4543d06152afbfe4079bb1dfbdabf901",
+          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T19:40:19Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "22d23d553d32775a95bc6a7675c3cfb7edd56004",
+          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+          "url": "https://news.ycombinator.com/item?id=49147606",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T20:30:06.975000Z"
+        },
+        {
+          "id": "68c67fdf4543d06152afbfe4079bb1dfbdabf901",
+          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T19:40:19Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T19:40:19Z",
+      "latest_at": "2026-08-02T20:30:06.975000Z",
+      "primary_item": {
+        "id": "22d23d553d32775a95bc6a7675c3cfb7edd56004",
+        "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
+        "url": "https://news.ycombinator.com/item?id=49147606",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1492,15 +1572,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9752,
+        "recency": 0.9586,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1515,85 +1595,6 @@
         "url": "https://www.huxiu.com/article/4880101.html?f=rss",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_302ebd399e0c",
-      "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-      "url": "https://news.ycombinator.com/item?id=49143688",
-      "primary_url": "https://news.ycombinator.com/item?id=49143688",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "6e433cb300eda8530a7f8a2d54d2a70221e12c73",
-          "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-          "url": "https://news.ycombinator.com/item?id=49143688",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T12:23:38.619000Z"
-        },
-        {
-          "id": "f7b5cd53d8f0af63844c9b57056b0f40ce920dba",
-          "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-          "url": "https://twitter.com/polynoamial/status/2083467194663571701",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-02T12:01:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "6e433cb300eda8530a7f8a2d54d2a70221e12c73",
-          "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-          "url": "https://news.ycombinator.com/item?id=49143688",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T12:23:38.619000Z"
-        },
-        {
-          "id": "f7b5cd53d8f0af63844c9b57056b0f40ce920dba",
-          "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-          "url": "https://twitter.com/polynoamial/status/2083467194663571701",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-02T12:01:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5287,
-      "importance": 0.5287,
-      "importance_score": 0.5287,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.905,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T12:01:37Z",
-      "latest_at": "2026-08-02T12:23:38.619000Z",
-      "primary_item": {
-        "id": "6e433cb300eda8530a7f8a2d54d2a70221e12c73",
-        "title": "内部 OpenAI Astra 模型解决了 10 个主要的开放数学和 CS 问题 / An internal OpenAI Astra model solved 10 major open math and CS problems",
-        "url": "https://news.ycombinator.com/item?id=49143688",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1649,15 +1650,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5376,
-      "importance": 0.5376,
-      "importance_score": 0.5376,
+      "score": 0.5347,
+      "importance": 0.5347,
+      "importance_score": 0.5347,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9543,
+        "recency": 0.9381,
         "story_heat": 0.25
       },
       "category": "watch",
