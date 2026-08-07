@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:44:11.347911Z",
+  "generated_at": "2026-08-07T07:23:58.347891Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8904,
-      "importance": 0.8904,
-      "importance_score": 0.8904,
+      "score": 0.8871,
+      "importance": 0.8871,
+      "importance_score": 0.8871,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.752,
+        "recency": 0.7342,
         "story_heat": 0.75
       },
       "category": "official",
@@ -121,6 +121,124 @@
         "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "4308e87bf2f6e7113425e138acd3b37426bbd145",
+          "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:41:21Z"
+        },
+        {
+          "id": "87b09f41ca563f02768c82cc2557933ed9f775dd",
+          "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:01:45Z"
+        },
+        {
+          "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
+          "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T02:04:51Z"
+        },
+        {
+          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
+          "title": "千问全网首发公测，全新 Wan3.0 来了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T13:25:10Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "公众号：千问APP（阿里）",
+        "公众号：火山引擎",
+        "公众号：面壁智能（MiniCPM）"
+      ],
+      "items": [
+        {
+          "id": "4308e87bf2f6e7113425e138acd3b37426bbd145",
+          "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:41:21Z"
+        },
+        {
+          "id": "87b09f41ca563f02768c82cc2557933ed9f775dd",
+          "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:01:45Z"
+        },
+        {
+          "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
+          "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T02:04:51Z"
+        },
+        {
+          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
+          "title": "千问全网首发公测，全新 Wan3.0 来了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T13:25:10Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8661,
+      "importance": 0.8661,
+      "importance_score": 0.8661,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9804,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-06T13:25:10Z",
+      "latest_at": "2026-08-07T06:41:21Z",
+      "primary_item": {
+        "id": "87b09f41ca563f02768c82cc2557933ed9f775dd",
+        "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+        "source": "公众号：火山引擎",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -177,15 +295,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.853,
-      "importance": 0.853,
-      "importance_score": 0.853,
+      "score": 0.8493,
+      "importance": 0.8493,
+      "importance_score": 0.8493,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8667,
+        "recency": 0.8461,
         "story_heat": 0.25
       },
       "category": "official",
@@ -240,15 +358,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8517,
-      "importance": 0.8517,
-      "importance_score": 0.8517,
+      "score": 0.8478,
+      "importance": 0.8478,
+      "importance_score": 0.8478,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.9205,
+        "recency": 0.8987,
         "story_heat": 0.0
       },
       "category": "official",
@@ -302,15 +420,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8228,
-      "importance": 0.8228,
-      "importance_score": 0.8228,
+      "score": 0.8192,
+      "importance": 0.8192,
+      "importance_score": 0.8192,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8375,
+        "recency": 0.8176,
         "story_heat": 0.0
       },
       "category": "official",
@@ -364,15 +482,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
+      "score": 0.8063,
+      "importance": 0.8063,
+      "importance_score": 0.8063,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8095,
+        "recency": 0.7903,
         "story_heat": 0.0
       },
       "category": "official",
@@ -392,26 +510,26 @@
       }
     },
     {
-      "story_id": "story_0b8cb8210dfe",
-      "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-      "url": "https://www.aibase.com/news/30180",
-      "primary_url": "https://www.aibase.com/news/30180",
+      "story_id": "story_0076256a5916",
+      "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+      "url": "https://www.aibase.com/news/30192",
+      "primary_url": "https://www.aibase.com/news/30192",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
-          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-          "url": "https://www.aibase.com/news/30180",
+          "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+          "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/news/30192",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
+          "published_at": "2026-08-07T07:23:58.347891Z"
         },
         {
-          "id": "44e1a8612eaf693e36892357a21079b49b6f1c01",
-          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-          "url": "https://www.aibase.com/zh/news/30180",
+          "id": "35bf5f10658c8b9599762e0f360d4bdefec3d93e",
+          "title": "AI 生成 70 万份病毒基因组，16 个在实验室中“复活”：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/zh/news/30192",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -425,18 +543,18 @@
       ],
       "items": [
         {
-          "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
-          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-          "url": "https://www.aibase.com/news/30180",
+          "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+          "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/news/30192",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
+          "published_at": "2026-08-07T07:23:58.347891Z"
         },
         {
-          "id": "44e1a8612eaf693e36892357a21079b49b6f1c01",
-          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-          "url": "https://www.aibase.com/zh/news/30180",
+          "id": "35bf5f10658c8b9599762e0f360d4bdefec3d93e",
+          "title": "AI 生成 70 万份病毒基因组，16 个在实验室中“复活”：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/zh/news/30192",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -445,15 +563,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.787,
-      "importance": 0.787,
-      "importance_score": 0.787,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9687,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -462,140 +580,79 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-07T03:32:03.137446Z",
-      "latest_at": "2026-08-07T03:32:03.137446Z",
+      "earliest_at": "2026-08-07T07:23:58.347891Z",
+      "latest_at": "2026-08-07T07:23:58.347891Z",
       "primary_item": {
-        "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
-        "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
-        "url": "https://www.aibase.com/news/30180",
+        "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+        "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+        "url": "https://www.aibase.com/news/30192",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_6da5f2d271da",
-      "title": "与美国心理学会合作研究青少年心理健康和人工智能 / Working with the American Psychological Association on youth mental health and AI",
-      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "primary_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_514162b004ef",
+      "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本只要百分之一",
+      "url": "https://www.aibase.com/news/30194",
+      "primary_url": "https://www.aibase.com/news/30194",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "1a8fe6ac54175c21291af62fd9b6eda69be49685",
-          "title": "与美国心理学会合作研究青少年心理健康和人工智能 / Working with the American Psychological Association on youth mental health and AI",
-          "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-06T06:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "1a8fe6ac54175c21291af62fd9b6eda69be49685",
-          "title": "与美国心理学会合作研究青少年心理健康和人工智能 / Working with the American Psychological Association on youth mental health and AI",
-          "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-06T06:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7998,
-      "importance": 0.7998,
-      "importance_score": 0.7998,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7098,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-06T06:00:00Z",
-      "latest_at": "2026-08-06T06:00:00Z",
-      "primary_item": {
-        "id": "1a8fe6ac54175c21291af62fd9b6eda69be49685",
-        "title": "与美国心理学会合作研究青少年心理健康和人工智能 / Working with the American Psychological Association on youth mental health and AI",
-        "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-      "source": "公众号：千问APP（阿里）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
-          "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T02:04:51Z"
+          "id": "98608447a616cc19373034f3ef86c4e5f0966422",
+          "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本只要百分之一",
+          "url": "https://www.aibase.com/news/30194",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T07:23:58.347891Z"
         },
         {
-          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
-          "title": "千问全网首发公测，全新 Wan3.0 来了！",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T13:25:10Z"
+          "id": "1fd7e11d5dbefc44b1cc3639daa38d6750f9375b",
+          "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本仅百分之一",
+          "url": "https://www.aibase.com/zh/news/30194",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "公众号：千问APP（阿里）"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
-          "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T02:04:51Z"
+          "id": "98608447a616cc19373034f3ef86c4e5f0966422",
+          "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本只要百分之一",
+          "url": "https://www.aibase.com/news/30194",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T07:23:58.347891Z"
         },
         {
-          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
-          "title": "千问全网首发公测，全新 Wan3.0 来了！",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T13:25:10Z"
+          "id": "1fd7e11d5dbefc44b1cc3639daa38d6750f9375b",
+          "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本仅百分之一",
+          "url": "https://www.aibase.com/zh/news/30194",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7683,
-      "importance": 0.7683,
-      "importance_score": 0.7683,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.67,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9486,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -604,13 +661,74 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-06T13:25:10Z",
-      "latest_at": "2026-08-07T02:04:51Z",
+      "earliest_at": "2026-08-07T07:23:58.347891Z",
+      "latest_at": "2026-08-07T07:23:58.347891Z",
       "primary_item": {
-        "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
-        "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-        "source": "公众号：千问APP（阿里）",
+        "id": "98608447a616cc19373034f3ef86c4e5f0966422",
+        "title": "Neon 联手 Castform 训出 4B 文档搜索小模型：准确率超 GPT-5.6 Sol，成本只要百分之一",
+        "url": "https://www.aibase.com/news/30194",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_71849d7aefd8",
+      "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+      "url": "https://www.ithome.com/0/986/951.htm",
+      "primary_url": "https://www.ithome.com/0/986/951.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a11b435456716d5abbd0433177be593b8f62f562",
+          "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+          "url": "https://www.ithome.com/0/986/951.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:11:01Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "a11b435456716d5abbd0433177be593b8f62f562",
+          "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+          "url": "https://www.ithome.com/0/986/951.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:11:01Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9826,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T06:11:01Z",
+      "latest_at": "2026-08-07T06:11:01Z",
+      "primary_item": {
+        "id": "a11b435456716d5abbd0433177be593b8f62f562",
+        "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+        "url": "https://www.ithome.com/0/986/951.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -668,15 +786,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
+      "score": 0.7605,
+      "importance": 0.7605,
+      "importance_score": 0.7605,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7904,
+        "recency": 0.7716,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -693,87 +811,6 @@
         "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_796860153324",
-      "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-      "url": "https://www.aibase.com/news/30185",
-      "primary_url": "https://www.aibase.com/news/30185",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
-          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-          "url": "https://www.aibase.com/news/30185",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
-        },
-        {
-          "id": "60b0988cee66cf1a5016fbcb92d02cfa233ba1eb",
-          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-          "url": "https://www.aibase.com/zh/news/30185",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
-          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-          "url": "https://www.aibase.com/news/30185",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
-        },
-        {
-          "id": "60b0988cee66cf1a5016fbcb92d02cfa233ba1eb",
-          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-          "url": "https://www.aibase.com/zh/news/30185",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.787,
-      "importance": 0.787,
-      "importance_score": 0.787,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9687,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-07T03:32:03.137446Z",
-      "latest_at": "2026-08-07T03:32:03.137446Z",
-      "primary_item": {
-        "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
-        "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
-        "url": "https://www.aibase.com/news/30185",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -811,15 +848,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7548,
-      "importance": 0.7548,
-      "importance_score": 0.7548,
+      "score": 0.7511,
+      "importance": 0.7511,
+      "importance_score": 0.7511,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8621,
+        "recency": 0.8416,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -891,22 +928,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7525,
-      "importance": 0.7525,
-      "importance_score": 0.7525,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8104,
+        "recency": 0.7911,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-06T15:10:32Z",
       "latest_at": "2026-08-06T15:10:32Z",
@@ -915,87 +951,6 @@
         "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
         "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_bc2654020696",
-      "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
-      "url": "https://www.ithome.com/0/986/729.htm",
-      "primary_url": "https://www.ithome.com/0/986/729.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b7ed4aea7864403ee8647c28d367e9bc05306de5",
-          "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
-          "url": "https://www.ithome.com/0/986/729.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T12:49:13Z"
-        },
-        {
-          "id": "fecc657af22747cd464e23d630897bcba52bb29e",
-          "title": "谷歌地图智能体功能迎来新升级：聊着天就把酒店、外卖订好了",
-          "url": "https://www.ithome.com/0/986/729.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-06T12:49:13Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b7ed4aea7864403ee8647c28d367e9bc05306de5",
-          "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
-          "url": "https://www.ithome.com/0/986/729.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T12:49:13Z"
-        },
-        {
-          "id": "fecc657af22747cd464e23d630897bcba52bb29e",
-          "title": "谷歌地图智能体功能迎来新升级：聊着天就把酒店、外卖订好了",
-          "url": "https://www.ithome.com/0/986/729.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-06T12:49:13Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7506,
-      "importance": 0.7506,
-      "importance_score": 0.7506,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7833,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-06T12:49:13Z",
-      "latest_at": "2026-08-06T12:49:13Z",
-      "primary_item": {
-        "id": "b7ed4aea7864403ee8647c28d367e9bc05306de5",
-        "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
-        "url": "https://www.ithome.com/0/986/729.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1034,15 +989,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7464,
-      "importance": 0.7464,
-      "importance_score": 0.7464,
+      "score": 0.743,
+      "importance": 0.743,
+      "importance_score": 0.743,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7991,
+        "recency": 0.7801,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1094,15 +1049,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7461,
-      "importance": 0.7461,
-      "importance_score": 0.7461,
+      "score": 0.7426,
+      "importance": 0.7426,
+      "importance_score": 0.7426,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8306,
+        "recency": 0.8109,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1116,66 +1071,6 @@
         "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
         "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
         "source": "Google Developers Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9eaadebeb64e",
-      "title": "Qwen-Image-3.0 发布：高分辨率低至 0.03 美元",
-      "url": "https://x.com/alibaba_cloud/status/2085247637734002848",
-      "primary_url": "https://x.com/alibaba_cloud/status/2085247637734002848",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "555adb93cbfbc47a3f751f8a258971aa2084e094",
-          "title": "Qwen-Image-3.0 发布：高分辨率低至 0.03 美元",
-          "url": "https://x.com/alibaba_cloud/status/2085247637734002848",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T06:12:33Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
-      ],
-      "items": [
-        {
-          "id": "555adb93cbfbc47a3f751f8a258971aa2084e094",
-          "title": "Qwen-Image-3.0 发布：高分辨率低至 0.03 美元",
-          "url": "https://x.com/alibaba_cloud/status/2085247637734002848",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T06:12:33Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7428,
-      "importance": 0.7428,
-      "importance_score": 0.7428,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7119,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-06T06:12:33Z",
-      "latest_at": "2026-08-06T06:12:33Z",
-      "primary_item": {
-        "id": "555adb93cbfbc47a3f751f8a258971aa2084e094",
-        "title": "Qwen-Image-3.0 发布：高分辨率低至 0.03 美元",
-        "url": "https://x.com/alibaba_cloud/status/2085247637734002848",
-        "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
         "source_name": "AI HOT"
       }
     },
@@ -1214,15 +1109,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
+      "score": 0.7378,
+      "importance": 0.7378,
+      "importance_score": 0.7378,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.957,
+        "recency": 0.9343,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1240,144 +1135,64 @@
       }
     },
     {
-      "story_id": "story_1c979cd00903",
-      "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "primary_url": "https://arxiv.org/abs/2510.01395",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_10b1abf33832",
+      "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+      "url": "https://www.ithome.com/0/986/957.htm",
+      "primary_url": "https://www.ithome.com/0/986/957.htm",
+      "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "c77b4f6032f947c41785cb2f994bf7fe6fff9e33",
-          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-          "url": "https://arxiv.org/abs/2510.01395",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "0d3b5b141fb9c088708f5888c6eb4f25a226c7f9",
+          "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+          "url": "https://www.ithome.com/0/986/957.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-06T07:03:41.634000Z"
+          "published_at": "2026-08-07T06:28:51Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "c77b4f6032f947c41785cb2f994bf7fe6fff9e33",
-          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-          "url": "https://arxiv.org/abs/2510.01395",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "0d3b5b141fb9c088708f5888c6eb4f25a226c7f9",
+          "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+          "url": "https://www.ithome.com/0/986/957.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-06T07:03:41.634000Z"
+          "published_at": "2026-08-07T06:28:51Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7323,
-      "importance": 0.7323,
-      "importance_score": 0.7323,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.77,
+        "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7208,
+        "recency": 0.9868,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-06T07:03:41.634000Z",
-      "latest_at": "2026-08-06T07:03:41.634000Z",
-      "primary_item": {
-        "id": "c77b4f6032f947c41785cb2f994bf7fe6fff9e33",
-        "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-        "url": "https://arxiv.org/abs/2510.01395",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4b6f1b9b4d4f",
-      "title": "GPT-5 一周年之际 OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-      "url": "https://www.aibase.com/news/30183",
-      "primary_url": "https://www.aibase.com/news/30183",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b91ee2a0d04c18c1faf0d3a03a7e2771c95bd31b",
-          "title": "GPT-5 一周年之际 OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-          "url": "https://www.aibase.com/news/30183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
-        },
-        {
-          "id": "62210b3d2e1644991836a76cd6bafa3ca420a81c",
-          "title": "OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-          "url": "https://www.aibase.com/zh/news/30183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "b91ee2a0d04c18c1faf0d3a03a7e2771c95bd31b",
-          "title": "GPT-5 一周年之际 OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-          "url": "https://www.aibase.com/news/30183",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-07T03:32:03.137446Z"
-        },
-        {
-          "id": "62210b3d2e1644991836a76cd6bafa3ca420a81c",
-          "title": "OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-          "url": "https://www.aibase.com/zh/news/30183",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.787,
-      "importance": 0.787,
-      "importance_score": 0.787,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9687,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-07T03:32:03.137446Z",
-      "latest_at": "2026-08-07T03:32:03.137446Z",
+      "earliest_at": "2026-08-07T06:28:51Z",
+      "latest_at": "2026-08-07T06:28:51Z",
       "primary_item": {
-        "id": "b91ee2a0d04c18c1faf0d3a03a7e2771c95bd31b",
-        "title": "GPT-5 一周年之际 OpenAI 推出 Agent Plugins 标准：终结智能体插件碎片化，定义跨客户端互通规范",
-        "url": "https://www.aibase.com/news/30183",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "0d3b5b141fb9c088708f5888c6eb4f25a226c7f9",
+        "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+        "url": "https://www.ithome.com/0/986/957.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1434,15 +1249,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.757,
-      "importance": 0.757,
-      "importance_score": 0.757,
+      "score": 0.7536,
+      "importance": 0.7536,
+      "importance_score": 0.7536,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7853,
+        "recency": 0.7667,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1459,6 +1274,228 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
         "source": "The Verge：AI（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0b8cb8210dfe",
+      "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+      "url": "https://www.aibase.com/news/30180",
+      "primary_url": "https://www.aibase.com/news/30180",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
+          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+          "url": "https://www.aibase.com/news/30180",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T03:32:03.137446Z"
+        },
+        {
+          "id": "44e1a8612eaf693e36892357a21079b49b6f1c01",
+          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+          "url": "https://www.aibase.com/zh/news/30180",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
+          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+          "url": "https://www.aibase.com/news/30180",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T03:32:03.137446Z"
+        },
+        {
+          "id": "44e1a8612eaf693e36892357a21079b49b6f1c01",
+          "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+          "url": "https://www.aibase.com/zh/news/30180",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7828,
+      "importance": 0.7828,
+      "importance_score": 0.7828,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9457,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T03:32:03.137446Z",
+      "latest_at": "2026-08-07T03:32:03.137446Z",
+      "primary_item": {
+        "id": "79186ad6f93f38e10ee07e8d71918f5e41e95fb2",
+        "title": "ChatGPT 免费版史诗升级：GPT-5.6 Luna 无限使用，Plus/Pro 用户也有专属福利",
+        "url": "https://www.aibase.com/news/30180",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_e7193ae568c9",
+      "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+      "primary_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+      "source": "NVIDIA Blog（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "35e1dd4aac57314121b35cc4b82eb57ffe39f936",
+          "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+          "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+          "source": "NVIDIA Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T13:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "35e1dd4aac57314121b35cc4b82eb57ffe39f936",
+          "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+          "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+          "source": "NVIDIA Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T13:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7226,
+      "importance": 0.7226,
+      "importance_score": 0.7226,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7667,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-06T13:00:00Z",
+      "latest_at": "2026-08-06T13:00:00Z",
+      "primary_item": {
+        "id": "35e1dd4aac57314121b35cc4b82eb57ffe39f936",
+        "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+        "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+        "source": "NVIDIA Blog（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_796860153324",
+      "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+      "url": "https://www.aibase.com/news/30185",
+      "primary_url": "https://www.aibase.com/news/30185",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
+          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+          "url": "https://www.aibase.com/news/30185",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T03:32:03.137446Z"
+        },
+        {
+          "id": "60b0988cee66cf1a5016fbcb92d02cfa233ba1eb",
+          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+          "url": "https://www.aibase.com/zh/news/30185",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
+          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+          "url": "https://www.aibase.com/news/30185",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T03:32:03.137446Z"
+        },
+        {
+          "id": "60b0988cee66cf1a5016fbcb92d02cfa233ba1eb",
+          "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+          "url": "https://www.aibase.com/zh/news/30185",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7828,
+      "importance": 0.7828,
+      "importance_score": 0.7828,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9457,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T03:32:03.137446Z",
+      "latest_at": "2026-08-07T03:32:03.137446Z",
+      "primary_item": {
+        "id": "00b6237da740f3738a741b99b972fe6726e4b8a3",
+        "title": "ChatGPT 接入 Adobe 全家桶：70 多款创意工具一句话调用，修图剪辑无需切换软件",
+        "url": "https://www.aibase.com/news/30185",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
