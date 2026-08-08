@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:37:54.831394Z",
+  "generated_at": "2026-08-08T01:58:14.360693Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8567,
-      "importance": 0.8567,
-      "importance_score": 0.8567,
+      "score": 0.8514,
+      "importance": 0.8514,
+      "importance_score": 0.8514,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8871,
+        "recency": 0.8576,
         "story_heat": 0.25
       },
       "category": "official",
@@ -196,15 +196,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.8542,
-      "importance": 0.8542,
-      "importance_score": 0.8542,
+      "score": 0.8496,
+      "importance": 0.8496,
+      "importance_score": 0.8496,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7755,
+        "recency": 0.7498,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -221,6 +221,68 @@
         "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
         "source": "公众号：火山引擎",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_413964f479f7",
+      "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+      "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "primary_url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "cd9e9649a324d072f3aad152dc6e75c564295c1f",
+          "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+          "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T23:16:02Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "cd9e9649a324d072f3aad152dc6e75c564295c1f",
+          "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+          "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T23:16:02Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8451,
+      "importance": 0.8451,
+      "importance_score": 0.8451,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9617,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T23:16:02Z",
+      "latest_at": "2026-08-07T23:16:02Z",
+      "primary_item": {
+        "id": "cd9e9649a324d072f3aad152dc6e75c564295c1f",
+        "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+        "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -258,15 +320,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8457,
-      "importance": 0.8457,
-      "importance_score": 0.8457,
+      "score": 0.8402,
+      "importance": 0.8402,
+      "importance_score": 0.8402,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9205,
+        "recency": 0.8899,
         "story_heat": 0.0
       },
       "category": "official",
@@ -282,68 +344,6 @@
         "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
         "url": "https://huggingface.co/blog/allenai/tutormoments",
         "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_4eef4078b0c6",
-      "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
-      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-      "primary_url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
-          "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
-          "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T21:05:37Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
-          "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
-          "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T21:05:37Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8455,
-      "importance": 0.8455,
-      "importance_score": 0.8455,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.964,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-07T21:05:37Z",
-      "latest_at": "2026-08-07T21:05:37Z",
-      "primary_item": {
-        "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
-        "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
-        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -420,15 +420,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8207,
-      "importance": 0.8207,
-      "importance_score": 0.8207,
+      "score": 0.8152,
+      "importance": 0.8152,
+      "importance_score": 0.8152,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9341,
+        "recency": 0.9031,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -448,21 +448,21 @@
       }
     },
     {
-      "story_id": "story_f1f3f6f098ab",
-      "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
-      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "story_id": "story_4eef4078b0c6",
+      "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+      "primary_url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
-          "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
-          "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+          "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
+          "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-07T20:49:26Z"
+          "published_at": "2026-08-07T21:05:37Z"
         }
       ],
       "source_count": 1,
@@ -471,26 +471,26 @@
       ],
       "items": [
         {
-          "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
-          "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
-          "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+          "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
+          "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-07T20:49:26Z"
+          "published_at": "2026-08-07T21:05:37Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8448,
-      "importance": 0.8448,
-      "importance_score": 0.8448,
+      "score": 0.8398,
+      "importance": 0.8398,
+      "importance_score": 0.8398,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9603,
+        "recency": 0.932,
         "story_heat": 0.0
       },
       "category": "official",
@@ -499,75 +499,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-07T20:49:26Z",
-      "latest_at": "2026-08-07T20:49:26Z",
+      "earliest_at": "2026-08-07T21:05:37Z",
+      "latest_at": "2026-08-07T21:05:37Z",
       "primary_item": {
-        "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
-        "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
-        "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+        "id": "cdfa89f56debfbcfa3d975dcc56be6da85f460ea",
+        "title": "副驾驶影响仪表板添加了投资回报部分 / Copilot impact dashboard adds a return on investment section",
+        "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b3ad943613d971383ab781d0f38a0b1ca858303e",
-          "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "b3ad943613d971383ab781d0f38a0b1ca858303e",
-          "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.814,
-      "importance": 0.814,
-      "importance_score": 0.814,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7109,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-07T00:00:00Z",
-      "latest_at": "2026-08-07T00:00:00Z",
-      "primary_item": {
-        "id": "b3ad943613d971383ab781d0f38a0b1ca858303e",
-        "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -606,15 +544,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8177,
-      "importance": 0.8177,
-      "importance_score": 0.8177,
+      "score": 0.8129,
+      "importance": 0.8129,
+      "importance_score": 0.8129,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8095,
+        "recency": 0.7827,
         "story_heat": 0.0
       },
       "category": "official",
@@ -630,6 +568,68 @@
         "title": "HSP GRUPPE 如何构建人工智能税务咨询能力 / How HSP GRUPPE builds AI capabilities for tax advisory",
         "url": "https://openai.com/index/hsp-gruppe",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f1f3f6f098ab",
+      "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
+          "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T20:49:26Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
+          "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
+          "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T20:49:26Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8391,
+      "importance": 0.8391,
+      "importance_score": 0.8391,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9284,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T20:49:26Z",
+      "latest_at": "2026-08-07T20:49:26Z",
+      "primary_item": {
+        "id": "024339c5a1f2ab6b5c19f1748f4619f9ae332f7a",
+        "title": "副驾驶代码审查工作水平通常可用 / Copilot code review effort levels are generally available",
+        "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -668,15 +668,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7843,
-      "importance": 0.7843,
-      "importance_score": 0.7843,
+      "score": 0.7784,
+      "importance": 0.7784,
+      "importance_score": 0.7784,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.993,
+        "recency": 0.9601,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -692,68 +692,6 @@
         "url": "https://www.ithome.com/0/987/221.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fe0607b1a1dc",
-      "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
-      "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-      "primary_url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
-          "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
-          "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T21:40:03Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
-          "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
-          "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T21:40:03Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.839,
-      "importance": 0.839,
-      "importance_score": 0.839,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.972,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-07T21:40:03Z",
-      "latest_at": "2026-08-07T21:40:03Z",
-      "primary_item": {
-        "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
-        "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
-        "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -810,15 +748,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7666,
-      "importance": 0.7666,
-      "importance_score": 0.7666,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8558,
+        "recency": 0.8274,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -872,15 +810,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7652,
-      "importance": 0.7652,
-      "importance_score": 0.7652,
+      "score": 0.7597,
+      "importance": 0.7597,
+      "importance_score": 0.7597,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.92,
+        "recency": 0.8894,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -895,67 +833,6 @@
         "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
         "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
         "source": "LMSYS：Blog（Chatbot Arena 团队）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_997374fbcfe0",
-      "title": "Claude Code 会话间可互发消息",
-      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-      "primary_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
-          "title": "Claude Code 会话间可互发消息",
-          "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T19:55:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Claude Devs (@ClaudeDevs)"
-      ],
-      "items": [
-        {
-          "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
-          "title": "Claude Code 会话间可互发消息",
-          "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T19:55:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7612,
-      "importance": 0.7612,
-      "importance_score": 0.7612,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9478,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-07T19:55:17Z",
-      "latest_at": "2026-08-07T19:55:17Z",
-      "primary_item": {
-        "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
-        "title": "Claude Code 会话间可互发消息",
-        "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-        "source": "X：Claude Devs (@ClaudeDevs)",
         "source_name": "AI HOT"
       }
     },
@@ -1013,15 +890,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7606,
-      "importance": 0.7606,
-      "importance_score": 0.7606,
+      "score": 0.7557,
+      "importance": 0.7557,
+      "importance_score": 0.7557,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8222,
+        "recency": 0.7949,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1038,6 +915,67 @@
         "url": "https://www.aibase.com/news/30199",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_997374fbcfe0",
+      "title": "Claude Code 会话间可互发消息",
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "primary_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
+          "title": "Claude Code 会话间可互发消息",
+          "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T19:55:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Claude Devs (@ClaudeDevs)"
+      ],
+      "items": [
+        {
+          "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
+          "title": "Claude Code 会话间可互发消息",
+          "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T19:55:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7555,
+      "importance": 0.7555,
+      "importance_score": 0.7555,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9164,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T19:55:17Z",
+      "latest_at": "2026-08-07T19:55:17Z",
+      "primary_item": {
+        "id": "5cd73e6648ab0011ce4a2c20cda11a7b62663b44",
+        "title": "Claude Code 会话间可互发消息",
+        "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+        "source": "X：Claude Devs (@ClaudeDevs)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -1075,15 +1013,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7557,
-      "importance": 0.7557,
-      "importance_score": 0.7557,
+      "score": 0.7501,
+      "importance": 0.7501,
+      "importance_score": 0.7501,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9337,
+        "recency": 0.9027,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1136,15 +1074,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8388,
-      "importance": 0.8388,
-      "importance_score": 0.8388,
+      "score": 0.8332,
+      "importance": 0.8332,
+      "importance_score": 0.8332,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9265,
+        "recency": 0.8957,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1198,15 +1136,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7469,
-      "importance": 0.7469,
-      "importance_score": 0.7469,
+      "score": 0.7419,
+      "importance": 0.7419,
+      "importance_score": 0.7419,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8349,
+        "recency": 0.8072,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1258,15 +1196,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7302,
-      "importance": 0.7302,
-      "importance_score": 0.7302,
+      "score": 0.7255,
+      "importance": 0.7255,
+      "importance_score": 0.7255,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7922,
+        "recency": 0.7659,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1337,15 +1275,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7574,
-      "importance": 0.7574,
-      "importance_score": 0.7574,
+      "score": 0.7526,
+      "importance": 0.7526,
+      "importance_score": 0.7526,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8047,
+        "recency": 0.7779,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1365,63 +1303,146 @@
       }
     },
     {
-      "story_id": "story_b16ed8a79ee0",
-      "title": "Suno移动端上线Voices功能",
-      "url": "https://x.com/suno/status/2085731234970227145",
-      "primary_url": "https://x.com/suno/status/2085731234970227145",
-      "source": "X：Suno (@suno)",
-      "source_name": "AI HOT",
+      "story_id": "story_fe0607b1a1dc",
+      "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
+      "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+      "primary_url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "207616256ade5b4fff07f9b51ba6522a4f3ae84d",
-          "title": "Suno移动端上线Voices功能",
-          "url": "https://x.com/suno/status/2085731234970227145",
-          "source": "X：Suno (@suno)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T14:14:12Z"
+          "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
+          "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
+          "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T21:40:03Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Suno (@suno)"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "207616256ade5b4fff07f9b51ba6522a4f3ae84d",
-          "title": "Suno移动端上线Voices功能",
-          "url": "https://x.com/suno/status/2085731234970227145",
-          "source": "X：Suno (@suno)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-07T14:14:12Z"
+          "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
+          "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
+          "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T21:40:03Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7238,
-      "importance": 0.7238,
-      "importance_score": 0.7238,
+      "score": 0.8332,
+      "importance": 0.8332,
+      "importance_score": 0.8332,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9398,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-07T21:40:03Z",
+      "latest_at": "2026-08-07T21:40:03Z",
+      "primary_item": {
+        "id": "7bc118bdf0a3018dcfa206e173dd4cda67b95246",
+        "title": "企业现在可以安装第三方 GitHub 应用程序 / Enterprises can now install third-party GitHub Apps",
+        "url": "https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_0076256a5916",
+      "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+      "url": "https://www.aibase.com/news/30192",
+      "primary_url": "https://www.aibase.com/news/30192",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+          "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/news/30192",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T07:23:58.347891Z"
+        },
+        {
+          "id": "35bf5f10658c8b9599762e0f360d4bdefec3d93e",
+          "title": "AI 生成 70 万份病毒基因组，16 个在实验室中“复活”：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/zh/news/30192",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+          "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/news/30192",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-07T07:23:58.347891Z"
+        },
+        {
+          "id": "35bf5f10658c8b9599762e0f360d4bdefec3d93e",
+          "title": "AI 生成 70 万份病毒基因组，16 个在实验室中“复活”：生成式生物学的里程碑与安全拷问",
+          "url": "https://www.aibase.com/zh/news/30192",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7503,
+      "importance": 0.7503,
+      "importance_score": 0.7503,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.65,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8731,
-        "story_heat": 0.0
+        "recency": 0.7648,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-07T14:14:12Z",
-      "latest_at": "2026-08-07T14:14:12Z",
+      "earliest_at": "2026-08-07T07:23:58.347891Z",
+      "latest_at": "2026-08-07T07:23:58.347891Z",
       "primary_item": {
-        "id": "207616256ade5b4fff07f9b51ba6522a4f3ae84d",
-        "title": "Suno移动端上线Voices功能",
-        "url": "https://x.com/suno/status/2085731234970227145",
-        "source": "X：Suno (@suno)",
-        "source_name": "AI HOT"
+        "id": "64ce205ee06d01f307a5defbf6fa681d3ae587ac",
+        "title": "AI 写出 70 万份病毒基因组，16 个在实验室\"活了\"：生成式生物学的里程碑与安全拷问",
+        "url": "https://www.aibase.com/news/30192",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
