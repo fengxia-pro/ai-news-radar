@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:03:32.237674Z",
+  "generated_at": "2026-08-11T11:22:16.001338Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8817,
-      "importance": 0.8817,
-      "importance_score": 0.8817,
+      "score": 0.8792,
+      "importance": 0.8792,
+      "importance_score": 0.8792,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7485,
+        "recency": 0.7345,
         "story_heat": 0.75
       },
       "category": "official",
@@ -177,15 +177,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8445,
-      "importance": 0.8445,
-      "importance_score": 0.8445,
+      "score": 0.8419,
+      "importance": 0.8419,
+      "importance_score": 0.8419,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7752,
+        "recency": 0.7607,
         "story_heat": 0.25
       },
       "category": "official",
@@ -297,15 +297,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8407,
-      "importance": 0.8407,
-      "importance_score": 0.8407,
+      "score": 0.8374,
+      "importance": 0.8374,
+      "importance_score": 0.8374,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9896,
+        "recency": 0.971,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -435,15 +435,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.8224,
-      "importance": 0.8224,
-      "importance_score": 0.8224,
+      "score": 0.8199,
+      "importance": 0.8199,
+      "importance_score": 0.8199,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7491,
+        "recency": 0.7351,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -497,15 +497,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8179,
-      "importance": 0.8179,
-      "importance_score": 0.8179,
+      "score": 0.8151,
+      "importance": 0.8151,
+      "importance_score": 0.8151,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8104,
+        "recency": 0.7952,
         "story_heat": 0.0
       },
       "category": "official",
@@ -521,6 +521,68 @@
         "title": "使用适用于 Java 的 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
         "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
         "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_47efcab38b5c",
+      "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
+      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "primary_url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
+          "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
+          "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-10T14:27:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
+          "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
+          "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-10T14:27:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8051,
+      "importance": 0.8051,
+      "importance_score": 0.8051,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7393,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T14:27:04Z",
+      "latest_at": "2026-08-10T14:27:04Z",
+      "primary_item": {
+        "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
+        "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
+        "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -578,15 +640,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8377,
-      "importance": 0.8377,
-      "importance_score": 0.8377,
+      "score": 0.8351,
+      "importance": 0.8351,
+      "importance_score": 0.8351,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7817,
+        "recency": 0.767,
         "story_heat": 0.25
       },
       "category": "official",
@@ -607,65 +669,84 @@
       }
     },
     {
-      "story_id": "story_47efcab38b5c",
-      "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "primary_url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_69a3ccd0de54",
+      "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "source": "The Verge：AI（RSS）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
-          "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-          "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T14:27:04Z"
+          "id": "079cd24c1c86473636689d6b518f7737f7c0d59c",
+          "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T11:00:00Z"
+        },
+        {
+          "id": "27d3d543440eb49041e440283eb4be7d2044d33b",
+          "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧 / The AI takeover of mathematics has begun",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-11T11:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "The Verge",
+        "The Verge：AI（RSS）"
       ],
       "items": [
         {
-          "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
-          "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-          "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T14:27:04Z"
+          "id": "079cd24c1c86473636689d6b518f7737f7c0d59c",
+          "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+          "source": "The Verge：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T11:00:00Z"
+        },
+        {
+          "id": "27d3d543440eb49041e440283eb4be7d2044d33b",
+          "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧 / The AI takeover of mathematics has begun",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-11T11:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8076,
-      "importance": 0.8076,
-      "importance_score": 0.8076,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7534,
-        "story_heat": 0.0
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9947,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-10T14:27:04Z",
-      "latest_at": "2026-08-10T14:27:04Z",
+      "earliest_at": "2026-08-11T11:00:00Z",
+      "latest_at": "2026-08-11T11:00:00Z",
       "primary_item": {
-        "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
-        "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-        "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "079cd24c1c86473636689d6b518f7737f7c0d59c",
+        "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+        "source": "The Verge：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -703,15 +784,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7997,
-      "importance": 0.7997,
-      "importance_score": 0.7997,
+      "score": 0.7972,
+      "importance": 0.7972,
+      "importance_score": 0.7972,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7539,
+        "recency": 0.7398,
         "story_heat": 0.0
       },
       "category": "official",
@@ -784,15 +865,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7892,
+      "importance": 0.7892,
+      "importance_score": 0.7892,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9812,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -865,15 +946,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7817,
-      "importance": 0.7817,
-      "importance_score": 0.7817,
+      "score": 0.7786,
+      "importance": 0.7786,
+      "importance_score": 0.7786,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9396,
+        "recency": 0.922,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -890,68 +971,6 @@
         "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
         "source": "MarkTechPost（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_90d59cd2b4ce",
-      "title": "使知识蒸馏足够便宜以进行大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d5f6590a6a594ba5c61e9f3f87fc9e2b2b9531c7",
-          "title": "使知识蒸馏足够便宜以进行大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T10:05:36Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "d5f6590a6a594ba5c61e9f3f87fc9e2b2b9531c7",
-          "title": "使知识蒸馏足够便宜以进行大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T10:05:36Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8073,
-      "importance": 0.8073,
-      "importance_score": 0.8073,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7075,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-10T10:05:36Z",
-      "latest_at": "2026-08-10T10:05:36Z",
-      "primary_item": {
-        "id": "d5f6590a6a594ba5c61e9f3f87fc9e2b2b9531c7",
-        "title": "使知识蒸馏足够便宜以进行大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -989,15 +1008,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7734,
-      "importance": 0.7734,
-      "importance_score": 0.7734,
+      "score": 0.7703,
+      "importance": 0.7703,
+      "importance_score": 0.7703,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9158,
+        "recency": 0.8986,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1050,15 +1069,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7988,
-      "importance": 0.7988,
-      "importance_score": 0.7988,
+      "score": 0.7962,
+      "importance": 0.7962,
+      "importance_score": 0.7962,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7487,
+        "recency": 0.7346,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1112,15 +1131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7597,
-      "importance": 0.7597,
-      "importance_score": 0.7597,
+      "score": 0.7569,
+      "importance": 0.7569,
+      "importance_score": 0.7569,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8394,
+        "recency": 0.8237,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1173,15 +1192,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
+      "score": 0.8084,
+      "importance": 0.8084,
+      "importance_score": 0.8084,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7272,
+        "recency": 0.7136,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1254,15 +1273,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7776,
-      "importance": 0.7776,
-      "importance_score": 0.7776,
+      "score": 0.7745,
+      "importance": 0.7745,
+      "importance_score": 0.7745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9167,
+        "recency": 0.8994,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1335,15 +1354,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7738,
-      "importance": 0.7738,
-      "importance_score": 0.7738,
+      "score": 0.7707,
+      "importance": 0.7707,
+      "importance_score": 0.7707,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9292,
+        "recency": 0.9117,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1397,15 +1416,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7963,
-      "importance": 0.7963,
-      "importance_score": 0.7963,
+      "score": 0.7939,
+      "importance": 0.7939,
+      "importance_score": 0.7939,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7353,
+        "recency": 0.7215,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1425,123 +1444,165 @@
       }
     },
     {
-      "story_id": "story_3792844fb458",
-      "title": "Scale AI 开源 Muse 系列模型",
-      "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-      "primary_url": "https://x.com/alexandr_wang/status/2086756152034066792",
-      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-      "source_name": "AI HOT",
+      "story_id": "story_fda8ff171768",
+      "title": "英伟达让AI学会\"抄作业\"：KV缓存可跨模型迁移，推理速度暴增25倍",
+      "url": "https://www.aibase.com/news/30238",
+      "primary_url": "https://www.aibase.com/news/30238",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "b7a1d176abd8a43e84fd375862e58907e1fd4ee0",
-          "title": "Scale AI 开源 Muse 系列模型",
-          "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T10:06:51Z"
+          "id": "9fe99e338fca94bce036ee0949ab100cc72274f2",
+          "title": "英伟达让AI学会\"抄作业\"：KV缓存可跨模型迁移，推理速度暴增25倍",
+          "url": "https://www.aibase.com/news/30238",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-11T04:01:56.983269Z"
+        },
+        {
+          "id": "479d96700774d6fee746c11222aff07828c12855",
+          "title": "英伟达让 AI 学会「抄作业」：KV 缓存可跨模型迁移，推理速度暴增 25 倍",
+          "url": "https://www.aibase.com/zh/news/30238",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "b7a1d176abd8a43e84fd375862e58907e1fd4ee0",
-          "title": "Scale AI 开源 Muse 系列模型",
-          "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T10:06:51Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.73,
-      "importance": 0.73,
-      "importance_score": 0.73,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7077,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-10T10:06:51Z",
-      "latest_at": "2026-08-10T10:06:51Z",
-      "primary_item": {
-        "id": "b7a1d176abd8a43e84fd375862e58907e1fd4ee0",
-        "title": "Scale AI 开源 Muse 系列模型",
-        "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-        "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9c62e6279cb0",
-      "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-      "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-      "primary_url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-      "source": "a16z：News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
+          "id": "9fe99e338fca94bce036ee0949ab100cc72274f2",
+          "title": "英伟达让AI学会\"抄作业\"：KV缓存可跨模型迁移，推理速度暴增25倍",
+          "url": "https://www.aibase.com/news/30238",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-11T04:01:56.983269Z"
+        },
         {
-          "id": "c4244d84690cb2d2f343792b4891365042907e91",
-          "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-          "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-          "source": "a16z：News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T14:00:46Z"
+          "id": "479d96700774d6fee746c11222aff07828c12855",
+          "title": "英伟达让 AI 学会「抄作业」：KV 缓存可跨模型迁移，推理速度暴增 25 倍",
+          "url": "https://www.aibase.com/zh/news/30238",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 1,
-      "source_names": [
-        "a16z：News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c4244d84690cb2d2f343792b4891365042907e91",
-          "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-          "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-          "source": "a16z：News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T14:00:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7224,
-      "importance": 0.7224,
-      "importance_score": 0.7224,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7745,
+      "importance": 0.7745,
+      "importance_score": 0.7745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7487,
-        "story_heat": 0.0
+        "recency": 0.8994,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-10T14:00:46Z",
-      "latest_at": "2026-08-10T14:00:46Z",
+      "earliest_at": "2026-08-11T04:01:56.983269Z",
+      "latest_at": "2026-08-11T04:01:56.983269Z",
       "primary_item": {
-        "id": "c4244d84690cb2d2f343792b4891365042907e91",
-        "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-        "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-        "source": "a16z：News（RSS）",
-        "source_name": "AI HOT"
+        "id": "9fe99e338fca94bce036ee0949ab100cc72274f2",
+        "title": "英伟达让AI学会\"抄作业\"：KV缓存可跨模型迁移，推理速度暴增25倍",
+        "url": "https://www.aibase.com/news/30238",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_85460702741f",
+      "title": "AI促进每周四天工作制？现实却是AI提效反向加剧员工“9006”重压",
+      "url": "https://www.aibase.com/news/30228",
+      "primary_url": "https://www.aibase.com/news/30228",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2ccf4d8196be40bbdc2620175a3b2460ff004309",
+          "title": "AI促进每周四天工作制？现实却是AI提效反向加剧员工“9006”重压",
+          "url": "https://www.aibase.com/news/30228",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-11T02:05:22.822351Z"
+        },
+        {
+          "id": "bc0d9b74692185dda7d5bed19dd29905a4db987f",
+          "title": "AI 促进每周四天工作制？现实却是 AI 提效反向加剧员工「9006」重压",
+          "url": "https://www.aibase.com/zh/news/30228",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "2ccf4d8196be40bbdc2620175a3b2460ff004309",
+          "title": "AI促进每周四天工作制？现实却是AI提效反向加剧员工“9006”重压",
+          "url": "https://www.aibase.com/news/30228",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-11T02:05:22.822351Z"
+        },
+        {
+          "id": "bc0d9b74692185dda7d5bed19dd29905a4db987f",
+          "title": "AI 促进每周四天工作制？现实却是 AI 提效反向加剧员工「9006」重压",
+          "url": "https://www.aibase.com/zh/news/30228",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.77,
+      "importance": 0.77,
+      "importance_score": 0.77,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8746,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T02:05:22.822351Z",
+      "latest_at": "2026-08-11T02:05:22.822351Z",
+      "primary_item": {
+        "id": "2ccf4d8196be40bbdc2620175a3b2460ff004309",
+        "title": "AI促进每周四天工作制？现实却是AI提效反向加剧员工“9006”重压",
+        "url": "https://www.aibase.com/news/30228",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
