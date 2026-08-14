@@ -1,33 +1,12 @@
 {
-  "generated_at": "2026-08-14T13:54:59.661754Z",
+  "generated_at": "2026-08-14T14:56:03.655852Z",
   "merge_strategy": "url_or_title_similarity_v0_6",
-  "total_events": 63,
+  "total_events": 61,
   "events": [
-    {
-      "story_id": "story_dd53fcf32880",
-      "item_id": "b0b31941fb4406c15cc580bc9cf5ff3ff24511d2",
-      "merged_into": "story_dd53fcf32880",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_dd53fcf32880",
-      "item_id": "5324b30212c2bc9b47d6c6cc8330c290564a9ece",
-      "merged_into": "story_dd53fcf32880",
-      "reason": "title_similarity",
-      "similarity": 1.0
-    },
     {
       "story_id": "story_b2db6e1e1b1a",
       "item_id": "f7b41b4f2a7df638e87b7dda68b419431def2f55",
       "merged_into": "story_b2db6e1e1b1a",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_718a2af0b340",
-      "item_id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-      "merged_into": "story_718a2af0b340",
       "reason": "canonical_url",
       "similarity": 1.0
     },
@@ -92,13 +71,6 @@
       "item_id": "fec749f61a044426ddce0706dec3a4c73484b054",
       "merged_into": "story_8605d72a378e",
       "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_718a2af0b340",
-      "item_id": "e600ce82266d8b38025d54be702df81499fa1ee8",
-      "merged_into": "story_718a2af0b340",
-      "reason": "title_similarity",
       "similarity": 1.0
     },
     {
@@ -443,6 +415,20 @@
       "merged_into": "story_5e3557d3f517",
       "reason": "title_similarity",
       "similarity": 0.8679
+    },
+    {
+      "story_id": "story_232b5d487615",
+      "item_id": "4474cf9e290263fdd20cf0d9667eb8855075fba0",
+      "merged_into": "story_232b5d487615",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_ddad3a4e75ee",
+      "item_id": "75d928d3750f83817a2300515458deaa91949dd9",
+      "merged_into": "story_ddad3a4e75ee",
+      "reason": "title_similarity",
+      "similarity": 1.0
     }
   ]
 }
