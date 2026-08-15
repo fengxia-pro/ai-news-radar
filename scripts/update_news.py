@@ -182,6 +182,117 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "智能体助力科研课程的卡片版本",
+        "url": "https://mp.weixin.qq.com/s/CFY_am3Fl0GaJizfDr60wg",
+        "published_at": "2026-08-16T05:30:00+08:00",
+        "article_theme": "以卡片形式整理《智能体助力科研》课程内容，作为课程导航与查阅入口。",
+        "summary": "《智能体助力科研》课程的详细卡片，请您查收。",
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "六个字，把我准备这门课的心情说完了",
+        "url": "https://mp.weixin.qq.com/s/aXCLWhYMMDdrrbhhc13oZg",
+        "published_at": "2026-08-15T10:03:18+08:00",
+        "article_theme": "从学员留言与电子笔记切入，回看《暑期智能体助力科研》的课程设计与学习反馈。",
+        "summary": (
+            "立秋之后，《暑期智能体助力科研》上线后陆续收到学员留言和密集的电子笔记；"
+            "文章借这些反馈回看课程线索，也提醒读者假期尚有时间把课程方法真正打通。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "18.5小时112节，完整《暑期智能体助力科研》课程表放出来了",
+        "url": "https://mp.weixin.qq.com/s/NxMwFPWGczG2Paj-6xafMg",
+        "published_at": "2026-08-14T07:24:30+08:00",
+        "article_theme": "公开《暑期智能体助力科研》的完整课程表，帮助读者了解课程模块与学习范围。",
+        "summary": (
+            "文章公布《暑期智能体助力科研》的完整课程标题，并把课程学习与新一轮科学问题、"
+            "既有文献积累和智能体方法训练连接起来。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "《暑期智能体助力科研》课程如何学习呢？",
+        "url": "https://mp.weixin.qq.com/s/0eUdK5RsvDAUrcc2q11-YQ",
+        "published_at": "2026-08-12T19:03:10+08:00",
+        "article_theme": "分享《2026年暑期智能体助力科研》的课程学习方法与使用心得。",
+        "summary": "慢老师分享《2026年暑期智能体助力科研》课程如何学习的一点心得。",
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "这门在脑子里盘旋了三个月的智能体助力科研的课，终于录完了",
+        "url": "https://mp.weixin.qq.com/s/Ef-6FVsDsNJMxY76yQ8ClQ",
+        "published_at": "2026-08-11T17:35:27+08:00",
+        "article_theme": "回顾三个月的备课与录制过程，梳理智能体助力科研课程的形成。",
+        "summary": "慢老师分享自己筹备三个月并完成智能体助力科研课程录制后的思考。",
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "写在看完《AI领导力》的这一天",
+        "url": "https://mp.weixin.qq.com/s/vPy_ROOrBtHM0YrEN9MHnQ",
+        "published_at": "2026-08-10T09:28:46+08:00",
+        "article_theme": "从《AI领导力》与课程备课出发，思考科研人在智能体时代的方法、角色和判断责任。",
+        "summary": (
+            "文章在读完《AI领导力》和完成智能体助力科研课程备课的节点，围绕 Method、Mindset、"
+            "Making、1+N 与 AI First，反思科研人如何带着方向感、审美和复盘能力使用智能体。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "看书发现一个好方法，怎样把它做成自己的 Skill呢？",
+        "url": "https://mp.weixin.qq.com/s/9oMn0A9o1PppOnkcNVI9Jg",
+        "published_at": "2026-08-09T05:30:00+08:00",
+        "article_theme": "把《AI领导力》中的关键词学习法转译为有触发、输入、输出和验收边界的 Skill。",
+        "summary": (
+            "AI 工具变化很快，提问、访谈、阅读和归纳等原技能却不会轻易过时。"
+            "文章以关键词学习法为例，演示怎样把书中的方法沉淀成自己的 Skill。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "同一个顶刊 SCI 项目开了很多对话，怎样让 Codex 不重头来？",
+        "url": "https://mp.weixin.qq.com/s/19KZ6tMxERoUbzoyN33kQg",
+        "published_at": "2026-08-08T08:33:06+08:00",
+        "article_theme": "用 Memories、AGENTS.md 和项目进度记录，让同一 SCI 项目的多个 Codex 对话连续交接。",
+        "summary": (
+            "文章说明同一项目中的多个对话可以访问共同文件，却不会自动继承上一轮完整上下文；"
+            "建议用 Memories 保留熟悉感，用 AGENTS.md 和《SCI项目进度与决策记录.md》保留确定性。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "和智能体沟通时，如何调用思维模型？《AI领导力》读书笔记",
+        "url": "https://mp.weixin.qq.com/s/P8w2K70s2qCeD27b2_01hA",
+        "published_at": "2026-08-06T08:00:00+08:00",
+        "article_theme": "借《AI领导力》讨论如何用思维模型组织与智能体的沟通、分析和判断。",
+        "summary": (
+            "文章从《AI领导力》的阅读体验切入，关注的不是几个漂亮提示词或模型强弱，"
+            "而是如何在与智能体沟通时调用思维模型。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "好科学问题，往往长在我们扎根的地方",
+        "url": "https://mp.weixin.qq.com/s/E5NTz_XqV64EcucZlll1pQ",
+        "published_at": "2026-08-05T05:30:00+08:00",
+        "article_theme": "从长期扎根的特色领域 A 中凝练科学问题 B，再用有证据链的创新 C 回答问题。",
+        "summary": (
+            "文章以《Nature Human Behaviour》关于好研究问题的短评为引子，说明 A、B、C 的关系，"
+            "并用三问帮助科研人检查特色领域、科学问题、创新与证据链是否彼此咬合。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
         "title": "硕士博士大论文修改技能V1.1，请查收哈",
         "url": "https://mp.weixin.qq.com/s/d5JUCR6p5lll6Zc6Vxklvg",
         "published_at": "2026-07-25T05:30:00+08:00",
@@ -3735,8 +3846,8 @@ def slow_professor_manual_recent_items(now: datetime) -> list[RawItem]:
                     "summary": seed.get("summary") or "",
                     "article_theme": seed.get("article_theme") or "",
                     "source_mode": "manual_wechat_link",
-                    "date_status": "user_confirmed_recent",
-                    "date_label": "用户确认的近一周文章",
+                    "date_status": seed.get("date_status") or "user_confirmed_recent",
+                    "date_label": seed.get("date_label") or "用户确认的近一周文章",
                 },
             )
         )

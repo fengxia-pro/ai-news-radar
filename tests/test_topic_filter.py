@@ -783,8 +783,50 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
 
+    def test_slow_professor_august_5_to_16_articles_are_listed_with_verified_metadata(self):
+        now = datetime(2026, 8, 16, 0, 0, tzinfo=timezone.utc)
+        expected = {
+            "https://mp.weixin.qq.com/s/CFY_am3Fl0GaJizfDr60wg": "智能体助力科研课程的卡片版本",
+            "https://mp.weixin.qq.com/s/aXCLWhYMMDdrrbhhc13oZg": "六个字，把我准备这门课的心情说完了",
+            "https://mp.weixin.qq.com/s/NxMwFPWGczG2Paj-6xafMg": "18.5小时112节，完整《暑期智能体助力科研》课程表放出来了",
+            "https://mp.weixin.qq.com/s/0eUdK5RsvDAUrcc2q11-YQ": "《暑期智能体助力科研》课程如何学习呢？",
+            "https://mp.weixin.qq.com/s/Ef-6FVsDsNJMxY76yQ8ClQ": "这门在脑子里盘旋了三个月的智能体助力科研的课，终于录完了",
+            "https://mp.weixin.qq.com/s/vPy_ROOrBtHM0YrEN9MHnQ": "写在看完《AI领导力》的这一天",
+            "https://mp.weixin.qq.com/s/9oMn0A9o1PppOnkcNVI9Jg": "看书发现一个好方法，怎样把它做成自己的 Skill呢？",
+            "https://mp.weixin.qq.com/s/19KZ6tMxERoUbzoyN33kQg": "同一个顶刊 SCI 项目开了很多对话，怎样让 Codex 不重头来？",
+            "https://mp.weixin.qq.com/s/P8w2K70s2qCeD27b2_01hA": "和智能体沟通时，如何调用思维模型？《AI领导力》读书笔记",
+            "https://mp.weixin.qq.com/s/E5NTz_XqV64EcucZlll1pQ": "好科学问题，往往长在我们扎根的地方",
+        }
+        manual_urls = [item["url"] for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES]
+
+        payload = build_slow_professor_payload(
+            [],
+            [],
+            generated_at="2026-08-16T00:00:00Z",
+            now=now,
+        )
+        payload_items = {item["url"]: item for item in payload["items"]}
+
+        self.assertTrue(set(expected).issubset(payload_items))
+        self.assertEqual(len(manual_urls), len(set(manual_urls)))
+        for url, title in expected.items():
+            self.assertEqual(payload_items[url]["title"], title)
+            self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
+            self.assertEqual(payload_items[url]["date_status"], "user_confirmed_article")
+            self.assertTrue(payload_items[url]["summary"])
+            self.assertTrue(payload_items[url]["article_theme"])
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/CFY_am3Fl0GaJizfDr60wg"]["published_at"],
+            "2026-08-15T21:30:00Z",
+        )
+        self.assertIn(
+            "AGENTS.md",
+            payload_items["https://mp.weixin.qq.com/s/19KZ6tMxERoUbzoyN33kQg"]["summary"],
+        )
+        self.assertEqual(sum(1 for url in expected if payload_items[url]["is_recent_7d"]), 6)
+
     def test_slow_professor_history_is_cumulative_and_cached_items_are_retained(self):
-        now = datetime(2026, 7, 25, 8, 0, tzinfo=timezone.utc)
+        now = datetime(2026, 8, 16, 0, 0, tzinfo=timezone.utc)
         cached_only_url = "https://mp.weixin.qq.com/s/cached-history-only"
         existing_payload = {
             "items": [{
@@ -818,16 +860,16 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES
         }
 
-        self.assertEqual(len(manual_urls), 24)
+        self.assertEqual(len(manual_urls), 34)
         self.assertTrue(manual_urls.issubset(payload_items))
         self.assertIn(cached_only_url, payload_items)
         self.assertFalse(payload_items[cached_only_url]["is_recent_7d"])
         self.assertFalse(payload_items[cached_only_url]["is_recent_3d"])
         self.assertTrue(payload_items[cached_only_url]["is_historical"])
         self.assertEqual(payload["retention_mode"], "cumulative_history")
-        self.assertEqual(payload["total_items"], 25)
+        self.assertEqual(payload["total_items"], 35)
         self.assertEqual(payload["recent_7d_count"], 6)
-        self.assertEqual(payload["historical_count"], 19)
+        self.assertEqual(payload["historical_count"], 29)
 
     def test_slow_professor_frontend_renders_article_theme(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
