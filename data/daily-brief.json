@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:29:34.342787Z",
+  "generated_at": "2026-08-15T05:55:18.258292Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8272,
-      "importance": 0.8272,
-      "importance_score": 0.8272,
+      "score": 0.8262,
+      "importance": 0.8262,
+      "importance_score": 0.8262,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9069,
+        "recency": 0.9013,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8121,
-      "importance": 0.8121,
-      "importance_score": 0.8121,
+      "score": 0.8112,
+      "importance": 0.8112,
+      "importance_score": 0.8112,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.823,
+        "recency": 0.8179,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8208,
-      "importance": 0.8208,
-      "importance_score": 0.8208,
+      "score": 0.8198,
+      "importance": 0.8198,
+      "importance_score": 0.8198,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8265,
+        "recency": 0.8214,
         "story_heat": 0.0
       },
       "category": "official",
@@ -187,87 +187,6 @@
         "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T11:25:29Z"
-        },
-        {
-          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T05:31:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "公众号：小红书技术（dots.llm）",
-        "公众号：智谱（GLM）"
-      ],
-      "items": [
-        {
-          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T11:25:29Z"
-        },
-        {
-          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T05:31:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7723,
-      "importance": 0.7723,
-      "importance_score": 0.7723,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7703,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-14T05:31:04Z",
-      "latest_at": "2026-08-14T11:25:29Z",
-      "primary_item": {
-        "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-        "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-        "source": "公众号：小红书技术（dots.llm）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -343,15 +262,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7721,
-      "importance": 0.7721,
-      "importance_score": 0.7721,
+      "score": 0.7712,
+      "importance": 0.7712,
+      "importance_score": 0.7712,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8641,
+        "recency": 0.8588,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -424,15 +343,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7695,
-      "importance": 0.7695,
-      "importance_score": 0.7695,
+      "score": 0.7686,
+      "importance": 0.7686,
+      "importance_score": 0.7686,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8048,
+        "recency": 0.7998,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -524,15 +443,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7654,
-      "importance": 0.7654,
-      "importance_score": 0.7654,
+      "score": 0.7646,
+      "importance": 0.7646,
+      "importance_score": 0.7646,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7768,
+        "recency": 0.772,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -605,15 +524,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7477,
-      "importance": 0.7477,
-      "importance_score": 0.7477,
+      "score": 0.7468,
+      "importance": 0.7468,
+      "importance_score": 0.7468,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7504,
+        "recency": 0.7458,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -629,6 +548,66 @@
         "url": "https://www.aibase.com/news/30362",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "source": "公众号：小红书技术（dots.llm）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T11:25:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：小红书技术（dots.llm）"
+      ],
+      "items": [
+        {
+          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T11:25:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7464,
+      "importance": 0.7464,
+      "importance_score": 0.7464,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7656,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-14T11:25:29Z",
+      "latest_at": "2026-08-14T11:25:29Z",
+      "primary_item": {
+        "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+        "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+        "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -666,15 +645,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7446,
-      "importance": 0.7446,
-      "importance_score": 0.7446,
+      "score": 0.7437,
+      "importance": 0.7437,
+      "importance_score": 0.7437,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7887,
+        "recency": 0.7838,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -726,15 +705,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7307,
-      "importance": 0.7307,
-      "importance_score": 0.7307,
+      "score": 0.7298,
+      "importance": 0.7298,
+      "importance_score": 0.7298,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8117,
+        "recency": 0.8067,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -786,15 +765,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7243,
-      "importance": 0.7243,
-      "importance_score": 0.7243,
+      "score": 0.7234,
+      "importance": 0.7234,
+      "importance_score": 0.7234,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8096,
+        "recency": 0.8046,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -846,15 +825,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7223,
-      "importance": 0.7223,
-      "importance_score": 0.7223,
+      "score": 0.7214,
+      "importance": 0.7214,
+      "importance_score": 0.7214,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8484,
+        "recency": 0.8432,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -925,15 +904,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7425,
-      "importance": 0.7425,
-      "importance_score": 0.7425,
+      "score": 0.7417,
+      "importance": 0.7417,
+      "importance_score": 0.7417,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7218,
+        "recency": 0.7174,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -986,15 +965,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7227,
-      "importance": 0.7227,
-      "importance_score": 0.7227,
+      "score": 0.7218,
+      "importance": 0.7218,
+      "importance_score": 0.7218,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7504,
+        "recency": 0.7458,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1046,15 +1025,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7227,
-      "importance": 0.7227,
-      "importance_score": 0.7227,
+      "score": 0.7218,
+      "importance": 0.7218,
+      "importance_score": 0.7218,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7504,
+        "recency": 0.7458,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1125,15 +1104,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6174,
-      "importance": 0.6174,
-      "importance_score": 0.6174,
+      "score": 0.6165,
+      "importance": 0.6165,
+      "importance_score": 0.6165,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8257,
+        "recency": 0.8206,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1148,66 +1127,6 @@
         "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_4e103eaabee8",
-      "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
-      "url": "https://www.aibase.com/news/30358",
-      "primary_url": "https://www.aibase.com/news/30358",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "df9a7c050f645ac9da20845c5dca6e0b348b007b",
-          "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
-          "url": "https://www.aibase.com/news/30358",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:20:01.891053Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "df9a7c050f645ac9da20845c5dca6e0b348b007b",
-          "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
-          "url": "https://www.aibase.com/news/30358",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:20:01.891053Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7202,
-      "importance": 0.7202,
-      "importance_score": 0.7202,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7367,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-14T08:20:01.891053Z",
-      "latest_at": "2026-08-14T08:20:01.891053Z",
-      "primary_item": {
-        "id": "df9a7c050f645ac9da20845c5dca6e0b348b007b",
-        "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
-        "url": "https://www.aibase.com/news/30358",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1263,15 +1182,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5975,
-      "importance": 0.5975,
-      "importance_score": 0.5975,
+      "score": 0.5966,
+      "importance": 0.5966,
+      "importance_score": 0.5966,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.58,
         "ai_relevance": 0.71,
-        "recency": 0.8308,
+        "recency": 0.8257,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1286,66 +1205,6 @@
         "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
         "source": "The Verge",
         "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_5010c275c2a4",
-      "title": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
-      "url": "https://www.aibase.com/news/30357",
-      "primary_url": "https://www.aibase.com/news/30357",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "62b23d859a312442d8d155de51afd3b7e70d5535",
-          "title": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
-          "url": "https://www.aibase.com/news/30357",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:20:01.891053Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "62b23d859a312442d8d155de51afd3b7e70d5535",
-          "title": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
-          "url": "https://www.aibase.com/news/30357",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-14T08:20:01.891053Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7202,
-      "importance": 0.7202,
-      "importance_score": 0.7202,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7367,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-14T08:20:01.891053Z",
-      "latest_at": "2026-08-14T08:20:01.891053Z",
-      "primary_item": {
-        "id": "62b23d859a312442d8d155de51afd3b7e70d5535",
-        "title": "告别单机模型“虚胖”：百灵团队联合AReno打通本地智能体强化学习闭环",
-        "url": "https://www.aibase.com/news/30357",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1421,15 +1280,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.553,
-      "importance": 0.553,
-      "importance_score": 0.553,
+      "score": 0.552,
+      "importance": 0.552,
+      "importance_score": 0.552,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9009,
+        "recency": 0.8954,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1443,6 +1302,183 @@
         "title": "充分利用您的克劳德代码（Claude Code）会话",
         "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
         "source": "claude.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_543d69cb31ad",
+      "title": "谷歌正借助同态加密让私有化人工智能成为现实",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "primary_url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "source": "blog.google",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f41976f167970f859103f965ef83cfd41f741414",
+          "title": "谷歌正借助同态加密让私有化人工智能成为现实",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+          "source": "blog.google",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T19:22:21.717000Z"
+        },
+        {
+          "id": "424699eea9fa4bc93cac2c0562150cb75326158d",
+          "title": "谷歌正在通过同态加密使私人人工智能变得实用 / Google is making private AI practical with homomorphic encryption",
+          "url": "https://news.ycombinator.com/item?id=49300314",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-14T16:35:43.362000Z"
+        },
+        {
+          "id": "23a0edbfd1efd7b8ab246f80926b3b03e0ea2075",
+          "title": "谷歌正借助同态加密让私有化人工智能成为现实 / Google Is Making Private AI Practical with Homomorphic Encryption",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T15:43:10Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "blog.google",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "f41976f167970f859103f965ef83cfd41f741414",
+          "title": "谷歌正借助同态加密让私有化人工智能成为现实",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+          "source": "blog.google",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T19:22:21.717000Z"
+        },
+        {
+          "id": "424699eea9fa4bc93cac2c0562150cb75326158d",
+          "title": "谷歌正在通过同态加密使私人人工智能变得实用 / Google is making private AI practical with homomorphic encryption",
+          "url": "https://news.ycombinator.com/item?id=49300314",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-14T16:35:43.362000Z"
+        },
+        {
+          "id": "23a0edbfd1efd7b8ab246f80926b3b03e0ea2075",
+          "title": "谷歌正借助同态加密让私有化人工智能成为现实 / Google Is Making Private AI Practical with Homomorphic Encryption",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T15:43:10Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8587,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T15:43:10Z",
+      "latest_at": "2026-08-14T19:22:21.717000Z",
+      "primary_item": {
+        "id": "f41976f167970f859103f965ef83cfd41f741414",
+        "title": "谷歌正借助同态加密让私有化人工智能成为现实",
+        "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+        "source": "blog.google",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_00919b8d9073",
+      "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+      "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+      "primary_url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T04:38:14.548000Z"
+        },
+        {
+          "id": "48661ac72aaed84de09fcda71b355eff995ed202",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈” / Coinbase CTO says he's getting 'the best feedback' of his career from an AI agent",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:23:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T04:38:14.548000Z"
+        },
+        {
+          "id": "48661ac72aaed84de09fcda71b355eff995ed202",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈” / Coinbase CTO says he's getting 'the best feedback' of his career from an AI agent",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:23:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5425,
+      "importance": 0.5425,
+      "importance_score": 0.5425,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9816,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T09:23:01Z",
+      "latest_at": "2026-08-15T04:38:14.548000Z",
+      "primary_item": {
+        "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+        "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+        "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     }
