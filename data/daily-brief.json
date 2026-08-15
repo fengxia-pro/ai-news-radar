@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:46:38.932231Z",
+  "generated_at": "2026-08-15T20:28:15.529721Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7968,
-      "importance": 0.7968,
-      "importance_score": 0.7968,
+      "score": 0.7955,
+      "importance": 0.7955,
+      "importance_score": 0.7955,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7379,
+        "recency": 0.7305,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +63,87 @@
         "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_20b744e598ba",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "primary_url": "https://cursor.com/blog/joining-spacex",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        },
+        {
+          "id": "7a50d104b08c9f2172194c60466aa260cc885830",
+          "title": "Cursor 现已成为 SpaceX 的一部分",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "cursor.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "cursor.com"
+      ],
+      "items": [
+        {
+          "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        },
+        {
+          "id": "7a50d104b08c9f2172194c60466aa260cc885830",
+          "title": "Cursor 现已成为 SpaceX 的一部分",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "cursor.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7886,
+      "importance": 0.7886,
+      "importance_score": 0.7886,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9946,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-15T20:05:54.703000Z",
+      "latest_at": "2026-08-15T20:05:54.703000Z",
+      "primary_item": {
+        "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+        "title": "Cursor 正式被 SpaceX 收购",
+        "url": "https://cursor.com/blog/joining-spacex",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -118,15 +199,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7652,
-      "importance": 0.7652,
-      "importance_score": 0.7652,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8811,
+        "recency": 0.8723,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -143,6 +224,123 @@
         "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_0b73ad404776",
+      "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://news.ycombinator.com/item?id=49310725",
+      "primary_url": "https://news.ycombinator.com/item?id=49310725",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://news.ycombinator.com/item?id=49310725",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T14:38:30.053000Z"
+        },
+        {
+          "id": "df4e0999ddfe3441c499f1ff2a561e8a81fc55e7",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T14:30:12.217000Z"
+        },
+        {
+          "id": "f9db1e50aae4565b43f99f9b9e7aacbbebab7100",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:08:55Z"
+        },
+        {
+          "id": "dcc8a19034a29524320fe1cf922bc36524fb4b37",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T11:25:32Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "BBC News",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.bbc.co.uk"
+      ],
+      "items": [
+        {
+          "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://news.ycombinator.com/item?id=49310725",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T14:38:30.053000Z"
+        },
+        {
+          "id": "df4e0999ddfe3441c499f1ff2a561e8a81fc55e7",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T14:30:12.217000Z"
+        },
+        {
+          "id": "f9db1e50aae4565b43f99f9b9e7aacbbebab7100",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:08:55Z"
+        },
+        {
+          "id": "dcc8a19034a29524320fe1cf922bc36524fb4b37",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T11:25:32Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5813,
+      "importance": 0.5813,
+      "importance_score": 0.5813,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9193,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T11:25:32Z",
+      "latest_at": "2026-08-15T14:38:30.053000Z",
+      "primary_item": {
+        "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
+        "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+        "url": "https://news.ycombinator.com/item?id=49310725",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -218,15 +416,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9931,
+        "recency": 0.9832,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -241,6 +439,104 @@
         "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
         "source": "davidepiffer.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_611835edca3b",
+      "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "primary_url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "bc4c4490971d999e7e1f5e2fa810cb33e16c7fcc",
+          "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
+        {
+          "id": "3d0ea0bbf2b073a30e4da34125fa1fee05fc7bdb",
+          "title": "药物发现中的人工智能；我们的立场和前进的道路 / Artificial intelligence in drug discovery; where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
+        {
+          "id": "272ea2a447fcb4e4062b82df6b876d97ca4cd881",
+          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T19:12:53Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "bc4c4490971d999e7e1f5e2fa810cb33e16c7fcc",
+          "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
+        {
+          "id": "3d0ea0bbf2b073a30e4da34125fa1fee05fc7bdb",
+          "title": "药物发现中的人工智能；我们的立场和前进的道路 / Artificial intelligence in drug discovery; where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
+        {
+          "id": "272ea2a447fcb4e4062b82df6b876d97ca4cd881",
+          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T19:12:53Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5676,
+      "importance": 0.5676,
+      "importance_score": 0.5676,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.982,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T19:12:53Z",
+      "latest_at": "2026-08-15T19:12:53Z",
+      "primary_item": {
+        "id": "bc4c4490971d999e7e1f5e2fa810cb33e16c7fcc",
+        "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
+        "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -316,15 +612,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5628,
-      "importance": 0.5628,
-      "importance_score": 0.5628,
+      "score": 0.5611,
+      "importance": 0.5611,
+      "importance_score": 0.5611,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9556,
+        "recency": 0.9461,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -339,104 +635,6 @@
         "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
         "source": "allen.bargi.org",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_0b73ad404776",
-      "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-      "url": "https://news.ycombinator.com/item?id=49310725",
-      "primary_url": "https://news.ycombinator.com/item?id=49310725",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
-          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-          "url": "https://news.ycombinator.com/item?id=49310725",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:38:30.053000Z"
-        },
-        {
-          "id": "df4e0999ddfe3441c499f1ff2a561e8a81fc55e7",
-          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？",
-          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T14:30:12.217000Z"
-        },
-        {
-          "id": "dcc8a19034a29524320fe1cf922bc36524fb4b37",
-          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T11:25:32Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "BBC News",
-        "hackernews",
-        "www.bbc.co.uk"
-      ],
-      "items": [
-        {
-          "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
-          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-          "url": "https://news.ycombinator.com/item?id=49310725",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:38:30.053000Z"
-        },
-        {
-          "id": "df4e0999ddfe3441c499f1ff2a561e8a81fc55e7",
-          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？",
-          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T14:30:12.217000Z"
-        },
-        {
-          "id": "dcc8a19034a29524320fe1cf922bc36524fb4b37",
-          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T11:25:32Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5579,
-      "importance": 0.5579,
-      "importance_score": 0.5579,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9285,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T11:25:32Z",
-      "latest_at": "2026-08-15T14:38:30.053000Z",
-      "primary_item": {
-        "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
-        "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
-        "url": "https://news.ycombinator.com/item?id=49310725",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -512,15 +710,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5563,
-      "importance": 0.5563,
-      "importance_score": 0.5563,
+      "score": 0.5547,
+      "importance": 0.5547,
+      "importance_score": 0.5547,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9195,
+        "recency": 0.9104,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -610,15 +808,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5388,
-      "importance": 0.5388,
-      "importance_score": 0.5388,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8224,
+        "recency": 0.8142,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -688,15 +886,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5304,
-      "importance": 0.5304,
-      "importance_score": 0.5304,
+      "score": 0.5287,
+      "importance": 0.5287,
+      "importance_score": 0.5287,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9142,
+        "recency": 0.9051,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -767,15 +965,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5238,
-      "importance": 0.5238,
-      "importance_score": 0.5238,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.878,
+        "recency": 0.8692,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -846,15 +1044,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5238,
-      "importance": 0.5238,
-      "importance_score": 0.5238,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.878,
+        "recency": 0.8692,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -869,478 +1067,6 @@
         "url": "https://www.businessinsider.com/big-four-ey-creates-ai-value-realization-office-2026-8",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_611835edca3b",
-      "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-      "url": "https://news.ycombinator.com/item?id=49313367",
-      "primary_url": "https://news.ycombinator.com/item?id=49313367",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "d9c365b593a27d563d4819163086a2a24ccf6621",
-          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-          "url": "https://news.ycombinator.com/item?id=49313367",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T19:47:16.645000Z"
-        },
-        {
-          "id": "272ea2a447fcb4e4062b82df6b876d97ca4cd881",
-          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T19:12:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "d9c365b593a27d563d4819163086a2a24ccf6621",
-          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-          "url": "https://news.ycombinator.com/item?id=49313367",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T19:47:16.645000Z"
-        },
-        {
-          "id": "272ea2a447fcb4e4062b82df6b876d97ca4cd881",
-          "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T19:12:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T19:12:53Z",
-      "latest_at": "2026-08-15T19:47:16.645000Z",
-      "primary_item": {
-        "id": "d9c365b593a27d563d4819163086a2a24ccf6621",
-        "title": "那么人工智能药物发现到底表现如何？ / So How Is AI Drug Discovery Doing, Really?",
-        "url": "https://news.ycombinator.com/item?id=49313367",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_a24a68501133",
-      "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
-          "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T02:13:58.045000Z"
-        },
-        {
-          "id": "377314d71804123b539117226ad83100ddc18e96",
-          "title": "消息人士称，Anthropic的IPO估值取决于其2028年1900亿至2000亿美元的营收预测",
-          "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:23:20.043000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
-          "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T02:13:58.045000Z"
-        },
-        {
-          "id": "377314d71804123b539117226ad83100ddc18e96",
-          "title": "消息人士称，Anthropic的IPO估值取决于其2028年1900亿至2000亿美元的营收预测",
-          "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:23:20.043000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5055,
-      "importance": 0.5055,
-      "importance_score": 0.5055,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7762,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T00:23:20.043000Z",
-      "latest_at": "2026-08-15T02:13:58.045000Z",
-      "primary_item": {
-        "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
-        "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a5eaeb028e06",
-      "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "primary_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:39:17.549000Z"
-        },
-        {
-          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
-          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T23:51:59.730000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:39:17.549000Z"
-        },
-        {
-          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
-          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T23:51:59.730000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5024,
-      "importance": 0.5024,
-      "importance_score": 0.5024,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7587,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T23:51:59.730000Z",
-      "latest_at": "2026-08-15T00:39:17.549000Z",
-      "primary_item": {
-        "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-        "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-        "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_085e5e417efb",
-      "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
-      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-      "primary_url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
-          "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
-          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-14T20:52:44Z"
-        },
-        {
-          "id": "c3cbfe41ae3294c0a80909028e2ef9c5ac8ea5e0",
-          "title": "“隐身”现象与执法部门黑客攻击时代 / Going Dark, and the era of law enforcement hacking",
-          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-14T20:52:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
-          "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
-          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-14T20:52:44Z"
-        },
-        {
-          "id": "c3cbfe41ae3294c0a80909028e2ef9c5ac8ea5e0",
-          "title": "“隐身”现象与执法部门黑客攻击时代 / Going Dark, and the era of law enforcement hacking",
-          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-14T20:52:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4951,
-      "importance": 0.4951,
-      "importance_score": 0.4951,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7184,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T20:52:44Z",
-      "latest_at": "2026-08-14T20:52:44Z",
-      "primary_item": {
-        "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
-        "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
-        "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_6585397986fa",
-      "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
-      "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-      "primary_url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9b534af4d903899a735a8130a35795f50995d60a",
-          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
-          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T10:30:00.744000Z"
-        },
-        {
-          "id": "27ab54229a47061a6fa0640de655087d0d68cfe4",
-          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切 / Everything we know about how biggest Wall Street banks are using AI",
-          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T10:25:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "9b534af4d903899a735a8130a35795f50995d60a",
-          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
-          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T10:30:00.744000Z"
-        },
-        {
-          "id": "27ab54229a47061a6fa0640de655087d0d68cfe4",
-          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切 / Everything we know about how biggest Wall Street banks are using AI",
-          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T10:25:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5232,
-      "importance": 0.5232,
-      "importance_score": 0.5232,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8746,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T10:25:02Z",
-      "latest_at": "2026-08-15T10:30:00.744000Z",
-      "primary_item": {
-        "id": "9b534af4d903899a735a8130a35795f50995d60a",
-        "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
-        "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_540b917d9eee",
-      "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
-      "url": "https://www.ithome.com/0/990/048.htm",
-      "primary_url": "https://www.ithome.com/0/990/048.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
-          "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
-          "url": "https://www.ithome.com/0/990/048.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "b551b3ddedbaecd397c1579f156159c63c827f63",
-          "title": "全球首例：人类员工因 23 个班次迟到 17 次被“AI 老板”开除",
-          "url": "https://www.ithome.com/0/990/048.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T06:25:45Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
-          "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
-          "url": "https://www.ithome.com/0/990/048.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "b551b3ddedbaecd397c1579f156159c63c827f63",
-          "title": "全球首例：人类员工因 23 个班次迟到 17 次被“AI 老板”开除",
-          "url": "https://www.ithome.com/0/990/048.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T06:25:45Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.515,
-      "importance": 0.515,
-      "importance_score": 0.515,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8288,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T06:25:45Z",
-      "latest_at": "2026-08-15T06:46:13.594653Z",
-      "primary_item": {
-        "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
-        "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
-        "url": "https://www.ithome.com/0/990/048.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     },
     {
@@ -1416,15 +1142,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5391,
-      "importance": 0.5391,
-      "importance_score": 0.5391,
+      "score": 0.5376,
+      "importance": 0.5376,
+      "importance_score": 0.5376,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8237,
+        "recency": 0.8155,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1442,30 +1168,187 @@
       }
     },
     {
-      "story_id": "story_fdec6775b90c",
-      "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
-      "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
-      "primary_url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+      "story_id": "story_a24a68501133",
+      "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
+          "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T02:13:58.045000Z"
+        },
+        {
+          "id": "377314d71804123b539117226ad83100ddc18e96",
+          "title": "消息人士称，Anthropic的IPO估值取决于其2028年1900亿至2000亿美元的营收预测",
+          "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:23:20.043000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com",
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
+          "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T02:13:58.045000Z"
+        },
+        {
+          "id": "377314d71804123b539117226ad83100ddc18e96",
+          "title": "消息人士称，Anthropic的IPO估值取决于其2028年1900亿至2000亿美元的营收预测",
+          "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:23:20.043000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5041,
+      "importance": 0.5041,
+      "importance_score": 0.5041,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7685,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T00:23:20.043000Z",
+      "latest_at": "2026-08-15T02:13:58.045000Z",
+      "primary_item": {
+        "id": "79566cb8b92f83ebeff565947ff3b6bf13276cb3",
+        "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a5eaeb028e06",
+      "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "primary_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:39:17.549000Z"
+        },
+        {
+          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
+          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T23:51:59.730000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:39:17.549000Z"
+        },
+        {
+          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
+          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T23:51:59.730000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.501,
+      "importance": 0.501,
+      "importance_score": 0.501,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7511,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T23:51:59.730000Z",
+      "latest_at": "2026-08-15T00:39:17.549000Z",
+      "primary_item": {
+        "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+        "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6585397986fa",
+      "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
+      "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
+      "primary_url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
-          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
-          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "id": "9b534af4d903899a735a8130a35795f50995d60a",
+          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
+          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-15T10:14:10.909000Z"
+          "published_at": "2026-08-15T10:30:00.744000Z"
         },
         {
-          "id": "675fb42a69b1b3c2840cbab77e95dc5f9f6753a4",
-          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。 / I stared deep into the heart of LinkedIn AI cringe slop. Darkness (and engagement) stared back.",
-          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "id": "27ab54229a47061a6fa0640de655087d0d68cfe4",
+          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切 / Everything we know about how biggest Wall Street banks are using AI",
+          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-15T10:02:01Z"
+          "published_at": "2026-08-15T10:25:02Z"
         }
       ],
       "source_count": 2,
@@ -1475,125 +1358,126 @@
       ],
       "items": [
         {
-          "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
-          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
-          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "id": "9b534af4d903899a735a8130a35795f50995d60a",
+          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
+          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-15T10:14:10.909000Z"
+          "published_at": "2026-08-15T10:30:00.744000Z"
         },
         {
-          "id": "675fb42a69b1b3c2840cbab77e95dc5f9f6753a4",
-          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。 / I stared deep into the heart of LinkedIn AI cringe slop. Darkness (and engagement) stared back.",
-          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "id": "27ab54229a47061a6fa0640de655087d0d68cfe4",
+          "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切 / Everything we know about how biggest Wall Street banks are using AI",
+          "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-15T10:02:01Z"
+          "published_at": "2026-08-15T10:25:02Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5226,
-      "importance": 0.5226,
-      "importance_score": 0.5226,
+      "score": 0.5217,
+      "importance": 0.5217,
+      "importance_score": 0.5217,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8713,
+        "recency": 0.8659,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-15T10:02:01Z",
-      "latest_at": "2026-08-15T10:14:10.909000Z",
+      "earliest_at": "2026-08-15T10:25:02Z",
+      "latest_at": "2026-08-15T10:30:00.744000Z",
       "primary_item": {
-        "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
-        "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
-        "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+        "id": "9b534af4d903899a735a8130a35795f50995d60a",
+        "title": "关于华尔街大型银行如何运用人工智能，我们所了解的一切",
+        "url": "https://www.businessinsider.com/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman-2026",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_fab75eb534b2",
-      "title": "ChatGPT 正式登陆 Linux，Codex 可自动修改代码",
-      "url": "https://hub.baai.ac.cn/view/57135",
-      "primary_url": "https://hub.baai.ac.cn/view/57135",
+      "story_id": "story_540b917d9eee",
+      "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
+      "url": "https://www.ithome.com/0/990/048.htm",
+      "primary_url": "https://www.ithome.com/0/990/048.htm",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "dd89a387644432d077aae677da291329e3d813a2",
-          "title": "ChatGPT 正式登陆 Linux，Codex 可自动修改代码",
-          "url": "https://hub.baai.ac.cn/view/57135",
+          "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
+          "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
+          "url": "https://www.ithome.com/0/990/048.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "6dec12b5b2d98ec98efa9acf1ffffa00c9cbb1eb",
-          "title": "苦等两年！ChatGPT 杀入 Linux，Codex 上手能改你的代码",
-          "url": "https://hub.baai.ac.cn/view/57135",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "b551b3ddedbaecd397c1579f156159c63c827f63",
+          "title": "全球首例：人类员工因 23 个班次迟到 17 次被“AI 老板”开除",
+          "url": "https://www.ithome.com/0/990/048.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T06:25:45Z"
         }
       ],
       "source_count": 2,
       "source_names": [
+        "IT之家 (ITHome)",
         "Readhub · AI"
       ],
       "items": [
         {
-          "id": "dd89a387644432d077aae677da291329e3d813a2",
-          "title": "ChatGPT 正式登陆 Linux，Codex 可自动修改代码",
-          "url": "https://hub.baai.ac.cn/view/57135",
+          "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
+          "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
+          "url": "https://www.ithome.com/0/990/048.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "6dec12b5b2d98ec98efa9acf1ffffa00c9cbb1eb",
-          "title": "苦等两年！ChatGPT 杀入 Linux，Codex 上手能改你的代码",
-          "url": "https://hub.baai.ac.cn/view/57135",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "b551b3ddedbaecd397c1579f156159c63c827f63",
+          "title": "全球首例：人类员工因 23 个班次迟到 17 次被“AI 老板”开除",
+          "url": "https://www.ithome.com/0/990/048.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T06:25:45Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5086,
-      "importance": 0.5086,
-      "importance_score": 0.5086,
+      "score": 0.5135,
+      "importance": 0.5135,
+      "importance_score": 0.5135,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7934,
+        "recency": 0.8205,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-15T02:55:41.342214Z",
-      "latest_at": "2026-08-15T03:44:59.243559Z",
+      "earliest_at": "2026-08-15T06:25:45Z",
+      "latest_at": "2026-08-15T06:46:13.594653Z",
       "primary_item": {
-        "id": "dd89a387644432d077aae677da291329e3d813a2",
-        "title": "ChatGPT 正式登陆 Linux，Codex 可自动修改代码",
-        "url": "https://hub.baai.ac.cn/view/57135",
+        "id": "7c19962665b9764dd86a9517d3d0a9ea0c43e1ce",
+        "title": "全球首例：人类员工因多次迟到被 AI 老板解雇",
+        "url": "https://www.ithome.com/0/990/048.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
       }
@@ -1652,15 +1536,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9489,
+        "recency": 0.9394,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1675,6 +1559,163 @@
         "url": "https://news.ycombinator.com/item?id=49311445",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_085e5e417efb",
+      "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+      "primary_url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
+          "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
+          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-14T20:52:44Z"
+        },
+        {
+          "id": "c3cbfe41ae3294c0a80909028e2ef9c5ac8ea5e0",
+          "title": "“隐身”现象与执法部门黑客攻击时代 / Going Dark, and the era of law enforcement hacking",
+          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-14T20:52:44Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
+          "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
+          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-14T20:52:44Z"
+        },
+        {
+          "id": "c3cbfe41ae3294c0a80909028e2ef9c5ac8ea5e0",
+          "title": "“隐身”现象与执法部门黑客攻击时代 / Going Dark, and the era of law enforcement hacking",
+          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-14T20:52:44Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4938,
+      "importance": 0.4938,
+      "importance_score": 0.4938,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7113,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T20:52:44Z",
+      "latest_at": "2026-08-14T20:52:44Z",
+      "primary_item": {
+        "id": "842e80c0ce1c1612980ed546a11e235f2ad73b47",
+        "title": "“隐身”现象与执法部门黑客攻击时代 / Everything is about to \"go dark\"",
+        "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_fdec6775b90c",
+      "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
+      "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+      "primary_url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
+          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
+          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T10:14:10.909000Z"
+        },
+        {
+          "id": "675fb42a69b1b3c2840cbab77e95dc5f9f6753a4",
+          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。 / I stared deep into the heart of LinkedIn AI cringe slop. Darkness (and engagement) stared back.",
+          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T10:02:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
+          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
+          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T10:14:10.909000Z"
+        },
+        {
+          "id": "675fb42a69b1b3c2840cbab77e95dc5f9f6753a4",
+          "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。 / I stared deep into the heart of LinkedIn AI cringe slop. Darkness (and engagement) stared back.",
+          "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T10:02:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5211,
+      "importance": 0.5211,
+      "importance_score": 0.5211,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8626,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T10:02:01Z",
+      "latest_at": "2026-08-15T10:14:10.909000Z",
+      "primary_item": {
+        "id": "9b13703f4af2fb62fc36cc02e5c2d9ff6dcf95e1",
+        "title": "我深情地凝视着领英AI那令人尴尬的垃圾内容的核心。黑暗（以及互动量）也正回望着我。",
+        "url": "https://www.businessinsider.com/cringebot3000-ai-slop-linkedin-post-engagement-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     }
   ]
