@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:47:32.818157Z",
+  "generated_at": "2026-08-15T22:26:45.343469Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.793,
-      "importance": 0.793,
-      "importance_score": 0.793,
+      "score": 0.7918,
+      "importance": 0.7918,
+      "importance_score": 0.7918,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7167,
+        "recency": 0.71,
         "story_heat": 0.0
       },
       "category": "official",
@@ -119,15 +119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7853,
-      "importance": 0.7853,
-      "importance_score": 0.7853,
+      "score": 0.7836,
+      "importance": 0.7836,
+      "importance_score": 0.7836,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9758,
+        "recency": 0.9667,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -199,15 +199,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8559,
+        "recency": 0.8478,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -227,13 +227,156 @@
       }
     },
     {
-      "story_id": "story_bdf266bc5d50",
-      "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
-      "url": "https://www.nature.com/articles/s41573-026-01496-2",
-      "primary_url": "https://www.nature.com/articles/s41573-026-01496-2",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
+      "story_id": "story_627a59aedf96",
+      "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+      "url": "https://news.ycombinator.com/item?id=49312845",
+      "primary_url": "https://news.ycombinator.com/item?id=49312845",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
+        {
+          "id": "08906e6f1e9a21d97e4fad47f959d9beeacacd33",
+          "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T22:09:53.517000Z"
+        },
+        {
+          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "davidepiffer.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:18:02.348000Z"
+        },
+        {
+          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
+          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T19:09:23.314000Z"
+        },
+        {
+          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
+        },
+        {
+          "id": "fd40ff95706cefac27949aa572fb7dbdef1e8880",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "davidepiffer.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "08906e6f1e9a21d97e4fad47f959d9beeacacd33",
+          "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T22:09:53.517000Z"
+        },
+        {
+          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "davidepiffer.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:18:02.348000Z"
+        },
+        {
+          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
+          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T19:09:23.314000Z"
+        },
+        {
+          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
+        },
+        {
+          "id": "fd40ff95706cefac27949aa572fb7dbdef1e8880",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6201,
+      "importance": 0.6201,
+      "importance_score": 0.6201,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9959,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T18:13:02Z",
+      "latest_at": "2026-08-15T22:09:53.517000Z",
+      "primary_item": {
+        "id": "08906e6f1e9a21d97e4fad47f959d9beeacacd33",
+        "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+        "url": "https://news.ycombinator.com/item?id=49312845",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_611835edca3b",
+      "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery – what it is, where we stand and the path forward",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "primary_url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "c0fe1f3b01d2aa3b80eb53360a87b75e3588b96b",
+          "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery – what it is, where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
         {
           "id": "27bdad6646bdd01e6c3dd7fbbc37fdf837d9b10a",
           "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
@@ -271,7 +414,7 @@
           "published_at": "2026-08-15T19:12:53Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Hacker News",
         "Hacker News (黑客新闻)",
@@ -279,6 +422,15 @@
       ],
       "items": [
         {
+          "id": "c0fe1f3b01d2aa3b80eb53360a87b75e3588b96b",
+          "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery – what it is, where we stand and the path forward",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T19:12:53Z"
+        },
+        {
           "id": "27bdad6646bdd01e6c3dd7fbbc37fdf837d9b10a",
           "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
           "url": "https://www.nature.com/articles/s41573-026-01496-2",
@@ -315,18 +467,18 @@
           "published_at": "2026-08-15T19:12:53Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5892,
-      "importance": 0.5892,
-      "importance_score": 0.5892,
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6126,
+      "importance": 0.6126,
+      "importance_score": 0.6126,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9635,
-        "story_heat": 0.75
+        "recency": 0.9544,
+        "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
@@ -335,11 +487,207 @@
       "earliest_at": "2026-08-15T19:12:53Z",
       "latest_at": "2026-08-15T19:12:53Z",
       "primary_item": {
-        "id": "27bdad6646bdd01e6c3dd7fbbc37fdf837d9b10a",
-        "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery — what it is, where we stand and the path forward",
-        "url": "https://www.nature.com/articles/s41573-026-01496-2",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
+        "id": "c0fe1f3b01d2aa3b80eb53360a87b75e3588b96b",
+        "title": "药物发现中的人工智能——它是什么、我们的立场和前进的道路 / AI in drug discovery – what it is, where we stand and the path forward",
+        "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_1b995b323154",
+      "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+      "primary_url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+      "source": "allen.bargi.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
+          "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+          "source": "allen.bargi.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T16:38:01.653000Z"
+        },
+        {
+          "id": "b90c3bc7c0cde103f85eff23dc739c1eeaea4cf6",
+          "title": "与人工智能一起工作感觉更像是领导而不是编码 / Working with AI feels more like leadership than coding",
+          "url": "https://news.ycombinator.com/item?id=49309451",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T14:08:25.695000Z"
+        },
+        {
+          "id": "7424ad1f591f93f7da2d5fe2e48a56f5fd4dab7d",
+          "title": "从事人工智能工作，与其说是编程，不如说是领导工作 / Working with AI Feels More Like Leadership Than Coding",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T10:39:41Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "allen.bargi.org",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
+          "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+          "source": "allen.bargi.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T16:38:01.653000Z"
+        },
+        {
+          "id": "b90c3bc7c0cde103f85eff23dc739c1eeaea4cf6",
+          "title": "与人工智能一起工作感觉更像是领导而不是编码 / Working with AI feels more like leadership than coding",
+          "url": "https://news.ycombinator.com/item?id=49309451",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T14:08:25.695000Z"
+        },
+        {
+          "id": "7424ad1f591f93f7da2d5fe2e48a56f5fd4dab7d",
+          "title": "从事人工智能工作，与其说是编程，不如说是领导工作 / Working with AI Feels More Like Leadership Than Coding",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T10:39:41Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5563,
+      "importance": 0.5563,
+      "importance_score": 0.5563,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9195,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T10:39:41Z",
+      "latest_at": "2026-08-15T16:38:01.653000Z",
+      "primary_item": {
+        "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
+        "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
+        "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+        "source": "allen.bargi.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e7607846045a",
+      "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
+      "url": "https://sankalp.bearblog.dev/autoresearch",
+      "primary_url": "https://sankalp.bearblog.dev/autoresearch",
+      "source": "sankalp.bearblog.dev",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
+          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
+          "url": "https://sankalp.bearblog.dev/autoresearch",
+          "source": "sankalp.bearblog.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T13:58:02.713000Z"
+        },
+        {
+          "id": "346274b22b37e9694636fa708f056faa34061988",
+          "title": "使用 Codex 自动研究：我如何实现速度提高 232 倍的内核 / Auto-research with codex: How I achieved a 232x Faster Kernel",
+          "url": "https://news.ycombinator.com/item?id=49309549",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T12:48:00.866000Z"
+        },
+        {
+          "id": "5a1c3f74be042d50ee3fda39cc577a12635ca5bc",
+          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的 / Auto-research with codex: How I achieved a 232x Faster Kernel",
+          "url": "https://sankalp.bearblog.dev/autoresearch",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T11:00:02Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "sankalp.bearblog.dev"
+      ],
+      "items": [
+        {
+          "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
+          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
+          "url": "https://sankalp.bearblog.dev/autoresearch",
+          "source": "sankalp.bearblog.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T13:58:02.713000Z"
+        },
+        {
+          "id": "346274b22b37e9694636fa708f056faa34061988",
+          "title": "使用 Codex 自动研究：我如何实现速度提高 232 倍的内核 / Auto-research with codex: How I achieved a 232x Faster Kernel",
+          "url": "https://news.ycombinator.com/item?id=49309549",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T12:48:00.866000Z"
+        },
+        {
+          "id": "5a1c3f74be042d50ee3fda39cc577a12635ca5bc",
+          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的 / Auto-research with codex: How I achieved a 232x Faster Kernel",
+          "url": "https://sankalp.bearblog.dev/autoresearch",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T11:00:02Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5501,
+      "importance": 0.5501,
+      "importance_score": 0.5501,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8848,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T11:00:02Z",
+      "latest_at": "2026-08-15T13:58:02.713000Z",
+      "primary_item": {
+        "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
+        "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
+        "url": "https://sankalp.bearblog.dev/autoresearch",
+        "source": "sankalp.bearblog.dev",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -434,15 +782,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5781,
-      "importance": 0.5781,
-      "importance_score": 0.5781,
+      "score": 0.5766,
+      "importance": 0.5766,
+      "importance_score": 0.5766,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9019,
+        "recency": 0.8934,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -460,296 +808,80 @@
       }
     },
     {
-      "story_id": "story_627a59aedf96",
-      "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "primary_url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "source": "davidepiffer.com",
+      "story_id": "story_d555dfa280b8",
+      "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+      "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+      "primary_url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+      "source": "www.reuters.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "davidepiffer.com",
+          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-15T19:18:02.348000Z"
+          "published_at": "2026-08-15T20:38:00.813000Z"
         },
         {
-          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
-          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://news.ycombinator.com/item?id=49312845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T19:09:23.314000Z"
-        },
-        {
-          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T18:13:02Z"
+          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
+          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:50:12.744000Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "davidepiffer.com",
-        "hackernews"
+        "www.reuters.com"
       ],
       "items": [
         {
-          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "davidepiffer.com",
+          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-15T19:18:02.348000Z"
+          "published_at": "2026-08-15T20:38:00.813000Z"
         },
         {
-          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
-          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://news.ycombinator.com/item?id=49312845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T19:09:23.314000Z"
-        },
-        {
-          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T18:13:02Z"
+          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
+          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:50:12.744000Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5644,
-      "importance": 0.5644,
-      "importance_score": 0.5644,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5412,
+      "importance": 0.5412,
+      "importance_score": 0.5412,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9647,
-        "story_heat": 0.5
+        "recency": 0.9742,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-15T18:13:02Z",
-      "latest_at": "2026-08-15T19:18:02.348000Z",
+      "earliest_at": "2026-08-15T19:50:12.744000Z",
+      "latest_at": "2026-08-15T20:38:00.813000Z",
       "primary_item": {
-        "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
-        "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-        "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-        "source": "davidepiffer.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1b995b323154",
-      "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
-      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-      "primary_url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-      "source": "allen.bargi.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
-          "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
-          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-          "source": "allen.bargi.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T16:38:01.653000Z"
-        },
-        {
-          "id": "b90c3bc7c0cde103f85eff23dc739c1eeaea4cf6",
-          "title": "与人工智能一起工作感觉更像是领导而不是编码 / Working with AI Feels More Like Leadership Than Coding",
-          "url": "https://news.ycombinator.com/item?id=49309451",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:08:25.695000Z"
-        },
-        {
-          "id": "24e0d1e34756b4b289b3c6515c68fefe0aa322bd",
-          "title": "从事人工智能工作，与其说是编程，不如说是领导工作 / Working with AI Feels More Like Leadership Than Coding",
-          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T10:39:41Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "allen.bargi.org",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
-          "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
-          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-          "source": "allen.bargi.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T16:38:01.653000Z"
-        },
-        {
-          "id": "b90c3bc7c0cde103f85eff23dc739c1eeaea4cf6",
-          "title": "与人工智能一起工作感觉更像是领导而不是编码 / Working with AI Feels More Like Leadership Than Coding",
-          "url": "https://news.ycombinator.com/item?id=49309451",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:08:25.695000Z"
-        },
-        {
-          "id": "24e0d1e34756b4b289b3c6515c68fefe0aa322bd",
-          "title": "从事人工智能工作，与其说是编程，不如说是领导工作 / Working with AI Feels More Like Leadership Than Coding",
-          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T10:39:41Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5579,
-      "importance": 0.5579,
-      "importance_score": 0.5579,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9282,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T10:39:41Z",
-      "latest_at": "2026-08-15T16:38:01.653000Z",
-      "primary_item": {
-        "id": "75443a8cd653f571b5a8ca0103a27e4a20ca7a4d",
-        "title": "从事人工智能工作，与其说是编程，不如说是领导工作",
-        "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
-        "source": "allen.bargi.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e7607846045a",
-      "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
-      "url": "https://sankalp.bearblog.dev/autoresearch",
-      "primary_url": "https://sankalp.bearblog.dev/autoresearch",
-      "source": "sankalp.bearblog.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
-          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
-          "url": "https://sankalp.bearblog.dev/autoresearch",
-          "source": "sankalp.bearblog.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T13:58:02.713000Z"
-        },
-        {
-          "id": "346274b22b37e9694636fa708f056faa34061988",
-          "title": "使用 Codex 自动研究：我如何实现速度提高 232 倍的内核 / Auto-research with codex: How I achieved a 232x Faster Kernel",
-          "url": "https://news.ycombinator.com/item?id=49309549",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T12:48:00.866000Z"
-        },
-        {
-          "id": "5a1c3f74be042d50ee3fda39cc577a12635ca5bc",
-          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的 / Auto-research with codex: How I achieved a 232x Faster Kernel",
-          "url": "https://sankalp.bearblog.dev/autoresearch",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T11:00:02Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "sankalp.bearblog.dev"
-      ],
-      "items": [
-        {
-          "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
-          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
-          "url": "https://sankalp.bearblog.dev/autoresearch",
-          "source": "sankalp.bearblog.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T13:58:02.713000Z"
-        },
-        {
-          "id": "346274b22b37e9694636fa708f056faa34061988",
-          "title": "使用 Codex 自动研究：我如何实现速度提高 232 倍的内核 / Auto-research with codex: How I achieved a 232x Faster Kernel",
-          "url": "https://news.ycombinator.com/item?id=49309549",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T12:48:00.866000Z"
-        },
-        {
-          "id": "5a1c3f74be042d50ee3fda39cc577a12635ca5bc",
-          "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的 / Auto-research with codex: How I achieved a 232x Faster Kernel",
-          "url": "https://sankalp.bearblog.dev/autoresearch",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T11:00:02Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5516,
-      "importance": 0.5516,
-      "importance_score": 0.5516,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8932,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T11:00:02Z",
-      "latest_at": "2026-08-15T13:58:02.713000Z",
-      "primary_item": {
-        "id": "676b5690df0ddb599c2991828b9ee5440bd38a25",
-        "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
-        "url": "https://sankalp.bearblog.dev/autoresearch",
-        "source": "sankalp.bearblog.dev",
+        "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+        "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+        "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -807,15 +939,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5428,
-      "importance": 0.5428,
-      "importance_score": 0.5428,
+      "score": 0.5411,
+      "importance": 0.5411,
+      "importance_score": 0.5411,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9834,
+        "recency": 0.9742,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -829,84 +961,6 @@
         "title": "Cloudflare的AI精神错乱",
         "url": "https://opensauce.it/cloudflare-ai-psychosis",
         "source": "opensauce.it",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_d555dfa280b8",
-      "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
-      "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-      "primary_url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
-          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
-          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T20:38:00.813000Z"
-        },
-        {
-          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
-          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
-          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T19:50:12.744000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
-          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
-          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T20:38:00.813000Z"
-        },
-        {
-          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
-          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
-          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T19:50:12.744000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5428,
-      "importance": 0.5428,
-      "importance_score": 0.5428,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9834,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T19:50:12.744000Z",
-      "latest_at": "2026-08-15T20:38:00.813000Z",
-      "primary_item": {
-        "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
-        "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
-        "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
-        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -964,15 +1018,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5421,
-      "importance": 0.5421,
-      "importance_score": 0.5421,
+      "score": 0.5405,
+      "importance": 0.5405,
+      "importance_score": 0.5405,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9796,
+        "recency": 0.9704,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1062,15 +1116,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5346,
-      "importance": 0.5346,
-      "importance_score": 0.5346,
+      "score": 0.5332,
+      "importance": 0.5332,
+      "importance_score": 0.5332,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7988,
+        "recency": 0.7913,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1085,6 +1139,84 @@
         "url": "https://app.deltix.ai",
         "source": "app.deltix.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_50618d963157",
+      "title": "Printytron – 描述零件，获取可打印的 STL / Printytron – Describe a part, get a printable STL",
+      "url": "https://printytron.com",
+      "primary_url": "https://printytron.com",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "ec1e1494f1e49fba6cc04e492b65c5a1f4585e6a",
+          "title": "Printytron – 描述零件，获取可打印的 STL / Printytron – Describe a part, get a printable STL",
+          "url": "https://printytron.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:22:20Z"
+        },
+        {
+          "id": "0902537b4469e04e076cfd8789274f15921961e2",
+          "title": "Printytron – 输入。 3D 打印它 / Printytron – Type it. 3D Print it",
+          "url": "https://printytron.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:22:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "ec1e1494f1e49fba6cc04e492b65c5a1f4585e6a",
+          "title": "Printytron – 描述零件，获取可打印的 STL / Printytron – Describe a part, get a printable STL",
+          "url": "https://printytron.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:22:20Z"
+        },
+        {
+          "id": "0902537b4469e04e076cfd8789274f15921961e2",
+          "title": "Printytron – 输入。 3D 打印它 / Printytron – Type it. 3D Print it",
+          "url": "https://printytron.com",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:22:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.526,
+      "importance": 0.526,
+      "importance_score": 0.526,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.89,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T14:22:20Z",
+      "latest_at": "2026-08-15T14:22:20Z",
+      "primary_item": {
+        "id": "ec1e1494f1e49fba6cc04e492b65c5a1f4585e6a",
+        "title": "Printytron – 描述零件，获取可打印的 STL / Printytron – Describe a part, get a printable STL",
+        "url": "https://printytron.com",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1140,15 +1272,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5256,
-      "importance": 0.5256,
-      "importance_score": 0.5256,
+      "score": 0.5241,
+      "importance": 0.5241,
+      "importance_score": 0.5241,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.888,
+        "recency": 0.8797,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1219,15 +1351,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5193,
-      "importance": 0.5193,
-      "importance_score": 0.5193,
+      "score": 0.5179,
+      "importance": 0.5179,
+      "importance_score": 0.5179,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8528,
+        "recency": 0.8448,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1242,85 +1374,6 @@
         "url": "https://inherentlabs.ai/research/training-to-replicate",
         "source": "inherentlabs.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5fc4fcc0f82f",
-      "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-      "url": "https://news.ycombinator.com/item?id=49313519",
-      "primary_url": "https://news.ycombinator.com/item?id=49313519",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
-          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-          "url": "https://news.ycombinator.com/item?id=49313519",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T20:39:33.319000Z"
-        },
-        {
-          "id": "f020a6baf4095c8f52f99cfbb4f4449290bcfd01",
-          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T19:30:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
-          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-          "url": "https://news.ycombinator.com/item?id=49313519",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T20:39:33.319000Z"
-        },
-        {
-          "id": "f020a6baf4095c8f52f99cfbb4f4449290bcfd01",
-          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T19:30:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5429,
-      "importance": 0.5429,
-      "importance_score": 0.5429,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9838,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T19:30:32Z",
-      "latest_at": "2026-08-15T20:39:33.319000Z",
-      "primary_item": {
-        "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
-        "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
-        "url": "https://news.ycombinator.com/item?id=49313519",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1377,15 +1430,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5015,
-      "importance": 0.5015,
-      "importance_score": 0.5015,
+      "score": 0.5002,
+      "importance": 0.5002,
+      "importance_score": 0.5002,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7539,
+        "recency": 0.7469,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1456,15 +1509,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5193,
-      "importance": 0.5193,
-      "importance_score": 0.5193,
+      "score": 0.5179,
+      "importance": 0.5179,
+      "importance_score": 0.5179,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8528,
+        "recency": 0.8448,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1479,6 +1532,85 @@
         "url": "https://www.businessinsider.com/big-four-ey-creates-ai-value-realization-office-2026-8",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_5fc4fcc0f82f",
+      "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+      "url": "https://news.ycombinator.com/item?id=49313519",
+      "primary_url": "https://news.ycombinator.com/item?id=49313519",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
+          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+          "url": "https://news.ycombinator.com/item?id=49313519",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T20:39:33.319000Z"
+        },
+        {
+          "id": "f020a6baf4095c8f52f99cfbb4f4449290bcfd01",
+          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T19:30:32Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
+          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+          "url": "https://news.ycombinator.com/item?id=49313519",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T20:39:33.319000Z"
+        },
+        {
+          "id": "f020a6baf4095c8f52f99cfbb4f4449290bcfd01",
+          "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+          "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T19:30:32Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5412,
+      "importance": 0.5412,
+      "importance_score": 0.5412,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9745,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T19:30:32Z",
+      "latest_at": "2026-08-15T20:39:33.319000Z",
+      "primary_item": {
+        "id": "901b3aaa15d04da62e96b93894715feadc126f5c",
+        "title": "为什么科技巨头们不断分享他们关于人工智能的宣言 / Why tech bosses keep sharing their manifestos about AI",
+        "url": "https://news.ycombinator.com/item?id=49313519",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -1535,15 +1667,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5107,
-      "importance": 0.5107,
-      "importance_score": 0.5107,
+      "score": 0.5093,
+      "importance": 0.5093,
+      "importance_score": 0.5093,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.805,
+        "recency": 0.7974,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1558,104 +1690,6 @@
         "url": "https://www.ithome.com/0/990/048.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_a1a4fdb6d6a5",
-      "title": "显示 HN：ThoughtDAG – LLM 对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-      "url": "https://news.ycombinator.com/item?id=49307700",
-      "primary_url": "https://news.ycombinator.com/item?id=49307700",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "cb0602853d5df9ee0d0d7b05adab8514f2668d56",
-          "title": "显示 HN：ThoughtDAG – LLM 对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-          "url": "https://news.ycombinator.com/item?id=49307700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T06:20:58.424000Z"
-        },
-        {
-          "id": "6db43f61223c5334975fb4fb4e1bc8dd4d6b442b",
-          "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图",
-          "url": "https://chenxiachan.github.io/thoughtdag",
-          "source": "chenxiachan.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T04:53:57.841000Z"
-        },
-        {
-          "id": "033e6f66c7b304995f3043ecf844c7da53353828",
-          "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-          "url": "https://chenxiachan.github.io/thoughtdag",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-15T04:42:07Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "chenxiachan.github.io",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "cb0602853d5df9ee0d0d7b05adab8514f2668d56",
-          "title": "显示 HN：ThoughtDAG – LLM 对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-          "url": "https://news.ycombinator.com/item?id=49307700",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T06:20:58.424000Z"
-        },
-        {
-          "id": "6db43f61223c5334975fb4fb4e1bc8dd4d6b442b",
-          "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图",
-          "url": "https://chenxiachan.github.io/thoughtdag",
-          "source": "chenxiachan.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T04:53:57.841000Z"
-        },
-        {
-          "id": "033e6f66c7b304995f3043ecf844c7da53353828",
-          "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-          "url": "https://chenxiachan.github.io/thoughtdag",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-15T04:42:07Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8001,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T04:42:07Z",
-      "latest_at": "2026-08-15T06:20:58.424000Z",
-      "primary_item": {
-        "id": "cb0602853d5df9ee0d0d7b05adab8514f2668d56",
-        "title": "显示 HN：ThoughtDAG – LLM 对话的可编辑上下文图 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-        "url": "https://news.ycombinator.com/item?id=49307700",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1711,15 +1745,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4985,
-      "importance": 0.4985,
-      "importance_score": 0.4985,
+      "score": 0.4972,
+      "importance": 0.4972,
+      "importance_score": 0.4972,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7369,
+        "recency": 0.73,
         "story_heat": 0.25
       },
       "category": "watch",
