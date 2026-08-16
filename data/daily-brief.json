@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:31:24.313334Z",
+  "generated_at": "2026-08-16T10:28:20.227651Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7579,
-      "importance": 0.7579,
-      "importance_score": 0.7579,
+      "score": 0.7559,
+      "importance": 0.7559,
+      "importance_score": 0.7559,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8238,
+        "recency": 0.8126,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -119,21 +119,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.752,
-      "importance": 0.752,
-      "importance_score": 0.752,
+      "score": 0.7498,
+      "importance": 0.7498,
+      "importance_score": 0.7498,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9134,
+        "recency": 0.901,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-16T03:15:09Z",
       "latest_at": "2026-08-16T03:15:09Z",
@@ -198,15 +197,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7366,
-      "importance": 0.7366,
-      "importance_score": 0.7366,
+      "score": 0.7349,
+      "importance": 0.7349,
+      "importance_score": 0.7349,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7225,
+        "recency": 0.7127,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -278,15 +277,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6396,
-      "importance": 0.6396,
-      "importance_score": 0.6396,
+      "score": 0.6376,
+      "importance": 0.6376,
+      "importance_score": 0.6376,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5904,
         "source_tier": 0.58,
         "ai_relevance": 0.82,
-        "recency": 0.8105,
+        "recency": 0.7995,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -432,15 +431,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6041,
-      "importance": 0.6041,
-      "importance_score": 0.6041,
+      "score": 0.6019,
+      "importance": 0.6019,
+      "importance_score": 0.6019,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9072,
+        "recency": 0.8948,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -567,15 +566,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.5936,
-      "importance": 0.5936,
-      "importance_score": 0.5936,
+      "score": 0.5915,
+      "importance": 0.5915,
+      "importance_score": 0.5915,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8487,
+        "recency": 0.8372,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -590,6 +589,104 @@
         "url": "https://news.ycombinator.com/item?id=49312845",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_badeeae7b539",
+      "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？",
+      "url": "https://littlelearner-ll.github.io",
+      "primary_url": "https://littlelearner-ll.github.io",
+      "source": "littlelearner-ll.github.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "6907bf6f5e5deae8cd01cff9a4eda90bcbad09ea",
+          "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "littlelearner-ll.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-16T09:42:02.137000Z"
+        },
+        {
+          "id": "16a13fe58d4cdfcf7ca57702ec884e947f42f269",
+          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://news.ycombinator.com/item?id=49317760",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-16T08:11:23.846000Z"
+        },
+        {
+          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
+          "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？ / What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T07:37:53Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "littlelearner-ll.github.io"
+      ],
+      "items": [
+        {
+          "id": "6907bf6f5e5deae8cd01cff9a4eda90bcbad09ea",
+          "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "littlelearner-ll.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-16T09:42:02.137000Z"
+        },
+        {
+          "id": "16a13fe58d4cdfcf7ca57702ec884e947f42f269",
+          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://news.ycombinator.com/item?id=49317760",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-16T08:11:23.846000Z"
+        },
+        {
+          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
+          "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？ / What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T07:37:53Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5688,
+      "importance": 0.5688,
+      "importance_score": 0.5688,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9889,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T07:37:53Z",
+      "latest_at": "2026-08-16T09:42:02.137000Z",
+      "primary_item": {
+        "id": "6907bf6f5e5deae8cd01cff9a4eda90bcbad09ea",
+        "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？",
+        "url": "https://littlelearner-ll.github.io",
+        "source": "littlelearner-ll.github.io",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -646,15 +743,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5434,
+      "importance": 0.5434,
+      "importance_score": 0.5434,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9864,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -744,15 +841,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5318,
-      "importance": 0.5318,
-      "importance_score": 0.5318,
+      "score": 0.5299,
+      "importance": 0.5299,
+      "importance_score": 0.5299,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7836,
+        "recency": 0.7729,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -842,15 +939,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5265,
-      "importance": 0.5265,
-      "importance_score": 0.5265,
+      "score": 0.5247,
+      "importance": 0.5247,
+      "importance_score": 0.5247,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.754,
+        "recency": 0.7437,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -959,15 +1056,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5528,
-      "importance": 0.5528,
-      "importance_score": 0.5528,
+      "score": 0.551,
+      "importance": 0.551,
+      "importance_score": 0.551,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7613,
+        "recency": 0.751,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1038,15 +1135,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5152,
-      "importance": 0.5152,
-      "importance_score": 0.5152,
+      "score": 0.5132,
+      "importance": 0.5132,
+      "importance_score": 0.5132,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8302,
+        "recency": 0.8189,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1116,15 +1213,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5152,
-      "importance": 0.5152,
-      "importance_score": 0.5152,
+      "score": 0.5132,
+      "importance": 0.5132,
+      "importance_score": 0.5132,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8302,
+        "recency": 0.8189,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1195,15 +1292,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5147,
-      "importance": 0.5147,
-      "importance_score": 0.5147,
+      "score": 0.5126,
+      "importance": 0.5126,
+      "importance_score": 0.5126,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8269,
+        "recency": 0.8157,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1274,15 +1371,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5367,
-      "importance": 0.5367,
-      "importance_score": 0.5367,
+      "score": 0.5344,
+      "importance": 0.5344,
+      "importance_score": 0.5344,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9494,
+        "recency": 0.9365,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1352,15 +1449,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5023,
-      "importance": 0.5023,
-      "importance_score": 0.5023,
+      "score": 0.5005,
+      "importance": 0.5005,
+      "importance_score": 0.5005,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7584,
+        "recency": 0.7481,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1431,15 +1528,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4954,
-      "importance": 0.4954,
-      "importance_score": 0.4954,
+      "score": 0.4936,
+      "importance": 0.4936,
+      "importance_score": 0.4936,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7199,
+        "recency": 0.7101,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1529,15 +1626,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5447,
-      "importance": 0.5447,
-      "importance_score": 0.5447,
+      "score": 0.5426,
+      "importance": 0.5426,
+      "importance_score": 0.5426,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8549,
+        "recency": 0.8433,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1608,15 +1705,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5265,
-      "importance": 0.5265,
-      "importance_score": 0.5265,
+      "score": 0.5243,
+      "importance": 0.5243,
+      "importance_score": 0.5243,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8929,
+        "recency": 0.8808,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1687,15 +1784,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4954,
-      "importance": 0.4954,
-      "importance_score": 0.4954,
+      "score": 0.4936,
+      "importance": 0.4936,
+      "importance_score": 0.4936,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7199,
+        "recency": 0.7101,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1710,85 +1807,6 @@
         "url": "https://www.businessinsider.com/big-four-ey-creates-ai-value-realization-office-2026-8",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_badeeae7b539",
-      "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-      "url": "https://news.ycombinator.com/item?id=49317760",
-      "primary_url": "https://news.ycombinator.com/item?id=49317760",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "16a13fe58d4cdfcf7ca57702ec884e947f42f269",
-          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-          "url": "https://news.ycombinator.com/item?id=49317760",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-16T08:11:23.846000Z"
-        },
-        {
-          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
-          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-          "url": "https://littlelearner-ll.github.io",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T07:37:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "16a13fe58d4cdfcf7ca57702ec884e947f42f269",
-          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-          "url": "https://news.ycombinator.com/item?id=49317760",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-16T08:11:23.846000Z"
-        },
-        {
-          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
-          "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-          "url": "https://littlelearner-ll.github.io",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T07:37:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5424,
-      "importance": 0.5424,
-      "importance_score": 0.5424,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9809,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T07:37:53Z",
-      "latest_at": "2026-08-16T08:11:23.846000Z",
-      "primary_item": {
-        "id": "16a13fe58d4cdfcf7ca57702ec884e947f42f269",
-        "title": "如果法学硕士从未见过五年级以上的材料，会发生什么？ / What happens when an LLM never sees material beyond fifth grade?",
-        "url": "https://news.ycombinator.com/item?id=49317760",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     }
   ]
