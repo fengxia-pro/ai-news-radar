@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:39:01.713721Z",
+  "generated_at": "2026-08-17T03:04:51.424462Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8114,
-      "importance": 0.8114,
-      "importance_score": 0.8114,
+      "score": 0.8079,
+      "importance": 0.8079,
+      "importance_score": 0.8079,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9488,
+        "recency": 0.9294,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -100,6 +100,228 @@
         "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
         "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
         "source": "Simon Willison 博客",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_24179d4476a1",
+      "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+      "url": "https://www.aibase.com/news/30383",
+      "primary_url": "https://www.aibase.com/news/30383",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/news/30383",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
+          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/zh/news/30383",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/news/30383",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
+          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/zh/news/30383",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T03:04:51.424462Z",
+      "latest_at": "2026-08-17T03:04:51.424462Z",
+      "primary_item": {
+        "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+        "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+        "url": "https://www.aibase.com/news/30383",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2dc2c342cc6e",
+      "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+      "url": "https://www.aibase.com/news/30381",
+      "primary_url": "https://www.aibase.com/news/30381",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/news/30381",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
+          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/zh/news/30381",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/news/30381",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
+          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/zh/news/30381",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T03:04:51.424462Z",
+      "latest_at": "2026-08-17T03:04:51.424462Z",
+      "primary_item": {
+        "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+        "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+        "url": "https://www.aibase.com/news/30381",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_af863cb3b215",
+      "title": "新兴多智能体系统的模式与问题",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+          "title": "新兴多智能体系统的模式与问题",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-16T11:17:57.393000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+          "title": "新兴多智能体系统的模式与问题",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-16T11:17:57.393000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7339,
+      "importance": 0.7339,
+      "importance_score": 0.7339,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7962,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-16T11:17:57.393000Z",
+      "latest_at": "2026-08-16T11:17:57.393000Z",
+      "primary_item": {
+        "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+        "title": "新兴多智能体系统的模式与问题",
+        "url": "https://www.anthropic.com/research/multiagent-systems",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -157,15 +379,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9796,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -180,6 +402,87 @@
         "id": "5d106922063c8c89baf6048988737b7ac90bb0aa",
         "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
         "url": "https://www.aibase.com/news/30372",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_dd3ce53774db",
+      "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+      "url": "https://www.aibase.com/news/30379",
+      "primary_url": "https://www.aibase.com/news/30379",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
+          "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+          "url": "https://www.aibase.com/news/30379",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T01:39:01.713721Z"
+        },
+        {
+          "id": "d9f3af5ac216b9cccd863cf7f5d134a918ce5406",
+          "title": "千问办公首发上线 GLM-5.3 与 DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+          "url": "https://www.aibase.com/zh/news/30379",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
+          "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+          "url": "https://www.aibase.com/news/30379",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T01:39:01.713721Z"
+        },
+        {
+          "id": "d9f3af5ac216b9cccd863cf7f5d134a918ce5406",
+          "title": "千问办公首发上线 GLM-5.3 与 DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+          "url": "https://www.aibase.com/zh/news/30379",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9796,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T01:39:01.713721Z",
+      "latest_at": "2026-08-17T03:04:51.424462Z",
+      "primary_item": {
+        "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
+        "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
+        "url": "https://www.aibase.com/news/30379",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -238,15 +541,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9796,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -263,87 +566,6 @@
         "url": "https://www.aibase.com/news/30369",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_af863cb3b215",
-      "title": "新兴多智能体系统的模式与问题",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-          "title": "新兴多智能体系统的模式与问题",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T11:17:57.393000Z"
-        },
-        {
-          "id": "7220c05a173166ccb0abeca98bc421dc3d0fb02b",
-          "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multi-agent systems",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T02:12:53Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-          "title": "新兴多智能体系统的模式与问题",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T11:17:57.393000Z"
-        },
-        {
-          "id": "7220c05a173166ccb0abeca98bc421dc3d0fb02b",
-          "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multi-agent systems",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T02:12:53Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7619,
-      "importance": 0.7619,
-      "importance_score": 0.7619,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8128,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-16T02:12:53Z",
-      "latest_at": "2026-08-16T11:17:57.393000Z",
-      "primary_item": {
-        "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-        "title": "新兴多智能体系统的模式与问题",
-        "url": "https://www.anthropic.com/research/multiagent-systems",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -400,15 +622,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9796,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -481,15 +703,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9796,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -506,6 +728,240 @@
         "url": "https://www.aibase.com/news/30367",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0f2dda7c9a41",
+      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "primary_url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": "daringfireball.net",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f713a587ff54b68a52101f457162b00db26d1184",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "daringfireball.net",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T00:06:02.469000Z"
+        },
+        {
+          "id": "d0e9b4dba32697b50990e520b8b6d050fdbd91d8",
+          "title": "《克劳德》中人类的“水印”文本掺假是对写作的歪曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://news.ycombinator.com/item?id=49324087",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-16T22:50:38.020000Z"
+        },
+        {
+          "id": "8a74cffa132b6b8f7353d6e767f6e6e42900bcf5",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-16T21:53:43Z"
+        },
+        {
+          "id": "1096d4d6014fef89eee8e27720ab7a0eb66fc753",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / ★ Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "Daring Fireball",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-16T19:26:33Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Daring Fireball",
+        "HN Algolia · AI 24h",
+        "daringfireball.net",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "f713a587ff54b68a52101f457162b00db26d1184",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "daringfireball.net",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T00:06:02.469000Z"
+        },
+        {
+          "id": "d0e9b4dba32697b50990e520b8b6d050fdbd91d8",
+          "title": "《克劳德》中人类的“水印”文本掺假是对写作的歪曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://news.ycombinator.com/item?id=49324087",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-16T22:50:38.020000Z"
+        },
+        {
+          "id": "8a74cffa132b6b8f7353d6e767f6e6e42900bcf5",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-16T21:53:43Z"
+        },
+        {
+          "id": "1096d4d6014fef89eee8e27720ab7a0eb66fc753",
+          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / ★ Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "Daring Fireball",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-16T19:26:33Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9579,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T19:26:33Z",
+      "latest_at": "2026-08-17T00:06:02.469000Z",
+      "primary_item": {
+        "id": "f713a587ff54b68a52101f457162b00db26d1184",
+        "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
+        "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+        "source": "daringfireball.net",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7b2c05cb77f7",
+      "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+      "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "primary_url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "6268ff9620c08a5d516fcf2a63fe7c8e8047a6e3",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T22:50:38Z"
+        },
+        {
+          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
+          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
+          "source": "Reddit (热门)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T17:41:11Z"
+        },
+        {
+          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-16T17:26:40.217000Z"
+        },
+        {
+          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-16T16:30:38Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Business Insider",
+        "Hacker News · 24h最热",
+        "Reddit (热门)",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "6268ff9620c08a5d516fcf2a63fe7c8e8047a6e3",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T22:50:38Z"
+        },
+        {
+          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
+          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
+          "source": "Reddit (热门)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T17:41:11Z"
+        },
+        {
+          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-16T17:26:40.217000Z"
+        },
+        {
+          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-16T16:30:38Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5851,
+      "importance": 0.5851,
+      "importance_score": 0.5851,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9406,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T16:30:38Z",
+      "latest_at": "2026-08-16T22:50:38Z",
+      "primary_item": {
+        "id": "6268ff9620c08a5d516fcf2a63fe7c8e8047a6e3",
+        "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+        "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -562,15 +1018,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9796,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -590,401 +1046,101 @@
       }
     },
     {
-      "story_id": "story_2ed71d999b2d",
-      "title": "Anthropic CEO Amodei反驳“悲观论”批评，称AI信任危机根源在于承诺未兑现",
-      "url": "https://www.aibase.com/news/30370",
-      "primary_url": "https://www.aibase.com/news/30370",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "5dc51c647fb0c8308b310fc6c2ee305db30f5d8c",
-          "title": "Anthropic CEO Amodei反驳“悲观论”批评，称AI信任危机根源在于承诺未兑现",
-          "url": "https://www.aibase.com/news/30370",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "5dc51c647fb0c8308b310fc6c2ee305db30f5d8c",
-          "title": "Anthropic CEO Amodei反驳“悲观论”批评，称AI信任危机根源在于承诺未兑现",
-          "url": "https://www.aibase.com/news/30370",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T01:39:01.713721Z",
-      "latest_at": "2026-08-17T01:39:01.713721Z",
-      "primary_item": {
-        "id": "5dc51c647fb0c8308b310fc6c2ee305db30f5d8c",
-        "title": "Anthropic CEO Amodei反驳“悲观论”批评，称AI信任危机根源在于承诺未兑现",
-        "url": "https://www.aibase.com/news/30370",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_0f2dda7c9a41",
-      "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "primary_url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "source": "daringfireball.net",
+      "story_id": "story_7ec51ac786a3",
+      "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "primary_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "source": "www.reuters.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "f713a587ff54b68a52101f457162b00db26d1184",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "daringfireball.net",
+          "id": "6962d16e18858c5af97e060c22654b99471b85d1",
+          "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-17T00:06:02.469000Z"
+          "published_at": "2026-08-17T01:58:00.413000Z"
         },
         {
-          "id": "d0e9b4dba32697b50990e520b8b6d050fdbd91d8",
-          "title": "《克劳德》中人类的“水印”文本掺假是对写作的歪曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://news.ycombinator.com/item?id=49324087",
+          "id": "457b877e8c2046c0acb3f6e23fde3cbb21883c40",
+          "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度 / Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "b1183d5a3643a41d2541bcd015a4fb8d11502f76",
+          "title": "Nvidia 大幅减少了其可能担保的 OpenAI 基础设施融资金额 / Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+          "url": "https://news.ycombinator.com/item?id=49323686",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-16T22:50:38.020000Z"
-        },
-        {
-          "id": "f87ec54de342fd6f1595037476aaf413449cdbfe",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T21:53:43Z"
-        },
-        {
-          "id": "1096d4d6014fef89eee8e27720ab7a0eb66fc753",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / ★ Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "Daring Fireball",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T19:26:33Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Daring Fireball",
-        "Hacker News (黑客新闻)",
-        "daringfireball.net",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "f713a587ff54b68a52101f457162b00db26d1184",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "daringfireball.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-17T00:06:02.469000Z"
-        },
-        {
-          "id": "d0e9b4dba32697b50990e520b8b6d050fdbd91d8",
-          "title": "《克劳德》中人类的“水印”文本掺假是对写作的歪曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://news.ycombinator.com/item?id=49324087",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-16T22:50:38.020000Z"
-        },
-        {
-          "id": "f87ec54de342fd6f1595037476aaf413449cdbfe",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T21:53:43Z"
-        },
-        {
-          "id": "1096d4d6014fef89eee8e27720ab7a0eb66fc753",
-          "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲 / ★ Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing",
-          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-          "source": "Daring Fireball",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T19:26:33Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5918,
-      "importance": 0.5918,
-      "importance_score": 0.5918,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9779,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T19:26:33Z",
-      "latest_at": "2026-08-17T00:06:02.469000Z",
-      "primary_item": {
-        "id": "f713a587ff54b68a52101f457162b00db26d1184",
-        "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
-        "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-        "source": "daringfireball.net",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_9b838f73f732",
-      "title": "Anthropic CEO 回应 AI 反噬浪潮：根子上是一场\"信任危机\"",
-      "url": "https://www.aibase.com/news/30376",
-      "primary_url": "https://www.aibase.com/news/30376",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "302073e0a62f69ee2ae0e374cf9f09f8826f5ffb",
-          "title": "Anthropic CEO 回应 AI 反噬浪潮：根子上是一场\"信任危机\"",
-          "url": "https://www.aibase.com/news/30376",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "302073e0a62f69ee2ae0e374cf9f09f8826f5ffb",
-          "title": "Anthropic CEO 回应 AI 反噬浪潮：根子上是一场\"信任危机\"",
-          "url": "https://www.aibase.com/news/30376",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T01:39:01.713721Z",
-      "latest_at": "2026-08-17T01:39:01.713721Z",
-      "primary_item": {
-        "id": "302073e0a62f69ee2ae0e374cf9f09f8826f5ffb",
-        "title": "Anthropic CEO 回应 AI 反噬浪潮：根子上是一场\"信任危机\"",
-        "url": "https://www.aibase.com/news/30376",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_451d16442663",
-      "title": "ChatGPT迎重大更新！无需切换即可直接编辑谷歌云盘文件",
-      "url": "https://www.aibase.com/news/30375",
-      "primary_url": "https://www.aibase.com/news/30375",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "0d4f7c973cb3fcca47454def30fc49162376045e",
-          "title": "ChatGPT迎重大更新！无需切换即可直接编辑谷歌云盘文件",
-          "url": "https://www.aibase.com/news/30375",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "0d4f7c973cb3fcca47454def30fc49162376045e",
-          "title": "ChatGPT迎重大更新！无需切换即可直接编辑谷歌云盘文件",
-          "url": "https://www.aibase.com/news/30375",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T01:39:01.713721Z",
-      "latest_at": "2026-08-17T01:39:01.713721Z",
-      "primary_item": {
-        "id": "0d4f7c973cb3fcca47454def30fc49162376045e",
-        "title": "ChatGPT迎重大更新！无需切换即可直接编辑谷歌云盘文件",
-        "url": "https://www.aibase.com/news/30375",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_7b2c05cb77f7",
-      "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-      "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-      "primary_url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-      "source": "Reddit (热门)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
-          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-          "source": "Reddit (热门)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T17:41:11Z"
-        },
-        {
-          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T17:26:40.217000Z"
-        },
-        {
-          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T16:30:38Z"
+          "published_at": "2026-08-16T21:48:04.982000Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Business Insider",
-        "Reddit (热门)",
-        "www.businessinsider.com"
+        "Readhub · AI",
+        "hackernews",
+        "www.reuters.com"
       ],
       "items": [
         {
-          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
-          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-          "source": "Reddit (热门)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T17:41:11Z"
-        },
-        {
-          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "www.businessinsider.com",
+          "id": "6962d16e18858c5af97e060c22654b99471b85d1",
+          "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-16T17:26:40.217000Z"
+          "published_at": "2026-08-17T01:58:00.413000Z"
         },
         {
-          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T16:30:38Z"
+          "id": "457b877e8c2046c0acb3f6e23fde3cbb21883c40",
+          "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度 / Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "b1183d5a3643a41d2541bcd015a4fb8d11502f76",
+          "title": "Nvidia 大幅减少了其可能担保的 OpenAI 基础设施融资金额 / Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+          "url": "https://news.ycombinator.com/item?id=49323686",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-16T21:48:04.982000Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5512,
-      "importance": 0.5512,
-      "importance_score": 0.5512,
+      "score": 0.5679,
+      "importance": 0.5679,
+      "importance_score": 0.5679,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8914,
+        "recency": 0.984,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-16T16:30:38Z",
-      "latest_at": "2026-08-16T17:41:11Z",
+      "earliest_at": "2026-08-16T21:48:04.982000Z",
+      "latest_at": "2026-08-17T01:58:00.413000Z",
       "primary_item": {
-        "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
-        "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-        "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-        "source": "Reddit (热门)",
-        "source_name": "Info Flow"
+        "id": "6962d16e18858c5af97e060c22654b99471b85d1",
+        "title": "英伟达大幅削减了其可能为OpenAI基础设施提供的融资担保额度",
+        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1060,15 +1216,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.5474,
+      "importance": 0.5474,
+      "importance_score": 0.5474,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8883,
+        "recency": 0.8701,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1158,15 +1314,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5456,
-      "importance": 0.5456,
-      "importance_score": 0.5456,
+      "score": 0.5424,
+      "importance": 0.5424,
+      "importance_score": 0.5424,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.86,
+        "recency": 0.8425,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1237,15 +1393,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5432,
-      "importance": 0.5432,
-      "importance_score": 0.5432,
+      "score": 0.5395,
+      "importance": 0.5395,
+      "importance_score": 0.5395,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9854,
+        "recency": 0.9653,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1316,15 +1472,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5425,
-      "importance": 0.5425,
-      "importance_score": 0.5425,
+      "score": 0.5389,
+      "importance": 0.5389,
+      "importance_score": 0.5389,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9817,
+        "recency": 0.9616,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1395,15 +1551,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.541,
-      "importance": 0.541,
-      "importance_score": 0.541,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9734,
+        "recency": 0.9535,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1493,15 +1649,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5338,
-      "importance": 0.5338,
-      "importance_score": 0.5338,
+      "score": 0.5308,
+      "importance": 0.5308,
+      "importance_score": 0.5308,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7943,
+        "recency": 0.778,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1572,15 +1728,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5329,
-      "importance": 0.5329,
-      "importance_score": 0.5329,
+      "score": 0.5295,
+      "importance": 0.5295,
+      "importance_score": 0.5295,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9286,
+        "recency": 0.9096,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1595,85 +1751,6 @@
         "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_e81108c281d1",
-      "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机” - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGtCM3JXUkxNNHZZZU45ckJ6VHZRd2NxUWxUZWRVeGZKVFFWc3pYWFl4eDRtbV9BWVFLdFpBVkxCVllBdG01d3cxdmxfZXRKZjI3bU1fM2FDa1htRnJKNy1DR3pwRTgxY0gzY2oxSjl2eVBXd2hKWjRLMy10SzY5N1N1akYybGhlejFMRmJ4dkRfZENQWUtQb0RMV2czSUs2TWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGtCM3JXUkxNNHZZZU45ckJ6VHZRd2NxUWxUZWRVeGZKVFFWc3pYWFl4eDRtbV9BWVFLdFpBVkxCVllBdG01d3cxdmxfZXRKZjI3bU1fM2FDa1htRnJKNy1DR3pwRTgxY0gzY2oxSjl2eVBXd2hKWjRLMy10SzY5N1N1akYybGhlejFMRmJ4dkRfZENQWUtQb0RMV2czSUs2TWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c036f9f93ecc215e63182e735174d14dfa81917b",
-          "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机” - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGtCM3JXUkxNNHZZZU45ckJ6VHZRd2NxUWxUZWRVeGZKVFFWc3pYWFl4eDRtbV9BWVFLdFpBVkxCVllBdG01d3cxdmxfZXRKZjI3bU1fM2FDa1htRnJKNy1DR3pwRTgxY0gzY2oxSjl2eVBXd2hKWjRLMy10SzY5N1N1akYybGhlejFMRmJ4dkRfZENQWUtQb0RMV2czSUs2TWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T18:30:21.826000Z"
-        },
-        {
-          "id": "12e225c702b6b51fe4ecfba6d6e85ef44bfc9c52",
-          "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机”",
-          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html",
-          "source": "finance.yahoo.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T17:26:40.195000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "finance.yahoo.com",
-        "news.google.com"
-      ],
-      "items": [
-        {
-          "id": "c036f9f93ecc215e63182e735174d14dfa81917b",
-          "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机” - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGtCM3JXUkxNNHZZZU45ckJ6VHZRd2NxUWxUZWRVeGZKVFFWc3pYWFl4eDRtbV9BWVFLdFpBVkxCVllBdG01d3cxdmxfZXRKZjI3bU1fM2FDa1htRnJKNy1DR3pwRTgxY0gzY2oxSjl2eVBXd2hKWjRLMy10SzY5N1N1akYybGhlejFMRmJ4dkRfZENQWUtQb0RMV2czSUs2TWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T18:30:21.826000Z"
-        },
-        {
-          "id": "12e225c702b6b51fe4ecfba6d6e85ef44bfc9c52",
-          "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机”",
-          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html",
-          "source": "finance.yahoo.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T17:26:40.195000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5282,
-      "importance": 0.5282,
-      "importance_score": 0.5282,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.902,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T17:26:40.195000Z",
-      "latest_at": "2026-08-16T18:30:21.826000Z",
-      "primary_item": {
-        "id": "c036f9f93ecc215e63182e735174d14dfa81917b",
-        "title": "Anthropic首席执行官表示，针对人工智能的负面反应“本质上是一场信任危机” - TechCrunch",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZGtCM3JXUkxNNHZZZU45ckJ6VHZRd2NxUWxUZWRVeGZKVFFWc3pYWFl4eDRtbV9BWVFLdFpBVkxCVllBdG01d3cxdmxfZXRKZjI3bU1fM2FDa1htRnJKNy1DR3pwRTgxY0gzY2oxSjl2eVBXd2hKWjRLMy10SzY5N1N1akYybGhlejFMRmJ4dkRfZENQWUtQb0RMV2czSUs2TWc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
       }
     }
   ]
