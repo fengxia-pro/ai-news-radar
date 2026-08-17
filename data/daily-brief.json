@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T08:50:00.481966Z",
+  "generated_at": "2026-08-17T09:48:49.923981Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8498,
-      "importance": 0.8498,
-      "importance_score": 0.8498,
+      "score": 0.8473,
+      "importance": 0.8473,
+      "importance_score": 0.8473,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.988,
+        "recency": 0.9741,
         "story_heat": 0.0
       },
       "category": "official",
@@ -138,15 +138,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7946,
-      "importance": 0.7946,
-      "importance_score": 0.7946,
+      "score": 0.7924,
+      "importance": 0.7924,
+      "importance_score": 0.7924,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8553,
+        "recency": 0.8433,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -163,6 +163,168 @@
         "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e2e19c918ee7",
+      "title": "美国原告在诉状暗藏 AI 提示词：法官警告\"提示注入\"正侵入法庭",
+      "url": "https://www.aibase.com/news/30401",
+      "primary_url": "https://www.aibase.com/news/30401",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "d736d87029511dac5e26a44965814f519559f722",
+          "title": "美国原告在诉状暗藏 AI 提示词：法官警告\"提示注入\"正侵入法庭",
+          "url": "https://www.aibase.com/news/30401",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "9d60b2864a85f73ca4e07c8b7011492266c958d3",
+          "title": "美国原告在诉状暗藏 AI 提示词：法官警告「提示注入」正侵入法庭",
+          "url": "https://www.aibase.com/zh/news/30401",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "d736d87029511dac5e26a44965814f519559f722",
+          "title": "美国原告在诉状暗藏 AI 提示词：法官警告\"提示注入\"正侵入法庭",
+          "url": "https://www.aibase.com/news/30401",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "9d60b2864a85f73ca4e07c8b7011492266c958d3",
+          "title": "美国原告在诉状暗藏 AI 提示词：法官警告「提示注入」正侵入法庭",
+          "url": "https://www.aibase.com/zh/news/30401",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7901,
+      "importance": 0.7901,
+      "importance_score": 0.7901,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9859,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T08:50:00.481966Z",
+      "latest_at": "2026-08-17T09:48:49.923981Z",
+      "primary_item": {
+        "id": "d736d87029511dac5e26a44965814f519559f722",
+        "title": "美国原告在诉状暗藏 AI 提示词：法官警告\"提示注入\"正侵入法庭",
+        "url": "https://www.aibase.com/news/30401",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_7d73bf28f247",
+      "title": "豆包“工作任务”功能上新:手机可远程操控电脑，跨设备办公再无边界",
+      "url": "https://www.aibase.com/news/30402",
+      "primary_url": "https://www.aibase.com/news/30402",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "023ee7aeaae0d9c87c225ebe661f4cbbe29260b5",
+          "title": "豆包“工作任务”功能上新:手机可远程操控电脑，跨设备办公再无边界",
+          "url": "https://www.aibase.com/news/30402",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "05530c56e434a3f2e8b11128c286588b47ae0467",
+          "title": "豆包「工作任务」功能上新：手机可远程操控电脑，跨设备办公再无边界",
+          "url": "https://www.aibase.com/zh/news/30402",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "023ee7aeaae0d9c87c225ebe661f4cbbe29260b5",
+          "title": "豆包“工作任务”功能上新:手机可远程操控电脑，跨设备办公再无边界",
+          "url": "https://www.aibase.com/news/30402",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "05530c56e434a3f2e8b11128c286588b47ae0467",
+          "title": "豆包「工作任务」功能上新：手机可远程操控电脑，跨设备办公再无边界",
+          "url": "https://www.aibase.com/zh/news/30402",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7901,
+      "importance": 0.7901,
+      "importance_score": 0.7901,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9859,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T08:50:00.481966Z",
+      "latest_at": "2026-08-17T09:48:49.923981Z",
+      "primary_item": {
+        "id": "023ee7aeaae0d9c87c225ebe661f4cbbe29260b5",
+        "title": "豆包“工作任务”功能上新:手机可远程操控电脑，跨设备办公再无边界",
+        "url": "https://www.aibase.com/news/30402",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -219,15 +381,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7901,
+      "importance": 0.7901,
+      "importance_score": 0.7901,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9859,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -244,6 +406,66 @@
         "url": "https://www.aibase.com/news/30399",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_af863cb3b215",
+      "title": "新兴多智能体系统的模式与问题",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+          "title": "新兴多智能体系统的模式与问题",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-16T11:17:57.393000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+          "title": "新兴多智能体系统的模式与问题",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-16T11:17:57.393000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7206,
+      "importance": 0.7206,
+      "importance_score": 0.7206,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7224,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-16T11:17:57.393000Z",
+      "latest_at": "2026-08-16T11:17:57.393000Z",
+      "primary_item": {
+        "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
+        "title": "新兴多智能体系统的模式与问题",
+        "url": "https://www.anthropic.com/research/multiagent-systems",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -300,15 +522,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7893,
-      "importance": 0.7893,
-      "importance_score": 0.7893,
+      "score": 0.7868,
+      "importance": 0.7868,
+      "importance_score": 0.7868,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9818,
+        "recency": 0.968,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -381,15 +603,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7893,
-      "importance": 0.7893,
-      "importance_score": 0.7893,
+      "score": 0.7868,
+      "importance": 0.7868,
+      "importance_score": 0.7868,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9818,
+        "recency": 0.968,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -406,66 +628,6 @@
         "url": "https://www.aibase.com/news/30395",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_af863cb3b215",
-      "title": "新兴多智能体系统的模式与问题",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-          "title": "新兴多智能体系统的模式与问题",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T11:17:57.393000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-          "title": "新兴多智能体系统的模式与问题",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T11:17:57.393000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7225,
-      "importance": 0.7225,
-      "importance_score": 0.7225,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7327,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-16T11:17:57.393000Z",
-      "latest_at": "2026-08-16T11:17:57.393000Z",
-      "primary_item": {
-        "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-        "title": "新兴多智能体系统的模式与问题",
-        "url": "https://www.anthropic.com/research/multiagent-systems",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -522,15 +684,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7855,
-      "importance": 0.7855,
-      "importance_score": 0.7855,
+      "score": 0.783,
+      "importance": 0.783,
+      "importance_score": 0.783,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9603,
+        "recency": 0.9468,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -550,165 +712,99 @@
       }
     },
     {
-      "story_id": "story_24179d4476a1",
-      "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
-      "url": "https://www.aibase.com/news/30383",
-      "primary_url": "https://www.aibase.com/news/30383",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_2df82173bb28",
+      "title": "AI最危险的地方，可能是让你太快拿到答案，然后误把“看懂了解释”当成自己真的会了。Tom Yeh是科罗拉多大学博尔德分校计算机科学副教授，也是AI by Hand的发起人。他这期播客带我们拆解了下怎样才能保住自己的学习能力！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-08-16",
+      "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
-          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
-          "url": "https://www.aibase.com/news/30383",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T03:04:51.424462Z"
+          "id": "a9a11875b0b9036dc1063fb49ee8ef2bc158cf31",
+          "title": "AI最危险的地方，可能是让你太快拿到答案，然后误把“看懂了解释”当成自己真的会了。Tom Yeh是科罗拉多大学博尔德分校计算机科学副教授，也是AI by Hand的发起人。他这期播客带我们拆解了下怎样才能保住自己的学习能力！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T09:48:49.923981Z"
         },
         {
-          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
-          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
-          "url": "https://www.aibase.com/zh/news/30383",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "97d3ec9e967f81286c3aaab38967ea39494d3974",
+          "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "443412f48149f7c99538074ffe688dc0bed0a065",
+          "title": "本周AI论文合集直击大模型与Agent落地的各类隐蔽痛点，或许可以帮你规避不少隐藏陷阱。包含修正缩放定律、大幅降低预训练测算成本的新公式，也曝光了推理轨迹窃取、心智病毒传播等新兴的安全风险。此外还解析了提示词恶性膨胀、上下文压缩丢失约束、底层架构暗藏缺陷等工程难题。做Agent、大模型研发的开发者们可以借鉴下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T07:33:39.853445Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "社区更新 · 2026-08-16"
       ],
       "items": [
         {
-          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
-          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
-          "url": "https://www.aibase.com/news/30383",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T03:04:51.424462Z"
+          "id": "a9a11875b0b9036dc1063fb49ee8ef2bc158cf31",
+          "title": "AI最危险的地方，可能是让你太快拿到答案，然后误把“看懂了解释”当成自己真的会了。Tom Yeh是科罗拉多大学博尔德分校计算机科学副教授，也是AI by Hand的发起人。他这期播客带我们拆解了下怎样才能保住自己的学习能力！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T09:48:49.923981Z"
         },
         {
-          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
-          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
-          "url": "https://www.aibase.com/zh/news/30383",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "97d3ec9e967f81286c3aaab38967ea39494d3974",
+          "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T08:50:00.481966Z"
+        },
+        {
+          "id": "443412f48149f7c99538074ffe688dc0bed0a065",
+          "title": "本周AI论文合集直击大模型与Agent落地的各类隐蔽痛点，或许可以帮你规避不少隐藏陷阱。包含修正缩放定律、大幅降低预训练测算成本的新公式，也曝光了推理轨迹窃取、心智病毒传播等新兴的安全风险。此外还解析了提示词恶性膨胀、上下文压缩丢失约束、底层架构暗藏缺陷等工程难题。做Agent、大模型研发的开发者们可以借鉴下！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-16",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-17T07:33:39.853445Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7783,
-      "importance": 0.7783,
-      "importance_score": 0.7783,
-      "importance_label": "行业动态",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.6192,
+      "importance": 0.6192,
+      "importance_score": 0.6192,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9203,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.5
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "multi_source"
       ],
-      "earliest_at": "2026-08-17T03:04:51.424462Z",
-      "latest_at": "2026-08-17T03:04:51.424462Z",
+      "earliest_at": "2026-08-17T07:33:39.853445Z",
+      "latest_at": "2026-08-17T09:48:49.923981Z",
       "primary_item": {
-        "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
-        "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
-        "url": "https://www.aibase.com/news/30383",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2dc2c342cc6e",
-      "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
-      "url": "https://www.aibase.com/news/30381",
-      "primary_url": "https://www.aibase.com/news/30381",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
-          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
-          "url": "https://www.aibase.com/news/30381",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T03:04:51.424462Z"
-        },
-        {
-          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
-          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
-          "url": "https://www.aibase.com/zh/news/30381",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
-          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
-          "url": "https://www.aibase.com/news/30381",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T03:04:51.424462Z"
-        },
-        {
-          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
-          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
-          "url": "https://www.aibase.com/zh/news/30381",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7783,
-      "importance": 0.7783,
-      "importance_score": 0.7783,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9203,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T03:04:51.424462Z",
-      "latest_at": "2026-08-17T03:04:51.424462Z",
-      "primary_item": {
-        "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
-        "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
-        "url": "https://www.aibase.com/news/30381",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "a9a11875b0b9036dc1063fb49ee8ef2bc158cf31",
+        "title": "AI最危险的地方，可能是让你太快拿到答案，然后误把“看懂了解释”当成自己真的会了。Tom Yeh是科罗拉多大学博尔德分校计算机科学副教授，也是AI by Hand的发起人。他这期播客带我们拆解了下怎样才能保住自己的学习能力！",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-08-16",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -765,15 +861,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6204,
-      "importance": 0.6204,
-      "importance_score": 0.6204,
+      "score": 0.6182,
+      "importance": 0.6182,
+      "importance_score": 0.6182,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8423,
+        "recency": 0.8305,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -791,26 +887,26 @@
       }
     },
     {
-      "story_id": "story_ef461b3789bf",
-      "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-      "url": "https://www.aibase.com/news/30372",
-      "primary_url": "https://www.aibase.com/news/30372",
+      "story_id": "story_24179d4476a1",
+      "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+      "url": "https://www.aibase.com/news/30383",
+      "primary_url": "https://www.aibase.com/news/30383",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "5d106922063c8c89baf6048988737b7ac90bb0aa",
-          "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-          "url": "https://www.aibase.com/news/30372",
+          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/news/30383",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
+          "published_at": "2026-08-17T03:04:51.424462Z"
         },
         {
-          "id": "7c8afc6e6c61a203c6bd707be1fa953e89c7f369",
-          "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-          "url": "https://www.aibase.com/zh/news/30372",
+          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
+          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/zh/news/30383",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -824,18 +920,18 @@
       ],
       "items": [
         {
-          "id": "5d106922063c8c89baf6048988737b7ac90bb0aa",
-          "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-          "url": "https://www.aibase.com/news/30372",
+          "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+          "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/news/30383",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
+          "published_at": "2026-08-17T03:04:51.424462Z"
         },
         {
-          "id": "7c8afc6e6c61a203c6bd707be1fa953e89c7f369",
-          "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-          "url": "https://www.aibase.com/zh/news/30372",
+          "id": "9908116dffecfa6f700f50ba9a507953fe1fc6ea",
+          "title": "我国科学家发布大豆垂直大模型「丰菽」2.0：多模型协同，辅助智能育种",
+          "url": "https://www.aibase.com/zh/news/30383",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -844,15 +940,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7749,
-      "importance": 0.7749,
-      "importance_score": 0.7749,
+      "score": 0.7759,
+      "importance": 0.7759,
+      "importance_score": 0.7759,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9015,
+        "recency": 0.9073,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -861,92 +957,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-17T01:39:01.713721Z",
-      "latest_at": "2026-08-17T01:39:01.713721Z",
+      "earliest_at": "2026-08-17T03:04:51.424462Z",
+      "latest_at": "2026-08-17T03:04:51.424462Z",
       "primary_item": {
-        "id": "5d106922063c8c89baf6048988737b7ac90bb0aa",
-        "title": "AI 凭视觉线索锁定拍照地点：87%-91% 识别率，删掉 GPS 也没用",
-        "url": "https://www.aibase.com/news/30372",
+        "id": "30d7d6bd2201f535d6b2a0cc5a6ae4c44a771b95",
+        "title": "我国科学家发布大豆垂直大模型\"丰菽\"2.0：多模型协同，辅助智能育种",
+        "url": "https://www.aibase.com/news/30383",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-08-16",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "97d3ec9e967f81286c3aaab38967ea39494d3974",
-          "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-16",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-17T08:50:00.481966Z"
-        },
-        {
-          "id": "443412f48149f7c99538074ffe688dc0bed0a065",
-          "title": "本周AI论文合集直击大模型与Agent落地的各类隐蔽痛点，或许可以帮你规避不少隐藏陷阱。包含修正缩放定律、大幅降低预训练测算成本的新公式，也曝光了推理轨迹窃取、心智病毒传播等新兴的安全风险。此外还解析了提示词恶性膨胀、上下文压缩丢失约束、底层架构暗藏缺陷等工程难题。做Agent、大模型研发的开发者们可以借鉴下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-16",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-17T07:33:39.853445Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "社区更新 · 2026-08-16"
-      ],
-      "items": [
-        {
-          "id": "97d3ec9e967f81286c3aaab38967ea39494d3974",
-          "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-16",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-17T08:50:00.481966Z"
-        },
-        {
-          "id": "443412f48149f7c99538074ffe688dc0bed0a065",
-          "title": "本周AI论文合集直击大模型与Agent落地的各类隐蔽痛点，或许可以帮你规避不少隐藏陷阱。包含修正缩放定律、大幅降低预训练测算成本的新公式，也曝光了推理轨迹窃取、心智病毒传播等新兴的安全风险。此外还解析了提示词恶性膨胀、上下文压缩丢失约束、底层架构暗藏缺陷等工程难题。做Agent、大模型研发的开发者们可以借鉴下！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-08-16",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-08-17T07:33:39.853445Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5942,
-      "importance": 0.5942,
-      "importance_score": 0.5942,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-17T07:33:39.853445Z",
-      "latest_at": "2026-08-17T08:50:00.481966Z",
-      "primary_item": {
-        "id": "97d3ec9e967f81286c3aaab38967ea39494d3974",
-        "title": "Agent频繁出现虚假完成、遗忘规则的问题，往往不是模型不行，而是运行框架Harness设计的不足。这篇文章结合DoorDash、OpenAI、Anthropic的实战案例，拆解了循环控制、工具权限、记忆管理、崩溃恢复、安全边界、任务验收六大关键设计维度。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-08-16",
-        "source_name": "WaytoAGI"
       }
     },
     {
@@ -1040,15 +1058,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5757,
-      "importance": 0.5757,
-      "importance_score": 0.5757,
+      "score": 0.5735,
+      "importance": 0.5735,
+      "importance_score": 0.5735,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8883,
+        "recency": 0.8758,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1157,15 +1175,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5716,
-      "importance": 0.5716,
-      "importance_score": 0.5716,
+      "score": 0.5694,
+      "importance": 0.5694,
+      "importance_score": 0.5694,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8657,
+        "recency": 0.8535,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1180,6 +1198,87 @@
         "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_2dc2c342cc6e",
+      "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+      "url": "https://www.aibase.com/news/30381",
+      "primary_url": "https://www.aibase.com/news/30381",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/news/30381",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
+          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/zh/news/30381",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+          "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/news/30381",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-17T03:04:51.424462Z"
+        },
+        {
+          "id": "31c807e0cf6face605c509ffd0d9434f87d72fb7",
+          "title": "马斯克 xAI 再陷舆论漩涡：女子指控继父利用 Grok 篡改童年照生成数千张露骨图",
+          "url": "https://www.aibase.com/zh/news/30381",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7759,
+      "importance": 0.7759,
+      "importance_score": 0.7759,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9073,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-17T03:04:51.424462Z",
+      "latest_at": "2026-08-17T03:04:51.424462Z",
+      "primary_item": {
+        "id": "bb4493b9431303acde27dc9fba69c46346f3a562",
+        "title": "马斯克xAI再陷舆论漩涡：女子指控继父利用Grok篡改童年照生成数千张露骨图",
+        "url": "https://www.aibase.com/news/30381",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1255,15 +1354,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5669,
-      "importance": 0.5669,
-      "importance_score": 0.5669,
+      "score": 0.5644,
+      "importance": 0.5644,
+      "importance_score": 0.5644,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9781,
+        "recency": 0.9644,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1278,87 +1377,6 @@
         "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_dd3ce53774db",
-      "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-      "url": "https://www.aibase.com/news/30379",
-      "primary_url": "https://www.aibase.com/news/30379",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
-          "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-          "url": "https://www.aibase.com/news/30379",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        },
-        {
-          "id": "d9f3af5ac216b9cccd863cf7f5d134a918ce5406",
-          "title": "千问办公首发上线 GLM-5.3 与 DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-          "url": "https://www.aibase.com/zh/news/30379",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
-          "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-          "url": "https://www.aibase.com/news/30379",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-17T01:39:01.713721Z"
-        },
-        {
-          "id": "d9f3af5ac216b9cccd863cf7f5d134a918ce5406",
-          "title": "千问办公首发上线 GLM-5.3 与 DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-          "url": "https://www.aibase.com/zh/news/30379",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7749,
-      "importance": 0.7749,
-      "importance_score": 0.7749,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9015,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T01:39:01.713721Z",
-      "latest_at": "2026-08-17T03:04:51.424462Z",
-      "primary_item": {
-        "id": "e64ab1274b5e231036981d2e34981c203ca64b23",
-        "title": "千问办公首发上线GLM-5.3与DeepSeek V4Pro，三款国产旗舰模型完成聚合",
-        "url": "https://www.aibase.com/news/30379",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1434,15 +1452,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5576,
-      "importance": 0.5576,
-      "importance_score": 0.5576,
+      "score": 0.5553,
+      "importance": 0.5553,
+      "importance_score": 0.5553,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9268,
+        "recency": 0.9138,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1532,15 +1550,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5495,
-      "importance": 0.5495,
-      "importance_score": 0.5495,
+      "score": 0.5472,
+      "importance": 0.5472,
+      "importance_score": 0.5472,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8815,
+        "recency": 0.8691,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1611,15 +1629,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5454,
-      "importance": 0.5454,
-      "importance_score": 0.5454,
+      "score": 0.5428,
+      "importance": 0.5428,
+      "importance_score": 0.5428,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9975,
+        "recency": 0.9835,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1689,15 +1707,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5424,
-      "importance": 0.5424,
-      "importance_score": 0.5424,
+      "score": 0.5399,
+      "importance": 0.5399,
+      "importance_score": 0.5399,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9809,
+        "recency": 0.9671,
         "story_heat": 0.25
       },
       "category": "watch",
