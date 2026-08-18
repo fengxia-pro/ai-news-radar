@@ -182,6 +182,38 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "关键词学习法技能深度解读《国家自然科学基金项目申请攻略（第2版）》",
+        "url": "https://mp.weixin.qq.com/s/15vcMF0yAlE_KglWdX2L8Q",
+        "published_at": "2026-08-18T12:04:06+08:00",
+        "article_theme": (
+            "用关键词学习法技能深度拆解《国家自然科学基金项目申请攻略（第2版）》，"
+            "展示从书籍 PDF 到结构化解读的方法。"
+        ),
+        "summary": (
+            "文章以《2026年暑期智能体助力科研》课程中的关键词学习法为入口，"
+            "演示将《国家自然科学基金项目申请攻略（第2版）》PDF 交给智能体技能，"
+            "生成思维导图与结构化解读。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "SCI大综述更新V4-20260816",
+        "url": "https://mp.weixin.qq.com/s/ZD7otioWqTj5gCr-FyuABQ",
+        "published_at": "2026-08-17T05:30:00+08:00",
+        "article_theme": (
+            "将 SCI 综述手册迭代为适配 Claude Code 和 Codex 的 V4 技能，"
+            "梳理更新后的综述工作流。"
+        ),
+        "summary": (
+            "文章宣布 SCI 大综述技能 V4 上线；相较 2025 年 12 月 25 日的 V3，"
+            "本次重点是把综述手册更新为适配 Claude Code 与 Codex 等智能体的技能，"
+            "并展示其内容和步骤。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
         "title": "智能体助力科研课程的卡片版本",
         "url": "https://mp.weixin.qq.com/s/CFY_am3Fl0GaJizfDr60wg",
         "published_at": "2026-08-16T05:30:00+08:00",
