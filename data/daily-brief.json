@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:28:45.302874Z",
+  "generated_at": "2026-08-18T22:54:47.881013Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8741,
-      "importance": 0.8741,
-      "importance_score": 0.8741,
+      "score": 0.8731,
+      "importance": 0.8731,
+      "importance_score": 0.8731,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9395,
+        "recency": 0.9337,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8682,
-      "importance": 0.8682,
-      "importance_score": 0.8682,
+      "score": 0.8671,
+      "importance": 0.8671,
+      "importance_score": 0.8671,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.951,
+        "recency": 0.9451,
         "story_heat": 0.25
       },
       "category": "official",
@@ -202,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8427,
-      "importance": 0.8427,
-      "importance_score": 0.8427,
+      "score": 0.8415,
+      "importance": 0.8415,
+      "importance_score": 0.8415,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9925,
+        "recency": 0.9863,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +301,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8681,
-      "importance": 0.8681,
-      "importance_score": 0.8681,
+      "score": 0.8673,
+      "importance": 0.8673,
+      "importance_score": 0.8673,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7228,
+        "recency": 0.7183,
         "story_heat": 0.5
       },
       "category": "official",
@@ -383,15 +383,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8575,
-      "importance": 0.8575,
-      "importance_score": 0.8575,
+      "score": 0.8566,
+      "importance": 0.8566,
+      "importance_score": 0.8566,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8472,
+        "recency": 0.8419,
         "story_heat": 0.25
       },
       "category": "official",
@@ -408,6 +408,68 @@
         "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护 / Introducing ChatGPT for Teens: Built for learning, backed by protections",
         "url": "https://openai.com/index/chatgpt-for-teens",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8153,
+      "importance": 0.8153,
+      "importance_score": 0.8153,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7183,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T00:00:00Z",
+      "latest_at": "2026-08-18T00:00:00Z",
+      "primary_item": {
+        "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+        "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -465,15 +527,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7959,
-      "importance": 0.7959,
-      "importance_score": 0.7959,
+      "score": 0.7948,
+      "importance": 0.7948,
+      "importance_score": 0.7948,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.985,
+        "recency": 0.9789,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -546,15 +608,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8495,
-      "importance": 0.8495,
-      "importance_score": 0.8495,
+      "score": 0.8486,
+      "importance": 0.8486,
+      "importance_score": 0.8486,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8472,
+        "recency": 0.8419,
         "story_heat": 0.25
       },
       "category": "official",
@@ -646,15 +708,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7851,
-      "importance": 0.7851,
-      "importance_score": 0.7851,
+      "score": 0.7842,
+      "importance": 0.7842,
+      "importance_score": 0.7842,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8197,
+        "recency": 0.8145,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -671,6 +733,67 @@
         "url": "https://www.aibase.com/news/30429",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_56d0c9a18268",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "primary_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Anthropic：Research（发表成果 · 网页）"
+      ],
+      "items": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7694,
+      "importance": 0.7694,
+      "importance_score": 0.7694,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9934,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T22:27:16.191000Z",
+      "latest_at": "2026-08-18T22:27:16.191000Z",
+      "primary_item": {
+        "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+        "title": "Claude 如何加速蛋白质设计与分析化学研究",
+        "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "source": "Anthropic：Research（发表成果 · 网页）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -727,15 +850,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8489,
-      "importance": 0.8489,
-      "importance_score": 0.8489,
+      "score": 0.848,
+      "importance": 0.848,
+      "importance_score": 0.848,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7997,
+        "recency": 0.7947,
         "story_heat": 0.25
       },
       "category": "official",
@@ -790,15 +913,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7405,
-      "importance": 0.7405,
-      "importance_score": 0.7405,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9662,
+        "recency": 0.9602,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -850,15 +973,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7389,
-      "importance": 0.7389,
-      "importance_score": 0.7389,
+      "score": 0.7378,
+      "importance": 0.7378,
+      "importance_score": 0.7378,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9405,
+        "recency": 0.9346,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -929,15 +1052,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7641,
-      "importance": 0.7641,
-      "importance_score": 0.7641,
+      "score": 0.7632,
+      "importance": 0.7632,
+      "importance_score": 0.7632,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8419,
+        "recency": 0.8366,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -991,15 +1114,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7329,
-      "importance": 0.7329,
-      "importance_score": 0.7329,
+      "score": 0.7318,
+      "importance": 0.7318,
+      "importance_score": 0.7318,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.957,
+        "recency": 0.951,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1051,15 +1174,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8245,
-      "importance": 0.8245,
-      "importance_score": 0.8245,
+      "score": 0.8236,
+      "importance": 0.8236,
+      "importance_score": 0.8236,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8472,
+        "recency": 0.8419,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1132,15 +1255,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7621,
-      "importance": 0.7621,
-      "importance_score": 0.7621,
+      "score": 0.7612,
+      "importance": 0.7612,
+      "importance_score": 0.7612,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8307,
+        "recency": 0.8255,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1213,15 +1336,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7601,
-      "importance": 0.7601,
-      "importance_score": 0.7601,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8197,
+        "recency": 0.8145,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1365,15 +1488,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6598,
-      "importance": 0.6598,
-      "importance_score": 0.6598,
+      "score": 0.6587,
+      "importance": 0.6587,
+      "importance_score": 0.6587,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9475,
+        "recency": 0.9416,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1444,15 +1567,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7601,
-      "importance": 0.7601,
-      "importance_score": 0.7601,
+      "score": 0.7592,
+      "importance": 0.7592,
+      "importance_score": 0.7592,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8197,
+        "recency": 0.8145,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1469,222 +1592,6 @@
         "url": "https://www.aibase.com/news/30435",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_181b4a5ac459",
-      "title": "哈佛 MIT 造出 83 亿\"AI 人\"：用 MatrAIx 系统模拟全球人类行为",
-      "url": "https://www.aibase.com/news/30440",
-      "primary_url": "https://www.aibase.com/news/30440",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "001448b281f2fe6765d31e4ec7277e1676f13442",
-          "title": "哈佛 MIT 造出 83 亿\"AI 人\"：用 MatrAIx 系统模拟全球人类行为",
-          "url": "https://www.aibase.com/news/30440",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T08:42:27.164910Z"
-        },
-        {
-          "id": "4a94ac43c37905f51df8ed3e906fc2e325044ebe",
-          "title": "哈佛 MIT 造出 83 亿「AI 人」：用 MatrAIx 系统模拟全球人类行为",
-          "url": "https://www.aibase.com/zh/news/30440",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "001448b281f2fe6765d31e4ec7277e1676f13442",
-          "title": "哈佛 MIT 造出 83 亿\"AI 人\"：用 MatrAIx 系统模拟全球人类行为",
-          "url": "https://www.aibase.com/news/30440",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T08:42:27.164910Z"
-        },
-        {
-          "id": "4a94ac43c37905f51df8ed3e906fc2e325044ebe",
-          "title": "哈佛 MIT 造出 83 亿「AI 人」：用 MatrAIx 系统模拟全球人类行为",
-          "url": "https://www.aibase.com/zh/news/30440",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7601,
-      "importance": 0.7601,
-      "importance_score": 0.7601,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8197,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T08:42:27.164910Z",
-      "latest_at": "2026-08-18T09:38:11.379301Z",
-      "primary_item": {
-        "id": "001448b281f2fe6765d31e4ec7277e1676f13442",
-        "title": "哈佛 MIT 造出 83 亿\"AI 人\"：用 MatrAIx 系统模拟全球人类行为",
-        "url": "https://www.aibase.com/news/30440",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_7d1d995afc75",
-      "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "primary_url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "source": "www.theregister.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ad7b3df7f7955f9d55b96acf2b7115639201bda9",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "www.theregister.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T12:06:14.267000Z"
-        },
-        {
-          "id": "5598fabf3e7d07f92aa111bc2fd8f51cae60124c",
-          "title": "谷歌在拍卖中购买了坠毁航空公司 Spirit 的数据，因为人工智能 / Google buys crashed airline Spirit's data at auction, because AI",
-          "url": "https://news.ycombinator.com/item?id=49343559",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-18T10:35:40.246000Z"
-        },
-        {
-          "id": "7b94a2c5de245361af4f4f610ae825ec6940cf37",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google buys crashed airline Spirit's data at auction",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-18T10:13:28Z"
-        },
-        {
-          "id": "1c99c086c006ac042eeca135c91b0f542759e66f",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google buys crashed airline Spirit's data at auction, because AI",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T10:13:28Z"
-        },
-        {
-          "id": "c3d7d403ac1291d33bb4825483ec7fb5aeaa9822",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google has acquired the data of failed US airline Spirit",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-18T10:13:28Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.theregister.com"
-      ],
-      "items": [
-        {
-          "id": "ad7b3df7f7955f9d55b96acf2b7115639201bda9",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "www.theregister.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T12:06:14.267000Z"
-        },
-        {
-          "id": "5598fabf3e7d07f92aa111bc2fd8f51cae60124c",
-          "title": "谷歌在拍卖中购买了坠毁航空公司 Spirit 的数据，因为人工智能 / Google buys crashed airline Spirit's data at auction, because AI",
-          "url": "https://news.ycombinator.com/item?id=49343559",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-18T10:35:40.246000Z"
-        },
-        {
-          "id": "7b94a2c5de245361af4f4f610ae825ec6940cf37",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google buys crashed airline Spirit's data at auction",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-18T10:13:28Z"
-        },
-        {
-          "id": "1c99c086c006ac042eeca135c91b0f542759e66f",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google buys crashed airline Spirit's data at auction, because AI",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T10:13:28Z"
-        },
-        {
-          "id": "c3d7d403ac1291d33bb4825483ec7fb5aeaa9822",
-          "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能 / Google has acquired the data of failed US airline Spirit",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-18T10:13:28Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.5958,
-      "importance": 0.5958,
-      "importance_score": 0.5958,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8609,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-18T10:13:28Z",
-      "latest_at": "2026-08-18T12:06:14.267000Z",
-      "primary_item": {
-        "id": "ad7b3df7f7955f9d55b96acf2b7115639201bda9",
-        "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
-        "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-        "source": "www.theregister.com",
-        "source_name": "Buzzing"
       }
     }
   ]
