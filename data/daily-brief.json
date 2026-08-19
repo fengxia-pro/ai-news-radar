@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:49:50.243218Z",
+  "generated_at": "2026-08-19T01:36:10.281827Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8708,
-      "importance": 0.8708,
-      "importance_score": 0.8708,
+      "score": 0.8667,
+      "importance": 0.8667,
+      "importance_score": 0.8667,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9214,
+        "recency": 0.8981,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8649,
-      "importance": 0.8649,
-      "importance_score": 0.8649,
+      "score": 0.8606,
+      "importance": 0.8606,
+      "importance_score": 0.8606,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9326,
+        "recency": 0.9091,
         "story_heat": 0.25
       },
       "category": "official",
@@ -202,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8513,
-      "importance": 0.8513,
-      "importance_score": 0.8513,
+      "score": 0.8467,
+      "importance": 0.8467,
+      "importance_score": 0.8467,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.996,
+        "recency": 0.9708,
         "story_heat": 0.0
       },
       "category": "official",
@@ -226,106 +226,6 @@
         "title": "GitHub Copilot for JetBrains 中的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
         "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_e520424e436f",
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "6ca5c30dbd2e6a9230a0309dbe3c3aba90134770",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "6ca5c30dbd2e6a9230a0309dbe3c3aba90134770",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8656,
-      "importance": 0.8656,
-      "importance_score": 0.8656,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.7088,
-        "story_heat": 0.5
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T00:00:00Z",
-      "latest_at": "2026-08-18T00:00:00Z",
-      "primary_item": {
-        "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-        "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-        "url": "https://huggingface.co/blog/multi-vector-encoder",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -383,15 +283,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8546,
-      "importance": 0.8546,
-      "importance_score": 0.8546,
+      "score": 0.8508,
+      "importance": 0.8508,
+      "importance_score": 0.8508,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8309,
+        "recency": 0.8099,
         "story_heat": 0.25
       },
       "category": "official",
@@ -408,68 +308,6 @@
         "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护 / Introducing ChatGPT for Teens: Built for learning, backed by protections",
         "url": "https://openai.com/index/chatgpt-for-teens",
         "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
-          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
-          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7088,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T00:00:00Z",
-      "latest_at": "2026-08-18T00:00:00Z",
-      "primary_item": {
-        "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
-        "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -508,15 +346,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8392,
-      "importance": 0.8392,
-      "importance_score": 0.8392,
+      "score": 0.8348,
+      "importance": 0.8348,
+      "importance_score": 0.8348,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9733,
+        "recency": 0.9487,
         "story_heat": 0.0
       },
       "category": "official",
@@ -533,6 +371,87 @@
         "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_a1441105154d",
+      "title": "AI深度介入苹果生态！Safari 26.6. 1 重磅更新修复 22 个漏洞，OpenAI立下首功",
+      "url": "https://www.aibase.com/news/30446",
+      "primary_url": "https://www.aibase.com/news/30446",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "afcf4a7bafc418499ded57b9d03ef73be4a8372c",
+          "title": "AI深度介入苹果生态！Safari 26.6. 1 重磅更新修复 22 个漏洞，OpenAI立下首功",
+          "url": "https://www.aibase.com/news/30446",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        },
+        {
+          "id": "697930447365d8650810a7a01278448fbf2f5677",
+          "title": "AI 深度介入苹果生态！Safari 26.6.1 重磅更新修复 22 个漏洞，OpenAI 立下首功",
+          "url": "https://www.aibase.com/zh/news/30446",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "afcf4a7bafc418499ded57b9d03ef73be4a8372c",
+          "title": "AI深度介入苹果生态！Safari 26.6. 1 重磅更新修复 22 个漏洞，OpenAI立下首功",
+          "url": "https://www.aibase.com/news/30446",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        },
+        {
+          "id": "697930447365d8650810a7a01278448fbf2f5677",
+          "title": "AI 深度介入苹果生态！Safari 26.6.1 重磅更新修复 22 个漏洞，OpenAI 立下首功",
+          "url": "https://www.aibase.com/zh/news/30446",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T01:36:10.281827Z",
+      "latest_at": "2026-08-19T01:36:10.281827Z",
+      "primary_item": {
+        "id": "afcf4a7bafc418499ded57b9d03ef73be4a8372c",
+        "title": "AI深度介入苹果生态！Safari 26.6. 1 重磅更新修复 22 个漏洞，OpenAI立下首功",
+        "url": "https://www.aibase.com/news/30446",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -589,15 +508,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7925,
-      "importance": 0.7925,
-      "importance_score": 0.7925,
+      "score": 0.7881,
+      "importance": 0.7881,
+      "importance_score": 0.7881,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.966,
+        "recency": 0.9416,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -613,6 +532,67 @@
         "title": "Mojo 语言正式开源，编译器与工具链全面开放",
         "url": "https://www.modular.com/blog/mojo-open-source",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "source": "公众号：智谱（GLM）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "54d083e782f7e5b8d747072e4e62188d05feef79",
+          "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+          "source": "公众号：智谱（GLM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-19T01:03:29Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：智谱（GLM）"
+      ],
+      "items": [
+        {
+          "id": "54d083e782f7e5b8d747072e4e62188d05feef79",
+          "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+          "source": "公众号：智谱（GLM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-19T01:03:29Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7872,
+      "importance": 0.7872,
+      "importance_score": 0.7872,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9922,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T01:03:29Z",
+      "latest_at": "2026-08-19T01:03:29Z",
+      "primary_item": {
+        "id": "54d083e782f7e5b8d747072e4e62188d05feef79",
+        "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+        "source": "公众号：智谱（GLM）",
         "source_name": "AI HOT"
       }
     },
@@ -670,15 +650,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8466,
-      "importance": 0.8466,
-      "importance_score": 0.8466,
+      "score": 0.8428,
+      "importance": 0.8428,
+      "importance_score": 0.8428,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8309,
+        "recency": 0.8099,
         "story_heat": 0.25
       },
       "category": "official",
@@ -694,6 +674,149 @@
         "id": "cdd10bf9920f60b5be7322fa5b0eaa62e04932f0",
         "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
         "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_56d0c9a18268",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "primary_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Anthropic：Research（发表成果 · 网页）"
+      ],
+      "items": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7626,
+      "importance": 0.7626,
+      "importance_score": 0.7626,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9556,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T22:27:16.191000Z",
+      "latest_at": "2026-08-18T22:27:16.191000Z",
+      "primary_item": {
+        "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+        "title": "Claude 如何加速蛋白质设计与分析化学研究",
+        "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "source": "Anthropic：Research（发表成果 · 网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7d7eacff40aa",
+      "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "primary_url": "https://openai.com/index/asana",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T07:00:00Z"
+        },
+        {
+          "id": "0192f261de576a53158267b5c833e9d7503b86e1",
+          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量",
+          "url": "https://openai.com/index/asana",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T07:00:00Z"
+        },
+        {
+          "id": "0192f261de576a53158267b5c833e9d7503b86e1",
+          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量",
+          "url": "https://openai.com/index/asana",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8426,
+      "importance": 0.8426,
+      "importance_score": 0.8426,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7644,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T07:00:00Z",
+      "latest_at": "2026-08-18T17:31:58.133358Z",
+      "primary_item": {
+        "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+        "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "url": "https://openai.com/index/asana",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -770,15 +893,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7823,
-      "importance": 0.7823,
-      "importance_score": 0.7823,
+      "score": 0.7786,
+      "importance": 0.7786,
+      "importance_score": 0.7786,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8038,
+        "recency": 0.7835,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -795,149 +918,6 @@
         "url": "https://www.aibase.com/news/30429",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_56d0c9a18268",
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "primary_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
-          "title": "Claude 如何加速蛋白质设计与分析化学研究",
-          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T22:27:16.191000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Research（发表成果 · 网页）"
-      ],
-      "items": [
-        {
-          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
-          "title": "Claude 如何加速蛋白质设计与分析化学研究",
-          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T22:27:16.191000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7671,
-      "importance": 0.7671,
-      "importance_score": 0.7671,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9803,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T22:27:16.191000Z",
-      "latest_at": "2026-08-18T22:27:16.191000Z",
-      "primary_item": {
-        "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
-        "title": "Claude 如何加速蛋白质设计与分析化学研究",
-        "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-        "source": "Anthropic：Research（发表成果 · 网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7d7eacff40aa",
-      "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "primary_url": "https://openai.com/index/asana",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
-          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
-          "url": "https://openai.com/index/asana",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T07:00:00Z"
-        },
-        {
-          "id": "0192f261de576a53158267b5c833e9d7503b86e1",
-          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量",
-          "url": "https://openai.com/index/asana",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
-          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
-          "url": "https://openai.com/index/asana",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T07:00:00Z"
-        },
-        {
-          "id": "0192f261de576a53158267b5c833e9d7503b86e1",
-          "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量",
-          "url": "https://openai.com/index/asana",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8462,
-      "importance": 0.8462,
-      "importance_score": 0.8462,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7842,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T07:00:00Z",
-      "latest_at": "2026-08-18T17:31:58.133358Z",
-      "primary_item": {
-        "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
-        "title": "Asana 借助 OpenAI Codex 两周完成五年工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
-        "url": "https://openai.com/index/asana",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -975,15 +955,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7372,
-      "importance": 0.7372,
-      "importance_score": 0.7372,
+      "score": 0.7329,
+      "importance": 0.7329,
+      "importance_score": 0.7329,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9476,
+        "recency": 0.9236,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1035,15 +1015,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
+      "score": 0.7314,
+      "importance": 0.7314,
+      "importance_score": 0.7314,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9223,
+        "recency": 0.899,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1058,87 +1038,6 @@
         "url": "https://x.com/OpenAI/status/2089777845187031262",
         "source": "X：OpenAI (@OpenAI)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_419c5ccbb523",
-      "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-      "url": "https://www.aibase.com/news/30444",
-      "primary_url": "https://www.aibase.com/news/30444",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "9bcd16c1b13d51f16d7cfc25ea452ef7a75489c2",
-          "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-          "url": "https://www.aibase.com/news/30444",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T10:33:31.289228Z"
-        },
-        {
-          "id": "5e1e0f5fa0dc82dd767b9114226b381740b83b0e",
-          "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-          "url": "https://www.aibase.com/zh/news/30444",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "9bcd16c1b13d51f16d7cfc25ea452ef7a75489c2",
-          "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-          "url": "https://www.aibase.com/news/30444",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T10:33:31.289228Z"
-        },
-        {
-          "id": "5e1e0f5fa0dc82dd767b9114226b381740b83b0e",
-          "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-          "url": "https://www.aibase.com/zh/news/30444",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7612,
-      "importance": 0.7612,
-      "importance_score": 0.7612,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8256,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T10:33:31.289228Z",
-      "latest_at": "2026-08-18T10:33:31.289228Z",
-      "primary_item": {
-        "id": "9bcd16c1b13d51f16d7cfc25ea452ef7a75489c2",
-        "title": "微信密集上新：AI 入口增至 16 个，转账撤回也有新玩法",
-        "url": "https://www.aibase.com/news/30444",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     },
     {
@@ -1176,15 +1075,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7295,
-      "importance": 0.7295,
-      "importance_score": 0.7295,
+      "score": 0.7253,
+      "importance": 0.7253,
+      "importance_score": 0.7253,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9385,
+        "recency": 0.9148,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1199,6 +1098,67 @@
         "url": "https://claude.com/blog/ai-ci-cd-on-call",
         "source": "Claude：Blog（网页）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_1055104d0a02",
+      "title": "OpenAI 全面升级安全体系：吸取 Hugging Face 教训，前端模型审查最严",
+      "url": "https://www.aibase.com/news/30450",
+      "primary_url": "https://www.aibase.com/news/30450",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "dec209fdf2aa3f8e9d9eeb56d4217873c598a619",
+          "title": "OpenAI 全面升级安全体系：吸取 Hugging Face 教训，前端模型审查最严",
+          "url": "https://www.aibase.com/news/30450",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "dec209fdf2aa3f8e9d9eeb56d4217873c598a619",
+          "title": "OpenAI 全面升级安全体系：吸取 Hugging Face 教训，前端模型审查最严",
+          "url": "https://www.aibase.com/news/30450",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T01:36:10.281827Z",
+      "latest_at": "2026-08-19T01:36:10.281827Z",
+      "primary_item": {
+        "id": "dec209fdf2aa3f8e9d9eeb56d4217873c598a619",
+        "title": "OpenAI 全面升级安全体系：吸取 Hugging Face 教训，前端模型审查最严",
+        "url": "https://www.aibase.com/news/30450",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1236,15 +1196,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8216,
-      "importance": 0.8216,
-      "importance_score": 0.8216,
+      "score": 0.8178,
+      "importance": 0.8178,
+      "importance_score": 0.8178,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8309,
+        "recency": 0.8099,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1264,227 +1224,275 @@
       }
     },
     {
-      "story_id": "story_a2738fecc05d",
-      "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-      "url": "https://www.aibase.com/news/30441",
-      "primary_url": "https://www.aibase.com/news/30441",
+      "story_id": "story_045945ceabaa",
+      "title": "OpenAI推出ChatGPT for Teens，加强青少年安全与学习引导",
+      "url": "https://www.aibase.com/news/30449",
+      "primary_url": "https://www.aibase.com/news/30449",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "cb4653e2437f6e617659fa3bd0118470b1f89966",
-          "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-          "url": "https://www.aibase.com/news/30441",
+          "id": "022a4ff53eb071c58236a89b5540f16830571362",
+          "title": "OpenAI推出ChatGPT for Teens，加强青少年安全与学习引导",
+          "url": "https://www.aibase.com/news/30449",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-08-18T09:38:11.379301Z"
-        },
-        {
-          "id": "d8c2ae92a29a1ef1df3a7a2db20c7101df2090b0",
-          "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-          "url": "https://www.aibase.com/zh/news/30441",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "cb4653e2437f6e617659fa3bd0118470b1f89966",
-          "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-          "url": "https://www.aibase.com/news/30441",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T09:38:11.379301Z"
-        },
-        {
-          "id": "d8c2ae92a29a1ef1df3a7a2db20c7101df2090b0",
-          "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-          "url": "https://www.aibase.com/zh/news/30441",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7592,
-      "importance": 0.7592,
-      "importance_score": 0.7592,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8147,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T09:38:11.379301Z",
-      "latest_at": "2026-08-18T09:38:11.379301Z",
-      "primary_item": {
-        "id": "cb4653e2437f6e617659fa3bd0118470b1f89966",
-        "title": "全球第 3 家：代码显示 vivo 手机将接入安卓 AI 诈骗检测",
-        "url": "https://www.aibase.com/news/30441",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_d274e2e9ef1d",
-      "title": "Anthropic 披露 Model 2：性能略超公开最强 Claude Mythos 5",
-      "url": "https://www.aibase.com/news/30439",
-      "primary_url": "https://www.aibase.com/news/30439",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "72ab8e2d8d7669b0abbe45f11dc2f7c02e424596",
-          "title": "Anthropic 披露 Model 2：性能略超公开最强 Claude Mythos 5",
-          "url": "https://www.aibase.com/news/30439",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T08:42:27.164910Z"
-        },
-        {
-          "id": "e0bc3fe0e7e9fdb2675fa99c3c4cfa2ff4af6ea5",
-          "title": "Anthropic 披露 Model 2 模型，能力略高于公开最强 AI Claude Mythos 5",
-          "url": "https://www.ithome.com/0/991/074.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:15:12Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "72ab8e2d8d7669b0abbe45f11dc2f7c02e424596",
-          "title": "Anthropic 披露 Model 2：性能略超公开最强 Claude Mythos 5",
-          "url": "https://www.aibase.com/news/30439",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-08-18T08:42:27.164910Z"
-        },
-        {
-          "id": "e0bc3fe0e7e9fdb2675fa99c3c4cfa2ff4af6ea5",
-          "title": "Anthropic 披露 Model 2 模型，能力略高于公开最强 AI Claude Mythos 5",
-          "url": "https://www.ithome.com/0/991/074.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:15:12Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7573,
-      "importance": 0.7573,
-      "importance_score": 0.7573,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8038,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T06:15:12Z",
-      "latest_at": "2026-08-18T08:42:27.164910Z",
-      "primary_item": {
-        "id": "72ab8e2d8d7669b0abbe45f11dc2f7c02e424596",
-        "title": "Anthropic 披露 Model 2：性能略超公开最强 Claude Mythos 5",
-        "url": "https://www.aibase.com/news/30439",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_dfcf73efa3a6",
-      "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识 / How NVIDIA scales expertise with ChatGPT Work",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "primary_url": "https://openai.com/index/nvidia/chatgpt-work",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ca33be9e603f78504e23ed2c700b9296427539f4",
-          "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识 / How NVIDIA scales expertise with ChatGPT Work",
-          "url": "https://openai.com/index/nvidia/chatgpt-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
+          "published_at": "2026-08-19T01:36:10.281827Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "ca33be9e603f78504e23ed2c700b9296427539f4",
-          "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识 / How NVIDIA scales expertise with ChatGPT Work",
-          "url": "https://openai.com/index/nvidia/chatgpt-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
+          "id": "022a4ff53eb071c58236a89b5540f16830571362",
+          "title": "OpenAI推出ChatGPT for Teens，加强青少年安全与学习引导",
+          "url": "https://www.aibase.com/news/30449",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8076,
-      "importance": 0.8076,
-      "importance_score": 0.8076,
-      "importance_label": "官方更新",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7088,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-18T00:00:00Z",
-      "latest_at": "2026-08-18T00:00:00Z",
+      "earliest_at": "2026-08-19T01:36:10.281827Z",
+      "latest_at": "2026-08-19T01:36:10.281827Z",
       "primary_item": {
-        "id": "ca33be9e603f78504e23ed2c700b9296427539f4",
-        "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识 / How NVIDIA scales expertise with ChatGPT Work",
-        "url": "https://openai.com/index/nvidia/chatgpt-work",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "022a4ff53eb071c58236a89b5540f16830571362",
+        "title": "OpenAI推出ChatGPT for Teens，加强青少年安全与学习引导",
+        "url": "https://www.aibase.com/news/30449",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "AI视频最烧钱的地方，常常藏在空间和运镜里：你脑子里很清楚镜头怎么走、人物站哪、谁挡住谁，一写成提示词，模型就开始猜，最后只能反复抽卡。卡尔用Seedance 2.5+updream预演台给了一个更稳的解法：先用参考图生成粗粒度3D白模，再摆人物、画动线、调机位和关键帧，录好白模后交给Seedance去重渲。一起来看看效果如何！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-08-18",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "f02be8ddb758b0898c99dcd2d5ed7a2a46c1cbf6",
+          "title": "AI视频最烧钱的地方，常常藏在空间和运镜里：你脑子里很清楚镜头怎么走、人物站哪、谁挡住谁，一写成提示词，模型就开始猜，最后只能反复抽卡。卡尔用Seedance 2.5+updream预演台给了一个更稳的解法：先用参考图生成粗粒度3D白模，再摆人物、画动线、调机位和关键帧，录好白模后交给Seedance去重渲。一起来看看效果如何！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "7b110a52e195cb038a75378bc938a716bf467f1f",
+          "title": "国产开源大模型百花齐放，这些模型能不能不只停留在网页和 API 里，而是真正装进自己的机器，连接本地文件、工具和工作流？ 作者这篇文章尽可能让任何小白玩家都可以轻松驾驭，实现模型本地部署并搭建一套自己的工作流，快来一起跟着试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "1dd3b907129c60899f9cf57a5e8ea5354d49f2b1",
+          "title": "知识库这件事可以很小，小到把一份 PDF 丢给 ChatGPT，也可以很大，大到要接身份系统、业务数据库、本地模型、审计日志和权限策略。这篇文章就从一份文件开始，带你从入门到精通！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "06b11ea71baa52a1aa31df099d9368f5d1c84777",
+          "title": "Benchmark 合伙人Sarah Tavel这篇播客访谈抛出了一个消费级AI的关键创业思路：模型够用之后，产品竞争会转向用户体验、信任和网络效应。未来的爆款AI产品，可能会让你关注靠谱的人、复用他们的方法、看清提示词和资料来源，并在健康、写作、教育、家庭管理等真实任务里自然沉淀社区内容。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T17:31:58.133358Z"
+        },
+        {
+          "id": "eb0c3711da04ecacf66775a3f0207dd65dfba53d",
+          "title": "作者整理了12种运镜+8种转场+4套组合连招+5条心法 ，每种都配了通用模板和具体示例，可以直接套用到你自己的AI视频提示词里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T16:36:35.609393Z"
+        },
+        {
+          "id": "350a4f1eabac281d6b10fab1a9f9ec6a6ffc0140",
+          "title": "卡兹克分享了一个极度实用的深度思考Prompt：双向钢人Prompt。它会先帮你重述真实问题，再分别强化“支持你”和“反对你”的最强理由，接着找出真正分歧和关键变量，只问一个最关键的问题，等你回答后再给判断和行动。适合用来做决策、写方案、复盘项目，尤其适合那些“我好像知道答案，但又说不清为什么”的问题。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T16:36:35.609393Z"
+        }
+      ],
+      "source_count": 6,
+      "source_names": [
+        "社区更新 · 2026-08-18"
+      ],
+      "items": [
+        {
+          "id": "f02be8ddb758b0898c99dcd2d5ed7a2a46c1cbf6",
+          "title": "AI视频最烧钱的地方，常常藏在空间和运镜里：你脑子里很清楚镜头怎么走、人物站哪、谁挡住谁，一写成提示词，模型就开始猜，最后只能反复抽卡。卡尔用Seedance 2.5+updream预演台给了一个更稳的解法：先用参考图生成粗粒度3D白模，再摆人物、画动线、调机位和关键帧，录好白模后交给Seedance去重渲。一起来看看效果如何！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "7b110a52e195cb038a75378bc938a716bf467f1f",
+          "title": "国产开源大模型百花齐放，这些模型能不能不只停留在网页和 API 里，而是真正装进自己的机器，连接本地文件、工具和工作流？ 作者这篇文章尽可能让任何小白玩家都可以轻松驾驭，实现模型本地部署并搭建一套自己的工作流，快来一起跟着试试！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "1dd3b907129c60899f9cf57a5e8ea5354d49f2b1",
+          "title": "知识库这件事可以很小，小到把一份 PDF 丢给 ChatGPT，也可以很大，大到要接身份系统、业务数据库、本地模型、审计日志和权限策略。这篇文章就从一份文件开始，带你从入门到精通！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T18:44:41.613933Z"
+        },
+        {
+          "id": "06b11ea71baa52a1aa31df099d9368f5d1c84777",
+          "title": "Benchmark 合伙人Sarah Tavel这篇播客访谈抛出了一个消费级AI的关键创业思路：模型够用之后，产品竞争会转向用户体验、信任和网络效应。未来的爆款AI产品，可能会让你关注靠谱的人、复用他们的方法、看清提示词和资料来源，并在健康、写作、教育、家庭管理等真实任务里自然沉淀社区内容。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T17:31:58.133358Z"
+        },
+        {
+          "id": "eb0c3711da04ecacf66775a3f0207dd65dfba53d",
+          "title": "作者整理了12种运镜+8种转场+4套组合连招+5条心法 ，每种都配了通用模板和具体示例，可以直接套用到你自己的AI视频提示词里。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T16:36:35.609393Z"
+        },
+        {
+          "id": "350a4f1eabac281d6b10fab1a9f9ec6a6ffc0140",
+          "title": "卡兹克分享了一个极度实用的深度思考Prompt：双向钢人Prompt。它会先帮你重述真实问题，再分别强化“支持你”和“反对你”的最强理由，接着找出真正分歧和关键变量，只问一个最关键的问题，等你回答后再给判断和行动。适合用来做决策、写方案、复盘项目，尤其适合那些“我好像知道答案，但又说不清为什么”的问题。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-18",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-18T16:36:35.609393Z"
+        }
+      ],
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.6522,
+      "importance": 0.6522,
+      "importance_score": 0.6522,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 0.9057,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-18T16:36:35.609393Z",
+      "latest_at": "2026-08-18T18:44:41.613933Z",
+      "primary_item": {
+        "id": "f02be8ddb758b0898c99dcd2d5ed7a2a46c1cbf6",
+        "title": "AI视频最烧钱的地方，常常藏在空间和运镜里：你脑子里很清楚镜头怎么走、人物站哪、谁挡住谁，一写成提示词，模型就开始猜，最后只能反复抽卡。卡尔用Seedance 2.5+updream预演台给了一个更稳的解法：先用参考图生成粗粒度3D白模，再摆人物、画动线、调机位和关键帧，录好白模后交给Seedance去重渲。一起来看看效果如何！",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-08-18",
+        "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_3ba24c78929c",
+      "title": "​AI模型“越狱”偷袭Hugging Face，OpenAI已暂停部分AI训练工作长达两周",
+      "url": "https://www.aibase.com/news/30445",
+      "primary_url": "https://www.aibase.com/news/30445",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f369bd4216cacac95ef5ea5f78d7ba6a70b4247d",
+          "title": "​AI模型“越狱”偷袭Hugging Face，OpenAI已暂停部分AI训练工作长达两周",
+          "url": "https://www.aibase.com/news/30445",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f369bd4216cacac95ef5ea5f78d7ba6a70b4247d",
+          "title": "​AI模型“越狱”偷袭Hugging Face，OpenAI已暂停部分AI训练工作长达两周",
+          "url": "https://www.aibase.com/news/30445",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-08-19T01:36:10.281827Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T01:36:10.281827Z",
+      "latest_at": "2026-08-19T01:36:10.281827Z",
+      "primary_item": {
+        "id": "f369bd4216cacac95ef5ea5f78d7ba6a70b4247d",
+        "title": "​AI模型“越狱”偷袭Hugging Face，OpenAI已暂停部分AI训练工作长达两周",
+        "url": "https://www.aibase.com/news/30445",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     }
   ]
