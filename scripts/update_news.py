@@ -182,6 +182,22 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "她今年没再搜国自然的邪修",
+        "url": "https://mp.weixin.qq.com/s/Q2YT4fqDLJ0Y_1rgvb-dSA",
+        "published_at": "2026-08-20T08:08:13+08:00",
+        "article_theme": (
+            "从一位读者连续两年准备国自然的变化切入，讨论智能体体系化学习、"
+            "科研效率与长期积累的关系。"
+        ),
+        "summary": (
+            "文章从一位读者的自述切入：去年她刷遍全网寻找国自然申请的“邪修”，"
+            "今年在智能体体系化学习之后，选择安静做短期看不出用处的积累。"
+            "文章把这种变化解释为把根往下扎一年，也提醒科研人别让效率挤掉长期功夫。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
         "title": "关键词学习法技能深度解读《国家自然科学基金项目申请攻略（第2版）》",
         "url": "https://mp.weixin.qq.com/s/15vcMF0yAlE_KglWdX2L8Q",
         "published_at": "2026-08-18T12:04:06+08:00",
