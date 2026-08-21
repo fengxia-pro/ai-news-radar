@@ -182,6 +182,22 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "国自然结果前夕，我们聊点别的",
+        "url": "https://mp.weixin.qq.com/s/ULEYFlMEaH3K1vbJ88vKUA",
+        "published_at": "2026-08-22T05:30:00+08:00",
+        "article_theme": (
+            "在国自然结果公布前，讨论怎样判断一个科研选题是否值得继续投入五年，"
+            "以及特色方向为何不能只在抽屉里预设。"
+        ),
+        "summary": (
+            "文章从 Nature 首席编辑谈退稿的一句话和孟岩的投资箴言切入，"
+            "把问题落在“这个国自然选题，究竟值不值得再押五年”。"
+            "文中还借一根针在空间里转过的一百年，继续讨论科研选题与特色方向。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
         "title": "她今年没再搜国自然的邪修",
         "url": "https://mp.weixin.qq.com/s/Q2YT4fqDLJ0Y_1rgvb-dSA",
         "published_at": "2026-08-20T08:08:13+08:00",
