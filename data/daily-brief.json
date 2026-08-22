@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:26:16.023537Z",
+  "generated_at": "2026-08-22T15:49:10.924501Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8005,
-      "importance": 0.8005,
-      "importance_score": 0.8005,
+      "score": 0.7998,
+      "importance": 0.7998,
+      "importance_score": 0.7998,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7141,
+        "recency": 0.7102,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8004,
-      "importance": 0.8004,
-      "importance_score": 0.8004,
+      "score": 0.7997,
+      "importance": 0.7997,
+      "importance_score": 0.7997,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7135,
+        "recency": 0.7096,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7615,
-      "importance": 0.7615,
-      "importance_score": 0.7615,
+      "score": 0.7605,
+      "importance": 0.7605,
+      "importance_score": 0.7605,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9827,
+        "recency": 0.9773,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -223,15 +223,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7951,
-      "importance": 0.7951,
-      "importance_score": 0.7951,
+      "score": 0.7944,
+      "importance": 0.7944,
+      "importance_score": 0.7944,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7282,
+        "recency": 0.7242,
         "story_heat": 0.0
       },
       "category": "official",
@@ -304,15 +304,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7116,
-      "importance": 0.7116,
-      "importance_score": 0.7116,
+      "score": 0.7109,
+      "importance": 0.7109,
+      "importance_score": 0.7109,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7335,
+        "recency": 0.7295,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -332,13 +332,22 @@
     },
     {
       "story_id": "story_2df82173bb28",
-      "title": "吴恩达梳理出一个搭建生产级AI应用的核心能力框架。从大模型底层原理、数据上下文供给、智能体系统设计，到评估驱动开发、线上运维、机器学习基础都给出了完整指引。",
+      "title": "很多人改AI生成的文案，第一反应是删“首先其次”、加点口语、把检测分降下去。但所谓AI味，本质上是“均值味”——选词太稳、节奏太平、结构太顺、口癖太像模型。作者这篇文章深度拆解了AI文本检测的底层逻辑，提出了一个跨四层的“结构化离群”统一框架，或许可以帮到你！",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-08-21",
+      "source": "社区更新 · 2026-08-22",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "cdef1810742356f977d4d57ac8dfd91609af5c8d",
+          "title": "很多人改AI生成的文案，第一反应是删“首先其次”、加点口语、把检测分降下去。但所谓AI味，本质上是“均值味”——选词太稳、节奏太平、结构太顺、口癖太像模型。作者这篇文章深度拆解了AI文本检测的底层逻辑，提出了一个跨四层的“结构化离群”统一框架，或许可以帮到你！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-22T15:49:10.924501Z"
+        },
+        {
           "id": "5c1d891e3d4748a3a319b78997f1bfd774e310b5",
           "title": "臧师傅的PPT Skill上线了演讲者视图，无需插件，按下P键即可开启双窗口模式。AI自动生成每页口述备注，把大纲要点、案例、转场单独留存，不会污染演示页面。除此之外，还自带计时与排练统计，可以快速定位超时页面。同时还具备屏幕同步校验、黑屏冻结、激光笔标记等功能，可以有效规避线下分享的临场失误。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -393,12 +402,22 @@
           "published_at": "2026-08-21T18:42:44.405509Z"
         }
       ],
-      "source_count": 6,
+      "source_count": 7,
       "source_names": [
-        "社区更新 · 2026-08-21"
+        "社区更新 · 2026-08-21",
+        "社区更新 · 2026-08-22"
       ],
       "items": [
         {
+          "id": "cdef1810742356f977d4d57ac8dfd91609af5c8d",
+          "title": "很多人改AI生成的文案，第一反应是删“首先其次”、加点口语、把检测分降下去。但所谓AI味，本质上是“均值味”——选词太稳、节奏太平、结构太顺、口癖太像模型。作者这篇文章深度拆解了AI文本检测的底层逻辑，提出了一个跨四层的“结构化离群”统一框架，或许可以帮到你！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-22",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-22T15:49:10.924501Z"
+        },
+        {
           "id": "5c1d891e3d4748a3a319b78997f1bfd774e310b5",
           "title": "臧师傅的PPT Skill上线了演讲者视图，无需插件，按下P键即可开启双窗口模式。AI自动生成每页口述备注，把大纲要点、案例、转场单独留存，不会污染演示页面。除此之外，还自带计时与排练统计，可以快速定位超时页面。同时还具备屏幕同步校验、黑屏冻结、激光笔标记等功能，可以有效规避线下分享的临场失误。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -453,17 +472,17 @@
           "published_at": "2026-08-21T18:42:44.405509Z"
         }
       ],
-      "item_count": 6,
-      "duplicate_count": 6,
-      "score": 0.631,
-      "importance": 0.631,
-      "importance_score": 0.631,
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.4824,
+        "editorial": 0.468,
         "source_tier": 0.54,
-        "ai_relevance": 0.67,
-        "recency": 0.7413,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -471,12 +490,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-08-21T18:42:44.405509Z",
-      "latest_at": "2026-08-21T19:28:57.482391Z",
+      "latest_at": "2026-08-22T15:49:10.924501Z",
       "primary_item": {
-        "id": "a560e6630b5d43f0541aa4b06dcdf9c9e216766c",
-        "title": "吴恩达梳理出一个搭建生产级AI应用的核心能力框架。从大模型底层原理、数据上下文供给、智能体系统设计，到评估驱动开发、线上运维、机器学习基础都给出了完整指引。",
+        "id": "cdef1810742356f977d4d57ac8dfd91609af5c8d",
+        "title": "很多人改AI生成的文案，第一反应是删“首先其次”、加点口语、把检测分降下去。但所谓AI味，本质上是“均值味”——选词太稳、节奏太平、结构太顺、口癖太像模型。作者这篇文章深度拆解了AI文本检测的底层逻辑，提出了一个跨四层的“结构化离群”统一框架，或许可以帮到你！",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-08-21",
+        "source": "社区更新 · 2026-08-22",
         "source_name": "WaytoAGI"
       }
     },
@@ -534,15 +553,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5779,
-      "importance": 0.5779,
-      "importance_score": 0.5779,
+      "score": 0.577,
+      "importance": 0.577,
+      "importance_score": 0.577,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.9123,
+        "recency": 0.9073,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,7 +606,7 @@
         },
         {
           "id": "c6b9e7419474d9b57041c9f770b2d29589425eaa",
-          "title": "自托管人工智能软件工厂 / A self hosted AI software factory",
+          "title": "构建一个（几乎）完全自主托管、沙箱化、具有代理能力的软件工厂 / A self hosted AI software factory",
           "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
           "source": "Hacker News",
           "source_name": "TechURLs",
@@ -596,7 +615,7 @@
         },
         {
           "id": "6f0736b2d5d48e16d13b5bebe74c2284c0ab9137",
-          "title": "构建一个（几乎）完全自托管、沙盒、代理的软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+          "title": "构建一个（几乎）完全自主托管、沙箱化、具有代理能力的软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
           "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -631,7 +650,7 @@
         },
         {
           "id": "c6b9e7419474d9b57041c9f770b2d29589425eaa",
-          "title": "自托管人工智能软件工厂 / A self hosted AI software factory",
+          "title": "构建一个（几乎）完全自主托管、沙箱化、具有代理能力的软件工厂 / A self hosted AI software factory",
           "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
           "source": "Hacker News",
           "source_name": "TechURLs",
@@ -640,7 +659,7 @@
         },
         {
           "id": "6f0736b2d5d48e16d13b5bebe74c2284c0ab9137",
-          "title": "构建一个（几乎）完全自托管、沙盒、代理的软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+          "title": "构建一个（几乎）完全自主托管、沙箱化、具有代理能力的软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
           "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -650,15 +669,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5489,
-      "importance": 0.5489,
-      "importance_score": 0.5489,
+      "score": 0.5482,
+      "importance": 0.5482,
+      "importance_score": 0.5482,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7394,
+        "recency": 0.7354,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -673,6 +692,85 @@
         "url": "https://news.ycombinator.com/item?id=49390463",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_f44d788d2a3b",
+      "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态”",
+      "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+      "primary_url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c5a82fd3a5f4b52098de80fde919ebe3270bcfe7",
+          "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态”",
+          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-22T15:25:48.057000Z"
+        },
+        {
+          "id": "0ef980645826acbcbb1c59a9ed74f1bdfe3302f1",
+          "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态” / OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
+          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-22T09:50:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "c5a82fd3a5f4b52098de80fde919ebe3270bcfe7",
+          "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态”",
+          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-22T15:25:48.057000Z"
+        },
+        {
+          "id": "0ef980645826acbcbb1c59a9ed74f1bdfe3302f1",
+          "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态” / OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
+          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-22T09:50:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9944,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-22T09:50:01Z",
+      "latest_at": "2026-08-22T15:25:48.057000Z",
+      "primary_item": {
+        "id": "c5a82fd3a5f4b52098de80fde919ebe3270bcfe7",
+        "title": "OpenAI首席经济学家表示，其团队的研究人员需要“习惯于不舒适的状态”",
+        "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -729,15 +827,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5427,
-      "importance": 0.5427,
-      "importance_score": 0.5427,
+      "score": 0.5417,
+      "importance": 0.5417,
+      "importance_score": 0.5417,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9825,
+        "recency": 0.9771,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -808,15 +906,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5411,
-      "importance": 0.5411,
-      "importance_score": 0.5411,
+      "score": 0.5401,
+      "importance": 0.5401,
+      "importance_score": 0.5401,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9737,
+        "recency": 0.9683,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -852,7 +950,7 @@
         },
         {
           "id": "fd0a779d2fa6ad5dd87ae2b649275b1c619271ba",
-          "title": "机器马和骑手在中国会议上抢尽风头 / Robot horse and rider steal the spotlight at Chinese conference",
+          "title": "中国会议上，机器人马和骑手成为全场焦点 / Robot horse and rider steal the spotlight at Chinese conference",
           "url": "https://www.bbc.co.uk/news/videos/c0qvqzzdd02o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
@@ -877,7 +975,7 @@
         },
         {
           "id": "fd0a779d2fa6ad5dd87ae2b649275b1c619271ba",
-          "title": "机器马和骑手在中国会议上抢尽风头 / Robot horse and rider steal the spotlight at Chinese conference",
+          "title": "中国会议上，机器人马和骑手成为全场焦点 / Robot horse and rider steal the spotlight at Chinese conference",
           "url": "https://www.bbc.co.uk/news/videos/c0qvqzzdd02o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
@@ -887,15 +985,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5391,
-      "importance": 0.5391,
-      "importance_score": 0.5391,
+      "score": 0.5381,
+      "importance": 0.5381,
+      "importance_score": 0.5381,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9625,
+        "recency": 0.9572,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -965,15 +1063,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5318,
-      "importance": 0.5318,
-      "importance_score": 0.5318,
+      "score": 0.5309,
+      "importance": 0.5309,
+      "importance_score": 0.5309,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9222,
+        "recency": 0.9172,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1044,15 +1142,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5265,
-      "importance": 0.5265,
-      "importance_score": 0.5265,
+      "score": 0.5256,
+      "importance": 0.5256,
+      "importance_score": 0.5256,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8929,
+        "recency": 0.8879,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1123,15 +1221,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5134,
-      "importance": 0.5134,
-      "importance_score": 0.5134,
+      "score": 0.5126,
+      "importance": 0.5126,
+      "importance_score": 0.5126,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8199,
+        "recency": 0.8154,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1202,15 +1300,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5123,
-      "importance": 0.5123,
-      "importance_score": 0.5123,
+      "score": 0.5114,
+      "importance": 0.5114,
+      "importance_score": 0.5114,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8136,
+        "recency": 0.8092,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1281,15 +1379,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5411,
-      "importance": 0.5411,
-      "importance_score": 0.5411,
+      "score": 0.5401,
+      "importance": 0.5401,
+      "importance_score": 0.5401,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9737,
+        "recency": 0.9683,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1304,85 +1402,6 @@
         "url": "https://github.com/openai/codex",
         "source": "GitHub · Trending Today",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_7bdcf8563e0c",
-      "title": "优步如何利用人工智能向你收取更高费用",
-      "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-      "primary_url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b6f13e51fbc49f61a1eeb032c7c46de4215b1f97",
-          "title": "优步如何利用人工智能向你收取更高费用",
-          "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-21T20:53:21.744000Z"
-        },
-        {
-          "id": "155a17bb46e6ca75c7f5810d7c71e16569f3e770",
-          "title": "优步如何利用人工智能向你收取更高费用 / How Uber uses AI to charge you more",
-          "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-21T20:37:42Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "b6f13e51fbc49f61a1eeb032c7c46de4215b1f97",
-          "title": "优步如何利用人工智能向你收取更高费用",
-          "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-21T20:53:21.744000Z"
-        },
-        {
-          "id": "155a17bb46e6ca75c7f5810d7c71e16569f3e770",
-          "title": "优步如何利用人工智能向你收取更高费用 / How Uber uses AI to charge you more",
-          "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-21T20:37:42Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5035,
-      "importance": 0.5035,
-      "importance_score": 0.5035,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.765,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-21T20:37:42Z",
-      "latest_at": "2026-08-21T20:53:21.744000Z",
-      "primary_item": {
-        "id": "b6f13e51fbc49f61a1eeb032c7c46de4215b1f97",
-        "title": "优步如何利用人工智能向你收取更高费用",
-        "url": "https://www.businessinsider.com/how-uber-uses-ai-to-charge-you-more-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1439,15 +1458,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5017,
-      "importance": 0.5017,
-      "importance_score": 0.5017,
+      "score": 0.501,
+      "importance": 0.501,
+      "importance_score": 0.501,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7553,
+        "recency": 0.7511,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1518,15 +1537,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4993,
-      "importance": 0.4993,
-      "importance_score": 0.4993,
+      "score": 0.4986,
+      "importance": 0.4986,
+      "importance_score": 0.4986,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7418,
+        "recency": 0.7377,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1597,15 +1616,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4973,
-      "importance": 0.4973,
-      "importance_score": 0.4973,
+      "score": 0.4966,
+      "importance": 0.4966,
+      "importance_score": 0.4966,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7305,
+        "recency": 0.7265,
         "story_heat": 0.25
       },
       "category": "watch",
