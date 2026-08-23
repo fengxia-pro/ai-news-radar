@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:48:13.069016Z",
+  "generated_at": "2026-08-23T19:25:33.268262Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7555,
-      "importance": 0.7555,
-      "importance_score": 0.7555,
+      "score": 0.7516,
+      "importance": 0.7516,
+      "importance_score": 0.7516,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9496,
+        "recency": 0.9277,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -99,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7352,
-      "importance": 0.7352,
-      "importance_score": 0.7352,
+      "score": 0.7318,
+      "importance": 0.7318,
+      "importance_score": 0.7318,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.82,
+        "recency": 0.8011,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -159,15 +159,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7316,
-      "importance": 0.7316,
-      "importance_score": 0.7316,
+      "score": 0.7283,
+      "importance": 0.7283,
+      "importance_score": 0.7283,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7833,
+        "recency": 0.7652,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -182,6 +182,138 @@
         "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "Codex 的斜杠命令相当于它的“控制面板”：提示词负责描述你想完成什么，斜杠命令负责控制 Codex 如何工作。作者这篇文章详细拆解了Codex CLI当前内置的全部斜杠命令，并补充了IDE扩展与桌面端特有命令。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-08-23",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "7dab4ef06b4b6c1249a1ad549c10558ac0fa7eba",
+          "title": "Codex 的斜杠命令相当于它的“控制面板”：提示词负责描述你想完成什么，斜杠命令负责控制 Codex 如何工作。作者这篇文章详细拆解了Codex CLI当前内置的全部斜杠命令，并补充了IDE扩展与桌面端特有命令。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "fccb12e30553bd85b029ac6f67753d1ea0e62ca8",
+          "title": "很多人看到Claude Code的第一反应是：这不是写代码的吗？终端、命令、插件一堆，小白很容易还没开始就被劝退。这篇文章是一个营销人173天的实操复盘，把Claude Code拆成了普通人也能上手的工作系统。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "d89d738a554c60a990edff415aa7d82b71c8315a",
+          "title": "本周精选的10篇AI论文转向“运行框架、Skill、记忆、自我改进和成本控制到底靠不靠谱”。Agent Lightning和ClawGym讲怎么在真实框架里训练Agent；Skill Trigger Bottleneck、Demystifying Agent Skills讲Skill太多后怎么触发、怎么写才有用；Harness-Level Forgetting和Fragile Self-Improvement则提醒大家，自我改进很容易变成过拟合和遗忘。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "678be1220982f991cc833e1e84a3bc7df4c56aa5",
+          "title": "第一次打开 Codex，真正容易卡住的是眼前这些区域分别管什么：项目和任务有什么区别，Local、Worktree、Cloud 该选哪个，Plan 是不是必须开，权限应该给到哪里，Plugins、Skills、MCP 又为什么同时存在。作者这篇教程就从这些基础问题讲起，先把界面、按钮、工作区和常用能力认清，再判断哪些扩展功能值得接入。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "f4fadfdd63f30a10616479915e05193eeaa17b1a",
+          "title": "这篇文章很适合刚开始用Agent、但总觉得“它不懂你”的人看。作者围绕Harness做了3个 Skill帮你搭建一个懂你的个人Agent：star帮你从零搭个人工作目录，better从安全、上下文、工具、记忆、学习五层做体检，view则把本地文件和Skill变成可视化工作台。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "社区更新 · 2026-08-23"
+      ],
+      "items": [
+        {
+          "id": "7dab4ef06b4b6c1249a1ad549c10558ac0fa7eba",
+          "title": "Codex 的斜杠命令相当于它的“控制面板”：提示词负责描述你想完成什么，斜杠命令负责控制 Codex 如何工作。作者这篇文章详细拆解了Codex CLI当前内置的全部斜杠命令，并补充了IDE扩展与桌面端特有命令。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "fccb12e30553bd85b029ac6f67753d1ea0e62ca8",
+          "title": "很多人看到Claude Code的第一反应是：这不是写代码的吗？终端、命令、插件一堆，小白很容易还没开始就被劝退。这篇文章是一个营销人173天的实操复盘，把Claude Code拆成了普通人也能上手的工作系统。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "d89d738a554c60a990edff415aa7d82b71c8315a",
+          "title": "本周精选的10篇AI论文转向“运行框架、Skill、记忆、自我改进和成本控制到底靠不靠谱”。Agent Lightning和ClawGym讲怎么在真实框架里训练Agent；Skill Trigger Bottleneck、Demystifying Agent Skills讲Skill太多后怎么触发、怎么写才有用；Harness-Level Forgetting和Fragile Self-Improvement则提醒大家，自我改进很容易变成过拟合和遗忘。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "678be1220982f991cc833e1e84a3bc7df4c56aa5",
+          "title": "第一次打开 Codex，真正容易卡住的是眼前这些区域分别管什么：项目和任务有什么区别，Local、Worktree、Cloud 该选哪个，Plan 是不是必须开，权限应该给到哪里，Plugins、Skills、MCP 又为什么同时存在。作者这篇教程就从这些基础问题讲起，先把界面、按钮、工作区和常用能力认清，再判断哪些扩展功能值得接入。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        },
+        {
+          "id": "f4fadfdd63f30a10616479915e05193eeaa17b1a",
+          "title": "这篇文章很适合刚开始用Agent、但总觉得“它不懂你”的人看。作者围绕Harness做了3个 Skill帮你搭建一个懂你的个人Agent：star帮你从零搭个人工作目录，better从安全、上下文、工具、记忆、学习五层做体检，view则把本地文件和Skill变成可视化工作台。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-08-23T19:25:33.268262Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T19:25:33.268262Z",
+      "latest_at": "2026-08-23T19:25:33.268262Z",
+      "primary_item": {
+        "id": "7dab4ef06b4b6c1249a1ad549c10558ac0fa7eba",
+        "title": "Codex 的斜杠命令相当于它的“控制面板”：提示词负责描述你想完成什么，斜杠命令负责控制 Codex 如何工作。作者这篇文章详细拆解了Codex CLI当前内置的全部斜杠命令，并补充了IDE扩展与桌面端特有命令。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-08-23",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -238,15 +370,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6208,
-      "importance": 0.6208,
-      "importance_score": 0.6208,
+      "score": 0.6166,
+      "importance": 0.6166,
+      "importance_score": 0.6166,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5328,
         "source_tier": 0.5,
         "ai_relevance": 0.74,
-        "recency": 0.9885,
+        "recency": 0.9656,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -355,15 +487,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9819,
+        "recency": 0.9592,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -378,6 +510,164 @@
         "url": "https://news.ycombinator.com/item?id=49409073",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_1a46c098bd02",
+      "title": "与人工智能相关的各种可靠性事故即将发生",
+      "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+      "primary_url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+      "source": "surfingcomplexity.blog",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d0b2fb2174cb2721294ab3d82296b821fe879b06",
+          "title": "与人工智能相关的各种可靠性事故即将发生",
+          "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+          "source": "surfingcomplexity.blog",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-23T19:17:21.738000Z"
+        },
+        {
+          "id": "af2c1ff808b774474f87267f6f0446cb6fb789ce",
+          "title": "与人工智能相关的各种可靠性事故即将发生 / Wild AI-related reliability incidents are coming",
+          "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T19:04:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "surfingcomplexity.blog"
+      ],
+      "items": [
+        {
+          "id": "d0b2fb2174cb2721294ab3d82296b821fe879b06",
+          "title": "与人工智能相关的各种可靠性事故即将发生",
+          "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+          "source": "surfingcomplexity.blog",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-23T19:17:21.738000Z"
+        },
+        {
+          "id": "af2c1ff808b774474f87267f6f0446cb6fb789ce",
+          "title": "与人工智能相关的各种可靠性事故即将发生 / Wild AI-related reliability incidents are coming",
+          "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T19:04:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.998,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T19:04:41Z",
+      "latest_at": "2026-08-23T19:17:21.738000Z",
+      "primary_item": {
+        "id": "d0b2fb2174cb2721294ab3d82296b821fe879b06",
+        "title": "与人工智能相关的各种可靠性事故即将发生",
+        "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+        "source": "surfingcomplexity.blog",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_75a73f0d5f53",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "primary_url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "cb84d279c38f2590e04746bc34eedcbc7a6ebefb",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:16:37Z"
+        },
+        {
+          "id": "b03a8dddde42de3628c4e8c28589984e09141c58",
+          "title": "随着更便宜的工具日益兴盛，Anthropic 最优秀的人工智能模型却难以吸引用户",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-23T08:53:13.741000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "www.ft.com"
+      ],
+      "items": [
+        {
+          "id": "cb84d279c38f2590e04746bc34eedcbc7a6ebefb",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:16:37Z"
+        },
+        {
+          "id": "b03a8dddde42de3628c4e8c28589984e09141c58",
+          "title": "随着更便宜的工具日益兴盛，Anthropic 最优秀的人工智能模型却难以吸引用户",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-23T08:53:13.741000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5428,
+      "importance": 0.5428,
+      "importance_score": 0.5428,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9835,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T08:53:13.741000Z",
+      "latest_at": "2026-08-23T18:16:37Z",
+      "primary_item": {
+        "id": "cb84d279c38f2590e04746bc34eedcbc7a6ebefb",
+        "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -434,15 +724,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5455,
-      "importance": 0.5455,
-      "importance_score": 0.5455,
+      "score": 0.5413,
+      "importance": 0.5413,
+      "importance_score": 0.5413,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9983,
+        "recency": 0.9752,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,15 +803,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5398,
-      "importance": 0.5398,
-      "importance_score": 0.5398,
+      "score": 0.5358,
+      "importance": 0.5358,
+      "importance_score": 0.5358,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9667,
+        "recency": 0.9443,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -592,15 +882,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
+      "score": 0.529,
+      "importance": 0.529,
+      "importance_score": 0.529,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9279,
+        "recency": 0.9064,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -670,15 +960,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5309,
-      "importance": 0.5309,
-      "importance_score": 0.5309,
+      "score": 0.5271,
+      "importance": 0.5271,
+      "importance_score": 0.5271,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9172,
+        "recency": 0.896,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -749,15 +1039,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.53,
-      "importance": 0.53,
-      "importance_score": 0.53,
+      "score": 0.5262,
+      "importance": 0.5262,
+      "importance_score": 0.5262,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.912,
+        "recency": 0.8908,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -792,18 +1082,18 @@
           "published_at": "2026-08-23T10:13:35.301000Z"
         },
         {
-          "id": "c7559584cb495e309e1949cd0d8ab55b86c349df",
+          "id": "5bf7769c6543f6a8c911d10af4db4f1e8cd66284",
           "title": "NanoGPT 速通前沿 / NanoGPT Speedrun Frontier",
           "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T22:14:27Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "www.primeintellect.ai"
       ],
       "items": [
@@ -817,26 +1107,26 @@
           "published_at": "2026-08-23T10:13:35.301000Z"
         },
         {
-          "id": "c7559584cb495e309e1949cd0d8ab55b86c349df",
+          "id": "5bf7769c6543f6a8c911d10af4db4f1e8cd66284",
           "title": "NanoGPT 速通前沿 / NanoGPT Speedrun Frontier",
           "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-22T22:14:27Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5271,
-      "importance": 0.5271,
-      "importance_score": 0.5271,
+      "score": 0.5234,
+      "importance": 0.5234,
+      "importance_score": 0.5234,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8964,
+        "recency": 0.8756,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -851,183 +1141,6 @@
         "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
         "source": "www.primeintellect.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c0f9d10986f5",
-      "title": "为什么你身边的LLM看起来比实际更“笨”",
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "primary_url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "source": "forum.level1techs.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3bdc741a631b5a9943ec9c441290a79bdf5e22e7",
-          "title": "为什么你身边的LLM看起来比实际更“笨”",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-22T22:29:26.810000Z"
-        },
-        {
-          "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
-          "title": "Why your local LLM feels dumber than it is",
-          "url": "https://news.ycombinator.com/item?id=49402232",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-22T20:35:58.501000Z"
-        },
-        {
-          "id": "cafbec0119e2633de9b8e8e8aab370f5777c4b6b",
-          "title": "为什么你身边的LLM看起来比实际更“笨” / Why your local LLM feels dumber than it is",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-22T18:14:16Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "forum.level1techs.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "3bdc741a631b5a9943ec9c441290a79bdf5e22e7",
-          "title": "为什么你身边的LLM看起来比实际更“笨”",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-22T22:29:26.810000Z"
-        },
-        {
-          "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
-          "title": "Why your local LLM feels dumber than it is",
-          "url": "https://news.ycombinator.com/item?id=49402232",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-22T20:35:58.501000Z"
-        },
-        {
-          "id": "cafbec0119e2633de9b8e8e8aab370f5777c4b6b",
-          "title": "为什么你身边的LLM看起来比实际更“笨” / Why your local LLM feels dumber than it is",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-22T18:14:16Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.527,
-      "importance": 0.527,
-      "importance_score": 0.527,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7566,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-22T18:14:16Z",
-      "latest_at": "2026-08-22T22:29:26.810000Z",
-      "primary_item": {
-        "id": "3bdc741a631b5a9943ec9c441290a79bdf5e22e7",
-        "title": "为什么你身边的LLM看起来比实际更“笨”",
-        "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-        "source": "forum.level1techs.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_75a73f0d5f53",
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "primary_url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "sources": [
-        {
-          "id": "9bc9ed060f7e0217af16e1a6feff16ee75eed9f0",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-23T09:21:44Z"
-        },
-        {
-          "id": "b03a8dddde42de3628c4e8c28589984e09141c58",
-          "title": "随着更便宜的工具日益兴盛，Anthropic 最优秀的人工智能模型却难以吸引用户",
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
-          "source": "www.ft.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T08:53:13.741000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "www.ft.com"
-      ],
-      "items": [
-        {
-          "id": "9bc9ed060f7e0217af16e1a6feff16ee75eed9f0",
-          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-23T09:21:44Z"
-        },
-        {
-          "id": "b03a8dddde42de3628c4e8c28589984e09141c58",
-          "title": "随着更便宜的工具日益兴盛，Anthropic 最优秀的人工智能模型却难以吸引用户",
-          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245?syn-25a6b1a6=1",
-          "source": "www.ft.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T08:53:13.741000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5251,
-      "importance": 0.5251,
-      "importance_score": 0.5251,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8852,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-23T08:53:13.741000Z",
-      "latest_at": "2026-08-23T09:21:44Z",
-      "primary_item": {
-        "id": "9bc9ed060f7e0217af16e1a6feff16ee75eed9f0",
-        "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-        "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
       }
     },
     {
@@ -1083,15 +1196,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5216,
-      "importance": 0.5216,
-      "importance_score": 0.5216,
+      "score": 0.518,
+      "importance": 0.518,
+      "importance_score": 0.518,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8658,
+        "recency": 0.8458,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1109,30 +1222,30 @@
       }
     },
     {
-      "story_id": "story_0790a6925131",
-      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-      "url": "https://news.ycombinator.com/item?id=49410097",
-      "primary_url": "https://news.ycombinator.com/item?id=49410097",
+      "story_id": "story_09d9e58bd4d9",
+      "title": "We must not grant AI agents legal personhood",
+      "url": "https://news.ycombinator.com/item?id=49410628",
+      "primary_url": "https://news.ycombinator.com/item?id=49410628",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "7dbd9ade21eaa19435bb8f6256c748bcf8d6eaae",
-          "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-          "url": "https://news.ycombinator.com/item?id=49410097",
+          "id": "f8164294bdea4fbbdacaab0089cd0a41bf6a593f",
+          "title": "We must not grant AI agents legal personhood",
+          "url": "https://news.ycombinator.com/item?id=49410628",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-23T17:28:31.534000Z"
+          "published_at": "2026-08-23T18:59:04.608000Z"
         },
         {
-          "id": "f4d5733c14a4b91bb95b54be3bbe6d6d7595c570",
-          "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-          "url": "https://reinvently.co.uk/tools/ed-o-meter",
+          "id": "f88a20bc84d1bd0d55e27dc4dc4ef9327bf9427a",
+          "title": "We must not grant AI agents legal personhood",
+          "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-23T16:24:21Z"
+          "published_at": "2026-08-23T17:25:03Z"
         }
       ],
       "source_count": 2,
@@ -1142,47 +1255,47 @@
       ],
       "items": [
         {
-          "id": "7dbd9ade21eaa19435bb8f6256c748bcf8d6eaae",
-          "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-          "url": "https://news.ycombinator.com/item?id=49410097",
+          "id": "f8164294bdea4fbbdacaab0089cd0a41bf6a593f",
+          "title": "We must not grant AI agents legal personhood",
+          "url": "https://news.ycombinator.com/item?id=49410628",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-23T17:28:31.534000Z"
+          "published_at": "2026-08-23T18:59:04.608000Z"
         },
         {
-          "id": "f4d5733c14a4b91bb95b54be3bbe6d6d7595c570",
-          "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-          "url": "https://reinvently.co.uk/tools/ed-o-meter",
+          "id": "f88a20bc84d1bd0d55e27dc4dc4ef9327bf9427a",
+          "title": "We must not grant AI agents legal personhood",
+          "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-23T16:24:21Z"
+          "published_at": "2026-08-23T17:25:03Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5449,
-      "importance": 0.5449,
-      "importance_score": 0.5449,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9953,
+        "recency": 0.9936,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-23T16:24:21Z",
-      "latest_at": "2026-08-23T17:28:31.534000Z",
+      "earliest_at": "2026-08-23T17:25:03Z",
+      "latest_at": "2026-08-23T18:59:04.608000Z",
       "primary_item": {
-        "id": "7dbd9ade21eaa19435bb8f6256c748bcf8d6eaae",
-        "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-        "url": "https://news.ycombinator.com/item?id=49410097",
+        "id": "f8164294bdea4fbbdacaab0089cd0a41bf6a593f",
+        "title": "We must not grant AI agents legal personhood",
+        "url": "https://news.ycombinator.com/item?id=49410628",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
@@ -1240,15 +1353,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5123,
-      "importance": 0.5123,
-      "importance_score": 0.5123,
+      "score": 0.5089,
+      "importance": 0.5089,
+      "importance_score": 0.5089,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8139,
+        "recency": 0.795,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1319,15 +1432,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5074,
-      "importance": 0.5074,
-      "importance_score": 0.5074,
+      "score": 0.5041,
+      "importance": 0.5041,
+      "importance_score": 0.5041,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7864,
+        "recency": 0.7682,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1398,15 +1511,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
+      "score": 0.5334,
+      "importance": 0.5334,
+      "importance_score": 0.5334,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9529,
+        "recency": 0.9309,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1477,15 +1590,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.53,
-      "importance": 0.53,
-      "importance_score": 0.53,
+      "score": 0.5262,
+      "importance": 0.5262,
+      "importance_score": 0.5262,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.912,
+        "recency": 0.8908,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1498,85 +1611,6 @@
         "id": "a54bafcecd84cc88cb0dddaf5d46b33cb08376c5",
         "title": "anthropics / claude-plugins-community",
         "url": "https://github.com/anthropics/claude-plugins-community",
-        "source": "GitHub · Trending Today",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_cb08435a825e",
-      "title": "freestylefly / awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "primary_url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "source": "GitHub · Trending Today",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "ff6cb8ba6d8bcefc9d5a4af907de953ed5c2cd2f",
-          "title": "freestylefly / awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3b2fa912249c187adb07c7989a414ac187beec37",
-          "title": "freestylefly /      awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-23T11:16:45.227000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "GitHub · Trending Today",
-        "github"
-      ],
-      "items": [
-        {
-          "id": "ff6cb8ba6d8bcefc9d5a4af907de953ed5c2cd2f",
-          "title": "freestylefly / awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "3b2fa912249c187adb07c7989a414ac187beec37",
-          "title": "freestylefly /      awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-23T11:16:45.227000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.53,
-      "importance": 0.53,
-      "importance_score": 0.53,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.912,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-23T11:16:45.227000Z",
-      "latest_at": "2026-08-23T11:25:16.901294Z",
-      "primary_item": {
-        "id": "ff6cb8ba6d8bcefc9d5a4af907de953ed5c2cd2f",
-        "title": "freestylefly / awesome-gpt-image-2",
-        "url": "https://github.com/freestylefly/awesome-gpt-image-2",
         "source": "GitHub · Trending Today",
         "source_name": "TopHub"
       }
