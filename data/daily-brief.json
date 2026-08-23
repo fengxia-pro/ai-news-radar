@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:35:59.160398Z",
+  "generated_at": "2026-08-23T09:32:30.115654Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7562,
-      "importance": 0.7562,
-      "importance_score": 0.7562,
+      "score": 0.7539,
+      "importance": 0.7539,
+      "importance_score": 0.7539,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9366,
+        "recency": 0.924,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -99,21 +99,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7516,
-      "importance": 0.7516,
-      "importance_score": 0.7516,
+      "score": 0.7495,
+      "importance": 0.7495,
+      "importance_score": 0.7495,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8947,
+        "recency": 0.8826,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-23T00:53:34.184000Z",
       "latest_at": "2026-08-23T00:53:34.184000Z",
@@ -160,15 +159,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7227,
-      "importance": 0.7227,
-      "importance_score": 0.7227,
+      "score": 0.7208,
+      "importance": 0.7208,
+      "importance_score": 0.7208,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.767,
+        "recency": 0.7566,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -292,15 +291,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6402,
-      "importance": 0.6402,
-      "importance_score": 0.6402,
+      "score": 0.6383,
+      "importance": 0.6383,
+      "importance_score": 0.6383,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.54,
         "ai_relevance": 0.67,
-        "recency": 0.7926,
+        "recency": 0.7819,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -315,6 +314,85 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-08-22",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_a36f4da2dd57",
+      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+      "primary_url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+      "source": "InfoQ CN",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bb8f726f465db6ef061f70c4d20834472a5a923b",
+          "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+          "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+          "source": "InfoQ CN",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-23T17:00:00Z"
+        },
+        {
+          "id": "3c06f90ea51ebcbfc7dc8d04ee3a9d427f2bb6a5",
+          "title": "亚马逊云科技开源 Dogwood：为 AI 智能体工具调用制定策略语言",
+          "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "InfoQ CN",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "bb8f726f465db6ef061f70c4d20834472a5a923b",
+          "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+          "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+          "source": "InfoQ CN",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-23T17:00:00Z"
+        },
+        {
+          "id": "3c06f90ea51ebcbfc7dc8d04ee3a9d427f2bb6a5",
+          "title": "亚马逊云科技开源 Dogwood：为 AI 智能体工具调用制定策略语言",
+          "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6228,
+      "importance": 0.6228,
+      "importance_score": 0.6228,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5328,
+        "source_tier": 0.5,
+        "ai_relevance": 0.74,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-23T09:32:30.115654Z",
+      "latest_at": "2026-08-23T17:00:00Z",
+      "primary_item": {
+        "id": "bb8f726f465db6ef061f70c4d20834472a5a923b",
+        "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+        "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO",
+        "source": "InfoQ CN",
+        "source_name": "OPML RSS"
       }
     },
     {
@@ -390,15 +468,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5464,
-      "importance": 0.5464,
-      "importance_score": 0.5464,
+      "score": 0.5443,
+      "importance": 0.5443,
+      "importance_score": 0.5443,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8642,
+        "recency": 0.8525,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -468,15 +546,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5438,
-      "importance": 0.5438,
-      "importance_score": 0.5438,
+      "score": 0.5414,
+      "importance": 0.5414,
+      "importance_score": 0.5414,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9889,
+        "recency": 0.9755,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -547,15 +625,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5433,
-      "importance": 0.5433,
-      "importance_score": 0.5433,
+      "score": 0.5409,
+      "importance": 0.5409,
+      "importance_score": 0.5409,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.986,
+        "recency": 0.9727,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -645,15 +723,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
+      "score": 0.5329,
+      "importance": 0.5329,
+      "importance_score": 0.5329,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8001,
+        "recency": 0.7893,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -672,7 +750,7 @@
     },
     {
       "story_id": "story_e9b03c1ca8c4",
-      "title": "The Golden Rule for Becoming a Better Writer",
+      "title": "要想成为更好的写作者，就要尽可能多地阅读 / The Golden Rule for Becoming a Better Writer",
       "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
       "primary_url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
       "source": "Hacker News · 24h最热",
@@ -680,7 +758,7 @@
       "sources": [
         {
           "id": "d2ba6f550d8ed916ba5f7bc17865b9b51bc27e2f",
-          "title": "The Golden Rule for Becoming a Better Writer",
+          "title": "要想成为更好的写作者，就要尽可能多地阅读 / The Golden Rule for Becoming a Better Writer",
           "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -689,7 +767,7 @@
         },
         {
           "id": "390f6105d2f22d5ae5794019895c80d529465b38",
-          "title": "To become a better writer, read as much as you can",
+          "title": "要想成为更好的写作者，就要尽可能多地阅读 / To become a better writer, read as much as you can",
           "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -704,7 +782,7 @@
       "items": [
         {
           "id": "d2ba6f550d8ed916ba5f7bc17865b9b51bc27e2f",
-          "title": "The Golden Rule for Becoming a Better Writer",
+          "title": "要想成为更好的写作者，就要尽可能多地阅读 / The Golden Rule for Becoming a Better Writer",
           "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -713,7 +791,7 @@
         },
         {
           "id": "390f6105d2f22d5ae5794019895c80d529465b38",
-          "title": "To become a better writer, read as much as you can",
+          "title": "要想成为更好的写作者，就要尽可能多地阅读 / To become a better writer, read as much as you can",
           "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -723,15 +801,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5331,
-      "importance": 0.5331,
-      "importance_score": 0.5331,
+      "score": 0.5309,
+      "importance": 0.5309,
+      "importance_score": 0.5309,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9295,
+        "recency": 0.917,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -742,7 +820,7 @@
       "latest_at": "2026-08-23T03:32:25Z",
       "primary_item": {
         "id": "d2ba6f550d8ed916ba5f7bc17865b9b51bc27e2f",
-        "title": "The Golden Rule for Becoming a Better Writer",
+        "title": "要想成为更好的写作者，就要尽可能多地阅读 / The Golden Rule for Becoming a Better Writer",
         "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
@@ -821,15 +899,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5298,
-      "importance": 0.5298,
-      "importance_score": 0.5298,
+      "score": 0.5279,
+      "importance": 0.5279,
+      "importance_score": 0.5279,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.772,
+        "recency": 0.7615,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -900,15 +978,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5275,
-      "importance": 0.5275,
-      "importance_score": 0.5275,
+      "score": 0.5253,
+      "importance": 0.5253,
+      "importance_score": 0.5253,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8982,
+        "recency": 0.8861,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -979,15 +1057,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5184,
-      "importance": 0.5184,
-      "importance_score": 0.5184,
+      "score": 0.5163,
+      "importance": 0.5163,
+      "importance_score": 0.5163,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8477,
+        "recency": 0.8362,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1058,15 +1136,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5178,
-      "importance": 0.5178,
-      "importance_score": 0.5178,
+      "score": 0.5157,
+      "importance": 0.5157,
+      "importance_score": 0.5157,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8444,
+        "recency": 0.833,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1136,15 +1214,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5096,
-      "importance": 0.5096,
-      "importance_score": 0.5096,
+      "score": 0.5076,
+      "importance": 0.5076,
+      "importance_score": 0.5076,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7987,
+        "recency": 0.7879,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1215,15 +1293,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5082,
-      "importance": 0.5082,
-      "importance_score": 0.5082,
+      "score": 0.5062,
+      "importance": 0.5062,
+      "importance_score": 0.5062,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7909,
+        "recency": 0.7803,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1294,15 +1372,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5026,
-      "importance": 0.5026,
-      "importance_score": 0.5026,
+      "score": 0.5007,
+      "importance": 0.5007,
+      "importance_score": 0.5007,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7599,
+        "recency": 0.7497,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1373,15 +1451,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5321,
-      "importance": 0.5321,
-      "importance_score": 0.5321,
+      "score": 0.5299,
+      "importance": 0.5299,
+      "importance_score": 0.5299,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.924,
+        "recency": 0.9115,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1452,15 +1530,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.501,
-      "importance": 0.501,
-      "importance_score": 0.501,
+      "score": 0.4992,
+      "importance": 0.4992,
+      "importance_score": 0.4992,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7512,
+        "recency": 0.7411,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1531,15 +1609,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5139,
-      "importance": 0.5139,
-      "importance_score": 0.5139,
+      "score": 0.5119,
+      "importance": 0.5119,
+      "importance_score": 0.5119,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8228,
+        "recency": 0.8117,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1554,84 +1632,6 @@
         "url": "https://news.ycombinator.com/item?id=49399642",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_d901a93bbcfa",
-      "title": "《用Python思考》 / Thinking in Python",
-      "url": "https://thinkinginpython.com",
-      "primary_url": "https://thinkinginpython.com",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "9b3057092d25d66e6b9588eb8ddcabaf5cd3e85f",
-          "title": "《用Python思考》 / Thinking in Python",
-          "url": "https://thinkinginpython.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-22T18:10:49Z"
-        },
-        {
-          "id": "3289df469c5b7ba3c168fe930418c735ddf2afd9",
-          "title": "《用Python思考》 / Thinking in Python by Bruce Eckel",
-          "url": "https://thinkinginpython.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-22T18:10:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "9b3057092d25d66e6b9588eb8ddcabaf5cd3e85f",
-          "title": "《用Python思考》 / Thinking in Python",
-          "url": "https://thinkinginpython.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-22T18:10:49Z"
-        },
-        {
-          "id": "3289df469c5b7ba3c168fe930418c735ddf2afd9",
-          "title": "《用Python思考》 / Thinking in Python by Bruce Eckel",
-          "url": "https://thinkinginpython.com",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-22T18:10:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.512,
-      "importance": 0.512,
-      "importance_score": 0.512,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.812,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-22T18:10:49Z",
-      "latest_at": "2026-08-22T18:10:49Z",
-      "primary_item": {
-        "id": "9b3057092d25d66e6b9588eb8ddcabaf5cd3e85f",
-        "title": "《用Python思考》 / Thinking in Python",
-        "url": "https://thinkinginpython.com",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     }
   ]
