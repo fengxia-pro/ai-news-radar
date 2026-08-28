@@ -182,6 +182,48 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "国自然放榜后，我想说几句实话",
+        "url": "https://mp.weixin.qq.com/s/0uQVAg-NdX85-9uAIBYSdA",
+        "published_at": "2026-08-28T07:16:26+08:00",
+        "article_theme": (
+            "从国自然放榜后的真实分化切入，讨论年龄段名额感受、情绪消化，"
+            "以及尽早铺开 2027 年选题构思。"
+        ),
+        "summary": (
+            "文章回看放榜后的不同结果：有人等待七年圆梦，也有成熟本子停在最后一步。"
+            "作者提醒扩容名额未必平均落到 35—45 岁群体，与其长期消化情绪，"
+            "不如尽早启动 2027 年构思，因为国自然项目的上限更取决于选题而不是文字技巧。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "开学季，关于国自然和文献的几句碎碎念",
+        "url": "https://mp.weixin.qq.com/s/uKhmZOUyO6wPWBs38ptUXg",
+        "published_at": "2026-08-26T07:09:55+08:00",
+        "article_theme": (
+            "面向新学期和新入校硕博，讨论如何把文献从“点”读成“线”，"
+            "并在落笔前想透科学问题与创新。"
+        ),
+        "summary": (
+            "文章提醒科研起步要先系统读文献：只读成点，只能理解已经发生的；"
+            "把科学问题与创新的发展脉络读成线，才可能看到下一步。"
+            "顶刊 SCI 和国自然真正“掐尖”的是独特想法，高手往往先把项目和灵魂想透，"
+            "再处理文字表达。"
+        ),
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
+        "title": "国自然最核心的ABC",
+        "url": "https://mp.weixin.qq.com/s/y5rXCcMuJsw2ZP-i7yw7vQ",
+        "published_at": "2026-08-24T05:30:00+08:00",
+        "article_theme": "用 ABC 框架概括国自然选题的三个核心：扎根自身特色、识别科学问题、形成创新。",
+        "summary": "文章用三项简洁框架概括国自然的核心：A 是自己扎根的特色，B 是科学问题，C 是创新。",
+        "date_status": "user_confirmed_article",
+        "date_label": "用户确认的公众号文章",
+    },
+    {
         "title": "国自然结果前夕，我们聊点别的",
         "url": "https://mp.weixin.qq.com/s/ULEYFlMEaH3K1vbJ88vKUA",
         "published_at": "2026-08-22T05:30:00+08:00",

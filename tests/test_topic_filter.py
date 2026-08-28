@@ -783,9 +783,12 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["source_mode"], "manual_wechat_link")
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_recent")
 
-    def test_slow_professor_august_5_to_22_articles_are_listed_with_verified_metadata(self):
-        now = datetime(2026, 8, 21, 22, 0, tzinfo=timezone.utc)
+    def test_slow_professor_august_5_to_28_articles_are_listed_with_verified_metadata(self):
+        now = datetime(2026, 8, 28, 8, 0, tzinfo=timezone.utc)
         expected = {
+            "https://mp.weixin.qq.com/s/0uQVAg-NdX85-9uAIBYSdA": "国自然放榜后，我想说几句实话",
+            "https://mp.weixin.qq.com/s/uKhmZOUyO6wPWBs38ptUXg": "开学季，关于国自然和文献的几句碎碎念",
+            "https://mp.weixin.qq.com/s/y5rXCcMuJsw2ZP-i7yw7vQ": "国自然最核心的ABC",
             "https://mp.weixin.qq.com/s/ULEYFlMEaH3K1vbJ88vKUA": "国自然结果前夕，我们聊点别的",
             "https://mp.weixin.qq.com/s/Q2YT4fqDLJ0Y_1rgvb-dSA": "她今年没再搜国自然的邪修",
             "https://mp.weixin.qq.com/s/15vcMF0yAlE_KglWdX2L8Q": "关键词学习法技能深度解读《国家自然科学基金项目申请攻略（第2版）》",
@@ -806,7 +809,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         payload = build_slow_professor_payload(
             [],
             [],
-            generated_at="2026-08-21T22:00:00Z",
+            generated_at="2026-08-28T08:00:00Z",
             now=now,
         )
         payload_items = {item["url"]: item for item in payload["items"]}
@@ -819,6 +822,18 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             self.assertEqual(payload_items[url]["date_status"], "user_confirmed_article")
             self.assertTrue(payload_items[url]["summary"])
             self.assertTrue(payload_items[url]["article_theme"])
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/0uQVAg-NdX85-9uAIBYSdA"]["published_at"],
+            "2026-08-27T23:16:26Z",
+        )
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/uKhmZOUyO6wPWBs38ptUXg"]["published_at"],
+            "2026-08-25T23:09:55Z",
+        )
+        self.assertEqual(
+            payload_items["https://mp.weixin.qq.com/s/y5rXCcMuJsw2ZP-i7yw7vQ"]["published_at"],
+            "2026-08-23T21:30:00Z",
+        )
         self.assertEqual(
             payload_items["https://mp.weixin.qq.com/s/ULEYFlMEaH3K1vbJ88vKUA"]["published_at"],
             "2026-08-21T21:30:00Z",
@@ -838,6 +853,18 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertEqual(
             payload_items["https://mp.weixin.qq.com/s/CFY_am3Fl0GaJizfDr60wg"]["published_at"],
             "2026-08-15T21:30:00Z",
+        )
+        self.assertIn(
+            "上限更取决于选题",
+            payload_items["https://mp.weixin.qq.com/s/0uQVAg-NdX85-9uAIBYSdA"]["summary"],
+        )
+        self.assertIn(
+            "从“点”读成“线”",
+            payload_items["https://mp.weixin.qq.com/s/uKhmZOUyO6wPWBs38ptUXg"]["article_theme"],
+        )
+        self.assertIn(
+            "A 是自己扎根的特色",
+            payload_items["https://mp.weixin.qq.com/s/y5rXCcMuJsw2ZP-i7yw7vQ"]["summary"],
         )
         self.assertIn(
             "值得再押五年",
@@ -867,10 +894,10 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             "AGENTS.md",
             payload_items["https://mp.weixin.qq.com/s/19KZ6tMxERoUbzoyN33kQg"]["summary"],
         )
-        self.assertEqual(sum(1 for url in expected if payload_items[url]["is_recent_7d"]), 6)
+        self.assertEqual(sum(1 for url in expected if payload_items[url]["is_recent_7d"]), 4)
 
     def test_slow_professor_history_is_cumulative_and_cached_items_are_retained(self):
-        now = datetime(2026, 8, 21, 22, 0, tzinfo=timezone.utc)
+        now = datetime(2026, 8, 28, 8, 0, tzinfo=timezone.utc)
         cached_only_url = "https://mp.weixin.qq.com/s/cached-history-only"
         existing_payload = {
             "items": [{
@@ -894,7 +921,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         payload = build_slow_professor_payload(
             [],
             [],
-            generated_at="2026-08-21T22:00:00Z",
+            generated_at="2026-08-28T08:00:00Z",
             now=now,
             existing_payload=existing_payload,
         )
@@ -904,16 +931,16 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES
         }
 
-        self.assertEqual(len(manual_urls), 38)
+        self.assertEqual(len(manual_urls), 41)
         self.assertTrue(manual_urls.issubset(payload_items))
         self.assertIn(cached_only_url, payload_items)
         self.assertFalse(payload_items[cached_only_url]["is_recent_7d"])
         self.assertFalse(payload_items[cached_only_url]["is_recent_3d"])
         self.assertTrue(payload_items[cached_only_url]["is_historical"])
         self.assertEqual(payload["retention_mode"], "cumulative_history")
-        self.assertEqual(payload["total_items"], 39)
-        self.assertEqual(payload["recent_7d_count"], 6)
-        self.assertEqual(payload["historical_count"], 33)
+        self.assertEqual(payload["total_items"], 42)
+        self.assertEqual(payload["recent_7d_count"], 4)
+        self.assertEqual(payload["historical_count"], 38)
 
     def test_slow_professor_frontend_renders_article_theme(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
