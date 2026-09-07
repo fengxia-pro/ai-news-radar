@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:01:43.844051Z",
+  "generated_at": "2026-09-07T01:14:45.887931Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.869,
-      "importance": 0.869,
-      "importance_score": 0.869,
+      "score": 0.8644,
+      "importance": 0.8644,
+      "importance_score": 0.8644,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8166,
+        "recency": 0.7909,
         "story_heat": 0.5
       },
       "category": "official",
@@ -129,12 +129,22 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-06T08:00:00Z"
+        },
+        {
+          "id": "b09e7b2e17b9cc5b075504ab9a74aef5f86d7f42",
+          "title": "研究加速：OpenAI内部视角",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-07T00:17:54.906000Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
       ],
       "items": [
         {
@@ -154,20 +164,29 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-06T08:00:00Z"
+        },
+        {
+          "id": "b09e7b2e17b9cc5b075504ab9a74aef5f86d7f42",
+          "title": "研究加速：OpenAI内部视角",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-07T00:17:54.906000Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8419,
-      "importance": 0.8419,
-      "importance_score": 0.8419,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8623,
+      "importance": 0.8623,
+      "importance_score": 0.8623,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8049,
-        "story_heat": 0.25
+        "recency": 0.7795,
+        "story_heat": 0.5
       },
       "category": "official",
       "reasons": [
@@ -177,13 +196,94 @@
         "high_importance"
       ],
       "earliest_at": "2026-09-06T08:00:00Z",
-      "latest_at": "2026-09-06T08:00:00Z",
+      "latest_at": "2026-09-07T00:17:54.906000Z",
       "primary_item": {
         "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
         "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
         "url": "https://openai.com/index/research-acceleration-view-inside-openai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "729838c26f16f5e3ce99956ad2b014addedd79e2",
+          "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-07T00:08:00Z"
+        },
+        {
+          "id": "f033073f5f9302d9922d2cd3ce433f07bbecf908",
+          "title": "谷歌让 AI 互怼几天！小模型竟复现 3 道博士级难题",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652723377&idx=2&sn=58fb4dbd0753589cf4e5b8d290062326",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "729838c26f16f5e3ce99956ad2b014addedd79e2",
+          "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-07T00:08:00Z"
+        },
+        {
+          "id": "f033073f5f9302d9922d2cd3ce433f07bbecf908",
+          "title": "谷歌让 AI 互怼几天！小模型竟复现 3 道博士级难题",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652723377&idx=2&sn=58fb4dbd0753589cf4e5b8d290062326",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7867,
+      "importance": 0.7867,
+      "importance_score": 0.7867,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9841,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-06T03:57:09.932094Z",
+      "latest_at": "2026-09-07T00:08:00Z",
+      "primary_item": {
+        "id": "729838c26f16f5e3ce99956ad2b014addedd79e2",
+        "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -221,15 +321,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7829,
-      "importance": 0.7829,
-      "importance_score": 0.7829,
+      "score": 0.7776,
+      "importance": 0.7776,
+      "importance_score": 0.7776,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9352,
+        "recency": 0.9057,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -245,6 +345,67 @@
         "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
         "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e832ef89a30b",
+      "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
+      "url": "https://www.aibase.com/news/30852",
+      "primary_url": "https://www.aibase.com/news/30852",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "75912c1da02a2511e0161b6b88ab9805b57e2aef",
+          "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
+          "url": "https://www.aibase.com/news/30852",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-07T01:14:45.887931Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "75912c1da02a2511e0161b6b88ab9805b57e2aef",
+          "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
+          "url": "https://www.aibase.com/news/30852",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-07T01:14:45.887931Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-07T01:14:45.887931Z",
+      "latest_at": "2026-09-07T01:14:45.887931Z",
+      "primary_item": {
+        "id": "75912c1da02a2511e0161b6b88ab9805b57e2aef",
+        "title": "GPT-6 Astra测试数据罗生门：OpenAI频繁修改成绩引「刷榜」质疑，大模型基准测试信任危机爆发",
+        "url": "https://www.aibase.com/news/30852",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -301,15 +462,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7699,
-      "importance": 0.7699,
-      "importance_score": 0.7699,
+      "score": 0.7655,
+      "importance": 0.7655,
+      "importance_score": 0.7655,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7908,
+        "recency": 0.7658,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -326,6 +487,67 @@
         "url": "https://www.ithome.com/0/998/927.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e2b65dabe321",
+      "title": "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
+      "url": "https://www.aibase.com/news/30851",
+      "primary_url": "https://www.aibase.com/news/30851",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "08211d91740c3dc8d3b27f4e720f29302ed01534",
+          "title": "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
+          "url": "https://www.aibase.com/news/30851",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-07T01:14:45.887931Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "08211d91740c3dc8d3b27f4e720f29302ed01534",
+          "title": "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
+          "url": "https://www.aibase.com/news/30851",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-07T01:14:45.887931Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-07T01:14:45.887931Z",
+      "latest_at": "2026-09-07T01:14:45.887931Z",
+      "primary_item": {
+        "id": "08211d91740c3dc8d3b27f4e720f29302ed01534",
+        "title": "OpenAI证实“维基事件”智能体脱控，将制定安全信息披露新框架",
+        "url": "https://www.aibase.com/news/30851",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -453,15 +675,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6579,
-      "importance": 0.6579,
-      "importance_score": 0.6579,
+      "score": 0.6526,
+      "importance": 0.6526,
+      "importance_score": 0.6526,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9375,
+        "recency": 0.9079,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -531,15 +753,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6555,
-      "importance": 0.6555,
-      "importance_score": 0.6555,
+      "score": 0.65,
+      "importance": 0.65,
+      "importance_score": 0.65,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9682,
+        "recency": 0.9377,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -554,6 +776,85 @@
         "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_8f5887a07591",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+      "primary_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+      "source": "Simon Willison",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a39880a08076549b9586564e3b2dd0d048e8e54a",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-06T23:57:40Z"
+        },
+        {
+          "id": "64d5243b62263771a4447effedb8cd9b0d4ddf39",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://news.ycombinator.com/item?id=49587217",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-06T18:16:02.659000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Simon Willison",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "a39880a08076549b9586564e3b2dd0d048e8e54a",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-06T23:57:40Z"
+        },
+        {
+          "id": "64d5243b62263771a4447effedb8cd9b0d4ddf39",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://news.ycombinator.com/item?id=49587217",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-06T18:16:02.659000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6071,
+      "importance": 0.6071,
+      "importance_score": 0.6071,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.5,
+        "ai_relevance": 0.71,
+        "recency": 0.9816,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T18:16:02.659000Z",
+      "latest_at": "2026-09-06T23:57:40Z",
+      "primary_item": {
+        "id": "a39880a08076549b9586564e3b2dd0d048e8e54a",
+        "title": "Research acceleration: The view inside OpenAI",
+        "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+        "source": "Simon Willison",
+        "source_name": "OPML RSS"
       }
     },
     {
@@ -629,15 +930,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.566,
-      "importance": 0.566,
-      "importance_score": 0.566,
+      "score": 0.5605,
+      "importance": 0.5605,
+      "importance_score": 0.5605,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9733,
+        "recency": 0.9427,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -727,15 +1028,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5539,
-      "importance": 0.5539,
-      "importance_score": 0.5539,
+      "score": 0.5488,
+      "importance": 0.5488,
+      "importance_score": 0.5488,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9061,
+        "recency": 0.8776,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -749,6 +1050,103 @@
         "title": "我对人工智能的看法",
         "url": "https://beza1e1.tuxen.de/ai_feelings.html",
         "source": "beza1e1.tuxen.de",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7737bba1b986",
+      "title": "人工智能关机——保持人性",
+      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+      "primary_url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+      "source": "keepitfree.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
+          "title": "人工智能关机——保持人性",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "keepitfree.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T15:26:17.429000Z"
+        },
+        {
+          "id": "d99d9067ae36803e05aadde62718427389c1660f",
+          "title": "人工智能关机——保持人性 / A/I shuts down",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T14:34:34Z"
+        },
+        {
+          "id": "be8a04075f10c8afce894d3548d9bafd8fb4cf66",
+          "title": "人工智能关机——保持人性 / A/I shuts down – Stay human",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T14:34:34Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "keepitfree.ai"
+      ],
+      "items": [
+        {
+          "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
+          "title": "人工智能关机——保持人性",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "keepitfree.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T15:26:17.429000Z"
+        },
+        {
+          "id": "d99d9067ae36803e05aadde62718427389c1660f",
+          "title": "人工智能关机——保持人性 / A/I shuts down",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T14:34:34Z"
+        },
+        {
+          "id": "be8a04075f10c8afce894d3548d9bafd8fb4cf66",
+          "title": "人工智能关机——保持人性 / A/I shuts down – Stay human",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T14:34:34Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.547,
+      "importance": 0.547,
+      "importance_score": 0.547,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8679,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T14:34:34Z",
+      "latest_at": "2026-09-06T15:26:17.429000Z",
+      "primary_item": {
+        "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
+        "title": "人工智能关机——保持人性",
+        "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
+        "source": "keepitfree.ai",
         "source_name": "Buzzing"
       }
     },
@@ -806,15 +1204,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5404,
-      "importance": 0.5404,
-      "importance_score": 0.5404,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9702,
+        "recency": 0.9396,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -885,15 +1283,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5378,
-      "importance": 0.5378,
-      "importance_score": 0.5378,
+      "score": 0.5323,
+      "importance": 0.5323,
+      "importance_score": 0.5323,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9553,
+        "recency": 0.9252,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -907,85 +1305,6 @@
         "title": "OpenAI首席科学家表示，人工智能实验室可能需要放慢脚步：“没有人做好应对后果的准备”",
         "url": "https://www.businessinsider.com/openai-chief-scientist-ai-risks-slowdown-rogue-agents-consequences-safety-2026-9",
         "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_0c2a0b5dc5ee",
-      "title": "利用代码审查推动可持续的AI编码开发",
-      "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-      "primary_url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-      "source": "cacm.acm.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
-          "title": "利用代码审查推动可持续的AI编码开发",
-          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-          "source": "cacm.acm.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T16:43:06.097000Z"
-        },
-        {
-          "id": "3229d72075b36622f24128425c5a6723c068524e",
-          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
-          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T16:41:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "cacm.acm.org"
-      ],
-      "items": [
-        {
-          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
-          "title": "利用代码审查推动可持续的AI编码开发",
-          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-          "source": "cacm.acm.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T16:43:06.097000Z"
-        },
-        {
-          "id": "3229d72075b36622f24128425c5a6723c068524e",
-          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
-          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T16:41:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5301,
-      "importance": 0.5301,
-      "importance_score": 0.5301,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9129,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T16:41:01Z",
-      "latest_at": "2026-09-06T16:43:06.097000Z",
-      "primary_item": {
-        "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
-        "title": "利用代码审查推动可持续的AI编码开发",
-        "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
-        "source": "cacm.acm.org",
         "source_name": "Buzzing"
       }
     },
@@ -1062,15 +1381,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5294,
-      "importance": 0.5294,
-      "importance_score": 0.5294,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7701,
+        "recency": 0.7458,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1084,6 +1403,85 @@
         "title": "安装在机械臂上的GPT-6 Astra",
         "url": "https://openai.robocurve.org/gpt-6-astra",
         "source": "openai.robocurve.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0c2a0b5dc5ee",
+      "title": "利用代码审查推动可持续的AI编码开发",
+      "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+      "primary_url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+      "source": "cacm.acm.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+          "title": "利用代码审查推动可持续的AI编码开发",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "cacm.acm.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:43:06.097000Z"
+        },
+        {
+          "id": "3229d72075b36622f24128425c5a6723c068524e",
+          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:41:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "cacm.acm.org"
+      ],
+      "items": [
+        {
+          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+          "title": "利用代码审查推动可持续的AI编码开发",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "cacm.acm.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:43:06.097000Z"
+        },
+        {
+          "id": "3229d72075b36622f24128425c5a6723c068524e",
+          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:41:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5249,
+      "importance": 0.5249,
+      "importance_score": 0.5249,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8841,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T16:41:01Z",
+      "latest_at": "2026-09-06T16:43:06.097000Z",
+      "primary_item": {
+        "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+        "title": "利用代码审查推动可持续的AI编码开发",
+        "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+        "source": "cacm.acm.org",
         "source_name": "Buzzing"
       }
     },
@@ -1141,15 +1539,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5287,
-      "importance": 0.5287,
-      "importance_score": 0.5287,
+      "score": 0.5235,
+      "importance": 0.5235,
+      "importance_score": 0.5235,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9048,
+        "recency": 0.8763,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1164,85 +1562,6 @@
         "url": "https://github.com/openai/skills",
         "source": "github",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_7737bba1b986",
-      "title": "人工智能关机——保持人性",
-      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-      "primary_url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-      "source": "keepitfree.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
-          "title": "人工智能关机——保持人性",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-          "source": "keepitfree.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T15:26:17.429000Z"
-        },
-        {
-          "id": "be8a04075f10c8afce894d3548d9bafd8fb4cf66",
-          "title": "人工智能关机——保持人性 / A/I shuts down – Stay human",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T14:34:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "keepitfree.ai"
-      ],
-      "items": [
-        {
-          "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
-          "title": "人工智能关机——保持人性",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-          "source": "keepitfree.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T15:26:17.429000Z"
-        },
-        {
-          "id": "be8a04075f10c8afce894d3548d9bafd8fb4cf66",
-          "title": "人工智能关机——保持人性 / A/I shuts down – Stay human",
-          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T14:34:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5271,
-      "importance": 0.5271,
-      "importance_score": 0.5271,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8962,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T14:34:34Z",
-      "latest_at": "2026-09-06T15:26:17.429000Z",
-      "primary_item": {
-        "id": "1e038220b670de48b431edd4c1845c9c1aedf7a6",
-        "title": "人工智能关机——保持人性",
-        "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-        "source": "keepitfree.ai",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1299,15 +1618,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5246,
-      "importance": 0.5246,
-      "importance_score": 0.5246,
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8825,
+        "recency": 0.8547,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1377,15 +1696,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
+      "score": 0.5143,
+      "importance": 0.5143,
+      "importance_score": 0.5143,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8521,
+        "recency": 0.8252,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1400,322 +1719,6 @@
         "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_c7d885b8775d",
-      "title": "Anthropic 15 亿美元 AI 版权和解金开始发放，分配争议持续",
-      "url": "https://www.ithome.com/0/999/049.htm",
-      "primary_url": "https://www.ithome.com/0/999/049.htm",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "3482c0118349cce072e850b8c1a162a310115434",
-          "title": "Anthropic 15 亿美元 AI 版权和解金开始发放，分配争议持续",
-          "url": "https://www.ithome.com/0/999/049.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "4d886298410d831a31b0f3a6fe9b75c01731474e",
-          "title": "Anthropic 15 亿美元 AI 版权和解金开始陆续发放，但出版社和作者分配补偿争议不断",
-          "url": "https://www.ithome.com/0/999/049.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T22:43:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "3482c0118349cce072e850b8c1a162a310115434",
-          "title": "Anthropic 15 亿美元 AI 版权和解金开始发放，分配争议持续",
-          "url": "https://www.ithome.com/0/999/049.htm",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "4d886298410d831a31b0f3a6fe9b75c01731474e",
-          "title": "Anthropic 15 亿美元 AI 版权和解金开始陆续发放，但出版社和作者分配补偿争议不断",
-          "url": "https://www.ithome.com/0/999/049.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T22:43:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T22:43:34Z",
-      "latest_at": "2026-09-06T23:01:43.844051Z",
-      "primary_item": {
-        "id": "3482c0118349cce072e850b8c1a162a310115434",
-        "title": "Anthropic 15 亿美元 AI 版权和解金开始发放，分配争议持续",
-        "url": "https://www.ithome.com/0/999/049.htm",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_826679545639",
-      "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题",
-      "url": "https://mathstodon.xyz/@tao/117207856734787448",
-      "primary_url": "https://mathstodon.xyz/@tao/117207856734787448",
-      "source": "mathstodon.xyz",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "856183ebde749a684f67f599ef0d4ce69a0b934a",
-          "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题",
-          "url": "https://mathstodon.xyz/@tao/117207856734787448",
-          "source": "mathstodon.xyz",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T07:48:53.501000Z"
-        },
-        {
-          "id": "05d96717a15c645dcd388f6c95f9d86c0a480984",
-          "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题 / Terence Tao on “prematurely solving [a maths] problem by purely AI-powered methods”",
-          "url": "https://mathstodon.xyz/@tao/117207856734787448",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T07:45:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "mathstodon.xyz"
-      ],
-      "items": [
-        {
-          "id": "856183ebde749a684f67f599ef0d4ce69a0b934a",
-          "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题",
-          "url": "https://mathstodon.xyz/@tao/117207856734787448",
-          "source": "mathstodon.xyz",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T07:48:53.501000Z"
-        },
-        {
-          "id": "05d96717a15c645dcd388f6c95f9d86c0a480984",
-          "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题 / Terence Tao on “prematurely solving [a maths] problem by purely AI-powered methods”",
-          "url": "https://mathstodon.xyz/@tao/117207856734787448",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T07:45:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5103,
-      "importance": 0.5103,
-      "importance_score": 0.5103,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8028,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T07:45:24Z",
-      "latest_at": "2026-09-06T07:48:53.501000Z",
-      "primary_item": {
-        "id": "856183ebde749a684f67f599ef0d4ce69a0b934a",
-        "title": "陶哲轩谈仅凭纯人工智能方法过早解决[一个数学]问题",
-        "url": "https://mathstodon.xyz/@tao/117207856734787448",
-        "source": "mathstodon.xyz",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f2769b9ac609",
-      "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
-      "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-      "primary_url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
-          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
-          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T17:30:50.842000Z"
-        },
-        {
-          "id": "75d0ddc47e7e05a7db91b65c1ec7ce4908aed738",
-          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。 / AI agents keep finding ways to bend the rules. Here are some of the wildest.",
-          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T17:05:25Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
-          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
-          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T17:30:50.842000Z"
-        },
-        {
-          "id": "75d0ddc47e7e05a7db91b65c1ec7ce4908aed738",
-          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。 / AI agents keep finding ways to bend the rules. Here are some of the wildest.",
-          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T17:05:25Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.532,
-      "importance": 0.532,
-      "importance_score": 0.532,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9235,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T17:05:25Z",
-      "latest_at": "2026-09-06T17:30:50.842000Z",
-      "primary_item": {
-        "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
-        "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
-        "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_00143ffe2cbd",
-      "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能",
-      "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-      "primary_url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "e58dbb57a567b35015def7aa2c8093185e4b8e87",
-          "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "1609471a0c3c4e42099ed11bd509604107717edf",
-          "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能 / Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "TechRadar",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T12:30:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI",
-        "TechRadar"
-      ],
-      "items": [
-        {
-          "id": "e58dbb57a567b35015def7aa2c8093185e4b8e87",
-          "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "1609471a0c3c4e42099ed11bd509604107717edf",
-          "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能 / Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "TechRadar",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T12:30:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.521,
-      "importance": 0.521,
-      "importance_score": 0.521,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8622,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T12:30:00Z",
-      "latest_at": "2026-09-06T12:45:30.974714Z",
-      "primary_item": {
-        "id": "e58dbb57a567b35015def7aa2c8093185e4b8e87",
-        "title": "Flock 的 AI 警务搜索工具被逆向工程，揭示其功能",
-        "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
       }
     }
   ]
