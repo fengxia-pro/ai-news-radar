@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:58:22.655957Z",
+  "generated_at": "2026-09-11T22:28:17.667861Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.865,
-      "importance": 0.865,
-      "importance_score": 0.865,
+      "score": 0.8588,
+      "importance": 0.8588,
+      "importance_score": 0.8588,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9781,
+        "recency": 0.9434,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8609,
-      "importance": 0.8609,
-      "importance_score": 0.8609,
+      "score": 0.8553,
+      "importance": 0.8553,
+      "importance_score": 0.8553,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8659,
+        "recency": 0.8352,
         "story_heat": 0.25
       },
       "category": "official",
@@ -164,6 +164,192 @@
         "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇） / Rapidly scaling online storage to serve over 1 billion ChatGPT users",
         "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ed5843bdd0a9",
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "primary_url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6a28b4e26cc701066b0b877350ad6928fee9bfe5",
+          "title": "Add VS Code Agents to Copilot usage metrics",
+          "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T21:30:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "6a28b4e26cc701066b0b877350ad6928fee9bfe5",
+          "title": "Add VS Code Agents to Copilot usage metrics",
+          "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T21:30:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8495,
+      "importance": 0.8495,
+      "importance_score": 0.8495,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9862,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T21:30:30Z",
+      "latest_at": "2026-09-11T21:30:30Z",
+      "primary_item": {
+        "id": "6a28b4e26cc701066b0b877350ad6928fee9bfe5",
+        "title": "Add VS Code Agents to Copilot usage metrics",
+        "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "Quick chats with Pets and Appshots on Windows 26.908",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "7117458f518f885fe141d11b2560556284fc84d8",
+          "title": "Quick chats with Pets and Appshots on Windows 26.908",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "7117458f518f885fe141d11b2560556284fc84d8",
+          "title": "Quick chats with Pets and Appshots on Windows 26.908",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8161,
+      "importance": 0.8161,
+      "importance_score": 0.8161,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7229,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T00:00:00Z",
+      "latest_at": "2026-09-11T00:00:00Z",
+      "primary_item": {
+        "id": "7117458f518f885fe141d11b2560556284fc84d8",
+        "title": "Quick chats with Pets and Appshots on Windows 26.908",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_850b6df2d33d",
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "primary_url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "eb40e36e6a9a04e2c03ce1e5fef7636434e1b494",
+          "title": "Auto-resolution and analysis updates in Copilot code review",
+          "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T20:00:07Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "eb40e36e6a9a04e2c03ce1e5fef7636434e1b494",
+          "title": "Auto-resolution and analysis updates in Copilot code review",
+          "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T20:00:07Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8457,
+      "importance": 0.8457,
+      "importance_score": 0.8457,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.965,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T20:00:07Z",
+      "latest_at": "2026-09-11T20:00:07Z",
+      "primary_item": {
+        "id": "eb40e36e6a9a04e2c03ce1e5fef7636434e1b494",
+        "title": "Auto-resolution and analysis updates in Copilot code review",
+        "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -221,15 +407,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8103,
-      "importance": 0.8103,
-      "importance_score": 0.8103,
+      "score": 0.8045,
+      "importance": 0.8045,
+      "importance_score": 0.8045,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9153,
+        "recency": 0.8828,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -246,68 +432,6 @@
         "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6ecf9c52fc09",
-      "title": "GitHub Copilot weekly releases — September 7",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "primary_url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
-          "title": "GitHub Copilot weekly releases — September 7",
-          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T22:55:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
-          "title": "GitHub Copilot weekly releases — September 7",
-          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T22:55:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8048,
-      "importance": 0.8048,
-      "importance_score": 0.8048,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7378,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T22:55:07Z",
-      "latest_at": "2026-09-10T22:55:07Z",
-      "primary_item": {
-        "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
-        "title": "GitHub Copilot weekly releases — September 7",
-        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -364,15 +488,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7764,
-      "importance": 0.7764,
-      "importance_score": 0.7764,
+      "score": 0.7706,
+      "importance": 0.7706,
+      "importance_score": 0.7706,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9099,
+        "recency": 0.8777,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -389,211 +513,6 @@
         "url": "https://www.aibase.com/news/30999",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_115895427a12",
-      "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-          "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T21:31:19Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "items": [
-        {
-          "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-          "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T21:31:19Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8022,
-      "importance": 0.8022,
-      "importance_score": 0.8022,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7231,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T21:31:19Z",
-      "latest_at": "2026-09-10T21:31:19Z",
-      "primary_item": {
-        "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-        "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_a1f5ae11a556",
-      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-      "primary_url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "8a0baefcc3fe89c97bb6a98c6d29067650885567",
-          "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T20:57:30Z"
-        },
-        {
-          "id": "7ea776bd166fb7b867ed2c6fc9c453bc2ff3f5c8",
-          "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击 / Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-10T20:57:30Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "8a0baefcc3fe89c97bb6a98c6d29067650885567",
-          "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T20:57:30Z"
-        },
-        {
-          "id": "7ea776bd166fb7b867ed2c6fc9c453bc2ff3f5c8",
-          "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击 / Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-10T20:57:30Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7657,
-      "importance": 0.7657,
-      "importance_score": 0.7657,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7172,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T20:57:30Z",
-      "latest_at": "2026-09-10T20:57:30Z",
-      "primary_item": {
-        "id": "8a0baefcc3fe89c97bb6a98c6d29067650885567",
-        "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-        "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_437450430f85",
-      "title": "公开预览中刷新的存储库拉取请求页面 / Refreshed repository pull requests page in public preview",
-      "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-          "title": "公开预览中刷新的存储库拉取请求页面 / Refreshed repository pull requests page in public preview",
-          "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T21:27:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-          "title": "公开预览中刷新的存储库拉取请求页面 / Refreshed repository pull requests page in public preview",
-          "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T21:27:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.794,
-      "importance": 0.794,
-      "importance_score": 0.794,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7224,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T21:27:17Z",
-      "latest_at": "2026-09-10T21:27:17Z",
-      "primary_item": {
-        "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-        "title": "公开预览中刷新的存储库拉取请求页面 / Refreshed repository pull requests page in public preview",
-        "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -650,15 +569,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7764,
-      "importance": 0.7764,
-      "importance_score": 0.7764,
+      "score": 0.7706,
+      "importance": 0.7706,
+      "importance_score": 0.7706,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9099,
+        "recency": 0.8777,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -675,6 +594,68 @@
         "url": "https://www.aibase.com/news/30993",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6ecf9c52fc09",
+      "title": "GitHub Copilot weekly releases — September 7",
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "primary_url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
+          "title": "GitHub Copilot weekly releases — September 7",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T22:55:07Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
+          "title": "GitHub Copilot weekly releases — September 7",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T22:55:07Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8001,
+      "importance": 0.8001,
+      "importance_score": 0.8001,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7117,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-10T22:55:07Z",
+      "latest_at": "2026-09-10T22:55:07Z",
+      "primary_item": {
+        "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
+        "title": "GitHub Copilot weekly releases — September 7",
+        "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -712,15 +693,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7434,
-      "importance": 0.7434,
-      "importance_score": 0.7434,
+      "score": 0.7383,
+      "importance": 0.7383,
+      "importance_score": 0.7383,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7987,
+        "recency": 0.7704,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -772,15 +753,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7407,
-      "importance": 0.7407,
-      "importance_score": 0.7407,
+      "score": 0.7347,
+      "importance": 0.7347,
+      "importance_score": 0.7347,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9507,
+        "recency": 0.917,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -795,68 +776,6 @@
         "url": "https://www.dwarkesh.com/p/john-beren-charlie",
         "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_4aaaad58edea",
-      "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
-      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-          "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
-          "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T20:20:58Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-          "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
-          "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T20:20:58Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.792,
-      "importance": 0.792,
-      "importance_score": 0.792,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.711,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T20:20:58Z",
-      "latest_at": "2026-09-10T20:20:58Z",
-      "primary_item": {
-        "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-        "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
-        "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -913,15 +832,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7747,
-      "importance": 0.7747,
-      "importance_score": 0.7747,
+      "score": 0.769,
+      "importance": 0.769,
+      "importance_score": 0.769,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9006,
+        "recency": 0.8686,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -994,15 +913,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7694,
-      "importance": 0.7694,
-      "importance_score": 0.7694,
+      "score": 0.7639,
+      "importance": 0.7639,
+      "importance_score": 0.7639,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8713,
+        "recency": 0.8405,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1056,15 +975,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7542,
+      "importance": 0.7542,
+      "importance_score": 0.7542,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9597,
+        "recency": 0.9257,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1117,15 +1036,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7603,
-      "importance": 0.7603,
-      "importance_score": 0.7603,
+      "score": 0.7542,
+      "importance": 0.7542,
+      "importance_score": 0.7542,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9597,
+        "recency": 0.9257,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1196,15 +1115,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6016,
-      "importance": 0.6016,
-      "importance_score": 0.6016,
+      "score": 0.5957,
+      "importance": 0.5957,
+      "importance_score": 0.5957,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.923,
+        "recency": 0.8903,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1292,15 +1211,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
+      "score": 0.5871,
+      "importance": 0.5871,
+      "importance_score": 0.5871,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8518,
+        "recency": 0.8216,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1352,21 +1271,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7514,
-      "importance": 0.7514,
-      "importance_score": 0.7514,
+      "score": 0.7456,
+      "importance": 0.7456,
+      "importance_score": 0.7456,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9099,
+        "recency": 0.8777,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-11T13:26:10.289571Z",
       "latest_at": "2026-09-11T13:26:10.289571Z",
@@ -1379,101 +1297,199 @@
       }
     },
     {
-      "story_id": "story_da05411f0a2d",
-      "title": "数学领域中人工智能的严重偏差",
-      "url": "https://mathandai.org",
-      "primary_url": "https://mathandai.org",
-      "source": "mathandai.org",
+      "story_id": "story_b52898a627b9",
+      "title": "数学领域中人工智能的偏差",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+      "primary_url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+      "source": "terrytao.wordpress.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "7e714b3150cc17dea5e6af57e6e97172f05a5955",
-          "title": "数学领域中人工智能的严重偏差",
-          "url": "https://mathandai.org",
-          "source": "mathandai.org",
+          "id": "c5f7b4eb0085aacc80dfd3c0d8dd0b4e48e7d2d6",
+          "title": "数学领域中人工智能的偏差",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+          "source": "terrytao.wordpress.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-11T19:23:06.738000Z"
+          "published_at": "2026-09-11T19:07:02.862000Z"
         },
         {
-          "id": "fe4f4916f84e5a4221aa29b0fe2fe2c8dc9840d6",
-          "title": "数学领域中人工智能的严重偏差 / A Severe Misalignment of AI in Mathematics",
-          "url": "https://mathandai.org",
+          "id": "9d8c032b57d7416aaedf1c3dafd89a5d0918b19d",
+          "title": "数学领域中人工智能的偏差 / A Severe Misalignment of AI in Mathematics",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-09-11T19:09:22Z"
+          "published_at": "2026-09-11T19:03:30Z"
         },
         {
-          "id": "d0ef9d0f1ca16ef1f0c2ea6a82397a5ccb3268f0",
-          "title": "数学领域中人工智能的严重偏差 / A misalignment of AI in mathematics",
-          "url": "https://mathandai.org",
+          "id": "90a9f01a51043897a1ae39cab395ed7f6b3b807e",
+          "title": "数学领域中人工智能的偏差 / A Misalignment of AI in Mathematics",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-11T17:45:12Z"
+          "published_at": "2026-09-11T17:30:26Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News",
         "Lobsters (技术社区)",
-        "mathandai.org"
+        "terrytao.wordpress.com"
       ],
       "items": [
         {
-          "id": "7e714b3150cc17dea5e6af57e6e97172f05a5955",
-          "title": "数学领域中人工智能的严重偏差",
-          "url": "https://mathandai.org",
-          "source": "mathandai.org",
+          "id": "c5f7b4eb0085aacc80dfd3c0d8dd0b4e48e7d2d6",
+          "title": "数学领域中人工智能的偏差",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+          "source": "terrytao.wordpress.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-11T19:23:06.738000Z"
+          "published_at": "2026-09-11T19:07:02.862000Z"
         },
         {
-          "id": "fe4f4916f84e5a4221aa29b0fe2fe2c8dc9840d6",
-          "title": "数学领域中人工智能的严重偏差 / A Severe Misalignment of AI in Mathematics",
-          "url": "https://mathandai.org",
+          "id": "9d8c032b57d7416aaedf1c3dafd89a5d0918b19d",
+          "title": "数学领域中人工智能的偏差 / A Severe Misalignment of AI in Mathematics",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-09-11T19:09:22Z"
+          "published_at": "2026-09-11T19:03:30Z"
         },
         {
-          "id": "d0ef9d0f1ca16ef1f0c2ea6a82397a5ccb3268f0",
-          "title": "数学领域中人工智能的严重偏差 / A misalignment of AI in mathematics",
-          "url": "https://mathandai.org",
+          "id": "90a9f01a51043897a1ae39cab395ed7f6b3b807e",
+          "title": "数学领域中人工智能的偏差 / A Misalignment of AI in Mathematics",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-11T17:45:12Z"
+          "published_at": "2026-09-11T17:30:26Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5693,
-      "importance": 0.5693,
-      "importance_score": 0.5693,
+      "score": 0.5623,
+      "importance": 0.5623,
+      "importance_score": 0.5623,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9915,
+        "recency": 0.9527,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-11T17:45:12Z",
-      "latest_at": "2026-09-11T19:23:06.738000Z",
+      "earliest_at": "2026-09-11T17:30:26Z",
+      "latest_at": "2026-09-11T19:07:02.862000Z",
       "primary_item": {
-        "id": "7e714b3150cc17dea5e6af57e6e97172f05a5955",
-        "title": "数学领域中人工智能的严重偏差",
-        "url": "https://mathandai.org",
-        "source": "mathandai.org",
+        "id": "c5f7b4eb0085aacc80dfd3c0d8dd0b4e48e7d2d6",
+        "title": "数学领域中人工智能的偏差",
+        "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+        "source": "terrytao.wordpress.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_10e6a19e64e3",
+      "title": "Show HN: Hacker News, Without AI",
+      "url": "https://www.unslop.news",
+      "primary_url": "https://www.unslop.news",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "71d705b08990ca0079691c70fdfebb071af947c0",
+          "title": "Show HN: Hacker News, Without AI",
+          "url": "https://www.unslop.news",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-11T16:08:50Z"
+        },
+        {
+          "id": "ab898550e7375019bb0328481497522fbf2efbc8",
+          "title": "Show HN: Hacker News，不含人工智能",
+          "url": "https://hcker.news/?ai=exclude",
+          "source": "hcker.news",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-11T15:09:04.577000Z"
+        },
+        {
+          "id": "e65f4a168b6b221aeb4c389370c2e1f8f7446e17",
+          "title": "Show HN: Hacker News，不含人工智能 / Show HN: Hacker News, without AI",
+          "url": "https://hcker.news/?ai=exclude",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-11T15:01:19Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "hcker.news"
+      ],
+      "items": [
+        {
+          "id": "71d705b08990ca0079691c70fdfebb071af947c0",
+          "title": "Show HN: Hacker News, Without AI",
+          "url": "https://www.unslop.news",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-11T16:08:50Z"
+        },
+        {
+          "id": "ab898550e7375019bb0328481497522fbf2efbc8",
+          "title": "Show HN: Hacker News，不含人工智能",
+          "url": "https://hcker.news/?ai=exclude",
+          "source": "hcker.news",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-11T15:09:04.577000Z"
+        },
+        {
+          "id": "e65f4a168b6b221aeb4c389370c2e1f8f7446e17",
+          "title": "Show HN: Hacker News，不含人工智能 / Show HN: Hacker News, without AI",
+          "url": "https://hcker.news/?ai=exclude",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-11T15:01:19Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9127,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-11T15:01:19Z",
+      "latest_at": "2026-09-11T16:08:50Z",
+      "primary_item": {
+        "id": "71d705b08990ca0079691c70fdfebb071af947c0",
+        "title": "Show HN: Hacker News, Without AI",
+        "url": "https://www.unslop.news",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
       }
     }
   ]
