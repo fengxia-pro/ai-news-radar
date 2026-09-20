@@ -1090,7 +1090,7 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "site_name": "中国科学基金",
         "source": "中国科学基金",
         "url": "https://www.sciengine.com/BNSFC/home",
-        "api_url": "https://www.sciengine.com/sciPublisher/journalDetailCurrentIssue?pageNo=1&pageSize=50&journalBaseId=221bb8ffec5b45d6a3ad2101d43b69b2",
+        "api_url": "https://www.sciengine.com/sci-open/api/v1/open/journalHome/journalDetailCurrentIssue?pageNo=1&pageSize=50&journalBaseId=221bb8ffec5b45d6a3ad2101d43b69b2",
         "source_type": "journal",
         "max_items": 50,
         "kind": "sciengine_current_issue",
@@ -1118,7 +1118,7 @@ GRANT_POLICY_SOURCES: tuple[dict[str, Any], ...] = (
         "site_name": "科学通报",
         "source": "科学通报 最近一期",
         "url": "https://www.sciengine.com/CSB/home",
-        "api_url": "https://www.sciengine.com/restData/journalDetailCurrentIssue?pageNo=1&pageSize=80&journalBaseId=tJmzTo54emWeubAbY",
+        "api_url": "https://www.sciengine.com/sci-open/api/v1/open/journalHome/journalDetailCurrentIssue?pageNo=1&pageSize=80&journalBaseId=tJmzTo54emWeubAbY",
         "source_type": "journal",
         "max_items": 80,
         "kind": "sciengine_current_issue",
@@ -2129,7 +2129,11 @@ def parse_sciengine_current_issue_items(
     source: dict[str, Any],
     now: datetime,
 ) -> list[RawItem]:
-    rows = payload if isinstance(payload, list) else payload.get("list", []) if isinstance(payload, dict) else []
+    if isinstance(payload, dict) and payload.get("success") is False:
+        raise ValueError("Sciengine current issue request was unsuccessful")
+    rows = payload if isinstance(payload, list) else payload.get("data", payload.get("list", [])) if isinstance(payload, dict) else []
+    if not isinstance(rows, list):
+        raise ValueError("Unexpected Sciengine current issue response")
     out: list[RawItem] = []
     max_items = int(source.get("max_items") or 8)
     for row in rows:
@@ -2318,7 +2322,7 @@ def fetch_xssc_section_items(
 
 
 def jina_reader_url(url: str) -> str:
-    return f"https://r.jina.ai/http://{url}"
+    return f"https://r.jina.ai/{url}"
 
 
 def parse_sciencedirect_issue_items(
@@ -2432,7 +2436,7 @@ def fetch_grant_policy_source(
                 if len(items) >= int(source.get("max_items") or 20):
                     break
         elif source.get("kind") == "sciengine_current_issue":
-            resp = session.post(
+            resp = session.get(
                 str(source.get("api_url") or source["url"]),
                 timeout=25,
                 headers={"Referer": str(source["url"])},
@@ -4704,7 +4708,41 @@ def parse_ai_breakfast_items(markdown_text: str, now: datetime) -> list[RawItem]
     return out
 
 
+def parse_ai_breakfast_html(html: str, now: datetime) -> list[RawItem]:
+    out: list[RawItem] = []
+    seen: set[str] = set()
+    for link in BeautifulSoup(html, "html.parser").select("a[href]"):
+        url = urljoin("https://aibreakfast.beehiiv.com/", link.get("href", ""))
+        if urlparse(url).hostname != "aibreakfast.beehiiv.com" or not urlparse(url).path.startswith("/p/"):
+            continue
+        title = str(link.get("aria-label") or "").strip()
+        heading = link.find(["h2", "h3", "h4"])
+        if not title and heading:
+            title = heading.get_text(" ", strip=True)
+        date_match = re.search(r"[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}", link.get_text(" ", strip=True))
+        if not title or not date_match or url in seen:
+            continue
+        published = parse_date_any(date_match.group(), now)
+        if not published or (now and published < now - timedelta(days=OFFICIAL_AI_MAX_AGE_DAYS)):
+            continue
+        seen.add(url)
+        out.append(RawItem(
+            site_id="aibreakfast", site_name="AI Breakfast", source="AI Breakfast",
+            title=maybe_fix_mojibake(title), url=url, published_at=published,
+            meta={"feed_home": "https://aibreakfast.beehiiv.com/"},
+        ))
+    return out
+
+
 def fetch_ai_breakfast(session: requests.Session, now: datetime) -> list[RawItem]:
+    try:
+        direct = session.get("https://aibreakfast.beehiiv.com/", timeout=25, headers={"User-Agent": BROWSER_UA})
+        direct.raise_for_status()
+        items = parse_ai_breakfast_html(direct.text, now)
+        if items:
+            return items
+    except requests.RequestException:
+        pass  # Some runners cannot reach Beehiiv; retain the reader fallback.
     resp = session.get(
         AIBREAKFAST_JINA_URL,
         timeout=25,

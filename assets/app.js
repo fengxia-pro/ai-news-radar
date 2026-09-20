@@ -35,6 +35,7 @@ const state = {
   waytoagiMode: "today",
   waytoagiData: null,
   sourceStatus: null,
+  newsLoadError: false,
   generatedAt: null,
   dailyBrief: null,
   storiesMerged: null,
@@ -228,10 +229,13 @@ function modelScoreTimeText(style = "detail") {
   }
   const collectedAt = fmtTime(state.modelScoreData?.generated_at);
   const sourceLabel = state.modelScoreData?.updated_label || "";
-  if (style === "title") return `本站更新 ${collectedAt}`;
+  const stale = state.modelScoreData?.refresh_status?.ok === false
+    || Date.now() - Date.parse(state.modelScoreData?.generated_at) > 3 * 86400000;
+  const warning = stale ? "（更新待恢复，展示保留数据）" : "";
+  if (style === "title") return `本站采集 ${collectedAt}${warning}`;
   return [
     sourceLabel ? `Vellum 标注：${sourceLabel}` : "",
-    `本站采集：${collectedAt}`,
+    `本站采集：${collectedAt}${warning}`,
   ].filter(Boolean).join(" · ");
 }
 
@@ -738,7 +742,8 @@ function renderSectionSummary(filteredItems = null) {
   }
   if (state.activeSection === "model_scores") {
     const updated = modelScoreTimeText();
-    sectionSummaryEl.textContent = `专题池 · GPQA / AIME / ARC-AGI 三个科研相关指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
+    const count = state.modelScoreData?.research_metrics?.length || 0;
+    sectionSummaryEl.textContent = `专题池 · ${count} 个科研与工作流指标 · 来源 Vellum LLM Leaderboard · ${updated}`;
     renderStickySummary();
     return;
   }
@@ -3243,10 +3248,23 @@ function renderSiteGroups(items) {
 
 function renderModelScoreEmbed() {
   const sourceUrl = state.modelScoreData?.source_url || MODEL_SCORE_LEADERBOARD_URL;
-  const metrics = Array.isArray(state.modelScoreData?.research_metrics) ? state.modelScoreData.research_metrics : [];
+  const allMetrics = Array.isArray(state.modelScoreData?.research_metrics) ? state.modelScoreData.research_metrics : [];
+  const query = state.query.trim().toLowerCase();
+  const metrics = allMetrics.filter((metric) => !query || [
+    metric.label, metric.title, metric.why, metric.intro,
+    ...(metric.items || []).map((item) => item.model),
+  ].join(" ").toLowerCase().includes(query));
   resultCountEl.textContent = `${fmtNumber(metrics.length)} 个科研指标`;
   renderSectionSummary(state.modelScoreItems || []);
   newsListEl.innerHTML = "";
+  if (!metrics.length) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.textContent = allMetrics.length ? "没有匹配的模型或指标，请尝试其他关键词。" : "模型评分数据暂时无法加载，请稍后刷新。";
+    newsListEl.appendChild(empty);
+    document.dispatchEvent(new CustomEvent("aiRadar:listRendered"));
+    return;
+  }
 
   const panel = document.createElement("section");
   panel.className = "model-score-research";
@@ -3569,6 +3587,7 @@ function renderGrantBookList() {
 }
 
 function renderList() {
+  const token = ++_renderListToken; // Invalidate pending news renders even for special sections.
   if (state.activeSection === "grant_books") {
     renderGrantBookList();
     return;
@@ -3584,14 +3603,15 @@ function renderList() {
   renderSectionSummary(filtered);
 
   newsListEl.innerHTML = "";
-  _renderListToken += 1;           // invalidate any in-flight render
-  const token = _renderListToken;
 
   if (!filtered.length) {
     const empty = document.createElement("div");
     empty.className = "empty";
-    empty.textContent = state.activeSection === "slow_professor"
-      ? "暂无可核验的慢教授公众号文章。请配置公网 WeWe/RSS 后自动呈现；当前不会用第三方转载页冒充公众号文章。"
+    const specialSection = ["grant_policy", "slow_professor", "github_projects"].includes(state.activeSection);
+    empty.textContent = state.newsLoadError && !specialSection
+      ? "新闻数据暂时无法加载，请稍后刷新；其他专题仍可浏览。"
+      : state.activeSection === "creator" && !state.creatorItemsAll.length
+      ? "近一周暂无自媒体内容。可在源状态中查看来源接入情况。"
       : "当前筛选条件下没有结果。";
     newsListEl.appendChild(empty);
     return;
@@ -4204,20 +4224,10 @@ async function init() {
     state.allDataLoaded = Boolean(payload.items_all || payload.items_all_raw);
     state.generatedAt = payload.generated_at;
 
-    setStats();
-    renderSectionTabs();
-    renderModeSwitch();
-    renderListSortTools();
-    renderCoverageStrip();
-    renderSiteFilters();
-    renderBolePicks();
-    renderGrantPolicy();
-    renderList();
     updatedAtEl.textContent = fmtTime(state.generatedAt);
   } else {
+    state.newsLoadError = true;
     updatedAtEl.textContent = "新闻数据加载失败";
-    newsListEl.innerHTML = `<div class="empty">${newsResult.reason.message}</div>`;
-    renderCoverageStrip(newsResult.reason.message);
   }
 
   if (statusResult.status === "fulfilled") {
@@ -4238,6 +4248,9 @@ async function init() {
     waytoagiListEl.innerHTML = `<div class="waytoagi-error">${waytoagiResult.reason.message}</div>`;
   }
 
+  // Independent topic data remains usable when the main news request fails.
+  setStats();
+  rerenderCurrentView();
   document.dispatchEvent(new CustomEvent("aiRadar:ready"));
 }
 

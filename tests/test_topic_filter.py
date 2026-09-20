@@ -487,7 +487,7 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         source = next(item for item in GRANT_POLICY_SOURCES if item["site_id"] == "grant_csb")
 
         self.assertEqual(source["kind"], "sciengine_current_issue")
-        self.assertIn("/restData/journalDetailCurrentIssue", source["api_url"])
+        self.assertIn("/sci-open/api/v1/open/journalHome/journalDetailCurrentIssue", source["api_url"])
         self.assertIn("journalBaseId=tJmzTo54emWeubAbY", source["api_url"])
         self.assertGreaterEqual(source["max_items"], 20)
 
@@ -984,14 +984,13 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
         self.assertIn("work-automations", metrics)
         self.assertIn("computer-use", metrics)
         self.assertIn("terminal-use", metrics)
-        self.assertEqual(metrics["gpqa"]["items"][2], {"model": "GPT-5.6 Sol", "score": 94.6})
-        self.assertEqual(metrics["arc-agi"]["items"][0], {"model": "GPT-5.6 Sol", "score": 92.5})
-        self.assertEqual(metrics["work-automations"]["items"][0], {"model": "Claude Opus 5", "score": 26})
-        self.assertEqual(metrics["work-automations"]["items"][1], {"model": "GPT-5.6 Sol", "score": 18.1})
-        self.assertEqual(metrics["computer-use"]["items"][0], {"model": "Claude Fable 5", "score": 85})
-        self.assertEqual(metrics["terminal-use"]["items"][0], {"model": "GPT-5.6 Sol", "score": 88.8})
-        self.assertEqual(metrics["terminal-use"]["items"][1], {"model": "Kimi K3", "score": 88.3})
-        self.assertEqual(metrics["terminal-use"]["items"][2], {"model": "Claude Mythos 5", "score": 88})
+        # Rankings refresh daily; validate the published contract, not a frozen winner.
+        for metric in metrics.values():
+            self.assertEqual(len(metric["items"]), 5)
+            scores = [item["score"] for item in metric["items"]]
+            self.assertEqual(scores, sorted(scores, reverse=True))
+            self.assertTrue(all(0 <= score <= 100 for score in scores))
+            self.assertEqual(len({item["model"] for item in metric["items"]}), 5)
         self.assertIn("科研与工作流最相关的六类模型能力", app_js)
         self.assertIn("Terminal Use 看终端环境执行", app_js)
         self.assertIn("metric.intro_label", app_js)

@@ -92,8 +92,11 @@ baseline, then let the aggregator layer add breadth.
   AI relevance scoring as the rest of the radar. Research-heavy feeds are
   intentionally filtered and downweighted so they fill the research lane without
   dominating the default hot view.
-- **AI Breakfast**: reads the public Beehiiv archive through Jina Reader because
-  the original Beehiiv feed can be blocked from GitHub Actions.
+- **AI Breakfast**: reads dated article cards from the public Beehiiv archive,
+  with Jina Reader as a fallback when the original archive is unavailable.
+- **Model scores**: refreshes the six existing Vellum benchmark charts daily
+  through the snapshot workflow. A failed or incomplete fetch preserves the last
+  verified snapshot and exposes its original capture time and refresh status.
 - **AI HOT**: reads the public `https://aihot.virxact.com/api/public/items`
   API in selected mode and keeps only items whose AI HOT card score is at least
   60. The RSS feed is intentionally not used for the default fetch path because
