@@ -16,6 +16,7 @@ from scripts.update_news import (
     build_latest_payloads,
     build_slow_professor_payload,
     dedupe_items_by_title_url,
+    dedupe_slow_professor_records_by_url,
     DIGITAL_LIFE_KHAZIX_WECHAT_SITE_ID,
     enrich_grant_policy_journal_items,
     extract_wechat_article_meta_from_html,
@@ -931,16 +932,30 @@ Traditional ultrasound methods depend predominantly on evidence-based decision t
             for item in SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES
         }
 
-        self.assertEqual(len(manual_urls), 41)
+        self.assertEqual(len(manual_urls), len(SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES))
         self.assertTrue(manual_urls.issubset(payload_items))
         self.assertIn(cached_only_url, payload_items)
         self.assertFalse(payload_items[cached_only_url]["is_recent_7d"])
         self.assertFalse(payload_items[cached_only_url]["is_recent_3d"])
         self.assertTrue(payload_items[cached_only_url]["is_historical"])
         self.assertEqual(payload["retention_mode"], "cumulative_history")
-        self.assertEqual(payload["total_items"], 42)
+        self.assertEqual(payload["total_items"], len(manual_urls) + 1)
         self.assertEqual(payload["recent_7d_count"], 4)
-        self.assertEqual(payload["historical_count"], 38)
+        self.assertEqual(payload["historical_count"], len(manual_urls) - 3)
+
+    def test_slow_professor_verified_title_replaces_newer_pending_link(self):
+        pending = {
+            "url": "https://mp.weixin.qq.com/s/pending-article",
+            "title": "慢教授的科研江湖｜标题待核实（补录 01）",
+            "first_seen_at": "2026-09-20T00:00:00Z",
+        }
+        verified = {
+            **pending,
+            "title": "已核实的文章标题",
+            "first_seen_at": "2026-09-01T00:00:00Z",
+        }
+        for records in ([pending, verified], [verified, pending]):
+            self.assertEqual(dedupe_slow_professor_records_by_url(records), [verified])
 
     def test_slow_professor_frontend_renders_article_theme(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")

@@ -182,6 +182,126 @@ SLOW_PROFESSOR_WECHAT_SEED_ARTICLES: tuple[dict[str, str], ...] = (
 )
 SLOW_PROFESSOR_WECHAT_MANUAL_RECENT_ARTICLES: tuple[dict[str, str], ...] = (
     {
+        "title": "慢教授的科研江湖｜标题待核实（补录 01）",
+        "url": "https://mp.weixin.qq.com/s/wVPwn7SoPPdgmM_c5MgjbA",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 02）",
+        "url": "https://mp.weixin.qq.com/s/6UwV4NuIZDifVKqr-rBJ6Q",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 03）",
+        "url": "https://mp.weixin.qq.com/s/_fNlaMrodcg71WLgGHlpxg",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 04）",
+        "url": "https://mp.weixin.qq.com/s/Pw27OfyzfUoVg0_eUfih7g",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 05）",
+        "url": "https://mp.weixin.qq.com/s/PUKdIDRt4JvYkuaEo7_rVQ",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 06）",
+        "url": "https://mp.weixin.qq.com/s/6Of8VhN-g3RJ9pg_ocUepQ",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 07）",
+        "url": "https://mp.weixin.qq.com/s/h68QbJgPNwaiEI-ThWjzzQ",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 08）",
+        "url": "https://mp.weixin.qq.com/s/8DF8k6YfYTRQWR3SrB8NEw",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 09）",
+        "url": "https://mp.weixin.qq.com/s/md67jHTlvO6MCQ5I5fV7mg",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 10）",
+        "url": "https://mp.weixin.qq.com/s/FKSQR3_wO6Z1318r4HAxgw",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 11）",
+        "url": "https://mp.weixin.qq.com/s/4fH0lBwh8u7hRjKj1dM2Yw",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 12）",
+        "url": "https://mp.weixin.qq.com/s/U1v3WCnzkaJlZtyXlLFpqQ",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 13）",
+        "url": "https://mp.weixin.qq.com/s/kStncz5b440azz_89QErSA",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 14）",
+        "url": "https://mp.weixin.qq.com/s/vz_bQvr1vhr0MWwFymEwUg",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
+        "title": "慢教授的科研江湖｜标题待核实（补录 15）",
+        "url": "https://mp.weixin.qq.com/s/KymlwBBJxilOT8hQG8Gggg",
+        "published_at": "",
+        "summary": "用户提供的微信原文入口，标题和发布日期待核实；请点击原文阅读。",
+        "date_status": "unknown",
+        "date_label": "日期待核实",
+    },
+    {
         "title": "国自然放榜后，我想说几句实话",
         "url": "https://mp.weixin.qq.com/s/0uQVAg-NdX85-9uAIBYSdA",
         "published_at": "2026-08-28T07:16:26+08:00",
@@ -4134,7 +4254,7 @@ def dedupe_slow_professor_records_by_url(records: list[dict[str, Any]]) -> list[
     def quality(record: dict[str, Any]) -> tuple[int, int, float]:
         title = str(record.get("title") or "")
         has_theme = 1 if str(record.get("article_theme") or "").strip() else 0
-        has_real_title = 0 if "标题待核验" in title else 1
+        has_real_title = 0 if any(marker in title for marker in ("标题待核验", "标题待核实")) else 1
         seen = parse_iso(record.get("first_seen_at") or record.get("last_seen_at") or "") or datetime.min.replace(tzinfo=UTC)
         return has_theme, has_real_title, seen.timestamp()
 
