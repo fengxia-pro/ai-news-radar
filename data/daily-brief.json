@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:54:08.220254Z",
+  "generated_at": "2026-09-20T12:09:46.701635Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8405,
-      "importance": 0.8405,
-      "importance_score": 0.8405,
+      "score": 0.8285,
+      "importance": 0.8285,
+      "importance_score": 0.8285,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9048,
+        "recency": 0.8386,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -119,6 +119,228 @@
         "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
         "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ef0a886eb4a4",
+      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+      "url": "https://www.aibase.com/news/31201",
+      "primary_url": "https://www.aibase.com/news/31201",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
+          "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+          "url": "https://www.aibase.com/news/31201",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T12:09:46.701635Z"
+        },
+        {
+          "id": "fd0fd51afc417873c5f26bff2c788d99f2ea7220",
+          "title": "微信 AI 团队开源 WeKnora：知识库不再只「动嘴」，还能在沙箱里「动手」",
+          "url": "https://www.aibase.com/zh/news/31201",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
+          "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+          "url": "https://www.aibase.com/news/31201",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T12:09:46.701635Z"
+        },
+        {
+          "id": "fd0fd51afc417873c5f26bff2c788d99f2ea7220",
+          "title": "微信 AI 团队开源 WeKnora：知识库不再只「动嘴」，还能在沙箱里「动手」",
+          "url": "https://www.aibase.com/zh/news/31201",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-20T12:09:46.701635Z",
+      "latest_at": "2026-09-20T12:09:46.701635Z",
+      "primary_item": {
+        "id": "a7bb536250fe75ec404679adc54fc1acaea83ed4",
+        "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+        "url": "https://www.aibase.com/news/31201",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_b8f596441c84",
+      "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
+      "url": "https://www.aibase.com/news/31203",
+      "primary_url": "https://www.aibase.com/news/31203",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "1402a6e61563686b89d31bcad99e60c2b51f8857",
+          "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
+          "url": "https://www.aibase.com/news/31203",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T12:09:46.701635Z"
+        },
+        {
+          "id": "323c43aa24ca76d1c20009012d1a02f2506f1082",
+          "title": "特朗普要给“人工智能”改名：超 18 万人投票，“卓越智能”票数暂领先",
+          "url": "https://www.ithome.com/1/004/829.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T07:46:36Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "IT之家 (ITHome)"
+      ],
+      "items": [
+        {
+          "id": "1402a6e61563686b89d31bcad99e60c2b51f8857",
+          "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
+          "url": "https://www.aibase.com/news/31203",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T12:09:46.701635Z"
+        },
+        {
+          "id": "323c43aa24ca76d1c20009012d1a02f2506f1082",
+          "title": "特朗普要给“人工智能”改名：超 18 万人投票，“卓越智能”票数暂领先",
+          "url": "https://www.ithome.com/1/004/829.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-20T07:46:36Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-20T07:46:36Z",
+      "latest_at": "2026-09-20T12:09:46.701635Z",
+      "primary_item": {
+        "id": "1402a6e61563686b89d31bcad99e60c2b51f8857",
+        "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
+        "url": "https://www.aibase.com/news/31203",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
+      "source": "公众号：阶跃星辰（Step）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
+          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
+          "source": "公众号：阶跃星辰（Step）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-20T02:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：阶跃星辰（Step）"
+      ],
+      "items": [
+        {
+          "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
+          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
+          "source": "公众号：阶跃星辰（Step）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-20T02:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.725,
+      "importance": 0.725,
+      "importance_score": 0.725,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8635,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-20T02:00:00Z",
+      "latest_at": "2026-09-20T02:00:00Z",
+      "primary_item": {
+        "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
+        "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
+        "source": "公众号：阶跃星辰（Step）",
         "source_name": "AI HOT"
       }
     },
@@ -176,15 +398,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7794,
+      "importance": 0.7794,
+      "importance_score": 0.7794,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9268,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -204,26 +426,26 @@
       }
     },
     {
-      "story_id": "story_6cbde97d8260",
-      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-      "source": "公众号：阶跃星辰（Step）",
-      "source_name": "AI HOT",
+      "story_id": "story_06067dc9dffc",
+      "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+      "url": "https://www.aibase.com/news/31195",
+      "primary_url": "https://www.aibase.com/news/31195",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
-          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-          "source": "公众号：阶跃星辰（Step）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-20T02:00:00Z"
+          "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
+          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "url": "https://www.aibase.com/news/31195",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T06:54:08.220254Z"
         },
         {
-          "id": "c0f91bee40417d98c0de3d3f3cbce6755a9a030c",
-          "title": "鸿蒙 7 发布后，手机里的 App 进入智能体时代了",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651058555&idx=1&sn=7607ebea718c9fa42624ed4b21622a4b",
+          "id": "535656a3ef2580fd2b00a3404a7757bed209b22e",
+          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "url": "https://www.aibase.com/zh/news/31195",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -232,23 +454,23 @@
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI",
-        "公众号：阶跃星辰（Step）"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
-          "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-          "source": "公众号：阶跃星辰（Step）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-20T02:00:00Z"
+          "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
+          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "url": "https://www.aibase.com/news/31195",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-20T06:54:08.220254Z"
         },
         {
-          "id": "c0f91bee40417d98c0de3d3f3cbce6755a9a030c",
-          "title": "鸿蒙 7 发布后，手机里的 App 进入智能体时代了",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651058555&idx=1&sn=7607ebea718c9fa42624ed4b21622a4b",
+          "id": "535656a3ef2580fd2b00a3404a7757bed209b22e",
+          "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+          "url": "https://www.aibase.com/zh/news/31195",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -257,15 +479,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7623,
-      "importance": 0.7623,
-      "importance_score": 0.7623,
+      "score": 0.7794,
+      "importance": 0.7794,
+      "importance_score": 0.7794,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.66,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9317,
+        "recency": 0.9268,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -274,14 +496,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-19T08:55:10.871711Z",
-      "latest_at": "2026-09-20T02:00:00Z",
+      "earliest_at": "2026-09-20T06:54:08.220254Z",
+      "latest_at": "2026-09-20T12:09:46.701635Z",
       "primary_item": {
-        "id": "c3244cdb51a60dc3ca1678706b35a50a4ea63696",
-        "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
-        "source": "公众号：阶跃星辰（Step）",
-        "source_name": "AI HOT"
+        "id": "4e86e6d63db0480d4d8b1c50b780b041357d7fcc",
+        "title": "GPT-6 Astra 联手人类攻破重大进展级数学难题：AI 不再只是解题机，成了规律发现者",
+        "url": "https://www.aibase.com/news/31195",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -338,15 +560,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9529,
+        "recency": 0.8832,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -361,249 +583,6 @@
         "id": "d90342d5cace8758cb65582174d867ec5a6896f2",
         "title": "ChatGPT 正式入驻 Word：免费用户也能用，办公文档里三套 AI 同台厮杀",
         "url": "https://www.aibase.com/news/31184",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_8905851ba602",
-      "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-      "url": "https://www.aibase.com/news/31189",
-      "primary_url": "https://www.aibase.com/news/31189",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
-          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-          "url": "https://www.aibase.com/news/31189",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "c2f016ed45cebd8c13aacc4dc3a10d8e051b000e",
-          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-          "url": "https://www.aibase.com/zh/news/31189",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
-          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-          "url": "https://www.aibase.com/news/31189",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "c2f016ed45cebd8c13aacc4dc3a10d8e051b000e",
-          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-          "url": "https://www.aibase.com/zh/news/31189",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9529,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T03:33:31.551365Z",
-      "latest_at": "2026-09-20T06:54:08.220254Z",
-      "primary_item": {
-        "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
-        "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
-        "url": "https://www.aibase.com/news/31189",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_f3bebdd05345",
-      "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-      "url": "https://www.aibase.com/news/31188",
-      "primary_url": "https://www.aibase.com/news/31188",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
-          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-          "url": "https://www.aibase.com/news/31188",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "5b790cf3dd9d5fe741e591319b2571ff31eae233",
-          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-          "url": "https://www.aibase.com/zh/news/31188",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
-          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-          "url": "https://www.aibase.com/news/31188",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "5b790cf3dd9d5fe741e591319b2571ff31eae233",
-          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-          "url": "https://www.aibase.com/zh/news/31188",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9529,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T03:33:31.551365Z",
-      "latest_at": "2026-09-20T03:33:31.551365Z",
-      "primary_item": {
-        "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
-        "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
-        "url": "https://www.aibase.com/news/31188",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_ab083c078ed1",
-      "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-      "url": "https://www.aibase.com/news/31179",
-      "primary_url": "https://www.aibase.com/news/31179",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
-          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-          "url": "https://www.aibase.com/news/31179",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "cf50111df169db69802f9d2b372218404d29031a",
-          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-          "url": "https://www.aibase.com/zh/news/31179",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
-          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-          "url": "https://www.aibase.com/news/31179",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-20T03:33:31.551365Z"
-        },
-        {
-          "id": "cf50111df169db69802f9d2b372218404d29031a",
-          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-          "url": "https://www.aibase.com/zh/news/31179",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9529,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-20T03:33:31.551365Z",
-      "latest_at": "2026-09-20T03:33:31.551365Z",
-      "primary_item": {
-        "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
-        "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
-        "url": "https://www.aibase.com/news/31179",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -715,15 +694,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6627,
-      "importance": 0.6627,
-      "importance_score": 0.6627,
+      "score": 0.6512,
+      "importance": 0.6512,
+      "importance_score": 0.6512,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.4968,
         "source_tier": 0.54,
         "ai_relevance": 0.69,
-        "recency": 0.8715,
+        "recency": 0.8077,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -741,26 +720,26 @@
       }
     },
     {
-      "story_id": "story_d4ffa5ac4a50",
-      "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
-      "url": "https://www.aibase.com/news/31177",
-      "primary_url": "https://www.aibase.com/news/31177",
+      "story_id": "story_8905851ba602",
+      "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+      "url": "https://www.aibase.com/news/31189",
+      "primary_url": "https://www.aibase.com/news/31189",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
-          "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
-          "url": "https://www.aibase.com/news/31177",
+          "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
+          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+          "url": "https://www.aibase.com/news/31189",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "00c7d00f4fbcba2a4131dbcfd8624eabc59dfb3c",
-          "title": "谷歌升级 AI 助手 CC：支持最多 6 名家庭成员协同管理",
-          "url": "https://www.aibase.com/zh/news/31177",
+          "id": "c2f016ed45cebd8c13aacc4dc3a10d8e051b000e",
+          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+          "url": "https://www.aibase.com/zh/news/31189",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -774,18 +753,18 @@
       ],
       "items": [
         {
-          "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
-          "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
-          "url": "https://www.aibase.com/news/31177",
+          "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
+          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+          "url": "https://www.aibase.com/news/31189",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "00c7d00f4fbcba2a4131dbcfd8624eabc59dfb3c",
-          "title": "谷歌升级 AI 助手 CC：支持最多 6 名家庭成员协同管理",
-          "url": "https://www.aibase.com/zh/news/31177",
+          "id": "c2f016ed45cebd8c13aacc4dc3a10d8e051b000e",
+          "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+          "url": "https://www.aibase.com/zh/news/31189",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -794,15 +773,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9529,
+        "recency": 0.8832,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -812,11 +791,11 @@
         "high_importance"
       ],
       "earliest_at": "2026-09-20T03:33:31.551365Z",
-      "latest_at": "2026-09-20T03:33:31.551365Z",
+      "latest_at": "2026-09-20T06:54:08.220254Z",
       "primary_item": {
-        "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
-        "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
-        "url": "https://www.aibase.com/news/31177",
+        "id": "6dc2e713e964392dd9302c202f330a7e09070e0a",
+        "title": "MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下",
+        "url": "https://www.aibase.com/news/31189",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -875,15 +854,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6225,
-      "importance": 0.6225,
-      "importance_score": 0.6225,
+      "score": 0.6112,
+      "importance": 0.6112,
+      "importance_score": 0.6112,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8539,
+        "recency": 0.7914,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -901,26 +880,26 @@
       }
     },
     {
-      "story_id": "story_f7177d685fe6",
-      "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-      "url": "https://www.aibase.com/news/31182",
-      "primary_url": "https://www.aibase.com/news/31182",
+      "story_id": "story_f3bebdd05345",
+      "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+      "url": "https://www.aibase.com/news/31188",
+      "primary_url": "https://www.aibase.com/news/31188",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "6e8643c6fccd0cb00474e606fd42a6f6069d9b68",
-          "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-          "url": "https://www.aibase.com/news/31182",
+          "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
+          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+          "url": "https://www.aibase.com/news/31188",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "483fbe07cf358fb92441765aaf08e7a56f248ee8",
-          "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-          "url": "https://www.aibase.com/zh/news/31182",
+          "id": "5b790cf3dd9d5fe741e591319b2571ff31eae233",
+          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+          "url": "https://www.aibase.com/zh/news/31188",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -934,18 +913,18 @@
       ],
       "items": [
         {
-          "id": "6e8643c6fccd0cb00474e606fd42a6f6069d9b68",
-          "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-          "url": "https://www.aibase.com/news/31182",
+          "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
+          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+          "url": "https://www.aibase.com/news/31188",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "483fbe07cf358fb92441765aaf08e7a56f248ee8",
-          "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-          "url": "https://www.aibase.com/zh/news/31182",
+          "id": "5b790cf3dd9d5fe741e591319b2571ff31eae233",
+          "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+          "url": "https://www.aibase.com/zh/news/31188",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -954,15 +933,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9529,
+        "recency": 0.8832,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -974,9 +953,9 @@
       "earliest_at": "2026-09-20T03:33:31.551365Z",
       "latest_at": "2026-09-20T03:33:31.551365Z",
       "primary_item": {
-        "id": "6e8643c6fccd0cb00474e606fd42a6f6069d9b68",
-        "title": "迪士尼首设 CTO：挖来原 Character.AI CEO 阿南德，统管技术与 AI 平台",
-        "url": "https://www.aibase.com/news/31182",
+        "id": "e183d27ed4cc78b69a3f36ac35f6a633adb28374",
+        "title": "Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理绑上游戏引擎",
+        "url": "https://www.aibase.com/news/31188",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1017,12 +996,12 @@
           "published_at": "2026-09-19T16:35:24Z"
         },
         {
-          "id": "83b84e1c6c188985bb4faaf82b087dc51c256d9a",
+          "id": "b6781008e3dc6a91dae0ba36f28d0ad48d27ee8f",
           "title": "几乎不要使用人工智能来撰写任何有实质内容的文章 / I think you should almost never use AI to write",
           "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-19T16:35:24Z"
         },
         {
@@ -1038,7 +1017,7 @@
       "source_count": 5,
       "source_names": [
         "Hacker News",
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "erichgrunewald.substack.com",
         "hackernews"
       ],
@@ -1071,12 +1050,12 @@
           "published_at": "2026-09-19T16:35:24Z"
         },
         {
-          "id": "83b84e1c6c188985bb4faaf82b087dc51c256d9a",
+          "id": "b6781008e3dc6a91dae0ba36f28d0ad48d27ee8f",
           "title": "几乎不要使用人工智能来撰写任何有实质内容的文章 / I think you should almost never use AI to write",
           "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-19T16:35:24Z"
         },
         {
@@ -1091,15 +1070,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
+      "score": 0.5835,
+      "importance": 0.5835,
+      "importance_score": 0.5835,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8551,
+        "recency": 0.7925,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1117,26 +1096,26 @@
       }
     },
     {
-      "story_id": "story_1f424ad01265",
-      "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-      "url": "https://www.aibase.com/news/31187",
-      "primary_url": "https://www.aibase.com/news/31187",
+      "story_id": "story_ab083c078ed1",
+      "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+      "url": "https://www.aibase.com/news/31179",
+      "primary_url": "https://www.aibase.com/news/31179",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "e622a50e2161652dc095545f41ed25067f8ab0a6",
-          "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-          "url": "https://www.aibase.com/news/31187",
+          "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
+          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+          "url": "https://www.aibase.com/news/31179",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "121f6524b5296b162e904ab6cf1df60c89b51784",
-          "title": "阶跃星辰发布 Step5Preview，单任务成本仅为 Claude Opus5 的 1/8",
-          "url": "https://www.aibase.com/zh/news/31187",
+          "id": "cf50111df169db69802f9d2b372218404d29031a",
+          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+          "url": "https://www.aibase.com/zh/news/31179",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -1150,18 +1129,18 @@
       ],
       "items": [
         {
-          "id": "e622a50e2161652dc095545f41ed25067f8ab0a6",
-          "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-          "url": "https://www.aibase.com/news/31187",
+          "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
+          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+          "url": "https://www.aibase.com/news/31179",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "121f6524b5296b162e904ab6cf1df60c89b51784",
-          "title": "阶跃星辰发布 Step5Preview，单任务成本仅为 Claude Opus5 的 1/8",
-          "url": "https://www.aibase.com/zh/news/31187",
+          "id": "cf50111df169db69802f9d2b372218404d29031a",
+          "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+          "url": "https://www.aibase.com/zh/news/31179",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -1170,15 +1149,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9529,
+        "recency": 0.8832,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1190,11 +1169,169 @@
       "earliest_at": "2026-09-20T03:33:31.551365Z",
       "latest_at": "2026-09-20T03:33:31.551365Z",
       "primary_item": {
-        "id": "e622a50e2161652dc095545f41ed25067f8ab0a6",
-        "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
-        "url": "https://www.aibase.com/news/31187",
+        "id": "7f44ad952779b57076d0d3086a2e67e45fcba1ba",
+        "title": "中国电信开源 Xing4.0-29B-A4B：从昇腾芯片到框架全栈国产，消费级显卡也能跑长上下文",
+        "url": "https://www.aibase.com/news/31179",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6e9a00bdff8c",
+      "title": "人类学/金融服务 / anthropics /      financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "primary_url": "https://github.com/anthropics/financial-services",
+      "source": "github",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "c4d0dbdf230889f7d8c7162f0145632c019b0eec",
+          "title": "人类学/金融服务 / anthropics /      financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T12:10:38.952000Z"
+        },
+        {
+          "id": "a81c4ba315c0731bb4afdb4c8f9bffac26d8c349",
+          "title": "人类学/金融服务 / anthropics / financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "c4d0dbdf230889f7d8c7162f0145632c019b0eec",
+          "title": "人类学/金融服务 / anthropics /      financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T12:10:38.952000Z"
+        },
+        {
+          "id": "a81c4ba315c0731bb4afdb4c8f9bffac26d8c349",
+          "title": "人类学/金融服务 / anthropics / financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T12:09:46.701635Z",
+      "latest_at": "2026-09-20T12:10:38.952000Z",
+      "primary_item": {
+        "id": "c4d0dbdf230889f7d8c7162f0145632c019b0eec",
+        "title": "人类学/金融服务 / anthropics /      financial-services",
+        "url": "https://github.com/anthropics/financial-services",
+        "source": "github",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_b6ad19eb6a85",
+      "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "primary_url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
+          "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T11:37:10Z"
+        },
+        {
+          "id": "a0cc66d677a58ada0048da67d0529cb6cb96621a",
+          "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://news.ycombinator.com/item?id=49774795",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T11:37:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
+          "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T11:37:10Z"
+        },
+        {
+          "id": "a0cc66d677a58ada0048da67d0529cb6cb96621a",
+          "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://news.ycombinator.com/item?id=49774795",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-20T11:37:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5444,
+      "importance": 0.5444,
+      "importance_score": 0.5444,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9922,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T11:37:10Z",
+      "latest_at": "2026-09-20T11:37:10Z",
+      "primary_item": {
+        "id": "c7024b8c75b3bc78856d913f02bf0ed94317d5e3",
+        "title": "如果人工智能编码降低了您的代码质量，那么您就没有正确管理质量 / If AI coding is lowering your code quality, you're not managing quality right",
+        "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
       }
     },
     {
@@ -1270,15 +1407,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5537,
-      "importance": 0.5537,
-      "importance_score": 0.5537,
+      "score": 0.5417,
+      "importance": 0.5417,
+      "importance_score": 0.5417,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9048,
+        "recency": 0.8386,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1296,68 +1433,305 @@
       }
     },
     {
-      "story_id": "story_8f46c59ad0af",
-      "title": "马斯克放豪言：AI 将使明年美国 GDP 增速翻番至 4%",
-      "url": "https://www.aibase.com/news/31186",
-      "primary_url": "https://www.aibase.com/news/31186",
+      "story_id": "story_e9105f23f04c",
+      "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制",
+      "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+      "primary_url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "51a0afde7098a62a4f538ea78796ad08b735877a",
+          "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制",
+          "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T09:43:19.152000Z"
+        },
+        {
+          "id": "875a70c3232ad4d7e5a8a824aa60c660047d6119",
+          "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制 / AI agents are ready to run your life. Do you trust them?",
+          "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T09:01:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "51a0afde7098a62a4f538ea78796ad08b735877a",
+          "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制",
+          "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T09:43:19.152000Z"
+        },
+        {
+          "id": "875a70c3232ad4d7e5a8a824aa60c660047d6119",
+          "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制 / AI agents are ready to run your life. Do you trust them?",
+          "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T09:01:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5396,
+      "importance": 0.5396,
+      "importance_score": 0.5396,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9654,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T09:01:01Z",
+      "latest_at": "2026-09-20T09:43:19.152000Z",
+      "primary_item": {
+        "id": "51a0afde7098a62a4f538ea78796ad08b735877a",
+        "title": "就在人工智能实验室希望赋予智能体更多掌控你生活的权限之际，它们却正在失去对这些智能体的控制",
+        "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c70d1bc1bd08",
+      "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型",
+      "url": "https://faceanalysisai.com",
+      "primary_url": "https://faceanalysisai.com",
+      "source": "faceanalysisai.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "df19611d6c26a3d8b4d0f0e5928044717e3b06fa",
+          "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型",
+          "url": "https://faceanalysisai.com",
+          "source": "faceanalysisai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T08:55:15.986000Z"
+        },
+        {
+          "id": "955e9b60839a5e3ac354ff7d02276001f53a935a",
+          "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型 / Show HN: AI Facial Attractiveness Model Aligned with Human Preferences",
+          "url": "https://faceanalysisai.com",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T08:48:35Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "faceanalysisai.com"
+      ],
+      "items": [
+        {
+          "id": "df19611d6c26a3d8b4d0f0e5928044717e3b06fa",
+          "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型",
+          "url": "https://faceanalysisai.com",
+          "source": "faceanalysisai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T08:55:15.986000Z"
+        },
+        {
+          "id": "955e9b60839a5e3ac354ff7d02276001f53a935a",
+          "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型 / Show HN: AI Facial Attractiveness Model Aligned with Human Preferences",
+          "url": "https://faceanalysisai.com",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-20T08:48:35Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5376,
+      "importance": 0.5376,
+      "importance_score": 0.5376,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9543,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T08:48:35Z",
+      "latest_at": "2026-09-20T08:55:15.986000Z",
+      "primary_item": {
+        "id": "df19611d6c26a3d8b4d0f0e5928044717e3b06fa",
+        "title": "Show HN: 与人类偏好相契合的AI面部吸引力模型",
+        "url": "https://faceanalysisai.com",
+        "source": "faceanalysisai.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_27d727be808b",
+      "title": "报告称，Anthropic营收增速已突破1000亿美元 - Axios",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "af1024273d5e4467c8126a3799ad442ab50e2fb4",
+          "title": "报告称，Anthropic营收增速已突破1000亿美元 - Axios",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T07:19:35.275000Z"
+        },
+        {
+          "id": "5db39e50ba0a59514b6d34ef3728560a03117fb6",
+          "title": "报告称，Anthropic营收增速已突破1000亿美元",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-tops-100-billion-revenue-224001996.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T06:32:46.584000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "finance.yahoo.com",
+        "news.google.com"
+      ],
+      "items": [
+        {
+          "id": "af1024273d5e4467c8126a3799ad442ab50e2fb4",
+          "title": "报告称，Anthropic营收增速已突破1000亿美元 - Axios",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T07:19:35.275000Z"
+        },
+        {
+          "id": "5db39e50ba0a59514b6d34ef3728560a03117fb6",
+          "title": "报告称，Anthropic营收增速已突破1000亿美元",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-tops-100-billion-revenue-224001996.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-20T06:32:46.584000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5337,
+      "importance": 0.5337,
+      "importance_score": 0.5337,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9325,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-20T06:32:46.584000Z",
+      "latest_at": "2026-09-20T07:19:35.275000Z",
+      "primary_item": {
+        "id": "af1024273d5e4467c8126a3799ad442ab50e2fb4",
+        "title": "报告称，Anthropic营收增速已突破1000亿美元 - Axios",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3RVA2TEtUVXM4UDMtYktXa1U2Yzk1RmN1RHFGTTRMeEVYVUxGLXRaWkFLRE5nc0tfX0l2cnNQdGFzT25IaU50cHo0UzZzaWVzUkplWTg5SG16WktHOGYyMnpOQXpNSkJrZ0M0U0thcw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d4ffa5ac4a50",
+      "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
+      "url": "https://www.aibase.com/news/31177",
+      "primary_url": "https://www.aibase.com/news/31177",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "68303a6971758585f07f1408e22a8638cad85174",
-          "title": "马斯克放豪言：AI 将使明年美国 GDP 增速翻番至 4%",
-          "url": "https://www.aibase.com/news/31186",
+          "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
+          "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
+          "url": "https://www.aibase.com/news/31177",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "3710d393b2f5847eac08b8572268e3a6055c9186",
-          "title": "马斯克又放豪言：AI 将使明年美国 GDP 增速翻番，最高达 4%",
-          "url": "https://www.ithome.com/1/004/602.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-20T00:51:56Z"
+          "id": "00c7d00f4fbcba2a4131dbcfd8624eabc59dfb3c",
+          "title": "谷歌升级 AI 助手 CC：支持最多 6 名家庭成员协同管理",
+          "url": "https://www.aibase.com/zh/news/31177",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
         "AIbase",
-        "IT之家 (ITHome)"
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "68303a6971758585f07f1408e22a8638cad85174",
-          "title": "马斯克放豪言：AI 将使明年美国 GDP 增速翻番至 4%",
-          "url": "https://www.aibase.com/news/31186",
+          "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
+          "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
+          "url": "https://www.aibase.com/news/31177",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
           "published_at": "2026-09-20T03:33:31.551365Z"
         },
         {
-          "id": "3710d393b2f5847eac08b8572268e3a6055c9186",
-          "title": "马斯克又放豪言：AI 将使明年美国 GDP 增速翻番，最高达 4%",
-          "url": "https://www.ithome.com/1/004/602.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-20T00:51:56Z"
+          "id": "00c7d00f4fbcba2a4131dbcfd8624eabc59dfb3c",
+          "title": "谷歌升级 AI 助手 CC：支持最多 6 名家庭成员协同管理",
+          "url": "https://www.aibase.com/zh/news/31177",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7841,
-      "importance": 0.7841,
-      "importance_score": 0.7841,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9529,
+        "recency": 0.8832,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1366,446 +1740,14 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-20T00:51:56Z",
+      "earliest_at": "2026-09-20T03:33:31.551365Z",
       "latest_at": "2026-09-20T03:33:31.551365Z",
       "primary_item": {
-        "id": "68303a6971758585f07f1408e22a8638cad85174",
-        "title": "马斯克放豪言：AI 将使明年美国 GDP 增速翻番至 4%",
-        "url": "https://www.aibase.com/news/31186",
+        "id": "90dc7d78cd38b5a9f1bd2327375070d2b4083743",
+        "title": "谷歌升级AI助手CC:支持最多6名家庭成员协同管理",
+        "url": "https://www.aibase.com/news/31177",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "比亚迪大幅降低电动汽车价格，成为澳大利亚最便宜的汽车[视频] / BYD Slashes Price of Electric Car and Becomes Cheapest in Australia [video]",
-      "url": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
-      "primary_url": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "27b952bed470e590361211f95fe267238ccb5220",
-          "title": "比亚迪大幅降低电动汽车价格，成为澳大利亚最便宜的汽车[视频] / BYD Slashes Price of Electric Car and Becomes Cheapest in Australia [video]",
-          "url": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-20T04:46:34Z"
-        },
-        {
-          "id": "3b7e8fa322752fa8252be48aa6dc55ca90f7c09e",
-          "title": "人工智能与科学的核心悖论 陶哲轩",
-          "url": "https://www.youtube.com/watch?v=svl_1upFpQo",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T17:10:46.255000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "27b952bed470e590361211f95fe267238ccb5220",
-          "title": "比亚迪大幅降低电动汽车价格，成为澳大利亚最便宜的汽车[视频] / BYD Slashes Price of Electric Car and Becomes Cheapest in Australia [video]",
-          "url": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-20T04:46:34Z"
-        },
-        {
-          "id": "3b7e8fa322752fa8252be48aa6dc55ca90f7c09e",
-          "title": "人工智能与科学的核心悖论 陶哲轩",
-          "url": "https://www.youtube.com/watch?v=svl_1upFpQo",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T17:10:46.255000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5404,
-      "importance": 0.5404,
-      "importance_score": 0.5404,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9698,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T17:10:46.255000Z",
-      "latest_at": "2026-09-20T04:46:34Z",
-      "primary_item": {
-        "id": "27b952bed470e590361211f95fe267238ccb5220",
-        "title": "比亚迪大幅降低电动汽车价格，成为澳大利亚最便宜的汽车[视频] / BYD Slashes Price of Electric Car and Becomes Cheapest in Australia [video]",
-        "url": "https://www.youtube.com/watch?v=IQrnGK5FZXI",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_ef8f2d6389be",
-      "title": "并非所有人工智能从业者都认为这项技术会杀光所有人",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.co.uk",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "99ef320373730c06fda5667e3e96624a657efbe3",
-          "title": "并非所有人工智能从业者都认为这项技术会杀光所有人",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T23:11:32.379000Z"
-        },
-        {
-          "id": "ba00fb513734fb1ca6711f1aef08cf5480529b78",
-          "title": "并非所有人工智能从业者都认为这项技术会杀光所有人 / Not all AI workers think the tech could kill everyone",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T23:01:57Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.co.uk"
-      ],
-      "items": [
-        {
-          "id": "99ef320373730c06fda5667e3e96624a657efbe3",
-          "title": "并非所有人工智能从业者都认为这项技术会杀光所有人",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T23:11:32.379000Z"
-        },
-        {
-          "id": "ba00fb513734fb1ca6711f1aef08cf5480529b78",
-          "title": "并非所有人工智能从业者都认为这项技术会杀光所有人 / Not all AI workers think the tech could kill everyone",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T23:01:57Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5268,
-      "importance": 0.5268,
-      "importance_score": 0.5268,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8946,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T23:01:57Z",
-      "latest_at": "2026-09-19T23:11:32.379000Z",
-      "primary_item": {
-        "id": "99ef320373730c06fda5667e3e96624a657efbe3",
-        "title": "并非所有人工智能从业者都认为这项技术会杀光所有人",
-        "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.co.uk",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1bcdc6d0dde0",
-      "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-      "primary_url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "01123abf2193f80954e3b75ef7c7a9c0c60c8104",
-          "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-19T23:02:34Z"
-        },
-        {
-          "id": "31ce996fefc7b9388c866d8a7b7e3142648ee1ad",
-          "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-          "url": "https://news.ycombinator.com/item?id=49770847",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-19T23:02:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "01123abf2193f80954e3b75ef7c7a9c0c60c8104",
-          "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-19T23:02:34Z"
-        },
-        {
-          "id": "31ce996fefc7b9388c866d8a7b7e3142648ee1ad",
-          "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-          "url": "https://news.ycombinator.com/item?id=49770847",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-19T23:02:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5265,
-      "importance": 0.5265,
-      "importance_score": 0.5265,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8927,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T23:02:34Z",
-      "latest_at": "2026-09-19T23:02:34Z",
-      "primary_item": {
-        "id": "01123abf2193f80954e3b75ef7c7a9c0c60c8104",
-        "title": "你能说出哪些图像是人工智能生成的吗？ / Can you tell which images are AI-generated?",
-        "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_643a84217e15",
-      "title": "AI生成的海报未必就难看",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "primary_url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "source": "john.hartnup.uk",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "080ed67dd4ac3273b7ff88a23e8aa41dfb06ed8e",
-          "title": "AI生成的海报未必就难看",
-          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-          "source": "john.hartnup.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T10:53:16.305000Z"
-        },
-        {
-          "id": "3003344eadbbe36deaeef27bd96c32b0c033ec3e",
-          "title": "AI生成的海报未必就难看 / AI-generated posters don’t have to be horrible",
-          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T09:20:58Z"
-        },
-        {
-          "id": "24115e2a33f7a19dc6579e0345a834bb38582241",
-          "title": "人工智能生成的海报不一定很可怕 / AI-generated posters don’t have to be horrible",
-          "url": "https://news.ycombinator.com/item?id=49764791",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-19T09:20:58Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "john.hartnup.uk"
-      ],
-      "items": [
-        {
-          "id": "080ed67dd4ac3273b7ff88a23e8aa41dfb06ed8e",
-          "title": "AI生成的海报未必就难看",
-          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-          "source": "john.hartnup.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T10:53:16.305000Z"
-        },
-        {
-          "id": "3003344eadbbe36deaeef27bd96c32b0c033ec3e",
-          "title": "AI生成的海报未必就难看 / AI-generated posters don’t have to be horrible",
-          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T09:20:58Z"
-        },
-        {
-          "id": "24115e2a33f7a19dc6579e0345a834bb38582241",
-          "title": "人工智能生成的海报不一定很可怕 / AI-generated posters don’t have to be horrible",
-          "url": "https://news.ycombinator.com/item?id=49764791",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-19T09:20:58Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5256,
-      "importance": 0.5256,
-      "importance_score": 0.5256,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.749,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T09:20:58Z",
-      "latest_at": "2026-09-19T10:53:16.305000Z",
-      "primary_item": {
-        "id": "080ed67dd4ac3273b7ff88a23e8aa41dfb06ed8e",
-        "title": "AI生成的海报未必就难看",
-        "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-        "source": "john.hartnup.uk",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1fc5f06ab4e0",
-      "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
-      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "primary_url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "source": "www.prinzai.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "28d9a65889651f285954e18c9bbd8757e98c89e7",
-          "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "www.prinzai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T09:35:29.529000Z"
-        },
-        {
-          "id": "8f2fc72a05349797767433d6f72282035e29c1ba",
-          "title": "GPT-6 Astra 破解了一项第一次世界大战时期的德国无线电密码",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "www.prinzai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T08:48:31.301000Z"
-        },
-        {
-          "id": "5554cc43df3aa86a2db48a542e7c070b41cee04d",
-          "title": "GPT-6 Astra 破解了一项第一次世界大战时期的德国无线电密码 / GPT-6 Astra Solves a WWI German Radio Cipher",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T08:44:38Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.prinzai.com"
-      ],
-      "items": [
-        {
-          "id": "28d9a65889651f285954e18c9bbd8757e98c89e7",
-          "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "www.prinzai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T09:35:29.529000Z"
-        },
-        {
-          "id": "8f2fc72a05349797767433d6f72282035e29c1ba",
-          "title": "GPT-6 Astra 破解了一项第一次世界大战时期的德国无线电密码",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "www.prinzai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-19T08:48:31.301000Z"
-        },
-        {
-          "id": "5554cc43df3aa86a2db48a542e7c070b41cee04d",
-          "title": "GPT-6 Astra 破解了一项第一次世界大战时期的德国无线电密码 / GPT-6 Astra Solves a WWI German Radio Cipher",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-19T08:44:38Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5231,
-      "importance": 0.5231,
-      "importance_score": 0.5231,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7351,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-19T08:44:38Z",
-      "latest_at": "2026-09-19T09:35:29.529000Z",
-      "primary_item": {
-        "id": "28d9a65889651f285954e18c9bbd8757e98c89e7",
-        "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
-        "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-        "source": "www.prinzai.com",
-        "source_name": "Buzzing"
       }
     }
   ]
