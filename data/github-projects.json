@@ -1,9 +1,1796 @@
 {
-  "generated_at": "2026-09-25T01:46:58.237813Z",
+  "generated_at": "2026-09-25T07:26:56.003295Z",
   "topic": "GitHub好玩项目",
   "ranking": "source_weight_beginner_fun_stars_freshness_v1",
-  "total_items": 42,
+  "total_items": 45,
   "items": [
+    {
+      "id": "cde5ac614a36aa02cc9ac31d72ede2a325dfa17e",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "黑客的 Linux 基础知识",
+      "title_zh": "黑客的 Linux 基础知识",
+      "url": "https://github.com/ahegazy0/linux-basics-for-hackers-notes",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 75,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "ahegazy0/linux-basics-for-hackers-notes",
+      "description": "A structured course built from personal study notes of the book Linux Basics for Hackers by OccupyTheWeb.",
+      "summary": "A structured course built from personal study notes of the book Linux Basics for Hackers by OccupyTheWeb.",
+      "mention_summaries": [
+        "黑客的 Linux 基础知识（Linux Basics for Hackers）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 1761,
+      "forks": 154,
+      "watchers": 12,
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T23:09:48Z",
+      "pushed_at": "2026-09-12T13:04:07Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 75,
+      "github_project_reason": "项目用途：黑客的 Linux 基础知识（Linux Basics for Hackers） 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,761 stars，已有真实关注度。",
+      "ai_relevance_reason": "项目用途：黑客的 Linux 基础知识（Linux Basics for Hackers） 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,761 stars，已有真实关注度。"
+    },
+    {
+      "id": "87b8572dc6bf13a1d2b61a00611e36a4d15b3895",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Dbmate",
+      "title_zh": "Dbmate",
+      "url": "https://github.com/amacneil/dbmate",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 72,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "amacneil/dbmate",
+      "description": "🚀 A lightweight, framework-agnostic database migration tool.",
+      "summary": "🚀 A lightweight, framework-agnostic database migration tool.",
+      "mention_summaries": [
+        "Dbmate"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 7415,
+      "forks": 379,
+      "watchers": 27,
+      "language": "Go",
+      "topics": [
+        "clickhouse",
+        "cpp",
+        "database",
+        "database-migrations",
+        "database-schema",
+        "docker",
+        "go",
+        "golang"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-24T19:22:52Z",
+      "pushed_at": "2026-09-23T04:42:32Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 72,
+      "github_project_reason": "项目用途：Dbmate 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 7,415 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：Dbmate 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 7,415 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "2cbc7df88210d9333d9b7f8b57dda12dfc8fa17e",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "InvoiceFlowAI",
+      "title_zh": "InvoiceFlowAI",
+      "url": "https://github.com/EthanYoQ/Invoice-Downloader",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 71,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "EthanYoQ/Invoice-Downloader",
+      "description": "电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。",
+      "summary": "电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。",
+      "mention_summaries": [
+        "InvoiceFlowAI"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 439,
+      "forks": 45,
+      "watchers": 7,
+      "language": "Python",
+      "topics": [
+        "deepseek-harness",
+        "desktop-app",
+        "document-processing",
+        "dsh-plugin",
+        "e-invoice",
+        "email",
+        "expense-management",
+        "fapiao"
+      ],
+      "homepage": "https://github.com/EthanYoQ/Invoice-Downloader/releases/latest",
+      "updated_at": "2026-09-25T06:18:33Z",
+      "pushed_at": "2026-09-06T23:38:34Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 71,
+      "github_project_reason": "项目用途：InvoiceFlowAI 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 439 stars，已有真实关注度；主要用 Python 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：InvoiceFlowAI 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 439 stars，已有真实关注度；主要用 Python 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "6f398a78a0ca5f43bf32c7be6edb64210f0240da",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "capcut-cli",
+      "title_zh": "capcut-cli",
+      "url": "https://github.com/renezander030/capcut-cli",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 70,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "renezander030/capcut-cli",
+      "description": "Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut long-form to shorts. No API needed, reads draft_content.json and draft_info.json (剪映草稿) directly. Not affiliated with ByteDance.",
+      "summary": "Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut long-form to shorts. No API needed, reads draft_content.json and draft_info.json (剪映草稿) directly. Not affiliated with ByteDance.",
+      "mention_summaries": [
+        "capcut-cli"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 726,
+      "forks": 76,
+      "watchers": 5,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "capcut",
+        "capcut-api",
+        "capcut-automation",
+        "capcut-editor",
+        "capcut-subtitles"
+      ],
+      "homepage": "https://renezander.com/projects/capcut-cli",
+      "updated_at": "2026-09-25T07:04:32Z",
+      "pushed_at": "2026-09-25T07:04:26Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 70,
+      "github_project_reason": "项目用途：capcut-cli 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 726 stars，已有真实关注度；主要用 JavaScript 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：capcut-cli 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 726 stars，已有真实关注度；主要用 JavaScript 写成；和 AI/Agent 工作流有连接点。"
+    },
+    {
+      "id": "3efc3a8604434cb1be2a2459666f3fffe4179918",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "PicLite",
+      "title_zh": "PicLite",
+      "url": "https://github.com/amiaoapp/PicLite",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 70,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "amiaoapp/PicLite",
+      "description": "PicLite 图轻 / PicLite — privacy-first image and GIF compression for Web, Windows, macOS and Linux.",
+      "summary": "PicLite 图轻 / PicLite — privacy-first image and GIF compression for Web, Windows, macOS and Linux.",
+      "mention_summaries": [
+        "PicLite（图轻）"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 705,
+      "forks": 35,
+      "watchers": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "homepage": "https://amiaoapp.github.io/PicLite/",
+      "updated_at": "2026-09-25T02:52:00Z",
+      "pushed_at": "2026-09-23T00:54:47Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 70,
+      "github_project_reason": "项目用途：PicLite（图轻） 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 705 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：PicLite（图轻） 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 705 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "98498c9bf1bb5b08fb58373670ddd03114358261",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "悟空图片转 SVG 工具",
+      "title_zh": "悟空图片转 SVG 工具",
+      "url": "https://github.com/goku-open/goku-image-to-svg-tool",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 70,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "goku-open/goku-image-to-svg-tool",
+      "description": "🐵 A Streamlit image-to-vector tool powered by the Vecto engine — upload PNG/JPG and get clean, editable SVG with live side-by-side preview. 基于 Vecto 引擎的图片转 SVG 工具:上传位图自动矢量化,分割视图对比,导出 SVG/PNG。",
+      "summary": "🐵 A Streamlit image-to-vector tool powered by the Vecto engine — upload PNG/JPG and get clean, editable SVG with live side-by-side preview. 基于 Vecto 引擎的图片转 SVG 工具:上传位图自动矢量化,分割视图对比,导出 SVG/PNG。",
+      "mention_summaries": [
+        "悟空图片转 SVG 工具"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 314,
+      "forks": 20,
+      "watchers": 2,
+      "language": "Python",
+      "topics": [
+        "bilingual",
+        "bitmap-to-vector",
+        "image-processing",
+        "image-to-vector",
+        "image-tracing",
+        "opensource",
+        "python",
+        "raster-to-vector"
+      ],
+      "homepage": "https://image-to-svg.streamlit.app",
+      "updated_at": "2026-09-24T19:23:24Z",
+      "pushed_at": "2026-08-21T15:38:07Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 70,
+      "github_project_reason": "项目用途：悟空图片转 SVG 工具 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 314 stars，已有真实关注度；主要用 Python 写成；主题标签：bilingual / bitmap-to-vector / image-processing / image-to-vector。",
+      "ai_relevance_reason": "项目用途：悟空图片转 SVG 工具 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 314 stars，已有真实关注度；主要用 Python 写成；主题标签：bilingual / bitmap-to-vector / image-processing / image-to-vector。"
+    },
+    {
+      "id": "b673bc1c710259a72ef6acf6a9cdbc6a917695aa",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "fermats-last-theorem",
+      "title_zh": "fermats-last-theorem",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 68,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "anthropics/fermats-last-theorem",
+      "description": "这是有史以来最长的数学程序，不敢想象如果让人类的一个数学家团队来写要多久？所有代码现在就公布在 GitHub 上面",
+      "summary": "这是有史以来最长的数学程序，不敢想象如果让人类的一个数学家团队来写要多久？所有代码现在就公布在 GitHub 上面",
+      "mention_summaries": [
+        "这是有史以来最长的数学程序，不敢想象如果让人类的一个数学家团队来写要多久？所有代码现在就公布在 GitHub 上面"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 1225,
+      "forks": 107,
+      "watchers": 13,
+      "language": "Lean",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T19:22:54Z",
+      "pushed_at": "2026-09-24T14:06:42Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 68,
+      "github_project_reason": "项目用途：这是有史以来最长的数学程序，不敢想象如果让人类的一个数学家团队来写要多久？所有代码现在就公布在 GitHub 上面 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,225 stars，已有真实关注度；主要用 Lean 写成。",
+      "ai_relevance_reason": "项目用途：这是有史以来最长的数学程序，不敢想象如果让人类的一个数学家团队来写要多久？所有代码现在就公布在 GitHub 上面 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,225 stars，已有真实关注度；主要用 Lean 写成。"
+    },
+    {
+      "id": "4f69a2274e771619f6bea6b2fab32204e8bf9405",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "2026.8.1-beta1",
+      "title_zh": "2026.8.1-beta1",
+      "url": "https://github.com/openclaw/openclaw",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 67,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "mention_summaries": [
+        "以八月为例，月初的时候发布了测试版 2026.8.1-beta1，月中又发了 beta2 和 beta3，到了月底就发了8月正式版。同时，也发了9月的测试版 2026.9.1.beta1"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 390452,
+      "forks": 82137,
+      "watchers": 1730,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "homepage": "https://openclaw.ai",
+      "updated_at": "2026-09-25T07:26:45Z",
+      "pushed_at": "2026-09-25T07:28:34Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 67,
+      "github_project_reason": "项目用途：以八月为例，月初的时候发布了测试版 2026.8.1-beta1，月中又发了 beta2 和 beta3，到了月底就发了8月正式版。同时，也发了9月的测试版 2026.9.1.beta1 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 390,452 stars，已有真实关注度；主要用 TypeScript 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：以八月为例，月初的时候发布了测试版 2026.8.1-beta1，月中又发了 beta2 和 beta3，到了月底就发了8月正式版。同时，也发了9月的测试版 2026.9.1.beta1 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 390,452 stars，已有真实关注度；主要用 TypeScript 写成；和 AI/Agent 工作流有连接点。"
+    },
+    {
+      "id": "71aedb3f9f9a6add21bca4cd0aaac4ed5bb69d08",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Beszel",
+      "title_zh": "Beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 67,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "summary": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "mention_summaries": [
+        "Beszel"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 25735,
+      "forks": 1042,
+      "watchers": 64,
+      "language": "Go",
+      "topics": [
+        "homelab",
+        "monitoring",
+        "self-hosted"
+      ],
+      "homepage": "https://beszel.dev",
+      "updated_at": "2026-09-25T05:48:32Z",
+      "pushed_at": "2026-09-25T07:01:12Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 67,
+      "github_project_reason": "项目用途：Beszel 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 25,735 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：Beszel 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 25,735 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "11776b1ea11c4e8aa915fab0535fece2be63664b",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "zlib",
+      "title_zh": "zlib",
+      "url": "https://github.com/heartleo/zlib",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 67,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "heartleo/zlib",
+      "description": "A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents.",
+      "summary": "A command-line tool for Z-Library. Search, download, send to Kindle, and integrate with AI agents.",
+      "mention_summaries": [
+        "zlib"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 407,
+      "forks": 29,
+      "watchers": 1,
+      "language": "Go",
+      "topics": [
+        "book",
+        "chatgpt",
+        "claude",
+        "cli",
+        "codex",
+        "command-line",
+        "ebook",
+        "gemini"
+      ],
+      "homepage": "https://zlib.heartleo.dev/",
+      "updated_at": "2026-09-24T19:23:28Z",
+      "pushed_at": "2026-09-07T08:10:00Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 67,
+      "github_project_reason": "项目用途：zlib 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 407 stars，已有真实关注度；主要用 Go 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：zlib 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 407 stars，已有真实关注度；主要用 Go 写成；和 AI/Agent 工作流有连接点。"
+    },
+    {
+      "id": "9efcc8c0d6aca16c4a92da0101751572d9db09b6",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Gitu",
+      "title_zh": "Gitu",
+      "url": "https://github.com/altsem/gitu",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 66,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "altsem/gitu",
+      "description": "A TUI Git client inspired by Magit",
+      "summary": "A TUI Git client inspired by Magit",
+      "mention_summaries": [
+        "Gitu"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 2919,
+      "forks": 165,
+      "watchers": 11,
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "git",
+        "magit",
+        "standalone",
+        "tui"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-24T19:22:52Z",
+      "pushed_at": "2026-08-22T02:45:48Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 66,
+      "github_project_reason": "项目用途：Gitu 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,919 stars，已有真实关注度；主要用 Rust 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：Gitu 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,919 stars，已有真实关注度；主要用 Rust 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "12ee132757169d3199ca19d39b6a8edf12399ef8",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Great Tables",
+      "title_zh": "Great Tables",
+      "url": "https://github.com/posit-dev/great-tables",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 66,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "posit-dev/great-tables",
+      "description": "Make awesome display tables using Python",
+      "summary": "Make awesome display tables using Python",
+      "mention_summaries": [
+        "Great Tables"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 2865,
+      "forks": 135,
+      "watchers": 16,
+      "language": "Python",
+      "topics": [
+        "easy-to-use",
+        "formatting-data",
+        "pandas-dataframe",
+        "polars-dataframe",
+        "python",
+        "styling",
+        "summary-tables",
+        "tables"
+      ],
+      "homepage": "https://posit-dev.github.io/great-tables/",
+      "updated_at": "2026-09-24T23:55:59Z",
+      "pushed_at": "2026-09-25T00:03:46Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 66,
+      "github_project_reason": "项目用途：Great Tables 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,865 stars，已有真实关注度；主要用 Python 写成；主题标签：easy-to-use / formatting-data / pandas-dataframe / polars-dataframe。",
+      "ai_relevance_reason": "项目用途：Great Tables 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,865 stars，已有真实关注度；主要用 Python 写成；主题标签：easy-to-use / formatting-data / pandas-dataframe / polars-dataframe。"
+    },
+    {
+      "id": "cfb721ccf67e3880e3c8ca32575c1bf17f689791",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "stock-tui",
+      "title_zh": "stock-tui",
+      "url": "https://github.com/Folgerjun/stock-tui",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 66,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Folgerjun/stock-tui",
+      "description": "在终端（PowerShell / Windows Terminal / Linux Shell）中查看 A 股 K 线图、市盈率、成交量等基本信息的小工具。",
+      "summary": "在终端（PowerShell / Windows Terminal / Linux Shell）中查看 A 股 K 线图、市盈率、成交量等基本信息的小工具。",
+      "mention_summaries": [
+        "stock-tui"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 147,
+      "forks": 13,
+      "watchers": 1,
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T08:35:36Z",
+      "pushed_at": "2026-08-26T03:06:01Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 66,
+      "github_project_reason": "项目用途：stock-tui 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 147 stars，已有真实关注度；主要用 Python 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：stock-tui 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 147 stars，已有真实关注度；主要用 Python 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "b9f8fcecb355b9aa9efddd1dcf543689cd3fe227",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Gorgeous GRUB",
+      "title_zh": "Gorgeous GRUB",
+      "url": "https://github.com/Jacksaur/Gorgeous-GRUB",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 65,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Jacksaur/Gorgeous-GRUB",
+      "description": "Collection of decent Community-made GRUB themes. Contributions welcome!",
+      "summary": "Collection of decent Community-made GRUB themes. Contributions welcome!",
+      "mention_summaries": [
+        "Gorgeous GRUB"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 5983,
+      "forks": 112,
+      "watchers": 23,
+      "language": "",
+      "topics": [
+        "dualboot",
+        "grub",
+        "grub-boot-menu",
+        "grub-configuration",
+        "grub-theme",
+        "grub-themes",
+        "grub2",
+        "grub2-configuration"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-25T06:52:56Z",
+      "pushed_at": "2026-08-24T20:30:41Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 65,
+      "github_project_reason": "项目用途：Gorgeous GRUB 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 5,983 stars，已有真实关注度；主题标签：dualboot / grub / grub-boot-menu / grub-configuration。",
+      "ai_relevance_reason": "项目用途：Gorgeous GRUB 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 5,983 stars，已有真实关注度；主题标签：dualboot / grub / grub-boot-menu / grub-configuration。"
+    },
+    {
+      "id": "863357e8031b0a8199ce08415608c2e6adfb83ac",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Termio",
+      "title_zh": "Termio",
+      "url": "https://github.com/termio-sh/termio",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 65,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "termio-sh/termio",
+      "description": "A terminal-first agentic development environment for agentic coding. Build for CLI/TUI agent. Runtime for Coding Agent, Tmux alternative",
+      "summary": "A terminal-first agentic development environment for agentic coding. Build for CLI/TUI agent. Runtime for Coding Agent, Tmux alternative",
+      "mention_summaries": [
+        "Termio"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 528,
+      "forks": 41,
+      "watchers": 2,
+      "language": "Swift",
+      "topics": [
+        "ade",
+        "agentic",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "devtools"
+      ],
+      "homepage": "https://termio.sh",
+      "updated_at": "2026-09-24T15:38:58Z",
+      "pushed_at": "2026-09-22T21:25:32Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 65,
+      "github_project_reason": "项目用途：Termio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 528 stars，已有真实关注度；主要用 Swift 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：Termio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 528 stars，已有真实关注度；主要用 Swift 写成；和 AI/Agent 工作流有连接点。"
+    },
+    {
+      "id": "b05043ff008f05745914f92975eef4a0fbf79b69",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Krep",
+      "title_zh": "Krep",
+      "url": "https://github.com/davidesantangelo/krep",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 65,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "davidesantangelo/krep",
+      "description": "Fast text search tool with advanced algorithms, SIMD acceleration, multi-threading, and regex support. Designed for rapid, large-scale pattern matching with memory-mapped I/O and hardware optimizations.",
+      "summary": "Fast text search tool with advanced algorithms, SIMD acceleration, multi-threading, and regex support. Designed for rapid, large-scale pattern matching with memory-mapped I/O and hardware optimizations.",
+      "mention_summaries": [
+        "Krep"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 518,
+      "forks": 26,
+      "watchers": 7,
+      "language": "C",
+      "topics": [
+        "c",
+        "cli",
+        "hardware-acceleration",
+        "search-algorithm",
+        "searching"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-22T06:56:13Z",
+      "pushed_at": "2026-09-16T08:42:21Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 65,
+      "github_project_reason": "项目用途：Krep 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 518 stars，已有真实关注度；主要用 C 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：Krep 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 518 stars，已有真实关注度；主要用 C 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "9437fb0d71c30aa15ccaa97327c9b4d9ad44373d",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "video-ai-talking",
+      "title_zh": "video-ai-talking",
+      "url": "https://github.com/yizhi-chengzi/video-ai-talking",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 65,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "yizhi-chengzi/video-ai-talking",
+      "description": "想做真人口播，又不必自己对着镜头念。上传一段真人出镜视频，写好字幕，本机配音并对口型，合成竖屏 MP4。密钥只留在浏览器里。",
+      "summary": "想做真人口播，又不必自己对着镜头念。上传一段真人出镜视频，写好字幕，本机配音并对口型，合成竖屏 MP4。密钥只留在浏览器里。",
+      "mention_summaries": [
+        "video-ai-talking"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 451,
+      "forks": 64,
+      "watchers": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T19:24:51Z",
+      "pushed_at": "2026-09-03T02:58:12Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 65,
+      "github_project_reason": "项目用途：video-ai-talking 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 451 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：video-ai-talking 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 451 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "4931eeb869aa0da8186af9f5976a77a71a88d8c1",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Lyrimuse",
+      "title_zh": "Lyrimuse",
+      "url": "https://github.com/Yudaotor/lyrimuse",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 65,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Yudaotor/lyrimuse",
+      "description": "Word-synced desktop lyrics on macOS for Apple Music, Spotify, QQ Music, NetEase Cloud Music, Kugou — and YouTube Music / Spotify Web in any browser. Actively maintained open-source LyricsX alternative. Floating overlay, Dynamic Island, menu bar or lyrics window; translation, romanization, Last.fm stats. | macOS 桌面歌词：逐字同步 · 翻译 · 粤拼 · LyricsX 替代",
+      "summary": "Word-synced desktop lyrics on macOS for Apple Music, Spotify, QQ Music, NetEase Cloud Music, Kugou — and YouTube Music / Spotify Web in any browser. Actively maintained open-source LyricsX alternative. Floating overlay, Dynamic Island, menu bar or lyrics window; translation, romanization, Last.fm stats. | macOS 桌面歌词：逐字同步 · 翻译 · 粤拼 · LyricsX 替代",
+      "mention_summaries": [
+        "Lyrimuse"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 134,
+      "forks": 5,
+      "watchers": 1,
+      "language": "Swift",
+      "topics": [
+        "apple-music",
+        "desktop-lyrics",
+        "dynamic-island",
+        "karaoke",
+        "kugou",
+        "lastfm",
+        "listenbrainz",
+        "lyrics"
+      ],
+      "homepage": "https://yudaotor.github.io/lyrimuse/",
+      "updated_at": "2026-09-24T03:06:17Z",
+      "pushed_at": "2026-09-25T01:11:46Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 65,
+      "github_project_reason": "项目用途：Lyrimuse 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 134 stars，已有真实关注度；主要用 Swift 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：Lyrimuse 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 134 stars，已有真实关注度；主要用 Swift 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "10c82cfaec414995468d8688d1fa90cb15d91768",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Multi-Row Tabs",
+      "title_zh": "Multi-Row Tabs",
+      "url": "https://github.com/hezhizheng/multi-row-tabs",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 64,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "hezhizheng/multi-row-tabs",
+      "description": "多行平铺的方式展示当前窗口所有标签页的Chrome扩展",
+      "summary": "多行平铺的方式展示当前窗口所有标签页的Chrome扩展",
+      "mention_summaries": [
+        "Multi-Row Tabs"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 242,
+      "forks": 6,
+      "watchers": 1,
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T10:02:40Z",
+      "pushed_at": "2026-09-12T13:33:14Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 64,
+      "github_project_reason": "项目用途：Multi-Row Tabs 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 242 stars，已有真实关注度；主要用 JavaScript 写成。",
+      "ai_relevance_reason": "项目用途：Multi-Row Tabs 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 242 stars，已有真实关注度；主要用 JavaScript 写成。"
+    },
+    {
+      "id": "b2f59f42fd2ad562cda4fc401c3951c0713cb60a",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "LibreDB Studio",
+      "title_zh": "LibreDB Studio",
+      "url": "https://github.com/libredb/libredb-studio",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 63,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "libredb/libredb-studio",
+      "description": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more. An open-source SQL IDE with SSO, audit trail and AI-assisted queries MIT licensed, with nothing held back behind an enterprise wall.",
+      "summary": "One browser tab for PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite, Couchbase, ClickHouse, Druid, DuckDB, Turso and more. An open-source SQL IDE with SSO, audit trail and AI-assisted queries MIT licensed, with nothing held back behind an enterprise wall.",
+      "mention_summaries": [
+        "LibreDB Studio"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 880,
+      "forks": 178,
+      "watchers": 18,
+      "language": "TypeScript",
+      "topics": [
+        "cassandra",
+        "clickhouse",
+        "couchbase",
+        "database",
+        "druid",
+        "elasticsearch",
+        "good-first-issue",
+        "hacktoberfest"
+      ],
+      "homepage": "https://libredb.org",
+      "updated_at": "2026-09-25T00:04:13Z",
+      "pushed_at": "2026-09-24T23:55:48Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 63,
+      "github_project_reason": "项目用途：LibreDB Studio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 880 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：LibreDB Studio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 880 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "9b33fc4a3a54ada7bab2326931cb7ee93243b02b",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Orange Cloud",
+      "title_zh": "Orange Cloud",
+      "url": "https://github.com/chen2he/orange-cloud",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 62,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "chen2he/orange-cloud",
+      "description": "Open-source native Cloudflare client for iPhone, iPad & Apple Watch — sign in with OAuth, no API tokens to paste. Native Android app (Kotlin/Compose) in development.",
+      "summary": "Open-source native Cloudflare client for iPhone, iPad & Apple Watch — sign in with OAuth, no API tokens to paste. Native Android app (Kotlin/Compose) in development.",
+      "mention_summaries": [
+        "Orange Cloud"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 580,
+      "forks": 113,
+      "watchers": 4,
+      "language": "Swift",
+      "topics": [
+        "android",
+        "cloudflare",
+        "cloudflare-workers",
+        "d1",
+        "dns",
+        "ios",
+        "ios-app",
+        "jetpack-compose"
+      ],
+      "homepage": "https://o-c.do",
+      "updated_at": "2026-09-24T19:23:05Z",
+      "pushed_at": "2026-09-24T08:55:07Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 62,
+      "github_project_reason": "项目用途：Orange Cloud 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 580 stars，已有真实关注度；主要用 Swift 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：Orange Cloud 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 580 stars，已有真实关注度；主要用 Swift 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "933a6dc08a73ce105e3834f0819035ce52992b06",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "DanKS",
+      "title_zh": "DanKS",
+      "url": "https://github.com/Calix-L/DanKS",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 62,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Calix-L/DanKS",
+      "description": "RL‑Empowered Small‑Scale Competitive Guandan Agent",
+      "summary": "RL‑Empowered Small‑Scale Competitive Guandan Agent",
+      "mention_summaries": [
+        "DanKS"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 580,
+      "forks": 12,
+      "watchers": 3,
+      "language": "Python",
+      "topics": [
+        "card-games",
+        "game-ai",
+        "guandan",
+        "pytorch",
+        "reinforcement-learning"
+      ],
+      "homepage": "https://calixlin.com/CardKS/",
+      "updated_at": "2026-09-25T06:53:23Z",
+      "pushed_at": "2026-09-18T19:33:58Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 62,
+      "github_project_reason": "项目用途：DanKS 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 580 stars，已有真实关注度；主要用 Python 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：DanKS 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 580 stars，已有真实关注度；主要用 Python 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "2654800c4686d15dfad3f9f0df7033793682ee5a",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "endlessh-go",
+      "title_zh": "endlessh-go",
+      "url": "https://github.com/shizunge/endlessh-go",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 61,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "shizunge/endlessh-go",
+      "description": "A golang implementation of endlessh (SSH tarpit) exporting Prometheus metrics, visualized by a Grafana dashboard.",
+      "summary": "A golang implementation of endlessh (SSH tarpit) exporting Prometheus metrics, visualized by a Grafana dashboard.",
+      "mention_summaries": [
+        "endlessh-go"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 1442,
+      "forks": 53,
+      "watchers": 4,
+      "language": "Go",
+      "topics": [
+        "grafana",
+        "grafana-dashboard",
+        "monitoring",
+        "prometheus",
+        "ssh"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-25T01:23:50Z",
+      "pushed_at": "2026-09-21T17:36:51Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 61,
+      "github_project_reason": "项目用途：endlessh-go 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,442 stars，已有真实关注度；主要用 Go 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：endlessh-go 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,442 stars，已有真实关注度；主要用 Go 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "9d99111c2ea02fb6404973ecfc2347798e2d3420",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "一息",
+      "title_zh": "一息",
+      "url": "https://github.com/Defiabell/yixi",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 61,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Defiabell/yixi",
+      "description": "打开干扰类 App 前，先呼吸十秒。自建的 One Sec 替代品，跑在 Cloudflare 免费额度上。A self-hosted One Sec alternative: breathe before the app opens.",
+      "summary": "打开干扰类 App 前，先呼吸十秒。自建的 One Sec 替代品，跑在 Cloudflare 免费额度上。A self-hosted One Sec alternative: breathe before the app opens.",
+      "mention_summaries": [
+        "一息"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 91,
+      "forks": 4,
+      "watchers": 0,
+      "language": "TypeScript",
+      "topics": [
+        "cloudflare-workers",
+        "digital-wellbeing",
+        "ios-shortcuts",
+        "mindfulness",
+        "one-sec",
+        "screen-time",
+        "self-hosted",
+        "serverless"
+      ],
+      "homepage": "https://yixi-app.pages.dev",
+      "updated_at": "2026-09-24T16:42:33Z",
+      "pushed_at": "2026-09-21T07:36:15Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 61,
+      "github_project_reason": "项目用途：一息 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 91 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：一息 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 91 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "394ec7dd6b77c7df7741bb099290216c56e9f17f",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "ghostty-web",
+      "title_zh": "ghostty-web",
+      "url": "https://github.com/coder/ghostty-web",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 60,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "coder/ghostty-web",
+      "description": "Ghostty for the web with xterm.js API compatibility",
+      "summary": "Ghostty for the web with xterm.js API compatibility",
+      "mention_summaries": [
+        "ghostty-web"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 2919,
+      "forks": 176,
+      "watchers": 6,
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "ghostty",
+        "library",
+        "terminal"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-24T10:00:40Z",
+      "pushed_at": "2026-07-02T06:09:12Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 60,
+      "github_project_reason": "项目用途：ghostty-web 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,919 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：ghostty-web 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 2,919 stars，已有真实关注度；主要用 TypeScript 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "8727988258efe2d451f0f224dd47fbe6c57817b8",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "caddy-waf",
+      "title_zh": "caddy-waf",
+      "url": "https://github.com/fabriziosalmi/caddy-waf",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 60,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "fabriziosalmi/caddy-waf",
+      "description": "Caddy WAF (Regex Rules, IP and DNS filtering, Rate Limiting, GeoIP, Tor, Anomaly Detection)",
+      "summary": "Caddy WAF (Regex Rules, IP and DNS filtering, Rate Limiting, GeoIP, Tor, Anomaly Detection)",
+      "mention_summaries": [
+        "caddy-waf"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 862,
+      "forks": 35,
+      "watchers": 4,
+      "language": "Go",
+      "topics": [
+        "caddy",
+        "caddy-module",
+        "caddy-plugin",
+        "caddy-security",
+        "caddyserver",
+        "dns-blacklist",
+        "dns-filtering",
+        "geo-blocking"
+      ],
+      "homepage": "https://www.caddy-waf.com/",
+      "updated_at": "2026-09-24T05:55:06Z",
+      "pushed_at": "2026-09-24T12:25:17Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 60,
+      "github_project_reason": "项目用途：caddy-waf 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 862 stars，已有真实关注度；主要用 Go 写成；主题标签：caddy / caddy-module / caddy-plugin / caddy-security。",
+      "ai_relevance_reason": "项目用途：caddy-waf 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 862 stars，已有真实关注度；主要用 Go 写成；主题标签：caddy / caddy-module / caddy-plugin / caddy-security。"
+    },
+    {
+      "id": "1f390faa80961058c9dc6f376270277163bd15af",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "CozyClay",
+      "title_zh": "CozyClay",
+      "url": "https://github.com/NomaDamas/CozyClay",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 60,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "NomaDamas/CozyClay",
+      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
+      "summary": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
+      "mention_summaries": [
+        "CozyClay"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-410.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 719,
+      "forks": 80,
+      "watchers": 8,
+      "language": "JavaScript",
+      "topics": [
+        "3d",
+        "3d-animation",
+        "ai",
+        "ai-video",
+        "animation",
+        "blender",
+        "camera-control",
+        "llm-agent"
+      ],
+      "homepage": "https://cozyclay.org",
+      "updated_at": "2026-09-25T04:23:39Z",
+      "pushed_at": "2026-09-25T04:23:35Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 60,
+      "github_project_reason": "项目用途：CozyClay 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 719 stars，已有真实关注度；主要用 JavaScript 写成；能直接打开体验，反馈很直观。",
+      "ai_relevance_reason": "项目用途：CozyClay 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 719 stars，已有真实关注度；主要用 JavaScript 写成；能直接打开体验，反馈很直观。"
+    },
+    {
+      "id": "b128a9b1f4bdec7cb469b540d55a9db01a7cff4d",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "ctty",
+      "title_zh": "ctty",
+      "url": "https://github.com/zsuroy/ctty",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 60,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "zsuroy/ctty",
+      "description": "A lightweight, all-in-one connection manager — SSH, Serial, SFTP, Telnet, FTP and WebDAV in a single TUI 🔥",
+      "summary": "A lightweight, all-in-one connection manager — SSH, Serial, SFTP, Telnet, FTP and WebDAV in a single TUI 🔥",
+      "mention_summaries": [
+        "ctty"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 219,
+      "forks": 14,
+      "watchers": 2,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "devops",
+        "filemanager",
+        "ftp",
+        "serialport",
+        "sftp",
+        "skill",
+        "ssh"
+      ],
+      "homepage": "",
+      "updated_at": "2026-09-25T06:42:36Z",
+      "pushed_at": "2026-09-23T16:36:45Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 60,
+      "github_project_reason": "项目用途：ctty 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 219 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：ctty 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 219 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "ac3ccd2f5bc4abb12da9aa6963af479fe6166c2a",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "vet",
+      "title_zh": "vet",
+      "url": "https://github.com/vet-run/vet",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 59,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "vet-run/vet",
+      "description": "vet is a command-line tool that acts as a safety net for the risky curl | bash pattern. It lets you inspect, diff against previous versions, and lint remote scripts before asking for your explicit approval to execute. Promoting a safer, more transparent way to handle remote code execution.",
+      "summary": "vet is a command-line tool that acts as a safety net for the risky curl | bash pattern. It lets you inspect, diff against previous versions, and lint remote scripts before asking for your explicit approval to execute. Promoting a safer, more transparent way to handle remote code execution.",
+      "mention_summaries": [
+        "vet"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-412.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 1187,
+      "forks": 23,
+      "watchers": 6,
+      "language": "Shell",
+      "topics": [
+        "bash",
+        "cli",
+        "command-line",
+        "curl",
+        "developer-tools",
+        "devops-tools",
+        "pipe-security",
+        "security"
+      ],
+      "homepage": "https://getvet.sh",
+      "updated_at": "2026-09-24T17:07:05Z",
+      "pushed_at": "2025-08-20T15:46:48Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 59,
+      "github_project_reason": "项目用途：vet 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,187 stars，已有真实关注度；主要用 Shell 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：vet 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 1,187 stars，已有真实关注度；主要用 Shell 写成；和 AI/Agent 工作流有连接点。"
+    },
+    {
+      "id": "909a715d0ab0b89e60468904e4e769b3a09b2858",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Status Trio",
+      "title_zh": "Status Trio",
+      "url": "https://github.com/lingyired/status-trio",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 59,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "lingyired/status-trio",
+      "description": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
+      "summary": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
+      "mention_summaries": [
+        "Status Trio"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 538,
+      "forks": 28,
+      "watchers": 2,
+      "language": "Swift",
+      "topics": [
+        "appkit",
+        "battery",
+        "dock",
+        "duobar",
+        "iphone-duo",
+        "macos",
+        "macos-app",
+        "menu-bar"
+      ],
+      "homepage": "https://statustrio.lingai.net/",
+      "updated_at": "2026-09-25T04:38:53Z",
+      "pushed_at": "2026-09-25T02:31:58Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 59,
+      "github_project_reason": "项目用途：Status Trio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 538 stars，已有真实关注度；主要用 Swift 写成；主题标签：appkit / battery / dock / duobar。",
+      "ai_relevance_reason": "项目用途：Status Trio 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 538 stars，已有真实关注度；主要用 Swift 写成；主题标签：appkit / battery / dock / duobar。"
+    },
+    {
+      "id": "8a21e4d40aa77de39633c222904427404cf63381",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "shotsync",
+      "title_zh": "shotsync",
+      "url": "https://github.com/Defiabell/shotsync",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 59,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "Defiabell/shotsync",
+      "description": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
+      "summary": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
+      "mention_summaries": [
+        "shotsync"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 197,
+      "forks": 12,
+      "watchers": 0,
+      "language": "TypeScript",
+      "topics": [
+        "cloudflare-workers",
+        "file-sharing",
+        "pwa",
+        "r2",
+        "screenshot",
+        "self-hosted"
+      ],
+      "homepage": "https://shotsync-demo.defiabell.workers.dev",
+      "updated_at": "2026-09-24T19:23:13Z",
+      "pushed_at": "2026-09-20T05:51:33Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 59,
+      "github_project_reason": "项目用途：shotsync 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 197 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。",
+      "ai_relevance_reason": "项目用途：shotsync 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 197 stars，已有真实关注度；主要用 TypeScript 写成；适合自己部署或顺手改造。"
+    },
+    {
+      "id": "23644d116e2c40e4ff4f37373fb337b1836aa5bf",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "Infat",
+      "title_zh": "Infat",
+      "url": "https://github.com/philocalyst/infat",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 58,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "philocalyst/infat",
+      "description": "A command line tool to set default openers for file formats and url schemes on macos",
+      "summary": "A command line tool to set default openers for file formats and url schemes on macos",
+      "mention_summaries": [
+        "Infat"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-413.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 459,
+      "forks": 15,
+      "watchers": 3,
+      "language": "Rust",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "2026-09-24T08:46:54Z",
+      "pushed_at": "2026-04-19T02:16:58Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 58,
+      "github_project_reason": "项目用途：Infat 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 459 stars，已有真实关注度；主要用 Rust 写成。",
+      "ai_relevance_reason": "项目用途：Infat 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 459 stars，已有真实关注度；主要用 Rust 写成。"
+    },
+    {
+      "id": "3ff97c48994c92b1d05ba2618b69226eb3ed072d",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "ATBClone",
+      "title_zh": "ATBClone",
+      "url": "https://github.com/aitobox/ATBClone",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 58,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "aitobox/ATBClone",
+      "description": "The Ultimate macOS App Cloner & Sandbox Bypass Engine.",
+      "summary": "The Ultimate macOS App Cloner & Sandbox Bypass Engine.",
+      "mention_summaries": [
+        "ATBClone"
+      ],
+      "recommend_sources": [
+        "科技爱好者周刊"
+      ],
+      "source_ids": [
+        "github_weekly"
+      ],
+      "source_urls": [
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
+      ],
+      "source_count": 1,
+      "source_weight": 28,
+      "stars": 403,
+      "forks": 39,
+      "watchers": 2,
+      "language": "Python",
+      "topics": [
+        "macos"
+      ],
+      "homepage": "https://clone.aitobox.com/",
+      "updated_at": "2026-09-24T19:36:18Z",
+      "pushed_at": "2026-09-24T12:08:18Z",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 58,
+      "github_project_reason": "项目用途：ATBClone 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 403 stars，已有真实关注度；主要用 Python 写成；主题标签：macos。",
+      "ai_relevance_reason": "项目用途：ATBClone 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 403 stars，已有真实关注度；主要用 Python 写成；主题标签：macos。"
+    },
     {
       "id": "a2e27b7a6eefaab8eeab0c2304484866bfce8254",
       "site_id": "github_awesome",
@@ -13,8 +1800,8 @@
       "title_zh": "AI in Finance",
       "url": "https://github.com/georgezouq/awesome-ai-in-finance",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 57,
       "source_tier": "github_projects",
@@ -37,8 +1824,8 @@
       ],
       "source_count": 1,
       "source_weight": 18,
-      "stars": 6610,
-      "forks": 825,
+      "stars": 6611,
+      "forks": 826,
       "watchers": 134,
       "language": "",
       "topics": [
@@ -52,286 +1839,110 @@
         "quant"
       ],
       "homepage": "https://medium.com/@zousongqi0213/how-people-use-ai-in-finance-59f0a7512b4",
-      "updated_at": "2026-09-24T18:01:24Z",
+      "updated_at": "2026-09-25T04:33:06Z",
       "pushed_at": "2026-09-08T03:00:12Z",
       "archived": false,
       "disabled": false,
       "github_project_date_label": "本次收录",
       "github_project_score": 57,
-      "github_project_reason": "项目用途：AI in Finance - Solving problems in finance with machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,610 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：analysis / awesome / awesome-list / cryptocurrency。",
-      "ai_relevance_reason": "项目用途：AI in Finance - Solving problems in finance with machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,610 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：analysis / awesome / awesome-list / cryptocurrency。"
+      "github_project_reason": "项目用途：AI in Finance - Solving problems in finance with machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,611 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：analysis / awesome / awesome-list / cryptocurrency。",
+      "ai_relevance_reason": "项目用途：AI in Finance - Solving problems in finance with machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,611 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：analysis / awesome / awesome-list / cryptocurrency。"
     },
     {
-      "id": "12fd19727167faedc1cd92d01f806fdc61acd842",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Machine Learning",
-      "title_zh": "Machine Learning",
-      "url": "https://github.com/josephmisiti/awesome-machine-learning",
+      "id": "597138d0acf85a4b40da1afaf10932a454649081",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "tare",
+      "title_zh": "tare",
+      "url": "https://github.com/kelviq/tare",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
-      "ai_score": 56,
+      "ai_score": 57,
       "source_tier": "github_projects",
       "source_tier_label": "GitHub好玩项目",
       "source_tier_rank": 1,
-      "repo_full_name": "josephmisiti/awesome-machine-learning",
-      "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
-      "summary": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+      "repo_full_name": "kelviq/tare",
+      "description": "Ask Claude Code where your usage went. Token audit, limit diagnosis and usage forensics — built from the session logs already on your machine, nothing leaves it.",
+      "summary": "Ask Claude Code where your usage went. Token audit, limit diagnosis and usage forensics — built from the session logs already on your machine, nothing leaves it.",
       "mention_summaries": [
-        "Machine Learning"
+        "本文总结了他的调查过程，以及分享他做的一个工具 tare，可以对 Claude Code 本地日志进行分析，生成总结报告（下图），一眼就可以看出 Token 是怎么消耗的"
       ],
       "recommend_sources": [
-        "Awesome"
+        "科技爱好者周刊"
       ],
       "source_ids": [
-        "github_awesome"
+        "github_weekly"
       ],
       "source_urls": [
-        "https://github.com/sindresorhus/awesome"
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-411.md"
       ],
       "source_count": 1,
-      "source_weight": 18,
-      "stars": 74442,
-      "forks": 15659,
-      "watchers": 3243,
+      "source_weight": 28,
+      "stars": 289,
+      "forks": 13,
+      "watchers": 2,
       "language": "Python",
       "topics": [],
-      "homepage": "",
-      "updated_at": "2026-09-25T01:00:07Z",
-      "pushed_at": "2026-09-22T12:17:28Z",
+      "homepage": "https://www.kelviq.com/blog/claude-code-usage-limits-where-tokens-go/",
+      "updated_at": "2026-09-24T19:23:41Z",
+      "pushed_at": "2026-08-28T05:05:17Z",
       "archived": false,
       "disabled": false,
       "github_project_date_label": "本次收录",
-      "github_project_score": 56,
-      "github_project_reason": "项目用途：Machine Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 74,442 stars，已有真实关注度；主要用 Python 写成。",
-      "ai_relevance_reason": "项目用途：Machine Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 74,442 stars，已有真实关注度；主要用 Python 写成。"
+      "github_project_score": 57,
+      "github_project_reason": "项目用途：本文总结了他的调查过程，以及分享他做的一个工具 tare，可以对 Claude Code 本地日志进行分析，生成总结报告（下图），一眼就可以看出 Token 是怎么消耗的 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 289 stars，已有真实关注度；主要用 Python 写成；和 AI/Agent 工作流有连接点。",
+      "ai_relevance_reason": "项目用途：本文总结了他的调查过程，以及分享他做的一个工具 tare，可以对 Claude Code 本地日志进行分析，生成总结报告（下图），一眼就可以看出 Token 是怎么消耗的 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 289 stars，已有真实关注度；主要用 Python 写成；和 AI/Agent 工作流有连接点。"
     },
     {
-      "id": "819bc443af06d30b4cf8f3f510267c54566af68e",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Claude Code",
-      "title_zh": "Claude Code",
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "id": "5689f0336a0a90c3863b9dd5808ba76d28a2a9d5",
+      "site_id": "github_weekly",
+      "site_name": "科技爱好者周刊",
+      "source": "科技爱好者周刊",
+      "title": "dgit",
+      "title_zh": "dgit",
+      "url": "https://github.com/littledivy/dgit",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
-      "ai_score": 56,
+      "ai_score": 57,
       "source_tier": "github_projects",
       "source_tier_label": "GitHub好玩项目",
       "source_tier_rank": 1,
-      "repo_full_name": "hesreallyhim/awesome-claude-code",
-      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-      "summary": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "repo_full_name": "littledivy/dgit",
+      "description": "Git forge on Durable Objects",
+      "summary": "Git forge on Durable Objects",
       "mention_summaries": [
-        "Claude Code - Terminal-based AI coding assistant by Anthropic."
+        "dgit"
       ],
       "recommend_sources": [
-        "Awesome"
+        "科技爱好者周刊"
       ],
       "source_ids": [
-        "github_awesome"
+        "github_weekly"
       ],
       "source_urls": [
-        "https://github.com/sindresorhus/awesome"
+        "https://github.com/ruanyf/weekly/blob/master/docs/issue-409.md"
       ],
       "source_count": 1,
-      "source_weight": 18,
-      "stars": 54573,
-      "forks": 4761,
-      "watchers": 332,
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "agentic-code",
-        "agentic-coding",
-        "ai-workflow-optimization",
-        "ai-workflows",
-        "anthropic",
-        "anthropic-claude",
-        "awesome"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-25T01:51:39Z",
-      "pushed_at": "2026-09-25T00:27:55Z",
+      "source_weight": 28,
+      "stars": 239,
+      "forks": 10,
+      "watchers": 2,
+      "language": "TypeScript",
+      "topics": [],
+      "homepage": "git.littledivy.com",
+      "updated_at": "2026-09-24T19:23:48Z",
+      "pushed_at": "2026-08-21T14:17:39Z",
       "archived": false,
       "disabled": false,
       "github_project_date_label": "本次收录",
-      "github_project_score": 56,
-      "github_project_reason": "项目用途：Claude Code - Terminal-based AI coding assistant by Anthropic. 好玩在哪里：被 Awesome 推荐；GitHub 约 54,573 stars，已有真实关注度；主要用 Python 写成；和 AI/Agent 工作流有连接点。",
-      "ai_relevance_reason": "项目用途：Claude Code - Terminal-based AI coding assistant by Anthropic. 好玩在哪里：被 Awesome 推荐；GitHub 约 54,573 stars，已有真实关注度；主要用 Python 写成；和 AI/Agent 工作流有连接点。"
-    },
-    {
-      "id": "41ca6be9b3ff4629e47304333d9085c3bbec6093",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "University Courses",
-      "title_zh": "University Courses",
-      "url": "https://github.com/prakhar1989/awesome-courses",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 54,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "prakhar1989/awesome-courses",
-      "description": ":books: List of awesome university courses for learning Computer Science!",
-      "summary": ":books: List of awesome university courses for learning Computer Science!",
-      "mention_summaries": [
-        "University Courses"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 71382,
-      "forks": 8450,
-      "watchers": 2278,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "computer-science",
-        "courses"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-25T01:48:54Z",
-      "pushed_at": "2023-05-04T12:49:34Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 54,
-      "github_project_reason": "项目用途：University Courses 好玩在哪里：被 Awesome 推荐；GitHub 约 71,382 stars，已有真实关注度；主题标签：awesome / awesome-list / computer-science / courses。",
-      "ai_relevance_reason": "项目用途：University Courses 好玩在哪里：被 Awesome 推荐；GitHub 约 71,382 stars，已有真实关注度；主题标签：awesome / awesome-list / computer-science / courses。"
-    },
-    {
-      "id": "d55d60d23513916e2a30fde59d2cf7755218f121",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Generative AI",
-      "title_zh": "Generative AI",
-      "url": "https://github.com/steven2358/awesome-generative-ai",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 53,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "steven2358/awesome-generative-ai",
-      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
-      "summary": "A curated list of modern Generative Artificial Intelligence projects and services",
-      "mention_summaries": [
-        "Generative AI - Automatically generates a wide range of unique content in text, image, and audio format."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 12678,
-      "forks": 2163,
-      "watchers": 176,
-      "language": "",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "awesome",
-        "awesome-list",
-        "generative-ai",
-        "generative-art",
-        "large-language-models",
-        "llm"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-25T01:51:33Z",
-      "pushed_at": "2026-09-16T21:39:51Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 53,
-      "github_project_reason": "项目用途：Generative AI - Automatically generates a wide range of unique content in text, image, and audio format. 好玩在哪里：被 Awesome 推荐；GitHub 约 12,678 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / artificial-intelligence / awesome / awesome-list。",
-      "ai_relevance_reason": "项目用途：Generative AI - Automatically generates a wide range of unique content in text, image, and audio format. 好玩在哪里：被 Awesome 推荐；GitHub 约 12,678 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / artificial-intelligence / awesome / awesome-list。"
-    },
-    {
-      "id": "f21348b8fbf000e8e9cd3541f5601f7d3ff67af6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Terraform",
-      "title_zh": "Terraform",
-      "url": "https://github.com/shuaibiyy/awesome-terraform",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 51,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "shuaibiyy/awesome-terraform",
-      "description": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
-      "summary": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
-      "mention_summaries": [
-        "Terraform - Tool for building, changing, and versioning infrastructure."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 6599,
-      "forks": 1067,
-      "watchers": 170,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "devops",
-        "hashicorp-terraform",
-        "infrastructure-as-code",
-        "opentofu",
-        "terraform",
-        "terraform-modules"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-24T15:56:57Z",
-      "pushed_at": "2026-09-21T13:40:43Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 51,
-      "github_project_reason": "项目用途：Terraform - Tool for building, changing, and versioning infrastructure. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,599 stars，已有真实关注度；主题标签：awesome / awesome-list / devops / hashicorp-terraform。",
-      "ai_relevance_reason": "项目用途：Terraform - Tool for building, changing, and versioning infrastructure. 好玩在哪里：被 Awesome 推荐；GitHub 约 6,599 stars，已有真实关注度；主题标签：awesome / awesome-list / devops / hashicorp-terraform。"
+      "github_project_score": 57,
+      "github_project_reason": "项目用途：dgit 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 239 stars，已有真实关注度；主要用 TypeScript 写成。",
+      "ai_relevance_reason": "项目用途：dgit 好玩在哪里：被 科技爱好者周刊 推荐；GitHub 约 239 stars，已有真实关注度；主要用 TypeScript 写成。"
     },
     {
       "id": "a722f8a1ec9fab9d1cbd9f03f145824eae0fb3a3",
@@ -342,8 +1953,8 @@
       "title_zh": "Gemini CLI",
       "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 51,
       "source_tier": "github_projects",
@@ -367,7 +1978,7 @@
       "source_count": 1,
       "source_weight": 18,
       "stars": 509,
-      "forks": 124,
+      "forks": 125,
       "watchers": 27,
       "language": "",
       "topics": [
@@ -391,388 +2002,6 @@
       "ai_relevance_reason": "项目用途：Gemini CLI - Terminal-based AI coding assistant by Google. 好玩在哪里：被 Awesome 推荐；GitHub 约 509 stars，已有真实关注度；和 AI/Agent 工作流有连接点；适合自己部署或顺手改造。"
     },
     {
-      "id": "2a7ce9628ad91fb2c1e7a0254aa87f19ffe5c541",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Data Science",
-      "title_zh": "Data Science",
-      "url": "https://github.com/krzjoa/awesome-python-data-science",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 50,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "krzjoa/awesome-python-data-science",
-      "description": "Probably the best curated list of data science software in Python.",
-      "summary": "Probably the best curated list of data science software in Python.",
-      "mention_summaries": [
-        "Data Science - Data analysis and machine learning."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 3597,
-      "forks": 463,
-      "watchers": 61,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "awesome-python",
-        "data-analysis",
-        "data-science",
-        "data-visualization",
-        "deep-learning",
-        "machine-learning"
-      ],
-      "homepage": "https://krzjoa.github.io/awesome-python-data-science",
-      "updated_at": "2026-09-24T07:04:05Z",
-      "pushed_at": "2026-04-13T07:15:05Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 50,
-      "github_project_reason": "项目用途：Data Science - Data analysis and machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 3,597 stars，已有真实关注度；主题标签：awesome / awesome-list / awesome-python / data-analysis。",
-      "ai_relevance_reason": "项目用途：Data Science - Data analysis and machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 3,597 stars，已有真实关注度；主题标签：awesome / awesome-list / awesome-python / data-analysis。"
-    },
-    {
-      "id": "9a6f4f93ae12564df57e7598595b9fff3feb0e45",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Chrome DevTools",
-      "title_zh": "Chrome DevTools",
-      "url": "https://github.com/ChromeDevTools/awesome-chrome-devtools",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 49,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "ChromeDevTools/awesome-chrome-devtools",
-      "description": "Awesome tooling and resources in the Chrome DevTools & DevTools Protocol ecosystem",
-      "summary": "Awesome tooling and resources in the Chrome DevTools & DevTools Protocol ecosystem",
-      "mention_summaries": [
-        "Chrome DevTools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 7149,
-      "forks": 450,
-      "watchers": 171,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list"
-      ],
-      "homepage": "https://github.com/ChromeDevTools/awesome-chrome-devtools#readme",
-      "updated_at": "2026-09-24T15:37:00Z",
-      "pushed_at": "2026-03-27T03:36:24Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 49,
-      "github_project_reason": "项目用途：Chrome DevTools 好玩在哪里：被 Awesome 推荐；GitHub 约 7,149 stars，已有真实关注度；主题标签：awesome / awesome-list。",
-      "ai_relevance_reason": "项目用途：Chrome DevTools 好玩在哪里：被 Awesome 推荐；GitHub 约 7,149 stars，已有真实关注度；主题标签：awesome / awesome-list。"
-    },
-    {
-      "id": "c4c54ca18f3939a7f3ea9769eaa56b1117dd3257",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Whisper",
-      "title_zh": "Whisper",
-      "url": "https://github.com/sindresorhus/awesome-whisper",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 49,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "sindresorhus/awesome-whisper",
-      "description": "🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI",
-      "summary": "🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI",
-      "mention_summaries": [
-        "Whisper - Open-source AI-powered speech recognition system developed by OpenAI."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 2391,
-      "forks": 184,
-      "watchers": 27,
-      "language": "",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "awesome",
-        "awesome-list",
-        "gpt",
-        "openai",
-        "speech-to-text",
-        "transcription"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-23T13:15:49Z",
-      "pushed_at": "2026-09-17T05:00:10Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 49,
-      "github_project_reason": "项目用途：Whisper - Open-source AI-powered speech recognition system developed by OpenAI. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,391 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / artificial-intelligence / awesome / awesome-list。",
-      "ai_relevance_reason": "项目用途：Whisper - Open-source AI-powered speech recognition system developed by OpenAI. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,391 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / artificial-intelligence / awesome / awesome-list。"
-    },
-    {
-      "id": "630fe7767e346455c06e5054430f0311e6bf90d2",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Deep Learning",
-      "title_zh": "Deep Learning",
-      "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 48,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "ChristosChristofidis/awesome-deep-learning",
-      "description": "A curated list of awesome Deep Learning tutorials, projects and communities.",
-      "summary": "A curated list of awesome Deep Learning tutorials, projects and communities.",
-      "mention_summaries": [
-        "Deep Learning - Neural networks."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 28965,
-      "forks": 6350,
-      "watchers": 1210,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "deep-learning",
-        "deep-learning-tutorial",
-        "deep-networks",
-        "face-images",
-        "machine-learning",
-        "neural-network"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-25T00:07:54Z",
-      "pushed_at": "2025-05-26T12:28:00Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 48,
-      "github_project_reason": "项目用途：Deep Learning - Neural networks. 好玩在哪里：被 Awesome 推荐；GitHub 约 28,965 stars，已有真实关注度；主题标签：awesome / awesome-list / deep-learning / deep-learning-tutorial。",
-      "ai_relevance_reason": "项目用途：Deep Learning - Neural networks. 好玩在哪里：被 Awesome 推荐；GitHub 约 28,965 stars，已有真实关注度；主题标签：awesome / awesome-list / deep-learning / deep-learning-tutorial。"
-    },
-    {
-      "id": "f33a5fb8e561c61d71c569aae1400093b498d650",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "JAMstack",
-      "title_zh": "JAMstack",
-      "url": "https://github.com/automata/awesome-jamstack",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 47,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "automata/awesome-jamstack",
-      "description": "Carefully curated list of awesome Jamstack resources",
-      "summary": "Carefully curated list of awesome Jamstack resources",
-      "mention_summaries": [
-        "JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1371,
-      "forks": 188,
-      "watchers": 37,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "jamstack",
-        "javascript",
-        "static-site",
-        "static-site-generator"
-      ],
-      "homepage": "https://jamstack.org",
-      "updated_at": "2026-09-21T05:07:16Z",
-      "pushed_at": "2026-08-17T09:12:20Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 47,
-      "github_project_reason": "项目用途：JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,371 stars，已有真实关注度；适合自己部署或顺手改造；主题标签：awesome / awesome-list / jamstack / javascript。",
-      "ai_relevance_reason": "项目用途：JAMstack - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,371 stars，已有真实关注度；适合自己部署或顺手改造；主题标签：awesome / awesome-list / jamstack / javascript。"
-    },
-    {
-      "id": "880988b3621e0d2e9efe96925ce441d9cd3d5339",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Vert.x",
-      "title_zh": "Vert.x",
-      "url": "https://github.com/vert-x3/vertx-awesome",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 46,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "vert-x3/vertx-awesome",
-      "description": "A curated list of awesome Vert.x resources, libraries, and other nice things.",
-      "summary": "A curated list of awesome Vert.x resources, libraries, and other nice things.",
-      "mention_summaries": [
-        "Vert.x - Toolkit for building reactive apps on the JVM."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 2221,
-      "forks": 280,
-      "watchers": 164,
-      "language": "",
-      "topics": [],
-      "homepage": "https://github.com/vert-x3/vertx-awesome",
-      "updated_at": "2026-09-12T20:59:31Z",
-      "pushed_at": "2026-06-27T03:13:48Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 46,
-      "github_project_reason": "项目用途：Vert.x - Toolkit for building reactive apps on the JVM. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,221 stars，已有真实关注度。",
-      "ai_relevance_reason": "项目用途：Vert.x - Toolkit for building reactive apps on the JVM. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,221 stars，已有真实关注度。"
-    },
-    {
-      "id": "f960fd3bf85ad286a2bb6181663bcdcd5947d2b6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "JAX",
-      "title_zh": "JAX",
-      "url": "https://github.com/n2cholas/awesome-jax",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 46,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "n2cholas/awesome-jax",
-      "description": "JAX - A curated list of resources https://github.com/google/jax",
-      "summary": "JAX - A curated list of resources https://github.com/google/jax",
-      "mention_summaries": [
-        "JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 2164,
-      "forks": 169,
-      "watchers": 52,
-      "language": "",
-      "topics": [
-        "autograd",
-        "awesome",
-        "awesome-list",
-        "deep-learning",
-        "jax",
-        "machine-learning",
-        "neural-network",
-        "numpy"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-21T05:02:55Z",
-      "pushed_at": "2026-01-20T05:48:13Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 46,
-      "github_project_reason": "项目用途：JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,164 stars，已有真实关注度；主题标签：autograd / awesome / awesome-list / deep-learning。",
-      "ai_relevance_reason": "项目用途：JAX - Automatic differentiation and XLA compilation brought together for high-performance machine learning research. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,164 stars，已有真实关注度；主题标签：autograd / awesome / awesome-list / deep-learning。"
-    },
-    {
       "id": "f891e38889384bfb6bb31e8ca81e334ff08d1885",
       "site_id": "github_awesome",
       "site_name": "Awesome",
@@ -781,8 +2010,8 @@
       "title_zh": "Awesome CLI",
       "url": "https://github.com/umutphp/awesome-cli",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 46,
       "source_tier": "github_projects",
@@ -826,396 +2055,6 @@
       "ai_relevance_reason": "项目用途：Awesome CLI - A simple command-line tool to dive into Awesome lists. 好玩在哪里：被 Awesome 推荐；GitHub 约 818 stars，已有真实关注度；主要用 Go 写成；适合自己部署或顺手改造。"
     },
     {
-      "id": "806ecce3db9254fa40b213ca712c60bcd7e8f435",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Papers",
-      "title_zh": "Papers",
-      "url": "https://github.com/terryum/awesome-deep-learning-papers",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 45,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "terryum/awesome-deep-learning-papers",
-      "description": "The most cited deep learning papers",
-      "summary": "The most cited deep learning papers",
-      "mention_summaries": [
-        "Papers - The most cited deep learning papers."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 26195,
-      "forks": 4411,
-      "watchers": 1887,
-      "language": "TeX",
-      "topics": [
-        "deep-learning",
-        "deep-neural-networks",
-        "machine-learning"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-24T22:13:28Z",
-      "pushed_at": "2024-01-18T13:29:44Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 45,
-      "github_project_reason": "项目用途：Papers - The most cited deep learning papers. 好玩在哪里：被 Awesome 推荐；GitHub 约 26,195 stars，已有真实关注度；主要用 TeX 写成；主题标签：deep-learning / deep-neural-networks / machine-learning。",
-      "ai_relevance_reason": "项目用途：Papers - The most cited deep learning papers. 好玩在哪里：被 Awesome 推荐；GitHub 约 26,195 stars，已有真实关注度；主要用 TeX 写成；主题标签：deep-learning / deep-neural-networks / machine-learning。"
-    },
-    {
-      "id": "0418851f46f8214bf2e62dcd353d7c6ad68a879a",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "TensorFlow Lite",
-      "title_zh": "TensorFlow Lite",
-      "url": "https://github.com/margaretmz/awesome-tensorflow-lite",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 45,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "margaretmz/awesome-tensorflow-lite",
-      "description": "An awesome list of TensorFlow Lite models, samples, tutorials, tools and learning resources.",
-      "summary": "An awesome list of TensorFlow Lite models, samples, tutorials, tools and learning resources.",
-      "mention_summaries": [
-        "TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1391,
-      "forks": 189,
-      "watchers": 61,
-      "language": "",
-      "topics": [
-        "android",
-        "awesome",
-        "awesome-list",
-        "computer-vision",
-        "deep-learning",
-        "flutter",
-        "ios",
-        "keras-tutorials"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-23T09:06:02Z",
-      "pushed_at": "2022-03-01T02:42:46Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 45,
-      "github_project_reason": "项目用途：TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,391 stars，已有真实关注度；主题标签：android / awesome / awesome-list / computer-vision。",
-      "ai_relevance_reason": "项目用途：TensorFlow Lite - Framework that optimizes TensorFlow models for on-device machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,391 stars，已有真实关注度；主题标签：android / awesome / awesome-list / computer-vision。"
-    },
-    {
-      "id": "e695626417fbda5fca8e1de4719c26816777273b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "CodeRabbit",
-      "title_zh": "CodeRabbit",
-      "url": "https://github.com/coderabbitai/awesome-coderabbit",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 45,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "coderabbitai/awesome-coderabbit",
-      "description": "Official awesome-list of CodeRabbit Starters & Resources ⚡️",
-      "summary": "Official awesome-list of CodeRabbit Starters & Resources ⚡️",
-      "mention_summaries": [
-        "CodeRabbit - AI-powered code review platform."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 519,
-      "forks": 78,
-      "watchers": 12,
-      "language": "",
-      "topics": [
-        "ai",
-        "awesome",
-        "awesome-list",
-        "code",
-        "codereview",
-        "codereviewer",
-        "engineering",
-        "generative-ai"
-      ],
-      "homepage": "https://www.coderabbit.ai/",
-      "updated_at": "2026-09-24T10:52:37Z",
-      "pushed_at": "2026-09-08T14:32:13Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 45,
-      "github_project_reason": "项目用途：CodeRabbit - AI-powered code review platform. 好玩在哪里：被 Awesome 推荐；GitHub 约 519 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / awesome / awesome-list / code。",
-      "ai_relevance_reason": "项目用途：CodeRabbit - AI-powered code review platform. 好玩在哪里：被 Awesome 推荐；GitHub 约 519 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / awesome / awesome-list / code。"
-    },
-    {
-      "id": "5831e4a75ea58f517963a3a4da4b586e778daa7c",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "OpenTofu",
-      "title_zh": "OpenTofu",
-      "url": "https://github.com/virtualroot/awesome-opentofu",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 45,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "virtualroot/awesome-opentofu",
-      "description": "A curated list of OpenTofu tools, resources, and related projects.",
-      "summary": "A curated list of OpenTofu tools, resources, and related projects.",
-      "mention_summaries": [
-        "OpenTofu - Open-source infrastructure as code tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 208,
-      "forks": 25,
-      "watchers": 2,
-      "language": "SCSS",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "devops",
-        "infrastructure-as-code",
-        "list",
-        "opentf",
-        "opentofu",
-        "tofu"
-      ],
-      "homepage": "https://awesome-opentofu.com",
-      "updated_at": "2026-09-20T22:00:30Z",
-      "pushed_at": "2026-09-21T06:33:31Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 45,
-      "github_project_reason": "项目用途：OpenTofu - Open-source infrastructure as code tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 208 stars，已有真实关注度；主要用 SCSS 写成；主题标签：awesome / awesome-list / devops / infrastructure-as-code。",
-      "ai_relevance_reason": "项目用途：OpenTofu - Open-source infrastructure as code tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 208 stars，已有真实关注度；主要用 SCSS 写成；主题标签：awesome / awesome-list / devops / infrastructure-as-code。"
-    },
-    {
-      "id": "7d022eaed0d3ad192245e08bb739bc657fed98fd",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Core ML Models",
-      "title_zh": "Core ML Models",
-      "url": "https://github.com/likedan/Awesome-CoreML-Models",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 44,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "likedan/Awesome-CoreML-Models",
-      "description": "Largest list of models for Core ML (for iOS 11+)",
-      "summary": "Largest list of models for Core ML (for iOS 11+)",
-      "mention_summaries": [
-        "Core ML Models - Models for Apple's machine learning framework."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 7060,
-      "forks": 509,
-      "watchers": 249,
-      "language": "Python",
-      "topics": [
-        "apple",
-        "awesome",
-        "awesome-list",
-        "caffe",
-        "caffemodel",
-        "core-ml",
-        "coreml",
-        "coreml-framework"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-23T08:02:23Z",
-      "pushed_at": "2025-06-17T05:43:09Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 44,
-      "github_project_reason": "项目用途：Core ML Models - Models for Apple's machine learning framework. 好玩在哪里：被 Awesome 推荐；GitHub 约 7,060 stars，已有真实关注度；主要用 Python 写成；主题标签：apple / awesome / awesome-list / caffe。",
-      "ai_relevance_reason": "项目用途：Core ML Models - Models for Apple's machine learning framework. 好玩在哪里：被 Awesome 推荐；GitHub 约 7,060 stars，已有真实关注度；主要用 Python 写成；主题标签：apple / awesome / awesome-list / caffe。"
-    },
-    {
-      "id": "a0904dcb744b3a46ab6bd614d01a6843d903fcff",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "ML with Ruby",
-      "title_zh": "ML with Ruby",
-      "url": "https://github.com/arbox/machine-learning-with-ruby",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 44,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "arbox/machine-learning-with-ruby",
-      "description": "Curated list: Resources for machine learning in Ruby",
-      "summary": "Curated list: Resources for machine learning in Ruby",
-      "mention_summaries": [
-        "ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 2226,
-      "forks": 185,
-      "watchers": 114,
-      "language": "Ruby",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "list",
-        "machine-learning",
-        "ml",
-        "ruby",
-        "ruby-gem",
-        "rubyml"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-21T19:25:33Z",
-      "pushed_at": "2024-12-26T17:58:24Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 44,
-      "github_project_reason": "项目用途：ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,226 stars，已有真实关注度；主要用 Ruby 写成；主题标签：awesome / awesome-list / list / machine-learning。",
-      "ai_relevance_reason": "项目用途：ML with Ruby - Learning, implementing, and applying Machine Learning using Ruby. 好玩在哪里：被 Awesome 推荐；GitHub 约 2,226 stars，已有真实关注度；主要用 Ruby 写成；主题标签：awesome / awesome-list / list / machine-learning。"
-    },
-    {
-      "id": "54a5145432a12abf6a81753d3de217edebe234e3",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Web Tools",
-      "title_zh": "Web Tools",
-      "url": "https://github.com/lvwzhen/tools",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 44,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "lvwzhen/tools",
-      "description": "Tools Online",
-      "summary": "Tools Online",
-      "mention_summaries": [
-        "Web Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1265,
-      "forks": 120,
-      "watchers": 37,
-      "language": "",
-      "topics": [
-        "cdn",
-        "css",
-        "favicon",
-        "tool"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-23T10:06:53Z",
-      "pushed_at": "2026-07-28T09:01:17Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 44,
-      "github_project_reason": "项目用途：Web Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 1,265 stars，已有真实关注度；主题标签：cdn / css / favicon / tool。",
-      "ai_relevance_reason": "项目用途：Web Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 1,265 stars，已有真实关注度；主题标签：cdn / css / favicon / tool。"
-    },
-    {
       "id": "b225219fb09215ef5808a0c4cc008688e4f2122c",
       "site_id": "github_awesome",
       "site_name": "Awesome",
@@ -1224,8 +2063,8 @@
       "title_zh": "Blockchain AI",
       "url": "https://github.com/steven2358/awesome-blockchain-ai",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 44,
       "source_tier": "github_projects",
@@ -1270,221 +2109,6 @@
       "ai_relevance_reason": "项目用途：Blockchain AI - AI and machine-learning projects built on Blockchain. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,157 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：artificial-intelligence / awesome / awesome-list / blockchain。"
     },
     {
-      "id": "cc6da99e9992b24094f27ad8595bad384234b033",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Backstage",
-      "title_zh": "Backstage",
-      "url": "https://github.com/shano/awesome-backstage",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 43,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "shano/awesome-backstage",
-      "description": "📋 A curated list of awesome Backstage resources!",
-      "summary": "📋 A curated list of awesome Backstage resources!",
-      "mention_summaries": [
-        "Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 98,
-      "forks": 14,
-      "watchers": 4,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "backstage",
-        "developer-portal",
-        "developer-tools",
-        "idp"
-      ],
-      "homepage": "https://backstage.io/",
-      "updated_at": "2026-09-15T12:33:07Z",
-      "pushed_at": "2026-08-29T16:44:57Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 43,
-      "github_project_reason": "项目用途：Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows. 好玩在哪里：被 Awesome 推荐；GitHub 约 98 stars，已有真实关注度；主题标签：awesome / awesome-list / backstage / developer-portal。",
-      "ai_relevance_reason": "项目用途：Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows. 好玩在哪里：被 Awesome 推荐；GitHub 约 98 stars，已有真实关注度；主题标签：awesome / awesome-list / backstage / developer-portal。"
-    },
-    {
-      "id": "949073d3611162b388df77e9a2465ea4325208c6",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "ES6 Tools",
-      "title_zh": "ES6 Tools",
-      "url": "https://github.com/addyosmani/es6-tools",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 42,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "addyosmani/es6-tools",
-      "description": "An aggregation of tooling for using ES6 today",
-      "summary": "An aggregation of tooling for using ES6 today",
-      "mention_summaries": [
-        "ES6 Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 3975,
-      "forks": 252,
-      "watchers": 191,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "2026-09-22T06:11:00Z",
-      "pushed_at": "2019-10-31T18:55:04Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 42,
-      "github_project_reason": "项目用途：ES6 Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 3,975 stars，已有真实关注度。",
-      "ai_relevance_reason": "项目用途：ES6 Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 3,975 stars，已有真实关注度。"
-    },
-    {
-      "id": "eadbde5e8d63fb8d1c9d4ea9f2cf4d3ee7b351e2",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Software Engineering for Machine Learning",
-      "title_zh": "Software Engineering for Machine Learning",
-      "url": "https://github.com/SE-ML/awesome-seml",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 42,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "SE-ML/awesome-seml",
-      "description": "A curated list of articles that cover the software engineering best practices for building machine learning applications.",
-      "summary": "A curated list of articles that cover the software engineering best practices for building machine learning applications.",
-      "mention_summaries": [
-        "Software Engineering for Machine Learning - From experiment to production-level machine learning."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1372,
-      "forks": 124,
-      "watchers": 43,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "deep-learning",
-        "machine-learning",
-        "ml-ops",
-        "software-engineering"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-22T10:01:16Z",
-      "pushed_at": "2024-03-26T22:53:29Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 42,
-      "github_project_reason": "项目用途：Software Engineering for Machine Learning - From experiment to production-level machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,372 stars，已有真实关注度；主题标签：awesome / awesome-list / deep-learning / machine-learning。",
-      "ai_relevance_reason": "项目用途：Software Engineering for Machine Learning - From experiment to production-level machine learning. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,372 stars，已有真实关注度；主题标签：awesome / awesome-list / deep-learning / machine-learning。"
-    },
-    {
-      "id": "47ebcb359c9b54931ade55c89252ecf97f4d5ca4",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Copilot Agents",
-      "title_zh": "Copilot Agents",
-      "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 42,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "Code-and-Sorts/awesome-copilot-agents",
-      "description": "✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your GitHub Copilot AI experience.",
-      "summary": "✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your GitHub Copilot AI experience.",
-      "mention_summaries": [
-        "Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 575,
-      "forks": 94,
-      "watchers": 11,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "awesome",
-        "awesome-list",
-        "copilot-instructions",
-        "copilot-prompting",
-        "custom-agents",
-        "github-copilot"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-24T15:04:31Z",
-      "pushed_at": "2026-04-29T06:42:59Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 42,
-      "github_project_reason": "项目用途：Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions. 好玩在哪里：被 Awesome 推荐；GitHub 约 575 stars，已有真实关注度；主要用 TypeScript 写成；和 AI/Agent 工作流有连接点。",
-      "ai_relevance_reason": "项目用途：Copilot Agents - AI pair programming assistant by GitHub that provides code suggestions and completions. 好玩在哪里：被 Awesome 推荐；GitHub 约 575 stars，已有真实关注度；主要用 TypeScript 写成；和 AI/Agent 工作流有连接点。"
-    },
-    {
       "id": "4066e1507780509eccb0e743a58f1f562b3e1c90",
       "site_id": "github_awesome",
       "site_name": "Awesome",
@@ -1493,8 +2117,8 @@
       "title_zh": "Firebase Genkit",
       "url": "https://github.com/xavidop/awesome-firebase-genkit",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 41,
       "source_tier": "github_projects",
@@ -1542,589 +2166,6 @@
       "ai_relevance_reason": "项目用途：Firebase Genkit - An open-source framework for building AI-powered apps and features. 好玩在哪里：被 Awesome 推荐；GitHub 约 134 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：awesome / awesome-list / firebase / firebase-genkit。"
     },
     {
-      "id": "e2c8e36952863fd210f73682df3a2d03e81ae7d8",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Learning",
-      "title_zh": "Learning",
-      "url": "https://github.com/iamericfletcher/awesome-r-learning-resources",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 40,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "iamericfletcher/awesome-r-learning-resources",
-      "description": "A curated collection of free resources to help deepen your understanding of the R programming language. Updated regularly. Contributions encouraged via pull request (see contributing.md).",
-      "summary": "A curated collection of free resources to help deepen your understanding of the R programming language. Updated regularly. Contributions encouraged via pull request (see contributing.md).",
-      "mention_summaries": [
-        "Learning"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 660,
-      "forks": 105,
-      "watchers": 26,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "data-science",
-        "learning-resources",
-        "r",
-        "resources"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-24T07:21:29Z",
-      "pushed_at": "2024-12-19T14:10:24Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 40,
-      "github_project_reason": "项目用途：Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 660 stars，已有真实关注度；主题标签：awesome / awesome-list / data-science / learning-resources。",
-      "ai_relevance_reason": "项目用途：Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 660 stars，已有真实关注度；主题标签：awesome / awesome-list / data-science / learning-resources。"
-    },
-    {
-      "id": "7645e9339e0504d5d90223b317eb8013d871261d",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Information Retrieval",
-      "title_zh": "Information Retrieval",
-      "url": "https://github.com/harpribot/awesome-information-retrieval",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 39,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "harpribot/awesome-information-retrieval",
-      "description": "A curated list of awesome information retrieval resources",
-      "summary": "A curated list of awesome information retrieval resources",
-      "mention_summaries": [
-        "Information Retrieval - Learn to develop your own search engine."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1205,
-      "forks": 144,
-      "watchers": 43,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "2026-09-19T23:50:20Z",
-      "pushed_at": "2023-04-20T07:55:24Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 39,
-      "github_project_reason": "项目用途：Information Retrieval - Learn to develop your own search engine. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,205 stars，已有真实关注度。",
-      "ai_relevance_reason": "项目用途：Information Retrieval - Learn to develop your own search engine. 好玩在哪里：被 Awesome 推荐；GitHub 约 1,205 stars，已有真实关注度。"
-    },
-    {
-      "id": "9b7ce939a114933ad3d005e0c5a475fa8de12e9b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Critical-Path Tools",
-      "title_zh": "Critical-Path Tools",
-      "url": "https://github.com/addyosmani/critical-path-css-tools",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 39,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "addyosmani/critical-path-css-tools",
-      "description": "Tools to prioritize above-the-fold (critical-path) CSS",
-      "summary": "Tools to prioritize above-the-fold (critical-path) CSS",
-      "mention_summaries": [
-        "Critical-Path Tools"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 1164,
-      "forks": 48,
-      "watchers": 46,
-      "language": "",
-      "topics": [],
-      "homepage": "",
-      "updated_at": "2026-09-21T03:35:07Z",
-      "pushed_at": "2022-07-18T03:24:14Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 39,
-      "github_project_reason": "项目用途：Critical-Path Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 1,164 stars，已有真实关注度。",
-      "ai_relevance_reason": "项目用途：Critical-Path Tools 好玩在哪里：被 Awesome 推荐；GitHub 约 1,164 stars，已有真实关注度。"
-    },
-    {
-      "id": "0ad77469a3a45ffd2c2d58eaaac30bb46e3548d9",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Storybook",
-      "title_zh": "Storybook",
-      "url": "https://github.com/lauthieb/awesome-storybook",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 39,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "lauthieb/awesome-storybook",
-      "description": "A collection of awesome resources about @storybookjs ecosystem 🎨",
-      "summary": "A collection of awesome resources about @storybookjs ecosystem 🎨",
-      "mention_summaries": [
-        "Storybook - Development environment for UI components."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 422,
-      "forks": 29,
-      "watchers": 7,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "storybook"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-07T16:27:31Z",
-      "pushed_at": "2025-06-13T14:14:20Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 39,
-      "github_project_reason": "项目用途：Storybook - Development environment for UI components. 好玩在哪里：被 Awesome 推荐；GitHub 约 422 stars，已有真实关注度；主题标签：awesome / awesome-list / storybook。",
-      "ai_relevance_reason": "项目用途：Storybook - Development environment for UI components. 好玩在哪里：被 Awesome 推荐；GitHub 约 422 stars，已有真实关注度；主题标签：awesome / awesome-list / storybook。"
-    },
-    {
-      "id": "8c91dbd60c9eeb5e52e3b8f0b37eb47c983d7640",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "H2O",
-      "title_zh": "H2O",
-      "url": "https://github.com/h2oai/awesome-h2o",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 39,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "h2oai/awesome-h2o",
-      "description": "A curated list of research, applications and projects built using the H2O Machine Learning platform",
-      "summary": "A curated list of research, applications and projects built using the H2O Machine Learning platform",
-      "mention_summaries": [
-        "H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 394,
-      "forks": 71,
-      "watchers": 140,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "data-science",
-        "deep-learning",
-        "h2o",
-        "h2oai",
-        "machine-learning"
-      ],
-      "homepage": "https://github.com/h2oai/h2o-3",
-      "updated_at": "2026-09-14T04:34:10Z",
-      "pushed_at": "2023-05-18T17:08:23Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 39,
-      "github_project_reason": "项目用途：H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala. 好玩在哪里：被 Awesome 推荐；GitHub 约 394 stars，已有真实关注度；主题标签：awesome / awesome-list / data-science / deep-learning。",
-      "ai_relevance_reason": "项目用途：H2O - Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala. 好玩在哪里：被 Awesome 推荐；GitHub 约 394 stars，已有真实关注度；主题标签：awesome / awesome-list / data-science / deep-learning。"
-    },
-    {
-      "id": "0396b9dd3d4a8f918b4f8990e5ce8c09bad71c2b",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Learning",
-      "title_zh": "Learning",
-      "url": "https://github.com/GustavBertram/awesome-common-lisp-learning",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 38,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "GustavBertram/awesome-common-lisp-learning",
-      "description": "A curated list of awesome Common Lisp learning resources",
-      "summary": "A curated list of awesome Common Lisp learning resources",
-      "mention_summaries": [
-        "Learning"
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 244,
-      "forks": 14,
-      "watchers": 6,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "common-lisp"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-10T14:15:48Z",
-      "pushed_at": "2023-10-04T12:25:11Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 38,
-      "github_project_reason": "项目用途：Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 244 stars，已有真实关注度；主题标签：awesome / awesome-list / common-lisp。",
-      "ai_relevance_reason": "项目用途：Learning 好玩在哪里：被 Awesome 推荐；GitHub 约 244 stars，已有真实关注度；主题标签：awesome / awesome-list / common-lisp。"
-    },
-    {
-      "id": "a4b17745a465f279ff072ca651e61739f2b7706f",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Kustomize",
-      "title_zh": "Kustomize",
-      "url": "https://github.com/DevOpsHiveHQ/awesome-kustomize",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 38,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "DevOpsHiveHQ/awesome-kustomize",
-      "description": "A curated and collaborative list of awesome Kustomize resources",
-      "summary": "A curated and collaborative list of awesome Kustomize resources",
-      "mention_summaries": [
-        "Kustomize - Kubernetes native declarative configuration management tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 123,
-      "forks": 7,
-      "watchers": 3,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "gitops",
-        "kubectl",
-        "kubernetes",
-        "kustomize",
-        "kustomize-plugin"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-17T08:55:02Z",
-      "pushed_at": "2026-04-07T17:10:50Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 38,
-      "github_project_reason": "项目用途：Kustomize - Kubernetes native declarative configuration management tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 123 stars，已有真实关注度；主题标签：awesome / awesome-list / gitops / kubectl。",
-      "ai_relevance_reason": "项目用途：Kustomize - Kubernetes native declarative configuration management tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 123 stars，已有真实关注度；主题标签：awesome / awesome-list / gitops / kubectl。"
-    },
-    {
-      "id": "f37965a4cdd7ad917e6607d4290d41710ab46a27",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Node-RED",
-      "title_zh": "Node-RED",
-      "url": "https://github.com/naimo84/awesome-nodered",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 37,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "naimo84/awesome-nodered",
-      "description": "A collection of interesting nodes and resources for Node-RED",
-      "summary": "A collection of interesting nodes and resources for Node-RED",
-      "mention_summaries": [
-        "Node-RED - A programming tool for wiring together hardware devices, APIs, and online services."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 550,
-      "forks": 33,
-      "watchers": 13,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "community",
-        "hacktoberfest",
-        "node-red",
-        "node-red-contrib",
-        "nodered"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-24T04:57:49Z",
-      "pushed_at": "2023-02-23T06:12:18Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 37,
-      "github_project_reason": "项目用途：Node-RED - A programming tool for wiring together hardware devices, APIs, and online services. 好玩在哪里：被 Awesome 推荐；GitHub 约 550 stars，已有真实关注度；主题标签：awesome / awesome-list / community / hacktoberfest。",
-      "ai_relevance_reason": "项目用途：Node-RED - A programming tool for wiring together hardware devices, APIs, and online services. 好玩在哪里：被 Awesome 推荐；GitHub 约 550 stars，已有真实关注度；主题标签：awesome / awesome-list / community / hacktoberfest。"
-    },
-    {
-      "id": "5a768906d2d6cf8bfbe134e401dfafee99f0889a",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "TensorFlow.js",
-      "title_zh": "TensorFlow.js",
-      "url": "https://github.com/aaronhma/awesome-tensorflow-js",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 37,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "aaronhma/awesome-tensorflow-js",
-      "description": "Awesome TensorFlow.js - A curated list of dedicated resources to master TensorFlow.js",
-      "summary": "Awesome TensorFlow.js - A curated list of dedicated resources to master TensorFlow.js",
-      "mention_summaries": [
-        "TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 188,
-      "forks": 18,
-      "watchers": 6,
-      "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "machine-learning",
-        "tensorflow",
-        "tfjs"
-      ],
-      "homepage": "https://www.tensorflow.org/js/",
-      "updated_at": "2026-09-22T19:06:28Z",
-      "pushed_at": "2025-07-12T22:34:40Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 37,
-      "github_project_reason": "项目用途：TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models. 好玩在哪里：被 Awesome 推荐；GitHub 约 188 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：awesome / awesome-list / machine-learning / tensorflow。",
-      "ai_relevance_reason": "项目用途：TensorFlow.js - WebGL-accelerated machine learning JavaScript library for training and deploying models. 好玩在哪里：被 Awesome 推荐；GitHub 约 188 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：awesome / awesome-list / machine-learning / tensorflow。"
-    },
-    {
-      "id": "b5af96f25915774cb9630e8c5a1ee275479ddbb8",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "PostCSS",
-      "title_zh": "PostCSS",
-      "url": "https://github.com/jdrgomes/awesome-postcss",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 36,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "jdrgomes/awesome-postcss",
-      "description": "A curate list about PostCSS",
-      "summary": "A curate list about PostCSS",
-      "mention_summaries": [
-        "PostCSS - CSS tool."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 438,
-      "forks": 18,
-      "watchers": 19,
-      "language": "Shell",
-      "topics": [
-        "awesome-list",
-        "css",
-        "parser",
-        "postcss",
-        "resources"
-      ],
-      "homepage": "",
-      "updated_at": "2026-09-16T04:34:40Z",
-      "pushed_at": "2021-06-18T05:10:17Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 36,
-      "github_project_reason": "项目用途：PostCSS - CSS tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 438 stars，已有真实关注度；主要用 Shell 写成；主题标签：awesome-list / css / parser / postcss。",
-      "ai_relevance_reason": "项目用途：PostCSS - CSS tool. 好玩在哪里：被 Awesome 推荐；GitHub 约 438 stars，已有真实关注度；主要用 Shell 写成；主题标签：awesome-list / css / parser / postcss。"
-    },
-    {
-      "id": "9d01f658c6918d4c6dc9d6fb514e8aadf0fef3e8",
-      "site_id": "github_awesome",
-      "site_name": "Awesome",
-      "source": "Awesome",
-      "title": "Fuse",
-      "title_zh": "Fuse",
-      "url": "https://github.com/fuse-compound/awesome-fuse",
-      "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
-      "ai_label": "github_project",
-      "ai_score": 36,
-      "source_tier": "github_projects",
-      "source_tier_label": "GitHub好玩项目",
-      "source_tier_rank": 1,
-      "repo_full_name": "fuse-compound/awesome-fuse",
-      "description": "A curated list of awesome Fuse applications, articles, and plugins",
-      "summary": "A curated list of awesome Fuse applications, articles, and plugins",
-      "mention_summaries": [
-        "Fuse - Mobile development tools."
-      ],
-      "recommend_sources": [
-        "Awesome"
-      ],
-      "source_ids": [
-        "github_awesome"
-      ],
-      "source_urls": [
-        "https://github.com/sindresorhus/awesome"
-      ],
-      "source_count": 1,
-      "source_weight": 18,
-      "stars": 363,
-      "forks": 51,
-      "watchers": 44,
-      "language": "",
-      "topics": [
-        "awesome",
-        "fuse",
-        "norway"
-      ],
-      "homepage": "https://fusetools.com/",
-      "updated_at": "2026-09-14T21:18:05Z",
-      "pushed_at": "2019-02-25T19:19:14Z",
-      "archived": false,
-      "disabled": false,
-      "github_project_date_label": "本次收录",
-      "github_project_score": 36,
-      "github_project_reason": "项目用途：Fuse - Mobile development tools. 好玩在哪里：被 Awesome 推荐；GitHub 约 363 stars，已有真实关注度；主题标签：awesome / fuse / norway。",
-      "ai_relevance_reason": "项目用途：Fuse - Mobile development tools. 好玩在哪里：被 Awesome 推荐；GitHub 约 363 stars，已有真实关注度；主题标签：awesome / fuse / norway。"
-    },
-    {
       "id": "662ece0a475d62a565230813402b67dd36fb8bff",
       "site_id": "github_awesome",
       "site_name": "Awesome",
@@ -2133,8 +2174,8 @@
       "title_zh": "Conversational AI",
       "url": "https://github.com/jyguyomarch/awesome-conversational-ai",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
       "ai_score": 36,
       "source_tier": "github_projects",
@@ -2182,26 +2223,26 @@
       "ai_relevance_reason": "项目用途：Conversational AI - Build awesome chatbots and digital assistants. 好玩在哪里：被 Awesome 推荐；GitHub 约 317 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：ai / awesome / awesome-list / chatbot。"
     },
     {
-      "id": "47dcacc676cdd3993b43af155aac0c93da806d5c",
+      "id": "9d01f658c6918d4c6dc9d6fb514e8aadf0fef3e8",
       "site_id": "github_awesome",
       "site_name": "Awesome",
       "source": "Awesome",
-      "title": "Dojo Toolkit",
-      "title_zh": "Dojo Toolkit",
-      "url": "https://github.com/petk/awesome-dojo",
+      "title": "Fuse",
+      "title_zh": "Fuse",
+      "url": "https://github.com/fuse-compound/awesome-fuse",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
-      "ai_score": 36,
+      "ai_score": 21,
       "source_tier": "github_projects",
       "source_tier_label": "GitHub好玩项目",
       "source_tier_rank": 1,
-      "repo_full_name": "petk/awesome-dojo",
-      "description": "A curated list of awesome Dojo JavaScript Toolkit libraries, resources and other shiny things.",
-      "summary": "A curated list of awesome Dojo JavaScript Toolkit libraries, resources and other shiny things.",
+      "repo_full_name": "fuse-compound/awesome-fuse",
+      "description": "Fuse - Mobile development tools.",
+      "summary": "Fuse - Mobile development tools.",
       "mention_summaries": [
-        "Dojo Toolkit - JavaScript toolkit."
+        "Fuse - Mobile development tools."
       ],
       "recommend_sources": [
         "Awesome"
@@ -2214,47 +2255,42 @@
       ],
       "source_count": 1,
       "source_weight": 18,
-      "stars": 99,
-      "forks": 15,
-      "watchers": 11,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
       "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "dojo",
-        "javascript"
-      ],
+      "topics": [],
       "homepage": "",
-      "updated_at": "2026-09-16T04:33:17Z",
-      "pushed_at": "2020-09-25T22:46:54Z",
+      "updated_at": "",
+      "pushed_at": "",
       "archived": false,
       "disabled": false,
       "github_project_date_label": "本次收录",
-      "github_project_score": 36,
-      "github_project_reason": "项目用途：Dojo Toolkit - JavaScript toolkit. 好玩在哪里：被 Awesome 推荐；GitHub 约 99 stars，已有真实关注度；主题标签：awesome / awesome-list / dojo / javascript。",
-      "ai_relevance_reason": "项目用途：Dojo Toolkit - JavaScript toolkit. 好玩在哪里：被 Awesome 推荐；GitHub 约 99 stars，已有真实关注度；主题标签：awesome / awesome-list / dojo / javascript。"
+      "github_project_score": 21,
+      "github_project_reason": "项目用途：Fuse - Mobile development tools. 好玩在哪里：被 Awesome 推荐。",
+      "ai_relevance_reason": "项目用途：Fuse - Mobile development tools. 好玩在哪里：被 Awesome 推荐。"
     },
     {
-      "id": "4e943ce09c06e9322f93e8fcbb0b1e681be1f24e",
+      "id": "f37965a4cdd7ad917e6607d4290d41710ab46a27",
       "site_id": "github_awesome",
       "site_name": "Awesome",
       "source": "Awesome",
-      "title": "XAI",
-      "title_zh": "XAI",
-      "url": "https://github.com/altamiracorp/awesome-xai",
+      "title": "Node-RED",
+      "title_zh": "Node-RED",
+      "url": "https://github.com/naimo84/awesome-nodered",
       "published_at": null,
-      "first_seen_at": "2026-09-25T01:46:58.237813Z",
-      "last_seen_at": "2026-09-25T01:46:58.237813Z",
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
       "ai_label": "github_project",
-      "ai_score": 34,
+      "ai_score": 21,
       "source_tier": "github_projects",
       "source_tier_label": "GitHub好玩项目",
       "source_tier_rank": 1,
-      "repo_full_name": "altamiracorp/awesome-xai",
-      "description": "Awesome Explainable AI (XAI) and Interpretable ML Papers and Resources",
-      "summary": "Awesome Explainable AI (XAI) and Interpretable ML Papers and Resources",
+      "repo_full_name": "naimo84/awesome-nodered",
+      "description": "Node-RED - A programming tool for wiring together hardware devices, APIs, and online services.",
+      "summary": "Node-RED - A programming tool for wiring together hardware devices, APIs, and online services.",
       "mention_summaries": [
-        "XAI - Providing insight, explanations, and interpretability to machine learning methods."
+        "Node-RED - A programming tool for wiring together hardware devices, APIs, and online services."
       ],
       "recommend_sources": [
         "Awesome"
@@ -2267,27 +2303,116 @@
       ],
       "source_count": 1,
       "source_weight": 18,
-      "stars": 197,
-      "forks": 16,
-      "watchers": 7,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
       "language": "",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "explanations",
-        "saliency-maps",
-        "saliency-methods",
-        "xai"
-      ],
+      "topics": [],
       "homepage": "",
-      "updated_at": "2026-09-23T13:20:20Z",
-      "pushed_at": "2021-05-04T13:47:04Z",
+      "updated_at": "",
+      "pushed_at": "",
       "archived": false,
       "disabled": false,
       "github_project_date_label": "本次收录",
-      "github_project_score": 34,
-      "github_project_reason": "项目用途：XAI - Providing insight, explanations, and interpretability to machine learning methods. 好玩在哪里：被 Awesome 推荐；GitHub 约 197 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：awesome / awesome-list / explanations / saliency-maps。",
-      "ai_relevance_reason": "项目用途：XAI - Providing insight, explanations, and interpretability to machine learning methods. 好玩在哪里：被 Awesome 推荐；GitHub 约 197 stars，已有真实关注度；和 AI/Agent 工作流有连接点；主题标签：awesome / awesome-list / explanations / saliency-maps。"
+      "github_project_score": 21,
+      "github_project_reason": "项目用途：Node-RED - A programming tool for wiring together hardware devices, APIs, and online services. 好玩在哪里：被 Awesome 推荐。",
+      "ai_relevance_reason": "项目用途：Node-RED - A programming tool for wiring together hardware devices, APIs, and online services. 好玩在哪里：被 Awesome 推荐。"
+    },
+    {
+      "id": "cc6da99e9992b24094f27ad8595bad384234b033",
+      "site_id": "github_awesome",
+      "site_name": "Awesome",
+      "source": "Awesome",
+      "title": "Backstage",
+      "title_zh": "Backstage",
+      "url": "https://github.com/shano/awesome-backstage",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 21,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "shano/awesome-backstage",
+      "description": "Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows.",
+      "summary": "Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows.",
+      "mention_summaries": [
+        "Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows."
+      ],
+      "recommend_sources": [
+        "Awesome"
+      ],
+      "source_ids": [
+        "github_awesome"
+      ],
+      "source_urls": [
+        "https://github.com/sindresorhus/awesome"
+      ],
+      "source_count": 1,
+      "source_weight": 18,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 21,
+      "github_project_reason": "项目用途：Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows. 好玩在哪里：被 Awesome 推荐。",
+      "ai_relevance_reason": "项目用途：Backstage - Open-source platform for building Internal Developer Portals that unify tools and workflows. 好玩在哪里：被 Awesome 推荐。"
+    },
+    {
+      "id": "2a7ce9628ad91fb2c1e7a0254aa87f19ffe5c541",
+      "site_id": "github_awesome",
+      "site_name": "Awesome",
+      "source": "Awesome",
+      "title": "Data Science",
+      "title_zh": "Data Science",
+      "url": "https://github.com/krzjoa/awesome-python-data-science",
+      "published_at": null,
+      "first_seen_at": "2026-09-25T07:26:56.003295Z",
+      "last_seen_at": "2026-09-25T07:26:56.003295Z",
+      "ai_label": "github_project",
+      "ai_score": 21,
+      "source_tier": "github_projects",
+      "source_tier_label": "GitHub好玩项目",
+      "source_tier_rank": 1,
+      "repo_full_name": "krzjoa/awesome-python-data-science",
+      "description": "Data Science - Data analysis and machine learning.",
+      "summary": "Data Science - Data analysis and machine learning.",
+      "mention_summaries": [
+        "Data Science - Data analysis and machine learning."
+      ],
+      "recommend_sources": [
+        "Awesome"
+      ],
+      "source_ids": [
+        "github_awesome"
+      ],
+      "source_urls": [
+        "https://github.com/sindresorhus/awesome"
+      ],
+      "source_count": 1,
+      "source_weight": 18,
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "archived": false,
+      "disabled": false,
+      "github_project_date_label": "本次收录",
+      "github_project_score": 21,
+      "github_project_reason": "项目用途：Data Science - Data analysis and machine learning. 好玩在哪里：被 Awesome 推荐。",
+      "ai_relevance_reason": "项目用途：Data Science - Data analysis and machine learning. 好玩在哪里：被 Awesome 推荐。"
     }
   ],
   "sources": [
@@ -2303,11 +2428,11 @@
     {
       "site_id": "github_weekly",
       "site_name": "科技爱好者周刊",
-      "ok": false,
-      "item_count": 0,
-      "candidate": true,
+      "ok": true,
+      "item_count": 45,
+      "candidate": false,
       "url": "https://github.com/ruanyf/weekly",
-      "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/ruanyf/weekly/contents/docs?ref=master (Caused by ResponseError('too many 429 error responses'))"
+      "error": null
     },
     {
       "site_id": "github_awesome",
