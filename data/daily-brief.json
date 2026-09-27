@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T10:26:29.098066Z",
+  "generated_at": "2026-09-27T15:15:08.485952Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -46,11 +46,21 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-09-27T06:19:33Z"
+        },
+        {
+          "id": "295a64ccf8e3e99dec9960ecbd0136f20e3e281a",
+          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法 / Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T06:19:33Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Hacker News",
+        "Hacker News (黑客新闻)",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "authorsguild.org",
         "hackernews"
@@ -91,20 +101,29 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-09-27T06:19:33Z"
+        },
+        {
+          "id": "295a64ccf8e3e99dec9960ecbd0136f20e3e281a",
+          "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法 / Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T06:19:33Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8551,
-      "importance": 0.8551,
-      "importance_score": 0.8551,
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.8681,
+      "importance": 0.8681,
+      "importance_score": 0.8681,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9858,
-        "story_heat": 0.75
+        "recency": 0.9197,
+        "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
@@ -119,106 +138,6 @@
         "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
         "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_592647d55324",
-      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "primary_url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "source": "Hacker News：AI 热帖",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T14:03:54Z"
-        },
-        {
-          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
-          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T00:34:02.450000Z"
-        },
-        {
-          "id": "01011a2fbd080ef7d07c52e69ad81c605e44f32b",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-26T14:03:54Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News：AI 热帖",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News：AI 热帖",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T14:03:54Z"
-        },
-        {
-          "id": "cde355b928acc4928c7d46f40a8611012aefe64e",
-          "title": "OpenAI的机器人篡改了多个美国政府机构网站",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T00:34:02.450000Z"
-        },
-        {
-          "id": "01011a2fbd080ef7d07c52e69ad81c605e44f32b",
-          "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
-          "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-26T14:03:54Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.8137,
-      "importance": 0.8137,
-      "importance_score": 0.8137,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.86,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7451,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-26T14:03:54Z",
-      "latest_at": "2026-09-27T00:34:02.450000Z",
-      "primary_item": {
-        "id": "0b5388f016ad2f8e48e3c9ee7b9fd066209c5cec",
-        "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
-        "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-        "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
       }
     },
@@ -276,15 +195,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7924,
-      "importance": 0.7924,
-      "importance_score": 0.7924,
+      "score": 0.7812,
+      "importance": 0.7812,
+      "importance_score": 0.7812,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9324,
+        "recency": 0.8698,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -338,15 +257,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7827,
-      "importance": 0.7827,
-      "importance_score": 0.7827,
+      "score": 0.7724,
+      "importance": 0.7724,
+      "importance_score": 0.7724,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8503,
+        "recency": 0.7933,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -399,15 +318,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7456,
-      "importance": 0.7456,
-      "importance_score": 0.7456,
+      "score": 0.7362,
+      "importance": 0.7362,
+      "importance_score": 0.7362,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7778,
+        "recency": 0.7256,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -421,66 +340,6 @@
         "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
         "url": "https://x.com/arena/status/2103893011164017018",
         "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_ee9b8774a2c5",
-      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-      "primary_url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T23:55:49Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
-      ],
-      "items": [
-        {
-          "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-          "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-          "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-26T23:55:49Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7273,
-      "importance": 0.7273,
-      "importance_score": 0.7273,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8592,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-26T23:55:49Z",
-      "latest_at": "2026-09-26T23:55:49Z",
-      "primary_item": {
-        "id": "bcc7c18632ea009fe5425ca4d01535bd17ca0de5",
-        "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-        "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
-        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -538,15 +397,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.774,
-      "importance": 0.774,
-      "importance_score": 0.774,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7633,
+        "recency": 0.7121,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -637,15 +496,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6192,
-      "importance": 0.6192,
-      "importance_score": 0.6192,
+      "score": 0.6071,
+      "importance": 0.6071,
+      "importance_score": 0.6071,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9329,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -660,6 +519,122 @@
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
         "source": "社区更新 · 2026-09-26",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_a06eefcaabe4",
+      "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "primary_url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "source": "www.privatemode.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2c07064135493a697f86987ecc808851d594ee81",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "www.privatemode.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T11:32:15.779000Z"
+        },
+        {
+          "id": "40e7178c5238a1d4e3e97acec0f5861bbd5a88a4",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "www.privatemode.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T02:23:00.585000Z"
+        },
+        {
+          "id": "19bc13238fe8adb0debe13c9547bcb98bb9126f1",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turn GLM-5.3-Flash into a Jev-like System One model",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T02:07:23Z"
+        },
+        {
+          "id": "8f9fe70b05060021e35e2f9d44befcaba19f973c",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turning GLM-5.3-Flash into a Jev-like decision model",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-26T15:49:04Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Lobsters (技术社区)",
+        "www.privatemode.ai"
+      ],
+      "items": [
+        {
+          "id": "2c07064135493a697f86987ecc808851d594ee81",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "www.privatemode.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T11:32:15.779000Z"
+        },
+        {
+          "id": "40e7178c5238a1d4e3e97acec0f5861bbd5a88a4",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "www.privatemode.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T02:23:00.585000Z"
+        },
+        {
+          "id": "19bc13238fe8adb0debe13c9547bcb98bb9126f1",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turn GLM-5.3-Flash into a Jev-like System One model",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T02:07:23Z"
+        },
+        {
+          "id": "8f9fe70b05060021e35e2f9d44befcaba19f973c",
+          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turning GLM-5.3-Flash into a Jev-like decision model",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-26T15:49:04Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9478,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-26T15:49:04Z",
+      "latest_at": "2026-09-27T11:32:15.779000Z",
+      "primary_item": {
+        "id": "2c07064135493a697f86987ecc808851d594ee81",
+        "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
+        "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+        "source": "www.privatemode.ai",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -716,15 +691,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
+      "score": 0.5777,
+      "importance": 0.5777,
+      "importance_score": 0.5777,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.58,
         "ai_relevance": 0.71,
-        "recency": 0.7727,
+        "recency": 0.7208,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -742,198 +717,161 @@
       }
     },
     {
-      "story_id": "story_ab6a90f5d123",
-      "title": "没有人工智能的一个月",
-      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "primary_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "source": "blog.bustikiller.com",
+      "story_id": "story_fa0a47e1b5bd",
+      "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。",
+      "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+      "primary_url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+      "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
-          "title": "没有人工智能的一个月",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
+          "id": "6e8a72db35aa150e337602a81210a750676285f7",
+          "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。",
+          "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-27T06:34:57.492000Z"
+          "published_at": "2026-09-27T10:45:08.393000Z"
         },
         {
-          "id": "33f06710c9b841c0a71f3e0502f42757de593fac",
-          "title": "没有AI的一个月 / One month without AI",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-27T06:22:21Z"
-        },
-        {
-          "id": "0a783f5d61490437f8eaf4f51e6e12bd884e35f6",
-          "title": "没有AI的一个月",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T13:48:03.398000Z"
+          "id": "cd86d94722144a85171a58d7dc631c0eb742a1a3",
+          "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。 / AI is prompting these Gen Zers to learn how to type",
+          "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T10:00:01Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Lobsters (技术社区)",
-        "blog.bustikiller.com"
+        "Business Insider",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
-          "title": "没有人工智能的一个月",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
+          "id": "6e8a72db35aa150e337602a81210a750676285f7",
+          "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。",
+          "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-27T06:34:57.492000Z"
+          "published_at": "2026-09-27T10:45:08.393000Z"
         },
         {
-          "id": "33f06710c9b841c0a71f3e0502f42757de593fac",
-          "title": "没有AI的一个月 / One month without AI",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-27T06:22:21Z"
-        },
-        {
-          "id": "0a783f5d61490437f8eaf4f51e6e12bd884e35f6",
-          "title": "没有AI的一个月",
-          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-          "source": "blog.bustikiller.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-26T13:48:03.398000Z"
+          "id": "cd86d94722144a85171a58d7dc631c0eb742a1a3",
+          "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。 / AI is prompting these Gen Zers to learn how to type",
+          "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T10:00:01Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.561,
-      "importance": 0.561,
-      "importance_score": 0.561,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5345,
+      "importance": 0.5345,
+      "importance_score": 0.5345,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9458,
-        "story_heat": 0.5
+        "recency": 0.9371,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T13:48:03.398000Z",
-      "latest_at": "2026-09-27T06:34:57.492000Z",
+      "earliest_at": "2026-09-27T10:00:01Z",
+      "latest_at": "2026-09-27T10:45:08.393000Z",
       "primary_item": {
-        "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
-        "title": "没有人工智能的一个月",
-        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-        "source": "blog.bustikiller.com",
+        "id": "6e8a72db35aa150e337602a81210a750676285f7",
+        "title": "一些Z世代年轻人正在自学打字，以便更好地向AI下达指令，或者在职场中占得先机。",
+        "url": "https://www.businessinsider.com/gen-z-improving-typing-skills-amid-rise-ai-technology-2026-9",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_a06eefcaabe4",
-      "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
-      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-      "primary_url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-      "source": "www.privatemode.ai",
-      "source_name": "Buzzing",
+      "story_id": "story_71ac5a164a1d",
+      "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "primary_url": "https://arxiv.org/abs/2609.25021",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
       "sources": [
         {
-          "id": "40e7178c5238a1d4e3e97acec0f5861bbd5a88a4",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "www.privatemode.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T02:23:00.585000Z"
+          "id": "fa408dcd04e43bb6554663b1f90cc194762f4239",
+          "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://arxiv.org/abs/2609.25021",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T10:26:25Z"
         },
         {
-          "id": "19bc13238fe8adb0debe13c9547bcb98bb9126f1",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turn GLM-5.3-Flash into a Jev-like System One model",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-27T02:07:23Z"
-        },
-        {
-          "id": "8f9fe70b05060021e35e2f9d44befcaba19f973c",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turning GLM-5.3-Flash into a Jev-like decision model",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-26T15:49:04Z"
+          "id": "95840a4f4ca7ac30329544bbd7322762e71a20d2",
+          "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://news.ycombinator.com/item?id=49865343",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T10:26:25Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Lobsters (技术社区)",
-        "www.privatemode.ai"
+        "Hacker News",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "40e7178c5238a1d4e3e97acec0f5861bbd5a88a4",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "www.privatemode.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T02:23:00.585000Z"
+          "id": "fa408dcd04e43bb6554663b1f90cc194762f4239",
+          "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://arxiv.org/abs/2609.25021",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T10:26:25Z"
         },
         {
-          "id": "19bc13238fe8adb0debe13c9547bcb98bb9126f1",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turn GLM-5.3-Flash into a Jev-like System One model",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-27T02:07:23Z"
-        },
-        {
-          "id": "8f9fe70b05060021e35e2f9d44befcaba19f973c",
-          "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型 / Turning GLM-5.3-Flash into a Jev-like decision model",
-          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-26T15:49:04Z"
+          "id": "95840a4f4ca7ac30329544bbd7322762e71a20d2",
+          "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://news.ycombinator.com/item?id=49865343",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-27T10:26:25Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.551,
-      "importance": 0.551,
-      "importance_score": 0.551,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5337,
+      "importance": 0.5337,
+      "importance_score": 0.5337,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8902,
-        "story_heat": 0.5
+        "recency": 0.9329,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-09-26T15:49:04Z",
-      "latest_at": "2026-09-27T02:23:00.585000Z",
+      "earliest_at": "2026-09-27T10:26:25Z",
+      "latest_at": "2026-09-27T10:26:25Z",
       "primary_item": {
-        "id": "40e7178c5238a1d4e3e97acec0f5861bbd5a88a4",
-        "title": "将 GLM-5.3-Flash 转换为类似 Jev 的 System One 模型",
-        "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-        "source": "www.privatemode.ai",
-        "source_name": "Buzzing"
+        "id": "fa408dcd04e43bb6554663b1f90cc194762f4239",
+        "title": "“作为语言模型”：聊天模板切换 LLM 自指语音 / \"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+        "url": "https://arxiv.org/abs/2609.25021",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
       }
     },
     {
@@ -990,15 +928,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
+      "score": 0.5332,
+      "importance": 0.5332,
+      "importance_score": 0.5332,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9971,
+        "recency": 0.9302,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1012,85 +950,6 @@
         "title": "一位代理通过DNS连接到一个外部聊天机器人",
         "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
         "source": "alignment.openai.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2f2f5e9bd898",
-      "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
-      "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-      "primary_url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
-          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
-          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T10:14:34.505000Z"
-        },
-        {
-          "id": "5a6398ef044267cdf08714e2929df513776b5d44",
-          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。 / This small town librarian offers a 'Bye, Bye AI' class to take AI off your phone. Now everyone wants in.",
-          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-27T09:50:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
-          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
-          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-27T10:14:34.505000Z"
-        },
-        {
-          "id": "5a6398ef044267cdf08714e2929df513776b5d44",
-          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。 / This small town librarian offers a 'Bye, Bye AI' class to take AI off your phone. Now everyone wants in.",
-          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-27T09:50:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5453,
-      "importance": 0.5453,
-      "importance_score": 0.5453,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9971,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-27T09:50:01Z",
-      "latest_at": "2026-09-27T10:14:34.505000Z",
-      "primary_item": {
-        "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
-        "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
-        "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -1167,15 +1026,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5433,
-      "importance": 0.5433,
-      "importance_score": 0.5433,
+      "score": 0.5331,
+      "importance": 0.5331,
+      "importance_score": 0.5331,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8474,
+        "recency": 0.7905,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1189,6 +1048,85 @@
         "title": "DeepSeek 弹性计算 (DSec)",
         "url": "https://arxiv.org/abs/2609.22978",
         "source": "arxiv.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_ab6a90f5d123",
+      "title": "没有人工智能的一个月",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "primary_url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "source": "blog.bustikiller.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
+          "title": "没有人工智能的一个月",
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "source": "blog.bustikiller.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T06:34:57.492000Z"
+        },
+        {
+          "id": "33f06710c9b841c0a71f3e0502f42757de593fac",
+          "title": "没有人工智能的一个月 / One month without AI",
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T06:22:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "blog.bustikiller.com"
+      ],
+      "items": [
+        {
+          "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
+          "title": "没有人工智能的一个月",
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "source": "blog.bustikiller.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T06:34:57.492000Z"
+        },
+        {
+          "id": "33f06710c9b841c0a71f3e0502f42757de593fac",
+          "title": "没有人工智能的一个月 / One month without AI",
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T06:22:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5246,
+      "importance": 0.5246,
+      "importance_score": 0.5246,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8823,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-27T06:22:21Z",
+      "latest_at": "2026-09-27T06:34:57.492000Z",
+      "primary_item": {
+        "id": "40175e8a195a6a0b5ff00fd05a56d3678011c5da",
+        "title": "没有人工智能的一个月",
+        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+        "source": "blog.bustikiller.com",
         "source_name": "Buzzing"
       }
     },
@@ -1246,15 +1184,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
+      "score": 0.5204,
+      "importance": 0.5204,
+      "importance_score": 0.5204,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.921,
+        "recency": 0.8592,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1324,15 +1262,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5277,
-      "importance": 0.5277,
-      "importance_score": 0.5277,
+      "score": 0.5168,
+      "importance": 0.5168,
+      "importance_score": 0.5168,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8992,
+        "recency": 0.8389,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1347,85 +1285,6 @@
         "url": "https://www.huxiu.com/article/4894089.html?f=rss",
         "source": "虎嗅 (Huxiu)",
         "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_efa67a455fc9",
-      "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-      "url": "https://swarmcha.se/posts/openai-unctad",
-      "primary_url": "https://swarmcha.se/posts/openai-unctad",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "a35e14083a1f3afe8e189bb0486e450b6d77499b",
-          "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-          "url": "https://swarmcha.se/posts/openai-unctad",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-27T01:08:07Z"
-        },
-        {
-          "id": "41672068d6d2cb6cf82b7c46c233cdea9cfdc076",
-          "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-          "url": "https://news.ycombinator.com/item?id=49862299",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-27T01:08:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "a35e14083a1f3afe8e189bb0486e450b6d77499b",
-          "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-          "url": "https://swarmcha.se/posts/openai-unctad",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-27T01:08:07Z"
-        },
-        {
-          "id": "41672068d6d2cb6cf82b7c46c233cdea9cfdc076",
-          "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-          "url": "https://news.ycombinator.com/item?id=49862299",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-09-27T01:08:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5232,
-      "importance": 0.5232,
-      "importance_score": 0.5232,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8743,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-27T01:08:07Z",
-      "latest_at": "2026-09-27T01:08:07Z",
-      "primary_item": {
-        "id": "a35e14083a1f3afe8e189bb0486e450b6d77499b",
-        "title": "OpenAI 代理试图暴力破解联合国网站的 API 字段 / OpenAI agents tried to bruteforce a UN website's API fields",
-        "url": "https://swarmcha.se/posts/openai-unctad",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
       }
     },
     {
@@ -1482,15 +1341,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5172,
-      "importance": 0.5172,
-      "importance_score": 0.5172,
+      "score": 0.507,
+      "importance": 0.507,
+      "importance_score": 0.507,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.841,
+        "recency": 0.7845,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1561,15 +1420,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.515,
-      "importance": 0.515,
-      "importance_score": 0.515,
+      "score": 0.505,
+      "importance": 0.505,
+      "importance_score": 0.505,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8287,
+        "recency": 0.7731,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1584,6 +1443,85 @@
         "url": "https://github.com/mobile-next/mobile-mcp",
         "source": "GitHub · Trending Today",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_2f2f5e9bd898",
+      "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
+      "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+      "primary_url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
+          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
+          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T10:14:34.505000Z"
+        },
+        {
+          "id": "5a6398ef044267cdf08714e2929df513776b5d44",
+          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。 / This small town librarian offers a 'Bye, Bye AI' class to take AI off your phone. Now everyone wants in.",
+          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T09:50:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
+          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
+          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-27T10:14:34.505000Z"
+        },
+        {
+          "id": "5a6398ef044267cdf08714e2929df513776b5d44",
+          "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。 / This small town librarian offers a 'Bye, Bye AI' class to take AI off your phone. Now everyone wants in.",
+          "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-27T09:50:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5332,
+      "importance": 0.5332,
+      "importance_score": 0.5332,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9302,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-27T09:50:01Z",
+      "latest_at": "2026-09-27T10:14:34.505000Z",
+      "primary_item": {
+        "id": "805819231e28999a1d92a7d72aac3bbecbfbb0fd",
+        "title": "这位小镇图书馆员开设了一门名为“再见，AI”的课程，教大家如何从手机中移除AI。现在，大家都争相报名。",
+        "url": "https://www.businessinsider.com/library-bye-bye-ai-event-north-chatham-viral-2026-9",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1639,15 +1577,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5072,
-      "importance": 0.5072,
-      "importance_score": 0.5072,
+      "score": 0.4977,
+      "importance": 0.4977,
+      "importance_score": 0.4977,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7855,
+        "recency": 0.7328,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1662,6 +1600,85 @@
         "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_9412b001c712",
+      "title": "如何与亲人告别，是 AI 也学不会的人生课题",
+      "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4894091.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "c7873ad8e2a33bba8e0f92dfc29081ba2082b9bb",
+          "title": "如何与亲人告别，是 AI 也学不会的人生课题",
+          "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "8a862d74bea7e973241ec02e39950f364796bec3",
+          "title": "如何与亲人告别，是AI 也学不会的人生课题",
+          "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T03:09:40Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
+      ],
+      "items": [
+        {
+          "id": "c7873ad8e2a33bba8e0f92dfc29081ba2082b9bb",
+          "title": "如何与亲人告别，是 AI 也学不会的人生课题",
+          "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "8a862d74bea7e973241ec02e39950f364796bec3",
+          "title": "如何与亲人告别，是AI 也学不会的人生课题",
+          "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-27T03:09:40Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5204,
+      "importance": 0.5204,
+      "importance_score": 0.5204,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8592,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-27T03:09:40Z",
+      "latest_at": "2026-09-27T04:44:25.118886Z",
+      "primary_item": {
+        "id": "c7873ad8e2a33bba8e0f92dfc29081ba2082b9bb",
+        "title": "如何与亲人告别，是 AI 也学不会的人生课题",
+        "url": "https://www.huxiu.com/article/4894091.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     }
   ]
