@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T22:31:37.062968Z",
-  "updated_label": "updated Fri Sept 4",
+  "generated_at": "2026-09-30T05:01:07.984895Z",
+  "updated_label": "updated Mon Sept 28",
   "source_name": "Vellum LLM Leaderboard",
   "source_url": "https://www.vellum.ai/llm-leaderboard",
   "topic": "模型评分",
@@ -122,16 +122,16 @@
           "score": 41.4
         },
         {
+          "model": "Claude Opus 5.5",
+          "score": 40
+        },
+        {
+          "model": "GPT-6 Sol",
+          "score": 33.2
+        },
+        {
           "model": "Claude Fable 5.1",
           "score": 31.4
-        },
-        {
-          "model": "Claude Mythos 5.1",
-          "score": 31.4
-        },
-        {
-          "model": "Gemini 3.7 Flash",
-          "score": 30.4
         }
       ]
     },
@@ -176,6 +176,10 @@
       "source_field": "numTerminalBench2",
       "items": [
         {
+          "model": "Gemini 3.8 Flash",
+          "score": 89.4
+        },
+        {
           "model": "GPT-5.6 Sol",
           "score": 88.8
         },
@@ -190,10 +194,6 @@
         {
           "model": "Gemini 3.7 Flash",
           "score": 85.8
-        },
-        {
-          "model": "Claude Fable 5",
-          "score": 84.3
         }
       ]
     }
@@ -529,14 +529,14 @@
       "source": "Work Automations",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 31.4,
-      "model_name": "Claude Fable 5.1",
+      "ai_score": 40,
+      "model_name": "Claude Opus 5.5",
       "benchmark": "Work Automations",
-      "score": 31.4,
+      "score": 40,
       "unit": "%",
       "rank": 3,
-      "title": "Claude Fable 5.1 · Work Automations 31.4%",
-      "title_zh": "Claude Fable 5.1 · 工作自动化第 3，31.4%",
+      "title": "Claude Opus 5.5 · Work Automations 40%",
+      "title_zh": "Claude Opus 5.5 · 工作自动化第 3，40%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -548,14 +548,14 @@
       "source": "Work Automations",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 31.4,
-      "model_name": "Claude Mythos 5.1",
+      "ai_score": 33.2,
+      "model_name": "GPT-6 Sol",
       "benchmark": "Work Automations",
-      "score": 31.4,
+      "score": 33.2,
       "unit": "%",
       "rank": 4,
-      "title": "Claude Mythos 5.1 · Work Automations 31.4%",
-      "title_zh": "Claude Mythos 5.1 · 工作自动化第 4，31.4%",
+      "title": "GPT-6 Sol · Work Automations 33.2%",
+      "title_zh": "GPT-6 Sol · 工作自动化第 4，33.2%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -567,14 +567,14 @@
       "source": "Work Automations",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 30.4,
-      "model_name": "Gemini 3.7 Flash",
+      "ai_score": 31.4,
+      "model_name": "Claude Fable 5.1",
       "benchmark": "Work Automations",
-      "score": 30.4,
+      "score": 31.4,
       "unit": "%",
       "rank": 5,
-      "title": "Gemini 3.7 Flash · Work Automations 30.4%",
-      "title_zh": "Gemini 3.7 Flash · 工作自动化第 5，30.4%",
+      "title": "Claude Fable 5.1 · Work Automations 31.4%",
+      "title_zh": "Claude Fable 5.1 · 工作自动化第 5，31.4%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -681,14 +681,14 @@
       "source": "Terminal Use",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88.8,
-      "model_name": "GPT-5.6 Sol",
+      "ai_score": 89.4,
+      "model_name": "Gemini 3.8 Flash",
       "benchmark": "Terminal Use",
-      "score": 88.8,
+      "score": 89.4,
       "unit": "%",
       "rank": 1,
-      "title": "GPT-5.6 Sol · Terminal Use 88.8%",
-      "title_zh": "GPT-5.6 Sol · 终端操作第 1，88.8%",
+      "title": "Gemini 3.8 Flash · Terminal Use 89.4%",
+      "title_zh": "Gemini 3.8 Flash · 终端操作第 1，89.4%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -700,14 +700,14 @@
       "source": "Terminal Use",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88.3,
-      "model_name": "Kimi K3",
+      "ai_score": 88.8,
+      "model_name": "GPT-5.6 Sol",
       "benchmark": "Terminal Use",
-      "score": 88.3,
+      "score": 88.8,
       "unit": "%",
       "rank": 2,
-      "title": "Kimi K3 · Terminal Use 88.3%",
-      "title_zh": "Kimi K3 · 终端操作第 2，88.3%",
+      "title": "GPT-5.6 Sol · Terminal Use 88.8%",
+      "title_zh": "GPT-5.6 Sol · 终端操作第 2，88.8%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -719,14 +719,14 @@
       "source": "Terminal Use",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88,
-      "model_name": "Claude Mythos 5",
+      "ai_score": 88.3,
+      "model_name": "Kimi K3",
       "benchmark": "Terminal Use",
-      "score": 88,
+      "score": 88.3,
       "unit": "%",
       "rank": 3,
-      "title": "Claude Mythos 5 · Terminal Use 88%",
-      "title_zh": "Claude Mythos 5 · 终端操作第 3，88%",
+      "title": "Kimi K3 · Terminal Use 88.3%",
+      "title_zh": "Kimi K3 · 终端操作第 3，88.3%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -738,14 +738,14 @@
       "source": "Terminal Use",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 85.8,
-      "model_name": "Gemini 3.7 Flash",
+      "ai_score": 88,
+      "model_name": "Claude Mythos 5",
       "benchmark": "Terminal Use",
-      "score": 85.8,
+      "score": 88,
       "unit": "%",
       "rank": 4,
-      "title": "Gemini 3.7 Flash · Terminal Use 85.8%",
-      "title_zh": "Gemini 3.7 Flash · 终端操作第 4，85.8%",
+      "title": "Claude Mythos 5 · Terminal Use 88%",
+      "title_zh": "Claude Mythos 5 · 终端操作第 4，88%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -757,14 +757,14 @@
       "source": "Terminal Use",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 84.3,
-      "model_name": "Claude Fable 5",
+      "ai_score": 85.8,
+      "model_name": "Gemini 3.7 Flash",
       "benchmark": "Terminal Use",
-      "score": 84.3,
+      "score": 85.8,
       "unit": "%",
       "rank": 5,
-      "title": "Claude Fable 5 · Terminal Use 84.3%",
-      "title_zh": "Claude Fable 5 · 终端操作第 5，84.3%",
+      "title": "Gemini 3.7 Flash · Terminal Use 85.8%",
+      "title_zh": "Gemini 3.7 Flash · 终端操作第 5，85.8%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
       "published_at": null
@@ -773,6 +773,6 @@
   "total_items": 30,
   "refresh_status": {
     "ok": true,
-    "checked_at": "2026-09-27T22:31:37.062968Z"
+    "checked_at": "2026-09-30T05:01:07.984895Z"
   }
 }
