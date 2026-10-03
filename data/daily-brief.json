@@ -1,152 +1,8 @@
 {
-  "generated_at": "2026-10-03T13:11:57.764973Z",
+  "generated_at": "2026-10-03T17:32:13.764527Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_8e206c4d9ed6",
-      "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "primary_url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "367c0500a3638f38bcbde66ccd6c4245025a561b",
-          "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T16:15:00Z"
-        },
-        {
-          "id": "b6a5169a91a32d900daf93ec976dae4a837ed8e3",
-          "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T16:15:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "367c0500a3638f38bcbde66ccd6c4245025a561b",
-          "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T16:15:00Z"
-        },
-        {
-          "id": "b6a5169a91a32d900daf93ec976dae4a837ed8e3",
-          "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T16:15:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.838,
-      "importance": 0.838,
-      "importance_score": 0.838,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.739,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T16:15:00Z",
-      "latest_at": "2026-10-02T16:15:00Z",
-      "primary_item": {
-        "id": "367c0500a3638f38bcbde66ccd6c4245025a561b",
-        "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
-        "url": "https://openai.com/index/practical-guide-building-gpt-6",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_d599f0a282be",
-      "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "primary_url": "https://huggingface.co/blog/allenai/astabrief",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "48ab6be8be1ae5fa20bc6b26fcfcc2f5fdadf96d",
-          "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:19:50Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "48ab6be8be1ae5fa20bc6b26fcfcc2f5fdadf96d",
-          "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:19:50Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8113,
-      "importance": 0.8113,
-      "importance_score": 0.8113,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7292,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T15:19:50Z",
-      "latest_at": "2026-10-02T15:19:50Z",
-      "primary_item": {
-        "id": "48ab6be8be1ae5fa20bc6b26fcfcc2f5fdadf96d",
-        "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-        "url": "https://huggingface.co/blog/allenai/astabrief",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
     {
       "story_id": "story_c50f0986cd4e",
       "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
@@ -182,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
+      "score": 0.8024,
+      "importance": 0.8024,
+      "importance_score": 0.8024,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7715,
+        "recency": 0.7246,
         "story_heat": 0.0
       },
       "category": "official",
@@ -210,65 +66,64 @@
       }
     },
     {
-      "story_id": "story_8a253d0557ff",
-      "title": "人工智能正在改变开发人员的工作。以下是需要加强的三个技能。 / AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "primary_url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
+      "story_id": "story_a754eea0186f",
+      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+      "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+      "primary_url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ba529ffae291cc96f6a5485d0dfa487db6e084e5",
-          "title": "人工智能正在改变开发人员的工作。以下是需要加强的三个技能。 / AI is changing developer work. Here are three skills to strengthen.",
-          "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:00:00Z"
+          "id": "7654202328494479b00a63601dedf32af4a164cb",
+          "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+          "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": null
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub AI & ML"
+        "LMSYS：Blog（Chatbot Arena 团队）"
       ],
       "items": [
         {
-          "id": "ba529ffae291cc96f6a5485d0dfa487db6e084e5",
-          "title": "人工智能正在改变开发人员的工作。以下是需要加强的三个技能。 / AI is changing developer work. Here are three skills to strengthen.",
-          "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:00:00Z"
+          "id": "7654202328494479b00a63601dedf32af4a164cb",
+          "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+          "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": null
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8006,
-      "importance": 0.8006,
-      "importance_score": 0.8006,
-      "importance_label": "官方更新",
+      "score": 0.7886,
+      "importance": 0.7886,
+      "importance_score": 0.7886,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.7257,
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-02T15:00:00Z",
-      "latest_at": "2026-10-02T15:00:00Z",
+      "earliest_at": "2026-10-03T17:32:13.764527Z",
+      "latest_at": "2026-10-03T17:32:13.764527Z",
       "primary_item": {
-        "id": "ba529ffae291cc96f6a5485d0dfa487db6e084e5",
-        "title": "人工智能正在改变开发人员的工作。以下是需要加强的三个技能。 / AI is changing developer work. Here are three skills to strengthen.",
-        "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
+        "id": "7654202328494479b00a63601dedf32af4a164cb",
+        "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+        "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
+        "source": "LMSYS：Blog（Chatbot Arena 团队）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -325,15 +180,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7966,
-      "importance": 0.7966,
-      "importance_score": 0.7966,
+      "score": 0.7867,
+      "importance": 0.7867,
+      "importance_score": 0.7867,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9053,
+        "recency": 0.8503,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -350,68 +205,6 @@
         "url": "https://www.ithome.com/1/009/444.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d26cbd179582",
-      "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "primary_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "dd4c7d387fc53412a62e9d26adf403b628b46261",
-          "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google AI Blog"
-      ],
-      "items": [
-        {
-          "id": "dd4c7d387fc53412a62e9d26adf403b628b46261",
-          "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T15:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7946,
-      "importance": 0.7946,
-      "importance_score": 0.7946,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7257,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T15:00:00Z",
-      "latest_at": "2026-10-02T15:00:00Z",
-      "primary_item": {
-        "id": "dd4c7d387fc53412a62e9d26adf403b628b46261",
-        "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -449,15 +242,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8092,
-      "importance": 0.8092,
-      "importance_score": 0.8092,
+      "score": 0.8009,
+      "importance": 0.8009,
+      "importance_score": 0.8009,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7623,
+        "recency": 0.716,
         "story_heat": 0.0
       },
       "category": "official",
@@ -511,15 +304,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8092,
-      "importance": 0.8092,
-      "importance_score": 0.8092,
+      "score": 0.8004,
+      "importance": 0.8004,
+      "importance_score": 0.8004,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8065,
+        "recency": 0.7575,
         "story_heat": 0.0
       },
       "category": "official",
@@ -573,15 +366,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7306,
-      "importance": 0.7306,
-      "importance_score": 0.7306,
+      "score": 0.7221,
+      "importance": 0.7221,
+      "importance_score": 0.7221,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7779,
+        "recency": 0.7306,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -596,252 +389,6 @@
         "url": "https://x.com/arena/status/2106109027923140928",
         "source": "X：Arena (@arena)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c2f358888364",
-      "title": "ChatGPT 推出 Finances 财务管理功能",
-      "url": "https://x.com/ChatGPT/status/2106083595433791573",
-      "primary_url": "https://x.com/ChatGPT/status/2106083595433791573",
-      "source": "X：ChatGPT (@ChatGPT)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1e5d23c6dce92b573e366d0b5fdd197c59b16b1a",
-          "title": "ChatGPT 推出 Finances 财务管理功能",
-          "url": "https://x.com/ChatGPT/status/2106083595433791573",
-          "source": "X：ChatGPT (@ChatGPT)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T18:07:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：ChatGPT (@ChatGPT)"
-      ],
-      "items": [
-        {
-          "id": "1e5d23c6dce92b573e366d0b5fdd197c59b16b1a",
-          "title": "ChatGPT 推出 Finances 财务管理功能",
-          "url": "https://x.com/ChatGPT/status/2106083595433791573",
-          "source": "X：ChatGPT (@ChatGPT)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T18:07:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7213,
-      "importance": 0.7213,
-      "importance_score": 0.7213,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7592,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-02T18:07:12Z",
-      "latest_at": "2026-10-02T18:07:12Z",
-      "primary_item": {
-        "id": "1e5d23c6dce92b573e366d0b5fdd197c59b16b1a",
-        "title": "ChatGPT 推出 Finances 财务管理功能",
-        "url": "https://x.com/ChatGPT/status/2106083595433791573",
-        "source": "X：ChatGPT (@ChatGPT)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6389d30d2002",
-      "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
-      "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-      "primary_url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "983d5abca127c992de7dd3b2e4793328644c2a8e",
-          "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
-          "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:18:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "983d5abca127c992de7dd3b2e4793328644c2a8e",
-          "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
-          "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:18:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7915,
-      "importance": 0.7915,
-      "importance_score": 0.7915,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7081,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T13:18:00Z",
-      "latest_at": "2026-10-02T13:18:00Z",
-      "primary_item": {
-        "id": "983d5abca127c992de7dd3b2e4793328644c2a8e",
-        "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
-        "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_15293fa08b51",
-      "title": "公共预览版中的存储库安全咨询评论 API / Repository security advisory comments API in public preview",
-      "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "5cb2c95d9b30ba70feb24df708447eb935568270",
-          "title": "公共预览版中的存储库安全咨询评论 API / Repository security advisory comments API in public preview",
-          "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:15:25Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "5cb2c95d9b30ba70feb24df708447eb935568270",
-          "title": "公共预览版中的存储库安全咨询评论 API / Repository security advisory comments API in public preview",
-          "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:15:25Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7077,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T13:15:25Z",
-      "latest_at": "2026-10-02T13:15:25Z",
-      "primary_item": {
-        "id": "5cb2c95d9b30ba70feb24df708447eb935568270",
-        "title": "公共预览版中的存储库安全咨询评论 API / Repository security advisory comments API in public preview",
-        "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_04cee568ccaf",
-      "title": "关于存储库安全建议的机密评论 / Confidential comments on repository security advisories",
-      "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-      "primary_url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "75d3ae652733e012708727418c039e9c82d67827",
-          "title": "关于存储库安全建议的机密评论 / Confidential comments on repository security advisories",
-          "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:15:40Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "75d3ae652733e012708727418c039e9c82d67827",
-          "title": "关于存储库安全建议的机密评论 / Confidential comments on repository security advisories",
-          "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T13:15:40Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7914,
-      "importance": 0.7914,
-      "importance_score": 0.7914,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7077,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T13:15:40Z",
-      "latest_at": "2026-10-02T13:15:40Z",
-      "primary_item": {
-        "id": "75d3ae652733e012708727418c039e9c82d67827",
-        "title": "关于存储库安全建议的机密评论 / Confidential comments on repository security advisories",
-        "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -871,61 +418,8 @@
           "published_at": "2026-10-03T11:57:02Z"
         },
         {
-          "id": "6f8c2614f032f342076a8f7e35ff9136f183bfa1",
-          "title": "我们调查了星链。我们发现的腐败现象会让你震惊 / We Investigated Starlink. The Corruption We Found Will Shock You",
-          "url": "https://www.youtube.com/watch?v=LQYnlg4pO9o",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-03T10:21:24Z"
-        },
-        {
-          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
-          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
-          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T23:22:04.817000Z"
-        },
-        {
-          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
-          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
-          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T20:59:54.195000Z"
-        },
-        {
-          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
-          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
-          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-02T18:09:38Z"
-        }
-      ],
-      "source_count": 6,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "8d41b8355bfdc36961629fb295df569095fa08a3",
-          "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
-          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-03T12:07:54.478000Z"
-        },
-        {
-          "id": "67d9f2e6da15bbae20d6199ac01d20dfed978e39",
-          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Greg Kroah-Hartman - Security in the LLM Age",
+          "id": "efa811acee85d986a3216d5a3a5bc8fcade11612",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Security in the LLM Age",
           "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
@@ -969,17 +463,88 @@
           "published_at": "2026-10-02T18:09:38Z"
         }
       ],
-      "item_count": 6,
-      "duplicate_count": 6,
-      "score": 0.618,
-      "importance": 0.618,
-      "importance_score": 0.618,
+      "source_count": 7,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "www.youtube.com"
+      ],
+      "items": [
+        {
+          "id": "8d41b8355bfdc36961629fb295df569095fa08a3",
+          "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T12:07:54.478000Z"
+        },
+        {
+          "id": "67d9f2e6da15bbae20d6199ac01d20dfed978e39",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Greg Kroah-Hartman - Security in the LLM Age",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T11:57:02Z"
+        },
+        {
+          "id": "efa811acee85d986a3216d5a3a5bc8fcade11612",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Security in the LLM Age",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T11:57:02Z"
+        },
+        {
+          "id": "6f8c2614f032f342076a8f7e35ff9136f183bfa1",
+          "title": "我们调查了星链。我们发现的腐败现象会让你震惊 / We Investigated Starlink. The Corruption We Found Will Shock You",
+          "url": "https://www.youtube.com/watch?v=LQYnlg4pO9o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-03T10:21:24Z"
+        },
+        {
+          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
+          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
+          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T23:22:04.817000Z"
+        },
+        {
+          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T20:59:54.195000Z"
+        },
+        {
+          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
+          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
+          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-02T18:09:38Z"
+        }
+      ],
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.6073,
+      "importance": 0.6073,
+      "importance_score": 0.6073,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9847,
+        "recency": 0.9249,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -993,6 +558,140 @@
         "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
         "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
         "source": "www.youtube.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_9a14422b82b9",
+      "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "primary_url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "source": "tej.as",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "tej.as",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:49:44.714000Z"
+        },
+        {
+          "id": "b84a8375a5247ee3a46c762700baee7461309647",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "5f7984ca8cdccfbf2491fffa10ad31289bb805c4",
+          "title": "Kolibri 是 Aleph Alpha 的德语和英语开放式法学硕士 / Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
+          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "tej.as"
+      ],
+      "items": [
+        {
+          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "tej.as",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:49:44.714000Z"
+        },
+        {
+          "id": "b84a8375a5247ee3a46c762700baee7461309647",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "5f7984ca8cdccfbf2491fffa10ad31289bb805c4",
+          "title": "Kolibri 是 Aleph Alpha 的德语和英语开放式法学硕士 / Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
+          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6042,
+      "importance": 0.6042,
+      "importance_score": 0.6042,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9077,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T10:43:51Z",
+      "latest_at": "2026-10-03T10:49:44.714000Z",
+      "primary_item": {
+        "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+        "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+        "url": "https://tej.as/blog/aleph-alpha-kolibri",
+        "source": "tej.as",
         "source_name": "Buzzing"
       }
     },
@@ -1050,15 +749,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6056,
-      "importance": 0.6056,
-      "importance_score": 0.6056,
+      "score": 0.5972,
+      "importance": 0.5972,
+      "importance_score": 0.5972,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.76,
+        "recency": 0.7138,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1073,104 +772,6 @@
         "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_9a14422b82b9",
-      "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
-      "primary_url": "https://tej.as/blog/aleph-alpha-kolibri",
-      "source": "tej.as",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
-          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
-          "url": "https://tej.as/blog/aleph-alpha-kolibri",
-          "source": "tej.as",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-03T10:49:44.714000Z"
-        },
-        {
-          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
-          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
-          "url": "https://tej.as/blog/aleph-alpha-kolibri",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-03T10:43:51Z"
-        },
-        {
-          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
-          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
-          "url": "https://news.ycombinator.com/item?id=49943034",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-03T10:43:51Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "tej.as"
-      ],
-      "items": [
-        {
-          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
-          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
-          "url": "https://tej.as/blog/aleph-alpha-kolibri",
-          "source": "tej.as",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-03T10:49:44.714000Z"
-        },
-        {
-          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
-          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
-          "url": "https://tej.as/blog/aleph-alpha-kolibri",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-03T10:43:51Z"
-        },
-        {
-          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
-          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
-          "url": "https://news.ycombinator.com/item?id=49943034",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-03T10:43:51Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9664,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-03T10:43:51Z",
-      "latest_at": "2026-10-03T10:49:44.714000Z",
-      "primary_item": {
-        "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
-        "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
-        "url": "https://tej.as/blog/aleph-alpha-kolibri",
-        "source": "tej.as",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1191,12 +792,12 @@
           "published_at": "2026-10-03T06:39:44.372000Z"
         },
         {
-          "id": "4833224933c4812b26db59323c17c75baab29f24",
+          "id": "c24639a6187c2d76a863de1d12cb2ae83dbdf20e",
           "title": "Show HN: 开发了一个开源的乐高AI生成器 / Show HN: Made an open-source Lego AI generator",
           "url": "https://github.com/anteloc/ldraw-nova",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-10-02T20:00:15Z"
         },
         {
@@ -1211,7 +812,7 @@
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "github.com",
         "hackernews"
       ],
@@ -1226,12 +827,12 @@
           "published_at": "2026-10-03T06:39:44.372000Z"
         },
         {
-          "id": "4833224933c4812b26db59323c17c75baab29f24",
+          "id": "c24639a6187c2d76a863de1d12cb2ae83dbdf20e",
           "title": "Show HN: 开发了一个开源的乐高AI生成器 / Show HN: Made an open-source Lego AI generator",
           "url": "https://github.com/anteloc/ldraw-nova",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-10-02T20:00:15Z"
         },
         {
@@ -1246,15 +847,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
+      "score": 0.5446,
+      "importance": 0.5446,
+      "importance_score": 0.5446,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9099,
+        "recency": 0.8547,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1269,6 +870,85 @@
         "url": "https://github.com/anteloc/ldraw-nova",
         "source": "github.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_956aebcec474",
+      "title": "我离开OpenAI，因为它的企业文化已经崩坏 / I Quit OpenAI Because Its Culture Is Broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+      "primary_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "0e1a0d37b1f62ed8e304da75b4c9e53e3ae4e4d3",
+          "title": "我离开OpenAI，因为它的企业文化已经崩坏 / I Quit OpenAI Because Its Culture Is Broken",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-03T13:46:34Z"
+        },
+        {
+          "id": "ddc04447a08916b85f4a8ca85df7026f7e7843a1",
+          "title": "我离开OpenAI，因为它的企业文化已经崩坏",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+          "source": "www.theatlantic.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T11:05:53.668000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "www.theatlantic.com"
+      ],
+      "items": [
+        {
+          "id": "0e1a0d37b1f62ed8e304da75b4c9e53e3ae4e4d3",
+          "title": "我离开OpenAI，因为它的企业文化已经崩坏 / I Quit OpenAI Because Its Culture Is Broken",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-03T13:46:34Z"
+        },
+        {
+          "id": "ddc04447a08916b85f4a8ca85df7026f7e7843a1",
+          "title": "我离开OpenAI，因为它的企业文化已经崩坏",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+          "source": "www.theatlantic.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T11:05:53.668000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5363,
+      "importance": 0.5363,
+      "importance_score": 0.5363,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9471,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T11:05:53.668000Z",
+      "latest_at": "2026-10-03T13:46:34Z",
+      "primary_item": {
+        "id": "0e1a0d37b1f62ed8e304da75b4c9e53e3ae4e4d3",
+        "title": "我离开OpenAI，因为它的企业文化已经崩坏 / I Quit OpenAI Because Its Culture Is Broken",
+        "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1325,15 +1005,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9393,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1404,15 +1084,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9393,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1427,6 +1107,104 @@
         "url": "https://github.com/thedotmack/claude-mem",
         "source": "GitHub · Trending Today",
         "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_3577570198f4",
+      "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
+      "url": "https://dwarfstar.sh",
+      "primary_url": "https://dwarfstar.sh",
+      "source": "dwarfstar.sh",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
+          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
+          "url": "https://dwarfstar.sh",
+          "source": "dwarfstar.sh",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T22:49:45.900000Z"
+        },
+        {
+          "id": "5221c7a3e0be11f309dd8e9f384b00fed4145c61",
+          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T18:01:16Z"
+        },
+        {
+          "id": "9858d29843a45db6ecc1abb1df646663ba9e8898",
+          "title": "来自Redis的创建者；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
+          "url": "https://news.ycombinator.com/item?id=49936575",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-02T18:01:16Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "dwarfstar.sh",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
+          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
+          "url": "https://dwarfstar.sh",
+          "source": "dwarfstar.sh",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T22:49:45.900000Z"
+        },
+        {
+          "id": "5221c7a3e0be11f309dd8e9f384b00fed4145c61",
+          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T18:01:16Z"
+        },
+        {
+          "id": "9858d29843a45db6ecc1abb1df646663ba9e8898",
+          "title": "来自Redis的创建者；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
+          "url": "https://news.ycombinator.com/item?id=49936575",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-02T18:01:16Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5282,
+      "importance": 0.5282,
+      "importance_score": 0.5282,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7633,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-02T18:01:16Z",
+      "latest_at": "2026-10-02T22:49:45.900000Z",
+      "primary_item": {
+        "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
+        "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
+        "url": "https://dwarfstar.sh",
+        "source": "dwarfstar.sh",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1483,15 +1261,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5384,
-      "importance": 0.5384,
-      "importance_score": 0.5384,
+      "score": 0.5279,
+      "importance": 0.5279,
+      "importance_score": 0.5279,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.959,
+        "recency": 0.9007,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1504,6 +1282,401 @@
         "id": "9c168a0f87df704e40ad02515e70c79949900843",
         "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维",
         "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_ceec469193dc",
+      "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+      "url": "https://www.36kr.com/p/4009352273236101",
+      "primary_url": "https://www.36kr.com/p/4009352273236101",
+      "source": "36氪 · 24小时热榜",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "7adab54fbcf58fb0bffbde8db753923574b9a99b",
+          "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+          "url": "https://www.36kr.com/p/4009352273236101",
+          "source": "36氪 · 24小时热榜",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": "2026-10-03T07:50:44.398528Z"
+        },
+        {
+          "id": "cd97daf50aa7f6ea54526dfc31970f5d4ce2f557",
+          "title": "Meta 开源 Muse Gadgets，让全球开发者自己「造 AI 外设」",
+          "url": "https://www.36kr.com/p/4009352273236101",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "36氪 · 24小时热榜",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "7adab54fbcf58fb0bffbde8db753923574b9a99b",
+          "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+          "url": "https://www.36kr.com/p/4009352273236101",
+          "source": "36氪 · 24小时热榜",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": "2026-10-03T07:50:44.398528Z"
+        },
+        {
+          "id": "cd97daf50aa7f6ea54526dfc31970f5d4ce2f557",
+          "title": "Meta 开源 Muse Gadgets，让全球开发者自己「造 AI 外设」",
+          "url": "https://www.36kr.com/p/4009352273236101",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8694,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T01:48:57.822006Z",
+      "latest_at": "2026-10-03T07:50:44.398528Z",
+      "primary_item": {
+        "id": "7adab54fbcf58fb0bffbde8db753923574b9a99b",
+        "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+        "url": "https://www.36kr.com/p/4009352273236101",
+        "source": "36氪 · 24小时热榜",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_ef48f9156b3f",
+      "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "primary_url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b5bc759866cf82f37b54e822d99793dcce4a46b0",
+          "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T02:44:59.677000Z"
+        },
+        {
+          "id": "aaa07303c18c1f6ca759e12f85515cd1f9ed259a",
+          "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为 / Apple changes full-disk access permissions to curb abuse from AI agents",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-02T23:03:16Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "b5bc759866cf82f37b54e822d99793dcce4a46b0",
+          "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T02:44:59.677000Z"
+        },
+        {
+          "id": "aaa07303c18c1f6ca759e12f85515cd1f9ed259a",
+          "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为 / Apple changes full-disk access permissions to curb abuse from AI agents",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-02T23:03:16Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5112,
+      "importance": 0.5112,
+      "importance_score": 0.5112,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8077,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-02T23:03:16Z",
+      "latest_at": "2026-10-03T02:44:59.677000Z",
+      "primary_item": {
+        "id": "b5bc759866cf82f37b54e822d99793dcce4a46b0",
+        "title": "苹果修改全盘访问权限以遏制AI代理的滥用行为",
+        "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_35e78a72f8fa",
+      "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频",
+      "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+      "source": "www.bbc.co.uk",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f321fedcd4351b6b992d508370e60619c3d01724",
+          "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T00:24:53.979000Z"
+        },
+        {
+          "id": "298f97482f9076fc022d1ac759fdf087d35e47cd",
+          "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频 / US road rage killer's sentence quashed because AI video of victim was shown in court",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T23:06:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "BBC News (世界新闻)",
+        "www.bbc.co.uk"
+      ],
+      "items": [
+        {
+          "id": "f321fedcd4351b6b992d508370e60619c3d01724",
+          "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T00:24:53.979000Z"
+        },
+        {
+          "id": "298f97482f9076fc022d1ac759fdf087d35e47cd",
+          "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频 / US road rage killer's sentence quashed because AI video of victim was shown in court",
+          "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T23:06:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5064,
+      "importance": 0.5064,
+      "importance_score": 0.5064,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7809,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-02T23:06:00Z",
+      "latest_at": "2026-10-03T00:24:53.979000Z",
+      "primary_item": {
+        "id": "f321fedcd4351b6b992d508370e60619c3d01724",
+        "title": "美国一名路怒杀人犯的判决被撤销，原因是法庭上播放了受害者的AI合成视频",
+        "url": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss",
+        "source": "www.bbc.co.uk",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_001fe0e44261",
+      "title": "Muse 智能设备",
+      "url": "https://gadgets.muse.ai",
+      "primary_url": "https://gadgets.muse.ai",
+      "source": "gadgets.muse.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7afa1f7d417940bf1407bb69f3099a9f6eeaca20",
+          "title": "Muse 智能设备",
+          "url": "https://gadgets.muse.ai",
+          "source": "gadgets.muse.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T00:08:54.342000Z"
+        },
+        {
+          "id": "e8a89ab4d1a15956ae6cd8ebec199c03918775fc",
+          "title": "Muse 智能设备 / Muse Gadgets",
+          "url": "https://gadgets.muse.ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T19:26:54Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "gadgets.muse.ai"
+      ],
+      "items": [
+        {
+          "id": "7afa1f7d417940bf1407bb69f3099a9f6eeaca20",
+          "title": "Muse 智能设备",
+          "url": "https://gadgets.muse.ai",
+          "source": "gadgets.muse.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T00:08:54.342000Z"
+        },
+        {
+          "id": "e8a89ab4d1a15956ae6cd8ebec199c03918775fc",
+          "title": "Muse 智能设备 / Muse Gadgets",
+          "url": "https://gadgets.muse.ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-02T19:26:54Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5058,
+      "importance": 0.5058,
+      "importance_score": 0.5058,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7779,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-02T19:26:54Z",
+      "latest_at": "2026-10-03T00:08:54.342000Z",
+      "primary_item": {
+        "id": "7afa1f7d417940bf1407bb69f3099a9f6eeaca20",
+        "title": "Muse 智能设备",
+        "url": "https://gadgets.muse.ai",
+        "source": "gadgets.muse.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_5981ed276f26",
+      "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。",
+      "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+      "primary_url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "8d43c5b22543b8a6cedc31ad16d4f536b569c8f6",
+          "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。",
+          "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T09:47:55.404000Z"
+        },
+        {
+          "id": "adea3472cbdd1d29c89c1fd961aa3c52b1a08034",
+          "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。 / AI slop is coming for Hollywood. Some of it is already better.",
+          "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-03T09:30:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "8d43c5b22543b8a6cedc31ad16d4f536b569c8f6",
+          "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。",
+          "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T09:47:55.404000Z"
+        },
+        {
+          "id": "adea3472cbdd1d29c89c1fd961aa3c52b1a08034",
+          "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。 / AI slop is coming for Hollywood. Some of it is already better.",
+          "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-03T09:30:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5268,
+      "importance": 0.5268,
+      "importance_score": 0.5268,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8943,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T09:30:02Z",
+      "latest_at": "2026-10-03T09:47:55.404000Z",
+      "primary_item": {
+        "id": "8d43c5b22543b8a6cedc31ad16d4f536b569c8f6",
+        "title": "好莱坞即将迎来AI垃圾作品。其中一些作品的质量已经更胜一筹。",
+        "url": "https://www.businessinsider.com/ai-video-tools-slopcannon-new-competition-hollywood-2026-10",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
