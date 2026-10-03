@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:50:44.398528Z",
+  "generated_at": "2026-10-03T13:11:57.764973Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8487,
-      "importance": 0.8487,
-      "importance_score": 0.8487,
+      "score": 0.838,
+      "importance": 0.838,
+      "importance_score": 0.838,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7983,
+        "recency": 0.739,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,68 +82,6 @@
         "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理 / A model guide for the GPT-6 family",
         "url": "https://openai.com/index/practical-guide-building-gpt-6",
         "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_c50f0986cd4e",
-      "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
-      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "primary_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
-          "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
-          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T19:13:50Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
-          "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
-          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T19:13:50Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.822,
-      "importance": 0.822,
-      "importance_score": 0.822,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8335,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T19:13:50Z",
-      "latest_at": "2026-10-02T19:13:50Z",
-      "primary_item": {
-        "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
-        "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
-        "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -182,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8218,
-      "importance": 0.8218,
-      "importance_score": 0.8218,
+      "score": 0.8113,
+      "importance": 0.8113,
+      "importance_score": 0.8113,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7878,
+        "recency": 0.7292,
         "story_heat": 0.0
       },
       "category": "official",
@@ -206,6 +144,68 @@
         "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
         "url": "https://huggingface.co/blog/allenai/astabrief",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_c50f0986cd4e",
+      "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "primary_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
+          "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T19:13:50Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
+          "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T19:13:50Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8109,
+      "importance": 0.8109,
+      "importance_score": 0.8109,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7715,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T19:13:50Z",
+      "latest_at": "2026-10-02T19:13:50Z",
+      "primary_item": {
+        "id": "4c4bee02b6e6e7d087938a89098b4ad2a2e9898c",
+        "title": "Copilot 代码审查：API 支持和新的默认工作级别 / Copilot code review: API support and new default effort level",
+        "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -244,15 +244,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8111,
-      "importance": 0.8111,
-      "importance_score": 0.8111,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.9,
-        "recency": 0.7841,
+        "recency": 0.7257,
         "story_heat": 0.0
       },
       "category": "official",
@@ -325,15 +325,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8097,
-      "importance": 0.8097,
-      "importance_score": 0.8097,
+      "score": 0.7966,
+      "importance": 0.7966,
+      "importance_score": 0.7966,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9781,
+        "recency": 0.9053,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -387,15 +387,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8051,
-      "importance": 0.8051,
-      "importance_score": 0.8051,
+      "score": 0.7946,
+      "importance": 0.7946,
+      "importance_score": 0.7946,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7841,
+        "recency": 0.7257,
         "story_heat": 0.0
       },
       "category": "official",
@@ -411,68 +411,6 @@
         "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
         "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_33bc6bdb49c8",
-      "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
-      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-      "primary_url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
-          "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
-          "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T22:18:23Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
-          "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
-          "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-02T22:18:23Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8208,
-      "importance": 0.8208,
-      "importance_score": 0.8208,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8713,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T22:18:23Z",
-      "latest_at": "2026-10-02T22:18:23Z",
-      "primary_item": {
-        "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
-        "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
-        "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -511,15 +449,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8202,
-      "importance": 0.8202,
-      "importance_score": 0.8202,
+      "score": 0.8092,
+      "importance": 0.8092,
+      "importance_score": 0.8092,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8236,
+        "recency": 0.7623,
         "story_heat": 0.0
       },
       "category": "official",
@@ -534,6 +472,68 @@
         "id": "b40a637560dbaf99f82b42269fa1cd04aba1b171",
         "title": "已弃用 GitHub Copilot 中的选定模型 / Selected models in GitHub Copilot deprecated",
         "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_33bc6bdb49c8",
+      "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
+      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+      "primary_url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
+          "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
+          "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T22:18:23Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
+          "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
+          "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-02T22:18:23Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8092,
+      "importance": 0.8092,
+      "importance_score": 0.8092,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8065,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T22:18:23Z",
+      "latest_at": "2026-10-02T22:18:23Z",
+      "primary_item": {
+        "id": "b5bf08461ba8b82a49c1d56e22877e860c5093ab",
+        "title": "无状态 GitHub 应用程序安装令牌推出 / Stateless GitHub App installation tokens rolled out",
+        "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -573,15 +573,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
+      "score": 0.7306,
+      "importance": 0.7306,
+      "importance_score": 0.7306,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8404,
+        "recency": 0.7779,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -595,86 +595,6 @@
         "title": "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
         "url": "https://x.com/arena/status/2106109027923140928",
         "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_d4e3054526b7",
-      "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-      "primary_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-      "source": "NVIDIA Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4704055ba4617f6054282d6374b0d71ea0596cdf",
-          "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-          "source": "NVIDIA Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T13:00:39Z"
-        },
-        {
-          "id": "7984e9508374ed6e1cc54e9f6abf599d3e907e5f",
-          "title": "NVIDIA DGX Spark 64GB 为开发者提供更多本地 AI 构建与扩展方式",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "NVIDIA Blog（RSS）",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "4704055ba4617f6054282d6374b0d71ea0596cdf",
-          "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-          "source": "NVIDIA Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T13:00:39Z"
-        },
-        {
-          "id": "7984e9508374ed6e1cc54e9f6abf599d3e907e5f",
-          "title": "NVIDIA DGX Spark 64GB 为开发者提供更多本地 AI 构建与扩展方式",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7347,
-      "importance": 0.7347,
-      "importance_score": 0.7347,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7619,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-02T13:00:39Z",
-      "latest_at": "2026-10-03T01:48:57.822006Z",
-      "primary_item": {
-        "id": "4704055ba4617f6054282d6374b0d71ea0596cdf",
-        "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
-        "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-        "source": "NVIDIA Blog（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -713,15 +633,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7322,
-      "importance": 0.7322,
-      "importance_score": 0.7322,
+      "score": 0.7213,
+      "importance": 0.7213,
+      "importance_score": 0.7213,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8202,
+        "recency": 0.7592,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -773,15 +693,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8017,
-      "importance": 0.8017,
-      "importance_score": 0.8017,
+      "score": 0.7915,
+      "importance": 0.7915,
+      "importance_score": 0.7915,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7651,
+        "recency": 0.7081,
         "story_heat": 0.0
       },
       "category": "official",
@@ -798,146 +718,6 @@
         "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_d59de4d941f9",
-      "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
-      "url": "https://allenai.org/blog/astabrief",
-      "primary_url": "https://allenai.org/blog/astabrief",
-      "source": "Ai2 / Allen Institute for AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "524ddd5dfb88fada1278908c35d5370fe5b1ed35",
-          "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
-          "url": "https://allenai.org/blog/astabrief",
-          "source": "Ai2 / Allen Institute for AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T08:00:00Z"
-        },
-        {
-          "id": "dafaaccf0fd3d7569c4d3d04b423ee0b277ab92a",
-          "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://allenai.org/blog/astabrief",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-02T21:25:25Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ai2 / Allen Institute for AI（RSS）",
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "524ddd5dfb88fada1278908c35d5370fe5b1ed35",
-          "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
-          "url": "https://allenai.org/blog/astabrief",
-          "source": "Ai2 / Allen Institute for AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T08:00:00Z"
-        },
-        {
-          "id": "dafaaccf0fd3d7569c4d3d04b423ee0b277ab92a",
-          "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief / Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://allenai.org/blog/astabrief",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-02T21:25:25Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7102,
-      "importance": 0.7102,
-      "importance_score": 0.7102,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7087,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-02T08:00:00Z",
-      "latest_at": "2026-10-02T21:25:25Z",
-      "primary_item": {
-        "id": "524ddd5dfb88fada1278908c35d5370fe5b1ed35",
-        "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
-        "url": "https://allenai.org/blog/astabrief",
-        "source": "Ai2 / Allen Institute for AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_07e142fdb08c",
-      "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
-      "url": "https://x.com/arena/status/2106105400487821764",
-      "primary_url": "https://x.com/arena/status/2106105400487821764",
-      "source": "X：Arena (@arena)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7fafcd9a85b38c8198ab770065c4ada1aae58198",
-          "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
-          "url": "https://x.com/arena/status/2106105400487821764",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T19:33:51Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Arena (@arena)"
-      ],
-      "items": [
-        {
-          "id": "7fafcd9a85b38c8198ab770065c4ada1aae58198",
-          "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
-          "url": "https://x.com/arena/status/2106105400487821764",
-          "source": "X：Arena (@arena)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-02T19:33:51Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7293,
-      "importance": 0.7293,
-      "importance_score": 0.7293,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8375,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-02T19:33:51Z",
-      "latest_at": "2026-10-02T19:33:51Z",
-      "primary_item": {
-        "id": "7fafcd9a85b38c8198ab770065c4ada1aae58198",
-        "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
-        "url": "https://x.com/arena/status/2106105400487821764",
-        "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -975,15 +755,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8016,
-      "importance": 0.8016,
-      "importance_score": 0.8016,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7646,
+        "recency": 0.7077,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1037,15 +817,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8016,
-      "importance": 0.8016,
-      "importance_score": 0.8016,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7646,
+        "recency": 0.7077,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1062,6 +842,158 @@
         "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "primary_url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "source": "www.youtube.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "8d41b8355bfdc36961629fb295df569095fa08a3",
+          "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T12:07:54.478000Z"
+        },
+        {
+          "id": "67d9f2e6da15bbae20d6199ac01d20dfed978e39",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Greg Kroah-Hartman - Security in the LLM Age",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T11:57:02Z"
+        },
+        {
+          "id": "6f8c2614f032f342076a8f7e35ff9136f183bfa1",
+          "title": "我们调查了星链。我们发现的腐败现象会让你震惊 / We Investigated Starlink. The Corruption We Found Will Shock You",
+          "url": "https://www.youtube.com/watch?v=LQYnlg4pO9o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-03T10:21:24Z"
+        },
+        {
+          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
+          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
+          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T23:22:04.817000Z"
+        },
+        {
+          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T20:59:54.195000Z"
+        },
+        {
+          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
+          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
+          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-02T18:09:38Z"
+        }
+      ],
+      "source_count": 6,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "www.youtube.com"
+      ],
+      "items": [
+        {
+          "id": "8d41b8355bfdc36961629fb295df569095fa08a3",
+          "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T12:07:54.478000Z"
+        },
+        {
+          "id": "67d9f2e6da15bbae20d6199ac01d20dfed978e39",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频] / Greg Kroah-Hartman - Security in the LLM Age",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T11:57:02Z"
+        },
+        {
+          "id": "6f8c2614f032f342076a8f7e35ff9136f183bfa1",
+          "title": "我们调查了星链。我们发现的腐败现象会让你震惊 / We Investigated Starlink. The Corruption We Found Will Shock You",
+          "url": "https://www.youtube.com/watch?v=LQYnlg4pO9o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-03T10:21:24Z"
+        },
+        {
+          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
+          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
+          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T23:22:04.817000Z"
+        },
+        {
+          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
+          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-02T20:59:54.195000Z"
+        },
+        {
+          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
+          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
+          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-02T18:09:38Z"
+        }
+      ],
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.618,
+      "importance": 0.618,
+      "importance_score": 0.618,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9847,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-02T18:09:38Z",
+      "latest_at": "2026-10-03T12:07:54.478000Z",
+      "primary_item": {
+        "id": "8d41b8355bfdc36961629fb295df569095fa08a3",
+        "title": "格雷格·克罗-哈特曼——大语言模型时代的安全问题",
+        "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+        "source": "www.youtube.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1118,15 +1050,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6165,
-      "importance": 0.6165,
-      "importance_score": 0.6165,
+      "score": 0.6056,
+      "importance": 0.6056,
+      "importance_score": 0.6056,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.821,
+        "recency": 0.76,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1141,6 +1073,104 @@
         "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_9a14422b82b9",
+      "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "primary_url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "source": "tej.as",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "tej.as",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:49:44.714000Z"
+        },
+        {
+          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
+          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "tej.as"
+      ],
+      "items": [
+        {
+          "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "tej.as",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:49:44.714000Z"
+        },
+        {
+          "id": "43d0d8fde5a5cd7e0497e1833d363aee6e5906b6",
+          "title": "Show HN: 德国的新型主权人工智能模型“Kolibri” / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T10:43:51Z"
+        },
+        {
+          "id": "e5c743595cf257acfe8010606f8a822da65f5b7e",
+          "title": "Show HN：德国新的主权人工智能模型Kolibri / Show HN: Germany's new sovereign AI model Kolibri",
+          "url": "https://news.ycombinator.com/item?id=49943034",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-03T10:43:51Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5647,
+      "importance": 0.5647,
+      "importance_score": 0.5647,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9664,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T10:43:51Z",
+      "latest_at": "2026-10-03T10:49:44.714000Z",
+      "primary_item": {
+        "id": "947672c54a94c9809a1dcfa2c8088bdf28fa6f50",
+        "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+        "url": "https://tej.as/blog/aleph-alpha-kolibri",
+        "source": "tej.as",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1216,15 +1246,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5678,
-      "importance": 0.5678,
-      "importance_score": 0.5678,
+      "score": 0.5546,
+      "importance": 0.5546,
+      "importance_score": 0.5546,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9831,
+        "recency": 0.9099,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1242,197 +1272,239 @@
       }
     },
     {
-      "story_id": "story_774f7412d1a3",
-      "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
-      "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-      "primary_url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-      "source": "www.youtube.com",
-      "source_name": "Buzzing",
+      "story_id": "story_265e6f0426da",
+      "title": "2 万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+      "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4895291.html?f=rss",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
-          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
-          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T23:22:04.817000Z"
+          "id": "2bf06b97b2a05238e64f0ec09f670ebb7ae37974",
+          "title": "2 万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+          "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
-          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
-          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T20:59:54.195000Z"
-        },
-        {
-          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
-          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
-          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-02T18:09:38Z"
+          "id": "e36be6e0bcdef733209e1e065654fbb5ac71721b",
+          "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美AI 竞赛不会单边暂停",
+          "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T12:22:36Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "www.youtube.com"
+        "Readhub · AI",
+        "虎嗅 (Huxiu)"
       ],
       "items": [
         {
-          "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
-          "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
-          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T23:22:04.817000Z"
+          "id": "2bf06b97b2a05238e64f0ec09f670ebb7ae37974",
+          "title": "2 万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+          "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "7765596d8f47d66f90f51363cc0e505cdf4529ec",
-          "title": "格雷格·克罗赫-哈特曼——大语言模型时代的安全问题 [视频]",
-          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T20:59:54.195000Z"
-        },
-        {
-          "id": "0eecac1f939a8cac5378b79ed2ed2d12abbda2b9",
-          "title": "如果我们停止使用 GPU 会怎样？ [视频] / What if we stopped using GPUs? [video]",
-          "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-02T18:09:38Z"
+          "id": "e36be6e0bcdef733209e1e065654fbb5ac71721b",
+          "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美AI 竞赛不会单边暂停",
+          "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+          "source": "虎嗅 (Huxiu)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-03T12:22:36Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5501,
-      "importance": 0.5501,
-      "importance_score": 0.5501,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8848,
-        "story_heat": 0.5
+        "recency": 1.0,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-02T18:09:38Z",
-      "latest_at": "2026-10-02T23:22:04.817000Z",
+      "earliest_at": "2026-10-03T12:22:36Z",
+      "latest_at": "2026-10-03T13:11:57.764973Z",
       "primary_item": {
-        "id": "566c5ff090d77c0a61472f1fb57c2c8c939188a8",
-        "title": "Show HN: 我让Opus制作一个关于人工智能实验室的视频，结果它生成了这个奇怪的东西",
-        "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
-        "source": "www.youtube.com",
-        "source_name": "Buzzing"
+        "id": "2bf06b97b2a05238e64f0ec09f670ebb7ae37974",
+        "title": "2 万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+        "url": "https://www.huxiu.com/article/4895291.html?f=rss",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
-      "story_id": "story_3577570198f4",
-      "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
-      "url": "https://dwarfstar.sh",
-      "primary_url": "https://dwarfstar.sh",
-      "source": "dwarfstar.sh",
-      "source_name": "Buzzing",
+      "story_id": "story_b8da10635efb",
+      "title": "塞多马克 / 克劳德·梅姆 / thedotmack / claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "primary_url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub · Trending Today",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
-          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
-          "url": "https://dwarfstar.sh",
-          "source": "dwarfstar.sh",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T22:49:45.900000Z"
+          "id": "d15dffa69886b6928cdb7167cbfb27dfa8d74691",
+          "title": "塞多马克 / 克劳德·梅姆 / thedotmack / claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "5221c7a3e0be11f309dd8e9f384b00fed4145c61",
-          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
-          "url": "https://dwarfstar.sh",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-02T18:01:16Z"
-        },
-        {
-          "id": "9858d29843a45db6ecc1abb1df646663ba9e8898",
-          "title": "来自Redis的创建者；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
-          "url": "https://news.ycombinator.com/item?id=49936575",
-          "source": "hackernews",
+          "id": "7f62c55e9f5c0009e755898f3bbfde7347288cd5",
+          "title": "塞多马克 / 克劳德·梅姆 / thedotmack /      claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "github",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-02T18:01:16Z"
+          "published_at": "2026-10-03T13:02:17.936000Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "dwarfstar.sh",
-        "hackernews"
+        "GitHub · Trending Today",
+        "github"
       ],
       "items": [
         {
-          "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
-          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
-          "url": "https://dwarfstar.sh",
-          "source": "dwarfstar.sh",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-02T22:49:45.900000Z"
+          "id": "d15dffa69886b6928cdb7167cbfb27dfa8d74691",
+          "title": "塞多马克 / 克劳德·梅姆 / thedotmack / claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "5221c7a3e0be11f309dd8e9f384b00fed4145c61",
-          "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
-          "url": "https://dwarfstar.sh",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-02T18:01:16Z"
-        },
-        {
-          "id": "9858d29843a45db6ecc1abb1df646663ba9e8898",
-          "title": "来自Redis的创建者；使用 ds4 在本地运行 LLM / From the creator of Redis; run LLM locally with ds4",
-          "url": "https://news.ycombinator.com/item?id=49936575",
-          "source": "hackernews",
+          "id": "7f62c55e9f5c0009e755898f3bbfde7347288cd5",
+          "title": "塞多马克 / 克劳德·梅姆 / thedotmack /      claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "github",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-02T18:01:16Z"
+          "published_at": "2026-10-03T13:02:17.936000Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5488,
-      "importance": 0.5488,
-      "importance_score": 0.5488,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8779,
-        "story_heat": 0.5
+        "recency": 1.0,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-02T18:01:16Z",
-      "latest_at": "2026-10-02T22:49:45.900000Z",
+      "earliest_at": "2026-10-03T13:02:17.936000Z",
+      "latest_at": "2026-10-03T13:11:57.764973Z",
       "primary_item": {
-        "id": "7b7a31ed4993ecc973e4f341a5ee01b63b703e93",
-        "title": "来自 Redis 创建者的作品；使用 ds4 在本地运行 LLM",
-        "url": "https://dwarfstar.sh",
-        "source": "dwarfstar.sh",
+        "id": "d15dffa69886b6928cdb7167cbfb27dfa8d74691",
+        "title": "塞多马克 / 克劳德·梅姆 / thedotmack / claude-mem",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "source": "GitHub · Trending Today",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_4d668566c7c8",
+      "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维",
+      "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+      "primary_url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9c168a0f87df704e40ad02515e70c79949900843",
+          "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维",
+          "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:17:54.194000Z"
+        },
+        {
+          "id": "77e3fcef1f15427808992e04ab279421f20a32df",
+          "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维 / 2 AI habits that can weaken your critical thinking, according to a BCG exec",
+          "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-03T09:50:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "9c168a0f87df704e40ad02515e70c79949900843",
+          "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维",
+          "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-03T10:17:54.194000Z"
+        },
+        {
+          "id": "77e3fcef1f15427808992e04ab279421f20a32df",
+          "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维 / 2 AI habits that can weaken your critical thinking, according to a BCG exec",
+          "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-03T09:50:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5384,
+      "importance": 0.5384,
+      "importance_score": 0.5384,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.959,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-03T09:50:01Z",
+      "latest_at": "2026-10-03T10:17:54.194000Z",
+      "primary_item": {
+        "id": "9c168a0f87df704e40ad02515e70c79949900843",
+        "title": "据BCG一位高管称，有两种与人工智能相关的习惯可能会削弱你的批判性思维",
+        "url": "https://www.businessinsider.com/bcg-exec-shares-ai-habits-weaken-critical-thinking-2026-10",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     }
