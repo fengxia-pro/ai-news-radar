@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:12:13.398475Z",
+  "generated_at": "2026-10-05T07:34:23.868180Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7475,
-      "importance": 0.7475,
-      "importance_score": 0.7475,
+      "score": 0.7319,
+      "importance": 0.7319,
+      "importance_score": 0.7319,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9885,
+        "recency": 0.9016,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -61,6 +61,104 @@
         "url": "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
         "source": "PromptArmor：Threat Intelligence",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c84b492b133a",
+      "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News (世界新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "4ecb62e9d286c3ac9e22937bc68fea000d3a1a0e",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump unveils 'Super Intelligence Force' to oversee AI policy",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-05T06:15:29Z"
+        },
+        {
+          "id": "6d1f23102a6c051969a55f7555715ca9ed54ac36",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T05:08:48.631000Z"
+        },
+        {
+          "id": "239e85c7486b0111b2e5451f0360d0e74d4f0fd4",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump announces 'Super Intelligence Force' to oversee AI policy",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-05T01:33:08Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "BBC News",
+        "BBC News (世界新闻)",
+        "www.bbc.co.uk"
+      ],
+      "items": [
+        {
+          "id": "4ecb62e9d286c3ac9e22937bc68fea000d3a1a0e",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump unveils 'Super Intelligence Force' to oversee AI policy",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-05T06:15:29Z"
+        },
+        {
+          "id": "6d1f23102a6c051969a55f7555715ca9ed54ac36",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T05:08:48.631000Z"
+        },
+        {
+          "id": "239e85c7486b0111b2e5451f0360d0e74d4f0fd4",
+          "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump announces 'Super Intelligence Force' to oversee AI policy",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-05T01:33:08Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9812,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-05T01:33:08Z",
+      "latest_at": "2026-10-05T06:15:29Z",
+      "primary_item": {
+        "id": "4ecb62e9d286c3ac9e22937bc68fea000d3a1a0e",
+        "title": "特朗普公布“超级智能部队”以监督人工智能政策 / Trump unveils 'Super Intelligence Force' to oversee AI policy",
+        "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News (世界新闻)",
+        "source_name": "Info Flow"
       }
     },
     {
@@ -135,15 +233,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5571,
-      "importance": 0.5571,
-      "importance_score": 0.5571,
+      "score": 0.5425,
+      "importance": 0.5425,
+      "importance_score": 0.5425,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9237,
+        "recency": 0.8425,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -161,82 +259,239 @@
       }
     },
     {
-      "story_id": "story_26c664897667",
-      "title": "michael-denyer /      pstack-claude",
-      "url": "https://github.com/michael-denyer/pstack-claude",
-      "primary_url": "https://github.com/michael-denyer/pstack-claude",
-      "source": "github",
-      "source_name": "NewsNow",
+      "story_id": "story_38e4cdca29ce",
+      "title": "施耐德电气斥资226亿美元收购PTC，拓展人工智能业务",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/schneider-electric-to-acquire-ptc-for-more-than-20-billion",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-10-05/schneider-electric-to-acquire-ptc-for-more-than-20-billion",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
-          "title": "michael-denyer /      pstack-claude",
-          "url": "https://github.com/michael-denyer/pstack-claude",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-05T01:13:05.655000Z"
+          "id": "d4dcf026c3b4db4a2abf9e9a0880b868c4790796",
+          "title": "施耐德电气斥资226亿美元收购PTC，拓展人工智能业务",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/schneider-electric-to-acquire-ptc-for-more-than-20-billion",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T06:11:50.505000Z"
         },
         {
-          "id": "1a723581782a918446b0d68d55ffb7a4b205b052",
-          "title": "michael-denyer / pstack-claude",
-          "url": "https://github.com/michael-denyer/pstack-claude",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "770de617315c16e6c6fadefe3c1ebcc6db91abdb",
+          "title": "施耐德电气宣布以 226 亿美元收购 PTC，拓展人工智能业务",
+          "url": "https://www.ithome.com/1/009/805.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-05T06:07:35Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "GitHub · Trending Today",
-        "github"
+        "IT之家 (ITHome)",
+        "www.bloomberg.com"
       ],
       "items": [
         {
-          "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
-          "title": "michael-denyer /      pstack-claude",
-          "url": "https://github.com/michael-denyer/pstack-claude",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-05T01:13:05.655000Z"
+          "id": "d4dcf026c3b4db4a2abf9e9a0880b868c4790796",
+          "title": "施耐德电气斥资226亿美元收购PTC，拓展人工智能业务",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/schneider-electric-to-acquire-ptc-for-more-than-20-billion",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T06:11:50.505000Z"
         },
         {
-          "id": "1a723581782a918446b0d68d55ffb7a4b205b052",
-          "title": "michael-denyer / pstack-claude",
-          "url": "https://github.com/michael-denyer/pstack-claude",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "id": "770de617315c16e6c6fadefe3c1ebcc6db91abdb",
+          "title": "施耐德电气宣布以 226 亿美元收购 PTC，拓展人工智能业务",
+          "url": "https://www.ithome.com/1/009/805.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-05T06:07:35Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.5423,
+      "importance": 0.5423,
+      "importance_score": 0.5423,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9803,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-05T01:12:13.398475Z",
-      "latest_at": "2026-10-05T01:13:05.655000Z",
+      "earliest_at": "2026-10-05T06:07:35Z",
+      "latest_at": "2026-10-05T06:11:50.505000Z",
       "primary_item": {
-        "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
-        "title": "michael-denyer /      pstack-claude",
-        "url": "https://github.com/michael-denyer/pstack-claude",
-        "source": "github",
-        "source_name": "NewsNow"
+        "id": "d4dcf026c3b4db4a2abf9e9a0880b868c4790796",
+        "title": "施耐德电气斥资226亿美元收购PTC，拓展人工智能业务",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-05/schneider-electric-to-acquire-ptc-for-more-than-20-billion",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_bfb56c87b6ad",
+      "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术",
+      "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+      "primary_url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "6fe189c7607959514cc4950a5c3c000ea1afe32a",
+          "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术",
+          "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T05:25:16.667000Z"
+        },
+        {
+          "id": "900166b961220a3e99837eb955fab25d9ee16a50",
+          "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术 / Ben Affleck says he had a ‘heart attack’ when he first saw what AI could do — then he used it in his movie",
+          "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-05T05:06:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "6fe189c7607959514cc4950a5c3c000ea1afe32a",
+          "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术",
+          "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T05:25:16.667000Z"
+        },
+        {
+          "id": "900166b961220a3e99837eb955fab25d9ee16a50",
+          "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术 / Ben Affleck says he had a ‘heart attack’ when he first saw what AI could do — then he used it in his movie",
+          "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-05T05:06:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5403,
+      "importance": 0.5403,
+      "importance_score": 0.5403,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9694,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-05T05:06:05Z",
+      "latest_at": "2026-10-05T05:25:16.667000Z",
+      "primary_item": {
+        "id": "6fe189c7607959514cc4950a5c3c000ea1afe32a",
+        "title": "本·阿弗莱克表示，当他第一次看到人工智能能做什么时，简直“惊得心脏都要停了”——随后，他便在自己的电影中运用了这项技术",
+        "url": "https://www.businessinsider.com/ben-affleck-used-ai-latest-film-movie-netflix-interpositive-2026-10",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_608e442f2368",
+      "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c6d521702c64f92ae5c4a66b72b2e361a490b13d",
+          "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T04:05:55.362000Z"
+        },
+        {
+          "id": "b86d05d8da844c2812b0ea307cd8086bab7554e9",
+          "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T19:58:49.689000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com"
+      ],
+      "items": [
+        {
+          "id": "c6d521702c64f92ae5c4a66b72b2e361a490b13d",
+          "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-05T04:05:55.362000Z"
+        },
+        {
+          "id": "b86d05d8da844c2812b0ea307cd8086bab7554e9",
+          "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T19:58:49.689000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.537,
+      "importance": 0.537,
+      "importance_score": 0.537,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9511,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-04T19:58:49.689000Z",
+      "latest_at": "2026-10-05T04:05:55.362000Z",
+      "primary_item": {
+        "id": "c6d521702c64f92ae5c4a66b72b2e361a490b13d",
+        "title": "朝鲜发射中程导弹，称其具备规避飞行和人工智能功能 - Euronews",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5&hl=en-CA&gl=CA&ceid=CA%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -293,15 +548,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.53,
+      "importance": 0.53,
+      "importance_score": 0.53,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9121,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -319,259 +574,82 @@
       }
     },
     {
-      "story_id": "story_c83b565fc251",
-      "title": "宗教学者与Anthropic公司进行了会面",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "primary_url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "source": "www.nytimes.com",
-      "source_name": "Buzzing",
+      "story_id": "story_26c664897667",
+      "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer /      pstack-claude",
+      "url": "https://github.com/michael-denyer/pstack-claude",
+      "primary_url": "https://github.com/michael-denyer/pstack-claude",
+      "source": "github",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "c132132e49011d3d6c0715f8a4ee1f40ed8c9064",
-          "title": "宗教学者与Anthropic公司进行了会面",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "source": "www.nytimes.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T12:57:08.561000Z"
-        },
-        {
-          "id": "86b6b5719f328b1fe17c994864d38a678bed98ae",
-          "title": "宗教学者与Anthropic公司进行了会面 / Religious scholars met with Anthropic",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-04T02:34:22Z"
-        },
-        {
-          "id": "011697c48d62575fbd9cd191ce69b6d1981fb1dd",
-          "title": "宗教学者会见人类 / Religious scholars met with Anthropic",
-          "url": "https://news.ycombinator.com/item?id=49950052",
-          "source": "hackernews",
+          "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
+          "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer /      pstack-claude",
+          "url": "https://github.com/michael-denyer/pstack-claude",
+          "source": "github",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-04T02:34:22Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.nytimes.com"
-      ],
-      "items": [
-        {
-          "id": "c132132e49011d3d6c0715f8a4ee1f40ed8c9064",
-          "title": "宗教学者与Anthropic公司进行了会面",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "source": "www.nytimes.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T12:57:08.561000Z"
+          "published_at": "2026-10-05T01:13:05.655000Z"
         },
         {
-          "id": "86b6b5719f328b1fe17c994864d38a678bed98ae",
-          "title": "宗教学者与Anthropic公司进行了会面 / Religious scholars met with Anthropic",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-04T02:34:22Z"
-        },
-        {
-          "id": "011697c48d62575fbd9cd191ce69b6d1981fb1dd",
-          "title": "宗教学者会见人类 / Religious scholars met with Anthropic",
-          "url": "https://news.ycombinator.com/item?id=49950052",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-04T02:34:22Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5416,
-      "importance": 0.5416,
-      "importance_score": 0.5416,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8378,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-04T02:34:22Z",
-      "latest_at": "2026-10-04T12:57:08.561000Z",
-      "primary_item": {
-        "id": "c132132e49011d3d6c0715f8a4ee1f40ed8c9064",
-        "title": "宗教学者与Anthropic公司进行了会面",
-        "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-        "source": "www.nytimes.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f54841473b3f",
-      "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
-          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T22:35:54.184000Z"
-        },
-        {
-          "id": "1cbf93d365f8b0a78be644de7d1c6be7db8ffe79",
-          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生”",
-          "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
-          "source": "www.politico.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T21:01:58.777000Z"
+          "id": "1a723581782a918446b0d68d55ffb7a4b205b052",
+          "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer / pstack-claude",
+          "url": "https://github.com/michael-denyer/pstack-claude",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "news.google.com",
-        "www.politico.com"
+        "GitHub · Trending Today",
+        "github"
       ],
       "items": [
         {
-          "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
-          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T22:35:54.184000Z"
+          "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
+          "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer /      pstack-claude",
+          "url": "https://github.com/michael-denyer/pstack-claude",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-05T01:13:05.655000Z"
         },
         {
-          "id": "1cbf93d365f8b0a78be644de7d1c6be7db8ffe79",
-          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生”",
-          "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
-          "source": "www.politico.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T21:01:58.777000Z"
+          "id": "1a723581782a918446b0d68d55ffb7a4b205b052",
+          "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer / pstack-claude",
+          "url": "https://github.com/michael-denyer/pstack-claude",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5392,
-      "importance": 0.5392,
-      "importance_score": 0.5392,
+      "score": 0.53,
+      "importance": 0.53,
+      "importance_score": 0.53,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9631,
+        "recency": 0.9123,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-04T21:01:58.777000Z",
-      "latest_at": "2026-10-04T22:35:54.184000Z",
+      "earliest_at": "2026-10-05T01:12:13.398475Z",
+      "latest_at": "2026-10-05T01:13:05.655000Z",
       "primary_item": {
-        "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
-        "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_d009543e2257",
-      "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
-      "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-      "primary_url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
-          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
-          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T21:17:56.527000Z"
-        },
-        {
-          "id": "3f7cc9813ec8b0f5589eb6ca51e6ead0fbe249d8",
-          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生” / Sam Altman said 'the world should accept some bad things happening' for the benefits of AI",
-          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-04T21:01:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
-          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
-          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T21:17:56.527000Z"
-        },
-        {
-          "id": "3f7cc9813ec8b0f5589eb6ca51e6ead0fbe249d8",
-          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生” / Sam Altman said 'the world should accept some bad things happening' for the benefits of AI",
-          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-04T21:01:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5359,
-      "importance": 0.5359,
-      "importance_score": 0.5359,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9452,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-04T21:01:01Z",
-      "latest_at": "2026-10-04T21:17:56.527000Z",
-      "primary_item": {
-        "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
-        "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
-        "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
+        "id": "371e55aee4fef35ddb7feb5df4130ca7c17d8781",
+        "title": "迈克尔-丹耶 / 普斯塔克-克劳德 / michael-denyer /      pstack-claude",
+        "url": "https://github.com/michael-denyer/pstack-claude",
+        "source": "github",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -647,15 +725,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
+      "score": 0.5222,
+      "importance": 0.5222,
+      "importance_score": 0.5222,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8002,
+        "recency": 0.7299,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -669,162 +747,6 @@
         "title": "Show HN: 在 macOS 上对每张照片和视频的每一帧进行 AI 搜索",
         "url": "https://github.com/allenv0/SCM",
         "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_d354e4a5c9be",
-      "title": "特朗普任命克莱顿领导人工智能特别工作组，以应对安全担忧",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "307750a9a9f6793d14bfe1718775e3dbdbfd24ee",
-          "title": "特朗普任命克莱顿领导人工智能特别工作组，以应对安全担忧",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T14:15:01.403000Z"
-        },
-        {
-          "id": "7936d0093c30da16bc9e02c58384f7e9d1c0d61c",
-          "title": "《华尔街日报》称，美国人工智能特别工作组将就该技术带来的风险提交报告",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T01:55:40.527000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "307750a9a9f6793d14bfe1718775e3dbdbfd24ee",
-          "title": "特朗普任命克莱顿领导人工智能特别工作组，以应对安全担忧",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T14:15:01.403000Z"
-        },
-        {
-          "id": "7936d0093c30da16bc9e02c58384f7e9d1c0d61c",
-          "title": "《华尔街日报》称，美国人工智能特别工作组将就该技术带来的风险提交报告",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T01:55:40.527000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5195,
-      "importance": 0.5195,
-      "importance_score": 0.5195,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8537,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-04T01:55:40.527000Z",
-      "latest_at": "2026-10-04T14:15:01.403000Z",
-      "primary_item": {
-        "id": "307750a9a9f6793d14bfe1718775e3dbdbfd24ee",
-        "title": "特朗普任命克莱顿领导人工智能特别工作组，以应对安全担忧",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e808fbfdb386",
-      "title": "特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-      "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-      "primary_url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "bdb184e7d55b76b55220c03a90fd339c2f7b958a",
-          "title": "特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-          "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T13:43:45.683000Z"
-        },
-        {
-          "id": "2462d055f13afb2f7a2b6c59069667aacfabef16",
-          "title": "据《华尔街日报》报道，特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-          "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T02:11:02.276000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "bdb184e7d55b76b55220c03a90fd339c2f7b958a",
-          "title": "特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-          "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T13:43:45.683000Z"
-        },
-        {
-          "id": "2462d055f13afb2f7a2b6c59069667aacfabef16",
-          "title": "据《华尔街日报》报道，特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-          "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T02:11:02.276000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5183,
-      "importance": 0.5183,
-      "importance_score": 0.5183,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8473,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-04T02:11:02.276000Z",
-      "latest_at": "2026-10-04T13:43:45.683000Z",
-      "primary_item": {
-        "id": "bdb184e7d55b76b55220c03a90fd339c2f7b958a",
-        "title": "特朗普任命情报主管克莱顿为人工智能沙皇，负责领导特别工作组",
-        "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03",
-        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -882,15 +804,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
+      "score": 0.53,
+      "importance": 0.53,
+      "importance_score": 0.53,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.9121,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -960,15 +882,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5114,
-      "importance": 0.5114,
-      "importance_score": 0.5114,
+      "score": 0.4986,
+      "importance": 0.4986,
+      "importance_score": 0.4986,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8088,
+        "recency": 0.7377,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -983,85 +905,6 @@
         "url": "https://www.v2ex.com/t/1246400",
         "source": "V2EX (创意工作者社区)",
         "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_66ec11703fff",
-      "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？",
-      "url": "https://news.ycombinator.com/item?id=49951356",
-      "primary_url": "https://news.ycombinator.com/item?id=49951356",
-      "source": "news.ycombinator.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "71665ad9624ebbb6caa2be460b4b8df55fbdba79",
-          "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？",
-          "url": "https://news.ycombinator.com/item?id=49951356",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T09:46:05.387000Z"
-        },
-        {
-          "id": "ec0a2bd5d3587daf5f2a77878cf18afafbf4bf61",
-          "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？ / Ask HN: Where can a solo dev still find a moat in LLM inference?",
-          "url": "https://news.ycombinator.com/item?id=49951356",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-10-04T06:56:40Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "news.ycombinator.com"
-      ],
-      "items": [
-        {
-          "id": "71665ad9624ebbb6caa2be460b4b8df55fbdba79",
-          "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？",
-          "url": "https://news.ycombinator.com/item?id=49951356",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T09:46:05.387000Z"
-        },
-        {
-          "id": "ec0a2bd5d3587daf5f2a77878cf18afafbf4bf61",
-          "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？ / Ask HN: Where can a solo dev still find a moat in LLM inference?",
-          "url": "https://news.ycombinator.com/item?id=49951356",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-10-04T06:56:40Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5098,
-      "importance": 0.5098,
-      "importance_score": 0.5098,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8002,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-04T06:56:40Z",
-      "latest_at": "2026-10-04T09:46:05.387000Z",
-      "primary_item": {
-        "id": "71665ad9624ebbb6caa2be460b4b8df55fbdba79",
-        "title": "Ask HN: 作为独立开发者，在大型语言模型（LLM）推理领域还能在哪里找到竞争壁垒？",
-        "url": "https://news.ycombinator.com/item?id=49951356",
-        "source": "news.ycombinator.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1117,15 +960,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5081,
-      "importance": 0.5081,
-      "importance_score": 0.5081,
+      "score": 0.4956,
+      "importance": 0.4956,
+      "importance_score": 0.4956,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7906,
+        "recency": 0.7212,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1140,6 +983,85 @@
         "url": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_f54841473b3f",
+      "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
+          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T22:35:54.184000Z"
+        },
+        {
+          "id": "1cbf93d365f8b0a78be644de7d1c6be7db8ffe79",
+          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生”",
+          "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+          "source": "www.politico.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T21:01:58.777000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com",
+        "www.politico.com"
+      ],
+      "items": [
+        {
+          "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
+          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T22:35:54.184000Z"
+        },
+        {
+          "id": "1cbf93d365f8b0a78be644de7d1c6be7db8ffe79",
+          "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生”",
+          "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+          "source": "www.politico.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T21:01:58.777000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5239,
+      "importance": 0.5239,
+      "importance_score": 0.5239,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8784,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-04T21:01:58.777000Z",
+      "latest_at": "2026-10-04T22:35:54.184000Z",
+      "primary_item": {
+        "id": "9e2b31cea340a5d9b1d96baa9307d16547903fe7",
+        "title": "萨姆·奥尔特曼对《Decoded》表示：“为了人工智能带来的好处，世界应该接受一些坏事发生” - Politico",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFnWk90ajlEOFlsMktzU0RvSjc1cWpxRW9hb2FyZDBKR1pKanpPUE13TmpvRm5kdzY3NDN3WTZuQXB3bnVodlktZkRnS1JLR0E3NzlMR1k1aWZWUm5XUkIxSzA2Ynp0QzBwRmFZQTZGWjd6WWlOS09qbWZFM1lNYU1fTnlaMmY3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1196,15 +1118,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.506,
-      "importance": 0.506,
-      "importance_score": 0.506,
+      "score": 0.4937,
+      "importance": 0.4937,
+      "importance_score": 0.4937,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7789,
+        "recency": 0.7104,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1219,6 +1141,85 @@
         "url": "https://news.ycombinator.com/item?id=49951641",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_d009543e2257",
+      "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
+      "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+      "primary_url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
+          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
+          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T21:17:56.527000Z"
+        },
+        {
+          "id": "3f7cc9813ec8b0f5589eb6ca51e6ead0fbe249d8",
+          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生” / Sam Altman said 'the world should accept some bad things happening' for the benefits of AI",
+          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-04T21:01:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
+          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
+          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-04T21:17:56.527000Z"
+        },
+        {
+          "id": "3f7cc9813ec8b0f5589eb6ca51e6ead0fbe249d8",
+          "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生” / Sam Altman said 'the world should accept some bad things happening' for the benefits of AI",
+          "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-04T21:01:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.521,
+      "importance": 0.521,
+      "importance_score": 0.521,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8621,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-04T21:01:01Z",
+      "latest_at": "2026-10-04T21:17:56.527000Z",
+      "primary_item": {
+        "id": "d614fa85713d25d33c1a9320035eeed90cf51241",
+        "title": "萨姆·奥尔特曼表示，为了人工智能的发展，世界“应该接受一些坏事发生”",
+        "url": "https://www.businessinsider.com/sam-altman-says-ai-benefits-outweigh-some-bad-things-happening-2026-10",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1275,15 +1276,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5327,
-      "importance": 0.5327,
-      "importance_score": 0.5327,
+      "score": 0.5181,
+      "importance": 0.5181,
+      "importance_score": 0.5181,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9274,
+        "recency": 0.8459,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1354,15 +1355,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
+      "score": 0.517,
+      "importance": 0.517,
+      "importance_score": 0.517,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9208,
+        "recency": 0.8399,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1433,15 +1434,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.529,
-      "importance": 0.529,
-      "importance_score": 0.529,
+      "score": 0.5146,
+      "importance": 0.5146,
+      "importance_score": 0.5146,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9064,
+        "recency": 0.8268,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1512,15 +1513,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5233,
-      "importance": 0.5233,
-      "importance_score": 0.5233,
+      "score": 0.5094,
+      "importance": 0.5094,
+      "importance_score": 0.5094,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8748,
+        "recency": 0.7979,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1538,82 +1539,82 @@
       }
     },
     {
-      "story_id": "story_ece8c53ee233",
-      "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。",
-      "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-      "primary_url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
+      "story_id": "story_d21f7ff36018",
+      "title": "DeepSeek Harness 崔添翼：产品核心理念是「一切皆插件」，可扩展性是初心",
+      "url": "https://www.ithome.com/1/009/701.htm",
+      "primary_url": "https://www.ithome.com/1/009/701.htm",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "f423a3a75317396fc599b5992fe6499665e1876e",
-          "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。",
-          "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T12:26:00.681000Z"
+          "id": "ab7a5dfa9effface16bf09975dbf6d979e97f148",
+          "title": "DeepSeek Harness 崔添翼：产品核心理念是「一切皆插件」，可扩展性是初心",
+          "url": "https://www.ithome.com/1/009/701.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "f26ea58eb69ee6e26e7213a60dfbf29dc7290fc8",
-          "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。 / I tried ChatGPT’s new try-it-on shopping function. It worked for daily outfits, but couldn't handle a Halloween costume.",
-          "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-04T08:11:01Z"
+          "id": "f70c9722c1da4994f3287562016eac4d453fe1a1",
+          "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
+          "url": "https://www.ithome.com/1/009/701.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-04T12:27:24Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
+        "IT之家 (ITHome)",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "f423a3a75317396fc599b5992fe6499665e1876e",
-          "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。",
-          "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-10-04T12:26:00.681000Z"
+          "id": "ab7a5dfa9effface16bf09975dbf6d979e97f148",
+          "title": "DeepSeek Harness 崔添翼：产品核心理念是「一切皆插件」，可扩展性是初心",
+          "url": "https://www.ithome.com/1/009/701.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         },
         {
-          "id": "f26ea58eb69ee6e26e7213a60dfbf29dc7290fc8",
-          "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。 / I tried ChatGPT’s new try-it-on shopping function. It worked for daily outfits, but couldn't handle a Halloween costume.",
-          "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-10-04T08:11:01Z"
+          "id": "f70c9722c1da4994f3287562016eac4d453fe1a1",
+          "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
+          "url": "https://www.ithome.com/1/009/701.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-04T12:27:24Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5155,
-      "importance": 0.5155,
-      "importance_score": 0.5155,
+      "score": 0.5094,
+      "importance": 0.5094,
+      "importance_score": 0.5094,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8316,
+        "recency": 0.7979,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-04T08:11:01Z",
-      "latest_at": "2026-10-04T12:26:00.681000Z",
+      "earliest_at": "2026-10-04T12:27:24Z",
+      "latest_at": "2026-10-04T15:56:28.906506Z",
       "primary_item": {
-        "id": "f423a3a75317396fc599b5992fe6499665e1876e",
-        "title": "ChatGPT 想要取代试衣间。我让它经历了一场“衣橱压力测试”。",
-        "url": "https://www.businessinsider.com/tested-limits-of-chatgpts-new-try-it-on-shopping-function-2026-10",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
+        "id": "ab7a5dfa9effface16bf09975dbf6d979e97f148",
+        "title": "DeepSeek Harness 崔添翼：产品核心理念是「一切皆插件」，可扩展性是初心",
+        "url": "https://www.ithome.com/1/009/701.htm",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     }
   ]
