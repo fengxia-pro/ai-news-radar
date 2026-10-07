@@ -1,8 +1,109 @@
 {
-  "generated_at": "2026-10-06T21:50:03.481123Z",
+  "generated_at": "2026-10-07T01:19:18.203647Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_47b9255d8fa0",
+      "title": "OpenAI 发布内部前沿模型产出的数学研究成果 / Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "primary_url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d5265641b5ae86813b271a1107948f3fc033e728",
+          "title": "OpenAI 发布内部前沿模型产出的数学研究成果 / Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T12:00:00Z"
+        },
+        {
+          "id": "02b12876fb3eb437aec169fe451761ddd907d8ac",
+          "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-06T23:01:09.228000Z"
+        },
+        {
+          "id": "6868abd919243a6ee9a41be56fbf208804417bfb",
+          "title": "分享人工智能在数学领域的进展",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-06T23:01:09.228000Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "d5265641b5ae86813b271a1107948f3fc033e728",
+          "title": "OpenAI 发布内部前沿模型产出的数学研究成果 / Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T12:00:00Z"
+        },
+        {
+          "id": "02b12876fb3eb437aec169fe451761ddd907d8ac",
+          "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-06T23:01:09.228000Z"
+        },
+        {
+          "id": "6868abd919243a6ee9a41be56fbf208804417bfb",
+          "title": "分享人工智能在数学领域的进展",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-06T23:01:09.228000Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8705,
+      "importance": 0.8705,
+      "importance_score": 0.8705,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.825,
+        "story_heat": 0.5
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-06T12:00:00Z",
+      "latest_at": "2026-10-06T23:01:09.228000Z",
+      "primary_item": {
+        "id": "d5265641b5ae86813b271a1107948f3fc033e728",
+        "title": "OpenAI 发布内部前沿模型产出的数学研究成果 / Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_2435ebd74585",
       "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2 / EmbeddingGemma 2: an open, lightweight multimodal embedding model",
@@ -57,15 +158,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8642,
-      "importance": 0.8642,
-      "importance_score": 0.8642,
+      "score": 0.8556,
+      "importance": 0.8556,
+      "importance_score": 0.8556,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9732,
+        "recency": 0.9254,
         "story_heat": 0.25
       },
       "category": "official",
@@ -86,21 +187,21 @@
       }
     },
     {
-      "story_id": "story_9e014a3c4af1",
-      "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
-      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "story_id": "story_bb30d565ebf0",
+      "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动 / Update your IDE to restore agent activity in Copilot usage metrics",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "primary_url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
-          "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
-          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "id": "bdcd7b21761de77a5f911adfd76dee7e0202c663",
+          "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动 / Update your IDE to restore agent activity in Copilot usage metrics",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-06T20:16:41Z"
+          "published_at": "2026-10-06T23:43:00Z"
         }
       ],
       "source_count": 1,
@@ -109,88 +210,26 @@
       ],
       "items": [
         {
-          "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
-          "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
-          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "id": "bdcd7b21761de77a5f911adfd76dee7e0202c663",
+          "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动 / Update your IDE to restore agent activity in Copilot usage metrics",
+          "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-06T20:16:41Z"
+          "published_at": "2026-10-06T23:43:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.84,
-      "importance": 0.84,
-      "importance_score": 0.84,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9778,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-06T20:16:41Z",
-      "latest_at": "2026-10-06T20:16:41Z",
-      "primary_item": {
-        "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
-        "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
-        "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_60ef2af305e7",
-      "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "primary_url": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
-          "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-          "url": "https://openai.com/index/atlassian-partnership",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-06T16:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
-          "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-          "url": "https://openai.com/index/atlassian-partnership",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-06T16:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8375,
-      "importance": 0.8375,
-      "importance_score": 0.8375,
+      "score": 0.8479,
+      "importance": 0.8479,
+      "importance_score": 0.8479,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9192,
+        "recency": 0.9771,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,13 +238,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-06T16:00:00Z",
-      "latest_at": "2026-10-06T16:00:00Z",
+      "earliest_at": "2026-10-06T23:43:00Z",
+      "latest_at": "2026-10-06T23:43:00Z",
       "primary_item": {
-        "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
-        "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-        "url": "https://openai.com/index/atlassian-partnership",
-        "source": "OpenAI News",
+        "id": "bdcd7b21761de77a5f911adfd76dee7e0202c663",
+        "title": "更新您的 IDE 以恢复 Copilot 使用指标中的代理活动 / Update your IDE to restore agent activity in Copilot usage metrics",
+        "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -244,15 +283,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8328,
-      "importance": 0.8328,
-      "importance_score": 0.8328,
+      "score": 0.8256,
+      "importance": 0.8256,
+      "importance_score": 0.8256,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8042,
+        "recency": 0.7647,
         "story_heat": 0.0
       },
       "category": "official",
@@ -344,15 +383,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.8042,
+      "importance": 0.8042,
+      "importance_score": 0.8042,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8857,
+        "recency": 0.8422,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -369,6 +408,130 @@
         "url": "https://mistral.ai/news/mistral-large-4",
         "source": "Hacker News：AI 热帖",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9e014a3c4af1",
+      "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
+      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
+          "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
+          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T20:16:41Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
+          "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
+          "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T20:16:41Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8314,
+      "importance": 0.8314,
+      "importance_score": 0.8314,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9298,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-06T20:16:41Z",
+      "latest_at": "2026-10-06T20:16:41Z",
+      "primary_item": {
+        "id": "8453041ce376fb2b8202aa6e7429885dd4cb5e4c",
+        "title": "堆叠拉取请求现已普遍可用 / Stacked pull requests generally available",
+        "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_60ef2af305e7",
+      "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "primary_url": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
+          "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
+          "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8293,
+      "importance": 0.8293,
+      "importance_score": 0.8293,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8741,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-06T16:00:00Z",
+      "latest_at": "2026-10-06T16:00:00Z",
+      "primary_item": {
+        "id": "99d5ded8f540738aaccaa110db1eedf356ac7ebf",
+        "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动 / Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "url": "https://openai.com/index/atlassian-partnership",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -406,15 +569,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7975,
-      "importance": 0.7975,
-      "importance_score": 0.7975,
+      "score": 0.7889,
+      "importance": 0.7889,
+      "importance_score": 0.7889,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.966,
+        "recency": 0.9185,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -430,68 +593,6 @@
         "url": "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight",
         "source": "404 Media（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_9964af802e9c",
-      "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "primary_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
-          "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-06T10:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
-          "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-06T10:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8237,
-      "importance": 0.8237,
-      "importance_score": 0.8237,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8429,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-06T10:00:00Z",
-      "latest_at": "2026-10-06T10:00:00Z",
-      "primary_item": {
-        "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
-        "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
-        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -529,15 +630,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7868,
-      "importance": 0.7868,
-      "importance_score": 0.7868,
+      "score": 0.7785,
+      "importance": 0.7785,
+      "importance_score": 0.7785,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9398,
+        "recency": 0.8936,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -556,49 +657,49 @@
       }
     },
     {
-      "story_id": "story_eb3084bd9723",
-      "title": "Code scanning AI Scan enablement status in security overview",
-      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "primary_url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "source": "GitHub Changelog",
+      "story_id": "story_342677ae7ead",
+      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模 / How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "primary_url": "https://openai.com/index/jump-trading",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
-          "title": "Code scanning AI Scan enablement status in security overview",
-          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-          "source": "GitHub Changelog",
+          "id": "eccb8c1105ddd49968b046f4ea855bd93bdf984c",
+          "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模 / How Jump Trading is scaling quant research with ChatGPT",
+          "url": "https://openai.com/index/jump-trading",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-06T10:23:38Z"
+          "published_at": "2026-10-06T12:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
-          "title": "Code scanning AI Scan enablement status in security overview",
-          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-          "source": "GitHub Changelog",
+          "id": "eccb8c1105ddd49968b046f4ea855bd93bdf984c",
+          "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模 / How Jump Trading is scaling quant research with ChatGPT",
+          "url": "https://openai.com/index/jump-trading",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-06T10:23:38Z"
+          "published_at": "2026-10-06T12:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8166,
-      "importance": 0.8166,
-      "importance_score": 0.8166,
+      "score": 0.8285,
+      "importance": 0.8285,
+      "importance_score": 0.8285,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8477,
+        "ai_relevance": 0.95,
+        "recency": 0.825,
         "story_heat": 0.0
       },
       "category": "official",
@@ -607,13 +708,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-06T10:23:38Z",
-      "latest_at": "2026-10-06T10:23:38Z",
+      "earliest_at": "2026-10-06T12:00:00Z",
+      "latest_at": "2026-10-06T12:00:00Z",
       "primary_item": {
-        "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
-        "title": "Code scanning AI Scan enablement status in security overview",
-        "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-        "source": "GitHub Changelog",
+        "id": "eccb8c1105ddd49968b046f4ea855bd93bdf984c",
+        "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模 / How Jump Trading is scaling quant research with ChatGPT",
+        "url": "https://openai.com/index/jump-trading",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -671,15 +772,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7746,
-      "importance": 0.7746,
-      "importance_score": 0.7746,
+      "score": 0.7663,
+      "importance": 0.7663,
+      "importance_score": 0.7663,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9332,
+        "recency": 0.8873,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -733,15 +834,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7738,
-      "importance": 0.7738,
-      "importance_score": 0.7738,
+      "score": 0.7661,
+      "importance": 0.7661,
+      "importance_score": 0.7661,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8676,
+        "recency": 0.825,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -757,6 +858,68 @@
         "url": "https://claude.dev/blog/claude-code-in-the-cloud",
         "source": "Anthropic：Claude.dev 开发者博客（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_eb3084bd9723",
+      "title": "安全概览中的代码扫描 AI Scan 启用状态 / Code scanning AI Scan enablement status in security overview",
+      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "primary_url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
+          "title": "安全概览中的代码扫描 AI Scan 启用状态 / Code scanning AI Scan enablement status in security overview",
+          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T10:23:38Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
+          "title": "安全概览中的代码扫描 AI Scan 启用状态 / Code scanning AI Scan enablement status in security overview",
+          "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T10:23:38Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8091,
+      "importance": 0.8091,
+      "importance_score": 0.8091,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8061,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-06T10:23:38Z",
+      "latest_at": "2026-10-06T10:23:38Z",
+      "primary_item": {
+        "id": "c8e4300aea8b0cb54166d991296e299188b4aa01",
+        "title": "安全概览中的代码扫描 AI Scan 启用状态 / Code scanning AI Scan enablement status in security overview",
+        "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -794,21 +957,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7557,
-      "importance": 0.7557,
-      "importance_score": 0.7557,
+      "score": 0.7486,
+      "importance": 0.7486,
+      "importance_score": 0.7486,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8005,
+        "recency": 0.7611,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-06T06:25:15Z",
       "latest_at": "2026-10-06T06:25:15Z",
@@ -855,21 +1017,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7504,
-      "importance": 0.7504,
-      "importance_score": 0.7504,
+      "score": 0.7416,
+      "importance": 0.7416,
+      "importance_score": 0.7416,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9875,
+        "recency": 0.939,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-10-06T20:57:56Z",
       "latest_at": "2026-10-06T20:57:56Z",
@@ -916,15 +1077,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7454,
-      "importance": 0.7454,
-      "importance_score": 0.7454,
+      "score": 0.7384,
+      "importance": 0.7384,
+      "importance_score": 0.7384,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7931,
+        "recency": 0.7542,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -976,15 +1137,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7454,
-      "importance": 0.7454,
-      "importance_score": 0.7454,
+      "score": 0.7375,
+      "importance": 0.7375,
+      "importance_score": 0.7375,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8936,
+        "recency": 0.8497,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1036,15 +1197,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7365,
-      "importance": 0.7365,
-      "importance_score": 0.7365,
+      "score": 0.7284,
+      "importance": 0.7284,
+      "importance_score": 0.7284,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9105,
+        "recency": 0.8658,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1062,63 +1223,65 @@
       }
     },
     {
-      "story_id": "story_61b1255a3800",
-      "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
-      "url": "https://x.com/thsottiaux/status/2107573405553938664",
-      "primary_url": "https://x.com/thsottiaux/status/2107573405553938664",
-      "source": "X：Tibo (@thsottiaux)",
-      "source_name": "AI HOT",
+      "story_id": "story_9964af802e9c",
+      "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "primary_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "34f5a2c579a2aeddf9076bb44a4228bb413a056d",
-          "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
-          "url": "https://x.com/thsottiaux/status/2107573405553938664",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-06T20:47:11Z"
+          "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
+          "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T10:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "X：Tibo (@thsottiaux)"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "34f5a2c579a2aeddf9076bb44a4228bb413a056d",
-          "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
-          "url": "https://x.com/thsottiaux/status/2107573405553938664",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-06T20:47:11Z"
+          "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
+          "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-06T10:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7349,
-      "importance": 0.7349,
-      "importance_score": 0.7349,
-      "importance_label": "行业动态",
+      "score": 0.8163,
+      "importance": 0.8163,
+      "importance_score": 0.8163,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.985,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8015,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-10-06T20:47:11Z",
-      "latest_at": "2026-10-06T20:47:11Z",
+      "earliest_at": "2026-10-06T10:00:00Z",
+      "latest_at": "2026-10-06T10:00:00Z",
       "primary_item": {
-        "id": "34f5a2c579a2aeddf9076bb44a4228bb413a056d",
-        "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
-        "url": "https://x.com/thsottiaux/status/2107573405553938664",
-        "source": "X：Tibo (@thsottiaux)",
-        "source_name": "AI HOT"
+        "id": "4cdb05f359822803b33d7deedddf87e38d2593ed",
+        "title": "通过 Ironclad 促进计算机的使用 / Advancing computer use with Ironclad",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -1156,15 +1319,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7342,
-      "importance": 0.7342,
-      "importance_score": 0.7342,
+      "score": 0.7263,
+      "importance": 0.7263,
+      "importance_score": 0.7263,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8977,
+        "recency": 0.8537,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1178,128 +1341,6 @@
         "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
         "url": "https://x.com/arena/status/2107476436223504484",
         "source": "X：Arena (@arena)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_33658ec816ee",
-      "title": "秘密扫描添加了 Lovable、Supabase 等探测器 / Secret scanning adds detectors for Lovable, Supabase, and more",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "primary_url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "63b1b612bfba39b214b5ffc13153f4dbf893d546",
-          "title": "秘密扫描添加了 Lovable、Supabase 等探测器 / Secret scanning adds detectors for Lovable, Supabase, and more",
-          "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-05T22:42:14Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "63b1b612bfba39b214b5ffc13153f4dbf893d546",
-          "title": "秘密扫描添加了 Lovable、Supabase 等探测器 / Secret scanning adds detectors for Lovable, Supabase, and more",
-          "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-05T22:42:14Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7929,
-      "importance": 0.7929,
-      "importance_score": 0.7929,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.716,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-05T22:42:14Z",
-      "latest_at": "2026-10-05T22:42:14Z",
-      "primary_item": {
-        "id": "63b1b612bfba39b214b5ffc13153f4dbf893d546",
-        "title": "秘密扫描添加了 Lovable、Supabase 等探测器 / Secret scanning adds detectors for Lovable, Supabase, and more",
-        "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_38e5ca2b888d",
-      "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-      "primary_url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-      "source": "Sierra：Blog（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1449a96a935ca4b3f7f474bd5e3161af72c6980f",
-          "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-          "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-          "source": "Sierra：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-06T17:32:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Sierra：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "1449a96a935ca4b3f7f474bd5e3161af72c6980f",
-          "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-          "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-          "source": "Sierra：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-06T17:32:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7268,
-      "importance": 0.7268,
-      "importance_score": 0.7268,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9398,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-06T17:32:00Z",
-      "latest_at": "2026-10-06T17:32:00Z",
-      "primary_item": {
-        "id": "1449a96a935ca4b3f7f474bd5e3161af72c6980f",
-        "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-        "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-        "source": "Sierra：Blog（RSS）",
         "source_name": "AI HOT"
       }
     }
