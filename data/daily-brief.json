@@ -1,91 +1,72 @@
 {
-  "generated_at": "2026-10-30T16:36:37.652586Z",
+  "generated_at": "2026-10-30T21:24:42.505650Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_7bf0065ceb16",
-      "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则 / An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "primary_url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI News",
+      "story_id": "story_b2263e9f8412",
+      "title": "NVIDIA Nemotron 万圣节语音代理演示 / nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "primary_url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "3ea3683e8cb7252a32198e4679519068e68b8eae",
-          "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则 / An updated Model Spec for more capable and beneficial AI",
-          "url": "https://openai.com/index/updated-model-spec",
-          "source": "OpenAI News",
+          "id": "545d3ac79fdabc689e437c9228407971cdff4698",
+          "title": "NVIDIA Nemotron 万圣节语音代理演示 / nemotron-halloween",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-29T17:00:00Z"
+          "published_at": "2026-10-30T17:57:24Z"
         },
         {
-          "id": "235b793514572cf958fd9b7036a6d6fd7a9b3329",
-          "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-          "url": "https://openai.com/index/updated-model-spec",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T17:00:00Z"
-        },
-        {
-          "id": "602aaa5e8a5160973c7b9886ef639f204c03d98b",
-          "title": "OpenAI 更新 Model Spec，为更强大且有益的 AI 提供指引",
-          "url": "https://openai.com/index/updated-model-spec",
+          "id": "dd895c6a9176e6848b01a715684377869af492ea",
+          "title": "NVIDIA Nemotron 万圣节语音代理演示",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "Hugging Face Blog",
         "Readhub · AI"
       ],
       "items": [
         {
-          "id": "3ea3683e8cb7252a32198e4679519068e68b8eae",
-          "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则 / An updated Model Spec for more capable and beneficial AI",
-          "url": "https://openai.com/index/updated-model-spec",
-          "source": "OpenAI News",
+          "id": "545d3ac79fdabc689e437c9228407971cdff4698",
+          "title": "NVIDIA Nemotron 万圣节语音代理演示 / nemotron-halloween",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-10-29T17:00:00Z"
+          "published_at": "2026-10-30T17:57:24Z"
         },
         {
-          "id": "235b793514572cf958fd9b7036a6d6fd7a9b3329",
-          "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-          "url": "https://openai.com/index/updated-model-spec",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T17:00:00Z"
-        },
-        {
-          "id": "602aaa5e8a5160973c7b9886ef639f204c03d98b",
-          "title": "OpenAI 更新 Model Spec，为更强大且有益的 AI 提供指引",
-          "url": "https://openai.com/index/updated-model-spec",
+          "id": "dd895c6a9176e6848b01a715684377869af492ea",
+          "title": "NVIDIA Nemotron 万圣节语音代理演示",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.85,
-      "importance": 0.85,
-      "importance_score": 0.85,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8762,
+      "importance": 0.8762,
+      "importance_score": 0.8762,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7111,
-        "story_heat": 0.5
+        "ai_relevance": 0.95,
+        "recency": 0.9513,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
@@ -94,12 +75,374 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-29T17:00:00Z",
-      "latest_at": "2026-10-30T03:17:18.888341Z",
+      "earliest_at": "2026-10-30T17:57:24Z",
+      "latest_at": "2026-10-30T21:24:42.505650Z",
       "primary_item": {
-        "id": "3ea3683e8cb7252a32198e4679519068e68b8eae",
-        "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则 / An updated Model Spec for more capable and beneficial AI",
-        "url": "https://openai.com/index/updated-model-spec",
+        "id": "545d3ac79fdabc689e437c9228407971cdff4698",
+        "title": "NVIDIA Nemotron 万圣节语音代理演示 / nemotron-halloween",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_1634c7b4a767",
+      "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "primary_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "source": "Hacker News：AI 热帖",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6c14a361c65aced5a0db8dc9f8018190b69f4b70",
+          "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T14:50:37.797000Z"
+        },
+        {
+          "id": "5a1ad032bcb52c8b95fa65f3691759ed1c591b67",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-30T20:34:46Z"
+        },
+        {
+          "id": "fa344b2538623d64664ef23b1d689f297e040a38",
+          "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30% / US tech stocks see sharp falls over AI cost fears",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-30T16:13:02Z"
+        },
+        {
+          "id": "8e7cad6bc8baefcb96748f03ff149fc24697c398",
+          "title": "US tech stocks see sharp falls over AI cost fears",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-30T15:46:28Z"
+        },
+        {
+          "id": "40e8591821b3a633dce307f3ff9f2123499fc1ce",
+          "title": "US tech stocks see sharp falls over AI cost concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-30T15:01:56Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "BBC News",
+        "BBC News (世界新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News：AI 热帖"
+      ],
+      "items": [
+        {
+          "id": "6c14a361c65aced5a0db8dc9f8018190b69f4b70",
+          "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T14:50:37.797000Z"
+        },
+        {
+          "id": "5a1ad032bcb52c8b95fa65f3691759ed1c591b67",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-30T20:34:46Z"
+        },
+        {
+          "id": "fa344b2538623d64664ef23b1d689f297e040a38",
+          "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30% / US tech stocks see sharp falls over AI cost fears",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-30T16:13:02Z"
+        },
+        {
+          "id": "8e7cad6bc8baefcb96748f03ff149fc24697c398",
+          "title": "US tech stocks see sharp falls over AI cost fears",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-30T15:46:28Z"
+        },
+        {
+          "id": "40e8591821b3a633dce307f3ff9f2123499fc1ce",
+          "title": "US tech stocks see sharp falls over AI cost concerns",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-30T15:01:56Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.8753,
+      "importance": 0.8753,
+      "importance_score": 0.8753,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9095,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T14:50:37.797000Z",
+      "latest_at": "2026-10-30T20:34:46Z",
+      "primary_item": {
+        "id": "6c14a361c65aced5a0db8dc9f8018190b69f4b70",
+        "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+        "source": "Hacker News：AI 热帖",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c7606af40dbb",
+      "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施 / Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "primary_url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e64d1b71652a88b748ea67e41f98e62058ef68c4",
+          "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施 / Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:00:00Z"
+        },
+        {
+          "id": "9560d462a7af450e201f7c5c15907b1861b2fcf7",
+          "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "e64d1b71652a88b748ea67e41f98e62058ef68c4",
+          "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施 / Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:00:00Z"
+        },
+        {
+          "id": "9560d462a7af450e201f7c5c15907b1861b2fcf7",
+          "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8475,
+      "importance": 0.8475,
+      "importance_score": 0.8475,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8359,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T09:00:00Z",
+      "latest_at": "2026-10-30T21:24:42.505650Z",
+      "primary_item": {
+        "id": "e64d1b71652a88b748ea67e41f98e62058ef68c4",
+        "title": "OpenAI 发布社区安全报告，为青少年推出新保护措施 / Community safety report and new protections for teens",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bb4aa2fb33be",
+      "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+      "primary_url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "00bb94c58d3aa1f9348e39ae2b949c5b71c996fd",
+          "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T17:15:24Z"
+        },
+        {
+          "id": "e7ed60f7804d96484a695eb922b3ae4e6c42bb97",
+          "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问 / Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
+          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-30T17:15:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "00bb94c58d3aa1f9348e39ae2b949c5b71c996fd",
+          "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T17:15:24Z"
+        },
+        {
+          "id": "e7ed60f7804d96484a695eb922b3ae4e6c42bb97",
+          "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问 / Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
+          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-30T17:15:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8061,
+      "importance": 0.8061,
+      "importance_score": 0.8061,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9418,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T17:15:24Z",
+      "latest_at": "2026-10-30T17:15:24Z",
+      "primary_item": {
+        "id": "00bb94c58d3aa1f9348e39ae2b949c5b71c996fd",
+        "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+        "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_25cc4c9bb2e3",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "primary_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "1f446c8c8846a6b9d148cea6957a711c7eaaa1ba",
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:30:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "1f446c8c8846a6b9d148cea6957a711c7eaaa1ba",
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-30T09:30:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8236,
+      "importance": 0.8236,
+      "importance_score": 0.8236,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.842,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T09:30:00Z",
+      "latest_at": "2026-10-30T09:30:00Z",
+      "primary_item": {
+        "id": "1f446c8c8846a6b9d148cea6957a711c7eaaa1ba",
+        "title": "Making it easier for websites to express AI training preferences",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -176,15 +519,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7966,
-      "importance": 0.7966,
-      "importance_score": 0.7966,
+      "score": 0.7872,
+      "importance": 0.7872,
+      "importance_score": 0.7872,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7834,
+        "recency": 0.7309,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -201,68 +544,6 @@
         "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_3bf0ecbcedeb",
-      "title": "Webhook IP ranges added to the Meta API",
-      "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-      "primary_url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "8d165123a67224af2eca552ed849a2bd1682d7d2",
-          "title": "Webhook IP ranges added to the Meta API",
-          "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T17:14:38Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "8d165123a67224af2eca552ed849a2bd1682d7d2",
-          "title": "Webhook IP ranges added to the Meta API",
-          "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-10-29T17:14:38Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7924,
-      "importance": 0.7924,
-      "importance_score": 0.7924,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7136,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-29T17:14:38Z",
-      "latest_at": "2026-10-29T17:14:38Z",
-      "primary_item": {
-        "id": "8d165123a67224af2eca552ed849a2bd1682d7d2",
-        "title": "Webhook IP ranges added to the Meta API",
-        "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -300,15 +581,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7769,
-      "importance": 0.7769,
-      "importance_score": 0.7769,
+      "score": 0.7654,
+      "importance": 0.7654,
+      "importance_score": 0.7654,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9517,
+        "recency": 0.888,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -380,15 +661,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7757,
-      "importance": 0.7757,
-      "importance_score": 0.7757,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9061,
+        "recency": 0.8454,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -403,6 +684,330 @@
         "id": "03e104bd50d3982ce37c0956f1787721b216018d",
         "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
         "url": "https://www.aibase.com/news/31989",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_31dafc82d146",
+      "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+      "url": "https://www.platformer.news/thursday-newsletter-6",
+      "primary_url": "https://www.platformer.news/thursday-newsletter-6",
+      "source": "Platformer（热点 RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
+          "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+          "url": "https://www.platformer.news/thursday-newsletter-6",
+          "source": "Platformer（热点 RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T00:51:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Platformer（热点 RSS）"
+      ],
+      "items": [
+        {
+          "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
+          "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+          "url": "https://www.platformer.news/thursday-newsletter-6",
+          "source": "Platformer（热点 RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T00:51:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7634,
+      "importance": 0.7634,
+      "importance_score": 0.7634,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.86,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7431,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T00:51:00Z",
+      "latest_at": "2026-10-30T00:51:00Z",
+      "primary_item": {
+        "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
+        "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+        "url": "https://www.platformer.news/thursday-newsletter-6",
+        "source": "Platformer（热点 RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6e7a037d77f2",
+      "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+      "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+      "primary_url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+      "source": "Epoch AI：Gradient Updates（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+          "source": "Epoch AI：Gradient Updates（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T12:07:16Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Epoch AI：Gradient Updates（RSS）"
+      ],
+      "items": [
+        {
+          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+          "source": "Epoch AI：Gradient Updates（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T12:07:16Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.76,
+      "importance": 0.76,
+      "importance_score": 0.76,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8744,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T12:07:16Z",
+      "latest_at": "2026-10-30T12:07:16Z",
+      "primary_item": {
+        "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
+        "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+        "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+        "source": "Epoch AI：Gradient Updates（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8cdc02ad8ddd",
+      "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+      "url": "https://x.com/_philschmid/status/2116235686445502608",
+      "primary_url": "https://x.com/_philschmid/status/2116235686445502608",
+      "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cb5f5c6347d148e9fce23a7eb8d7b96b5915d0e2",
+          "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+          "url": "https://x.com/_philschmid/status/2116235686445502608",
+          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T18:28:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)"
+      ],
+      "items": [
+        {
+          "id": "cb5f5c6347d148e9fce23a7eb8d7b96b5915d0e2",
+          "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+          "url": "https://x.com/_philschmid/status/2116235686445502608",
+          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T18:28:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7511,
+      "importance": 0.7511,
+      "importance_score": 0.7511,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9584,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T18:28:00Z",
+      "latest_at": "2026-10-30T18:28:00Z",
+      "primary_item": {
+        "id": "cb5f5c6347d148e9fce23a7eb8d7b96b5915d0e2",
+        "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+        "url": "https://x.com/_philschmid/status/2116235686445502608",
+        "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f43e0810708e",
+      "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+      "url": "https://x.com/adocomplete/status/2116224220539883992",
+      "primary_url": "https://x.com/adocomplete/status/2116224220539883992",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b4e926babecf4cfdcd6973688570d188c28335d1",
+          "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+          "url": "https://x.com/adocomplete/status/2116224220539883992",
+          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T17:42:26Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)"
+      ],
+      "items": [
+        {
+          "id": "b4e926babecf4cfdcd6973688570d188c28335d1",
+          "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+          "url": "https://x.com/adocomplete/status/2116224220539883992",
+          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-30T17:42:26Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7492,
+      "importance": 0.7492,
+      "importance_score": 0.7492,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9479,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-30T17:42:26Z",
+      "latest_at": "2026-10-30T17:42:26Z",
+      "primary_item": {
+        "id": "b4e926babecf4cfdcd6973688570d188c28335d1",
+        "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+        "url": "https://x.com/adocomplete/status/2116224220539883992",
+        "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f77edb2f903d",
+      "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
+      "url": "https://www.aibase.com/news/31991",
+      "primary_url": "https://www.aibase.com/news/31991",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "836d362bed2eee885778174ba8d118127a6a839b",
+          "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
+          "url": "https://www.aibase.com/news/31991",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T09:46:53.181672Z"
+        },
+        {
+          "id": "15f445146311c1d11a33d676a3040e960a524efd",
+          "title": "AI 也能重新编曲和翻唱？Spotify 计划推出付费音乐混音服务",
+          "url": "https://www.aibase.com/zh/news/31991",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "836d362bed2eee885778174ba8d118127a6a839b",
+          "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
+          "url": "https://www.aibase.com/news/31991",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-30T09:46:53.181672Z"
+        },
+        {
+          "id": "15f445146311c1d11a33d676a3040e960a524efd",
+          "title": "AI 也能重新编曲和翻唱？Spotify 计划推出付费音乐混音服务",
+          "url": "https://www.aibase.com/zh/news/31991",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8454,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-30T09:46:53.181672Z",
+      "latest_at": "2026-10-30T09:46:53.181672Z",
+      "primary_item": {
+        "id": "836d362bed2eee885778174ba8d118127a6a839b",
+        "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
+        "url": "https://www.aibase.com/news/31991",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -461,15 +1066,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7732,
-      "importance": 0.7732,
-      "importance_score": 0.7732,
+      "score": 0.764,
+      "importance": 0.764,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7588,
+        "recency": 0.708,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -485,269 +1090,6 @@
         "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
         "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
         "source": "Hacker News：AI 热帖",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_31dafc82d146",
-      "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-      "url": "https://www.platformer.news/thursday-newsletter-6",
-      "primary_url": "https://www.platformer.news/thursday-newsletter-6",
-      "source": "Platformer（热点 RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
-          "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-          "url": "https://www.platformer.news/thursday-newsletter-6",
-          "source": "Platformer（热点 RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T00:51:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Platformer（热点 RSS）"
-      ],
-      "items": [
-        {
-          "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
-          "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-          "url": "https://www.platformer.news/thursday-newsletter-6",
-          "source": "Platformer（热点 RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T00:51:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.773,
-      "importance": 0.773,
-      "importance_score": 0.773,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.86,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7965,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-30T00:51:00Z",
-      "latest_at": "2026-10-30T00:51:00Z",
-      "primary_item": {
-        "id": "7b1b5b237e0bb7d0ae899dfe65982365b2b6962a",
-        "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-        "url": "https://www.platformer.news/thursday-newsletter-6",
-        "source": "Platformer（热点 RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6e7a037d77f2",
-      "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-      "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-      "primary_url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-      "source": "Epoch AI：Gradient Updates（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
-          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-          "source": "Epoch AI：Gradient Updates（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T12:07:16Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Epoch AI：Gradient Updates（RSS）"
-      ],
-      "items": [
-        {
-          "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
-          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-          "source": "Epoch AI：Gradient Updates（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T12:07:16Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7713,
-      "importance": 0.7713,
-      "importance_score": 0.7713,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9372,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-30T12:07:16Z",
-      "latest_at": "2026-10-30T12:07:16Z",
-      "primary_item": {
-        "id": "e7532ef07732ce1984278cea3c9d2ef08ee34e67",
-        "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-        "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-        "source": "Epoch AI：Gradient Updates（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f77edb2f903d",
-      "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
-      "url": "https://www.aibase.com/news/31991",
-      "primary_url": "https://www.aibase.com/news/31991",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "836d362bed2eee885778174ba8d118127a6a839b",
-          "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
-          "url": "https://www.aibase.com/news/31991",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-30T09:46:53.181672Z"
-        },
-        {
-          "id": "15f445146311c1d11a33d676a3040e960a524efd",
-          "title": "AI 也能重新编曲和翻唱？Spotify 计划推出付费音乐混音服务",
-          "url": "https://www.aibase.com/zh/news/31991",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "836d362bed2eee885778174ba8d118127a6a839b",
-          "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
-          "url": "https://www.aibase.com/news/31991",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-10-30T09:46:53.181672Z"
-        },
-        {
-          "id": "15f445146311c1d11a33d676a3040e960a524efd",
-          "title": "AI 也能重新编曲和翻唱？Spotify 计划推出付费音乐混音服务",
-          "url": "https://www.aibase.com/zh/news/31991",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7757,
-      "importance": 0.7757,
-      "importance_score": 0.7757,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9061,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-30T09:46:53.181672Z",
-      "latest_at": "2026-10-30T09:46:53.181672Z",
-      "primary_item": {
-        "id": "836d362bed2eee885778174ba8d118127a6a839b",
-        "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
-        "url": "https://www.aibase.com/news/31991",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_f7d0f7defa94",
-      "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-      "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-      "primary_url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-      "source": "Timothy B. Lee：Understanding AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c57b1132c9326c88bce5f776e8fa8638f7b83df1",
-          "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-          "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-          "source": "Timothy B. Lee：Understanding AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T19:10:41Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Timothy B. Lee：Understanding AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c57b1132c9326c88bce5f776e8fa8638f7b83df1",
-          "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-          "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-          "source": "Timothy B. Lee：Understanding AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T19:10:41Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7437,
-      "importance": 0.7437,
-      "importance_score": 0.7437,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7338,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-29T19:10:41Z",
-      "latest_at": "2026-10-29T19:10:41Z",
-      "primary_item": {
-        "id": "c57b1132c9326c88bce5f776e8fa8638f7b83df1",
-        "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-        "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-        "source": "Timothy B. Lee：Understanding AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -786,15 +1128,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
+      "score": 0.7226,
+      "importance": 0.7226,
+      "importance_score": 0.7226,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9469,
+        "recency": 0.8835,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -808,347 +1150,6 @@
         "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
         "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
         "source": "Sierra：Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1e09943a421e",
-      "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-      "primary_url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "90661e6e3855267c31e8f33a748c9c50402fa6d4",
-          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T20:08:31Z"
-        },
-        {
-          "id": "8e3516f54ddd6bf7d6b87e8a37f4ad9ad8973336",
-          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑 / As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-10-29T20:08:31Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "90661e6e3855267c31e8f33a748c9c50402fa6d4",
-          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T20:08:31Z"
-        },
-        {
-          "id": "8e3516f54ddd6bf7d6b87e8a37f4ad9ad8973336",
-          "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑 / As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-10-29T20:08:31Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7615,
-      "importance": 0.7615,
-      "importance_score": 0.7615,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7441,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-29T20:08:31Z",
-      "latest_at": "2026-10-29T20:08:31Z",
-      "primary_item": {
-        "id": "90661e6e3855267c31e8f33a748c9c50402fa6d4",
-        "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-        "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_83f40a93c59f",
-      "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-      "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku",
-      "primary_url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a5357833e5dba28959e17c2c76ce9ac70bc98be5",
-          "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-          "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenRouter：Announcements（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a5357833e5dba28959e17c2c76ce9ac70bc98be5",
-          "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-          "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7292,
-      "importance": 0.7292,
-      "importance_score": 0.7292,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7867,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-30T00:00:00Z",
-      "latest_at": "2026-10-30T00:00:00Z",
-      "primary_item": {
-        "id": "a5357833e5dba28959e17c2c76ce9ac70bc98be5",
-        "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-        "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku",
-        "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-      "source": "公众号：月之暗面（Kimi）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4341062db06c4806c98812189a143621cafb83cd",
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T04:04:56Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：月之暗面（Kimi）"
-      ],
-      "items": [
-        {
-          "id": "4341062db06c4806c98812189a143621cafb83cd",
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-          "source": "公众号：月之暗面（Kimi）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T04:04:56Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7288,
-      "importance": 0.7288,
-      "importance_score": 0.7288,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8345,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-30T04:04:56Z",
-      "latest_at": "2026-10-30T04:04:56Z",
-      "primary_item": {
-        "id": "4341062db06c4806c98812189a143621cafb83cd",
-        "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-        "source": "公众号：月之暗面（Kimi）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f5f5b3a4eebe",
-      "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-      "url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "primary_url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "source": "X：Cursor (@cursor_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d5b8514def591da58e136a9e44520c38dc9a51ef",
-          "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-          "url": "https://x.com/cursor_ai/status/2116074289053175808",
-          "source": "X：Cursor (@cursor_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T07:46:39Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Cursor (@cursor_ai)"
-      ],
-      "items": [
-        {
-          "id": "d5b8514def591da58e136a9e44520c38dc9a51ef",
-          "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-          "url": "https://x.com/cursor_ai/status/2116074289053175808",
-          "source": "X：Cursor (@cursor_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-30T07:46:39Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.725,
-      "importance": 0.725,
-      "importance_score": 0.725,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8802,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-30T07:46:39Z",
-      "latest_at": "2026-10-30T07:46:39Z",
-      "primary_item": {
-        "id": "d5b8514def591da58e136a9e44520c38dc9a51ef",
-        "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-        "url": "https://x.com/cursor_ai/status/2116074289053175808",
-        "source": "X：Cursor (@cursor_ai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c2861e26a175",
-      "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-      "url": "https://x.com/thsottiaux/status/2115850175868727621",
-      "primary_url": "https://x.com/thsottiaux/status/2115850175868727621",
-      "source": "X：Tibo (@thsottiaux)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "00b59977dc0bd1a205a8340d09aff2f8388ca75c",
-          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-          "url": "https://x.com/thsottiaux/status/2115850175868727621",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T16:56:07Z"
-        },
-        {
-          "id": "ccbaa7fa040c2380579fa57f6312a4392384b76a",
-          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍 / Day 25/ We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today. We heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage wi...",
-          "url": "https://x.com/thsottiaux/status/2115850175868727621",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-10-29T16:56:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Follow Builders · X · Thibault Sottiaux",
-        "X：Tibo (@thsottiaux)"
-      ],
-      "items": [
-        {
-          "id": "00b59977dc0bd1a205a8340d09aff2f8388ca75c",
-          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-          "url": "https://x.com/thsottiaux/status/2115850175868727621",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-29T16:56:07Z"
-        },
-        {
-          "id": "ccbaa7fa040c2380579fa57f6312a4392384b76a",
-          "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍 / Day 25/ We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today. We heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage wi...",
-          "url": "https://x.com/thsottiaux/status/2115850175868727621",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-10-29T16:56:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7165,
-      "importance": 0.7165,
-      "importance_score": 0.7165,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7104,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-29T16:56:07Z",
-      "latest_at": "2026-10-29T16:56:07Z",
-      "primary_item": {
-        "id": "00b59977dc0bd1a205a8340d09aff2f8388ca75c",
-        "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-        "url": "https://x.com/thsottiaux/status/2115850175868727621",
-        "source": "X：Tibo (@thsottiaux)",
         "source_name": "AI HOT"
       }
     },
@@ -1206,15 +1207,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7757,
-      "importance": 0.7757,
-      "importance_score": 0.7757,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9061,
+        "recency": 0.8454,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1287,15 +1288,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7757,
-      "importance": 0.7757,
-      "importance_score": 0.7757,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9061,
+        "recency": 0.8454,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1312,6 +1313,193 @@
         "url": "https://www.aibase.com/news/31986",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2df82173bb28",
+      "title": "Suno 开放了 MCP 内测，无需 API Key，授权后就能在 Claude、Cursor 等主流AI工具里直接调用作曲能力，彻底告别跨窗口复制文案的割裂创作流程。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-10-30",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "85830b2518ee1285c5ae490ecc541b8a71a08681",
+          "title": "Suno 开放了 MCP 内测，无需 API Key，授权后就能在 Claude、Cursor 等主流AI工具里直接调用作曲能力，彻底告别跨窗口复制文案的割裂创作流程。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "9668bafd82ced4970e06a69d9b8e9e313f0d2951",
+          "title": "不少人把精力放在临时提示词上，却忽视了AGENTS.md、CLAUDE.md的巨大价值。它能沉淀项目固定约定，明确技术栈、执行命令、代码风格与操作边界，避免每次对话重复沟通，防止 Agent 擅自重构、编造命令、过度设计。文中附有适配Codex与Claude Code的可直接套用的模板，可以帮你稳定Agent输出，减少反复沟通，让代码交付可控、风格统一。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "d671e7c3e58ce7b05a374ade34e8d1cf9382fc5f",
+          "title": "大多数智能体项目起步方式相同：最强的模型、长长的提示词、精彩的演示。随后真正的任务到来，一周之内你发现数字与源头不符、上下文丢失，有一天还出现一封未经任何人批准的客户邮件。一起来看看到底如何构建生产级智能体！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "ebfbb4b4c9c9f6c1875ff9af2c3a85dbb9430f20",
+          "title": "火爆出圈的DSH Go，是社区打造的安卓端DSH客户端，免Root就能在手机本地跑Agent脚本，一键无缝接力电脑任务。除了支持任务中途插话调整需求，还可授权AI操控手机完成日程等操作，同时对支付、验证码等高风险行为也做了严格限制。一起上手试试，随时随地调度DeepSeek Harness处理代码、数据任务。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "b546cd95685d6035d6b1952b25d8f962886f4918",
+          "title": "作者用同一套任务测了 Grok Bot、Muse、Dots、Instinct。实测覆盖四类共 8 个通用场景：信息与沟通（邮件、日程）、主动与定时（金融行情监控、定时买咖啡）、消费与出行闭环（订酒店、买火车票、打车）和找活动（筛选近期 AI 活动）。一起来看看他们的效果如何！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "ca6b41734a86ad9a7434dae3c9a7cca63d79400b",
+          "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "b669a9e12032657fc52de5b5013cebd0b6bb7bd4",
+          "title": "这是面向工程师、QA 和产品经理的评估与追踪指南的第二部分，旨在帮助您测试 AI 应用的每一项变更。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "86d14162e54d9e4009cf522bba0a48d075022b73",
+          "title": "这篇文章深度拆解了线性注意力从 DeltaNet、GDN 到 KDA 的演进脉络，同时落地到 vLLM 里 Hybrid 混合模型的缓存工程实现，帮你看懂模型架构和推理调度之间的软硬件取舍。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        }
+      ],
+      "source_count": 8,
+      "source_names": [
+        "社区更新 · 2026-10-29",
+        "社区更新 · 2026-10-30"
+      ],
+      "items": [
+        {
+          "id": "85830b2518ee1285c5ae490ecc541b8a71a08681",
+          "title": "Suno 开放了 MCP 内测，无需 API Key，授权后就能在 Claude、Cursor 等主流AI工具里直接调用作曲能力，彻底告别跨窗口复制文案的割裂创作流程。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "9668bafd82ced4970e06a69d9b8e9e313f0d2951",
+          "title": "不少人把精力放在临时提示词上，却忽视了AGENTS.md、CLAUDE.md的巨大价值。它能沉淀项目固定约定，明确技术栈、执行命令、代码风格与操作边界，避免每次对话重复沟通，防止 Agent 擅自重构、编造命令、过度设计。文中附有适配Codex与Claude Code的可直接套用的模板，可以帮你稳定Agent输出，减少反复沟通，让代码交付可控、风格统一。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "d671e7c3e58ce7b05a374ade34e8d1cf9382fc5f",
+          "title": "大多数智能体项目起步方式相同：最强的模型、长长的提示词、精彩的演示。随后真正的任务到来，一周之内你发现数字与源头不符、上下文丢失，有一天还出现一封未经任何人批准的客户邮件。一起来看看到底如何构建生产级智能体！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "ebfbb4b4c9c9f6c1875ff9af2c3a85dbb9430f20",
+          "title": "火爆出圈的DSH Go，是社区打造的安卓端DSH客户端，免Root就能在手机本地跑Agent脚本，一键无缝接力电脑任务。除了支持任务中途插话调整需求，还可授权AI操控手机完成日程等操作，同时对支付、验证码等高风险行为也做了严格限制。一起上手试试，随时随地调度DeepSeek Harness处理代码、数据任务。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-30",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T21:24:42.505650Z"
+        },
+        {
+          "id": "b546cd95685d6035d6b1952b25d8f962886f4918",
+          "title": "作者用同一套任务测了 Grok Bot、Muse、Dots、Instinct。实测覆盖四类共 8 个通用场景：信息与沟通（邮件、日程）、主动与定时（金融行情监控、定时买咖啡）、消费与出行闭环（订酒店、买火车票、打车）和找活动（筛选近期 AI 活动）。一起来看看他们的效果如何！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "ca6b41734a86ad9a7434dae3c9a7cca63d79400b",
+          "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "b669a9e12032657fc52de5b5013cebd0b6bb7bd4",
+          "title": "这是面向工程师、QA 和产品经理的评估与追踪指南的第二部分，旨在帮助您测试 AI 应用的每一项变更。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        },
+        {
+          "id": "86d14162e54d9e4009cf522bba0a48d075022b73",
+          "title": "这篇文章深度拆解了线性注意力从 DeltaNet、GDN 到 KDA 的演进脉络，同时落地到 vLLM 里 Hybrid 混合模型的缓存工程实现，帮你看懂模型架构和推理调度之间的软硬件取舍。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-29",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-10-30T03:17:18.888341Z"
+        }
+      ],
+      "item_count": 8,
+      "duplicate_count": 8,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-30T03:17:18.888341Z",
+      "latest_at": "2026-10-30T21:24:42.505650Z",
+      "primary_item": {
+        "id": "85830b2518ee1285c5ae490ecc541b8a71a08681",
+        "title": "Suno 开放了 MCP 内测，无需 API Key，授权后就能在 Claude、Cursor 等主流AI工具里直接调用作曲能力，彻底告别跨窗口复制文案的割裂创作流程。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-10-30",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -1368,15 +1556,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7757,
-      "importance": 0.7757,
-      "importance_score": 0.7757,
+      "score": 0.7648,
+      "importance": 0.7648,
+      "importance_score": 0.7648,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9061,
+        "recency": 0.8454,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1396,117 +1584,81 @@
       }
     },
     {
-      "story_id": "story_2df82173bb28",
-      "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-10-29",
-      "source_name": "WaytoAGI",
+      "story_id": "story_c4dbacf8aa2b",
+      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "primary_url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge",
+      "source_name": "Curated Media",
       "sources": [
         {
-          "id": "b546cd95685d6035d6b1952b25d8f962886f4918",
-          "title": "作者用同一套任务测了 Grok Bot、Muse、Dots、Instinct。实测覆盖四类共 8 个通用场景：信息与沟通（邮件、日程）、主动与定时（金融行情监控、定时买咖啡）、消费与出行闭环（订酒店、买火车票、打车）和找活动（筛选近期 AI 活动）。一起来看看他们的效果如何！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
+          "id": "6110b4ef2fe4b66f8929a5eefa6afd26615c727d",
+          "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-30T18:21:38Z"
         },
         {
-          "id": "ca6b41734a86ad9a7434dae3c9a7cca63d79400b",
-          "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
-        },
-        {
-          "id": "b669a9e12032657fc52de5b5013cebd0b6bb7bd4",
-          "title": "这是面向工程师、QA 和产品经理的评估与追踪指南的第二部分，旨在帮助您测试 AI 应用的每一项变更。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
-        },
-        {
-          "id": "86d14162e54d9e4009cf522bba0a48d075022b73",
-          "title": "这篇文章深度拆解了线性注意力从 DeltaNet、GDN 到 KDA 的演进脉络，同时落地到 vLLM 里 Hybrid 混合模型的缓存工程实现，帮你看懂模型架构和推理调度之间的软硬件取舍。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
+          "id": "2801770e16c753955f5a658ca2334f53ee1fb424",
+          "title": "Google’s satellite AI server transmits its first response to Earth",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-30T18:21:38Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "社区更新 · 2026-10-29"
+        "The Verge"
       ],
       "items": [
         {
-          "id": "b546cd95685d6035d6b1952b25d8f962886f4918",
-          "title": "作者用同一套任务测了 Grok Bot、Muse、Dots、Instinct。实测覆盖四类共 8 个通用场景：信息与沟通（邮件、日程）、主动与定时（金融行情监控、定时买咖啡）、消费与出行闭环（订酒店、买火车票、打车）和找活动（筛选近期 AI 活动）。一起来看看他们的效果如何！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
+          "id": "6110b4ef2fe4b66f8929a5eefa6afd26615c727d",
+          "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-30T18:21:38Z"
         },
         {
-          "id": "ca6b41734a86ad9a7434dae3c9a7cca63d79400b",
-          "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
-        },
-        {
-          "id": "b669a9e12032657fc52de5b5013cebd0b6bb7bd4",
-          "title": "这是面向工程师、QA 和产品经理的评估与追踪指南的第二部分，旨在帮助您测试 AI 应用的每一项变更。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
-        },
-        {
-          "id": "86d14162e54d9e4009cf522bba0a48d075022b73",
-          "title": "这篇文章深度拆解了线性注意力从 DeltaNet、GDN 到 KDA 的演进脉络，同时落地到 vLLM 里 Hybrid 混合模型的缓存工程实现，帮你看懂模型架构和推理调度之间的软硬件取舍。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-10-29",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-10-30T03:17:18.888341Z"
+          "id": "2801770e16c753955f5a658ca2334f53ee1fb424",
+          "title": "Google’s satellite AI server transmits its first response to Earth",
+          "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-10-30T18:21:38Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.6252,
-      "importance": 0.6252,
-      "importance_score": 0.6252,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6077,
+      "importance": 0.6077,
+      "importance_score": 0.6077,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
-        "source_tier": 0.54,
+        "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.825,
-        "story_heat": 0.75
+        "recency": 0.9569,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-30T03:17:18.888341Z",
-      "latest_at": "2026-10-30T03:17:18.888341Z",
+      "earliest_at": "2026-10-30T18:21:38Z",
+      "latest_at": "2026-10-30T18:21:38Z",
       "primary_item": {
-        "id": "ca6b41734a86ad9a7434dae3c9a7cca63d79400b",
-        "title": "这套七层可复用的 Claude Code 工作流，可以帮你把Opus 5.5任务做成可断点续跑、自带证据留存的可靠体系。它把项目规范、技能脚本、MCP数据源、权限钩子、独立审查子智能体、推理强度和验收目标拆解开，用固定目录结构和校验表格沉淀成果。不管是写稿还是资料核验，都不用反复重建对话，很适合长期稳定的AI工程化工作。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-10-29",
-        "source_name": "WaytoAGI"
+        "id": "6110b4ef2fe4b66f8929a5eefa6afd26615c727d",
+        "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+        "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+        "source": "The Verge",
+        "source_name": "Curated Media"
       }
     }
   ]
