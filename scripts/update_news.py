@@ -2524,6 +2524,7 @@ def add_grant_policy_journal_bilingual_fields(
     max_new_translations: int = 0,
 ) -> tuple[list[dict[str, Any]], dict[str, str] | None]:
     translated_now = 0
+    translation_deadline = time.monotonic() + 30
     cache_map = cache if cache is not None else {}
     for record in records:
         if str(record.get("grant_source_type") or "") != "journal":
@@ -2538,12 +2539,13 @@ def add_grant_policy_journal_bilingual_fields(
                 not zh_title
                 and session is not None
                 and translated_now < max(0, max_new_translations)
+                and time.monotonic() < translation_deadline
             ):
+                translated_now += 1
                 translated = translate_to_zh_cn(session, title)
                 if translated and has_cjk(translated):
                     zh_title = translated
                     cache_map[title] = translated
-                    translated_now += 1
 
             if zh_title and has_cjk(zh_title):
                 record["title_zh"] = clean_grant_policy_title(zh_title)
@@ -2559,12 +2561,13 @@ def add_grant_policy_journal_bilingual_fields(
                 not zh_summary
                 and session is not None
                 and translated_now < max(0, max_new_translations)
+                and time.monotonic() < translation_deadline
             ):
+                translated_now += 1
                 translated = translate_to_zh_cn(session, summary)
                 if translated and has_cjk(translated):
                     zh_summary = clean_feed_summary_text(translated, max_chars=1200)
                     cache_map[cache_key] = zh_summary
-                    translated_now += 1
             if zh_summary and has_cjk(zh_summary):
                 record["summary_zh"] = zh_summary
 
@@ -3395,9 +3398,11 @@ def waytoagi_updates_to_raw_items(payload: dict[str, Any], now: datetime) -> lis
 def create_session() -> requests.Session:
     session = requests.Session()
     retry = Retry(
-        total=3,
-        connect=3,
-        read=3,
+        total=1,
+        connect=1,
+        read=0,
+        status=0,
+        respect_retry_after_header=False,
         backoff_factor=0.8,
         status_forcelist=[429, 500, 502, 503, 504],
         allowed_methods=frozenset(["GET", "POST"]),
@@ -5300,27 +5305,32 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
     raw_items: list[RawItem] = []
     statuses: list[dict[str, Any]] = []
 
-    for site_id, site_name, fn in tasks:
+    def run_source(task):
+        site_id, site_name, fn = task
         start = time.perf_counter()
+        print(f"[source] {site_id}: start", flush=True)
         error = None
-        count = 0
+        items = []
         try:
-            items = fn(session, now)
-            count = len(items)
-            raw_items.extend(items)
+            # Each worker owns its session; requests.Session is not shared.
+            with create_session() as worker_session:
+                items = fn(worker_session, now)
         except Exception as exc:
             error = str(exc)
         elapsed_ms = int((time.perf_counter() - start) * 1000)
-        statuses.append(
-            {
-                "site_id": site_id,
-                "site_name": site_name,
-                "ok": error is None,
-                "item_count": count,
-                "duration_ms": elapsed_ms,
-                "error": error,
-            }
-        )
+        print(f"[source] {site_id}: {'failed' if error else 'done'} "
+              f"items={len(items)} elapsed_ms={elapsed_ms}", flush=True)
+        return items, {
+            "site_id": site_id, "site_name": site_name,
+            "ok": error is None, "item_count": len(items),
+            "duration_ms": elapsed_ms, "error": error,
+        }
+
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        # map preserves the original source ordering for deterministic ranking.
+        for items, status in executor.map(run_source, tasks):
+            raw_items.extend(items)
+            statuses.append(status)
 
     return raw_items, statuses
 
@@ -7669,6 +7679,7 @@ def add_bilingual_fields(
             zh_by_url[url] = title
 
     translated_now = 0
+    translation_deadline = time.monotonic() + 30
 
     def enrich(item: dict[str, Any], allow_translate: bool) -> dict[str, Any]:
         nonlocal translated_now
@@ -7693,12 +7704,14 @@ def add_bilingual_fields(
         zh_title = zh_by_url.get(url)
         if not zh_title:
             zh_title = cache.get(title)
-        if not zh_title and allow_translate and translated_now < max_new_translations:
+        if (not zh_title and allow_translate and translated_now < max_new_translations
+                and time.monotonic() < translation_deadline):
+            # Failed translations also consume the attempt budget.
+            translated_now += 1
             tr = translate_to_zh_cn(session, title)
             if tr and has_cjk(tr):
                 zh_title = tr
                 cache[title] = tr
-                translated_now += 1
 
         if zh_title:
             out["title_zh"] = zh_title
@@ -8350,9 +8363,12 @@ def main() -> int:
     paid_source_state = load_paid_source_state(paid_source_state_path)
 
     session = create_session()
+    print("[stage] core sources", flush=True)
     raw_items, statuses = collect_all(session, now)
+    print("[stage] grant sources", flush=True)
     grant_policy_items, grant_policy_statuses = collect_grant_policy_sources(session, now)
     statuses.extend(grant_policy_statuses)
+    print("[stage] GitHub sources", flush=True)
     github_project_candidates, github_project_statuses = collect_github_project_sources(session, now)
     statuses.extend(github_project_statuses)
     rss_feed_statuses: list[dict[str, Any]] = []
@@ -8421,6 +8437,7 @@ def main() -> int:
                 }
             )
 
+    print("[stage] WaytoAGI", flush=True)
     waytoagi_started = time.perf_counter()
     try:
         waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
@@ -8460,6 +8477,7 @@ def main() -> int:
             }
         )
 
+    print("[stage] OPML", flush=True)
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
         if opml_path.exists():
@@ -8829,6 +8847,7 @@ def main() -> int:
         "tikhub": tikhub_status,
     }
 
+    print("[stage] write snapshots", flush=True)
     latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
 
     latest_path.write_text(json.dumps(sanitize_public_payload(latest_payload), ensure_ascii=False, indent=2), encoding="utf-8")
