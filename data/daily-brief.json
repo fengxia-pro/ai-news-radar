@@ -1,168 +1,156 @@
 {
-  "generated_at": "2026-11-01T00:19:51.698054Z",
+  "generated_at": "2026-11-01T06:39:59.777540Z",
   "window_hours": 24,
-  "total_items": 12,
+  "total_items": 13,
   "items": [
     {
-      "story_id": "story_8ebddbd33edc",
-      "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-      "url": "https://www.ithome.com/1/020/444.htm",
-      "primary_url": "https://www.ithome.com/1/020/444.htm",
-      "source": "IT之家·人工智能",
-      "source_name": "AI HOT",
+      "story_id": "story_2df82173bb28",
+      "title": "很多团队把一批重复任务全都塞给 Agent：让它自己规划、调工具、反复判断。Demo 看着很聪明，到了真实应用场景里却很慢、很贵、每次走法不同，出了错也很难复现。作者这篇文章给了更务实的分流方式，适合正在做 AI 自动化的人，先判断任务该交给谁，成本和稳定性也都会更可控。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-10-31",
+      "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "f4ae6efe532bd39179a32811a662bd80ecdb4249",
-          "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-          "url": "https://www.ithome.com/1/020/444.htm",
-          "source": "IT之家·人工智能",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-31T03:25:09.697000Z"
+          "id": "a1cca03321b255f0fa47117f5f8145ed922ae5db",
+          "title": "很多团队把一批重复任务全都塞给 Agent：让它自己规划、调工具、反复判断。Demo 看着很聪明，到了真实应用场景里却很慢、很贵、每次走法不同，出了错也很难复现。作者这篇文章给了更务实的分流方式，适合正在做 AI 自动化的人，先判断任务该交给谁，成本和稳定性也都会更可控。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
         },
         {
-          "id": "df25ae683c04240e7ccdefbfefc1a0ee749c4adc",
-          "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
-          "url": "https://www.ithome.com/1/020/444.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T03:25:09Z"
+          "id": "ad1ccfdbb7f3cf84d291808c3afe9c6e11b2fdb6",
+          "title": "智能体上线后，最容易掉进一个循环：用户报错就改 Prompt，改完觉得好了，过两天又在别的场景翻车。问题在于，团队只有零散反馈，没有一套把失败沉淀成改进的机制。作者这篇文章分享了三套互补的迭代思路，或许会给大家有所帮助！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "47a58b7642861d6b4bc7fd677dc1daf16e8a83ca",
+          "title": "最近 Jev 带火的「决策模型」，把分类做成了一个新赛道：给一段内容、几道问题和候选答案，它直接返回标签与置信度。普通 LLM 要逐 token 生成 JSON，它却能一次并行回答多题，输入便宜、没有输出 token 成本。作者以 Perplexity Decider 为例，拆开了背后的完整机制。想搞懂 Jev 与决策 API 为什么突然火起来，这篇值得细读。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "4519dbee3eadc44e2fbe06e2079136322b27b400",
+          "title": "老金以他自身的课程、品牌商单、软件交付三种业务复盘了单月近 9.4 万流水，适合想靠 AI 接单或做一人公司的朋友，读完你或许会更加清楚该从哪一单开始、怎么少踩坑。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "bd0a0736d5b715999119cf59de07f437df6c4777",
+          "title": "这份月度开源模型汇总帮我们打捞了信息流里容易错过的新模型，同时覆盖OCR、语音、文生图、科研、游戏智能体等多元方向，适合开发者快速筛选适配私有部署、Agent、RAG和端侧场景的底座。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "49221a6cc674f2a1a64c816f9bf2776c9dea396b",
+          "title": "这篇文章拆解了 DeepSeek Harness 的 Super-agent 工程方案，为想搭建团队研发智能体、个人长期在线助手的开发者，提供了一套可落地的分布式架构参考。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 6,
       "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家·人工智能"
+        "社区更新 · 2026-10-31"
       ],
       "items": [
         {
-          "id": "f4ae6efe532bd39179a32811a662bd80ecdb4249",
-          "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-          "url": "https://www.ithome.com/1/020/444.htm",
-          "source": "IT之家·人工智能",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-31T03:25:09.697000Z"
+          "id": "a1cca03321b255f0fa47117f5f8145ed922ae5db",
+          "title": "很多团队把一批重复任务全都塞给 Agent：让它自己规划、调工具、反复判断。Demo 看着很聪明，到了真实应用场景里却很慢、很贵、每次走法不同，出了错也很难复现。作者这篇文章给了更务实的分流方式，适合正在做 AI 自动化的人，先判断任务该交给谁，成本和稳定性也都会更可控。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
         },
         {
-          "id": "df25ae683c04240e7ccdefbfefc1a0ee749c4adc",
-          "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
-          "url": "https://www.ithome.com/1/020/444.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T03:25:09Z"
+          "id": "ad1ccfdbb7f3cf84d291808c3afe9c6e11b2fdb6",
+          "title": "智能体上线后，最容易掉进一个循环：用户报错就改 Prompt，改完觉得好了，过两天又在别的场景翻车。问题在于，团队只有零散反馈，没有一套把失败沉淀成改进的机制。作者这篇文章分享了三套互补的迭代思路，或许会给大家有所帮助！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "47a58b7642861d6b4bc7fd677dc1daf16e8a83ca",
+          "title": "最近 Jev 带火的「决策模型」，把分类做成了一个新赛道：给一段内容、几道问题和候选答案，它直接返回标签与置信度。普通 LLM 要逐 token 生成 JSON，它却能一次并行回答多题，输入便宜、没有输出 token 成本。作者以 Perplexity Decider 为例，拆开了背后的完整机制。想搞懂 Jev 与决策 API 为什么突然火起来，这篇值得细读。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "4519dbee3eadc44e2fbe06e2079136322b27b400",
+          "title": "老金以他自身的课程、品牌商单、软件交付三种业务复盘了单月近 9.4 万流水，适合想靠 AI 接单或做一人公司的朋友，读完你或许会更加清楚该从哪一单开始、怎么少踩坑。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "bd0a0736d5b715999119cf59de07f437df6c4777",
+          "title": "这份月度开源模型汇总帮我们打捞了信息流里容易错过的新模型，同时覆盖OCR、语音、文生图、科研、游戏智能体等多元方向，适合开发者快速筛选适配私有部署、Agent、RAG和端侧场景的底座。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
+        },
+        {
+          "id": "49221a6cc674f2a1a64c816f9bf2776c9dea396b",
+          "title": "这篇文章拆解了 DeepSeek Harness 的 Super-agent 工程方案，为想搭建团队研发智能体、个人长期在线助手的开发者，提供了一套可落地的分布式架构参考。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-10-31",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-01T06:39:59.777540Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
-      "importance_label": "行业动态",
+      "item_count": 6,
+      "duplicate_count": 6,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7394,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 1.0
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "multi_source"
       ],
-      "earliest_at": "2026-10-31T03:25:09Z",
-      "latest_at": "2026-10-31T03:25:09.697000Z",
+      "earliest_at": "2026-11-01T06:39:59.777540Z",
+      "latest_at": "2026-11-01T06:39:59.777540Z",
       "primary_item": {
-        "id": "f4ae6efe532bd39179a32811a662bd80ecdb4249",
-        "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-        "url": "https://www.ithome.com/1/020/444.htm",
-        "source": "IT之家·人工智能",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c6b2d3ea7917",
-      "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-      "primary_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4b1cd24de8b1316db66e6731ca7c111697482f30",
-          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-31T01:20:05Z"
-        },
-        {
-          "id": "9b6ee53e085b267df8c3e5b560fc8ce4e1244706",
-          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保 / Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-10-31T01:20:05Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "4b1cd24de8b1316db66e6731ca7c111697482f30",
-          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-10-31T01:20:05Z"
-        },
-        {
-          "id": "9b6ee53e085b267df8c3e5b560fc8ce4e1244706",
-          "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保 / Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-10-31T01:20:05Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7597,
-      "importance": 0.7597,
-      "importance_score": 0.7597,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7174,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-31T01:20:05Z",
-      "latest_at": "2026-10-31T01:20:05Z",
-      "primary_item": {
-        "id": "4b1cd24de8b1316db66e6731ca7c111697482f30",
-        "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-        "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
+        "id": "a1cca03321b255f0fa47117f5f8145ed922ae5db",
+        "title": "很多团队把一批重复任务全都塞给 Agent：让它自己规划、调工具、反复判断。Demo 看着很聪明，到了真实应用场景里却很慢、很贵、每次走法不同，出了错也很难复现。作者这篇文章给了更务实的分流方式，适合正在做 AI 自动化的人，先判断任务该交给谁，成本和稳定性也都会更可控。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-10-31",
+        "source_name": "WaytoAGI"
       }
     },
     {
@@ -255,15 +243,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5632,
-      "importance": 0.5632,
-      "importance_score": 0.5632,
+      "score": 0.5503,
+      "importance": 0.5503,
+      "importance_score": 0.5503,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.819,
+        "recency": 0.7474,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -281,30 +269,30 @@
       }
     },
     {
-      "story_id": "story_aa4997f9eba1",
-      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
-      "primary_url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "story_id": "story_82785ab4f152",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio",
+      "primary_url": "https://ryanmadden.net/gpt-56-beats-factorio",
       "source": "Hacker News · 24h最热",
       "source_name": "Zeli",
       "sources": [
         {
-          "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
-          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "id": "d36d681baf902d7645d93823f295c74c99c0984d",
+          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+          "url": "https://ryanmadden.net/gpt-56-beats-factorio",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-10-31T18:02:29Z"
+          "published_at": "2026-10-31T18:50:34Z"
         },
         {
-          "id": "cbff795f42069ae415c907777dcf46269020d1fc",
-          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-          "url": "https://news.ycombinator.com/item?id=50318401",
+          "id": "2e8329eb78068adcea49f51201d6ba41f2ab907d",
+          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+          "url": "https://news.ycombinator.com/item?id=50318871",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-31T18:02:29Z"
+          "published_at": "2026-10-31T18:50:34Z"
         }
       ],
       "source_count": 2,
@@ -314,47 +302,47 @@
       ],
       "items": [
         {
-          "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
-          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "id": "d36d681baf902d7645d93823f295c74c99c0984d",
+          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+          "url": "https://ryanmadden.net/gpt-56-beats-factorio",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-10-31T18:02:29Z"
+          "published_at": "2026-10-31T18:50:34Z"
         },
         {
-          "id": "cbff795f42069ae415c907777dcf46269020d1fc",
-          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-          "url": "https://news.ycombinator.com/item?id=50318401",
+          "id": "2e8329eb78068adcea49f51201d6ba41f2ab907d",
+          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+          "url": "https://news.ycombinator.com/item?id=50318871",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-31T18:02:29Z"
+          "published_at": "2026-10-31T18:50:34Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5302,
-      "importance": 0.5302,
-      "importance_score": 0.5302,
+      "score": 0.5175,
+      "importance": 0.5175,
+      "importance_score": 0.5175,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9132,
+        "recency": 0.843,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-31T18:02:29Z",
-      "latest_at": "2026-10-31T18:02:29Z",
+      "earliest_at": "2026-10-31T18:50:34Z",
+      "latest_at": "2026-10-31T18:50:34Z",
       "primary_item": {
-        "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
-        "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-        "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+        "id": "d36d681baf902d7645d93823f295c74c99c0984d",
+        "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+        "url": "https://ryanmadden.net/gpt-56-beats-factorio",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
       }
@@ -412,15 +400,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5298,
-      "importance": 0.5298,
-      "importance_score": 0.5298,
+      "score": 0.5155,
+      "importance": 0.5155,
+      "importance_score": 0.5155,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9113,
+        "recency": 0.8316,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -491,15 +479,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5197,
-      "importance": 0.5197,
-      "importance_score": 0.5197,
+      "score": 0.5062,
+      "importance": 0.5062,
+      "importance_score": 0.5062,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8549,
+        "recency": 0.7802,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -569,15 +557,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5194,
-      "importance": 0.5194,
-      "importance_score": 0.5194,
+      "score": 0.506,
+      "importance": 0.506,
+      "importance_score": 0.506,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8535,
+        "recency": 0.7788,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -591,6 +579,401 @@
         "title": "[分享创造] ai 把我的电脑弄挂了，我该怎么办？",
         "url": "https://www.v2ex.com/t/1253449",
         "source": "V2EX (创意工作者社区)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_2a10a176a3e7",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+      "primary_url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "86dac9685189f611ba8217fa9e0123727ce37172",
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-01T02:19:53Z"
+        },
+        {
+          "id": "6c813980448395c850ee21cd24719bbc76b0d4fc",
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "url": "https://news.ycombinator.com/item?id=50322173",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-01T02:19:53Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "86dac9685189f611ba8217fa9e0123727ce37172",
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-01T02:19:53Z"
+        },
+        {
+          "id": "6c813980448395c850ee21cd24719bbc76b0d4fc",
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "url": "https://news.ycombinator.com/item?id=50322173",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-01T02:19:53Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5349,
+      "importance": 0.5349,
+      "importance_score": 0.5349,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9393,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-01T02:19:53Z",
+      "latest_at": "2026-11-01T02:19:53Z",
+      "primary_item": {
+        "id": "86dac9685189f611ba8217fa9e0123727ce37172",
+        "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+        "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_aa4997f9eba1",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "primary_url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
+          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-31T18:02:29Z"
+        },
+        {
+          "id": "cbff795f42069ae415c907777dcf46269020d1fc",
+          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+          "url": "https://news.ycombinator.com/item?id=50318401",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T18:02:29Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
+          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-31T18:02:29Z"
+        },
+        {
+          "id": "cbff795f42069ae415c907777dcf46269020d1fc",
+          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+          "url": "https://news.ycombinator.com/item?id=50318401",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T18:02:29Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5158,
+      "importance": 0.5158,
+      "importance_score": 0.5158,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8333,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-31T18:02:29Z",
+      "latest_at": "2026-10-31T18:02:29Z",
+      "primary_item": {
+        "id": "75c17818c4525dc1be62158fdc400e2b524573d7",
+        "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+        "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_567c750dad41",
+      "title": "AI text watermarking and quality loss",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "primary_url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
+          "title": "AI text watermarking and quality loss",
+          "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-31T21:50:13Z"
+        },
+        {
+          "id": "74f11109afbab8d53ec8b4ecfa5692ceff29ed42",
+          "title": "AI text watermarking and quality loss",
+          "url": "https://news.ycombinator.com/item?id=50320599",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T21:50:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
+          "title": "AI text watermarking and quality loss",
+          "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-31T21:50:13Z"
+        },
+        {
+          "id": "74f11109afbab8d53ec8b4ecfa5692ceff29ed42",
+          "title": "AI text watermarking and quality loss",
+          "url": "https://news.ycombinator.com/item?id=50320599",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T21:50:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5243,
+      "importance": 0.5243,
+      "importance_score": 0.5243,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8803,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-31T21:50:13Z",
+      "latest_at": "2026-10-31T21:50:13Z",
+      "primary_item": {
+        "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
+        "title": "AI text watermarking and quality loss",
+        "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_5b0ac3b976a1",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "primary_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "eba10b3c44a3f03d2bb187901f72f10641412f4f",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-31T14:29:03Z"
+        },
+        {
+          "id": "2fbf6cba9b889328487f1bc849376fbe9494e0bd",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://news.ycombinator.com/item?id=50316531",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T14:29:03Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "eba10b3c44a3f03d2bb187901f72f10641412f4f",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-31T14:29:03Z"
+        },
+        {
+          "id": "2fbf6cba9b889328487f1bc849376fbe9494e0bd",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://news.ycombinator.com/item?id=50316531",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T14:29:03Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5083,
+      "importance": 0.5083,
+      "importance_score": 0.5083,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7916,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-31T14:29:03Z",
+      "latest_at": "2026-10-31T14:29:03Z",
+      "primary_item": {
+        "id": "eba10b3c44a3f03d2bb187901f72f10641412f4f",
+        "title": "Malware uses LLMs to rank victims by how much they're worth",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_85c82f0a9571",
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "primary_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-31T21:49:07Z"
+        },
+        {
+          "id": "4b82a17efd51b44486cb9abc366e41282375300e",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://news.ycombinator.com/item?id=50320588",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T21:49:07Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-10-31T21:49:07Z"
+        },
+        {
+          "id": "4b82a17efd51b44486cb9abc366e41282375300e",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://news.ycombinator.com/item?id=50320588",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-31T21:49:07Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5242,
+      "importance": 0.5242,
+      "importance_score": 0.5242,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8801,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-31T21:49:07Z",
+      "latest_at": "2026-10-31T21:49:07Z",
+      "primary_item": {
+        "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
+        "title": "ChatGPT and Codex usage limits merging",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
       }
     },
@@ -648,15 +1031,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.534,
-      "importance": 0.534,
-      "importance_score": 0.534,
+      "score": 0.5193,
+      "importance": 0.5193,
+      "importance_score": 0.5193,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9347,
+        "recency": 0.853,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -669,243 +1052,6 @@
         "id": "f24d3b13cac3634823a076da3204fc0bc43b0d35",
         "title": "Anthropic blocks users for anything touching training larger models",
         "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_82785ab4f152",
-      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio",
-      "primary_url": "https://ryanmadden.net/gpt-56-beats-factorio",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "63d90804ed54c6547e80db24ef6a8d726d747a74",
-          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-          "url": "https://ryanmadden.net/gpt-56-beats-factorio",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T18:50:34Z"
-        },
-        {
-          "id": "2e8329eb78068adcea49f51201d6ba41f2ab907d",
-          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-          "url": "https://news.ycombinator.com/item?id=50318871",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T18:50:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "63d90804ed54c6547e80db24ef6a8d726d747a74",
-          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-          "url": "https://ryanmadden.net/gpt-56-beats-factorio",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T18:50:34Z"
-        },
-        {
-          "id": "2e8329eb78068adcea49f51201d6ba41f2ab907d",
-          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-          "url": "https://news.ycombinator.com/item?id=50318871",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T18:50:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5321,
-      "importance": 0.5321,
-      "importance_score": 0.5321,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9238,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T18:50:34Z",
-      "latest_at": "2026-10-31T18:50:34Z",
-      "primary_item": {
-        "id": "63d90804ed54c6547e80db24ef6a8d726d747a74",
-        "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-        "url": "https://ryanmadden.net/gpt-56-beats-factorio",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_b112e6ada6a0",
-      "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "primary_url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "e15d8047f451e0ca10b60c74e9999ae00a8f5ca6",
-          "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-31T03:22:44Z"
-        },
-        {
-          "id": "8fefde185160203caca4e96a49d12878938e9cc7",
-          "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-          "url": "https://news.ycombinator.com/item?id=50312922",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T03:22:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "e15d8047f451e0ca10b60c74e9999ae00a8f5ca6",
-          "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-10-31T03:22:44Z"
-        },
-        {
-          "id": "8fefde185160203caca4e96a49d12878938e9cc7",
-          "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-          "url": "https://news.ycombinator.com/item?id=50312922",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T03:22:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4988,
-      "importance": 0.4988,
-      "importance_score": 0.4988,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7389,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T03:22:44Z",
-      "latest_at": "2026-10-31T03:22:44Z",
-      "primary_item": {
-        "id": "e15d8047f451e0ca10b60c74e9999ae00a8f5ca6",
-        "title": "OpenAI 筹集的资金不到 $30B 目标的一半 / OpenAI raises less than half of $30B target",
-        "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_5b0ac3b976a1",
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-      "primary_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "3f177b06167d62c2517789bc881e85ec2139520f",
-          "title": "Malware uses LLMs to rank victims by how much they're worth",
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T14:29:03Z"
-        },
-        {
-          "id": "2fbf6cba9b889328487f1bc849376fbe9494e0bd",
-          "title": "Malware uses LLMs to rank victims by how much they're worth",
-          "url": "https://news.ycombinator.com/item?id=50316531",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T14:29:03Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "3f177b06167d62c2517789bc881e85ec2139520f",
-          "title": "Malware uses LLMs to rank victims by how much they're worth",
-          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T14:29:03Z"
-        },
-        {
-          "id": "2fbf6cba9b889328487f1bc849376fbe9494e0bd",
-          "title": "Malware uses LLMs to rank victims by how much they're worth",
-          "url": "https://news.ycombinator.com/item?id=50316531",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T14:29:03Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5219,
-      "importance": 0.5219,
-      "importance_score": 0.5219,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8675,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T14:29:03Z",
-      "latest_at": "2026-10-31T14:29:03Z",
-      "primary_item": {
-        "id": "3f177b06167d62c2517789bc881e85ec2139520f",
-        "title": "Malware uses LLMs to rank victims by how much they're worth",
-        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
       }
@@ -964,15 +1110,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5176,
-      "importance": 0.5176,
-      "importance_score": 0.5176,
+      "score": 0.5043,
+      "importance": 0.5043,
+      "importance_score": 0.5043,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8434,
+        "recency": 0.7697,
         "story_heat": 0.25
       },
       "category": "watch",
