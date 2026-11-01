@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01T06:39:59.777540Z",
+  "generated_at": "2026-11-01T14:10:15.985549Z",
   "window_hours": 24,
-  "total_items": 13,
+  "total_items": 11,
   "items": [
     {
       "story_id": "story_2df82173bb28",
@@ -128,15 +128,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
+      "score": 0.6507,
+      "importance": 0.6507,
+      "importance_score": 0.6507,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8973,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -154,116 +154,255 @@
       }
     },
     {
-      "story_id": "story_381223935ae3",
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "primary_url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "story_id": "story_6cbde97d8260",
+      "title": "算力的尽头是电力？从第一性原理看 AI 基础设施",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071442&idx=2&sn=512b621f95db3eb1b9fde2a183ca3955",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071442&idx=2&sn=512b621f95db3eb1b9fde2a183ca3955",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "e434f619c26c1a8954db1197fcdd773c8575a61c",
+          "title": "算力的尽头是电力？从第一性原理看 AI 基础设施",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071442&idx=2&sn=512b621f95db3eb1b9fde2a183ca3955",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "880b47089e7e9f42358a421acef9c8725b385af8",
+          "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2b898e087c442f388b4491997b594521be4af7b7",
+          "title": "整仓迁移交给 Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布 T2J-Bench",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071376&idx=2&sn=51b516b90330a35116cc8a44674b3ba4",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "e434f619c26c1a8954db1197fcdd773c8575a61c",
+          "title": "算力的尽头是电力？从第一性原理看 AI 基础设施",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071442&idx=2&sn=512b621f95db3eb1b9fde2a183ca3955",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "880b47089e7e9f42358a421acef9c8725b385af8",
+          "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "2b898e087c442f388b4491997b594521be4af7b7",
+          "title": "整仓迁移交给 Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布 T2J-Bench",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071376&idx=2&sn=51b516b90330a35116cc8a44674b3ba4",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5708,
+      "importance": 0.5708,
+      "importance_score": 0.5708,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-31T17:53:52.815152Z",
+      "latest_at": "2026-11-01T14:10:15.985549Z",
+      "primary_item": {
+        "id": "e434f619c26c1a8954db1197fcdd773c8575a61c",
+        "title": "算力的尽头是电力？从第一性原理看 AI 基础设施",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071442&idx=2&sn=512b621f95db3eb1b9fde2a183ca3955",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_b20adaa5fbb6",
+      "title": "patchy631 / 人工智能工程中心 / patchy631 /      ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "primary_url": "https://github.com/patchy631/ai-engineering-hub",
+      "source": "github",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "3adcbf08e7ea39ad18061da3cfe23df347676cb7",
+          "title": "patchy631 / 人工智能工程中心 / patchy631 /      ai-engineering-hub",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-01T14:10:23.462000Z"
+        },
+        {
+          "id": "a081be3a5ca1ab3a1964cd61a6117258cc9fed10",
+          "title": "patchy631 / 人工智能工程中心 / patchy631 / ai-engineering-hub",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "GitHub · Trending Today",
+        "github"
+      ],
+      "items": [
+        {
+          "id": "3adcbf08e7ea39ad18061da3cfe23df347676cb7",
+          "title": "patchy631 / 人工智能工程中心 / patchy631 /      ai-engineering-hub",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-01T14:10:23.462000Z"
+        },
+        {
+          "id": "a081be3a5ca1ab3a1964cd61a6117258cc9fed10",
+          "title": "patchy631 / 人工智能工程中心 / patchy631 / ai-engineering-hub",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "source": "GitHub · Trending Today",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-01T14:10:15.985549Z",
+      "latest_at": "2026-11-01T14:10:23.462000Z",
+      "primary_item": {
+        "id": "3adcbf08e7ea39ad18061da3cfe23df347676cb7",
+        "title": "patchy631 / 人工智能工程中心 / patchy631 /      ai-engineering-hub",
+        "url": "https://github.com/patchy631/ai-engineering-hub",
+        "source": "github",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_761e5e0baaa4",
+      "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "primary_url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
       "source": "Hacker News (黑客新闻)",
       "source_name": "Info Flow",
       "sources": [
         {
-          "id": "8b33746b2bb7821b85d3927a406702d63e12eda9",
-          "title": "Do the math: How we took over ChatGPT accounts",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "id": "4be52ae5d2d921ea14c314522926b5bc8638a606",
+          "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-10-31T10:30:11Z"
+          "published_at": "2026-11-01T06:06:19Z"
         },
         {
-          "id": "44b7463c3cff3ffb0426ffb964509b84d32ba725",
-          "title": "Do the math: How we took over ChatGPT accounts",
-          "url": "https://news.ycombinator.com/item?id=50314699",
+          "id": "65f9daa1ba8b9ac866c042942145e04ba51a14be",
+          "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+          "url": "https://news.ycombinator.com/item?id=50323088",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-31T10:30:11Z"
-        },
-        {
-          "id": "d1b37851ccd47d57a5ddfc02b730a996a91764c9",
-          "title": "我们接管了 ChatGPT 帐户 / We Took over ChatGPT Accounts",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T10:30:11Z"
-        },
-        {
-          "id": "934d68c05ad88dcc7c0a9b160d855a9498033dbb",
-          "title": "我们接管了 ChatGPT 帐户 / We Took over ChatGPT Accounts",
-          "url": "https://news.ycombinator.com/item?id=50314699",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T10:30:11Z"
+          "published_at": "2026-11-01T06:06:19Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
         "Hacker News (黑客新闻)",
         "hackernews"
       ],
       "items": [
         {
-          "id": "8b33746b2bb7821b85d3927a406702d63e12eda9",
-          "title": "Do the math: How we took over ChatGPT accounts",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "id": "4be52ae5d2d921ea14c314522926b5bc8638a606",
+          "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-10-31T10:30:11Z"
+          "published_at": "2026-11-01T06:06:19Z"
         },
         {
-          "id": "44b7463c3cff3ffb0426ffb964509b84d32ba725",
-          "title": "Do the math: How we took over ChatGPT accounts",
-          "url": "https://news.ycombinator.com/item?id=50314699",
+          "id": "65f9daa1ba8b9ac866c042942145e04ba51a14be",
+          "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+          "url": "https://news.ycombinator.com/item?id=50323088",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-10-31T10:30:11Z"
-        },
-        {
-          "id": "d1b37851ccd47d57a5ddfc02b730a996a91764c9",
-          "title": "我们接管了 ChatGPT 帐户 / We Took over ChatGPT Accounts",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T10:30:11Z"
-        },
-        {
-          "id": "934d68c05ad88dcc7c0a9b160d855a9498033dbb",
-          "title": "我们接管了 ChatGPT 帐户 / We Took over ChatGPT Accounts",
-          "url": "https://news.ycombinator.com/item?id=50314699",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T10:30:11Z"
+          "published_at": "2026-11-01T06:06:19Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5503,
-      "importance": 0.5503,
-      "importance_score": 0.5503,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.526,
+      "importance": 0.526,
+      "importance_score": 0.526,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7474,
-        "story_heat": 0.75
+        "recency": 0.8901,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-10-31T10:30:11Z",
-      "latest_at": "2026-10-31T10:30:11Z",
+      "earliest_at": "2026-11-01T06:06:19Z",
+      "latest_at": "2026-11-01T06:06:19Z",
       "primary_item": {
-        "id": "8b33746b2bb7821b85d3927a406702d63e12eda9",
-        "title": "Do the math: How we took over ChatGPT accounts",
-        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+        "id": "4be52ae5d2d921ea14c314522926b5bc8638a606",
+        "title": "JavaScript 框架的人工智能成本 / The AI cost of JavaScript frameworks",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
       }
@@ -322,15 +461,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5175,
-      "importance": 0.5175,
-      "importance_score": 0.5175,
+      "score": 0.502,
+      "importance": 0.502,
+      "importance_score": 0.502,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.843,
+        "recency": 0.7565,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -348,243 +487,8 @@
       }
     },
     {
-      "story_id": "story_6cbde97d8260",
-      "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "sources": [
-        {
-          "id": "880b47089e7e9f42358a421acef9c8725b385af8",
-          "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "2b898e087c442f388b4491997b594521be4af7b7",
-          "title": "整仓迁移交给 Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布 T2J-Bench",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071376&idx=2&sn=51b516b90330a35116cc8a44674b3ba4",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "880b47089e7e9f42358a421acef9c8725b385af8",
-          "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        },
-        {
-          "id": "2b898e087c442f388b4491997b594521be4af7b7",
-          "title": "整仓迁移交给 Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布 T2J-Bench",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071376&idx=2&sn=51b516b90330a35116cc8a44674b3ba4",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5155,
-      "importance": 0.5155,
-      "importance_score": 0.5155,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8316,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T17:53:52.815152Z",
-      "latest_at": "2026-10-31T17:53:52.815152Z",
-      "primary_item": {
-        "id": "880b47089e7e9f42358a421acef9c8725b385af8",
-        "title": "AI 如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统 EvoSim",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651071375&idx=3&sn=98272d0d78078af711285a0667685c99",
-        "source": "Readhub · AI",
-        "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_24ee0d11b76f",
-      "title": "Orkas-AI /      Orkas",
-      "url": "https://github.com/Orkas-AI/Orkas",
-      "primary_url": "https://github.com/Orkas-AI/Orkas",
-      "source": "github",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "94b2736ef75ba6fd11e78de12192852272012da7",
-          "title": "Orkas-AI /      Orkas",
-          "url": "https://github.com/Orkas-AI/Orkas",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T13:28:42.043000Z"
-        },
-        {
-          "id": "a5f68ec81f5c3482fb6d9b967c116e03a12e2f53",
-          "title": "Orkas-AI / Orkas",
-          "url": "https://github.com/Orkas-AI/Orkas",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "GitHub · Trending Today",
-        "github"
-      ],
-      "items": [
-        {
-          "id": "94b2736ef75ba6fd11e78de12192852272012da7",
-          "title": "Orkas-AI /      Orkas",
-          "url": "https://github.com/Orkas-AI/Orkas",
-          "source": "github",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T13:28:42.043000Z"
-        },
-        {
-          "id": "a5f68ec81f5c3482fb6d9b967c116e03a12e2f53",
-          "title": "Orkas-AI / Orkas",
-          "url": "https://github.com/Orkas-AI/Orkas",
-          "source": "GitHub · Trending Today",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7802,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T13:28:35.397190Z",
-      "latest_at": "2026-10-31T13:28:42.043000Z",
-      "primary_item": {
-        "id": "94b2736ef75ba6fd11e78de12192852272012da7",
-        "title": "Orkas-AI /      Orkas",
-        "url": "https://github.com/Orkas-AI/Orkas",
-        "source": "github",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_48e9e5f72786",
-      "title": "[分享创造] ai 把我的电脑弄挂了，我该怎么办？",
-      "url": "https://www.v2ex.com/t/1253449",
-      "primary_url": "https://www.v2ex.com/t/1253449",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "2a20eaa4b251d03b03be9719e18af05debc4773d",
-          "title": "[分享创造] ai 把我的电脑弄挂了，我该怎么办？",
-          "url": "https://www.v2ex.com/t/1253449",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T13:21:30Z"
-        },
-        {
-          "id": "8daa43649635b6fd4dbb5db83c2b017d4c781211",
-          "title": "[推广] ai 把我的电脑弄挂了，我该怎么办？",
-          "url": "https://www.v2ex.com/t/1253449",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T13:21:30Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "2a20eaa4b251d03b03be9719e18af05debc4773d",
-          "title": "[分享创造] ai 把我的电脑弄挂了，我该怎么办？",
-          "url": "https://www.v2ex.com/t/1253449",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T13:21:30Z"
-        },
-        {
-          "id": "8daa43649635b6fd4dbb5db83c2b017d4c781211",
-          "title": "[推广] ai 把我的电脑弄挂了，我该怎么办？",
-          "url": "https://www.v2ex.com/t/1253449",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T13:21:30Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.506,
-      "importance": 0.506,
-      "importance_score": 0.506,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7788,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T13:21:30Z",
-      "latest_at": "2026-10-31T13:21:30Z",
-      "primary_item": {
-        "id": "2a20eaa4b251d03b03be9719e18af05debc4773d",
-        "title": "[分享创造] ai 把我的电脑弄挂了，我该怎么办？",
-        "url": "https://www.v2ex.com/t/1253449",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
       "story_id": "story_2a10a176a3e7",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
       "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
       "primary_url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
       "source": "Hacker News (黑客新闻)",
@@ -592,7 +496,7 @@
       "sources": [
         {
           "id": "86dac9685189f611ba8217fa9e0123727ce37172",
-          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
           "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -601,7 +505,7 @@
         },
         {
           "id": "6c813980448395c850ee21cd24719bbc76b0d4fc",
-          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
           "url": "https://news.ycombinator.com/item?id=50322173",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -617,7 +521,7 @@
       "items": [
         {
           "id": "86dac9685189f611ba8217fa9e0123727ce37172",
-          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
           "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -626,7 +530,7 @@
         },
         {
           "id": "6c813980448395c850ee21cd24719bbc76b0d4fc",
-          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
           "url": "https://news.ycombinator.com/item?id=50322173",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -636,15 +540,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5349,
-      "importance": 0.5349,
-      "importance_score": 0.5349,
+      "score": 0.5175,
+      "importance": 0.5175,
+      "importance_score": 0.5175,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9393,
+        "recency": 0.8428,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -655,7 +559,7 @@
       "latest_at": "2026-11-01T02:19:53Z",
       "primary_item": {
         "id": "86dac9685189f611ba8217fa9e0123727ce37172",
-        "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+        "title": "巴西法院制裁因在法庭备案中迅速注入的律师 / Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
         "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
@@ -715,15 +619,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5158,
-      "importance": 0.5158,
-      "importance_score": 0.5158,
+      "score": 0.5004,
+      "importance": 0.5004,
+      "importance_score": 0.5004,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8333,
+        "recency": 0.7478,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -742,7 +646,7 @@
     },
     {
       "story_id": "story_567c750dad41",
-      "title": "AI text watermarking and quality loss",
+      "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
       "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
       "primary_url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
       "source": "Hacker News (黑客新闻)",
@@ -750,7 +654,7 @@
       "sources": [
         {
           "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
-          "title": "AI text watermarking and quality loss",
+          "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
           "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -759,7 +663,7 @@
         },
         {
           "id": "74f11109afbab8d53ec8b4ecfa5692ceff29ed42",
-          "title": "AI text watermarking and quality loss",
+          "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
           "url": "https://news.ycombinator.com/item?id=50320599",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -775,7 +679,7 @@
       "items": [
         {
           "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
-          "title": "AI text watermarking and quality loss",
+          "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
           "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -784,7 +688,7 @@
         },
         {
           "id": "74f11109afbab8d53ec8b4ecfa5692ceff29ed42",
-          "title": "AI text watermarking and quality loss",
+          "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
           "url": "https://news.ycombinator.com/item?id=50320599",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -794,15 +698,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5243,
-      "importance": 0.5243,
-      "importance_score": 0.5243,
+      "score": 0.508,
+      "importance": 0.508,
+      "importance_score": 0.508,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8803,
+        "recency": 0.7899,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -813,7 +717,7 @@
       "latest_at": "2026-10-31T21:50:13Z",
       "primary_item": {
         "id": "615e183ff6fa57811a3acf5a09051df96c3b8c64",
-        "title": "AI text watermarking and quality loss",
+        "title": "AI文本水印和质量损失 / AI text watermarking and quality loss",
         "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
@@ -873,15 +777,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5083,
-      "importance": 0.5083,
-      "importance_score": 0.5083,
+      "score": 0.4937,
+      "importance": 0.4937,
+      "importance_score": 0.4937,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7916,
+        "recency": 0.7103,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -900,7 +804,7 @@
     },
     {
       "story_id": "story_85c82f0a9571",
-      "title": "ChatGPT and Codex usage limits merging",
+      "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
       "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
       "primary_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
       "source": "Hacker News (黑客新闻)",
@@ -908,7 +812,7 @@
       "sources": [
         {
           "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
-          "title": "ChatGPT and Codex usage limits merging",
+          "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
           "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -917,7 +821,7 @@
         },
         {
           "id": "4b82a17efd51b44486cb9abc366e41282375300e",
-          "title": "ChatGPT and Codex usage limits merging",
+          "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
           "url": "https://news.ycombinator.com/item?id=50320588",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -933,7 +837,7 @@
       "items": [
         {
           "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
-          "title": "ChatGPT and Codex usage limits merging",
+          "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
           "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -942,7 +846,7 @@
         },
         {
           "id": "4b82a17efd51b44486cb9abc366e41282375300e",
-          "title": "ChatGPT and Codex usage limits merging",
+          "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
           "url": "https://news.ycombinator.com/item?id=50320588",
           "source": "hackernews",
           "source_name": "NewsNow",
@@ -952,15 +856,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
+      "score": 0.5079,
+      "importance": 0.5079,
+      "importance_score": 0.5079,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8801,
+        "recency": 0.7897,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -971,7 +875,7 @@
       "latest_at": "2026-10-31T21:49:07Z",
       "primary_item": {
         "id": "eafcbe69da4dfa03812a20e734473be558c8483d",
-        "title": "ChatGPT and Codex usage limits merging",
+        "title": "ChatGPT 和 Codex 使用限制合并 / ChatGPT and Codex usage limits merging",
         "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
@@ -1031,15 +935,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5193,
-      "importance": 0.5193,
-      "importance_score": 0.5193,
+      "score": 0.5036,
+      "importance": 0.5036,
+      "importance_score": 0.5036,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.853,
+        "recency": 0.7654,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1052,85 +956,6 @@
         "id": "f24d3b13cac3634823a076da3204fc0bc43b0d35",
         "title": "Anthropic blocks users for anything touching training larger models",
         "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_3f1baaed834f",
-      "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "primary_url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "2821a27e01fb717e64de459d5faad8aad83b06b7",
-          "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-          "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T12:32:10Z"
-        },
-        {
-          "id": "dfe7eed54139d118d7b7c88180d08b37272eb148",
-          "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-          "url": "https://news.ycombinator.com/item?id=50315574",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T12:32:10Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "2821a27e01fb717e64de459d5faad8aad83b06b7",
-          "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-          "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-10-31T12:32:10Z"
-        },
-        {
-          "id": "dfe7eed54139d118d7b7c88180d08b37272eb148",
-          "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-          "url": "https://news.ycombinator.com/item?id=50315574",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-10-31T12:32:10Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5043,
-      "importance": 0.5043,
-      "importance_score": 0.5043,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7697,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-31T12:32:10Z",
-      "latest_at": "2026-10-31T12:32:10Z",
-      "primary_item": {
-        "id": "2821a27e01fb717e64de459d5faad8aad83b06b7",
-        "title": "为什么 Anthropic 的文件会压垮科技股 / Why Anthropic's Filing Crushed Tech Stocks",
-        "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
         "source": "Hacker News (黑客新闻)",
         "source_name": "Info Flow"
       }
