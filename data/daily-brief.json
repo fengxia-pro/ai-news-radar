@@ -1,144 +1,24 @@
 {
-  "generated_at": "2026-11-05T08:20:57.946333Z",
+  "generated_at": "2026-11-05T16:41:23.433631Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_3a06f84c0f51",
-      "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "primary_url": "https://openai.com/index/openai-to-acquire-pierre",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "68dc1bad006f6bca35a9c00f7682af9c533fc262",
-          "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company, Inc.",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T14:30:00Z"
-        },
-        {
-          "id": "195fd593e3472bb34545c23e2c84a75cf54bf212",
-          "title": "OpenAI将收购Pierre Computer Company",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-04T21:12:50.695000Z"
-        },
-        {
-          "id": "5e0ef8874d8987721446f796fb6987a1346a7599",
-          "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-04T15:21:21Z"
-        },
-        {
-          "id": "3c4b7ca66be58e1ab9ed97226c73f51e1975e9ad",
-          "title": "OpenAI 将收购 Pierre 计算机公司 / OpenAI to acquire Pierre Computer Company",
-          "url": "https://news.ycombinator.com/item?id=50366863",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-04T15:21:21Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "OpenAI News",
-        "hackernews",
-        "openai.com"
-      ],
-      "items": [
-        {
-          "id": "68dc1bad006f6bca35a9c00f7682af9c533fc262",
-          "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company, Inc.",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-04T14:30:00Z"
-        },
-        {
-          "id": "195fd593e3472bb34545c23e2c84a75cf54bf212",
-          "title": "OpenAI将收购Pierre Computer Company",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-04T21:12:50.695000Z"
-        },
-        {
-          "id": "5e0ef8874d8987721446f796fb6987a1346a7599",
-          "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-04T15:21:21Z"
-        },
-        {
-          "id": "3c4b7ca66be58e1ab9ed97226c73f51e1975e9ad",
-          "title": "OpenAI 将收购 Pierre 计算机公司 / OpenAI to acquire Pierre Computer Company",
-          "url": "https://news.ycombinator.com/item?id=50366863",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-04T15:21:21Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8861,
-      "importance": 0.8861,
-      "importance_score": 0.8861,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7728,
-        "story_heat": 0.75
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-04T14:30:00Z",
-      "latest_at": "2026-11-04T21:12:50.695000Z",
-      "primary_item": {
-        "id": "68dc1bad006f6bca35a9c00f7682af9c533fc262",
-        "title": "OpenAI将收购Pierre Computer Company / OpenAI to acquire Pierre Computer Company, Inc.",
-        "url": "https://openai.com/index/openai-to-acquire-pierre",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_5afc49da7bd4",
-      "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "primary_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "story_id": "story_89209ab642b1",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "primary_url": "https://huggingface.co/blog/phonon-tts",
       "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "id": "69ff2c127ffefbc2ab4bc6dd4e0baa5949100cc2",
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "url": "https://huggingface.co/blog/phonon-tts",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-04T17:50:10Z"
+          "published_at": "2026-11-05T00:00:00Z"
         }
       ],
       "source_count": 1,
@@ -147,26 +27,26 @@
       ],
       "items": [
         {
-          "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "id": "69ff2c127ffefbc2ab4bc6dd4e0baa5949100cc2",
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "url": "https://huggingface.co/blog/phonon-tts",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-04T17:50:10Z"
+          "published_at": "2026-11-05T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.826,
-      "importance": 0.826,
-      "importance_score": 0.826,
+      "score": 0.8274,
+      "importance": 0.8274,
+      "importance_score": 0.8274,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8109,
+        "ai_relevance": 0.98,
+        "recency": 0.7858,
         "story_heat": 0.0
       },
       "category": "official",
@@ -175,13 +55,75 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-04T17:50:10Z",
-      "latest_at": "2026-11-04T17:50:10Z",
+      "earliest_at": "2026-11-05T00:00:00Z",
+      "latest_at": "2026-11-05T00:00:00Z",
       "primary_item": {
-        "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
-        "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-        "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+        "id": "69ff2c127ffefbc2ab4bc6dd4e0baa5949100cc2",
+        "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+        "url": "https://huggingface.co/blog/phonon-tts",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f93567576105",
+      "title": "为负责任的人工智能基础设施设定新标准 / Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "primary_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "0d20fd66080c6b3e00759f5b6deef3ed7a4101b7",
+          "title": "为负责任的人工智能基础设施设定新标准 / Setting a new standard for responsible AI infrastructure",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "0d20fd66080c6b3e00759f5b6deef3ed7a4101b7",
+          "title": "为负责任的人工智能基础设施设定新标准 / Setting a new standard for responsible AI infrastructure",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-05T02:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8176,
+      "importance": 0.8176,
+      "importance_score": 0.8176,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8089,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-05T02:00:00Z",
+      "latest_at": "2026-11-05T02:00:00Z",
+      "primary_item": {
+        "id": "0d20fd66080c6b3e00759f5b6deef3ed7a4101b7",
+        "title": "为负责任的人工智能基础设施设定新标准 / Setting a new standard for responsible AI infrastructure",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -220,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8208,
-      "importance": 0.8208,
-      "importance_score": 0.8208,
+      "score": 0.8039,
+      "importance": 0.8039,
+      "importance_score": 0.8039,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8268,
+        "recency": 0.733,
         "story_heat": 0.0
       },
       "category": "official",
@@ -244,6 +186,68 @@
         "title": "GitHub Copilot 现已在 Xcode 的编码助手中可用 / GitHub Copilot is now available in Xcode’s coding assistant",
         "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_5afc49da7bd4",
+      "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "primary_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
+          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T17:50:10Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
+          "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-04T17:50:10Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8094,
+      "importance": 0.8094,
+      "importance_score": 0.8094,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7189,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-04T17:50:10Z",
+      "latest_at": "2026-11-04T17:50:10Z",
+      "primary_item": {
+        "id": "08bfe5e7ca7bc3a4c5c2064c405849618d38bfbc",
+        "title": "Dharma 字段提取器：任何文档输入，JSON 输出中的结构化字段 / Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+        "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -301,15 +305,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -363,15 +367,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8148,
-      "importance": 0.8148,
-      "importance_score": 0.8148,
+      "score": 0.7977,
+      "importance": 0.7977,
+      "importance_score": 0.7977,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8376,
+        "recency": 0.7426,
         "story_heat": 0.0
       },
       "category": "official",
@@ -444,15 +448,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -525,15 +529,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -606,15 +610,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -687,15 +691,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -768,15 +772,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -793,6 +797,84 @@
         "url": "https://www.aibase.com/news/32118",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_49dbbd04a6b4",
+      "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
+      "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+      "primary_url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
+          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
+          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-11-05T15:00:00Z"
+        },
+        {
+          "id": "67c95d1f130194b49e9c29d301186bb704f3dcdd",
+          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram’s new desktop Edits app",
+          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-05T15:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
+          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
+          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-11-05T15:00:00Z"
+        },
+        {
+          "id": "67c95d1f130194b49e9c29d301186bb704f3dcdd",
+          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram’s new desktop Edits app",
+          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-05T15:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6111,
+      "importance": 0.6111,
+      "importance_score": 0.6111,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4896,
+        "source_tier": 0.58,
+        "ai_relevance": 0.68,
+        "recency": 0.9759,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-05T15:00:00Z",
+      "latest_at": "2026-11-05T15:00:00Z",
+      "primary_item": {
+        "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
+        "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
+        "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+        "source": "The Verge",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -849,15 +931,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8865,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -872,6 +954,165 @@
         "id": "9664dcb87148a7d1579dad494ba3c27bd7fc2c02",
         "title": "盖茨炮轰白宫 AI 监管僵局：生物武器风险或超新冠",
         "url": "https://www.aibase.com/news/32110",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_3c63b1bd263a",
+      "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+      "primary_url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+      "source": "alignment.openai.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "47bdb04928a362e36d0ac5e952f745ada2bc8841",
+          "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色",
+          "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+          "source": "alignment.openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T15:45:34.486000Z"
+        },
+        {
+          "id": "658868a7e5e366d848f991a2ea4e80505777a08c",
+          "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色 / GPT-6 Astra covertly underperforms on safety research",
+          "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-05T07:44:30Z"
+        },
+        {
+          "id": "50d24487082a2689397959b0ea11db81af3d9fb4",
+          "title": "GPT-6 Astra 在安全研究方面表现不佳 / GPT-6 Astra covertly underperforms on safety research",
+          "url": "https://news.ycombinator.com/item?id=50376313",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-05T07:44:30Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "alignment.openai.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "47bdb04928a362e36d0ac5e952f745ada2bc8841",
+          "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色",
+          "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+          "source": "alignment.openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T15:45:34.486000Z"
+        },
+        {
+          "id": "658868a7e5e366d848f991a2ea4e80505777a08c",
+          "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色 / GPT-6 Astra covertly underperforms on safety research",
+          "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-05T07:44:30Z"
+        },
+        {
+          "id": "50d24487082a2689397959b0ea11db81af3d9fb4",
+          "title": "GPT-6 Astra 在安全研究方面表现不佳 / GPT-6 Astra covertly underperforms on safety research",
+          "url": "https://news.ycombinator.com/item?id=50376313",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-05T07:44:30Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5684,
+      "importance": 0.5684,
+      "importance_score": 0.5684,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9867,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-05T07:44:30Z",
+      "latest_at": "2026-11-05T15:45:34.486000Z",
+      "primary_item": {
+        "id": "47bdb04928a362e36d0ac5e952f745ada2bc8841",
+        "title": "GPT-6 Astra 在安全研究方面表现隐隐逊色",
+        "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+        "source": "alignment.openai.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0630fd88b807",
+      "title": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体",
+      "url": "https://www.aibase.com/news/32125",
+      "primary_url": "https://www.aibase.com/news/32125",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "d38cef93fba4899dfcbd86eb301d41a4619a3355",
+          "title": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体",
+          "url": "https://www.aibase.com/news/32125",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-05T16:41:23.433631Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "d38cef93fba4899dfcbd86eb301d41a4619a3355",
+          "title": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体",
+          "url": "https://www.aibase.com/news/32125",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-05T16:41:23.433631Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-05T16:41:23.433631Z",
+      "latest_at": "2026-11-05T16:41:23.433631Z",
+      "primary_item": {
+        "id": "d38cef93fba4899dfcbd86eb301d41a4619a3355",
+        "title": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体",
+        "url": "https://www.aibase.com/news/32125",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -929,15 +1170,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5994,
-      "importance": 0.5994,
-      "importance_score": 0.5994,
+      "score": 0.5822,
+      "importance": 0.5822,
+      "importance_score": 0.5822,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.58,
         "ai_relevance": 0.71,
-        "recency": 0.8414,
+        "recency": 0.7459,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1007,15 +1248,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5667,
-      "importance": 0.5667,
-      "importance_score": 0.5667,
+      "score": 0.5494,
+      "importance": 0.5494,
+      "importance_score": 0.5494,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8475,
+        "recency": 0.7513,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1033,386 +1274,188 @@
       }
     },
     {
-      "story_id": "story_c9b06f08e9dd",
-      "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
-      "url": "https://www.aibase.com/news/32094",
-      "primary_url": "https://www.aibase.com/news/32094",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
-          "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
-          "url": "https://www.aibase.com/news/32094",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-05T01:23:44.939166Z"
-        },
-        {
-          "id": "a6c2f6e446eef37aae1573490c3c10f1bdab005c",
-          "title": "40 年未解的「细胞穹窿」，被 Claude 拽进结构生物学视野",
-          "url": "https://www.aibase.com/zh/news/32094",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
-          "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
-          "url": "https://www.aibase.com/news/32094",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-05T01:23:44.939166Z"
-        },
-        {
-          "id": "a6c2f6e446eef37aae1573490c3c10f1bdab005c",
-          "title": "40 年未解的「细胞穹窿」，被 Claude 拽进结构生物学视野",
-          "url": "https://www.aibase.com/zh/news/32094",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7754,
-      "importance": 0.7754,
-      "importance_score": 0.7754,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9045,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-05T01:23:44.939166Z",
-      "latest_at": "2026-11-05T01:23:44.939166Z",
-      "primary_item": {
-        "id": "8d88b476ec0bc63aa12aaf564bedc03668d90ffb",
-        "title": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
-        "url": "https://www.aibase.com/news/32094",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_9082a853a58f",
-      "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "primary_url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "source": "www.qualcomm.com",
+      "story_id": "story_4cd95ba68728",
+      "title": "MCP 详解",
+      "url": "https://mcp-explained.com",
+      "primary_url": "https://mcp-explained.com",
+      "source": "mcp-explained.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "9af032572ab7d62a6e5944543f5f413c51d29e40",
-          "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-          "source": "www.qualcomm.com",
+          "id": "a16f03d03d08a4297adb1789db4a4768f454b3fb",
+          "title": "MCP 详解",
+          "url": "https://mcp-explained.com",
+          "source": "mcp-explained.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T01:44:43.584000Z"
+          "published_at": "2026-11-05T16:23:50.403000Z"
         },
         {
-          "id": "0138ba9712bbf061fa049303df2a9fc354f6f8d8",
-          "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s / Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "id": "79ca73688c8d9c872db11791467f87639c77ae7c",
+          "title": "MCP 详解 / MCP Explained",
+          "url": "https://mcp-explained.com",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-11-04T19:55:14Z"
-        },
-        {
-          "id": "ec8de290a51dff0517e5d5973043b1cbd9735ac0",
-          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI 加速卡，128GB，548GB/s / Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-          "url": "https://news.ycombinator.com/item?id=50370654",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-04T19:55:14Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.qualcomm.com"
-      ],
-      "items": [
-        {
-          "id": "9af032572ab7d62a6e5944543f5f413c51d29e40",
-          "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-          "source": "www.qualcomm.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-05T01:44:43.584000Z"
-        },
-        {
-          "id": "0138ba9712bbf061fa049303df2a9fc354f6f8d8",
-          "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s / Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-04T19:55:14Z"
-        },
-        {
-          "id": "ec8de290a51dff0517e5d5973043b1cbd9735ac0",
-          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI 加速卡，128GB，548GB/s / Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-          "url": "https://news.ycombinator.com/item?id=50370654",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-04T19:55:14Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5544,
-      "importance": 0.5544,
-      "importance_score": 0.5544,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.909,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-04T19:55:14Z",
-      "latest_at": "2026-11-05T01:44:43.584000Z",
-      "primary_item": {
-        "id": "9af032572ab7d62a6e5944543f5f413c51d29e40",
-        "title": "高通 Cloud AI 100 Ultra——150W 人工智能加速卡，配备 128GB 内存，传输速率达 548GB/s",
-        "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "source": "www.qualcomm.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a4f4c423c542",
-      "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "primary_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "source": "Lobsters (技术社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "bf914aad05368d16869f33b0a460a8a53f2d46fb",
-          "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T07:47:48Z"
-        },
-        {
-          "id": "aa228762a9fff3cb54547c4b48a689f9c48de331",
-          "title": "通往root的路径少了1000条简体中文（大陆）",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-05T02:01:04.884000Z"
+          "published_at": "2026-11-05T14:08:35Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Lobsters (技术社区)",
-        "openai.com"
+        "Hacker News (黑客新闻)",
+        "mcp-explained.com"
       ],
       "items": [
         {
-          "id": "bf914aad05368d16869f33b0a460a8a53f2d46fb",
-          "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T07:47:48Z"
-        },
-        {
-          "id": "aa228762a9fff3cb54547c4b48a689f9c48de331",
-          "title": "通往root的路径少了1000条简体中文（大陆）",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "source": "openai.com",
+          "id": "a16f03d03d08a4297adb1789db4a4768f454b3fb",
+          "title": "MCP 详解",
+          "url": "https://mcp-explained.com",
+          "source": "mcp-explained.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T02:01:04.884000Z"
+          "published_at": "2026-11-05T16:23:50.403000Z"
+        },
+        {
+          "id": "79ca73688c8d9c872db11791467f87639c77ae7c",
+          "title": "MCP 详解 / MCP Explained",
+          "url": "https://mcp-explained.com",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-05T14:08:35Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5444,
-      "importance": 0.5444,
-      "importance_score": 0.5444,
+      "score": 0.545,
+      "importance": 0.545,
+      "importance_score": 0.545,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.992,
+        "recency": 0.9958,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-05T02:01:04.884000Z",
-      "latest_at": "2026-11-05T07:47:48Z",
+      "earliest_at": "2026-11-05T14:08:35Z",
+      "latest_at": "2026-11-05T16:23:50.403000Z",
       "primary_item": {
-        "id": "bf914aad05368d16869f33b0a460a8a53f2d46fb",
-        "title": "通往root的路径少了1000条简体中文（大陆） / A thousand fewer paths to root",
-        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-        "source": "Lobsters (技术社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "代码至上：大语言模型时代对Rust的思考",
-      "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-      "primary_url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-      "source": "www.youtube.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ec5d4e06c237d03521ebf6a5452716073d4cec0a",
-          "title": "代码至上：大语言模型时代对Rust的思考",
-          "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-04T20:56:49.763000Z"
-        },
-        {
-          "id": "38e4ecb253e54eed2af4de65c48dea2d75f0983b",
-          "title": "代码至上：大语言模型时代对Rust的思考 / Code Matters: Reflections on Rust in the LLM Age",
-          "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-04T19:59:35Z"
-        },
-        {
-          "id": "4666593c9ae67fcbbe55fc5f23a0529458deffc8",
-          "title": "Jaron Lanier 谈人工智能和社交媒体的相似之处 / Jaron Lanier on parallels between AI and social media",
-          "url": "https://www.youtube.com/watch?v=WxaRn8kX2eI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-04T14:10:14Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "ec5d4e06c237d03521ebf6a5452716073d4cec0a",
-          "title": "代码至上：大语言模型时代对Rust的思考",
-          "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-04T20:56:49.763000Z"
-        },
-        {
-          "id": "38e4ecb253e54eed2af4de65c48dea2d75f0983b",
-          "title": "代码至上：大语言模型时代对Rust的思考 / Code Matters: Reflections on Rust in the LLM Age",
-          "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-04T19:59:35Z"
-        },
-        {
-          "id": "4666593c9ae67fcbbe55fc5f23a0529458deffc8",
-          "title": "Jaron Lanier 谈人工智能和社交媒体的相似之处 / Jaron Lanier on parallels between AI and social media",
-          "url": "https://www.youtube.com/watch?v=WxaRn8kX2eI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-04T14:10:14Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5435,
-      "importance": 0.5435,
-      "importance_score": 0.5435,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8482,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-04T14:10:14Z",
-      "latest_at": "2026-11-04T20:56:49.763000Z",
-      "primary_item": {
-        "id": "ec5d4e06c237d03521ebf6a5452716073d4cec0a",
-        "title": "代码至上：大语言模型时代对Rust的思考",
-        "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-        "source": "www.youtube.com",
+        "id": "a16f03d03d08a4297adb1789db4a4768f454b3fb",
+        "title": "MCP 详解",
+        "url": "https://mcp-explained.com",
+        "source": "mcp-explained.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_19bf40929181",
-      "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。",
-      "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
-      "primary_url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+      "story_id": "story_4513cd1ca7d8",
+      "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视",
+      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+      "primary_url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3611ae0fe70475b29ff54767b8a341db2c9bb9d4",
+          "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T15:46:09.212000Z"
+        },
+        {
+          "id": "4156d4c91bb4fb2f65c4a48aaeae5c85dc5c0abe",
+          "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视 / Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-05T12:00:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "3611ae0fe70475b29ff54767b8a341db2c9bb9d4",
+          "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-05T15:46:09.212000Z"
+        },
+        {
+          "id": "4156d4c91bb4fb2f65c4a48aaeae5c85dc5c0abe",
+          "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视 / Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-05T12:00:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5434,
+      "importance": 0.5434,
+      "importance_score": 0.5434,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9868,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-05T12:00:41Z",
+      "latest_at": "2026-11-05T15:46:09.212000Z",
+      "primary_item": {
+        "id": "3611ae0fe70475b29ff54767b8a341db2c9bb9d4",
+        "title": "Agility Robotics在纳斯达克上市引发了对类人机器人市场的审视",
+        "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_b2dea51278dd",
+      "title": "OpenAI 制定了针对数据中心的新政策框架",
+      "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
+      "primary_url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "870b3f96adbbf89c3f88cffdc49d8c7b2140593d",
-          "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。",
-          "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+          "id": "533b81536182d2a325ecc054f15814ed1f3dc413",
+          "title": "OpenAI 制定了针对数据中心的新政策框架",
+          "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T06:07:50.012000Z"
+          "published_at": "2026-11-05T15:46:03.434000Z"
         },
         {
-          "id": "28bfa07a7c29ef72ea2e0164aa33d0d8f1723c18",
-          "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。 / Pixar cofounder Ed Catmull, 81, says the smartest AI-era career move is to help build what comes next",
-          "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+          "id": "e5f76c6b87678bd065fa32f1714f05dc55a353a4",
+          "title": "OpenAI 制定了针对数据中心的新政策框架 / OpenAI lays out new policy framework for data centers",
+          "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-05T05:06:10Z"
+          "published_at": "2026-11-05T14:06:14Z"
         }
       ],
       "source_count": 2,
@@ -1422,208 +1465,49 @@
       ],
       "items": [
         {
-          "id": "870b3f96adbbf89c3f88cffdc49d8c7b2140593d",
-          "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。",
-          "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+          "id": "533b81536182d2a325ecc054f15814ed1f3dc413",
+          "title": "OpenAI 制定了针对数据中心的新政策框架",
+          "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T06:07:50.012000Z"
+          "published_at": "2026-11-05T15:46:03.434000Z"
         },
         {
-          "id": "28bfa07a7c29ef72ea2e0164aa33d0d8f1723c18",
-          "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。 / Pixar cofounder Ed Catmull, 81, says the smartest AI-era career move is to help build what comes next",
-          "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+          "id": "e5f76c6b87678bd065fa32f1714f05dc55a353a4",
+          "title": "OpenAI 制定了针对数据中心的新政策框架 / OpenAI lays out new policy framework for data centers",
+          "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-05T05:06:10Z"
+          "published_at": "2026-11-05T14:06:14Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5401,
-      "importance": 0.5401,
-      "importance_score": 0.5401,
+      "score": 0.5434,
+      "importance": 0.5434,
+      "importance_score": 0.5434,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9685,
+        "recency": 0.9868,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-05T05:06:10Z",
-      "latest_at": "2026-11-05T06:07:50.012000Z",
+      "earliest_at": "2026-11-05T14:06:14Z",
+      "latest_at": "2026-11-05T15:46:03.434000Z",
       "primary_item": {
-        "id": "870b3f96adbbf89c3f88cffdc49d8c7b2140593d",
-        "title": "皮克斯联合创始人埃德·卡特穆尔（81岁）表示，在人工智能时代，最明智的职业选择是助力打造未来的新事物。",
-        "url": "https://www.businessinsider.com/pixar-cofounder-ed-catmull-advice-workers-worried-ai-2026-11",
+        "id": "533b81536182d2a325ecc054f15814ed1f3dc413",
+        "title": "OpenAI 制定了针对数据中心的新政策框架",
+        "url": "https://www.businessinsider.com/openai-lays-out-new-policy-framework-for-data-centers-2026-11",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f11d9a22fb66",
-      "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-      "source": "The Verge",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "cc883766d2ca494effc3c248f4efe7bc3519df9f",
-          "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-04T12:00:00Z"
-        },
-        {
-          "id": "40424c68d530dfbd06497a1f591e102c7a22ab50",
-          "title": "Google hasn’t figured out how to make AI pay like its search engine",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-04T12:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Verge"
-      ],
-      "items": [
-        {
-          "id": "cc883766d2ca494effc3c248f4efe7bc3519df9f",
-          "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-04T12:00:00Z"
-        },
-        {
-          "id": "40424c68d530dfbd06497a1f591e102c7a22ab50",
-          "title": "Google hasn’t figured out how to make AI pay like its search engine",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-04T12:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.7454,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-04T12:00:00Z",
-      "latest_at": "2026-11-04T12:00:00Z",
-      "primary_item": {
-        "id": "cc883766d2ca494effc3c248f4efe7bc3519df9f",
-        "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
-        "source": "The Verge",
-        "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_231abcc38d1a",
-      "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
-      "url": "https://www.aibase.com/news/32096",
-      "primary_url": "https://www.aibase.com/news/32096",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
-          "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
-          "url": "https://www.aibase.com/news/32096",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-05T01:23:44.939166Z"
-        },
-        {
-          "id": "57ab3a16c3869a534a600aaf01d93ff520bbbba4",
-          "title": "Meta 收购 AI 编程初创公司 Conductor，加码智能体编程赛道",
-          "url": "https://www.ithome.com/1/022/765.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T07:19:12Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
-          "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
-          "url": "https://www.aibase.com/news/32096",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-05T01:23:44.939166Z"
-        },
-        {
-          "id": "57ab3a16c3869a534a600aaf01d93ff520bbbba4",
-          "title": "Meta 收购 AI 编程初创公司 Conductor，加码智能体编程赛道",
-          "url": "https://www.ithome.com/1/022/765.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T07:19:12Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7754,
-      "importance": 0.7754,
-      "importance_score": 0.7754,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9045,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-05T01:23:44.939166Z",
-      "latest_at": "2026-11-05T07:19:12Z",
-      "primary_item": {
-        "id": "3aa40abea025579d7ff13ecca5f945430c568bbd",
-        "title": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
-        "url": "https://www.aibase.com/news/32096",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
