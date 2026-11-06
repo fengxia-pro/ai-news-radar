@@ -1,8 +1,194 @@
 {
-  "generated_at": "2026-11-06T11:23:02.198736Z",
+  "generated_at": "2026-11-06T18:17:34.481897Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_be1ba71e55b7",
+      "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "primary_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
+          "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T14:00:48Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
+          "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T14:00:48Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8592,
+      "importance": 0.8592,
+      "importance_score": 0.8592,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.9401,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-06T14:00:48Z",
+      "latest_at": "2026-11-06T14:00:48Z",
+      "primary_item": {
+        "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
+        "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
+        "url": "https://huggingface.co/blog/allenai/toyblocks",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bc8f9eac1966",
+      "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "primary_url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
+          "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T08:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
+          "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T08:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8271,
+      "importance": 0.8271,
+      "importance_score": 0.8271,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8619,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-06T08:00:00Z",
+      "latest_at": "2026-11-06T08:00:00Z",
+      "primary_item": {
+        "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
+        "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex CLI 0.167.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
+          "title": "Codex CLI 0.167.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
+          "title": "Codex CLI 0.167.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-06T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8242,
+      "importance": 0.8242,
+      "importance_score": 0.8242,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7679,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-06T00:00:00Z",
+      "latest_at": "2026-11-06T00:00:00Z",
+      "primary_item": {
+        "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
+        "title": "Codex CLI 0.167.0",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_e8690f74b67f",
       "title": "NVIDIA 发布 Cosmos 3 开放模型，用于交互式世界模拟 / New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
@@ -57,15 +243,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8483,
-      "importance": 0.8483,
-      "importance_score": 0.8483,
+      "score": 0.8347,
+      "importance": 0.8347,
+      "importance_score": 0.8347,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.796,
+        "recency": 0.7205,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,130 +268,6 @@
         "title": "NVIDIA 发布 Cosmos 3 开放模型，用于交互式世界模拟 / New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
         "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
         "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "Codex CLI 0.167.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-          "title": "Codex CLI 0.167.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-          "title": "Codex CLI 0.167.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8387,
-      "importance": 0.8387,
-      "importance_score": 0.8387,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.8484,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T00:00:00Z",
-      "latest_at": "2026-11-06T00:00:00Z",
-      "primary_item": {
-        "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-        "title": "Codex CLI 0.167.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_c88b52d0b210",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "primary_url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "ba025fbad02a10169c191970e604d56009173d01",
-          "title": "Cult.fit builds operational muscle with Codex",
-          "url": "https://openai.com/index/cultfit-builds-with-codex",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-05T20:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "ba025fbad02a10169c191970e604d56009173d01",
-          "title": "Cult.fit builds operational muscle with Codex",
-          "url": "https://openai.com/index/cultfit-builds-with-codex",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-05T20:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8241,
-      "importance": 0.8241,
-      "importance_score": 0.8241,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8008,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-05T20:00:00Z",
-      "latest_at": "2026-11-05T20:00:00Z",
-      "primary_item": {
-        "id": "ba025fbad02a10169c191970e604d56009173d01",
-        "title": "Cult.fit builds operational muscle with Codex",
-        "url": "https://openai.com/index/cultfit-builds-with-codex",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -244,15 +306,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8174,
-      "importance": 0.8174,
-      "importance_score": 0.8174,
+      "score": 0.8029,
+      "importance": 0.8029,
+      "importance_score": 0.8029,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8523,
+        "recency": 0.7714,
         "story_heat": 0.0
       },
       "category": "official",
@@ -272,111 +334,49 @@
       }
     },
     {
-      "story_id": "story_d7e9e3e89ee7",
-      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑 / Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "primary_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "source": "Google AI Blog",
+      "story_id": "story_c88b52d0b210",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "primary_url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "7a5e46648fa3f11f9617dc0c8228da6bc8321ca7",
-          "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑 / Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-          "source": "Google AI Blog",
+          "id": "ba025fbad02a10169c191970e604d56009173d01",
+          "title": "Cult.fit builds operational muscle with Codex",
+          "url": "https://openai.com/index/cultfit-builds-with-codex",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-05T17:00:00Z"
+          "published_at": "2026-11-05T20:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Google AI Blog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "7a5e46648fa3f11f9617dc0c8228da6bc8321ca7",
-          "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑 / Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-          "source": "Google AI Blog",
+          "id": "ba025fbad02a10169c191970e604d56009173d01",
+          "title": "Cult.fit builds operational muscle with Codex",
+          "url": "https://openai.com/index/cultfit-builds-with-codex",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-05T17:00:00Z"
+          "published_at": "2026-11-05T20:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.81,
-      "importance": 0.81,
-      "importance_score": 0.81,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7668,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-05T17:00:00Z",
-      "latest_at": "2026-11-05T17:00:00Z",
-      "primary_item": {
-        "id": "7a5e46648fa3f11f9617dc0c8228da6bc8321ca7",
-        "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑 / Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_82196d4ece0a",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "primary_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8327,
-      "importance": 0.8327,
-      "importance_score": 0.8327,
+      "score": 0.8105,
+      "importance": 0.8105,
+      "importance_score": 0.8105,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8484,
+        "recency": 0.7248,
         "story_heat": 0.0
       },
       "category": "official",
@@ -385,13 +385,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T00:00:00Z",
-      "latest_at": "2026-11-06T00:00:00Z",
+      "earliest_at": "2026-11-05T20:00:00Z",
+      "latest_at": "2026-11-05T20:00:00Z",
       "primary_item": {
-        "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-        "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-        "source": "Hugging Face Blog",
+        "id": "ba025fbad02a10169c191970e604d56009173d01",
+        "title": "Cult.fit builds operational muscle with Codex",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -449,15 +449,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -511,15 +511,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.817,
-      "importance": 0.817,
-      "importance_score": 0.817,
+      "score": 0.8025,
+      "importance": 0.8025,
+      "importance_score": 0.8025,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8502,
+        "recency": 0.7694,
         "story_heat": 0.0
       },
       "category": "official",
@@ -539,49 +539,49 @@
       }
     },
     {
-      "story_id": "story_b58fee4edbbb",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "primary_url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI News",
+      "story_id": "story_82196d4ece0a",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "primary_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "0d21f3013b6577a82dfdd83b78d72606164b5b3f",
-          "title": "Australian universities are creating AI-native graduates",
-          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-          "source": "OpenAI News",
+          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-05T17:00:00Z"
+          "published_at": "2026-11-06T00:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "0d21f3013b6577a82dfdd83b78d72606164b5b3f",
-          "title": "Australian universities are creating AI-native graduates",
-          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-          "source": "OpenAI News",
+          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-05T17:00:00Z"
+          "published_at": "2026-11-06T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.81,
-      "importance": 0.81,
-      "importance_score": 0.81,
+      "score": 0.8182,
+      "importance": 0.8182,
+      "importance_score": 0.8182,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7668,
+        "ai_relevance": 0.95,
+        "recency": 0.7679,
         "story_heat": 0.0
       },
       "category": "official",
@@ -590,13 +590,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-05T17:00:00Z",
-      "latest_at": "2026-11-05T17:00:00Z",
+      "earliest_at": "2026-11-06T00:00:00Z",
+      "latest_at": "2026-11-06T00:00:00Z",
       "primary_item": {
-        "id": "0d21f3013b6577a82dfdd83b78d72606164b5b3f",
-        "title": "Australian universities are creating AI-native graduates",
-        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-        "source": "OpenAI News",
+        "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
+        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -654,15 +654,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -679,68 +679,6 @@
         "url": "https://www.aibase.com/news/32157",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_e6f7bb0a09ee",
-      "title": "秘密扫描升级探测器，SpaceX 成为合作伙伴 / Secret scanning upgrades detectors, adds SpaceX as partner",
-      "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "primary_url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "bc6de1adec3359c7cb952406e23a7c94e1de80d0",
-          "title": "秘密扫描升级探测器，SpaceX 成为合作伙伴 / Secret scanning upgrades detectors, adds SpaceX as partner",
-          "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-05T15:48:50Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "bc6de1adec3359c7cb952406e23a7c94e1de80d0",
-          "title": "秘密扫描升级探测器，SpaceX 成为合作伙伴 / Secret scanning upgrades detectors, adds SpaceX as partner",
-          "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-05T15:48:50Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7997,
-      "importance": 0.7997,
-      "importance_score": 0.7997,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7538,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-05T15:48:50Z",
-      "latest_at": "2026-11-05T15:48:50Z",
-      "primary_item": {
-        "id": "bc6de1adec3359c7cb952406e23a7c94e1de80d0",
-        "title": "秘密扫描升级探测器，SpaceX 成为合作伙伴 / Secret scanning upgrades detectors, adds SpaceX as partner",
-        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -797,15 +735,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -878,15 +816,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -959,15 +897,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7755,
+      "importance": 0.7755,
+      "importance_score": 0.7755,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.905,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1111,15 +1049,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6389,
-      "importance": 0.6389,
-      "importance_score": 0.6389,
+      "score": 0.6247,
+      "importance": 0.6247,
+      "importance_score": 0.6247,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.8316,
+        "recency": 0.7527,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1209,15 +1147,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6363,
-      "importance": 0.6363,
-      "importance_score": 0.6363,
+      "score": 0.6227,
+      "importance": 0.6227,
+      "importance_score": 0.6227,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.7917,
+        "recency": 0.7165,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1288,15 +1226,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7728,
-      "importance": 0.7728,
-      "importance_score": 0.7728,
+      "score": 0.7576,
+      "importance": 0.7576,
+      "importance_score": 0.7576,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8899,
+        "recency": 0.8054,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1369,15 +1307,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7728,
-      "importance": 0.7728,
-      "importance_score": 0.7728,
+      "score": 0.7576,
+      "importance": 0.7576,
+      "importance_score": 0.7576,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8899,
+        "recency": 0.8054,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1397,197 +1335,261 @@
       }
     },
     {
-      "story_id": "story_b43a95e51bed",
-      "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News (世界新闻)",
-      "source_name": "Info Flow",
+      "story_id": "story_ad7cf1f4b65d",
+      "title": "我很难相信人工智能的研发是独具匠心的",
+      "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "primary_url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "source": "www.lesswrong.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "c2354cc8a41ac2a2dd16967a1199fec08337756a",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Global tech stocks plunge as US midterms add to AI slowdown fears",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T02:57:24Z"
-        },
-        {
-          "id": "134fd9c4082d3201bb2b1292b44ddcc8ebafc6a1",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Major tech stocks plunge as US midterms add to fears of AI slowdown",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T22:13:38Z"
-        },
-        {
-          "id": "aa364991b1f1fa5b627b947c5f4a32828882545c",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
+          "id": "5fc33739fcc0dafbdc3ec992eb93528b175eab22",
+          "title": "我很难相信人工智能的研发是独具匠心的",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "source": "www.lesswrong.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T20:23:11.491000Z"
+          "published_at": "2026-11-06T10:52:42.861000Z"
         },
         {
-          "id": "930fdc4c3ecf2dcf93a19126f41aa96e18c893ec",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-05T16:44:38Z"
+          "id": "8a49b00dc77e6ed7ae2d86a7537142a250be4cb1",
+          "title": "我很难相信人工智能的研发是独具匠心的 / I struggle to believe that AI R&D is ingenious",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-06T05:19:04Z"
+        },
+        {
+          "id": "012f513ef2d9c88d13da43ae58cc33988275ab86",
+          "title": "I struggle to believe that AI R&D is ingenious",
+          "url": "https://news.ycombinator.com/item?id=50388513",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-06T05:19:04Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
-        "BBC News",
-        "BBC News (世界新闻)",
-        "www.bbc.co.uk"
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.lesswrong.com"
       ],
       "items": [
         {
-          "id": "c2354cc8a41ac2a2dd16967a1199fec08337756a",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Global tech stocks plunge as US midterms add to AI slowdown fears",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T02:57:24Z"
-        },
-        {
-          "id": "134fd9c4082d3201bb2b1292b44ddcc8ebafc6a1",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Major tech stocks plunge as US midterms add to fears of AI slowdown",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-05T22:13:38Z"
-        },
-        {
-          "id": "aa364991b1f1fa5b627b947c5f4a32828882545c",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
+          "id": "5fc33739fcc0dafbdc3ec992eb93528b175eab22",
+          "title": "我很难相信人工智能的研发是独具匠心的",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "source": "www.lesswrong.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-05T20:23:11.491000Z"
+          "published_at": "2026-11-06T10:52:42.861000Z"
         },
         {
-          "id": "930fdc4c3ecf2dcf93a19126f41aa96e18c893ec",
-          "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-05T16:44:38Z"
+          "id": "8a49b00dc77e6ed7ae2d86a7537142a250be4cb1",
+          "title": "我很难相信人工智能的研发是独具匠心的 / I struggle to believe that AI R&D is ingenious",
+          "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-06T05:19:04Z"
+        },
+        {
+          "id": "012f513ef2d9c88d13da43ae58cc33988275ab86",
+          "title": "I struggle to believe that AI R&D is ingenious",
+          "url": "https://news.ycombinator.com/item?id=50388513",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-06T05:19:04Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5752,
-      "importance": 0.5752,
-      "importance_score": 0.5752,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5525,
+      "importance": 0.5525,
+      "importance_score": 0.5525,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8854,
-        "story_heat": 0.75
+        "recency": 0.8985,
+        "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-05T16:44:38Z",
-      "latest_at": "2026-11-06T02:57:24Z",
+      "earliest_at": "2026-11-06T05:19:04Z",
+      "latest_at": "2026-11-06T10:52:42.861000Z",
       "primary_item": {
-        "id": "c2354cc8a41ac2a2dd16967a1199fec08337756a",
-        "title": "随着科技股和人工智能股下跌，马斯克旗下SpaceX的股价暴跌 / Global tech stocks plunge as US midterms add to AI slowdown fears",
-        "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News (世界新闻)",
-        "source_name": "Info Flow"
+        "id": "5fc33739fcc0dafbdc3ec992eb93528b175eab22",
+        "title": "我很难相信人工智能的研发是独具匠心的",
+        "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+        "source": "www.lesswrong.com",
+        "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_49dbbd04a6b4",
-      "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
-      "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-      "primary_url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-      "source": "The Verge",
-      "source_name": "Curated Media",
+      "story_id": "story_5896265e356c",
+      "title": "一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+      "url": "https://www.aibase.com/news/32135",
+      "primary_url": "https://www.aibase.com/news/32135",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
-          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
-          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-05T15:00:00Z"
+          "id": "8ebf7da3bcf78b11309cd920eb21444ab8dbe9e3",
+          "title": "一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+          "url": "https://www.aibase.com/news/32135",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-06T03:18:22.438495Z"
         },
         {
-          "id": "67c95d1f130194b49e9c29d301186bb704f3dcdd",
-          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram’s new desktop Edits app",
-          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-05T15:00:00Z"
+          "id": "08fa8e36e791a51e15e29167bac393fa5cbdb962",
+          "title": "OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+          "url": "https://www.aibase.com/zh/news/32135",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "source_count": 2,
       "source_names": [
-        "The Verge"
+        "AIbase",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
-          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
-          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-05T15:00:00Z"
+          "id": "8ebf7da3bcf78b11309cd920eb21444ab8dbe9e3",
+          "title": "一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+          "url": "https://www.aibase.com/news/32135",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-06T03:18:22.438495Z"
         },
         {
-          "id": "67c95d1f130194b49e9c29d301186bb704f3dcdd",
-          "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram’s new desktop Edits app",
-          "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-05T15:00:00Z"
+          "id": "08fa8e36e791a51e15e29167bac393fa5cbdb962",
+          "title": "OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+          "url": "https://www.aibase.com/zh/news/32135",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.7576,
+      "importance": 0.7576,
+      "importance_score": 0.7576,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8054,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-06T03:18:22.438495Z",
+      "latest_at": "2026-11-06T03:18:22.438495Z",
+      "primary_item": {
+        "id": "8ebf7da3bcf78b11309cd920eb21444ab8dbe9e3",
+        "title": "一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+        "url": "https://www.aibase.com/news/32135",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_6d4b91e6a38c",
+      "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+      "url": "https://up.codes/careers",
+      "primary_url": "https://up.codes/careers",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "8ac591c1ce5beafb3382c439219121a60cf73482",
+          "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+          "url": "https://up.codes/careers",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-06T17:03:33Z"
+        },
+        {
+          "id": "0fe688e2b3eaef05f2f1f6919303ccf5f6bb3fd0",
+          "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+          "url": "https://news.ycombinator.com/item?id=50395043",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-06T17:03:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "8ac591c1ce5beafb3382c439219121a60cf73482",
+          "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+          "url": "https://up.codes/careers",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-06T17:03:33Z"
+        },
+        {
+          "id": "0fe688e2b3eaef05f2f1f6919303ccf5f6bb3fd0",
+          "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+          "url": "https://news.ycombinator.com/item?id=50395043",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-06T17:03:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5426,
+      "importance": 0.5426,
+      "importance_score": 0.5426,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.745,
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9823,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-05T15:00:00Z",
-      "latest_at": "2026-11-05T15:00:00Z",
+      "earliest_at": "2026-11-06T17:03:33Z",
+      "latest_at": "2026-11-06T17:03:33Z",
       "primary_item": {
-        "id": "172eed791f80b2f1594ff0edd40c897c78f0a8bf",
-        "title": "您可以在 Instagram 的新桌面编辑应用程序上使用 AI 编辑视频 / You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
-        "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
-        "source": "The Verge",
-        "source_name": "Curated Media"
+        "id": "8ac591c1ce5beafb3382c439219121a60cf73482",
+        "title": "UpCodes (YC S17) 正在雇用 SDR 来销售人工智能合规软件 / UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+        "url": "https://up.codes/careers",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
       }
     }
   ]
