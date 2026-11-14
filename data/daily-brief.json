@@ -1,24 +1,86 @@
 {
-  "generated_at": "2026-11-06T23:25:17.532903Z",
+  "generated_at": "2026-11-14T14:11:49.969513Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_df141a94aef9",
-      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-      "primary_url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "story_id": "story_2427bacb74a9",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "primary_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "8d6047526ff3cf385f3c1d78c8bc353a3d3b4442",
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-13T18:00:39Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "8d6047526ff3cf385f3c1d78c8bc353a3d3b4442",
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-13T18:00:39Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8205,
+      "importance": 0.8205,
+      "importance_score": 0.8205,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7471,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-13T18:00:39Z",
+      "latest_at": "2026-11-13T18:00:39Z",
+      "primary_item": {
+        "id": "8d6047526ff3cf385f3c1d78c8bc353a3d3b4442",
+        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e8c3c469932b",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "0a471a22197c1926949bc0f24eb536ce9837e4f3",
-          "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-          "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+          "id": "fe5b53054d8620e562361ac2fbde39fb583c7f55",
+          "title": "Gemini 4 Hydrogen in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T22:17:28Z"
+          "published_at": "2026-11-13T18:23:48Z"
         }
       ],
       "source_count": 1,
@@ -27,356 +89,26 @@
       ],
       "items": [
         {
-          "id": "0a471a22197c1926949bc0f24eb536ce9837e4f3",
-          "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-          "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+          "id": "fe5b53054d8620e562361ac2fbde39fb583c7f55",
+          "title": "Gemini 4 Hydrogen in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T22:17:28Z"
+          "published_at": "2026-11-13T18:23:48Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8491,
-      "importance": 0.8491,
-      "importance_score": 0.8491,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9838,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T22:17:28Z",
-      "latest_at": "2026-11-06T22:17:28Z",
-      "primary_item": {
-        "id": "0a471a22197c1926949bc0f24eb536ce9837e4f3",
-        "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-        "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_be1ba71e55b7",
-      "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "primary_url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
-          "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
-          "url": "https://huggingface.co/blog/allenai/toyblocks",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T14:00:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
-          "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
-          "url": "https://huggingface.co/blog/allenai/toyblocks",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T14:00:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8471,
-      "importance": 0.8471,
-      "importance_score": 0.8471,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.873,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T14:00:48Z",
-      "latest_at": "2026-11-06T14:00:48Z",
-      "primary_item": {
-        "id": "a100fcc3e909a1dcbb72bdee0996e7bbccfdad8d",
-        "title": "ToyBlocks：用于机器人学习和评估的受控世界 / ToyBlocks: A controlled world for robot learning and evaluation",
-        "url": "https://huggingface.co/blog/allenai/toyblocks",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_5cecc12e376b",
-      "title": "Beyond code generation: A developer’s guide to agentic engineering",
-      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "944ae2d1d51482ecd077a4290415714a03b50c20",
-          "title": "Beyond code generation: A developer’s guide to agentic engineering",
-          "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T22:15:59Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "items": [
-        {
-          "id": "944ae2d1d51482ecd077a4290415714a03b50c20",
-          "title": "Beyond code generation: A developer’s guide to agentic engineering",
-          "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T22:15:59Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.847,
-      "importance": 0.847,
-      "importance_score": 0.847,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.9835,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T22:15:59Z",
-      "latest_at": "2026-11-06T22:15:59Z",
-      "primary_item": {
-        "id": "944ae2d1d51482ecd077a4290415714a03b50c20",
-        "title": "Beyond code generation: A developer’s guide to agentic engineering",
-        "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_bc8f9eac1966",
-      "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "primary_url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
-          "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T08:00:00Z"
-        },
-        {
-          "id": "066b4628f2a1c4cd02fbc1bee08e5f039ab13a98",
-          "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
-          "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T08:00:00Z"
-        },
-        {
-          "id": "066b4628f2a1c4cd02fbc1bee08e5f039ab13a98",
-          "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8411,
-      "importance": 0.8411,
-      "importance_score": 0.8411,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8004,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T08:00:00Z",
-      "latest_at": "2026-11-06T23:25:17.532903Z",
-      "primary_item": {
-        "id": "804c3bd9d52e8cbf9d76dbef2136e2afab72fe17",
-        "title": "OpenAI 与 Hacktron 合作，排查其系统漏洞 / Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-        "url": "https://openai.com/index/partnering-with-hacktron",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "Codex CLI 0.167.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-          "title": "Codex CLI 0.167.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-          "title": "Codex CLI 0.167.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8143,
-      "importance": 0.8143,
-      "importance_score": 0.8143,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.713,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T00:00:00Z",
-      "latest_at": "2026-11-06T00:00:00Z",
-      "primary_item": {
-        "id": "88677f33f1069dded4b9389443a6b9d0786a0f3b",
-        "title": "Codex CLI 0.167.0",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_82196d4ece0a",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "primary_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8083,
-      "importance": 0.8083,
-      "importance_score": 0.8083,
+      "score": 0.8152,
+      "importance": 0.8152,
+      "importance_score": 0.8152,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.713,
+        "recency": 0.7513,
         "story_heat": 0.0
       },
       "category": "official",
@@ -385,32 +117,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T00:00:00Z",
-      "latest_at": "2026-11-06T00:00:00Z",
+      "earliest_at": "2026-11-13T18:23:48Z",
+      "latest_at": "2026-11-13T18:23:48Z",
       "primary_item": {
-        "id": "393b75bdaf2aa53e3f359f494e75d59159173394",
-        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-        "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-        "source": "Hugging Face Blog",
+        "id": "fe5b53054d8620e562361ac2fbde39fb583c7f55",
+        "title": "Gemini 4 Hydrogen in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_cfd4354afa14",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "primary_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "story_id": "story_5bf4951adbe9",
+      "title": "ChatGPT 钱包简介 / Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "primary_url": "https://openai.com/index/introducing-chatgpt-wallet",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "4c2fc6e62bb42d2d74a4034974cacd8015e18940",
-          "title": "Measuring how AI agents handle everyday wet-lab science",
-          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "id": "79d6c8d87c30dafcc370eb46110431b59109dba0",
+          "title": "ChatGPT 钱包简介 / Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
+          "published_at": "2026-11-13T15:00:00Z"
         }
       ],
       "source_count": 1,
@@ -419,26 +151,26 @@
       ],
       "items": [
         {
-          "id": "4c2fc6e62bb42d2d74a4034974cacd8015e18940",
-          "title": "Measuring how AI agents handle everyday wet-lab science",
-          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "id": "79d6c8d87c30dafcc370eb46110431b59109dba0",
+          "title": "ChatGPT 钱包简介 / Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:00:00Z"
+          "published_at": "2026-11-13T15:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8003,
-      "importance": 0.8003,
-      "importance_score": 0.8003,
+      "score": 0.8088,
+      "importance": 0.8088,
+      "importance_score": 0.8088,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.713,
+        "ai_relevance": 0.95,
+        "recency": 0.7154,
         "story_heat": 0.0
       },
       "category": "official",
@@ -447,141 +179,60 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T00:00:00Z",
-      "latest_at": "2026-11-06T00:00:00Z",
+      "earliest_at": "2026-11-13T15:00:00Z",
+      "latest_at": "2026-11-13T15:00:00Z",
       "primary_item": {
-        "id": "4c2fc6e62bb42d2d74a4034974cacd8015e18940",
-        "title": "Measuring how AI agents handle everyday wet-lab science",
-        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "id": "79d6c8d87c30dafcc370eb46110431b59109dba0",
+        "title": "ChatGPT 钱包简介 / Introducing ChatGPT Wallet",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_70129b228afb",
-      "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-      "url": "https://www.aibase.com/news/32156",
-      "primary_url": "https://www.aibase.com/news/32156",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "c0819ef54af76b9fc037e84664a0f69d163aa499",
-          "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-          "url": "https://www.aibase.com/news/32156",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "f72a4c65e7ad67bf7b36f3e5a5d69520d9b7fda3",
-          "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-          "url": "https://www.aibase.com/zh/news/32156",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "c0819ef54af76b9fc037e84664a0f69d163aa499",
-          "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-          "url": "https://www.aibase.com/news/32156",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "f72a4c65e7ad67bf7b36f3e5a5d69520d9b7fda3",
-          "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-          "url": "https://www.aibase.com/zh/news/32156",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8404,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T11:23:02.198736Z",
-      "latest_at": "2026-11-06T11:23:02.198736Z",
-      "primary_item": {
-        "id": "c0819ef54af76b9fc037e84664a0f69d163aa499",
-        "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
-        "url": "https://www.aibase.com/news/32156",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_dcf7efe8bcfb",
-      "title": "Usage metrics API adds code review details and addressed rate",
-      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-      "primary_url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-      "source": "GitHub Changelog",
+      "story_id": "story_8400bdfe1e2a",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "primary_url": "https://huggingface.co/blog/allenai/xybench",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "c2737b9d0db10690646fc4acd9b75e709d9c7f50",
-          "title": "Usage metrics API adds code review details and addressed rate",
-          "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-          "source": "GitHub Changelog",
+          "id": "0288890466b70d4405f5ca3f04df63e831a672c4",
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:19:07Z"
+          "published_at": "2026-11-13T17:02:35Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "c2737b9d0db10690646fc4acd9b75e709d9c7f50",
-          "title": "Usage metrics API adds code review details and addressed rate",
-          "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-          "source": "GitHub Changelog",
+          "id": "0288890466b70d4405f5ca3f04df63e831a672c4",
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:19:07Z"
+          "published_at": "2026-11-13T17:02:35Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7929,
-      "importance": 0.7929,
-      "importance_score": 0.7929,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7163,
+        "ai_relevance": 0.95,
+        "recency": 0.7368,
         "story_heat": 0.0
       },
       "category": "official",
@@ -590,113 +241,32 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T00:19:07Z",
-      "latest_at": "2026-11-06T00:19:07Z",
+      "earliest_at": "2026-11-13T17:02:35Z",
+      "latest_at": "2026-11-13T17:02:35Z",
       "primary_item": {
-        "id": "c2737b9d0db10690646fc4acd9b75e709d9c7f50",
-        "title": "Usage metrics API adds code review details and addressed rate",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-        "source": "GitHub Changelog",
+        "id": "0288890466b70d4405f5ca3f04df63e831a672c4",
+        "title": "XYBench: Helping with the problem behind the question",
+        "url": "https://huggingface.co/blog/allenai/xybench",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_9053f231c4d2",
-      "title": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关?",
-      "url": "https://www.aibase.com/news/32157",
-      "primary_url": "https://www.aibase.com/news/32157",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "b6747e0f0a9806ebfafb9720c4f874eda8b0a570",
-          "title": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关?",
-          "url": "https://www.aibase.com/news/32157",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "630d116ca5e95535599d7e8fa2db827942b65e24",
-          "title": "准确率刷新行业上限，Pangram 凭何接连攻克图像与视频 AI 检测难关？",
-          "url": "https://www.aibase.com/zh/news/32157",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "b6747e0f0a9806ebfafb9720c4f874eda8b0a570",
-          "title": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关?",
-          "url": "https://www.aibase.com/news/32157",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "630d116ca5e95535599d7e8fa2db827942b65e24",
-          "title": "准确率刷新行业上限，Pangram 凭何接连攻克图像与视频 AI 检测难关？",
-          "url": "https://www.aibase.com/zh/news/32157",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8404,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-06T11:23:02.198736Z",
-      "latest_at": "2026-11-06T11:23:02.198736Z",
-      "primary_item": {
-        "id": "b6747e0f0a9806ebfafb9720c4f874eda8b0a570",
-        "title": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关?",
-        "url": "https://www.aibase.com/news/32157",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_b6de41f0f45e",
-      "title": "Usage metrics API flags telemetry and version gaps",
-      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-      "primary_url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "story_id": "story_bc1ca702be31",
+      "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "primary_url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "0d916efc5e7382218a7bf118a3ede0df4ced1309",
-          "title": "Usage metrics API flags telemetry and version gaps",
-          "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+          "id": "28a35c9276d4f91ecf4c3f72520016072b08a540",
+          "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:08:31Z"
+          "published_at": "2026-11-13T20:40:05Z"
         }
       ],
       "source_count": 1,
@@ -705,26 +275,26 @@
       ],
       "items": [
         {
-          "id": "0d916efc5e7382218a7bf118a3ede0df4ced1309",
-          "title": "Usage metrics API flags telemetry and version gaps",
-          "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+          "id": "28a35c9276d4f91ecf4c3f72520016072b08a540",
+          "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-06T00:08:31Z"
+          "published_at": "2026-11-13T20:40:05Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.8117,
+      "importance": 0.8117,
+      "importance_score": 0.8117,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7145,
+        "ai_relevance": 0.91,
+        "recency": 0.7764,
         "story_heat": 0.0
       },
       "category": "official",
@@ -733,743 +303,780 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T00:08:31Z",
-      "latest_at": "2026-11-06T00:08:31Z",
+      "earliest_at": "2026-11-13T20:40:05Z",
+      "latest_at": "2026-11-13T20:40:05Z",
       "primary_item": {
-        "id": "0d916efc5e7382218a7bf118a3ede0df4ced1309",
-        "title": "Usage metrics API flags telemetry and version gaps",
-        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "id": "28a35c9276d4f91ecf4c3f72520016072b08a540",
+        "title": "即将于 12 月弃用选定的 GitHub Copilot 模型 / Upcoming deprecation of selected GitHub Copilot models in December",
+        "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
     {
-      "story_id": "story_9202faa10f73",
-      "title": "披着“名人外衣”的AI乱象迎严惩:多平台违规账号被集中处置",
-      "url": "https://www.aibase.com/news/32145",
-      "primary_url": "https://www.aibase.com/news/32145",
+      "story_id": "story_53dbbc26da9d",
+      "title": "运动、饮食、作息都可能导致血糖波动，千问接入动态血糖仪，上线「分析我的血糖状态」",
+      "url": "https://www.aibase.com/news/32323",
+      "primary_url": "https://www.aibase.com/news/32323",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "b894fca77eff8b2f8a72b2c084eb6890e536f9bf",
-          "title": "披着“名人外衣”的AI乱象迎严惩:多平台违规账号被集中处置",
-          "url": "https://www.aibase.com/news/32145",
+          "id": "e86fe674515d1a792f8b4fcde11764a6b9adb3fd",
+          "title": "运动、饮食、作息都可能导致血糖波动，千问接入动态血糖仪，上线「分析我的血糖状态」",
+          "url": "https://www.aibase.com/news/32323",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "7e5a0d1d950d07a883d1b7404142be84d9a4dc82",
-          "title": "披着「名人外衣」的 AI 乱象迎严惩：多平台违规账号被集中处置",
-          "url": "https://www.aibase.com/zh/news/32145",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-14T14:11:49.969513Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "b894fca77eff8b2f8a72b2c084eb6890e536f9bf",
-          "title": "披着“名人外衣”的AI乱象迎严惩:多平台违规账号被集中处置",
-          "url": "https://www.aibase.com/news/32145",
+          "id": "e86fe674515d1a792f8b4fcde11764a6b9adb3fd",
+          "title": "运动、饮食、作息都可能导致血糖波动，千问接入动态血糖仪，上线「分析我的血糖状态」",
+          "url": "https://www.aibase.com/news/32323",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "7e5a0d1d950d07a883d1b7404142be84d9a4dc82",
-          "title": "披着「名人外衣」的 AI 乱象迎严惩：多平台违规账号被集中处置",
-          "url": "https://www.aibase.com/zh/news/32145",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-14T14:11:49.969513Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8404,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-06T11:23:02.198736Z",
-      "latest_at": "2026-11-06T11:23:02.198736Z",
+      "earliest_at": "2026-11-14T14:11:49.969513Z",
+      "latest_at": "2026-11-14T14:11:49.969513Z",
       "primary_item": {
-        "id": "b894fca77eff8b2f8a72b2c084eb6890e536f9bf",
-        "title": "披着“名人外衣”的AI乱象迎严惩:多平台违规账号被集中处置",
-        "url": "https://www.aibase.com/news/32145",
+        "id": "e86fe674515d1a792f8b4fcde11764a6b9adb3fd",
+        "title": "运动、饮食、作息都可能导致血糖波动，千问接入动态血糖仪，上线「分析我的血糖状态」",
+        "url": "https://www.aibase.com/news/32323",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_d1d21577ec6a",
-      "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-      "url": "https://www.aibase.com/news/32151",
-      "primary_url": "https://www.aibase.com/news/32151",
+      "story_id": "story_18a36c2817e7",
+      "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "primary_url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5604e5218e704ab0923f3e11bbf18855021b2111",
+          "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-13T18:27:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "5604e5218e704ab0923f3e11bbf18855021b2111",
+          "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-13T18:27:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8073,
+      "importance": 0.8073,
+      "importance_score": 0.8073,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7519,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-13T18:27:13Z",
+      "latest_at": "2026-11-13T18:27:13Z",
+      "primary_item": {
+        "id": "5604e5218e704ab0923f3e11bbf18855021b2111",
+        "title": "GitHub Copilot 应用程序中的 GitHub Enterprise Server 支持 / GitHub Enterprise Server support in the GitHub Copilot app",
+        "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_dfb041e12db6",
+      "title": "英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任",
+      "url": "https://www.aibase.com/news/32321",
+      "primary_url": "https://www.aibase.com/news/32321",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "4af014a5a48e73079d3e119009a8c13aa39c1b24",
-          "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-          "url": "https://www.aibase.com/news/32151",
+          "id": "299acdd956cdad513ff6a759adb2eec679532916",
+          "title": "英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任",
+          "url": "https://www.aibase.com/news/32321",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "bf53970454444d029d1c9668706d6e2042712000",
-          "title": "淘宝 MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-          "url": "https://www.aibase.com/zh/news/32151",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-13T18:11:49.969513Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "4af014a5a48e73079d3e119009a8c13aa39c1b24",
-          "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-          "url": "https://www.aibase.com/news/32151",
+          "id": "299acdd956cdad513ff6a759adb2eec679532916",
+          "title": "英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任",
+          "url": "https://www.aibase.com/news/32321",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "bf53970454444d029d1c9668706d6e2042712000",
-          "title": "淘宝 MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-          "url": "https://www.aibase.com/zh/news/32151",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-13T18:11:49.969513Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7224,
+      "importance": 0.7224,
+      "importance_score": 0.7224,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8404,
-        "story_heat": 0.25
+        "recency": 0.7492,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-11-06T11:23:02.198736Z",
-      "latest_at": "2026-11-06T11:23:02.198736Z",
+      "earliest_at": "2026-11-13T18:11:49.969513Z",
+      "latest_at": "2026-11-13T18:11:49.969513Z",
       "primary_item": {
-        "id": "4af014a5a48e73079d3e119009a8c13aa39c1b24",
-        "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
-        "url": "https://www.aibase.com/news/32151",
+        "id": "299acdd956cdad513ff6a759adb2eec679532916",
+        "title": "英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任",
+        "url": "https://www.aibase.com/news/32321",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_d38f4eb7822c",
-      "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%",
-      "url": "https://www.aibase.com/news/32146",
-      "primary_url": "https://www.aibase.com/news/32146",
+      "story_id": "story_d38d83101a9a",
+      "title": "语飞国际中文教育垂直大模型发布：深度融合专业教学场景，为全球师生与机构提供智能化服务",
+      "url": "https://www.aibase.com/news/32322",
+      "primary_url": "https://www.aibase.com/news/32322",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "ade36b16c6a8c100e21646435372c89f5125e558",
-          "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%",
-          "url": "https://www.aibase.com/news/32146",
+          "id": "a402eef3d8bbb4a0cec313cce19c66e73cf2fa99",
+          "title": "语飞国际中文教育垂直大模型发布：深度融合专业教学场景，为全球师生与机构提供智能化服务",
+          "url": "https://www.aibase.com/news/32322",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "0523f16ad0826463f75f125e674b1341dfd952de",
-          "title": "谷歌发布 Gemini Omni1.2Flash：单次时长增至 15 秒，成本降幅达 30%",
-          "url": "https://www.aibase.com/zh/news/32146",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-13T18:11:49.969513Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "ade36b16c6a8c100e21646435372c89f5125e558",
-          "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%",
-          "url": "https://www.aibase.com/news/32146",
+          "id": "a402eef3d8bbb4a0cec313cce19c66e73cf2fa99",
+          "title": "语飞国际中文教育垂直大模型发布：深度融合专业教学场景，为全球师生与机构提供智能化服务",
+          "url": "https://www.aibase.com/news/32322",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T11:23:02.198736Z"
-        },
-        {
-          "id": "0523f16ad0826463f75f125e674b1341dfd952de",
-          "title": "谷歌发布 Gemini Omni1.2Flash：单次时长增至 15 秒，成本降幅达 30%",
-          "url": "https://www.aibase.com/zh/news/32146",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
+          "published_at": "2026-11-13T18:11:49.969513Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7639,
-      "importance": 0.7639,
-      "importance_score": 0.7639,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7224,
+      "importance": 0.7224,
+      "importance_score": 0.7224,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8404,
-        "story_heat": 0.25
+        "recency": 0.7492,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-11-06T11:23:02.198736Z",
-      "latest_at": "2026-11-06T11:23:02.198736Z",
+      "earliest_at": "2026-11-13T18:11:49.969513Z",
+      "latest_at": "2026-11-13T18:11:49.969513Z",
       "primary_item": {
-        "id": "ade36b16c6a8c100e21646435372c89f5125e558",
-        "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%",
-        "url": "https://www.aibase.com/news/32146",
+        "id": "a402eef3d8bbb4a0cec313cce19c66e73cf2fa99",
+        "title": "语飞国际中文教育垂直大模型发布：深度融合专业教学场景，为全球师生与机构提供智能化服务",
+        "url": "https://www.aibase.com/news/32322",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_52e0623fab79",
-      "title": "Meta 的 Muse AI 可以为您现在需要的应用程序版本创建自定义“空间” / Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "primary_url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "source": "The Verge",
+      "story_id": "story_2df82173bb28",
+      "title": "WaytoAGI第七期AI硬件训练营顺利结营，超半数学员是零基础小白，依托EasyInput V2.0开发板，在8节课程、社群互助中跑通软硬件开发链路。大家从自身生活需求出发，产出育儿记录、英语学习、桌面工作台等大量落地作品。这篇文章完整收录了学员成长故事、实战金句与可复用踩坑经验，适合想入门 AI 硬件、动手把想法做成实体项目的创作者参考。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+      "source": "社区更新 · 2026-11-13",
+      "source_name": "WaytoAGI",
+      "sources": [
+        {
+          "id": "e2d1ebd590be4fb0b376b65e5e6b346c23a8b475",
+          "title": "WaytoAGI第七期AI硬件训练营顺利结营，超半数学员是零基础小白，依托EasyInput V2.0开发板，在8节课程、社群互助中跑通软硬件开发链路。大家从自身生活需求出发，产出育儿记录、英语学习、桌面工作台等大量落地作品。这篇文章完整收录了学员成长故事、实战金句与可复用踩坑经验，适合想入门 AI 硬件、动手把想法做成实体项目的创作者参考。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "ffa4c7c0b6c0a23053eacd4af9cc78d66723b8b9",
+          "title": "不会写代码，怎么用 AI 做出自己的第一个产品？作者用豆包工作，带你从零搓出你的第一个产品。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "0e1f76d1e714acb63fbd995969f44ae078fb2b51",
+          "title": "用AI做图，有时候好不容易出了一张满意的，想改两个字，结果连旁边的东西都变了。再改一轮，又冒出别的问题，真挺烦的。老金这次直接拿即梦 Seedream 5.5 做实测，一起看看到底好不好用？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "b8e13988848de95f19d731b31008cbcda41030c5",
+          "title": "这篇集结了Next Token多期沉淀的AI认知金句，围绕Token经济学、AI原生产品、Agent架构、个人品牌与组织转型展开。或许你也能从中获得审视AI生意与创作路径的新思路。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "社区更新 · 2026-11-13"
+      ],
+      "items": [
+        {
+          "id": "e2d1ebd590be4fb0b376b65e5e6b346c23a8b475",
+          "title": "WaytoAGI第七期AI硬件训练营顺利结营，超半数学员是零基础小白，依托EasyInput V2.0开发板，在8节课程、社群互助中跑通软硬件开发链路。大家从自身生活需求出发，产出育儿记录、英语学习、桌面工作台等大量落地作品。这篇文章完整收录了学员成长故事、实战金句与可复用踩坑经验，适合想入门 AI 硬件、动手把想法做成实体项目的创作者参考。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "ffa4c7c0b6c0a23053eacd4af9cc78d66723b8b9",
+          "title": "不会写代码，怎么用 AI 做出自己的第一个产品？作者用豆包工作，带你从零搓出你的第一个产品。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "0e1f76d1e714acb63fbd995969f44ae078fb2b51",
+          "title": "用AI做图，有时候好不容易出了一张满意的，想改两个字，结果连旁边的东西都变了。再改一轮，又冒出别的问题，真挺烦的。老金这次直接拿即梦 Seedream 5.5 做实测，一起看看到底好不好用？",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        },
+        {
+          "id": "b8e13988848de95f19d731b31008cbcda41030c5",
+          "title": "这篇集结了Next Token多期沉淀的AI认知金句，围绕Token经济学、AI原生产品、Agent架构、个人品牌与组织转型展开。或许你也能从中获得审视AI生意与创作路径的新思路。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-13",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-14T14:11:49.969513Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.6442,
+      "importance": 0.6442,
+      "importance_score": 0.6442,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-14T14:11:49.969513Z",
+      "latest_at": "2026-11-14T14:11:49.969513Z",
+      "primary_item": {
+        "id": "e2d1ebd590be4fb0b376b65e5e6b346c23a8b475",
+        "title": "WaytoAGI第七期AI硬件训练营顺利结营，超半数学员是零基础小白，依托EasyInput V2.0开发板，在8节课程、社群互助中跑通软硬件开发链路。大家从自身生活需求出发，产出育儿记录、英语学习、桌面工作台等大量落地作品。这篇文章完整收录了学员成长故事、实战金句与可复用踩坑经验，适合想入门 AI 硬件、动手把想法做成实体项目的创作者参考。",
+        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+        "source": "社区更新 · 2026-11-13",
+        "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_866eb7e208fb",
+      "title": "Claude 辅助完成 19 万行代码，成功对三元哥德巴赫猜想进行形式化证明",
+      "url": "https://www.aibase.com/news/32317",
+      "primary_url": "https://www.aibase.com/news/32317",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "ee4aaa679e98087c80ff158622f4098bfffbaa6b",
+          "title": "Claude 辅助完成 19 万行代码，成功对三元哥德巴赫猜想进行形式化证明",
+          "url": "https://www.aibase.com/news/32317",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-13T17:11:49.969513Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "ee4aaa679e98087c80ff158622f4098bfffbaa6b",
+          "title": "Claude 辅助完成 19 万行代码，成功对三元哥德巴赫猜想进行形式化证明",
+          "url": "https://www.aibase.com/news/32317",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-13T17:11:49.969513Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7205,
+      "importance": 0.7205,
+      "importance_score": 0.7205,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7384,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-11-13T17:11:49.969513Z",
+      "latest_at": "2026-11-13T17:11:49.969513Z",
+      "primary_item": {
+        "id": "ee4aaa679e98087c80ff158622f4098bfffbaa6b",
+        "title": "Claude 辅助完成 19 万行代码，成功对三元哥德巴赫猜想进行形式化证明",
+        "url": "https://www.aibase.com/news/32317",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_f17748102e2c",
+      "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃，詹森！ / Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "primary_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "source": "TechCrunch AI",
       "source_name": "Curated Media",
       "sources": [
         {
-          "id": "b11483a3cf8a1467162ddb565e4965805e41f34b",
-          "title": "Meta 的 Muse AI 可以为您现在需要的应用程序版本创建自定义“空间” / Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "source": "The Verge",
+          "id": "01243e8890326cbc6dad58f0babc7f553d980032",
+          "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃，詹森！ / Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "source": "TechCrunch AI",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-11-06T18:10:10Z"
+          "published_at": "2026-11-13T18:40:30Z"
         },
         {
-          "id": "0a640d0412560f1f9868bacd221052c7a6adaaa6",
-          "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "source": "The Verge",
+          "id": "432c078816438f63601a8a6739b57cbd88848b25",
+          "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃哦，Jensen！ / Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-06T18:10:10Z"
+          "published_at": "2026-11-13T18:40:30Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "The Verge"
+        "TechCrunch",
+        "TechCrunch AI"
       ],
       "items": [
         {
-          "id": "b11483a3cf8a1467162ddb565e4965805e41f34b",
-          "title": "Meta 的 Muse AI 可以为您现在需要的应用程序版本创建自定义“空间” / Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "source": "The Verge",
+          "id": "01243e8890326cbc6dad58f0babc7f553d980032",
+          "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃，詹森！ / Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "source": "TechCrunch AI",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-11-06T18:10:10Z"
+          "published_at": "2026-11-13T18:40:30Z"
         },
         {
-          "id": "0a640d0412560f1f9868bacd221052c7a6adaaa6",
-          "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "source": "The Verge",
+          "id": "432c078816438f63601a8a6739b57cbd88848b25",
+          "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃哦，Jensen！ / Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-06T18:10:10Z"
+          "published_at": "2026-11-13T18:40:30Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6023,
-      "importance": 0.6023,
-      "importance_score": 0.6023,
+      "score": 0.6129,
+      "importance": 0.6129,
+      "importance_score": 0.6129,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.4896,
+        "editorial": 0.5616,
         "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.927,
+        "ai_relevance": 0.78,
+        "recency": 0.7543,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-06T18:10:10Z",
-      "latest_at": "2026-11-06T18:10:10Z",
+      "earliest_at": "2026-11-13T18:40:30Z",
+      "latest_at": "2026-11-13T18:40:30Z",
       "primary_item": {
-        "id": "b11483a3cf8a1467162ddb565e4965805e41f34b",
-        "title": "Meta 的 Muse AI 可以为您现在需要的应用程序版本创建自定义“空间” / Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-        "source": "The Verge",
+        "id": "01243e8890326cbc6dad58f0babc7f553d980032",
+        "title": "被禁止出口的 Nvidia 芯片是中国最强大的人工智能模型的背后——呃，詹森！ / Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+        "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+        "source": "TechCrunch AI",
         "source_name": "Curated Media"
       }
     },
     {
-      "story_id": "story_534eb87e3205",
-      "title": "Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪",
-      "url": "https://www.aibase.com/news/32128",
-      "primary_url": "https://www.aibase.com/news/32128",
+      "story_id": "story_70351bf43c97",
+      "title": "比高端型号还猛却更便宜，Google 用\"Gemini 4 Hydrogen\"上演反向内卷",
+      "url": "https://www.aibase.com/news/32318",
+      "primary_url": "https://www.aibase.com/news/32318",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "eaee0cad8d4358b62ed384f2554e31839a21b647",
-          "title": "Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪",
-          "url": "https://www.aibase.com/news/32128",
+          "id": "409724ecc54343400155240e8c1b7fb7022a0cc7",
+          "title": "比高端型号还猛却更便宜，Google 用\"Gemini 4 Hydrogen\"上演反向内卷",
+          "url": "https://www.aibase.com/news/32318",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T03:18:22.438495Z"
-        },
-        {
-          "id": "1784b6ddd4fcf7dabef4449de835442efc48edbb",
-          "title": "Anthropic 推出 Claude 个人理财功能，支持消费分析和账单追踪",
-          "url": "https://www.ithome.com/1/023/051.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T00:37:10Z"
+          "published_at": "2026-11-13T17:11:49.969513Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "eaee0cad8d4358b62ed384f2554e31839a21b647",
-          "title": "Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪",
-          "url": "https://www.aibase.com/news/32128",
+          "id": "409724ecc54343400155240e8c1b7fb7022a0cc7",
+          "title": "比高端型号还猛却更便宜，Google 用\"Gemini 4 Hydrogen\"上演反向内卷",
+          "url": "https://www.aibase.com/news/32318",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-06T03:18:22.438495Z"
-        },
-        {
-          "id": "1784b6ddd4fcf7dabef4449de835442efc48edbb",
-          "title": "Anthropic 推出 Claude 个人理财功能，支持消费分析和账单追踪",
-          "url": "https://www.ithome.com/1/023/051.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T00:37:10Z"
+          "published_at": "2026-11-13T17:11:49.969513Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7472,
-      "importance": 0.7472,
-      "importance_score": 0.7472,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7205,
+      "importance": 0.7205,
+      "importance_score": 0.7205,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7479,
-        "story_heat": 0.25
+        "recency": 0.7384,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-11-06T00:37:10Z",
-      "latest_at": "2026-11-06T03:18:22.438495Z",
+      "earliest_at": "2026-11-13T17:11:49.969513Z",
+      "latest_at": "2026-11-13T17:11:49.969513Z",
       "primary_item": {
-        "id": "eaee0cad8d4358b62ed384f2554e31839a21b647",
-        "title": "Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪",
-        "url": "https://www.aibase.com/news/32128",
+        "id": "409724ecc54343400155240e8c1b7fb7022a0cc7",
+        "title": "比高端型号还猛却更便宜，Google 用\"Gemini 4 Hydrogen\"上演反向内卷",
+        "url": "https://www.aibase.com/news/32318",
         "source": "AIbase",
         "source_name": "AIbase"
       }
     },
     {
-      "story_id": "story_5072f0d6af00",
-      "title": "人工智能正在极大地加速人工智能研究",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "primary_url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "source": "www.planned-obsolescence.org",
+      "story_id": "story_5851583e8c62",
+      "title": "腾讯混元甩出实时语音模型 Hy Realtime，会聊天、能唱歌、还会自己联网搜",
+      "url": "https://www.aibase.com/news/32320",
+      "primary_url": "https://www.aibase.com/news/32320",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "6c71f2d9404d8bd44d517c143c5be2aaac6dc151",
+          "title": "腾讯混元甩出实时语音模型 Hy Realtime，会聊天、能唱歌、还会自己联网搜",
+          "url": "https://www.aibase.com/news/32320",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-13T17:11:49.969513Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "6c71f2d9404d8bd44d517c143c5be2aaac6dc151",
+          "title": "腾讯混元甩出实时语音模型 Hy Realtime，会聊天、能唱歌、还会自己联网搜",
+          "url": "https://www.aibase.com/news/32320",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-13T17:11:49.969513Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7205,
+      "importance": 0.7205,
+      "importance_score": 0.7205,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7384,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-11-13T17:11:49.969513Z",
+      "latest_at": "2026-11-13T17:11:49.969513Z",
+      "primary_item": {
+        "id": "6c71f2d9404d8bd44d517c143c5be2aaac6dc151",
+        "title": "腾讯混元甩出实时语音模型 Hy Realtime，会聊天、能唱歌、还会自己联网搜",
+        "url": "https://www.aibase.com/news/32320",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_c6caa4d4f0b0",
+      "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "primary_url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "www.techpowerup.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "53a5769058469f2c5f75021643659032056787d7",
-          "title": "人工智能正在极大地加速人工智能研究",
-          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "source": "www.planned-obsolescence.org",
+          "id": "bf620ca6eecfbec7c651f2275f1f33e0020ebf95",
+          "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "www.techpowerup.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:23.304000Z"
+          "published_at": "2026-11-14T10:32:03.584000Z"
         },
         {
-          "id": "0ac70f26f68f853ed622c456a8c54eaeb37c43a2",
-          "title": "人工智能正在极大地加速人工智能研究 / AI is dramatically accelerating AI research",
-          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T20:27:23Z"
+          "id": "e26eebc79e088ffc5ea18b52ef0b843b8dcafa0e",
+          "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面 / Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-14T02:52:59Z"
         },
         {
-          "id": "305a64ec674f8cf86aaf4b6a8f0e2a613db8fa8d",
-          "title": "AI is dramatically accelerating AI research",
-          "url": "https://news.ycombinator.com/item?id=50397994",
+          "id": "2d7623a763c69046c3901343648bd636f62daa03",
+          "title": "据称，英伟达通过资助人工智能初创公司购买其 GPU 来制造稀缺性 / Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "url": "https://news.ycombinator.com/item?id=50493251",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-06T20:27:23Z"
+          "published_at": "2026-11-14T02:52:59Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews",
-        "www.planned-obsolescence.org"
+        "www.techpowerup.com"
       ],
       "items": [
         {
-          "id": "53a5769058469f2c5f75021643659032056787d7",
-          "title": "人工智能正在极大地加速人工智能研究",
-          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "source": "www.planned-obsolescence.org",
+          "id": "bf620ca6eecfbec7c651f2275f1f33e0020ebf95",
+          "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "www.techpowerup.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:23.304000Z"
+          "published_at": "2026-11-14T10:32:03.584000Z"
         },
         {
-          "id": "0ac70f26f68f853ed622c456a8c54eaeb37c43a2",
-          "title": "人工智能正在极大地加速人工智能研究 / AI is dramatically accelerating AI research",
-          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T20:27:23Z"
+          "id": "e26eebc79e088ffc5ea18b52ef0b843b8dcafa0e",
+          "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面 / Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-14T02:52:59Z"
         },
         {
-          "id": "305a64ec674f8cf86aaf4b6a8f0e2a613db8fa8d",
-          "title": "AI is dramatically accelerating AI research",
-          "url": "https://news.ycombinator.com/item?id=50397994",
+          "id": "2d7623a763c69046c3901343648bd636f62daa03",
+          "title": "据称，英伟达通过资助人工智能初创公司购买其 GPU 来制造稀缺性 / Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "url": "https://news.ycombinator.com/item?id=50493251",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-06T20:27:23Z"
+          "published_at": "2026-11-14T02:52:59Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.5615,
+      "importance": 0.5615,
+      "importance_score": 0.5615,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9931,
+        "recency": 0.9485,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-06T20:27:23Z",
-      "latest_at": "2026-11-06T22:56:23.304000Z",
+      "earliest_at": "2026-11-14T02:52:59Z",
+      "latest_at": "2026-11-14T10:32:03.584000Z",
       "primary_item": {
-        "id": "53a5769058469f2c5f75021643659032056787d7",
-        "title": "人工智能正在极大地加速人工智能研究",
-        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-        "source": "www.planned-obsolescence.org",
+        "id": "bf620ca6eecfbec7c651f2275f1f33e0020ebf95",
+        "title": "据称，英伟达通过资助人工智能初创企业购买其显卡，人为制造了供不应求的局面",
+        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "source": "www.techpowerup.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_c63019ae7846",
-      "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁",
-      "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-      "primary_url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-      "source": "www.cbc.ca",
-      "source_name": "Buzzing",
+      "story_id": "story_a67bb8d2a6b4",
+      "title": "ChromeDevTools / chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "primary_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "source": "GitHub · Trending Today",
+      "source_name": "TopHub",
       "sources": [
         {
-          "id": "3aa34763702cd1594d06d66ff2d343f223d16a58",
-          "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁",
-          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-          "source": "www.cbc.ca",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:22.193000Z"
-        },
-        {
-          "id": "6aa96a17e9f822ff690e86e5dd4bba5035c1b36c",
-          "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁 / University libraries are being swarmed by AI bots, putting public access at risk",
-          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T14:13:09Z"
-        },
-        {
-          "id": "0a115cd9e0633ab3c1c44fbfcfa096ee4f4f221c",
-          "title": "大学图书馆正被人工智能机器人淹没，公众访问面临风险 / University libraries are being swarmed by AI bots, putting public access at risk",
-          "url": "https://news.ycombinator.com/item?id=50392499",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-06T14:13:09Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.cbc.ca"
-      ],
-      "items": [
-        {
-          "id": "3aa34763702cd1594d06d66ff2d343f223d16a58",
-          "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁",
-          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-          "source": "www.cbc.ca",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:22.193000Z"
-        },
-        {
-          "id": "6aa96a17e9f822ff690e86e5dd4bba5035c1b36c",
-          "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁 / University libraries are being swarmed by AI bots, putting public access at risk",
-          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T14:13:09Z"
-        },
-        {
-          "id": "0a115cd9e0633ab3c1c44fbfcfa096ee4f4f221c",
-          "title": "大学图书馆正被人工智能机器人淹没，公众访问面临风险 / University libraries are being swarmed by AI bots, putting public access at risk",
-          "url": "https://news.ycombinator.com/item?id=50392499",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-06T14:13:09Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9931,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-06T14:13:09Z",
-      "latest_at": "2026-11-06T22:56:22.193000Z",
-      "primary_item": {
-        "id": "3aa34763702cd1594d06d66ff2d343f223d16a58",
-        "title": "大学图书馆正被人工智能机器人蜂拥而至，这给公众的访问权带来了威胁",
-        "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-        "source": "www.cbc.ca",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a1bbc8479eae",
-      "title": "ElevenLabs支持用户将AI音乐直接发布至SoundCloud",
-      "url": "https://www.aibase.com/news/32134",
-      "primary_url": "https://www.aibase.com/news/32134",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "c52b86afb476972ff7ef986c7c22d1acbdadc7dd",
-          "title": "ElevenLabs支持用户将AI音乐直接发布至SoundCloud",
-          "url": "https://www.aibase.com/news/32134",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T03:18:22.438495Z"
-        },
-        {
-          "id": "67fb470081554035274d8eb44a594486fcdcc6b3",
-          "title": "ElevenLabs 支持用户将 AI 音乐直接发布至 SoundCloud",
-          "url": "https://www.aibase.com/zh/news/32134",
-          "source": "Readhub · AI",
+          "id": "8e9849557e00abf618fc2c1820d2857fcbf20b9f",
+          "title": "ChromeDevTools / chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "GitHub · Trending Today",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
+        },
+        {
+          "id": "a0cc37c6786d3c04c1cc629fcf894119d0d80913",
+          "title": "ChromeDevTools /      chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-14T13:54:03.023000Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "AIbase",
-        "Readhub · AI"
+        "GitHub · Trending Today",
+        "github"
       ],
       "items": [
         {
-          "id": "c52b86afb476972ff7ef986c7c22d1acbdadc7dd",
-          "title": "ElevenLabs支持用户将AI音乐直接发布至SoundCloud",
-          "url": "https://www.aibase.com/news/32134",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-06T03:18:22.438495Z"
-        },
-        {
-          "id": "67fb470081554035274d8eb44a594486fcdcc6b3",
-          "title": "ElevenLabs 支持用户将 AI 音乐直接发布至 SoundCloud",
-          "url": "https://www.aibase.com/zh/news/32134",
-          "source": "Readhub · AI",
+          "id": "8e9849557e00abf618fc2c1820d2857fcbf20b9f",
+          "title": "ChromeDevTools / chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "GitHub · Trending Today",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7472,
-      "importance": 0.7472,
-      "importance_score": 0.7472,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7479,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-11-06T03:18:22.438495Z",
-      "latest_at": "2026-11-06T03:18:22.438495Z",
-      "primary_item": {
-        "id": "c52b86afb476972ff7ef986c7c22d1acbdadc7dd",
-        "title": "ElevenLabs支持用户将AI音乐直接发布至SoundCloud",
-        "url": "https://www.aibase.com/news/32134",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_a40797809b85",
-      "title": "消息称 OpenAI 完成 110 亿美元首期新融资，估值 1.25 万亿美元",
-      "url": "https://www.ithome.com/1/023/612.htm",
-      "primary_url": "https://www.ithome.com/1/023/612.htm",
-      "source": "IT之家 (ITHome)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "ee0fd748a0f91b4fe1737b2392bbc8ea8f849113",
-          "title": "消息称 OpenAI 完成 110 亿美元首期新融资，估值 1.25 万亿美元",
-          "url": "https://www.ithome.com/1/023/612.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T23:24:12Z"
         },
         {
-          "id": "765312fb983dd6f3c5f25074800b79df50d92334",
-          "title": "OpenAI 完成 110 亿美元融资，公司估值达 1.25 万亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:42.898000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "ee0fd748a0f91b4fe1737b2392bbc8ea8f849113",
-          "title": "消息称 OpenAI 完成 110 亿美元首期新融资，估值 1.25 万亿美元",
-          "url": "https://www.ithome.com/1/023/612.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-06T23:24:12Z"
-        },
-        {
-          "id": "765312fb983dd6f3c5f25074800b79df50d92334",
-          "title": "OpenAI 完成 110 亿美元融资，公司估值达 1.25 万亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-06T22:56:42.898000Z"
+          "id": "a0cc37c6786d3c04c1cc629fcf894119d0d80913",
+          "title": "ChromeDevTools /      chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "github",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-14T13:54:03.023000Z"
         }
       ],
       "item_count": 2,
@@ -1482,21 +1089,337 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9997,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-06T22:56:42.898000Z",
-      "latest_at": "2026-11-06T23:24:12Z",
+      "earliest_at": "2026-11-14T13:54:03.023000Z",
+      "latest_at": "2026-11-14T14:11:49.969513Z",
       "primary_item": {
-        "id": "ee0fd748a0f91b4fe1737b2392bbc8ea8f849113",
-        "title": "消息称 OpenAI 完成 110 亿美元首期新融资，估值 1.25 万亿美元",
-        "url": "https://www.ithome.com/1/023/612.htm",
-        "source": "IT之家 (ITHome)",
-        "source_name": "Info Flow"
+        "id": "8e9849557e00abf618fc2c1820d2857fcbf20b9f",
+        "title": "ChromeDevTools / chrome-devtools-mcp",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "GitHub · Trending Today",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_c0e7ee2c6665",
+      "title": "白宫「超级智能工作组」呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+      "url": "https://www.ithome.com/1/027/229.htm",
+      "primary_url": "https://www.ithome.com/1/027/229.htm",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "82baf67e3b009bb541e8eb1c3ce2fc8156e2b4bb",
+          "title": "白宫「超级智能工作组」呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+          "url": "https://www.ithome.com/1/027/229.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "eadacb5ccf04bd4d5a7d2572e0baefb2be9bbf9c",
+          "title": "白宫“超级智能工作组”呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+          "url": "https://www.ithome.com/1/027/229.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-14T13:03:22Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "82baf67e3b009bb541e8eb1c3ce2fc8156e2b4bb",
+          "title": "白宫「超级智能工作组」呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+          "url": "https://www.ithome.com/1/027/229.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "eadacb5ccf04bd4d5a7d2572e0baefb2be9bbf9c",
+          "title": "白宫“超级智能工作组”呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+          "url": "https://www.ithome.com/1/027/229.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-14T13:03:22Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-14T13:03:22Z",
+      "latest_at": "2026-11-14T14:11:49.969513Z",
+      "primary_item": {
+        "id": "82baf67e3b009bb541e8eb1c3ce2fc8156e2b4bb",
+        "title": "白宫「超级智能工作组」呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件",
+        "url": "https://www.ithome.com/1/027/229.htm",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
+      }
+    },
+    {
+      "story_id": "story_21ab7432dba4",
+      "title": "克劳德会议",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "primary_url": "https://claude.com/resources/articles/claude-meetings",
+      "source": "claude.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "70a2b8edc02f30ab27e6a8ea9df7cd95089875a1",
+          "title": "克劳德会议",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:44:27.205000Z"
+        },
+        {
+          "id": "c7ad6451d622eeb9017ca3f5dbad957b2cf1ea32",
+          "title": "克劳德会议 / Claude Meetings",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-13T22:39:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "claude.com"
+      ],
+      "items": [
+        {
+          "id": "70a2b8edc02f30ab27e6a8ea9df7cd95089875a1",
+          "title": "克劳德会议",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:44:27.205000Z"
+        },
+        {
+          "id": "c7ad6451d622eeb9017ca3f5dbad957b2cf1ea32",
+          "title": "克劳德会议 / Claude Meetings",
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-13T22:39:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.537,
+      "importance": 0.537,
+      "importance_score": 0.537,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9513,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-13T22:39:15Z",
+      "latest_at": "2026-11-14T10:44:27.205000Z",
+      "primary_item": {
+        "id": "70a2b8edc02f30ab27e6a8ea9df7cd95089875a1",
+        "title": "克劳德会议",
+        "url": "https://claude.com/resources/articles/claude-meetings",
+        "source": "claude.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c19e7ef010f7",
+      "title": "你完全可以凭记忆发明出变形金刚",
+      "url": "https://alexwang.ai/posts/associative-memory",
+      "primary_url": "https://alexwang.ai/posts/associative-memory",
+      "source": "alexwang.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1165087802d3484327bc10c6dbfbac4f89354054",
+          "title": "你完全可以凭记忆发明出变形金刚",
+          "url": "https://alexwang.ai/posts/associative-memory",
+          "source": "alexwang.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:32:46.164000Z"
+        },
+        {
+          "id": "34c0bd958b731204d23f44ae18127a5d4b8641b9",
+          "title": "你完全可以凭记忆发明出变形金刚 / You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-14T04:49:47Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "alexwang.ai"
+      ],
+      "items": [
+        {
+          "id": "1165087802d3484327bc10c6dbfbac4f89354054",
+          "title": "你完全可以凭记忆发明出变形金刚",
+          "url": "https://alexwang.ai/posts/associative-memory",
+          "source": "alexwang.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:32:46.164000Z"
+        },
+        {
+          "id": "34c0bd958b731204d23f44ae18127a5d4b8641b9",
+          "title": "你完全可以凭记忆发明出变形金刚 / You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-14T04:49:47Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5366,
+      "importance": 0.5366,
+      "importance_score": 0.5366,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9486,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-14T04:49:47Z",
+      "latest_at": "2026-11-14T10:32:46.164000Z",
+      "primary_item": {
+        "id": "1165087802d3484327bc10c6dbfbac4f89354054",
+        "title": "你完全可以凭记忆发明出变形金刚",
+        "url": "https://alexwang.ai/posts/associative-memory",
+        "source": "alexwang.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_fbbaadb6c606",
+      "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。",
+      "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+      "primary_url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2f767ff92b62356ae43772be560f267e6b7ea511",
+          "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。",
+          "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:32:48.878000Z"
+        },
+        {
+          "id": "4835e466ff4302795c4e6348bd8a85abf222e82c",
+          "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。 / Nvidia’s AI boom created a $9 billion foundation led by Lori Huang. Here’s where the money has gone.",
+          "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-14T10:15:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "2f767ff92b62356ae43772be560f267e6b7ea511",
+          "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。",
+          "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-14T10:32:48.878000Z"
+        },
+        {
+          "id": "4835e466ff4302795c4e6348bd8a85abf222e82c",
+          "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。 / Nvidia’s AI boom created a $9 billion foundation led by Lori Huang. Here’s where the money has gone.",
+          "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-14T10:15:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5366,
+      "importance": 0.5366,
+      "importance_score": 0.5366,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9487,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-14T10:15:01Z",
+      "latest_at": "2026-11-14T10:32:48.878000Z",
+      "primary_item": {
+        "id": "2f767ff92b62356ae43772be560f267e6b7ea511",
+        "title": "英伟达的AI热潮催生了一家由洛里·黄领导的、规模达90亿美元的基金会。以下是这笔资金的流向。",
+        "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     }
   ]
