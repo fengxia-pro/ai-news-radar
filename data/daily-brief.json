@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:10:00.250808Z",
+  "generated_at": "2026-11-17T13:59:52.524781Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8797,
-      "importance": 0.8797,
-      "importance_score": 0.8797,
+      "score": 0.8549,
+      "importance": 0.8549,
+      "importance_score": 0.8549,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.876,
+        "recency": 0.7384,
         "story_heat": 0.5
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8405,
-      "importance": 0.8405,
-      "importance_score": 0.8405,
+      "score": 0.814,
+      "importance": 0.814,
+      "importance_score": 0.814,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9359,
+        "recency": 0.7889,
         "story_heat": 0.0
       },
       "category": "official",
@@ -167,8 +167,89 @@
       }
     },
     {
+      "story_id": "story_50636b8e7e40",
+      "title": "李彦宏警告AI泡沫风险:算力投入巨大，应用落地仍不及预期",
+      "url": "https://www.aibase.com/news/32360",
+      "primary_url": "https://www.aibase.com/news/32360",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "13d4daa48a13284566536b998414b13b1704f558",
+          "title": "李彦宏警告AI泡沫风险:算力投入巨大，应用落地仍不及预期",
+          "url": "https://www.aibase.com/news/32360",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        },
+        {
+          "id": "6832add14957b4aeb3786b284b7d92574fc1e7a6",
+          "title": "李彦宏警告 AI 泡沫风险：算力投入巨大，应用落地仍不及预期",
+          "url": "https://www.aibase.com/zh/news/32360",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "13d4daa48a13284566536b998414b13b1704f558",
+          "title": "李彦宏警告AI泡沫风险:算力投入巨大，应用落地仍不及预期",
+          "url": "https://www.aibase.com/news/32360",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        },
+        {
+          "id": "6832add14957b4aeb3786b284b7d92574fc1e7a6",
+          "title": "李彦宏警告 AI 泡沫风险：算力投入巨大，应用落地仍不及预期",
+          "url": "https://www.aibase.com/zh/news/32360",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T13:59:52.524781Z",
+      "latest_at": "2026-11-17T13:59:52.524781Z",
+      "primary_item": {
+        "id": "13d4daa48a13284566536b998414b13b1704f558",
+        "title": "李彦宏警告AI泡沫风险:算力投入巨大，应用落地仍不及预期",
+        "url": "https://www.aibase.com/news/32360",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
       "story_id": "story_0bc322583e6f",
-      "title": "New Ask Maps features to help with holiday travel and prep",
+      "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
       "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
       "primary_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
       "source": "Google AI Blog",
@@ -176,7 +257,7 @@
       "sources": [
         {
           "id": "50cf4e7e045e2ef8265ecea5b06004ae9e3d4230",
-          "title": "New Ask Maps features to help with holiday travel and prep",
+          "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
           "source": "Google AI Blog",
           "source_name": "Official AI Updates",
@@ -191,7 +272,7 @@
       "items": [
         {
           "id": "50cf4e7e045e2ef8265ecea5b06004ae9e3d4230",
-          "title": "New Ask Maps features to help with holiday travel and prep",
+          "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
           "source": "Google AI Blog",
           "source_name": "Official AI Updates",
@@ -201,15 +282,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.815,
-      "importance": 0.815,
-      "importance_score": 0.815,
+      "score": 0.7913,
+      "importance": 0.7913,
+      "importance_score": 0.7913,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8389,
+        "recency": 0.7071,
         "story_heat": 0.0
       },
       "category": "official",
@@ -222,9 +303,276 @@
       "latest_at": "2026-11-16T14:00:00Z",
       "primary_item": {
         "id": "50cf4e7e045e2ef8265ecea5b06004ae9e3d4230",
-        "title": "New Ask Maps features to help with holiday travel and prep",
+        "title": "新的“Ask Maps”功能可帮助您进行假期旅行和准备 / New Ask Maps features to help with holiday travel and prep",
         "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
         "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_58da9c66b145",
+      "title": "为智利推出 OpenAI / Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "primary_url": "https://openai.com/index/introducing-openai-for-chile",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "22b4e795ef1b8abef0c2495ff45f750608cef692",
+          "title": "为智利推出 OpenAI / Introducing OpenAI for Chile",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-17T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "22b4e795ef1b8abef0c2495ff45f750608cef692",
+          "title": "为智利推出 OpenAI / Introducing OpenAI for Chile",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-17T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8191,
+      "importance": 0.8191,
+      "importance_score": 0.8191,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.817,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T00:00:00Z",
+      "latest_at": "2026-11-17T00:00:00Z",
+      "primary_item": {
+        "id": "22b4e795ef1b8abef0c2495ff45f750608cef692",
+        "title": "为智利推出 OpenAI / Introducing OpenAI for Chile",
+        "url": "https://openai.com/index/introducing-openai-for-chile",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f9ace2a74e66",
+      "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "primary_url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
+          "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
+          "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-16T20:25:20Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
+          "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
+          "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-16T20:25:20Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8117,
+      "importance": 0.8117,
+      "importance_score": 0.8117,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7758,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-16T20:25:20Z",
+      "latest_at": "2026-11-16T20:25:20Z",
+      "primary_item": {
+        "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
+        "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
+        "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3417af31f3ad",
+      "title": "李飞飞加入AMD!World Labs正式并入，布局3D世界模型与机器人AI",
+      "url": "https://www.aibase.com/news/32355",
+      "primary_url": "https://www.aibase.com/news/32355",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "259a4016d26d9af14d2c8849095bc439edea0463",
+          "title": "李飞飞加入AMD!World Labs正式并入，布局3D世界模型与机器人AI",
+          "url": "https://www.aibase.com/news/32355",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        },
+        {
+          "id": "97b2be1545cdb4e2ab1d54ff9be1064a2834a66c",
+          "title": "李飞飞加入 AMD！World Labs 正式并入，布局 3D 世界模型与机器人 AI",
+          "url": "https://www.aibase.com/zh/news/32355",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "259a4016d26d9af14d2c8849095bc439edea0463",
+          "title": "李飞飞加入AMD!World Labs正式并入，布局3D世界模型与机器人AI",
+          "url": "https://www.aibase.com/news/32355",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        },
+        {
+          "id": "97b2be1545cdb4e2ab1d54ff9be1064a2834a66c",
+          "title": "李飞飞加入 AMD！World Labs 正式并入，布局 3D 世界模型与机器人 AI",
+          "url": "https://www.aibase.com/zh/news/32355",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T13:59:52.524781Z",
+      "latest_at": "2026-11-17T13:59:52.524781Z",
+      "primary_item": {
+        "id": "259a4016d26d9af14d2c8849095bc439edea0463",
+        "title": "李飞飞加入AMD!World Labs正式并入，布局3D世界模型与机器人AI",
+        "url": "https://www.aibase.com/news/32355",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_590cb0b9c5dd",
+      "title": "利用人工智能加强北约和盟国的网络防御 / Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "primary_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6d35ceb02c57202992362041a28b11e244ae9c7d",
+          "title": "利用人工智能加强北约和盟国的网络防御 / Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-17T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "6d35ceb02c57202992362041a28b11e244ae9c7d",
+          "title": "利用人工智能加强北约和盟国的网络防御 / Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-17T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8191,
+      "importance": 0.8191,
+      "importance_score": 0.8191,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.817,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T00:00:00Z",
+      "latest_at": "2026-11-17T00:00:00Z",
+      "primary_item": {
+        "id": "6d35ceb02c57202992362041a28b11e244ae9c7d",
+        "title": "利用人工智能加强北约和盟国的网络防御 / Strengthening NATO and allied cyber defenses with AI",
+        "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -263,15 +611,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8389,
-      "importance": 0.8389,
-      "importance_score": 0.8389,
+      "score": 0.8114,
+      "importance": 0.8114,
+      "importance_score": 0.8114,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9714,
+        "recency": 0.8188,
         "story_heat": 0.0
       },
       "category": "official",
@@ -291,108 +639,26 @@
       }
     },
     {
-      "story_id": "story_ebd9eb949639",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "primary_url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "081cdb160d05b0261414309d6bf73cddc34738e0",
-          "title": "Our first phase of embedded assessments",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T08:00:00Z"
-        },
-        {
-          "id": "5b716574cc45ee61a1f5e35e279ac5f085184bcc",
-          "title": "First phase of embedded assessments at OpenAI",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-16T16:07:20Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "081cdb160d05b0261414309d6bf73cddc34738e0",
-          "title": "Our first phase of embedded assessments",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T08:00:00Z"
-        },
-        {
-          "id": "5b716574cc45ee61a1f5e35e279ac5f085184bcc",
-          "title": "First phase of embedded assessments at OpenAI",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-16T16:07:20Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8355,
-      "importance": 0.8355,
-      "importance_score": 0.8355,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7693,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-16T08:00:00Z",
-      "latest_at": "2026-11-16T16:07:20Z",
-      "primary_item": {
-        "id": "081cdb160d05b0261414309d6bf73cddc34738e0",
-        "title": "Our first phase of embedded assessments",
-        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_e38a237d4864",
-      "title": "AI安全初创公司Corma完成1.25亿美元A轮融资:3个月估值达10亿美元",
-      "url": "https://www.aibase.com/news/32345",
-      "primary_url": "https://www.aibase.com/news/32345",
+      "story_id": "story_13cee0bf600e",
+      "title": "谷歌地图Ask Maps迎重大更新:支持AI代打电话预约及智能行程规划",
+      "url": "https://www.aibase.com/news/32356",
+      "primary_url": "https://www.aibase.com/news/32356",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "c110bc34941aa2dea96b4722e4d6d2ee3f1140bd",
-          "title": "AI安全初创公司Corma完成1.25亿美元A轮融资:3个月估值达10亿美元",
-          "url": "https://www.aibase.com/news/32345",
+          "id": "85885fd3b8e3170ea1f3adbb2c2f0c8df3cee0d3",
+          "title": "谷歌地图Ask Maps迎重大更新:支持AI代打电话预约及智能行程规划",
+          "url": "https://www.aibase.com/news/32356",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:59:52.524781Z"
         },
         {
-          "id": "5005ea4533e3203e51c98379b2586f207d1e2a47",
-          "title": "AI 安全初创公司 Corma 完成 1.25 亿美元 A 轮融资，3 个月估值达 10 亿美元",
-          "url": "https://www.aibase.com/zh/news/32345",
+          "id": "03c3ba17332d6ad5311b46501e45af818da977f8",
+          "title": "谷歌地图 Ask Maps 迎重大更新：支持 AI 代打电话预约及智能行程规划",
+          "url": "https://www.aibase.com/zh/news/32356",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -406,18 +672,18 @@
       ],
       "items": [
         {
-          "id": "c110bc34941aa2dea96b4722e4d6d2ee3f1140bd",
-          "title": "AI安全初创公司Corma完成1.25亿美元A轮融资:3个月估值达10亿美元",
-          "url": "https://www.aibase.com/news/32345",
+          "id": "85885fd3b8e3170ea1f3adbb2c2f0c8df3cee0d3",
+          "title": "谷歌地图Ask Maps迎重大更新:支持AI代打电话预约及智能行程规划",
+          "url": "https://www.aibase.com/news/32356",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:59:52.524781Z"
         },
         {
-          "id": "5005ea4533e3203e51c98379b2586f207d1e2a47",
-          "title": "AI 安全初创公司 Corma 完成 1.25 亿美元 A 轮融资，3 个月估值达 10 亿美元",
-          "url": "https://www.aibase.com/zh/news/32345",
+          "id": "03c3ba17332d6ad5311b46501e45af818da977f8",
+          "title": "谷歌地图 Ask Maps 迎重大更新：支持 AI 代打电话预约及智能行程规划",
+          "url": "https://www.aibase.com/zh/news/32356",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
@@ -443,217 +709,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-17T02:10:00.250808Z",
-      "latest_at": "2026-11-17T02:10:00.250808Z",
+      "earliest_at": "2026-11-17T13:59:52.524781Z",
+      "latest_at": "2026-11-17T13:59:52.524781Z",
       "primary_item": {
-        "id": "c110bc34941aa2dea96b4722e4d6d2ee3f1140bd",
-        "title": "AI安全初创公司Corma完成1.25亿美元A轮融资:3个月估值达10亿美元",
-        "url": "https://www.aibase.com/news/32345",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_f9ace2a74e66",
-      "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "primary_url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
-          "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
-          "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T20:25:20Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
-          "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
-          "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T20:25:20Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8377,
-      "importance": 0.8377,
-      "importance_score": 0.8377,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9204,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-16T20:25:20Z",
-      "latest_at": "2026-11-16T20:25:20Z",
-      "primary_item": {
-        "id": "66ca20a9b5d676e9dcf39fa182e2d7e7f4b3c4bf",
-        "title": "GitHub Copilot 模型已于 2026 年 11 月 16 日弃用 / GitHub Copilot models deprecated on November 16, 2026",
-        "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_f26f2a4dfd6b",
-      "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "primary_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3b301029bfd439fb8609fe9d109687afc3160535",
-          "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "3b301029bfd439fb8609fe9d109687afc3160535",
-          "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8297,
-      "importance": 0.8297,
-      "importance_score": 0.8297,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.876,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-16T17:00:00Z",
-      "latest_at": "2026-11-16T17:00:00Z",
-      "primary_item": {
-        "id": "3b301029bfd439fb8609fe9d109687afc3160535",
-        "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
-        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_00a460bc9ac4",
-      "title": "百度三季度AI业务收入占比连续三季度过半，AI云基础设施收入同比增长94%",
-      "url": "https://www.aibase.com/news/32348",
-      "primary_url": "https://www.aibase.com/news/32348",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "ca09b7a523f92c8637a47aaf85f20e23d7e77ee8",
-          "title": "百度三季度AI业务收入占比连续三季度过半，AI云基础设施收入同比增长94%",
-          "url": "https://www.aibase.com/news/32348",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
-        },
-        {
-          "id": "ff648b9157d9a5648bb3f70c029ed247c6ac63d5",
-          "title": "百度三季度 AI 业务收入占比连续三季度过半，AI 云基础设施收入同比增长 94%",
-          "url": "https://www.aibase.com/zh/news/32348",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "ca09b7a523f92c8637a47aaf85f20e23d7e77ee8",
-          "title": "百度三季度AI业务收入占比连续三季度过半，AI云基础设施收入同比增长94%",
-          "url": "https://www.aibase.com/news/32348",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
-        },
-        {
-          "id": "ff648b9157d9a5648bb3f70c029ed247c6ac63d5",
-          "title": "百度三季度 AI 业务收入占比连续三季度过半，AI 云基础设施收入同比增长 94%",
-          "url": "https://www.aibase.com/zh/news/32348",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T02:10:00.250808Z",
-      "latest_at": "2026-11-17T02:10:00.250808Z",
-      "primary_item": {
-        "id": "ca09b7a523f92c8637a47aaf85f20e23d7e77ee8",
-        "title": "百度三季度AI业务收入占比连续三季度过半，AI云基础设施收入同比增长94%",
-        "url": "https://www.aibase.com/news/32348",
+        "id": "85885fd3b8e3170ea1f3adbb2c2f0c8df3cee0d3",
+        "title": "谷歌地图Ask Maps迎重大更新:支持AI代打电话预约及智能行程规划",
+        "url": "https://www.aibase.com/news/32356",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -693,15 +754,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8362,
-      "importance": 0.8362,
-      "importance_score": 0.8362,
+      "score": 0.8104,
+      "importance": 0.8104,
+      "importance_score": 0.8104,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9123,
+        "recency": 0.769,
         "story_heat": 0.0
       },
       "category": "official",
@@ -721,21 +782,21 @@
       }
     },
     {
-      "story_id": "story_f891bd93f3d2",
-      "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "primary_url": "https://openai.com/index/science-at-the-frontier",
+      "story_id": "story_f26f2a4dfd6b",
+      "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "primary_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "e6fdec1c7f79240833026f343cfa1a1a499b5052",
-          "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
-          "url": "https://openai.com/index/science-at-the-frontier",
+          "id": "3b301029bfd439fb8609fe9d109687afc3160535",
+          "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-16T12:00:00Z"
+          "published_at": "2026-11-16T17:00:00Z"
         }
       ],
       "source_count": 1,
@@ -744,26 +805,26 @@
       ],
       "items": [
         {
-          "id": "e6fdec1c7f79240833026f343cfa1a1a499b5052",
-          "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
-          "url": "https://openai.com/index/science-at-the-frontier",
+          "id": "3b301029bfd439fb8609fe9d109687afc3160535",
+          "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-16T12:00:00Z"
+          "published_at": "2026-11-16T17:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8267,
-      "importance": 0.8267,
-      "importance_score": 0.8267,
+      "score": 0.8049,
+      "importance": 0.8049,
+      "importance_score": 0.8049,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.815,
+        "ai_relevance": 0.91,
+        "recency": 0.7384,
         "story_heat": 0.0
       },
       "category": "official",
@@ -772,12 +833,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-16T12:00:00Z",
-      "latest_at": "2026-11-16T12:00:00Z",
+      "earliest_at": "2026-11-16T17:00:00Z",
+      "latest_at": "2026-11-16T17:00:00Z",
       "primary_item": {
-        "id": "e6fdec1c7f79240833026f343cfa1a1a499b5052",
-        "title": "前沿科学：科学家如何使用 ChatGPT / Science at the Frontier: How scientists use ChatGPT",
-        "url": "https://openai.com/index/science-at-the-frontier",
+        "id": "3b301029bfd439fb8609fe9d109687afc3160535",
+        "title": "扩大科学家使用人工智能的机会 / Broadening access to AI for scientists",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -817,15 +878,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8323,
-      "importance": 0.8323,
-      "importance_score": 0.8323,
+      "score": 0.8059,
+      "importance": 0.8059,
+      "importance_score": 0.8059,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.935,
+        "recency": 0.7882,
         "story_heat": 0.0
       },
       "category": "official",
@@ -845,21 +906,21 @@
       }
     },
     {
-      "story_id": "story_0b1d1abf6ec6",
-      "title": "奥特曼回应黄仁勋离职:英伟达与AI行业“不会有事”",
-      "url": "https://www.aibase.com/news/32344",
-      "primary_url": "https://www.aibase.com/news/32344",
+      "story_id": "story_a66ba4e16ab5",
+      "title": "亚马逊Audible推出AI音频发现功能与互动式“提问”工具",
+      "url": "https://www.aibase.com/news/32357",
+      "primary_url": "https://www.aibase.com/news/32357",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "4b56dcb16a001e29f7c539066440437519452014",
-          "title": "奥特曼回应黄仁勋离职:英伟达与AI行业“不会有事”",
-          "url": "https://www.aibase.com/news/32344",
+          "id": "3955da30e4df8834406b87dc0ec94464eed8e089",
+          "title": "亚马逊Audible推出AI音频发现功能与互动式“提问”工具",
+          "url": "https://www.aibase.com/news/32357",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:59:52.524781Z"
         }
       ],
       "source_count": 1,
@@ -868,13 +929,13 @@
       ],
       "items": [
         {
-          "id": "4b56dcb16a001e29f7c539066440437519452014",
-          "title": "奥特曼回应黄仁勋离职:英伟达与AI行业“不会有事”",
-          "url": "https://www.aibase.com/news/32344",
+          "id": "3955da30e4df8834406b87dc0ec94464eed8e089",
+          "title": "亚马逊Audible推出AI音频发现功能与互动式“提问”工具",
+          "url": "https://www.aibase.com/news/32357",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:59:52.524781Z"
         }
       ],
       "item_count": 1,
@@ -895,135 +956,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-17T02:10:00.250808Z",
-      "latest_at": "2026-11-17T02:10:00.250808Z",
+      "earliest_at": "2026-11-17T13:59:52.524781Z",
+      "latest_at": "2026-11-17T13:59:52.524781Z",
       "primary_item": {
-        "id": "4b56dcb16a001e29f7c539066440437519452014",
-        "title": "奥特曼回应黄仁勋离职:英伟达与AI行业“不会有事”",
-        "url": "https://www.aibase.com/news/32344",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_91e58e2ea930",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "primary_url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "c857cb04056a67136a815d45c5da94457b53c014",
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T09:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "c857cb04056a67136a815d45c5da94457b53c014",
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T09:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8185,
-      "importance": 0.8185,
-      "importance_score": 0.8185,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.94,
-        "recency": 0.7804,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-16T09:00:00Z",
-      "latest_at": "2026-11-16T09:00:00Z",
-      "primary_item": {
-        "id": "c857cb04056a67136a815d45c5da94457b53c014",
-        "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-        "url": "https://openai.com/index/lvmh-media-division-partnership",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_0d0a460d43cf",
-      "title": "打破门槛!OpenAI面向全球研究人员再放5万个免费Plus名额",
-      "url": "https://www.aibase.com/news/32347",
-      "primary_url": "https://www.aibase.com/news/32347",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a5a0f755857dd4fe1478a4266f054e1ee695ce8c",
-          "title": "打破门槛!OpenAI面向全球研究人员再放5万个免费Plus名额",
-          "url": "https://www.aibase.com/news/32347",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a5a0f755857dd4fe1478a4266f054e1ee695ce8c",
-          "title": "打破门槛!OpenAI面向全球研究人员再放5万个免费Plus名额",
-          "url": "https://www.aibase.com/news/32347",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-17T02:10:00.250808Z",
-      "latest_at": "2026-11-17T02:10:00.250808Z",
-      "primary_item": {
-        "id": "a5a0f755857dd4fe1478a4266f054e1ee695ce8c",
-        "title": "打破门槛!OpenAI面向全球研究人员再放5万个免费Plus名额",
-        "url": "https://www.aibase.com/news/32347",
+        "id": "3955da30e4df8834406b87dc0ec94464eed8e089",
+        "title": "亚马逊Audible推出AI音频发现功能与互动式“提问”工具",
+        "url": "https://www.aibase.com/news/32357",
         "source": "AIbase",
         "source_name": "AIbase"
       }
@@ -1063,15 +1001,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8272,
-      "importance": 0.8272,
-      "importance_score": 0.8272,
+      "score": 0.8016,
+      "importance": 0.8016,
+      "importance_score": 0.8016,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9067,
+        "recency": 0.7643,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1088,6 +1026,67 @@
         "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e287079b4f30",
+      "title": "测试显示 Google Gemini4Argon 面对不可能任务时采取越权访问策略",
+      "url": "https://www.aibase.com/news/32358",
+      "primary_url": "https://www.aibase.com/news/32358",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "f33f188727b99f12e4529a2f06047b979f217587",
+          "title": "测试显示 Google Gemini4Argon 面对不可能任务时采取越权访问策略",
+          "url": "https://www.aibase.com/news/32358",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "f33f188727b99f12e4529a2f06047b979f217587",
+          "title": "测试显示 Google Gemini4Argon 面对不可能任务时采取越权访问策略",
+          "url": "https://www.aibase.com/news/32358",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-17T13:59:52.524781Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-17T13:59:52.524781Z",
+      "latest_at": "2026-11-17T13:59:52.524781Z",
+      "primary_item": {
+        "id": "f33f188727b99f12e4529a2f06047b979f217587",
+        "title": "测试显示 Google Gemini4Argon 面对不可能任务时采取越权访问策略",
+        "url": "https://www.aibase.com/news/32358",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -1215,15 +1214,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
+      "score": 0.6409,
+      "importance": 0.6409,
+      "importance_score": 0.6409,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8429,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1241,70 +1240,8 @@
       }
     },
     {
-      "story_id": "story_cfcc7acb02e9",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "primary_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "aab4bdc3b4e1eab4014008d443cd6b1925102936",
-          "title": "More ways to move care forward with ChatGPT for Healthcare",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T06:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "aab4bdc3b4e1eab4014008d443cd6b1925102936",
-          "title": "More ways to move care forward with ChatGPT for Healthcare",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-16T06:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8145,
-      "importance": 0.8145,
-      "importance_score": 0.8145,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7474,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-16T06:00:00Z",
-      "latest_at": "2026-11-16T06:00:00Z",
-      "primary_item": {
-        "id": "aab4bdc3b4e1eab4014008d443cd6b1925102936",
-        "title": "More ways to move care forward with ChatGPT for Healthcare",
-        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
       "story_id": "story_030a040e02b2",
-      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
       "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
       "primary_url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
       "source": "TechCrunch AI",
@@ -1312,7 +1249,7 @@
       "sources": [
         {
           "id": "e6b87077a6d1787c1bf1bab22affd5f84b8f19de",
-          "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+          "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
           "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -1330,7 +1267,7 @@
         },
         {
           "id": "31ea1d4d49369b82f1711130c13c4cc0dd01b1cf",
-          "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+          "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
           "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
           "source": "TechCrunch",
           "source_name": "TechURLs",
@@ -1347,7 +1284,7 @@
       "items": [
         {
           "id": "e6b87077a6d1787c1bf1bab22affd5f84b8f19de",
-          "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+          "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
           "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
@@ -1365,7 +1302,7 @@
         },
         {
           "id": "31ea1d4d49369b82f1711130c13c4cc0dd01b1cf",
-          "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+          "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
           "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
           "source": "TechCrunch",
           "source_name": "TechURLs",
@@ -1375,15 +1312,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.6528,
-      "importance": 0.6528,
-      "importance_score": 0.6528,
+      "score": 0.6279,
+      "importance": 0.6279,
+      "importance_score": 0.6279,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8838,
+        "recency": 0.745,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1394,28 +1331,28 @@
       "latest_at": "2026-11-16T18:12:21Z",
       "primary_item": {
         "id": "e6b87077a6d1787c1bf1bab22affd5f84b8f19de",
-        "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+        "title": "FBI 称 Artex AI 开源黑客工具用于在“不到三小时”内破坏网络 / FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
         "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
       }
     },
     {
-      "story_id": "story_7ca395f547d1",
-      "title": "苹果智能眼镜曝光:拟深度整合 Siri 接入第三方应用生态",
-      "url": "https://www.aibase.com/news/32349",
-      "primary_url": "https://www.aibase.com/news/32349",
+      "story_id": "story_154dc79eced6",
+      "title": "AI投资回报担忧升温，英伟达市值排名跌至美国第三",
+      "url": "https://www.aibase.com/news/32354",
+      "primary_url": "https://www.aibase.com/news/32354",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "f6aaeece9ad285e6bb5a3f44ea24641a9eeb61f8",
-          "title": "苹果智能眼镜曝光:拟深度整合 Siri 接入第三方应用生态",
-          "url": "https://www.aibase.com/news/32349",
+          "id": "a59276dc77575cf84f1a0c870f3ea756d21cc0e3",
+          "title": "AI投资回报担忧升温，英伟达市值排名跌至美国第三",
+          "url": "https://www.aibase.com/news/32354",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:56:52.524781Z"
         }
       ],
       "source_count": 1,
@@ -1424,26 +1361,26 @@
       ],
       "items": [
         {
-          "id": "f6aaeece9ad285e6bb5a3f44ea24641a9eeb61f8",
-          "title": "苹果智能眼镜曝光:拟深度整合 Siri 接入第三方应用生态",
-          "url": "https://www.aibase.com/news/32349",
+          "id": "a59276dc77575cf84f1a0c870f3ea756d21cc0e3",
+          "title": "AI投资回报担忧升温，英伟达市值排名跌至美国第三",
+          "url": "https://www.aibase.com/news/32354",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-11-17T02:10:00.250808Z"
+          "published_at": "2026-11-17T13:56:52.524781Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9993,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1451,14 +1388,76 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-17T02:10:00.250808Z",
-      "latest_at": "2026-11-17T02:10:00.250808Z",
+      "earliest_at": "2026-11-17T13:56:52.524781Z",
+      "latest_at": "2026-11-17T13:56:52.524781Z",
       "primary_item": {
-        "id": "f6aaeece9ad285e6bb5a3f44ea24641a9eeb61f8",
-        "title": "苹果智能眼镜曝光:拟深度整合 Siri 接入第三方应用生态",
-        "url": "https://www.aibase.com/news/32349",
+        "id": "a59276dc77575cf84f1a0c870f3ea756d21cc0e3",
+        "title": "AI投资回报担忧升温，英伟达市值排名跌至美国第三",
+        "url": "https://www.aibase.com/news/32354",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_2799af16e9a0",
+      "title": "批量启动 AI 扫描存储库 / Bulk start AI Scan for repositories",
+      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+      "primary_url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "1a1bf881450e272c4b2cf04ab4bb0e7e64931a44",
+          "title": "批量启动 AI 扫描存储库 / Bulk start AI Scan for repositories",
+          "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-16T15:50:22Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "1a1bf881450e272c4b2cf04ab4bb0e7e64931a44",
+          "title": "批量启动 AI 扫描存储库 / Bulk start AI Scan for repositories",
+          "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-16T15:50:22Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7947,
+      "importance": 0.7947,
+      "importance_score": 0.7947,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7262,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-16T15:50:22Z",
+      "latest_at": "2026-11-16T15:50:22Z",
+      "primary_item": {
+        "id": "1a1bf881450e272c4b2cf04ab4bb0e7e64931a44",
+        "title": "批量启动 AI 扫描存储库 / Bulk start AI Scan for repositories",
+        "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     }
   ]
