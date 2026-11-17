@@ -9,11 +9,12 @@ on:
         default: false
         type: boolean
   schedule:
-    - cron: "*/30 * * * *"
+    # Daily at 13:17 UTC (08:17 New York in winter); avoid the busy hour boundary.
+    - cron: "17 13 * * *"
 
 concurrency:
   group: update-ai-news-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -105,6 +106,22 @@ jobs:
       - name: Refresh model scores (daily, preserve snapshot on failure)
         run: python scripts/update_model_scores.py
 
+      - name: Validate fresh snapshot before publishing
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          data = json.loads(Path("data/latest-24h.json").read_text(encoding="utf-8"))
+          generated = datetime.fromisoformat(data["generated_at"].replace("Z", "+00:00"))
+          age = (datetime.now(timezone.utc) - generated).total_seconds()
+          if not -300 <= age <= 3600:
+              raise SystemExit(f"Snapshot is stale or future-dated: {data['generated_at']}")
+          if not isinstance(data.get("items"), list) or not data["items"]:
+              raise SystemExit("Snapshot has no news items; preserve the previous published snapshot")
+          print(f"Validated {len(data['items'])} items; generated_at={data['generated_at']}")
+          PY
+
       - name: Commit and push changes
         env:
           EMAIL_DIGEST_PUBLISH: ${{ secrets.EMAIL_DIGEST_PUBLISH || vars.EMAIL_DIGEST_PUBLISH }}
@@ -132,3 +149,4 @@ jobs:
           fi
           git commit -m "chore: update ai news snapshot"
           git push
+
