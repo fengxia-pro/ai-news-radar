@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T20:09:26.865168Z",
-  "updated_label": "updated Mon Sept 28",
+  "generated_at": "2026-11-20T22:37:19.814518Z",
+  "updated_label": "Nov 19, 2026",
   "source_name": "Vellum LLM Leaderboard",
   "source_url": "https://www.vellum.ai/llm-leaderboard",
   "topic": "模型评分",
@@ -13,34 +13,53 @@
   "research_metrics": [
     {
       "id": "gpqa",
-      "label": "GPQA Diamond",
+      "label": "GPQA Diamond · AA",
       "title": "科学推理",
       "why": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "source_field": "gpqaReasoningNum",
+      "source_field": "gpqa-diamond-aa",
       "items": [
         {
-          "model": "Claude Sonnet 5",
-          "score": 96.2
-        },
-        {
           "model": "GPT-6 Astra",
-          "score": 96
+          "score": 96.26,
+          "source_url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh",
+          "settings": "GPT-6 Astra (Xhigh); 198-question Diamond subset; independent AA evaluation"
         },
         {
-          "model": "Claude 3 Opus",
-          "score": 95.4
+          "model": "Gemini 3.8 Flash",
+          "score": 95.25,
+          "source_url": "https://artificialanalysis.ai/models/gemini-3-8-flash",
+          "settings": "Gemini 3.8 Flash (High); 198-question Diamond subset; independent AA evaluation"
         },
         {
           "model": "GPT-5.6 Sol",
-          "score": 94.6
+          "score": 94.14,
+          "source_url": "https://artificialanalysis.ai/models/gpt-5-6-sol",
+          "settings": "GPT-5.6 Sol (Max); 198-question Diamond subset; independent AA evaluation"
+        },
+        {
+          "model": "Muse Spark 1.3",
+          "score": 94.14,
+          "source_url": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh",
+          "settings": "Muse Spark 1.3 (Xhigh); 198-question Diamond subset; independent AA evaluation"
         },
         {
           "model": "Gemini 3.1 Pro",
-          "score": 94.3
+          "score": 94.14,
+          "source_url": "https://artificialanalysis.ai/models/gemini-3-1-pro-preview",
+          "settings": "Gemini 3.1 Pro Preview; 198-question Diamond subset; independent AA evaluation"
         }
       ],
       "intro_label": "GPQA",
-      "intro": "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。"
+      "intro": "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。",
+      "generated_at": "2026-11-20T22:37:19.814518Z",
+      "source_url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "evaluation_version": "Diamond / Artificial Analysis",
+      "evaluation_setup": "",
+      "refresh_status": {
+        "ok": true,
+        "checked_at": "2026-11-20T22:37:19.814518Z"
+      },
+      "available_models": 30
     },
     {
       "id": "aime",
@@ -71,7 +90,13 @@
         }
       ],
       "intro_label": "AIME",
-      "intro": "复杂数学推理，适合判断模型做公式、证明、定量分析时是否稳。"
+      "intro": "复杂数学推理，适合判断模型做公式、证明、定量分析时是否稳。",
+      "generated_at": "2026-11-02T20:09:26.865168Z",
+      "refresh_status": {
+        "ok": false,
+        "checked_at": "2026-11-20T22:37:19.814518Z",
+        "error": "当前来源未提供此测试版本，保留历史数据"
+      }
     },
     {
       "id": "arc-agi",
@@ -102,100 +127,151 @@
         }
       ],
       "intro_label": "ARC-AGI",
-      "intro": "抽象规则归纳，接近科研中从少量现象发现机制、迁移到新问题的能力。"
+      "intro": "抽象规则归纳，接近科研中从少量现象发现机制、迁移到新问题的能力。",
+      "generated_at": "2026-11-02T20:09:26.865168Z",
+      "refresh_status": {
+        "ok": false,
+        "checked_at": "2026-11-20T22:37:19.814518Z",
+        "error": "当前来源未提供此测试版本，保留历史数据"
+      }
     },
     {
       "id": "work-automations",
-      "label": "Work Automations",
+      "label": "AutomationBench 1.0.6",
       "intro_label": "Work Automations",
       "title": "工作自动化",
       "why": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "intro": "多步办公流程执行，看模型能否调工具、跟状态、把工作闭环跑完。",
-      "source_field": "numAutomationBench",
+      "source_field": "automationbench-zapier-1-0-6",
       "items": [
         {
-          "model": "GLM-5.3-Flash",
-          "score": 48.8
+          "model": "Gemini 4 Carbon",
+          "score": 53.88,
+          "source_url": "https://zapier.com/benchmarks",
+          "settings": "Gemini 4 Carbon (High); private held-out 657 tasks; API mode; 50-step cap; strict completion"
         },
         {
-          "model": "GPT-6 Astra",
-          "score": 41.4
+          "model": "Gemini 4 Argon",
+          "score": 51.29,
+          "source_url": "https://zapier.com/benchmarks",
+          "settings": "Gemini 4 Argon (High); private held-out 657 tasks; API mode; 50-step cap; strict completion"
+        },
+        {
+          "model": "Claude Sonnet 5.5",
+          "score": 44.75,
+          "source_url": "https://zapier.com/benchmarks",
+          "settings": "Claude Sonnet 5.5 (default fallbacks, Max); private held-out 657 tasks; API mode; 50-step cap; strict completion"
         },
         {
           "model": "Claude Opus 5.5",
-          "score": 40
+          "score": 42.47,
+          "source_url": "https://zapier.com/benchmarks",
+          "settings": "Claude Opus 5.5 (default fallbacks, Max); private held-out 657 tasks; API mode; 50-step cap; strict completion"
         },
         {
-          "model": "GPT-6 Sol",
-          "score": 33.2
-        },
-        {
-          "model": "Claude Fable 5.1",
-          "score": 31.4
+          "model": "GPT-6 Astra",
+          "score": 41.4,
+          "source_url": "https://zapier.com/benchmarks",
+          "settings": "GPT-6 Astra (Max); private held-out 657 tasks; API mode; 50-step cap; strict completion"
         }
-      ]
+      ],
+      "generated_at": "2026-11-20T22:37:19.814518Z",
+      "source_url": "https://www.vellum.ai/benchmarks/automationbench",
+      "evaluation_version": "1.0.6 / Zapier held-out private set",
+      "evaluation_setup": "",
+      "refresh_status": {
+        "ok": true,
+        "checked_at": "2026-11-20T22:37:19.814518Z"
+      },
+      "available_models": 17
     },
     {
       "id": "computer-use",
-      "label": "Computer Use",
+      "label": "OSWorld 2.1 · full set",
       "intro_label": "Computer Use",
       "title": "电脑操作",
       "why": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
       "intro": "真实桌面界面操作，看模型能否看屏幕、点击输入、跨应用完成任务。",
-      "source_field": "numOsworldVerified",
+      "source_field": "osworld-2-1-full",
       "items": [
         {
-          "model": "Claude Fable 5",
-          "score": 85
+          "model": "Claude Opus 5",
+          "score": 44.33,
+          "source_url": "https://osworld-v2.xlang.ai/",
+          "settings": "max; batch tool; v2.1; full set"
         },
         {
-          "model": "Claude Opus 4.8",
-          "score": 83.4
+          "model": "Muse Spark 1.3",
+          "score": 39.25,
+          "source_url": "https://osworld-v2.xlang.ai/",
+          "settings": "max; batch tool; v2.1; full set"
         },
         {
-          "model": "Claude Sonnet 5",
-          "score": 81.2
-        },
-        {
-          "model": "GPT-5.5",
-          "score": 78.7
-        },
-        {
-          "model": "Claude Sonnet 4.6",
-          "score": 78.5
+          "model": "Muse Spark 1.2",
+          "score": 15.84,
+          "source_url": "https://osworld-v2.xlang.ai/",
+          "settings": "xhigh; batch tool; v2.1; full set"
         }
-      ]
+      ],
+      "generated_at": "2026-11-20T22:37:19.814518Z",
+      "source_url": "https://www.vellum.ai/benchmarks/osworld",
+      "evaluation_version": "2.1 / full set",
+      "evaluation_setup": "",
+      "refresh_status": {
+        "ok": true,
+        "checked_at": "2026-11-20T22:37:19.814518Z"
+      },
+      "available_models": 3
     },
     {
       "id": "terminal-use",
-      "label": "Terminal Use",
+      "label": "Terminal-Bench 4.0",
       "intro_label": "Terminal Use",
       "title": "终端操作",
       "why": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "intro": "终端环境任务执行，看模型能否理解命令行反馈、连续操作并把开发/运维流程跑完。",
-      "source_field": "numTerminalBench2",
+      "source_field": "terminal-bench-4-0",
       "items": [
         {
-          "model": "Gemini 3.8 Flash",
-          "score": 89.4
+          "model": "Claude Opus 5.5",
+          "score": 64.8,
+          "source_url": "https://www.tbench.ai/",
+          "settings": "Claude Code; effort=max; 64.8% ± 3.1%"
         },
         {
-          "model": "GPT-5.6 Sol",
-          "score": 88.8
+          "model": "Claude Sonnet 5.5",
+          "score": 61.8,
+          "source_url": "https://www.tbench.ai/",
+          "settings": "Claude Code; effort=max; 61.8% ± 2.9%"
         },
         {
-          "model": "Kimi K3",
-          "score": 88.3
+          "model": "GPT-6 Astra",
+          "score": 58.2,
+          "source_url": "https://www.tbench.ai/",
+          "settings": "Codex; effort=max; 58.2% ± 2.8%"
         },
         {
-          "model": "Claude Mythos 5",
-          "score": 88
+          "model": "GPT-6.1 Sol",
+          "score": 58.2,
+          "source_url": "https://www.tbench.ai/",
+          "settings": "Codex; effort=max; 58.2% ± 3.1%"
         },
         {
-          "model": "Gemini 3.7 Flash",
-          "score": 85.8
+          "model": "Claude Fable 5.1",
+          "score": 57.9,
+          "source_url": "https://www.tbench.ai/",
+          "settings": "Claude Code; effort=max; 57.9% ± 3.8%"
         }
-      ]
+      ],
+      "generated_at": "2026-11-20T22:37:19.814518Z",
+      "source_url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "evaluation_version": "4.0",
+      "evaluation_setup": "",
+      "refresh_status": {
+        "ok": true,
+        "checked_at": "2026-11-20T22:37:19.814518Z"
+      },
+      "available_models": 14
     }
   ],
   "items": [
@@ -203,96 +279,106 @@
       "id": "vellum-gpqa-1",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "GPQA Diamond",
+      "source": "GPQA Diamond · AA",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 96.2,
-      "model_name": "Claude Sonnet 5",
-      "benchmark": "GPQA Diamond",
-      "score": 96.2,
+      "ai_score": 96.26,
+      "model_name": "GPT-6 Astra",
+      "benchmark": "GPQA Diamond · AA",
+      "score": 96.26,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Sonnet 5 · GPQA Diamond 96.2%",
-      "title_zh": "Claude Sonnet 5 · 科学推理第 1，96.2%",
+      "title": "GPT-6 Astra · GPQA Diamond · AA 96.26%",
+      "title_zh": "GPT-6 Astra · 科学推理第 1，96.26%",
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-gpqa-2",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "GPQA Diamond",
+      "source": "GPQA Diamond · AA",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 96,
-      "model_name": "GPT-6 Astra",
-      "benchmark": "GPQA Diamond",
-      "score": 96,
+      "ai_score": 95.25,
+      "model_name": "Gemini 3.8 Flash",
+      "benchmark": "GPQA Diamond · AA",
+      "score": 95.25,
       "unit": "%",
       "rank": 2,
-      "title": "GPT-6 Astra · GPQA Diamond 96%",
-      "title_zh": "GPT-6 Astra · 科学推理第 2，96%",
+      "title": "Gemini 3.8 Flash · GPQA Diamond · AA 95.25%",
+      "title_zh": "Gemini 3.8 Flash · 科学推理第 2，95.25%",
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-gpqa-3",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "GPQA Diamond",
+      "source": "GPQA Diamond · AA",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 95.4,
-      "model_name": "Claude 3 Opus",
-      "benchmark": "GPQA Diamond",
-      "score": 95.4,
+      "ai_score": 94.14,
+      "model_name": "GPT-5.6 Sol",
+      "benchmark": "GPQA Diamond · AA",
+      "score": 94.14,
       "unit": "%",
       "rank": 3,
-      "title": "Claude 3 Opus · GPQA Diamond 95.4%",
-      "title_zh": "Claude 3 Opus · 科学推理第 3，95.4%",
+      "title": "GPT-5.6 Sol · GPQA Diamond · AA 94.14%",
+      "title_zh": "GPT-5.6 Sol · 科学推理第 3，94.14%",
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-gpqa-4",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "GPQA Diamond",
+      "source": "GPQA Diamond · AA",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 94.6,
-      "model_name": "GPT-5.6 Sol",
-      "benchmark": "GPQA Diamond",
-      "score": 94.6,
+      "ai_score": 94.14,
+      "model_name": "Muse Spark 1.3",
+      "benchmark": "GPQA Diamond · AA",
+      "score": 94.14,
       "unit": "%",
       "rank": 4,
-      "title": "GPT-5.6 Sol · GPQA Diamond 94.6%",
-      "title_zh": "GPT-5.6 Sol · 科学推理第 4，94.6%",
+      "title": "Muse Spark 1.3 · GPQA Diamond · AA 94.14%",
+      "title_zh": "Muse Spark 1.3 · 科学推理第 4，94.14%",
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-gpqa-5",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "GPQA Diamond",
+      "source": "GPQA Diamond · AA",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 94.3,
+      "ai_score": 94.14,
       "model_name": "Gemini 3.1 Pro",
-      "benchmark": "GPQA Diamond",
-      "score": 94.3,
+      "benchmark": "GPQA Diamond · AA",
+      "score": 94.14,
       "unit": "%",
       "rank": 5,
-      "title": "Gemini 3.1 Pro · GPQA Diamond 94.3%",
-      "title_zh": "Gemini 3.1 Pro · 科学推理第 5，94.3%",
+      "title": "Gemini 3.1 Pro · GPQA Diamond · AA 94.14%",
+      "title_zh": "Gemini 3.1 Pro · 科学推理第 5，94.14%",
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-aime-1",
@@ -311,7 +397,9 @@
       "title_zh": "Gemini 3 Pro · 数学推理第 1，100%",
       "summary": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-aime-2",
@@ -330,7 +418,9 @@
       "title_zh": "GPT 5.2 · 数学推理第 2，100%",
       "summary": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-aime-3",
@@ -349,7 +439,9 @@
       "title_zh": "Claude Opus 4.6 · 数学推理第 3，99.8%",
       "summary": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-aime-4",
@@ -368,7 +460,9 @@
       "title_zh": "Kimi K2 Thinking · 数学推理第 4，99.1%",
       "summary": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-aime-5",
@@ -387,7 +481,9 @@
       "title_zh": "GPT oss 20b · 数学推理第 5，98.7%",
       "summary": "数学竞赛/复杂定量推理指标，适合观察模型处理公式、证明思路、严密推导和定量分析的能力。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-arc-agi-1",
@@ -406,7 +502,9 @@
       "title_zh": "GPT-6 Astra · 抽象泛化第 1，95%",
       "summary": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-arc-agi-2",
@@ -425,7 +523,9 @@
       "title_zh": "GPT-5.6 Sol · 抽象泛化第 2，92.5%",
       "summary": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-arc-agi-3",
@@ -444,7 +544,9 @@
       "title_zh": "GPT-5.5 · 抽象泛化第 3，85%",
       "summary": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-arc-agi-4",
@@ -463,7 +565,9 @@
       "title_zh": "Gemini 3.1 Pro · 抽象泛化第 4，77.1%",
       "summary": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-arc-agi-5",
@@ -482,298 +586,308 @@
       "title_zh": "Gemini 3.5 Flash · 抽象泛化第 5，72.1%",
       "summary": "考察模型从少量样例中归纳规则、迁移模式和解决新问题的能力，接近科研中的机制发现与跨情境推断。",
       "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "published_at": null,
+      "captured_at": "2026-11-02T20:09:26.865168Z",
+      "historical": true
     },
     {
       "id": "vellum-work-automations-1",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Work Automations",
+      "source": "AutomationBench 1.0.6",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 48.8,
-      "model_name": "GLM-5.3-Flash",
-      "benchmark": "Work Automations",
-      "score": 48.8,
+      "ai_score": 53.88,
+      "model_name": "Gemini 4 Carbon",
+      "benchmark": "AutomationBench 1.0.6",
+      "score": 53.88,
       "unit": "%",
       "rank": 1,
-      "title": "GLM-5.3-Flash · Work Automations 48.8%",
-      "title_zh": "GLM-5.3-Flash · 工作自动化第 1，48.8%",
+      "title": "Gemini 4 Carbon · AutomationBench 1.0.6 53.88%",
+      "title_zh": "Gemini 4 Carbon · 工作自动化第 1，53.88%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/automationbench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-work-automations-2",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Work Automations",
+      "source": "AutomationBench 1.0.6",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 41.4,
-      "model_name": "GPT-6 Astra",
-      "benchmark": "Work Automations",
-      "score": 41.4,
+      "ai_score": 51.29,
+      "model_name": "Gemini 4 Argon",
+      "benchmark": "AutomationBench 1.0.6",
+      "score": 51.29,
       "unit": "%",
       "rank": 2,
-      "title": "GPT-6 Astra · Work Automations 41.4%",
-      "title_zh": "GPT-6 Astra · 工作自动化第 2，41.4%",
+      "title": "Gemini 4 Argon · AutomationBench 1.0.6 51.29%",
+      "title_zh": "Gemini 4 Argon · 工作自动化第 2，51.29%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/automationbench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-work-automations-3",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Work Automations",
+      "source": "AutomationBench 1.0.6",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 40,
-      "model_name": "Claude Opus 5.5",
-      "benchmark": "Work Automations",
-      "score": 40,
+      "ai_score": 44.75,
+      "model_name": "Claude Sonnet 5.5",
+      "benchmark": "AutomationBench 1.0.6",
+      "score": 44.75,
       "unit": "%",
       "rank": 3,
-      "title": "Claude Opus 5.5 · Work Automations 40%",
-      "title_zh": "Claude Opus 5.5 · 工作自动化第 3，40%",
+      "title": "Claude Sonnet 5.5 · AutomationBench 1.0.6 44.75%",
+      "title_zh": "Claude Sonnet 5.5 · 工作自动化第 3，44.75%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/automationbench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-work-automations-4",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Work Automations",
+      "source": "AutomationBench 1.0.6",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 33.2,
-      "model_name": "GPT-6 Sol",
-      "benchmark": "Work Automations",
-      "score": 33.2,
+      "ai_score": 42.47,
+      "model_name": "Claude Opus 5.5",
+      "benchmark": "AutomationBench 1.0.6",
+      "score": 42.47,
       "unit": "%",
       "rank": 4,
-      "title": "GPT-6 Sol · Work Automations 33.2%",
-      "title_zh": "GPT-6 Sol · 工作自动化第 4，33.2%",
+      "title": "Claude Opus 5.5 · AutomationBench 1.0.6 42.47%",
+      "title_zh": "Claude Opus 5.5 · 工作自动化第 4，42.47%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/automationbench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-work-automations-5",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Work Automations",
+      "source": "AutomationBench 1.0.6",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 31.4,
-      "model_name": "Claude Fable 5.1",
-      "benchmark": "Work Automations",
-      "score": 31.4,
+      "ai_score": 41.4,
+      "model_name": "GPT-6 Astra",
+      "benchmark": "AutomationBench 1.0.6",
+      "score": 41.4,
       "unit": "%",
       "rank": 5,
-      "title": "Claude Fable 5.1 · Work Automations 31.4%",
-      "title_zh": "Claude Fable 5.1 · 工作自动化第 5，31.4%",
+      "title": "GPT-6 Astra · AutomationBench 1.0.6 41.4%",
+      "title_zh": "GPT-6 Astra · 工作自动化第 5，41.4%",
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/automationbench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-computer-use-1",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Computer Use",
+      "source": "OSWorld 2.1 · full set",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 85,
-      "model_name": "Claude Fable 5",
-      "benchmark": "Computer Use",
-      "score": 85,
+      "ai_score": 44.33,
+      "model_name": "Claude Opus 5",
+      "benchmark": "OSWorld 2.1 · full set",
+      "score": 44.33,
       "unit": "%",
       "rank": 1,
-      "title": "Claude Fable 5 · Computer Use 85%",
-      "title_zh": "Claude Fable 5 · 电脑操作第 1，85%",
+      "title": "Claude Opus 5 · OSWorld 2.1 · full set 44.33%",
+      "title_zh": "Claude Opus 5 · 电脑操作第 1，44.33%",
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/osworld",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-computer-use-2",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Computer Use",
+      "source": "OSWorld 2.1 · full set",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 83.4,
-      "model_name": "Claude Opus 4.8",
-      "benchmark": "Computer Use",
-      "score": 83.4,
+      "ai_score": 39.25,
+      "model_name": "Muse Spark 1.3",
+      "benchmark": "OSWorld 2.1 · full set",
+      "score": 39.25,
       "unit": "%",
       "rank": 2,
-      "title": "Claude Opus 4.8 · Computer Use 83.4%",
-      "title_zh": "Claude Opus 4.8 · 电脑操作第 2，83.4%",
+      "title": "Muse Spark 1.3 · OSWorld 2.1 · full set 39.25%",
+      "title_zh": "Muse Spark 1.3 · 电脑操作第 2，39.25%",
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/osworld",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-computer-use-3",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Computer Use",
+      "source": "OSWorld 2.1 · full set",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 81.2,
-      "model_name": "Claude Sonnet 5",
-      "benchmark": "Computer Use",
-      "score": 81.2,
+      "ai_score": 15.84,
+      "model_name": "Muse Spark 1.2",
+      "benchmark": "OSWorld 2.1 · full set",
+      "score": 15.84,
       "unit": "%",
       "rank": 3,
-      "title": "Claude Sonnet 5 · Computer Use 81.2%",
-      "title_zh": "Claude Sonnet 5 · 电脑操作第 3，81.2%",
+      "title": "Muse Spark 1.2 · OSWorld 2.1 · full set 15.84%",
+      "title_zh": "Muse Spark 1.2 · 电脑操作第 3，15.84%",
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
-    },
-    {
-      "id": "vellum-computer-use-4",
-      "site_id": "model_scores",
-      "site_name": "Vellum LLM Leaderboard",
-      "source": "Computer Use",
-      "source_tier": "model_scores",
-      "ai_label": "model_score",
-      "ai_score": 78.7,
-      "model_name": "GPT-5.5",
-      "benchmark": "Computer Use",
-      "score": 78.7,
-      "unit": "%",
-      "rank": 4,
-      "title": "GPT-5.5 · Computer Use 78.7%",
-      "title_zh": "GPT-5.5 · 电脑操作第 4，78.7%",
-      "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
-    },
-    {
-      "id": "vellum-computer-use-5",
-      "site_id": "model_scores",
-      "site_name": "Vellum LLM Leaderboard",
-      "source": "Computer Use",
-      "source_tier": "model_scores",
-      "ai_label": "model_score",
-      "ai_score": 78.5,
-      "model_name": "Claude Sonnet 4.6",
-      "benchmark": "Computer Use",
-      "score": 78.5,
-      "unit": "%",
-      "rank": 5,
-      "title": "Claude Sonnet 4.6 · Computer Use 78.5%",
-      "title_zh": "Claude Sonnet 4.6 · 电脑操作第 5，78.5%",
-      "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/osworld",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-terminal-use-1",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Terminal Use",
+      "source": "Terminal-Bench 4.0",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 89.4,
-      "model_name": "Gemini 3.8 Flash",
-      "benchmark": "Terminal Use",
-      "score": 89.4,
+      "ai_score": 64.8,
+      "model_name": "Claude Opus 5.5",
+      "benchmark": "Terminal-Bench 4.0",
+      "score": 64.8,
       "unit": "%",
       "rank": 1,
-      "title": "Gemini 3.8 Flash · Terminal Use 89.4%",
-      "title_zh": "Gemini 3.8 Flash · 终端操作第 1，89.4%",
+      "title": "Claude Opus 5.5 · Terminal-Bench 4.0 64.8%",
+      "title_zh": "Claude Opus 5.5 · 终端操作第 1，64.8%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-terminal-use-2",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Terminal Use",
+      "source": "Terminal-Bench 4.0",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88.8,
-      "model_name": "GPT-5.6 Sol",
-      "benchmark": "Terminal Use",
-      "score": 88.8,
+      "ai_score": 61.8,
+      "model_name": "Claude Sonnet 5.5",
+      "benchmark": "Terminal-Bench 4.0",
+      "score": 61.8,
       "unit": "%",
       "rank": 2,
-      "title": "GPT-5.6 Sol · Terminal Use 88.8%",
-      "title_zh": "GPT-5.6 Sol · 终端操作第 2，88.8%",
+      "title": "Claude Sonnet 5.5 · Terminal-Bench 4.0 61.8%",
+      "title_zh": "Claude Sonnet 5.5 · 终端操作第 2，61.8%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-terminal-use-3",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Terminal Use",
+      "source": "Terminal-Bench 4.0",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88.3,
-      "model_name": "Kimi K3",
-      "benchmark": "Terminal Use",
-      "score": 88.3,
+      "ai_score": 58.2,
+      "model_name": "GPT-6 Astra",
+      "benchmark": "Terminal-Bench 4.0",
+      "score": 58.2,
       "unit": "%",
       "rank": 3,
-      "title": "Kimi K3 · Terminal Use 88.3%",
-      "title_zh": "Kimi K3 · 终端操作第 3，88.3%",
+      "title": "GPT-6 Astra · Terminal-Bench 4.0 58.2%",
+      "title_zh": "GPT-6 Astra · 终端操作第 3，58.2%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-terminal-use-4",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Terminal Use",
+      "source": "Terminal-Bench 4.0",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 88,
-      "model_name": "Claude Mythos 5",
-      "benchmark": "Terminal Use",
-      "score": 88,
+      "ai_score": 58.2,
+      "model_name": "GPT-6.1 Sol",
+      "benchmark": "Terminal-Bench 4.0",
+      "score": 58.2,
       "unit": "%",
       "rank": 4,
-      "title": "Claude Mythos 5 · Terminal Use 88%",
-      "title_zh": "Claude Mythos 5 · 终端操作第 4，88%",
+      "title": "GPT-6.1 Sol · Terminal-Bench 4.0 58.2%",
+      "title_zh": "GPT-6.1 Sol · 终端操作第 4，58.2%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     },
     {
       "id": "vellum-terminal-use-5",
       "site_id": "model_scores",
       "site_name": "Vellum LLM Leaderboard",
-      "source": "Terminal Use",
+      "source": "Terminal-Bench 4.0",
       "source_tier": "model_scores",
       "ai_label": "model_score",
-      "ai_score": 85.8,
-      "model_name": "Gemini 3.7 Flash",
-      "benchmark": "Terminal Use",
-      "score": 85.8,
+      "ai_score": 57.9,
+      "model_name": "Claude Fable 5.1",
+      "benchmark": "Terminal-Bench 4.0",
+      "score": 57.9,
       "unit": "%",
       "rank": 5,
-      "title": "Gemini 3.7 Flash · Terminal Use 85.8%",
-      "title_zh": "Gemini 3.7 Flash · 终端操作第 5，85.8%",
+      "title": "Claude Fable 5.1 · Terminal-Bench 4.0 57.9%",
+      "title_zh": "Claude Fable 5.1 · 终端操作第 5，57.9%",
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
-      "url": "https://www.vellum.ai/llm-leaderboard",
-      "published_at": null
+      "url": "https://www.vellum.ai/benchmarks/terminal-bench",
+      "published_at": null,
+      "captured_at": "2026-11-20T22:37:19.814518Z",
+      "historical": false
     }
   ],
-  "total_items": 30,
+  "total_items": 28,
   "refresh_status": {
-    "ok": false,
-    "error": "Incomplete Vellum benchmark: gpqa",
-    "checked_at": "2026-11-19T21:39:56.051670Z"
-  }
+    "ok": true,
+    "partial": true,
+    "updated_metrics": [
+      "gpqa",
+      "work-automations",
+      "computer-use",
+      "terminal-use"
+    ],
+    "retained_metrics": [
+      "aime",
+      "arc-agi"
+    ],
+    "checked_at": "2026-11-20T22:37:19.814518Z"
+  },
+  "updated_metrics": [
+    "gpqa",
+    "work-automations",
+    "computer-use",
+    "terminal-use"
+  ],
+  "retained_metrics": [
+    "aime",
+    "arc-agi"
+  ]
 }

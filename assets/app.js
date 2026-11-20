@@ -231,7 +231,7 @@ function modelScoreTimeText(style = "detail") {
   const sourceLabel = state.modelScoreData?.updated_label || "";
   const stale = state.modelScoreData?.refresh_status?.ok === false
     || Date.now() - Date.parse(state.modelScoreData?.generated_at) > 3 * 86400000;
-  const warning = stale ? "（更新待恢复，展示保留数据）" : "";
+  const warning = stale ? "（更新待恢复，展示保留数据）" : state.modelScoreData?.refresh_status?.partial ? "（部分指标为历史数据，详见各图）" : "";
   if (style === "title") return `本站采集 ${collectedAt}${warning}`;
   return [
     sourceLabel ? `Vellum 标注：${sourceLabel}` : "",
@@ -3341,6 +3341,10 @@ function renderModelScoreChart(metric) {
   const why = document.createElement("p");
   why.textContent = metric.why || "";
   head.append(label, title, why);
+  const freshness = document.createElement("p");
+  const historical = metric.refresh_status?.ok === false;
+  freshness.textContent = `${historical ? "历史数据" : "采集时间"}：${fmtDate(metric.generated_at || state.modelScoreData?.generated_at)}${historical ? ` · ${metric.refresh_status.error || "等待来源恢复"}` : ` · ${metric.evaluation_version || ""} · ${metric.available_models || metric.items?.length || 0} 个模型有评分`}`;
+  head.appendChild(freshness);
 
   const rows = document.createElement("div");
   rows.className = "model-score-bars";

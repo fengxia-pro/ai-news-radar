@@ -24,7 +24,16 @@ FIELDS = {
 }
 
 
-def parse_models(html: str) -> tuple[list[dict], str]:
+# Pin a single evaluation cohort per chart: never pool incompatible setups.
+COHORTS = {
+    "gpqa": ("gpqa-diamond", "gpqa-diamond-aa", "GPQA Diamond · AA"),
+    "work-automations": ("automationbench", "automationbench-zapier-1-0-6", "AutomationBench 1.0.6"),
+    "computer-use": ("osworld", "osworld-2-1-full", "OSWorld 2.1 · full set"),
+    "terminal-use": ("terminal-bench", "terminal-bench-4-0", "Terminal-Bench 4.0"),
+}
+
+
+def parse_source(html: str) -> tuple[list[dict], list[dict], str]:
     soup = BeautifulSoup(html, "html.parser")
     chunks = []
     prefix = "self.__next_f.push("
@@ -38,52 +47,70 @@ def parse_models(html: str) -> tuple[list[dict], str]:
             continue
         if isinstance(chunk, list) and len(chunk) > 1 and chunk[0] == 1 and isinstance(chunk[1], str):
             chunks.append(chunk[1])
-    # Decode data only. Never execute scripts supplied by the source page.
     data = "".join(chunks)
-    candidates = []
-    for match in re.finditer(r'"models"\s*:\s*\[', data):
-        try:
-            models, _ = json.JSONDecoder().raw_decode(data[match.end()-1:])
-        except ValueError:
-            continue
-        if models and all(isinstance(model, dict) for model in models):
-            candidates.append(models)
-    models = max(candidates, key=len, default=[])
-    if not models:
-        raise ValueError("Vellum model data not found")
-    updated = soup.select_one(".leaderboard-updated")
-    return models, updated.get_text(" ", strip=True) if updated else ""
+    def arrays(key):
+        found = []
+        for match in re.finditer(r'"' + key + r'"\s*:\s*\[', data):
+            try:
+                value, _ = json.JSONDecoder().raw_decode(data[match.end()-1:])
+            except ValueError:
+                continue
+            if value and all(isinstance(row, dict) for row in value):
+                found.append(value)
+        return found
+    models = max((v for v in arrays("models") if all("name" in x and "id" in x for x in v)), key=len, default=[])
+    benchmarks = max((v for v in arrays("benchmarks") if all("cohorts" in x for x in v)), key=len, default=[])
+    if not models or not benchmarks:
+        raise ValueError("Vellum model/cohort data not found")
+    label = re.search(r"Data as of:\s*([A-Za-z]+ \d{1,2}, \d{4})", soup.get_text(" ", strip=True))
+    return models, benchmarks, label.group(1) if label else ""
 
 
 def build_snapshot(previous: dict, html: str, now: datetime) -> dict:
-    models, label = parse_models(html)
+    models, benchmarks, label = parse_source(html)
+    names = {m["id"]: m["name"] for m in models}
     result = deepcopy(previous)
+    stamp = now.isoformat().replace("+00:00", "Z")
     metrics = result.get("research_metrics", [])
-    if {metric["id"] for metric in metrics} != set(FIELDS):
+    if {m["id"] for m in metrics} != set(FIELDS):
         raise ValueError("Expected the six configured benchmark charts")
-    records = []
+    updated, retained, records = [], [], []
     for metric in metrics:
-        field = FIELDS[metric["id"]]
-        ranked = []
-        seen = set()
-        for model in models:
-            name, score = model.get("title"), model.get(field)
-            if not isinstance(name, str) or not name.strip() or name in seen:
-                continue
-            if isinstance(score, bool) or not isinstance(score, (int, float)) or not math.isfinite(score) or not 0 <= score <= 100:
-                continue
-            seen.add(name)
-            ranked.append({"model": name, "score": score})
-        ranked.sort(key=lambda entry: entry["score"], reverse=True)
-        if len(ranked) < 5:
-            raise ValueError(f"Incomplete Vellum benchmark: {metric['id']}")
-        metric["source_field"] = field
-        metric["items"] = ranked[:5]
-        if metric["id"] == "aime":
-            metric["label"] = "AIME 2025"
-        if metric["id"] == "arc-agi":
-            metric["label"] = "ARC-AGI 2"
-        for rank, entry in enumerate(metric["items"], 1):
+        metric.setdefault("generated_at", previous.get("generated_at"))
+        try:
+            if metric["id"] not in COHORTS:
+                raise ValueError("当前来源未提供此测试版本，保留历史数据")
+            slug, benchmark_id, title = COHORTS[metric["id"]]
+            benchmark = next(b for b in benchmarks if b["slug"] == slug)
+            # An empty setup is a distinct upstream comparison cohort.
+            cohorts = [c for c in benchmark["cohorts"] if c["benchmarkId"] == benchmark_id and c.get("setup", "") == ""]
+            if len(cohorts) != 1:
+                raise ValueError("指定测试版本或评测分组缺失")
+            cohort = cohorts[0]
+            if cohort.get("unit") != "%" or cohort.get("higherIsBetter") is not True:
+                raise ValueError("评分单位或排序方向发生变化")
+            ranked, seen = [], set()
+            for row in cohort["models"]:
+                score, model_id = row.get("score"), row.get("id")
+                if model_id not in names or model_id in seen:
+                    continue
+                if isinstance(score, bool) or not isinstance(score, (int, float)) or not math.isfinite(score) or not 0 <= score <= 100:
+                    continue
+                seen.add(model_id)
+                ranked.append({"model": names[model_id], "score": round(score, 2), "source_url": row.get("source"), "settings": row.get("settings", "")})
+            if not ranked:
+                raise ValueError("该分组没有有效评分")
+            ranked.sort(key=lambda row: row["score"], reverse=True)
+            metric.update(label=title, items=ranked[:5], source_field=benchmark_id,
+                          source_url=f"https://www.vellum.ai/benchmarks/{slug}",
+                          evaluation_version=cohort["version"], evaluation_setup=cohort.get("setup", ""),
+                          generated_at=stamp, refresh_status={"ok": True, "checked_at": stamp},
+                          available_models=len(ranked))
+            updated.append(metric["id"])
+        except (ValueError, KeyError, StopIteration) as exc:
+            metric["refresh_status"] = {"ok": False, "checked_at": stamp, "error": str(exc) or "上游指标缺失"}
+            retained.append(metric["id"])
+        for rank, entry in enumerate(metric.get("items", []), 1):
             records.append({
                 "id": f"vellum-{metric['id']}-{rank}", "site_id": "model_scores",
                 "site_name": "Vellum LLM Leaderboard", "source": metric["label"],
@@ -92,10 +119,13 @@ def build_snapshot(previous: dict, html: str, now: datetime) -> dict:
                 "benchmark": metric["label"], "score": entry["score"], "unit": "%", "rank": rank,
                 "title": f"{entry['model']} · {metric['label']} {entry['score']}%",
                 "title_zh": f"{entry['model']} · {metric['title']}第 {rank}，{entry['score']}%",
-                "summary": metric.get("why", ""), "url": SOURCE_URL, "published_at": None,
+                "summary": metric.get("why", ""), "url": metric.get("source_url", SOURCE_URL), "published_at": None,
+                "captured_at": metric.get("generated_at"), "historical": not metric["refresh_status"]["ok"],
             })
-    result.update(generated_at=now.isoformat().replace("+00:00", "Z"), updated_label=label,
-                  source_url=SOURCE_URL, items=records, total_items=len(records))
+    if not updated:
+        raise ValueError("No benchmark could be refreshed")
+    result.update(generated_at=stamp, updated_label=label, source_url=SOURCE_URL,
+                  items=records, total_items=len(records), updated_metrics=updated, retained_metrics=retained)
     return result
 
 
@@ -112,7 +142,7 @@ def refresh(path: Path, now: datetime, force: bool = False, get=requests.get) ->
         response = get(SOURCE_URL, timeout=40, headers={"User-Agent": "Mozilla/5.0"})
         response.raise_for_status()
         result = build_snapshot(previous, response.text, now)
-        status = {"ok": True}
+        status = {"ok": True, "partial": bool(result.get("retained_metrics")), "updated_metrics": result.get("updated_metrics", []), "retained_metrics": result.get("retained_metrics", [])}
     except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
         result = deepcopy(previous)
         status = {"ok": False, "error": str(exc)[:300]}
