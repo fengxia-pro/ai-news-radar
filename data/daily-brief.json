@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T14:03:59.332477Z",
+  "generated_at": "2026-11-21T20:07:52.896965Z",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 15,
   "items": [
     {
       "story_id": "story_2f9d0bc4d147",
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8064,
-      "importance": 0.8064,
-      "importance_score": 0.8064,
+      "score": 0.7944,
+      "importance": 0.7944,
+      "importance_score": 0.7944,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7909,
+        "recency": 0.7246,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8041,
-      "importance": 0.8041,
-      "importance_score": 0.8041,
+      "score": 0.7923,
+      "importance": 0.7923,
+      "importance_score": 0.7923,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7781,
+        "recency": 0.7128,
         "story_heat": 0.0
       },
       "category": "official",
@@ -128,76 +128,59 @@
       }
     },
     {
-      "story_id": "story_b9417c5606ab",
-      "title": "将您最喜欢的存储库固定到仪表板 / Pin your favorite repositories to your dashboard",
-      "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-      "primary_url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "9e7b5ac6e5db201967f08363d6537f188ec45466",
-          "title": "将您最喜欢的存储库固定到仪表板 / Pin your favorite repositories to your dashboard",
-          "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-20T14:12:05Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "9e7b5ac6e5db201967f08363d6537f188ec45466",
-          "title": "将您最喜欢的存储库固定到仪表板 / Pin your favorite repositories to your dashboard",
-          "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-20T14:12:05Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7915,
-      "importance": 0.7915,
-      "importance_score": 0.7915,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7085,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-20T14:12:05Z",
-      "latest_at": "2026-11-20T14:12:05Z",
-      "primary_item": {
-        "id": "9e7b5ac6e5db201967f08363d6537f188ec45466",
-        "title": "将您最喜欢的存储库固定到仪表板 / Pin your favorite repositories to your dashboard",
-        "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
       "story_id": "story_2df82173bb28",
-      "title": "AI记忆带来便捷的同时，也暗藏困住人的风险。作者因写入“小白讲师”标签，导致AI持续把机会局限在培训赛道，不断强化刻板印象，甚至让自己慢慢认同这个单一身份。这篇思考给高频使用 Agent 的人也敲了警钟，提醒我们在人机共生中，别让 AI 的记忆框住自己更多潜在方向。",
+      "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-11-20",
+      "source": "社区更新 · 2026-11-21",
       "source_name": "WaytoAGI",
       "sources": [
         {
+          "id": "ff62b6ca3951395de503091399be40a272024b27",
+          "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "0624651fa1db7a03ecde1ea867d6acf3da733489",
+          "title": "作者公开了团队内部用AI剪辑视频的完整工作流：从脚本和口播素材出发，用参考图统一调色、Skill 设计分镜，再完成配乐、音效和剪辑。先打磨开头 30 秒，再扩展全片，用“时间码＋问题＋截图”让 AI 精准修改。适合做口播、教程和科普视频的创作者照着跑一遍。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "3a073a4c769ac75d0e435b919ab9231c965a6790",
+          "title": "反复提醒 AI“想清楚再做、交付前检查”，结果它还是会跑偏？作者把以终为始、二八法则、逆向思考等 12 条做事常识，改写成 Agent 能执行的具体规则：什么情况下该追问、何时停下重查、交付前必须验证什么。或许会有所帮助！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "4e7bd3cceee53a7bbe992a60d00f8877e402ca26",
+          "title": "想让品牌被 AI 搜到、推荐，靠批量发文章就够了吗？这份第二届 GEO 大会首日复盘，汇总了品牌方、服务商和出海创业者的实战分享：从用户会怎么问、内容该发在哪，到官网如何承接客户、效果怎样监测，也谈了低价接单和需求失控带来的亏损。一起来看看！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "714fe287ef094a753ba9d57ee19089c5f1cd5358",
+          "title": "模型榜单看了不少，那换到自己的任务里到底谁更好用？小歪给 Gemini 4 Neon、Claude Opus 5.5 和 GPT-6.2 同一道题：不用生图模型，纯代码制作跨越 20 个艺术时代的动画，把三家的成片放在一起进行了一个对比。正在选模型、考虑订阅的朋友，可以先看这组实测，再判断画面、速度和使用成本哪项更符合自己的需求。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
           "id": "2fb7c0224d117bf00d70ce4dd3c520ed9ff82ac6",
           "title": "AI记忆带来便捷的同时，也暗藏困住人的风险。作者因写入“小白讲师”标签，导致AI持续把机会局限在培训赛道，不断强化刻板印象，甚至让自己慢慢认同这个单一身份。这篇思考给高频使用 Agent 的人也敲了警钟，提醒我们在人机共生中，别让 AI 的记忆框住自己更多潜在方向。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -243,12 +226,58 @@
           "published_at": "2026-11-20T21:09:16.213464Z"
         }
       ],
-      "source_count": 5,
+      "source_count": 10,
       "source_names": [
-        "社区更新 · 2026-11-20"
+        "社区更新 · 2026-11-20",
+        "社区更新 · 2026-11-21"
       ],
       "items": [
         {
+          "id": "ff62b6ca3951395de503091399be40a272024b27",
+          "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "0624651fa1db7a03ecde1ea867d6acf3da733489",
+          "title": "作者公开了团队内部用AI剪辑视频的完整工作流：从脚本和口播素材出发，用参考图统一调色、Skill 设计分镜，再完成配乐、音效和剪辑。先打磨开头 30 秒，再扩展全片，用“时间码＋问题＋截图”让 AI 精准修改。适合做口播、教程和科普视频的创作者照着跑一遍。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "3a073a4c769ac75d0e435b919ab9231c965a6790",
+          "title": "反复提醒 AI“想清楚再做、交付前检查”，结果它还是会跑偏？作者把以终为始、二八法则、逆向思考等 12 条做事常识，改写成 Agent 能执行的具体规则：什么情况下该追问、何时停下重查、交付前必须验证什么。或许会有所帮助！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "4e7bd3cceee53a7bbe992a60d00f8877e402ca26",
+          "title": "想让品牌被 AI 搜到、推荐，靠批量发文章就够了吗？这份第二届 GEO 大会首日复盘，汇总了品牌方、服务商和出海创业者的实战分享：从用户会怎么问、内容该发在哪，到官网如何承接客户、效果怎样监测，也谈了低价接单和需求失控带来的亏损。一起来看看！",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
+          "id": "714fe287ef094a753ba9d57ee19089c5f1cd5358",
+          "title": "模型榜单看了不少，那换到自己的任务里到底谁更好用？小歪给 Gemini 4 Neon、Claude Opus 5.5 和 GPT-6.2 同一道题：不用生图模型，纯代码制作跨越 20 个艺术时代的动画，把三家的成片放在一起进行了一个对比。正在选模型、考虑订阅的朋友，可以先看这组实测，再判断画面、速度和使用成本哪项更符合自己的需求。",
+          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+          "source": "社区更新 · 2026-11-21",
+          "source_name": "WaytoAGI",
+          "site_id": "waytoagi",
+          "published_at": "2026-11-21T20:07:52.896965Z"
+        },
+        {
           "id": "2fb7c0224d117bf00d70ce4dd3c520ed9ff82ac6",
           "title": "AI记忆带来便捷的同时，也暗藏困住人的风险。作者因写入“小白讲师”标签，导致AI持续把机会局限在培训赛道，不断强化刻板印象，甚至让自己慢慢认同这个单一身份。这篇思考给高频使用 Agent 的人也敲了警钟，提醒我们在人机共生中，别让 AI 的记忆框住自己更多潜在方向。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
@@ -294,17 +323,17 @@
           "published_at": "2026-11-20T21:09:16.213464Z"
         }
       ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6302,
-      "importance": 0.6302,
-      "importance_score": 0.6302,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.7833,
+        "recency": 1.0,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -312,12 +341,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-11-20T21:09:16.213464Z",
-      "latest_at": "2026-11-20T21:09:16.213464Z",
+      "latest_at": "2026-11-21T20:07:52.896965Z",
       "primary_item": {
-        "id": "2fb7c0224d117bf00d70ce4dd3c520ed9ff82ac6",
-        "title": "AI记忆带来便捷的同时，也暗藏困住人的风险。作者因写入“小白讲师”标签，导致AI持续把机会局限在培训赛道，不断强化刻板印象，甚至让自己慢慢认同这个单一身份。这篇思考给高频使用 Agent 的人也敲了警钟，提醒我们在人机共生中，别让 AI 的记忆框住自己更多潜在方向。",
+        "id": "ff62b6ca3951395de503091399be40a272024b27",
+        "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-11-20",
+        "source": "社区更新 · 2026-11-21",
         "source_name": "WaytoAGI"
       }
     },
@@ -394,15 +423,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5684,
-      "importance": 0.5684,
-      "importance_score": 0.5684,
+      "score": 0.5535,
+      "importance": 0.5535,
+      "importance_score": 0.5535,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9866,
+        "recency": 0.9039,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -417,122 +446,6 @@
         "url": "http://ricapar.net/ClawDOS",
         "source": "ricapar.net",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4dfd121c6c30",
-      "title": "Anthropic股价在轰动一时的上市次日下跌 / Tech stock sell-off drags markets down as Anthropic shares slide",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News (世界新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "5c2da3a865d10fdaa38b03d10bdb0b58ff30461c",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Tech stock sell-off drags markets down as Anthropic shares slide",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T22:42:47Z"
-        },
-        {
-          "id": "56367cfe99bc9396b2c74b983280cabed0751cc2",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T20:00:53Z"
-        },
-        {
-          "id": "42d3bddd65599a211aa7353be4206fae442f5b5b",
-          "title": "Anthropic股价在轰动一时的上市次日下跌",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T16:40:49.193000Z"
-        },
-        {
-          "id": "b971dba8860e3f6fc474b76bec5eb24a1363b1b3",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Anthropic shares fall a day after blockbuster opening",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T15:02:44Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "BBC News",
-        "BBC News (世界新闻)",
-        "www.bbc.co.uk"
-      ],
-      "items": [
-        {
-          "id": "5c2da3a865d10fdaa38b03d10bdb0b58ff30461c",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Tech stock sell-off drags markets down as Anthropic shares slide",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T22:42:47Z"
-        },
-        {
-          "id": "56367cfe99bc9396b2c74b983280cabed0751cc2",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T20:00:53Z"
-        },
-        {
-          "id": "42d3bddd65599a211aa7353be4206fae442f5b5b",
-          "title": "Anthropic股价在轰动一时的上市次日下跌",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T16:40:49.193000Z"
-        },
-        {
-          "id": "b971dba8860e3f6fc474b76bec5eb24a1363b1b3",
-          "title": "Anthropic股价在轰动一时的上市次日下跌 / Anthropic shares fall a day after blockbuster opening",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T15:02:44Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8011,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-20T15:02:44Z",
-      "latest_at": "2026-11-20T22:42:47Z",
-      "primary_item": {
-        "id": "5c2da3a865d10fdaa38b03d10bdb0b58ff30461c",
-        "title": "Anthropic股价在轰动一时的上市次日下跌 / Tech stock sell-off drags markets down as Anthropic shares slide",
-        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News (世界新闻)",
-        "source_name": "Info Flow"
       }
     },
     {
@@ -627,15 +540,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5583,
-      "importance": 0.5583,
-      "importance_score": 0.5583,
+      "score": 0.5464,
+      "importance": 0.5464,
+      "importance_score": 0.5464,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7917,
+        "recency": 0.7253,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -653,119 +566,82 @@
       }
     },
     {
-      "story_id": "story_32a6def5ca55",
-      "title": "纳斯达克抹去 2026 年涨幅，大规模 IPO 后 Anthropic 股价暴跌 / Anthropic Shares Tank After Huge IPO As the Nasdaq Erases 2026 Gains",
-      "url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-      "primary_url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-      "source": "Slashdot",
-      "source_name": "TechURLs",
+      "story_id": "story_5c37313386c9",
+      "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿”",
+      "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+      "primary_url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "d881189130388ecfd4e493aba95707c738c642c1",
-          "title": "纳斯达克抹去 2026 年涨幅，大规模 IPO 后 Anthropic 股价暴跌 / Anthropic Shares Tank After Huge IPO As the Nasdaq Erases 2026 Gains",
-          "url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-          "source": "Slashdot",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T21:00:00Z"
-        },
-        {
-          "id": "b11f44c526275e2813bc4aaae82730f00f5498dc",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "www.nbcnews.com",
+          "id": "6981da4332466228aed88ed59dbbc1b3f520b525",
+          "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿”",
+          "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T19:36:57.777000Z"
+          "published_at": "2026-11-21T17:07:38.909000Z"
         },
         {
-          "id": "966fa3a46d9bb4c5407857e91539bcba45901d2a",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅 / Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T17:44:01Z"
-        },
-        {
-          "id": "fe66d054a63bfefd331b10e7e5d6b3c2c8af7b32",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅 / Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T17:44:01Z"
+          "id": "60e13d14c3255fef6b716904d927be881f583c07",
+          "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿” / Scale AI cofounder says she passed on an Anthropic investment to support her ex's lifestyle: 'Lost a billion'",
+          "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T12:00:02Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Slashdot",
-        "www.nbcnews.com"
+        "Business Insider",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "d881189130388ecfd4e493aba95707c738c642c1",
-          "title": "纳斯达克抹去 2026 年涨幅，大规模 IPO 后 Anthropic 股价暴跌 / Anthropic Shares Tank After Huge IPO As the Nasdaq Erases 2026 Gains",
-          "url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-          "source": "Slashdot",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T21:00:00Z"
-        },
-        {
-          "id": "b11f44c526275e2813bc4aaae82730f00f5498dc",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "www.nbcnews.com",
+          "id": "6981da4332466228aed88ed59dbbc1b3f520b525",
+          "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿”",
+          "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T19:36:57.777000Z"
+          "published_at": "2026-11-21T17:07:38.909000Z"
         },
         {
-          "id": "966fa3a46d9bb4c5407857e91539bcba45901d2a",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅 / Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T17:44:01Z"
-        },
-        {
-          "id": "fe66d054a63bfefd331b10e7e5d6b3c2c8af7b32",
-          "title": "Anthropic上市后股价暴跌，纳斯达克指数抹去2026年以来的涨幅 / Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T17:44:01Z"
+          "id": "60e13d14c3255fef6b716904d927be881f583c07",
+          "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿” / Scale AI cofounder says she passed on an Anthropic investment to support her ex's lifestyle: 'Lost a billion'",
+          "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T12:00:02Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5565,
-      "importance": 0.5565,
-      "importance_score": 0.5565,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5382,
+      "importance": 0.5382,
+      "importance_score": 0.5382,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7816,
-        "story_heat": 0.75
+        "recency": 0.9575,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-20T17:44:01Z",
-      "latest_at": "2026-11-20T21:00:00Z",
+      "earliest_at": "2026-11-21T12:00:02Z",
+      "latest_at": "2026-11-21T17:07:38.909000Z",
       "primary_item": {
-        "id": "d881189130388ecfd4e493aba95707c738c642c1",
-        "title": "纳斯达克抹去 2026 年涨幅，大规模 IPO 后 Anthropic 股价暴跌 / Anthropic Shares Tank After Huge IPO As the Nasdaq Erases 2026 Gains",
-        "url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-        "source": "Slashdot",
-        "source_name": "TechURLs"
+        "id": "6981da4332466228aed88ed59dbbc1b3f520b525",
+        "title": "Scale AI联合创始人称，她曾放弃一笔来自Anthropic的投资以支持前夫：“损失了10亿”",
+        "url": "https://www.businessinsider.com/lucy-guo-scale-ai-ex-girlfriend-anthropic-investment-2026-11",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -841,15 +717,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5368,
-      "importance": 0.5368,
-      "importance_score": 0.5368,
+      "score": 0.5246,
+      "importance": 0.5246,
+      "importance_score": 0.5246,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8113,
+        "recency": 0.7432,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -939,15 +815,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5341,
-      "importance": 0.5341,
-      "importance_score": 0.5341,
+      "score": 0.5221,
+      "importance": 0.5221,
+      "importance_score": 0.5221,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.796,
+        "recency": 0.7292,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -965,101 +841,160 @@
       }
     },
     {
-      "story_id": "story_d0960b4e4e81",
-      "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校",
-      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-      "primary_url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-      "source": "www.motherjones.com",
+      "story_id": "story_263ea4d757a5",
+      "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。",
+      "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+      "primary_url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+      "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "0a64f0f8335daefad8ac9fe2a0a82a091271cae8",
-          "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-          "source": "www.motherjones.com",
+          "id": "92a024c32d9dba33c3ee96fd0c2b62726fbb1ca1",
+          "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。",
+          "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T19:36:57.765000Z"
+          "published_at": "2026-11-21T17:07:38.906000Z"
         },
         {
-          "id": "4871a63cd630f9eb6107ba5ccae6a56ca2a6a8f0",
-          "title": "谷歌员工告诉雇主不要惩罚不需要人工智能的学校 / Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-          "url": "https://news.ycombinator.com/item?id=50577901",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-20T16:59:27Z"
-        },
-        {
-          "id": "c688a17cb9b9e9036843df8f46c80ad65984730a",
-          "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校 / Google workers tell their employer not to punish schools that don't want AI",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T16:59:27Z"
+          "id": "e56c7a907c09356c2877e78a71bfd464b2b934ed",
+          "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。 / This travel CTO says AI lets his team ship faster. There's still a 10-year backlog of work to do.",
+          "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T10:47:01Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.motherjones.com"
+        "Business Insider",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "0a64f0f8335daefad8ac9fe2a0a82a091271cae8",
-          "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-          "source": "www.motherjones.com",
+          "id": "92a024c32d9dba33c3ee96fd0c2b62726fbb1ca1",
+          "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。",
+          "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T19:36:57.765000Z"
+          "published_at": "2026-11-21T17:07:38.906000Z"
         },
         {
-          "id": "4871a63cd630f9eb6107ba5ccae6a56ca2a6a8f0",
-          "title": "谷歌员工告诉雇主不要惩罚不需要人工智能的学校 / Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-          "url": "https://news.ycombinator.com/item?id=50577901",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-20T16:59:27Z"
-        },
-        {
-          "id": "c688a17cb9b9e9036843df8f46c80ad65984730a",
-          "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校 / Google workers tell their employer not to punish schools that don't want AI",
-          "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T16:59:27Z"
+          "id": "e56c7a907c09356c2877e78a71bfd464b2b934ed",
+          "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。 / This travel CTO says AI lets his team ship faster. There's still a 10-year backlog of work to do.",
+          "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T10:47:01Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5287,
-      "importance": 0.5287,
-      "importance_score": 0.5287,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5382,
+      "importance": 0.5382,
+      "importance_score": 0.5382,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7661,
-        "story_heat": 0.5
+        "recency": 0.9575,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-20T16:59:27Z",
-      "latest_at": "2026-11-20T19:36:57.765000Z",
+      "earliest_at": "2026-11-21T10:47:01Z",
+      "latest_at": "2026-11-21T17:07:38.906000Z",
       "primary_item": {
-        "id": "0a64f0f8335daefad8ac9fe2a0a82a091271cae8",
-        "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校",
-        "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-        "source": "www.motherjones.com",
+        "id": "92a024c32d9dba33c3ee96fd0c2b62726fbb1ca1",
+        "title": "这位旅游行业的首席技术官表示，人工智能让他的团队能够更快地推出产品。但仍有积压了10年的工作待完成。",
+        "url": "https://www.businessinsider.com/travel-and-leisure-co-cto-ai-faster-more-work-backlog-2026-11",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_07a481fe6b0c",
+      "title": "德里克·洛：引爆一堆叠氮化铅 / Derek Lowe: Detonating a Pile of Lead Azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "primary_url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "9ce43a8edc02ab9140977dec800a0b8c4ac47ca3",
+          "title": "德里克·洛：引爆一堆叠氮化铅 / Derek Lowe: Detonating a Pile of Lead Azide",
+          "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-21T13:23:14Z"
+        },
+        {
+          "id": "18fde20bfe36b35223a9d53d2f1950eec785f580",
+          "title": "德里克·洛：引爆一堆叠氮化铅 / Detonating a pile of lead azide",
+          "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-21T13:23:14Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "9ce43a8edc02ab9140977dec800a0b8c4ac47ca3",
+          "title": "德里克·洛：引爆一堆叠氮化铅 / Derek Lowe: Detonating a Pile of Lead Azide",
+          "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-21T13:23:14Z"
+        },
+        {
+          "id": "18fde20bfe36b35223a9d53d2f1950eec785f580",
+          "title": "德里克·洛：引爆一堆叠氮化铅 / Detonating a pile of lead azide",
+          "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-21T13:23:14Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5291,
+      "importance": 0.5291,
+      "importance_score": 0.5291,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9072,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-21T13:23:14Z",
+      "latest_at": "2026-11-21T13:23:14Z",
+      "primary_item": {
+        "id": "9ce43a8edc02ab9140977dec800a0b8c4ac47ca3",
+        "title": "德里克·洛：引爆一堆叠氮化铅 / Derek Lowe: Detonating a Pile of Lead Azide",
+        "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1116,15 +1051,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5068,
-      "importance": 0.5068,
-      "importance_score": 0.5068,
+      "score": 0.495,
+      "importance": 0.495,
+      "importance_score": 0.495,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7833,
+        "recency": 0.7176,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1142,30 +1077,109 @@
       }
     },
     {
-      "story_id": "story_b28267594d6a",
-      "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题” / Anthropic mathematician says he used AI to solve the Riemann hypothesis",
-      "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
-      "primary_url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
-      "source": "Business Insider",
-      "source_name": "TechURLs",
+      "story_id": "story_4fa85ae7ae72",
+      "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News (世界新闻)",
+      "source_name": "Info Flow",
       "sources": [
         {
-          "id": "c274f8dbb6929e00b2afad0387da2531e886d13a",
-          "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题” / Anthropic mathematician says he used AI to solve the Riemann hypothesis",
-          "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T19:34:11Z"
+          "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
+          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-20T20:54:12Z"
         },
         {
-          "id": "ba31528e555010cfa3954943ec9c8ed64990f6b5",
-          "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题”",
-          "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
+          "id": "d957ca50c3125f1016c569c4c22c7700220deb8b",
+          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-20T20:08:48.040000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "BBC News (世界新闻)",
+        "www.bbc.co.uk"
+      ],
+      "items": [
+        {
+          "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
+          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-20T20:54:12Z"
+        },
+        {
+          "id": "d957ca50c3125f1016c569c4c22c7700220deb8b",
+          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-20T20:08:48.040000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4945,
+      "importance": 0.4945,
+      "importance_score": 0.4945,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.715,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-20T20:08:48.040000Z",
+      "latest_at": "2026-11-20T20:54:12Z",
+      "primary_item": {
+        "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
+        "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
+        "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News (世界新闻)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_4326f3d1f6ec",
+      "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式",
+      "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
+      "primary_url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b1fcefeda1e64b383bca865df36e58c1359d9b48",
+          "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式",
+          "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T18:48:52.276000Z"
+          "published_at": "2026-11-21T14:27:55.376000Z"
+        },
+        {
+          "id": "6585d5a2332b59871b35931ee30c7540b4b21039",
+          "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式 / I'm a real estate developer selling a $30 million mansion, and here’s why I’d accept Anthropic shares instead of cash",
+          "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T14:00:01Z"
         }
       ],
       "source_count": 2,
@@ -1175,284 +1189,127 @@
       ],
       "items": [
         {
-          "id": "c274f8dbb6929e00b2afad0387da2531e886d13a",
-          "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题” / Anthropic mathematician says he used AI to solve the Riemann hypothesis",
-          "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T19:34:11Z"
-        },
-        {
-          "id": "ba31528e555010cfa3954943ec9c8ed64990f6b5",
-          "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题”",
-          "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
+          "id": "b1fcefeda1e64b383bca865df36e58c1359d9b48",
+          "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式",
+          "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T18:48:52.276000Z"
+          "published_at": "2026-11-21T14:27:55.376000Z"
+        },
+        {
+          "id": "6585d5a2332b59871b35931ee30c7540b4b21039",
+          "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式 / I'm a real estate developer selling a $30 million mansion, and here’s why I’d accept Anthropic shares instead of cash",
+          "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-21T14:00:01Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5036,
-      "importance": 0.5036,
-      "importance_score": 0.5036,
+      "score": 0.5317,
+      "importance": 0.5317,
+      "importance_score": 0.5317,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7656,
+        "recency": 0.9214,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-20T18:48:52.276000Z",
-      "latest_at": "2026-11-20T19:34:11Z",
+      "earliest_at": "2026-11-21T14:00:01Z",
+      "latest_at": "2026-11-21T14:27:55.376000Z",
       "primary_item": {
-        "id": "c274f8dbb6929e00b2afad0387da2531e886d13a",
-        "title": "Anthropic公司的数学家表示，克劳德（Claude）帮助解决了“数学界最大的难题” / Anthropic mathematician says he used AI to solve the Riemann hypothesis",
-        "url": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11",
-        "source": "Business Insider",
-        "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_9fe3e937f57a",
-      "title": "语言模型可以重写自身的权重",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "primary_url": "https://arxiv.org/abs/2611.21885",
-      "source": "arxiv.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "1da22d79994d169750e0ba371b225e9b886efb5e",
-          "title": "语言模型可以重写自身的权重",
-          "url": "https://arxiv.org/abs/2611.21885",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T17:44:47.957000Z"
-        },
-        {
-          "id": "56bc072c23c3a692fc8f096209fd3767decf102c",
-          "title": "语言模型可以重写自身的权重 / Language Models Can Rewrite Their Own Weights",
-          "url": "https://arxiv.org/abs/2611.21885",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T16:29:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "arxiv.org"
-      ],
-      "items": [
-        {
-          "id": "1da22d79994d169750e0ba371b225e9b886efb5e",
-          "title": "语言模型可以重写自身的权重",
-          "url": "https://arxiv.org/abs/2611.21885",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T17:44:47.957000Z"
-        },
-        {
-          "id": "56bc072c23c3a692fc8f096209fd3767decf102c",
-          "title": "语言模型可以重写自身的权重 / Language Models Can Rewrite Their Own Weights",
-          "url": "https://arxiv.org/abs/2611.21885",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T16:29:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5,
-      "importance": 0.5,
-      "importance_score": 0.5,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7457,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-20T16:29:06Z",
-      "latest_at": "2026-11-20T17:44:47.957000Z",
-      "primary_item": {
-        "id": "1da22d79994d169750e0ba371b225e9b886efb5e",
-        "title": "语言模型可以重写自身的权重",
-        "url": "https://arxiv.org/abs/2611.21885",
-        "source": "arxiv.org",
+        "id": "b1fcefeda1e64b383bca865df36e58c1359d9b48",
+        "title": "一位正在出售一栋价值3000万美元的洛杉矶豪宅的开发商解释了为何愿意接受Anthropic股票作为付款方式",
+        "url": "https://www.businessinsider.com/thirty-million-la-mansion-accepts-anthropic-shares-as-payment-2026-11",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_dff998cce002",
-      "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想",
-      "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4907330.html?f=rss",
-      "source": "虎嗅 (Huxiu)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "a001a9d4ae2b5c3ab04d06c033be5fcd506ebfb0",
-          "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想",
-          "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T17:02:19Z"
-        },
-        {
-          "id": "cfaffc7b950807a532db78cf9490ca98fa15dde0",
-          "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想，还给出了1737万行人类看不懂的代码。",
-          "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T17:02:18Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "a001a9d4ae2b5c3ab04d06c033be5fcd506ebfb0",
-          "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想",
-          "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T17:02:19Z"
-        },
-        {
-          "id": "cfaffc7b950807a532db78cf9490ca98fa15dde0",
-          "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想，还给出了1737万行人类看不懂的代码。",
-          "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T17:02:18Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4987,
-      "importance": 0.4987,
-      "importance_score": 0.4987,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7381,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-20T17:02:18Z",
-      "latest_at": "2026-11-20T17:02:19Z",
-      "primary_item": {
-        "id": "a001a9d4ae2b5c3ab04d06c033be5fcd506ebfb0",
-        "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想",
-        "url": "https://www.huxiu.com/article/4907330.html?f=rss",
-        "source": "虎嗅 (Huxiu)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_bbe099f2944c",
-      "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
-      "primary_url": "https://alpo.ge/remark.pdf",
-      "source": "alpo.ge",
+      "story_id": "story_8bc8fed2fbe6",
+      "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "primary_url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "source": "arstechnica.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "4433c1f9b08e65624f12de0f6779e08cad354d92",
-          "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "source": "alpo.ge",
+          "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
+          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "source": "arstechnica.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T15:04:43.729000Z"
+          "published_at": "2026-11-20T21:59:45.100000Z"
         },
         {
-          "id": "705c159b97f3e1256dbdb362ecc6a383a052f424",
-          "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf] / Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T14:16:21Z"
+          "id": "f6b9d6d5c4654c223f9c4b4b01d857077cd90d10",
+          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标 / Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-20T21:47:10Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "alpo.ge"
+        "Ars Technica",
+        "arstechnica.com"
       ],
       "items": [
         {
-          "id": "4433c1f9b08e65624f12de0f6779e08cad354d92",
-          "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "source": "alpo.ge",
+          "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
+          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "source": "arstechnica.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-20T15:04:43.729000Z"
+          "published_at": "2026-11-20T21:59:45.100000Z"
         },
         {
-          "id": "705c159b97f3e1256dbdb362ecc6a383a052f424",
-          "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf] / Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-20T14:16:21Z"
+          "id": "f6b9d6d5c4654c223f9c4b4b01d857077cd90d10",
+          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标 / Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-20T21:47:10Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.495,
-      "importance": 0.495,
-      "importance_score": 0.495,
+      "score": 0.4966,
+      "importance": 0.4966,
+      "importance_score": 0.4966,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7175,
+        "recency": 0.7264,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-20T14:16:21Z",
-      "latest_at": "2026-11-20T15:04:43.729000Z",
+      "earliest_at": "2026-11-20T21:47:10Z",
+      "latest_at": "2026-11-20T21:59:45.100000Z",
       "primary_item": {
-        "id": "4433c1f9b08e65624f12de0f6779e08cad354d92",
-        "title": "Anthropic公司一名员工声称找到了黎曼猜想的一般性证明 [pdf]",
-        "url": "https://alpo.ge/remark.pdf",
-        "source": "alpo.ge",
+        "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
+        "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
+        "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+        "source": "arstechnica.com",
         "source_name": "Buzzing"
       }
     },
@@ -1510,15 +1367,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5102,
-      "importance": 0.5102,
-      "importance_score": 0.5102,
+      "score": 0.498,
+      "importance": 0.498,
+      "importance_score": 0.498,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.802,
+        "recency": 0.7347,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1533,164 +1390,6 @@
         "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_8bc8fed2fbe6",
-      "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
-      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-      "primary_url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
-          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T21:59:45.100000Z"
-        },
-        {
-          "id": "f6b9d6d5c4654c223f9c4b4b01d857077cd90d10",
-          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标 / Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T21:47:10Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
-          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T21:59:45.100000Z"
-        },
-        {
-          "id": "f6b9d6d5c4654c223f9c4b4b01d857077cd90d10",
-          "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标 / Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-20T21:47:10Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5085,
-      "importance": 0.5085,
-      "importance_score": 0.5085,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7929,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-20T21:47:10Z",
-      "latest_at": "2026-11-20T21:59:45.100000Z",
-      "primary_item": {
-        "id": "da82f02d075d6278a1b1ae597922c9579393c1cd",
-        "title": "随着人工智能数据中心排放量创下新高，Meta重新审视2030年净零排放目标",
-        "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4fa85ae7ae72",
-      "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News (世界新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
-          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T20:54:12Z"
-        },
-        {
-          "id": "d957ca50c3125f1016c569c4c22c7700220deb8b",
-          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T20:08:48.040000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.co.uk"
-      ],
-      "items": [
-        {
-          "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
-          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-20T20:54:12Z"
-        },
-        {
-          "id": "d957ca50c3125f1016c569c4c22c7700220deb8b",
-          "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-20T20:08:48.040000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5063,
-      "importance": 0.5063,
-      "importance_score": 0.5063,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7805,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-20T20:08:48.040000Z",
-      "latest_at": "2026-11-20T20:54:12Z",
-      "primary_item": {
-        "id": "554594b0be050e68be2336152a56c855eb1f4fd8",
-        "title": "特朗普威胁要禁止美国企业在海外建设人工智能数据中心 / Trump threatens ban on US firms building AI data centres overseas",
-        "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News (世界新闻)",
-        "source_name": "Info Flow"
       }
     }
   ]
