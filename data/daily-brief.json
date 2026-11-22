@@ -1,138 +1,416 @@
 {
-  "generated_at": "2026-11-22T14:02:00.009532Z",
+  "generated_at": "2026-11-22T20:22:52.260322Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 16,
   "items": [
     {
+      "story_id": "story_de5cd1a6d51d",
+      "title": "困惑与智慧 / Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "primary_url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
+          "title": "困惑与智慧 / Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-22T00:00:00Z"
+        },
+        {
+          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
+          "title": "困惑与智慧",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T18:20:52.884000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
+          "title": "困惑与智慧 / Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-22T00:00:00Z"
+        },
+        {
+          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
+          "title": "困惑与智慧",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T18:20:52.884000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8311,
+      "importance": 0.8311,
+      "importance_score": 0.8311,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.745,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-22T00:00:00Z",
+      "latest_at": "2026-11-22T18:20:52.884000Z",
+      "primary_item": {
+        "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
+        "title": "困惑与智慧 / Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
       "story_id": "story_2df82173bb28",
-      "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+      "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-11-21",
+      "source": "社区更新 · 2026-11-22",
       "source_name": "WaytoAGI",
       "sources": [
         {
-          "id": "ff62b6ca3951395de503091399be40a272024b27",
-          "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+          "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
+          "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "0624651fa1db7a03ecde1ea867d6acf3da733489",
-          "title": "作者公开了团队内部用AI剪辑视频的完整工作流：从脚本和口播素材出发，用参考图统一调色、Skill 设计分镜，再完成配乐、音效和剪辑。先打磨开头 30 秒，再扩展全片，用“时间码＋问题＋截图”让 AI 精准修改。适合做口播、教程和科普视频的创作者照着跑一遍。",
+          "id": "e8bc3e9aa944ed421297f56e52a6e48442808a0c",
+          "title": "作者整理了一份第二届GEO大会Day 2的笔记，主要汇总了8个分享主题、2场实操和13轮答疑，覆盖国内视频矩阵、海外媒体合作、AI 产品增长与个人品牌经营。对GEO感兴趣的大家，不要错过！",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "3a073a4c769ac75d0e435b919ab9231c965a6790",
-          "title": "反复提醒 AI“想清楚再做、交付前检查”，结果它还是会跑偏？作者把以终为始、二八法则、逆向思考等 12 条做事常识，改写成 Agent 能执行的具体规则：什么情况下该追问、何时停下重查、交付前必须验证什么。或许会有所帮助！",
+          "id": "d18657e540aa01d075122ed15f76ec44b79e7872",
+          "title": "提示词越写越长，AI 还是跑偏，问题可能出在资料、工具或验收环节。这篇把提示词、上下文、Harness 和 Loop 四层拆开讲清：说清任务、给对信息、配好工具与检查，再让整套流程自动运行。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "4e7bd3cceee53a7bbe992a60d00f8877e402ca26",
-          "title": "想让品牌被 AI 搜到、推荐，靠批量发文章就够了吗？这份第二届 GEO 大会首日复盘，汇总了品牌方、服务商和出海创业者的实战分享：从用户会怎么问、内容该发在哪，到官网如何承接客户、效果怎样监测，也谈了低价接单和需求失控带来的亏损。一起来看看！",
+          "id": "8caf38bccfdcc685765409de6c2bf4c5f9da66e9",
+          "title": "给每个员工配上 AI，公司就会更高效吗？产品经理用 AI 写出 300 页需求，工程师再用 AI 压成一句话，忙了一圈，真正需要对齐的信息反而丢了。这篇文章从这个困境出发，拆解了面向个人和企业的Agent为什么走向不同。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "714fe287ef094a753ba9d57ee19089c5f1cd5358",
-          "title": "模型榜单看了不少，那换到自己的任务里到底谁更好用？小歪给 Gemini 4 Neon、Claude Opus 5.5 和 GPT-6.2 同一道题：不用生图模型，纯代码制作跨越 20 个艺术时代的动画，把三家的成片放在一起进行了一个对比。正在选模型、考虑订阅的朋友，可以先看这组实测，再判断画面、速度和使用成本哪项更符合自己的需求。",
+          "id": "d897f3f67fc0a16e57f50bc20e187d502c238048",
+          "title": "这一次，我们把黑客松搬进了乐队 Live 现场，4小时能做出怎样的AI舞台视觉？11月20—21日，WaytoAGI与 ACE-CON联合发起首届 AI×音乐视觉黑客松，剪映提供独家工具支持，近 600 人报名、38 支队伍进入线下，最终8支作品登上国家会议中心主舞台，与乐队同台共演。来看看，当代码、画面和摇滚相遇，创作者们交出了怎样的现场答卷。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         }
       ],
       "source_count": 5,
       "source_names": [
-        "社区更新 · 2026-11-21"
+        "社区更新 · 2026-11-22"
       ],
       "items": [
         {
-          "id": "ff62b6ca3951395de503091399be40a272024b27",
-          "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+          "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
+          "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "0624651fa1db7a03ecde1ea867d6acf3da733489",
-          "title": "作者公开了团队内部用AI剪辑视频的完整工作流：从脚本和口播素材出发，用参考图统一调色、Skill 设计分镜，再完成配乐、音效和剪辑。先打磨开头 30 秒，再扩展全片，用“时间码＋问题＋截图”让 AI 精准修改。适合做口播、教程和科普视频的创作者照着跑一遍。",
+          "id": "e8bc3e9aa944ed421297f56e52a6e48442808a0c",
+          "title": "作者整理了一份第二届GEO大会Day 2的笔记，主要汇总了8个分享主题、2场实操和13轮答疑，覆盖国内视频矩阵、海外媒体合作、AI 产品增长与个人品牌经营。对GEO感兴趣的大家，不要错过！",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "3a073a4c769ac75d0e435b919ab9231c965a6790",
-          "title": "反复提醒 AI“想清楚再做、交付前检查”，结果它还是会跑偏？作者把以终为始、二八法则、逆向思考等 12 条做事常识，改写成 Agent 能执行的具体规则：什么情况下该追问、何时停下重查、交付前必须验证什么。或许会有所帮助！",
+          "id": "d18657e540aa01d075122ed15f76ec44b79e7872",
+          "title": "提示词越写越长，AI 还是跑偏，问题可能出在资料、工具或验收环节。这篇把提示词、上下文、Harness 和 Loop 四层拆开讲清：说清任务、给对信息、配好工具与检查，再让整套流程自动运行。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "4e7bd3cceee53a7bbe992a60d00f8877e402ca26",
-          "title": "想让品牌被 AI 搜到、推荐，靠批量发文章就够了吗？这份第二届 GEO 大会首日复盘，汇总了品牌方、服务商和出海创业者的实战分享：从用户会怎么问、内容该发在哪，到官网如何承接客户、效果怎样监测，也谈了低价接单和需求失控带来的亏损。一起来看看！",
+          "id": "8caf38bccfdcc685765409de6c2bf4c5f9da66e9",
+          "title": "给每个员工配上 AI，公司就会更高效吗？产品经理用 AI 写出 300 页需求，工程师再用 AI 压成一句话，忙了一圈，真正需要对齐的信息反而丢了。这篇文章从这个困境出发，拆解了面向个人和企业的Agent为什么走向不同。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         },
         {
-          "id": "714fe287ef094a753ba9d57ee19089c5f1cd5358",
-          "title": "模型榜单看了不少，那换到自己的任务里到底谁更好用？小歪给 Gemini 4 Neon、Claude Opus 5.5 和 GPT-6.2 同一道题：不用生图模型，纯代码制作跨越 20 个艺术时代的动画，把三家的成片放在一起进行了一个对比。正在选模型、考虑订阅的朋友，可以先看这组实测，再判断画面、速度和使用成本哪项更符合自己的需求。",
+          "id": "d897f3f67fc0a16e57f50bc20e187d502c238048",
+          "title": "这一次，我们把黑客松搬进了乐队 Live 现场，4小时能做出怎样的AI舞台视觉？11月20—21日，WaytoAGI与 ACE-CON联合发起首届 AI×音乐视觉黑客松，剪映提供独家工具支持，近 600 人报名、38 支队伍进入线下，最终8支作品登上国家会议中心主舞台，与乐队同台共演。来看看，当代码、画面和摇滚相遇，创作者们交出了怎样的现场答卷。",
           "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-21",
+          "source": "社区更新 · 2026-11-22",
           "source_name": "WaytoAGI",
           "site_id": "waytoagi",
-          "published_at": "2026-11-21T20:07:52.896965Z"
+          "published_at": "2026-11-22T20:22:52.260322Z"
         }
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6282,
-      "importance": 0.6282,
-      "importance_score": 0.6282,
+      "score": 0.6692,
+      "importance": 0.6692,
+      "importance_score": 0.6692,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.7722,
+        "recency": 1.0,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-21T20:07:52.896965Z",
-      "latest_at": "2026-11-21T20:07:52.896965Z",
+      "earliest_at": "2026-11-22T20:22:52.260322Z",
+      "latest_at": "2026-11-22T20:22:52.260322Z",
       "primary_item": {
-        "id": "ff62b6ca3951395de503091399be40a272024b27",
-        "title": "LangChain 抛出 “知识工厂” 这套企业 Agent 落地思路，打破了只靠堆模型、加上下文的常见误区。如果你是在搭建企业内部智能体的开发者，或许可以帮你解决 Agent 看不懂内部规范、业务口径混乱、知识库难持续更新的核心难题。",
+        "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
+        "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
         "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-11-21",
+        "source": "社区更新 · 2026-11-22",
         "source_name": "WaytoAGI"
+      }
+    },
+    {
+      "story_id": "story_3c4f4993adca",
+      "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
+      "url": "https://github.com/gulivan/worker755",
+      "primary_url": "https://github.com/gulivan/worker755",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
+          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T16:44:44.053000Z"
+        },
+        {
+          "id": "a2530ddd696e29649b9fa80440b5d99bf7adb95e",
+          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理 / Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T13:56:58Z"
+        },
+        {
+          "id": "8c3bc796b289248b54b735a557d908b83cc879d3",
+          "title": "Show HN：我制作了一个游戏，你是法学硕士的子代理人 / Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://news.ycombinator.com/item?id=50599762",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T13:56:58Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
+          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T16:44:44.053000Z"
+        },
+        {
+          "id": "a2530ddd696e29649b9fa80440b5d99bf7adb95e",
+          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理 / Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T13:56:58Z"
+        },
+        {
+          "id": "8c3bc796b289248b54b735a557d908b83cc879d3",
+          "title": "Show HN：我制作了一个游戏，你是法学硕士的子代理人 / Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://news.ycombinator.com/item?id=50599762",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T13:56:58Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5616,
+      "importance": 0.5616,
+      "importance_score": 0.5616,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9489,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T13:56:58Z",
+      "latest_at": "2026-11-22T16:44:44.053000Z",
+      "primary_item": {
+        "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
+        "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
+        "url": "https://github.com/gulivan/worker755",
+        "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "primary_url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "source": "www.youtube.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2066052d1d469948e676457e24fd3f814149a22e",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T16:44:44.430000Z"
+        },
+        {
+          "id": "732b2bf8d151051cc25ada064b114bebab0b6fb1",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T16:37:37Z"
+        },
+        {
+          "id": "d9e4319684153954e4a94fbe4e7073f4565eeb53",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T03:06:35Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Lobsters (技术社区)",
+        "www.youtube.com"
+      ],
+      "items": [
+        {
+          "id": "2066052d1d469948e676457e24fd3f814149a22e",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "www.youtube.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T16:44:44.430000Z"
+        },
+        {
+          "id": "732b2bf8d151051cc25ada064b114bebab0b6fb1",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T16:37:37Z"
+        },
+        {
+          "id": "d9e4319684153954e4a94fbe4e7073f4565eeb53",
+          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T03:06:35Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5616,
+      "importance": 0.5616,
+      "importance_score": 0.5616,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9489,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T03:06:35Z",
+      "latest_at": "2026-11-22T16:44:44.430000Z",
+      "primary_item": {
+        "id": "2066052d1d469948e676457e24fd3f814149a22e",
+        "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
+        "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+        "source": "www.youtube.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -208,15 +486,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5648,
-      "importance": 0.5648,
-      "importance_score": 0.5648,
+      "score": 0.5496,
+      "importance": 0.5496,
+      "importance_score": 0.5496,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9668,
+        "recency": 0.8821,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -306,15 +584,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5628,
-      "importance": 0.5628,
-      "importance_score": 0.5628,
+      "score": 0.5478,
+      "importance": 0.5478,
+      "importance_score": 0.5478,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9557,
+        "recency": 0.872,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -332,30 +610,30 @@
       }
     },
     {
-      "story_id": "story_a31e931e37bf",
-      "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-      "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-      "primary_url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+      "story_id": "story_d7b30de1ebec",
+      "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
+      "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
+      "primary_url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
+          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
+          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-22T13:17:45.446000Z"
+          "published_at": "2026-11-22T18:04:46.664000Z"
         },
         {
-          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "id": "4c3731f27c73ea659267db2621d12586cf519a58",
+          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟” / Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
+          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-22T10:41:01Z"
+          "published_at": "2026-11-22T17:49:56Z"
         }
       ],
       "source_count": 2,
@@ -365,49 +643,364 @@
       ],
       "items": [
         {
-          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
+          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
+          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-22T13:17:45.446000Z"
+          "published_at": "2026-11-22T18:04:46.664000Z"
         },
         {
-          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "id": "4c3731f27c73ea659267db2621d12586cf519a58",
+          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟” / Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
+          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-11-22T10:41:01Z"
+          "published_at": "2026-11-22T17:49:56Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5439,
-      "importance": 0.5439,
-      "importance_score": 0.5439,
+      "score": 0.5399,
+      "importance": 0.5399,
+      "importance_score": 0.5399,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9894,
+        "recency": 0.9673,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-22T10:41:01Z",
-      "latest_at": "2026-11-22T13:17:45.446000Z",
+      "earliest_at": "2026-11-22T17:49:56Z",
+      "latest_at": "2026-11-22T18:04:46.664000Z",
       "primary_item": {
-        "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-        "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-        "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+        "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
+        "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
+        "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_67786b63779f",
+      "title": "“有意识的人工智能”的神话",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+      "primary_url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+      "source": "www.noemamag.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
+          "title": "“有意识的人工智能”的神话",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+          "source": "www.noemamag.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T14:37:43.104000Z"
+        },
+        {
+          "id": "0b266d2668647fd80cffa4e1ff8e46c526d8a919",
+          "title": "“有意识的人工智能”的神话 / The Mythology of Conscious AI",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T02:10:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "www.noemamag.com"
+      ],
+      "items": [
+        {
+          "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
+          "title": "“有意识的人工智能”的神话",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+          "source": "www.noemamag.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T14:37:43.104000Z"
+        },
+        {
+          "id": "0b266d2668647fd80cffa4e1ff8e46c526d8a919",
+          "title": "“有意识的人工智能”的神话 / The Mythology of Conscious AI",
+          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T02:10:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5315,
+      "importance": 0.5315,
+      "importance_score": 0.5315,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9203,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T02:10:02Z",
+      "latest_at": "2026-11-22T14:37:43.104000Z",
+      "primary_item": {
+        "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
+        "title": "“有意识的人工智能”的神话",
+        "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+        "source": "www.noemamag.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_fd01f8a5dd31",
+      "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+      "url": "https://www.v2ex.com/t/1258948",
+      "primary_url": "https://www.v2ex.com/t/1258948",
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
+          "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+          "url": "https://www.v2ex.com/t/1258948",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:51:34Z"
+        },
+        {
+          "id": "d2cec7ce029fc3881e92ba487a7e00128f93bf8b",
+          "title": "[问与答] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+          "url": "https://www.v2ex.com/t/1258948",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:51:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "items": [
+        {
+          "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
+          "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+          "url": "https://www.v2ex.com/t/1258948",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:51:34Z"
+        },
+        {
+          "id": "d2cec7ce029fc3881e92ba487a7e00128f93bf8b",
+          "title": "[问与答] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+          "url": "https://www.v2ex.com/t/1258948",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:51:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5296,
+      "importance": 0.5296,
+      "importance_score": 0.5296,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9101,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T13:51:34Z",
+      "latest_at": "2026-11-22T13:51:34Z",
+      "primary_item": {
+        "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
+        "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
+        "url": "https://www.v2ex.com/t/1258948",
+        "source": "V2EX (创意工作者社区)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_bd4feeeef2d3",
+      "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
+      "url": "https://nestdaddy.com/memory",
+      "primary_url": "https://nestdaddy.com/memory",
+      "source": "nestdaddy.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
+          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
+          "url": "https://nestdaddy.com/memory",
+          "source": "nestdaddy.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T12:45:44.773000Z"
+        },
+        {
+          "id": "3f046128be9d938b2277457e7b852e285e336208",
+          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆 / Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
+          "url": "https://nestdaddy.com/memory",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-11-22T12:37:28Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "nestdaddy.com"
+      ],
+      "items": [
+        {
+          "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
+          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
+          "url": "https://nestdaddy.com/memory",
+          "source": "nestdaddy.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T12:45:44.773000Z"
+        },
+        {
+          "id": "3f046128be9d938b2277457e7b852e285e336208",
+          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆 / Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
+          "url": "https://nestdaddy.com/memory",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-11-22T12:37:28Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.527,
+      "importance": 0.527,
+      "importance_score": 0.527,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8958,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T12:37:28Z",
+      "latest_at": "2026-11-22T12:45:44.773000Z",
+      "primary_item": {
+        "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
+        "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
+        "url": "https://nestdaddy.com/memory",
+        "source": "nestdaddy.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_42d780078aed",
+      "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "url": "https://news.ycombinator.com/item?id=50597959",
+      "primary_url": "https://news.ycombinator.com/item?id=50597959",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
+          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+          "url": "https://news.ycombinator.com/item?id=50597959",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T09:57:01Z"
+        },
+        {
+          "id": "404e91cd39915f51d0fc1c6987f819e1c9b490ca",
+          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+          "url": "https://simonwillison.net/2026/Nov/21/muru",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T09:57:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
+          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+          "url": "https://news.ycombinator.com/item?id=50597959",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T09:57:01Z"
+        },
+        {
+          "id": "404e91cd39915f51d0fc1c6987f819e1c9b490ca",
+          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+          "url": "https://simonwillison.net/2026/Nov/21/muru",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T09:57:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5206,
+      "importance": 0.5206,
+      "importance_score": 0.5206,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8602,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T09:57:01Z",
+      "latest_at": "2026-11-22T09:57:01Z",
+      "primary_item": {
+        "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
+        "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+        "url": "https://news.ycombinator.com/item?id=50597959",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -464,15 +1057,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5295,
-      "importance": 0.5295,
-      "importance_score": 0.5295,
+      "score": 0.5152,
+      "importance": 0.5152,
+      "importance_score": 0.5152,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9095,
+        "recency": 0.8299,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -487,85 +1080,6 @@
         "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
         "source": "openrouter.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5cc0b3bf0f56",
-      "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀” / AI Supply Chain Security: What Canary Tokens Found",
-      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-      "primary_url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "dcea4c807595531e0c5bdfa875f1dcefb87ecde8",
-          "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀” / AI Supply Chain Security: What Canary Tokens Found",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T05:11:43Z"
-        },
-        {
-          "id": "48501ff3ac61877d2f5bcd3032a7b107008fc56b",
-          "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀”",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "source": "www.dragos.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-21T16:03:55.721000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.dragos.com"
-      ],
-      "items": [
-        {
-          "id": "dcea4c807595531e0c5bdfa875f1dcefb87ecde8",
-          "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀” / AI Supply Chain Security: What Canary Tokens Found",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T05:11:43Z"
-        },
-        {
-          "id": "48501ff3ac61877d2f5bcd3032a7b107008fc56b",
-          "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀”",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "source": "www.dragos.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-21T16:03:55.721000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8802,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-21T16:03:55.721000Z",
-      "latest_at": "2026-11-22T05:11:43Z",
-      "primary_item": {
-        "id": "dcea4c807595531e0c5bdfa875f1dcefb87ecde8",
-        "title": "三起安全事件，无休止的数据泄露：您的AI供应链需要“金丝雀” / AI Supply Chain Security: What Canary Tokens Found",
-        "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     },
     {
@@ -622,15 +1136,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5174,
-      "importance": 0.5174,
-      "importance_score": 0.5174,
+      "score": 0.5042,
+      "importance": 0.5042,
+      "importance_score": 0.5042,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8425,
+        "recency": 0.7687,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -701,15 +1215,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5152,
-      "importance": 0.5152,
-      "importance_score": 0.5152,
+      "score": 0.5021,
+      "importance": 0.5021,
+      "importance_score": 0.5021,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8298,
+        "recency": 0.7571,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -724,6 +1238,163 @@
         "url": "https://pwn.ai/upload2shell/research.html",
         "source": "pwn.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a31e931e37bf",
+      "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
+      "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+      "primary_url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
+          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
+          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T13:17:45.446000Z"
+        },
+        {
+          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
+          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
+          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-22T10:41:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
+          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
+          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T13:17:45.446000Z"
+        },
+        {
+          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
+          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
+          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-22T10:41:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5283,
+      "importance": 0.5283,
+      "importance_score": 0.5283,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9027,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T10:41:01Z",
+      "latest_at": "2026-11-22T13:17:45.446000Z",
+      "primary_item": {
+        "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
+        "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
+        "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_20aafe0b167c",
+      "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
+      "url": "https://www.v2ex.com/t/1258943",
+      "primary_url": "https://www.v2ex.com/t/1258943",
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
+          "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
+          "url": "https://www.v2ex.com/t/1258943",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:04:49Z"
+        },
+        {
+          "id": "2266eaaed028609b3191b93b33711247d9fa4f85",
+          "title": "[问与答] GPT plus139 冲来的算不算便宜",
+          "url": "https://www.v2ex.com/t/1258943",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:04:49Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "items": [
+        {
+          "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
+          "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
+          "url": "https://www.v2ex.com/t/1258943",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:04:49Z"
+        },
+        {
+          "id": "2266eaaed028609b3191b93b33711247d9fa4f85",
+          "title": "[问与答] GPT plus139 冲来的算不算便宜",
+          "url": "https://www.v2ex.com/t/1258943",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-22T13:04:49Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5278,
+      "importance": 0.5278,
+      "importance_score": 0.5278,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8999,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T13:04:49Z",
+      "latest_at": "2026-11-22T13:04:49Z",
+      "primary_item": {
+        "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
+        "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
+        "url": "https://www.v2ex.com/t/1258943",
+        "source": "V2EX (创意工作者社区)",
+        "source_name": "Info Flow"
       }
     }
   ]
