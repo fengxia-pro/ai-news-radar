@@ -1,88 +1,413 @@
 {
-  "generated_at": "2026-11-22T20:22:52.260322Z",
+  "generated_at": "2026-11-23T14:03:18.386187Z",
   "window_hours": 24,
-  "total_items": 16,
+  "total_items": 20,
   "items": [
     {
-      "story_id": "story_de5cd1a6d51d",
-      "title": "困惑与智慧 / Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "primary_url": "https://openai.com/index/perplexity-and-intelligence",
-      "source": "OpenAI News",
+      "story_id": "story_6fd4c32fe34a",
+      "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "primary_url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
-          "title": "困惑与智慧 / Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "OpenAI News",
+          "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
+          "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
+          "url": "https://huggingface.co/blog/agentic-evals",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-22T00:00:00Z"
-        },
-        {
-          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
-          "title": "困惑与智慧",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:20:52.884000Z"
+          "published_at": "2026-11-23T00:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "OpenAI News",
-        "openai.com"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
-          "title": "困惑与智慧 / Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "OpenAI News",
+          "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
+          "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
+          "url": "https://huggingface.co/blog/agentic-evals",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-22T00:00:00Z"
-        },
-        {
-          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
-          "title": "困惑与智慧",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:20:52.884000Z"
+          "published_at": "2026-11-23T00:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8311,
-      "importance": 0.8311,
-      "importance_score": 0.8311,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8369,
+      "importance": 0.8369,
+      "importance_score": 0.8369,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.745,
-        "story_heat": 0.25
+        "ai_relevance": 1.0,
+        "recency": 0.8163,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T00:00:00Z",
+      "latest_at": "2026-11-23T00:00:00Z",
+      "primary_item": {
+        "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
+        "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
+        "url": "https://huggingface.co/blog/agentic-evals",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ccaf854de25c",
+      "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+      "url": "https://www.aibase.com/news/32479",
+      "primary_url": "https://www.aibase.com/news/32479",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "0c9e0bd8de412913b9c97850bde42f78e4005db7",
+          "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+          "url": "https://www.aibase.com/news/32479",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        },
+        {
+          "id": "1d0c4595a26368dbf9c0846169436917175d7f66",
+          "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+          "url": "https://www.aibase.com/zh/news/32479",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "0c9e0bd8de412913b9c97850bde42f78e4005db7",
+          "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+          "url": "https://www.aibase.com/news/32479",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        },
+        {
+          "id": "1d0c4595a26368dbf9c0846169436917175d7f66",
+          "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+          "url": "https://www.aibase.com/zh/news/32479",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-22T00:00:00Z",
-      "latest_at": "2026-11-22T18:20:52.884000Z",
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
       "primary_item": {
-        "id": "81f59ef87b5ab16def75e856634cf8a774fa114d",
-        "title": "困惑与智慧 / Perplexity and Intelligence",
-        "url": "https://openai.com/index/perplexity-and-intelligence",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "0c9e0bd8de412913b9c97850bde42f78e4005db7",
+        "title": "90 分钟全 AI 造出的故事片上线三家卫视：深圳首部 AIGC 电影长片《奇妙连接》没有一台实景摄像机",
+        "url": "https://www.aibase.com/news/32479",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_178867387843",
+      "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+      "url": "https://www.aibase.com/news/32477",
+      "primary_url": "https://www.aibase.com/news/32477",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "c24ae4325f31c09636c53104e259e9ded470d681",
+          "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+          "url": "https://www.aibase.com/news/32477",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        },
+        {
+          "id": "d3da0595c59eb445a24870cc44e3a62b7fcbb0a9",
+          "title": "一台被黑客「晒」上网的攻击工具，暴露了 AI 作案的全过程",
+          "url": "https://www.aibase.com/zh/news/32477",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "items": [
+        {
+          "id": "c24ae4325f31c09636c53104e259e9ded470d681",
+          "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+          "url": "https://www.aibase.com/news/32477",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        },
+        {
+          "id": "d3da0595c59eb445a24870cc44e3a62b7fcbb0a9",
+          "title": "一台被黑客「晒」上网的攻击工具，暴露了 AI 作案的全过程",
+          "url": "https://www.aibase.com/zh/news/32477",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "c24ae4325f31c09636c53104e259e9ded470d681",
+        "title": "一台被黑客“晒”上网的攻击工具，暴露了 AI 作案的全过程",
+        "url": "https://www.aibase.com/news/32477",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_caeab290c29d",
+      "title": "GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍",
+      "url": "https://www.aibase.com/news/32472",
+      "primary_url": "https://www.aibase.com/news/32472",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fdfb4a0a88a73f99f30d9ad66400f17823205728",
+          "title": "GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍",
+          "url": "https://www.aibase.com/news/32472",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fdfb4a0a88a73f99f30d9ad66400f17823205728",
+          "title": "GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍",
+          "url": "https://www.aibase.com/news/32472",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "fdfb4a0a88a73f99f30d9ad66400f17823205728",
+        "title": "GLM-5.4 悄然上线 Coding Plan：补齐视觉能力，额度还涨了 1.5 倍",
+        "url": "https://www.aibase.com/news/32472",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_674371d2f58b",
+      "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+      "url": "https://www.aibase.com/news/32475",
+      "primary_url": "https://www.aibase.com/news/32475",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "3bad28831d325f4df9604d9b4aef585f4012eebc",
+          "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+          "url": "https://www.aibase.com/news/32475",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "3bad28831d325f4df9604d9b4aef585f4012eebc",
+          "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+          "url": "https://www.aibase.com/news/32475",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "3bad28831d325f4df9604d9b4aef585f4012eebc",
+        "title": "Mira Murati 团队把模型“想三遍再说话”开源了：26.4B 循环 Transformer 登顶 Hugging Face，笔记本就能跑",
+        "url": "https://www.aibase.com/news/32475",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_0bfcb9b77510",
+      "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+      "url": "https://www.aibase.com/news/32471",
+      "primary_url": "https://www.aibase.com/news/32471",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "28725864c661645c9a36a80b6a7d44093531c2d1",
+          "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+          "url": "https://www.aibase.com/news/32471",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "28725864c661645c9a36a80b6a7d44093531c2d1",
+          "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+          "url": "https://www.aibase.com/news/32471",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "28725864c661645c9a36a80b6a7d44093531c2d1",
+        "title": "“欧洲版 OpenAI”落子新加坡：Mistral AI 设亚太总部，替亚洲政府造“主权 AI”",
+        "url": "https://www.aibase.com/news/32471",
+        "source": "AIbase",
+        "source_name": "AIbase"
       }
     },
     {
@@ -192,15 +517,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
+      "score": 0.6287,
+      "importance": 0.6287,
+      "importance_score": 0.6287,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.7747,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -218,101 +543,917 @@
       }
     },
     {
-      "story_id": "story_3c4f4993adca",
-      "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
-      "url": "https://github.com/gulivan/worker755",
-      "primary_url": "https://github.com/gulivan/worker755",
-      "source": "github.com",
+      "story_id": "story_955a6ae18486",
+      "title": "一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器",
+      "url": "https://www.aibase.com/news/32466",
+      "primary_url": "https://www.aibase.com/news/32466",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "820cb311f74914b99a456965ac53f8fcd2e6ee3e",
+          "title": "一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器",
+          "url": "https://www.aibase.com/news/32466",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "820cb311f74914b99a456965ac53f8fcd2e6ee3e",
+          "title": "一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器",
+          "url": "https://www.aibase.com/news/32466",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "820cb311f74914b99a456965ac53f8fcd2e6ee3e",
+        "title": "一个 Slack 线程里的数学震动：OpenAI 想给 AI 开发装上限速器",
+        "url": "https://www.aibase.com/news/32466",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_01c913814b78",
+      "title": "万亿市值换不来投资级：Anthropic 发债大概率是垃圾级",
+      "url": "https://www.aibase.com/news/32470",
+      "primary_url": "https://www.aibase.com/news/32470",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "2d5ed639c089590b4d61c163e8f80a84e18d7abd",
+          "title": "万亿市值换不来投资级：Anthropic 发债大概率是垃圾级",
+          "url": "https://www.aibase.com/news/32470",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "2d5ed639c089590b4d61c163e8f80a84e18d7abd",
+          "title": "万亿市值换不来投资级：Anthropic 发债大概率是垃圾级",
+          "url": "https://www.aibase.com/news/32470",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "2d5ed639c089590b4d61c163e8f80a84e18d7abd",
+        "title": "万亿市值换不来投资级：Anthropic 发债大概率是垃圾级",
+        "url": "https://www.aibase.com/news/32470",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_5094532b4e2e",
+      "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
+      "url": "https://z.ai/blog/glm-5.4",
+      "primary_url": "https://z.ai/blog/glm-5.4",
+      "source": "z.ai",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
-          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
-          "url": "https://github.com/gulivan/worker755",
-          "source": "github.com",
+          "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
+          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
+          "url": "https://z.ai/blog/glm-5.4",
+          "source": "z.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-22T16:44:44.053000Z"
+          "published_at": "2026-11-23T11:39:43.058000Z"
         },
         {
-          "id": "a2530ddd696e29649b9fa80440b5d99bf7adb95e",
-          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理 / Show HN: I built a game where you are an LLM's subagent",
-          "url": "https://github.com/gulivan/worker755",
+          "id": "c12d5fd51e5142574e5f62dc94ea10dab96f5be0",
+          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://z.ai/blog/glm-5.4",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-11-22T13:56:58Z"
+          "published_at": "2026-11-23T10:06:43Z"
         },
         {
-          "id": "8c3bc796b289248b54b735a557d908b83cc879d3",
-          "title": "Show HN：我制作了一个游戏，你是法学硕士的子代理人 / Show HN: I built a game where you are an LLM's subagent",
-          "url": "https://news.ycombinator.com/item?id=50599762",
+          "id": "ecba850940e09bd7ce1e0b5c069e671cdd72dbb1",
+          "title": "GLM-5.4：使用我们的第一个循环变压器实现广义编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://news.ycombinator.com/item?id=50609685",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-22T13:56:58Z"
+          "published_at": "2026-11-23T10:06:43Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
+        "hackernews",
+        "z.ai"
       ],
       "items": [
         {
-          "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
-          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
-          "url": "https://github.com/gulivan/worker755",
-          "source": "github.com",
+          "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
+          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
+          "url": "https://z.ai/blog/glm-5.4",
+          "source": "z.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-22T16:44:44.053000Z"
+          "published_at": "2026-11-23T11:39:43.058000Z"
         },
         {
-          "id": "a2530ddd696e29649b9fa80440b5d99bf7adb95e",
-          "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理 / Show HN: I built a game where you are an LLM's subagent",
-          "url": "https://github.com/gulivan/worker755",
+          "id": "c12d5fd51e5142574e5f62dc94ea10dab96f5be0",
+          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://z.ai/blog/glm-5.4",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-11-22T13:56:58Z"
+          "published_at": "2026-11-23T10:06:43Z"
         },
         {
-          "id": "8c3bc796b289248b54b735a557d908b83cc879d3",
-          "title": "Show HN：我制作了一个游戏，你是法学硕士的子代理人 / Show HN: I built a game where you are an LLM's subagent",
-          "url": "https://news.ycombinator.com/item?id=50599762",
+          "id": "ecba850940e09bd7ce1e0b5c069e671cdd72dbb1",
+          "title": "GLM-5.4：使用我们的第一个循环变压器实现广义编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://news.ycombinator.com/item?id=50609685",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-22T13:56:58Z"
+          "published_at": "2026-11-23T10:06:43Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5616,
-      "importance": 0.5616,
-      "importance_score": 0.5616,
+      "score": 0.5647,
+      "importance": 0.5647,
+      "importance_score": 0.5647,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9489,
+        "recency": 0.966,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-22T13:56:58Z",
-      "latest_at": "2026-11-22T16:44:44.053000Z",
+      "earliest_at": "2026-11-23T10:06:43Z",
+      "latest_at": "2026-11-23T11:39:43.058000Z",
       "primary_item": {
-        "id": "d7e893a8dc949ded68f3bd6afc73342e2867f4e3",
-        "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
-        "url": "https://github.com/gulivan/worker755",
-        "source": "github.com",
+        "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
+        "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
+        "url": "https://z.ai/blog/glm-5.4",
+        "source": "z.ai",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e91a66ff451e",
+      "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
+      "url": "https://www.aibase.com/news/32474",
+      "primary_url": "https://www.aibase.com/news/32474",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
+          "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
+          "url": "https://www.aibase.com/news/32474",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
+          "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
+          "url": "https://www.aibase.com/news/32474",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
+        "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
+        "url": "https://www.aibase.com/news/32474",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_fe63a83d484c",
+      "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
+      "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+      "primary_url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
+          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
+          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T12:43:42.997000Z"
+        },
+        {
+          "id": "7125f9e35cc852557c13695b720b7b244bd9a41a",
+          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬 / Why these 6 stocks are winning from the AI rout",
+          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T12:32:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
+          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
+          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T12:43:42.997000Z"
+        },
+        {
+          "id": "7125f9e35cc852557c13695b720b7b244bd9a41a",
+          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬 / Why these 6 stocks are winning from the AI rout",
+          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T12:32:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5424,
+      "importance": 0.5424,
+      "importance_score": 0.5424,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.981,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-23T12:32:34Z",
+      "latest_at": "2026-11-23T12:43:42.997000Z",
+      "primary_item": {
+        "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
+        "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
+        "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_b04893ed93ee",
+      "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
+          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-23T12:41:14Z"
+        },
+        {
+          "id": "de6a1a2c4ce9f5fdff4abad6b2f941c121c6b6e3",
+          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+          "url": "https://news.ycombinator.com/item?id=50610830",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-23T12:41:14Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
+          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-23T12:41:14Z"
+        },
+        {
+          "id": "de6a1a2c4ce9f5fdff4abad6b2f941c121c6b6e3",
+          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+          "url": "https://news.ycombinator.com/item?id=50610830",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-23T12:41:14Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5423,
+      "importance": 0.5423,
+      "importance_score": 0.5423,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9804,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-23T12:41:14Z",
+      "latest_at": "2026-11-23T12:41:14Z",
+      "primary_item": {
+        "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
+        "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_1793f4fe05b1",
+      "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "primary_url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
+          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T12:12:06.344000Z"
+        },
+        {
+          "id": "02143f776c528c1a7def8f01b675b8fd678fc24f",
+          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来 / Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T12:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
+          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T12:12:06.344000Z"
+        },
+        {
+          "id": "02143f776c528c1a7def8f01b675b8fd678fc24f",
+          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来 / Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T12:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9736,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-23T12:00:00Z",
+      "latest_at": "2026-11-23T12:12:06.344000Z",
+      "primary_item": {
+        "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
+        "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
+        "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_4f0ed76760ef",
+      "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "primary_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "source": "www.gpupartner.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
+          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source": "www.gpupartner.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T23:23:39.823000Z"
+        },
+        {
+          "id": "d522d53677a5e15bc5c9810a46ae118daa7aaa11",
+          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T21:01:16Z"
+        },
+        {
+          "id": "470658f75013398f7988c00dd38a56b32a2a48a3",
+          "title": "使用 Inkling、Qwen 和 Unsloth 进行本地 AI 的初学者指南 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://news.ycombinator.com/item?id=50603845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T21:01:16Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.gpupartner.com"
+      ],
+      "items": [
+        {
+          "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
+          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source": "www.gpupartner.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T23:23:39.823000Z"
+        },
+        {
+          "id": "d522d53677a5e15bc5c9810a46ae118daa7aaa11",
+          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T21:01:16Z"
+        },
+        {
+          "id": "470658f75013398f7988c00dd38a56b32a2a48a3",
+          "title": "使用 Inkling、Qwen 和 Unsloth 进行本地 AI 的初学者指南 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://news.ycombinator.com/item?id=50603845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-22T21:01:16Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5365,
+      "importance": 0.5365,
+      "importance_score": 0.5365,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8092,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T21:01:16Z",
+      "latest_at": "2026-11-22T23:23:39.823000Z",
+      "primary_item": {
+        "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
+        "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
+        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+        "source": "www.gpupartner.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7758e9b44180",
+      "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
+      "url": "https://www.aibase.com/news/32468",
+      "primary_url": "https://www.aibase.com/news/32468",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
+          "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
+          "url": "https://www.aibase.com/news/32468",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
+          "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
+          "url": "https://www.aibase.com/news/32468",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-11-23T14:03:18.386187Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T14:03:18.386187Z",
+      "latest_at": "2026-11-23T14:03:18.386187Z",
+      "primary_item": {
+        "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
+        "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
+        "url": "https://www.aibase.com/news/32468",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_626e59734f22",
+      "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "source": "www.bbc.co.uk",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
+          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T03:23:40.220000Z"
+        },
+        {
+          "id": "d49df55f296334bb99a003b350e27f5b033f0523",
+          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧 / San Francisco is enjoying an AI boom, but worries about a crash are growing",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T00:08:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "BBC News",
+        "www.bbc.co.uk"
+      ],
+      "items": [
+        {
+          "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
+          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T03:23:40.220000Z"
+        },
+        {
+          "id": "d49df55f296334bb99a003b350e27f5b033f0523",
+          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧 / San Francisco is enjoying an AI boom, but worries about a crash are growing",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-23T00:08:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5201,
+      "importance": 0.5201,
+      "importance_score": 0.5201,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8573,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-23T00:08:00Z",
+      "latest_at": "2026-11-23T03:23:40.220000Z",
+      "primary_item": {
+        "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
+        "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
+        "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+        "source": "www.bbc.co.uk",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_ae6e6a35191d",
+      "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "primary_url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "source": "claude.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
+          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
+          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+          "source": "claude.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T00:43:51.380000Z"
+        },
+        {
+          "id": "c0e5a1511ae9386f6b2e0b0d64bd3629bf17095d",
+          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图 / Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T23:12:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "claude.ai"
+      ],
+      "items": [
+        {
+          "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
+          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
+          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+          "source": "claude.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-23T00:43:51.380000Z"
+        },
+        {
+          "id": "c0e5a1511ae9386f6b2e0b0d64bd3629bf17095d",
+          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图 / Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-22T23:12:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5143,
+      "importance": 0.5143,
+      "importance_score": 0.5143,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.825,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T23:12:10Z",
+      "latest_at": "2026-11-23T00:43:51.380000Z",
+      "primary_item": {
+        "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
+        "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
+        "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+        "source": "claude.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_de5cd1a6d51d",
+      "title": "困惑与智慧 / Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "primary_url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "sources": [
+        {
+          "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
+          "title": "困惑与智慧 / Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
+          "title": "困惑与智慧",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T18:20:52.884000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Readhub · AI",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
+          "title": "困惑与智慧 / Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
+          "title": "困惑与智慧",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-22T18:20:52.884000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5053,
+      "importance": 0.5053,
+      "importance_score": 0.5053,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7747,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-11-22T18:20:52.884000Z",
+      "latest_at": "2026-11-22T20:22:52.260322Z",
+      "primary_item": {
+        "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
+        "title": "困惑与智慧 / Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "source": "Readhub · AI",
+        "source_name": "TopHub"
       }
     },
     {
@@ -340,20 +1481,10 @@
           "source_name": "Info Flow",
           "site_id": "iris",
           "published_at": "2026-11-22T16:37:37Z"
-        },
-        {
-          "id": "d9e4319684153954e4a94fbe4e7073f4565eeb53",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T03:06:35Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
         "Lobsters (技术社区)",
         "www.youtube.com"
       ],
@@ -375,35 +1506,26 @@
           "source_name": "Info Flow",
           "site_id": "iris",
           "published_at": "2026-11-22T16:37:37Z"
-        },
-        {
-          "id": "d9e4319684153954e4a94fbe4e7073f4565eeb53",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T03:06:35Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5616,
-      "importance": 0.5616,
-      "importance_score": 0.5616,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4981,
+      "importance": 0.4981,
+      "importance_score": 0.4981,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9489,
-        "story_heat": 0.5
+        "recency": 0.7351,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-22T03:06:35Z",
+      "earliest_at": "2026-11-22T16:37:37Z",
       "latest_at": "2026-11-22T16:44:44.430000Z",
       "primary_item": {
         "id": "2066052d1d469948e676457e24fd3f814149a22e",
@@ -411,990 +1533,6 @@
         "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
         "source": "www.youtube.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_cfea722a5658",
-      "title": "Pandex——基于MCP的欧洲人工智能代理官方法律",
-      "url": "https://www.pandex.io",
-      "primary_url": "https://www.pandex.io",
-      "source": "www.pandex.io",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "59b149feeab690ac8ac4ccdbe384ed2afacb416b",
-          "title": "Pandex——基于MCP的欧洲人工智能代理官方法律",
-          "url": "https://www.pandex.io",
-          "source": "www.pandex.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T11:41:51.743000Z"
-        },
-        {
-          "id": "1eb76d71b56596fb42abb100518a4f70c0ca64f3",
-          "title": "Pandex——基于MCP的欧洲人工智能代理官方法律 / Pandex – Official European Law for AI Agents, over MCP",
-          "url": "https://www.pandex.io",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-21T20:47:41Z"
-        },
-        {
-          "id": "368ac638dc0ce02c1d0bde0fa3e0a39bfd660edd",
-          "title": "Pandex——基于 MCP 的人工智能代理欧洲官方法律 / Pandex – Official European Law for AI Agents, over MCP",
-          "url": "https://news.ycombinator.com/item?id=50593481",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-21T20:47:41Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.pandex.io"
-      ],
-      "items": [
-        {
-          "id": "59b149feeab690ac8ac4ccdbe384ed2afacb416b",
-          "title": "Pandex——基于MCP的欧洲人工智能代理官方法律",
-          "url": "https://www.pandex.io",
-          "source": "www.pandex.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T11:41:51.743000Z"
-        },
-        {
-          "id": "1eb76d71b56596fb42abb100518a4f70c0ca64f3",
-          "title": "Pandex——基于MCP的欧洲人工智能代理官方法律 / Pandex – Official European Law for AI Agents, over MCP",
-          "url": "https://www.pandex.io",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-21T20:47:41Z"
-        },
-        {
-          "id": "368ac638dc0ce02c1d0bde0fa3e0a39bfd660edd",
-          "title": "Pandex——基于 MCP 的人工智能代理欧洲官方法律 / Pandex – Official European Law for AI Agents, over MCP",
-          "url": "https://news.ycombinator.com/item?id=50593481",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-21T20:47:41Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5496,
-      "importance": 0.5496,
-      "importance_score": 0.5496,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8821,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-21T20:47:41Z",
-      "latest_at": "2026-11-22T11:41:51.743000Z",
-      "primary_item": {
-        "id": "59b149feeab690ac8ac4ccdbe384ed2afacb416b",
-        "title": "Pandex——基于MCP的欧洲人工智能代理官方法律",
-        "url": "https://www.pandex.io",
-        "source": "www.pandex.io",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_38c61351fe0d",
-      "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭",
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-      "primary_url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-      "source": "betterdatacenterproject.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eba4176cfa9532ef11beaae68938aad4a33f2ab4",
-          "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭",
-          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-          "source": "betterdatacenterproject.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T10:53:50.621000Z"
-        },
-        {
-          "id": "d4d0833c8d03246ce99691f22e92ef702b83b90b",
-          "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭 / 87% of the Anthropic power will come from gas and 11% from coal in 2028",
-          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T08:57:34Z"
-        },
-        {
-          "id": "ae69c0fc1cb23a12c95f6da4aed8f7f318070814",
-          "title": "2028 年，87% 的人类电力将来自天然气，11% 来自煤炭 / 87% of the Anthropic power will come from gas and 11% from coal in 2028",
-          "url": "https://news.ycombinator.com/item?id=50597612",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T08:57:34Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "betterdatacenterproject.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "eba4176cfa9532ef11beaae68938aad4a33f2ab4",
-          "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭",
-          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-          "source": "betterdatacenterproject.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T10:53:50.621000Z"
-        },
-        {
-          "id": "d4d0833c8d03246ce99691f22e92ef702b83b90b",
-          "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭 / 87% of the Anthropic power will come from gas and 11% from coal in 2028",
-          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T08:57:34Z"
-        },
-        {
-          "id": "ae69c0fc1cb23a12c95f6da4aed8f7f318070814",
-          "title": "2028 年，87% 的人类电力将来自天然气，11% 来自煤炭 / 87% of the Anthropic power will come from gas and 11% from coal in 2028",
-          "url": "https://news.ycombinator.com/item?id=50597612",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T08:57:34Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5478,
-      "importance": 0.5478,
-      "importance_score": 0.5478,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.872,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T08:57:34Z",
-      "latest_at": "2026-11-22T10:53:50.621000Z",
-      "primary_item": {
-        "id": "eba4176cfa9532ef11beaae68938aad4a33f2ab4",
-        "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭",
-        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
-        "source": "betterdatacenterproject.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_d7b30de1ebec",
-      "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
-      "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-      "primary_url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
-          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
-          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:04:46.664000Z"
-        },
-        {
-          "id": "4c3731f27c73ea659267db2621d12586cf519a58",
-          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟” / Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
-          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-22T17:49:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
-          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
-          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:04:46.664000Z"
-        },
-        {
-          "id": "4c3731f27c73ea659267db2621d12586cf519a58",
-          "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟” / Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
-          "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-22T17:49:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5399,
-      "importance": 0.5399,
-      "importance_score": 0.5399,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9673,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T17:49:56Z",
-      "latest_at": "2026-11-22T18:04:46.664000Z",
-      "primary_item": {
-        "id": "f3fe456f317e6440f8a20f679844a4b86eb8d407",
-        "title": "埃隆·马斯克警告称，数据中心建设延误可能导致人工智能公司资金短缺：“情况会变得一团糟”",
-        "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_67786b63779f",
-      "title": "“有意识的人工智能”的神话",
-      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-      "primary_url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-      "source": "www.noemamag.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
-          "title": "“有意识的人工智能”的神话",
-          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-          "source": "www.noemamag.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T14:37:43.104000Z"
-        },
-        {
-          "id": "0b266d2668647fd80cffa4e1ff8e46c526d8a919",
-          "title": "“有意识的人工智能”的神话 / The Mythology of Conscious AI",
-          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T02:10:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.noemamag.com"
-      ],
-      "items": [
-        {
-          "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
-          "title": "“有意识的人工智能”的神话",
-          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-          "source": "www.noemamag.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T14:37:43.104000Z"
-        },
-        {
-          "id": "0b266d2668647fd80cffa4e1ff8e46c526d8a919",
-          "title": "“有意识的人工智能”的神话 / The Mythology of Conscious AI",
-          "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T02:10:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5315,
-      "importance": 0.5315,
-      "importance_score": 0.5315,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9203,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T02:10:02Z",
-      "latest_at": "2026-11-22T14:37:43.104000Z",
-      "primary_item": {
-        "id": "4f159ebdf780dd282f59f9b8edf905d9ee7dcd90",
-        "title": "“有意识的人工智能”的神话",
-        "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
-        "source": "www.noemamag.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_fd01f8a5dd31",
-      "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-      "url": "https://www.v2ex.com/t/1258948",
-      "primary_url": "https://www.v2ex.com/t/1258948",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
-          "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-          "url": "https://www.v2ex.com/t/1258948",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:51:34Z"
-        },
-        {
-          "id": "d2cec7ce029fc3881e92ba487a7e00128f93bf8b",
-          "title": "[问与答] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-          "url": "https://www.v2ex.com/t/1258948",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:51:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
-          "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-          "url": "https://www.v2ex.com/t/1258948",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:51:34Z"
-        },
-        {
-          "id": "d2cec7ce029fc3881e92ba487a7e00128f93bf8b",
-          "title": "[问与答] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-          "url": "https://www.v2ex.com/t/1258948",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:51:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9101,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T13:51:34Z",
-      "latest_at": "2026-11-22T13:51:34Z",
-      "primary_item": {
-        "id": "bcafe0cec402b01c385769487d02aa0a0704fa95",
-        "title": "[Google Gemini] 为什么 Gemini pro，感觉额度好少啊，今天满额度，用了一天不到，就用一半了",
-        "url": "https://www.v2ex.com/t/1258948",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_bd4feeeef2d3",
-      "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
-      "url": "https://nestdaddy.com/memory",
-      "primary_url": "https://nestdaddy.com/memory",
-      "source": "nestdaddy.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
-          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
-          "url": "https://nestdaddy.com/memory",
-          "source": "nestdaddy.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T12:45:44.773000Z"
-        },
-        {
-          "id": "3f046128be9d938b2277457e7b852e285e336208",
-          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆 / Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
-          "url": "https://nestdaddy.com/memory",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-11-22T12:37:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "nestdaddy.com"
-      ],
-      "items": [
-        {
-          "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
-          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
-          "url": "https://nestdaddy.com/memory",
-          "source": "nestdaddy.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T12:45:44.773000Z"
-        },
-        {
-          "id": "3f046128be9d938b2277457e7b852e285e336208",
-          "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆 / Show HN: NestDaddy Memory, one memory shared by ChatGPT, Claude and Cursor",
-          "url": "https://nestdaddy.com/memory",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-11-22T12:37:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.527,
-      "importance": 0.527,
-      "importance_score": 0.527,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8958,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T12:37:28Z",
-      "latest_at": "2026-11-22T12:45:44.773000Z",
-      "primary_item": {
-        "id": "3746e1cf3203f50f003da58fec96ef242a4535f0",
-        "title": "Show HN: NestDaddy Memory：ChatGPT、Claude 和 Cursor 共同拥有的一个记忆",
-        "url": "https://nestdaddy.com/memory",
-        "source": "nestdaddy.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_42d780078aed",
-      "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-      "url": "https://news.ycombinator.com/item?id=50597959",
-      "primary_url": "https://news.ycombinator.com/item?id=50597959",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
-          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-          "url": "https://news.ycombinator.com/item?id=50597959",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T09:57:01Z"
-        },
-        {
-          "id": "404e91cd39915f51d0fc1c6987f819e1c9b490ca",
-          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-          "url": "https://simonwillison.net/2026/Nov/21/muru",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T09:57:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
-          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-          "url": "https://news.ycombinator.com/item?id=50597959",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T09:57:01Z"
-        },
-        {
-          "id": "404e91cd39915f51d0fc1c6987f819e1c9b490ca",
-          "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-          "url": "https://simonwillison.net/2026/Nov/21/muru",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T09:57:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5206,
-      "importance": 0.5206,
-      "importance_score": 0.5206,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8602,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T09:57:01Z",
-      "latest_at": "2026-11-22T09:57:01Z",
-      "primary_item": {
-        "id": "a03bf09fdead4f6ee6535e29895af01eced67dff",
-        "title": "Muru – mod_WSGI 的创建者为 Python 应用程序提供人工智能辅助的 Rust 服务器 / Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
-        "url": "https://news.ycombinator.com/item?id=50597959",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_381628060ea9",
-      "title": "推理提供商上的数据处理事件",
-      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-      "primary_url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-      "source": "openrouter.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c43afa2cac89d34de03625b4d8a0dd6bb49be495",
-          "title": "推理提供商上的数据处理事件",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-          "source": "openrouter.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T07:28:01.316000Z"
-        },
-        {
-          "id": "d5c56cbe3669858d921aababe813c6449384eeab",
-          "title": "推理提供商上的数据处理事件 / Data Processing Incidents on Inference Providers",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T02:14:14Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "openrouter.ai"
-      ],
-      "items": [
-        {
-          "id": "c43afa2cac89d34de03625b4d8a0dd6bb49be495",
-          "title": "推理提供商上的数据处理事件",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-          "source": "openrouter.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T07:28:01.316000Z"
-        },
-        {
-          "id": "d5c56cbe3669858d921aababe813c6449384eeab",
-          "title": "推理提供商上的数据处理事件 / Data Processing Incidents on Inference Providers",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T02:14:14Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5152,
-      "importance": 0.5152,
-      "importance_score": 0.5152,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8299,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T02:14:14Z",
-      "latest_at": "2026-11-22T07:28:01.316000Z",
-      "primary_item": {
-        "id": "c43afa2cac89d34de03625b4d8a0dd6bb49be495",
-        "title": "推理提供商上的数据处理事件",
-        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
-        "source": "openrouter.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6e086317ffb3",
-      "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面",
-      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-      "primary_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ae3ff2ce5100b7ea684e46948be6d432169d797f",
-          "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T02:09:43.926000Z"
-        },
-        {
-          "id": "871d89b9a892a2fb67bb3e10489af50755d208da",
-          "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面 / Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T02:03:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "ae3ff2ce5100b7ea684e46948be6d432169d797f",
-          "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T02:09:43.926000Z"
-        },
-        {
-          "id": "871d89b9a892a2fb67bb3e10489af50755d208da",
-          "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面 / Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T02:03:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5042,
-      "importance": 0.5042,
-      "importance_score": 0.5042,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7687,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T02:03:46Z",
-      "latest_at": "2026-11-22T02:09:43.926000Z",
-      "primary_item": {
-        "id": "ae3ff2ce5100b7ea684e46948be6d432169d797f",
-        "title": "一名研究人员在人工智能供应链中植入了200万个“金丝雀”。一场隐私灾难由此浮出水面",
-        "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5d87055f8941",
-      "title": "GhostScript CVE 2026-125396：“Upload2Shell”",
-      "url": "https://pwn.ai/upload2shell/research.html",
-      "primary_url": "https://pwn.ai/upload2shell/research.html",
-      "source": "pwn.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d67ccf48968ab5f78d77ef5d4d1db416677a7a57",
-          "title": "GhostScript CVE 2026-125396：“Upload2Shell”",
-          "url": "https://pwn.ai/upload2shell/research.html",
-          "source": "pwn.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T01:06:51.065000Z"
-        },
-        {
-          "id": "83128c355d63644f2a316b3cbc290df88b69c668",
-          "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
-          "url": "https://pwn.ai/upload2shell/research.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T00:52:23Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "pwn.ai"
-      ],
-      "items": [
-        {
-          "id": "d67ccf48968ab5f78d77ef5d4d1db416677a7a57",
-          "title": "GhostScript CVE 2026-125396：“Upload2Shell”",
-          "url": "https://pwn.ai/upload2shell/research.html",
-          "source": "pwn.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T01:06:51.065000Z"
-        },
-        {
-          "id": "83128c355d63644f2a316b3cbc290df88b69c668",
-          "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
-          "url": "https://pwn.ai/upload2shell/research.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T00:52:23Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5021,
-      "importance": 0.5021,
-      "importance_score": 0.5021,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7571,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T00:52:23Z",
-      "latest_at": "2026-11-22T01:06:51.065000Z",
-      "primary_item": {
-        "id": "d67ccf48968ab5f78d77ef5d4d1db416677a7a57",
-        "title": "GhostScript CVE 2026-125396：“Upload2Shell”",
-        "url": "https://pwn.ai/upload2shell/research.html",
-        "source": "pwn.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a31e931e37bf",
-      "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-      "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-      "primary_url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T13:17:45.446000Z"
-        },
-        {
-          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-22T10:41:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T13:17:45.446000Z"
-        },
-        {
-          "id": "1940e98facd7e5d11f87a17a2539c594da648384",
-          "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。 / These fintech founders say AI makes fast and candid feedback more important",
-          "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-22T10:41:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5283,
-      "importance": 0.5283,
-      "importance_score": 0.5283,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9027,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T10:41:01Z",
-      "latest_at": "2026-11-22T13:17:45.446000Z",
-      "primary_item": {
-        "id": "5955f8877d0a9f24bebd3cbb0c6d2a78eb663394",
-        "title": "人工智能正在加速软件开发。这些创始人表示，他们也在学习如何更快地达成共识。",
-        "url": "https://www.businessinsider.com/bayesline-founders-ai-startup-culture-disagree-and-commit-2026-11",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_20aafe0b167c",
-      "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
-      "url": "https://www.v2ex.com/t/1258943",
-      "primary_url": "https://www.v2ex.com/t/1258943",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
-          "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
-          "url": "https://www.v2ex.com/t/1258943",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:04:49Z"
-        },
-        {
-          "id": "2266eaaed028609b3191b93b33711247d9fa4f85",
-          "title": "[问与答] GPT plus139 冲来的算不算便宜",
-          "url": "https://www.v2ex.com/t/1258943",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:04:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
-          "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
-          "url": "https://www.v2ex.com/t/1258943",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:04:49Z"
-        },
-        {
-          "id": "2266eaaed028609b3191b93b33711247d9fa4f85",
-          "title": "[问与答] GPT plus139 冲来的算不算便宜",
-          "url": "https://www.v2ex.com/t/1258943",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T13:04:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5278,
-      "importance": 0.5278,
-      "importance_score": 0.5278,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8999,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T13:04:49Z",
-      "latest_at": "2026-11-22T13:04:49Z",
-      "primary_item": {
-        "id": "c080984f07408394944e7c7add5ce80ef6dca0e4",
-        "title": "[OpenAI] GPT plus139 冲来的算不算便宜",
-        "url": "https://www.v2ex.com/t/1258943",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
       }
     }
   ]
