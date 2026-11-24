@@ -1,52 +1,134 @@
 {
-  "generated_at": "2026-11-23T14:03:18.386187Z",
+  "generated_at": "2026-11-24T00:55:21.445380Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_6fd4c32fe34a",
-      "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "primary_url": "https://huggingface.co/blog/agentic-evals",
-      "source": "Hugging Face Blog",
+      "story_id": "story_1d0c151fefed",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "primary_url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
-          "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
-          "url": "https://huggingface.co/blog/agentic-evals",
-          "source": "Hugging Face Blog",
+          "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T00:00:00Z"
+          "published_at": "2026-11-23T21:20:00Z"
+        },
+        {
+          "id": "9af716f769a76fe683103de026928c4587c5b20f",
+          "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-23T21:30:41Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Hugging Face Blog"
+        "Hacker News · 24h最热",
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
-          "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
-          "url": "https://huggingface.co/blog/agentic-evals",
-          "source": "Hugging Face Blog",
+          "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T00:00:00Z"
+          "published_at": "2026-11-23T21:20:00Z"
+        },
+        {
+          "id": "9af716f769a76fe683103de026928c4587c5b20f",
+          "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-23T21:30:41Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8369,
-      "importance": 0.8369,
-      "importance_score": 0.8369,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8679,
+      "importance": 0.8679,
+      "importance_score": 0.8679,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.8163,
+        "ai_relevance": 0.91,
+        "recency": 0.9495,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T21:20:00Z",
+      "latest_at": "2026-11-23T21:30:41Z",
+      "primary_item": {
+        "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
+        "title": "OpenAI and Cisco introduce Shirudo",
+        "url": "https://openai.com/index/introducing-shirudo",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex CLI 0.172.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "a86ce16aa6bbfbe39d95e707d790bdd9e72a0561",
+          "title": "Codex CLI 0.172.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "a86ce16aa6bbfbe39d95e707d790bdd9e72a0561",
+          "title": "Codex CLI 0.172.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8636,
+      "importance": 0.8636,
+      "importance_score": 0.8636,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.9868,
         "story_heat": 0.0
       },
       "category": "official",
@@ -55,13 +137,385 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-23T00:00:00Z",
-      "latest_at": "2026-11-23T00:00:00Z",
+      "earliest_at": "2026-11-24T00:00:00Z",
+      "latest_at": "2026-11-24T00:00:00Z",
       "primary_item": {
-        "id": "680641d5c3420dd491f25691ee7b069a787a7d67",
-        "title": "如何建立和维护代理评估 / How to build and maintain an agentic evaluation",
-        "url": "https://huggingface.co/blog/agentic-evals",
+        "id": "a86ce16aa6bbfbe39d95e707d790bdd9e72a0561",
+        "title": "Codex CLI 0.172.0",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ca38829e7312",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "primary_url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "url": "https://huggingface.co/blog/allenai/robotrack",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T17:20:37Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "url": "https://huggingface.co/blog/allenai/robotrack",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T17:20:37Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8473,
+      "importance": 0.8473,
+      "importance_score": 0.8473,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.8963,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T17:20:37Z",
+      "latest_at": "2026-11-23T17:20:37Z",
+      "primary_item": {
+        "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
+        "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+        "url": "https://huggingface.co/blog/allenai/robotrack",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_541e4e5d4292",
+      "title": "Issue statuses and repository boards are in public preview",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "primary_url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
+          "title": "Issue statuses and repository boards are in public preview",
+          "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T20:37:11Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
+          "title": "Issue statuses and repository boards are in public preview",
+          "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T20:37:11Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8332,
+      "importance": 0.8332,
+      "importance_score": 0.8332,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9398,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T20:37:11Z",
+      "latest_at": "2026-11-23T20:37:11Z",
+      "primary_item": {
+        "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
+        "title": "Issue statuses and repository boards are in public preview",
+        "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_39c2da17cef6",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "primary_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T17:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T17:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8245,
+      "importance": 0.8245,
+      "importance_score": 0.8245,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8919,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T17:00:00Z",
+      "latest_at": "2026-11-23T17:00:00Z",
+      "primary_item": {
+        "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
+        "title": "A more tailored Google Search that’s uniquely yours",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_61dcf1169479",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "primary_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "source": "Google DeepMind",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T16:59:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google DeepMind"
+      ],
+      "items": [
+        {
+          "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T16:59:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8245,
+      "importance": 0.8245,
+      "importance_score": 0.8245,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8918,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T16:59:40Z",
+      "latest_at": "2026-11-23T16:59:40Z",
+      "primary_item": {
+        "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
+        "title": "Finding faster quantum algorithms with agents and formal verification",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+        "source": "Google DeepMind",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_b3c4595342c9",
+      "title": "Secret scanning reduces false positives for Slack",
+      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "primary_url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
+          "title": "Secret scanning reduces false positives for Slack",
+          "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T18:32:59Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
+          "title": "Secret scanning reduces false positives for Slack",
+          "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T18:32:59Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8282,
+      "importance": 0.8282,
+      "importance_score": 0.8282,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9121,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T18:32:59Z",
+      "latest_at": "2026-11-23T18:32:59Z",
+      "primary_item": {
+        "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
+        "title": "Secret scanning reduces false positives for Slack",
+        "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f8a4e02f4212",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "primary_url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c413ce8ef0bcf08fb82e98532c487388e7218ebd",
+          "title": "Connected intelligence for in-house legal",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T08:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "c413ce8ef0bcf08fb82e98532c487388e7218ebd",
+          "title": "Connected intelligence for in-house legal",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T08:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.813,
+      "importance": 0.813,
+      "importance_score": 0.813,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7832,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T08:00:00Z",
+      "latest_at": "2026-11-23T08:00:00Z",
+      "primary_item": {
+        "id": "c413ce8ef0bcf08fb82e98532c487388e7218ebd",
+        "title": "Connected intelligence for in-house legal",
+        "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -119,15 +573,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7665,
+      "importance": 0.7665,
+      "importance_score": 0.7665,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -144,6 +598,130 @@
         "url": "https://www.aibase.com/news/32479",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_cbd75850d76c",
+      "title": "Code coverage uploads now flag invalid report formats",
+      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+      "primary_url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
+          "title": "Code coverage uploads now flag invalid report formats",
+          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T15:28:36Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
+          "title": "Code coverage uploads now flag invalid report formats",
+          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T15:28:36Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.821,
+      "importance": 0.821,
+      "importance_score": 0.821,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8725,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T15:28:36Z",
+      "latest_at": "2026-11-23T15:28:36Z",
+      "primary_item": {
+        "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
+        "title": "Code coverage uploads now flag invalid report formats",
+        "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_680b35173b97",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "primary_url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "aecacf3a7cb379389b85a5e1e8a110775f030a34",
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T08:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "aecacf3a7cb379389b85a5e1e8a110775f030a34",
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T08:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.813,
+      "importance": 0.813,
+      "importance_score": 0.813,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7832,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T08:00:00Z",
+      "latest_at": "2026-11-23T08:00:00Z",
+      "primary_item": {
+        "id": "aecacf3a7cb379389b85a5e1e8a110775f030a34",
+        "title": "Richpanel helps companies automate 50% of support in 30 days",
+        "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -200,15 +778,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7665,
+      "importance": 0.7665,
+      "importance_score": 0.7665,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -225,6 +803,68 @@
         "url": "https://www.aibase.com/news/32477",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_ebcacbb197f5",
+      "title": "Usage reports will include a user ID column starting December 1",
+      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "primary_url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "506b940c695586dbdce4440d3cd52f4980b58671",
+          "title": "Usage reports will include a user ID column starting December 1",
+          "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T10:29:36Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "506b940c695586dbdce4440d3cd52f4980b58671",
+          "title": "Usage reports will include a user ID column starting December 1",
+          "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-23T10:29:36Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8101,
+      "importance": 0.8101,
+      "importance_score": 0.8101,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8119,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-23T10:29:36Z",
+      "latest_at": "2026-11-23T10:29:36Z",
+      "primary_item": {
+        "id": "506b940c695586dbdce4440d3cd52f4980b58671",
+        "title": "Usage reports will include a user ID column starting December 1",
+        "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -262,21 +902,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-23T14:03:18.386187Z",
       "latest_at": "2026-11-23T14:03:18.386187Z",
@@ -286,6 +925,86 @@
         "url": "https://www.aibase.com/news/32472",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_43b498f2b7e3",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "primary_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
+          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-11-23T22:05:50Z"
+        },
+        {
+          "id": "ec0831bcb408209f71a6e7cba02ccd9e6cb3ee2a",
+          "title": "Anthropic launches Claude Ship, agents review, fix, & approve code changes now",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-11-23T23:39:44Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "TechCrunch AI"
+      ],
+      "items": [
+        {
+          "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
+          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-11-23T22:05:50Z"
+        },
+        {
+          "id": "ec0831bcb408209f71a6e7cba02ccd9e6cb3ee2a",
+          "title": "Anthropic launches Claude Ship, agents review, fix, & approve code changes now",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-11-23T23:39:44Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6665,
+      "importance": 0.6665,
+      "importance_score": 0.6665,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5904,
+        "source_tier": 0.58,
+        "ai_relevance": 0.82,
+        "recency": 0.96,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-11-23T22:05:50Z",
+      "latest_at": "2026-11-23T23:39:44Z",
+      "primary_item": {
+        "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
+        "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+        "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -323,21 +1042,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-23T14:03:18.386187Z",
       "latest_at": "2026-11-23T14:03:18.386187Z",
@@ -384,21 +1102,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-23T14:03:18.386187Z",
       "latest_at": "2026-11-23T14:03:18.386187Z",
@@ -408,138 +1125,6 @@
         "url": "https://www.aibase.com/news/32471",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2df82173bb28",
-      "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "社区更新 · 2026-11-22",
-      "source_name": "WaytoAGI",
-      "sources": [
-        {
-          "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
-          "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "e8bc3e9aa944ed421297f56e52a6e48442808a0c",
-          "title": "作者整理了一份第二届GEO大会Day 2的笔记，主要汇总了8个分享主题、2场实操和13轮答疑，覆盖国内视频矩阵、海外媒体合作、AI 产品增长与个人品牌经营。对GEO感兴趣的大家，不要错过！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "d18657e540aa01d075122ed15f76ec44b79e7872",
-          "title": "提示词越写越长，AI 还是跑偏，问题可能出在资料、工具或验收环节。这篇把提示词、上下文、Harness 和 Loop 四层拆开讲清：说清任务、给对信息、配好工具与检查，再让整套流程自动运行。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "8caf38bccfdcc685765409de6c2bf4c5f9da66e9",
-          "title": "给每个员工配上 AI，公司就会更高效吗？产品经理用 AI 写出 300 页需求，工程师再用 AI 压成一句话，忙了一圈，真正需要对齐的信息反而丢了。这篇文章从这个困境出发，拆解了面向个人和企业的Agent为什么走向不同。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "d897f3f67fc0a16e57f50bc20e187d502c238048",
-          "title": "这一次，我们把黑客松搬进了乐队 Live 现场，4小时能做出怎样的AI舞台视觉？11月20—21日，WaytoAGI与 ACE-CON联合发起首届 AI×音乐视觉黑客松，剪映提供独家工具支持，近 600 人报名、38 支队伍进入线下，最终8支作品登上国家会议中心主舞台，与乐队同台共演。来看看，当代码、画面和摇滚相遇，创作者们交出了怎样的现场答卷。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "社区更新 · 2026-11-22"
-      ],
-      "items": [
-        {
-          "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
-          "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "e8bc3e9aa944ed421297f56e52a6e48442808a0c",
-          "title": "作者整理了一份第二届GEO大会Day 2的笔记，主要汇总了8个分享主题、2场实操和13轮答疑，覆盖国内视频矩阵、海外媒体合作、AI 产品增长与个人品牌经营。对GEO感兴趣的大家，不要错过！",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "d18657e540aa01d075122ed15f76ec44b79e7872",
-          "title": "提示词越写越长，AI 还是跑偏，问题可能出在资料、工具或验收环节。这篇把提示词、上下文、Harness 和 Loop 四层拆开讲清：说清任务、给对信息、配好工具与检查，再让整套流程自动运行。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "8caf38bccfdcc685765409de6c2bf4c5f9da66e9",
-          "title": "给每个员工配上 AI，公司就会更高效吗？产品经理用 AI 写出 300 页需求，工程师再用 AI 压成一句话，忙了一圈，真正需要对齐的信息反而丢了。这篇文章从这个困境出发，拆解了面向个人和企业的Agent为什么走向不同。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        },
-        {
-          "id": "d897f3f67fc0a16e57f50bc20e187d502c238048",
-          "title": "这一次，我们把黑客松搬进了乐队 Live 现场，4小时能做出怎样的AI舞台视觉？11月20—21日，WaytoAGI与 ACE-CON联合发起首届 AI×音乐视觉黑客松，剪映提供独家工具支持，近 600 人报名、38 支队伍进入线下，最终8支作品登上国家会议中心主舞台，与乐队同台共演。来看看，当代码、画面和摇滚相遇，创作者们交出了怎样的现场答卷。",
-          "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-          "source": "社区更新 · 2026-11-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-11-22T20:22:52.260322Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6287,
-      "importance": 0.6287,
-      "importance_score": 0.6287,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.7747,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T20:22:52.260322Z",
-      "latest_at": "2026-11-22T20:22:52.260322Z",
-      "primary_item": {
-        "id": "f5ce69ebdbbf6cd861bdb3a5d8f19bb420ae5b47",
-        "title": "Agent 能不能自己积累经验、改进技能，还越用越省钱？本期精选的10篇AI 论文从让 AI 记住每次修改的得失、自动盯训练，到精简 Skill、审核高风险更新，集中探讨了“如何让智能体持续进步”。做 Agent 开发或关注 AI 研究的朋友，可以重点看看其中的实践思路。",
-        "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-        "source": "社区更新 · 2026-11-22",
-        "source_name": "WaytoAGI"
       }
     },
     {
@@ -577,21 +1162,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-23T14:03:18.386187Z",
       "latest_at": "2026-11-23T14:03:18.386187Z",
@@ -638,21 +1222,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8548,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-23T14:03:18.386187Z",
       "latest_at": "2026-11-23T14:03:18.386187Z",
@@ -665,874 +1248,82 @@
       }
     },
     {
-      "story_id": "story_5094532b4e2e",
-      "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
-      "url": "https://z.ai/blog/glm-5.4",
-      "primary_url": "https://z.ai/blog/glm-5.4",
-      "source": "z.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
-          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
-          "url": "https://z.ai/blog/glm-5.4",
-          "source": "z.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T11:39:43.058000Z"
-        },
-        {
-          "id": "c12d5fd51e5142574e5f62dc94ea10dab96f5be0",
-          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-          "url": "https://z.ai/blog/glm-5.4",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T10:06:43Z"
-        },
-        {
-          "id": "ecba850940e09bd7ce1e0b5c069e671cdd72dbb1",
-          "title": "GLM-5.4：使用我们的第一个循环变压器实现广义编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-          "url": "https://news.ycombinator.com/item?id=50609685",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-23T10:06:43Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "z.ai"
-      ],
-      "items": [
-        {
-          "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
-          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
-          "url": "https://z.ai/blog/glm-5.4",
-          "source": "z.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T11:39:43.058000Z"
-        },
-        {
-          "id": "c12d5fd51e5142574e5f62dc94ea10dab96f5be0",
-          "title": "GLM-5.4：借助首个循环变换器迈向泛化编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-          "url": "https://z.ai/blog/glm-5.4",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T10:06:43Z"
-        },
-        {
-          "id": "ecba850940e09bd7ce1e0b5c069e671cdd72dbb1",
-          "title": "GLM-5.4：使用我们的第一个循环变压器实现广义编码 / GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-          "url": "https://news.ycombinator.com/item?id=50609685",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-23T10:06:43Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.966,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-23T10:06:43Z",
-      "latest_at": "2026-11-23T11:39:43.058000Z",
-      "primary_item": {
-        "id": "32c894c1224f34c2c28d1de543eccc940aab0eca",
-        "title": "GLM-5.4：借助首个循环变换器迈向泛化编码",
-        "url": "https://z.ai/blog/glm-5.4",
-        "source": "z.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e91a66ff451e",
-      "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
-      "url": "https://www.aibase.com/news/32474",
-      "primary_url": "https://www.aibase.com/news/32474",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
-          "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
-          "url": "https://www.aibase.com/news/32474",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-23T14:03:18.386187Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
-          "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
-          "url": "https://www.aibase.com/news/32474",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-23T14:03:18.386187Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-23T14:03:18.386187Z",
-      "latest_at": "2026-11-23T14:03:18.386187Z",
-      "primary_item": {
-        "id": "688fda63ca75e211ee6f9ad3916c928e425d91e1",
-        "title": "把“增长优先”告上法庭：加州总检察长起诉 OpenAI",
-        "url": "https://www.aibase.com/news/32474",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_fe63a83d484c",
-      "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
-      "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-      "primary_url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
-          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
-          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T12:43:42.997000Z"
-        },
-        {
-          "id": "7125f9e35cc852557c13695b720b7b244bd9a41a",
-          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬 / Why these 6 stocks are winning from the AI rout",
-          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T12:32:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
-          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
-          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T12:43:42.997000Z"
-        },
-        {
-          "id": "7125f9e35cc852557c13695b720b7b244bd9a41a",
-          "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬 / Why these 6 stocks are winning from the AI rout",
-          "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T12:32:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5424,
-      "importance": 0.5424,
-      "importance_score": 0.5424,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.981,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-23T12:32:34Z",
-      "latest_at": "2026-11-23T12:43:42.997000Z",
-      "primary_item": {
-        "id": "f4724665baa2fe7046e78519f792af5ea9d64165",
-        "title": "沃尔玛、伯克希尔等防御型股票在人工智能股暴跌中逆势上扬",
-        "url": "https://www.businessinsider.com/ai-tech-stocks-rout-walmart-berkshire-buffett-defensive-investing-consumer-2026-11",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_b04893ed93ee",
-      "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
-          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T12:41:14Z"
-        },
-        {
-          "id": "de6a1a2c4ce9f5fdff4abad6b2f941c121c6b6e3",
-          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-          "url": "https://news.ycombinator.com/item?id=50610830",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-23T12:41:14Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
-          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T12:41:14Z"
-        },
-        {
-          "id": "de6a1a2c4ce9f5fdff4abad6b2f941c121c6b6e3",
-          "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-          "url": "https://news.ycombinator.com/item?id=50610830",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-23T12:41:14Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5423,
-      "importance": 0.5423,
-      "importance_score": 0.5423,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9804,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-23T12:41:14Z",
-      "latest_at": "2026-11-23T12:41:14Z",
-      "primary_item": {
-        "id": "e8b7a73aa0053a32a275731fc187827ca10c9a20",
-        "title": "据报道，阿莫迪表示，在人工智能取代了大众的工作后，游戏可以安抚大众 / Amodei reportedly suggested games could pacify masses after AI took their jobs",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_1793f4fe05b1",
-      "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
-      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-      "primary_url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
-          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
-          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T12:12:06.344000Z"
-        },
-        {
-          "id": "02143f776c528c1a7def8f01b675b8fd678fc24f",
-          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来 / Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T12:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
-          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
-          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T12:12:06.344000Z"
-        },
-        {
-          "id": "02143f776c528c1a7def8f01b675b8fd678fc24f",
-          "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来 / Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T12:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.541,
-      "importance": 0.541,
-      "importance_score": 0.541,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9736,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-23T12:00:00Z",
-      "latest_at": "2026-11-23T12:12:06.344000Z",
-      "primary_item": {
-        "id": "0d4972fe9eb28e42f50d80bc2676771413f230af",
-        "title": "评测：华硕 ProArt P16 让我们一窥由本地人工智能驱动的未来",
-        "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4f0ed76760ef",
-      "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "primary_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "source": "www.gpupartner.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
-          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "source": "www.gpupartner.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T23:23:39.823000Z"
-        },
-        {
-          "id": "d522d53677a5e15bc5c9810a46ae118daa7aaa11",
-          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T21:01:16Z"
-        },
-        {
-          "id": "470658f75013398f7988c00dd38a56b32a2a48a3",
-          "title": "使用 Inkling、Qwen 和 Unsloth 进行本地 AI 的初学者指南 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "url": "https://news.ycombinator.com/item?id=50603845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T21:01:16Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.gpupartner.com"
-      ],
-      "items": [
-        {
-          "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
-          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "source": "www.gpupartner.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T23:23:39.823000Z"
-        },
-        {
-          "id": "d522d53677a5e15bc5c9810a46ae118daa7aaa11",
-          "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T21:01:16Z"
-        },
-        {
-          "id": "470658f75013398f7988c00dd38a56b32a2a48a3",
-          "title": "使用 Inkling、Qwen 和 Unsloth 进行本地 AI 的初学者指南 / A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "url": "https://news.ycombinator.com/item?id=50603845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-22T21:01:16Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5365,
-      "importance": 0.5365,
-      "importance_score": 0.5365,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8092,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T21:01:16Z",
-      "latest_at": "2026-11-22T23:23:39.823000Z",
-      "primary_item": {
-        "id": "fa621fcc18a3efeb20d42fb6c68e68aed3083f68",
-        "title": "《Inkling、Qwen 和 Unsloth 入门指南：本地人工智能》",
-        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "source": "www.gpupartner.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_7758e9b44180",
-      "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
-      "url": "https://www.aibase.com/news/32468",
-      "primary_url": "https://www.aibase.com/news/32468",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
-          "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
-          "url": "https://www.aibase.com/news/32468",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-23T14:03:18.386187Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
-          "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
-          "url": "https://www.aibase.com/news/32468",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-23T14:03:18.386187Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-23T14:03:18.386187Z",
-      "latest_at": "2026-11-23T14:03:18.386187Z",
-      "primary_item": {
-        "id": "e9c159da8cd45ccaf466bbefbdb99d1303f828ad",
-        "title": "把主权 AI 做成生意：Mistral AI 把亚太总部落在新加坡",
-        "url": "https://www.aibase.com/news/32468",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_626e59734f22",
-      "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
-      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.co.uk",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
-          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
-          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T03:23:40.220000Z"
-        },
-        {
-          "id": "d49df55f296334bb99a003b350e27f5b033f0523",
-          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧 / San Francisco is enjoying an AI boom, but worries about a crash are growing",
-          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T00:08:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News",
-        "www.bbc.co.uk"
-      ],
-      "items": [
-        {
-          "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
-          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
-          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.co.uk",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T03:23:40.220000Z"
-        },
-        {
-          "id": "d49df55f296334bb99a003b350e27f5b033f0523",
-          "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧 / San Francisco is enjoying an AI boom, but worries about a crash are growing",
-          "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-23T00:08:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5201,
-      "importance": 0.5201,
-      "importance_score": 0.5201,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8573,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-23T00:08:00Z",
-      "latest_at": "2026-11-23T03:23:40.220000Z",
-      "primary_item": {
-        "id": "4567bb048d4cef7a006c08ad3c569b14e4b2f013",
-        "title": "旧金山正迎来人工智能热潮，但人们对市场崩盘的担忧也在加剧",
-        "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.co.uk",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ae6e6a35191d",
-      "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
-      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-      "primary_url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-      "source": "claude.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
-          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
-          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "source": "claude.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T00:43:51.380000Z"
-        },
-        {
-          "id": "c0e5a1511ae9386f6b2e0b0d64bd3629bf17095d",
-          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图 / Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T23:12:10Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "claude.ai"
-      ],
-      "items": [
-        {
-          "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
-          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
-          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "source": "claude.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-23T00:43:51.380000Z"
-        },
-        {
-          "id": "c0e5a1511ae9386f6b2e0b0d64bd3629bf17095d",
-          "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图 / Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-          "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-22T23:12:10Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5143,
-      "importance": 0.5143,
-      "importance_score": 0.5143,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.825,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T23:12:10Z",
-      "latest_at": "2026-11-23T00:43:51.380000Z",
-      "primary_item": {
-        "id": "411ad76cfe1cbef26fe1e76778c8f80f4bc2b50c",
-        "title": "亚历山德罗·马苏洛（Alessandro Masullo）手稿的“精益”形式化进展图",
-        "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-        "source": "claude.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_de5cd1a6d51d",
-      "title": "困惑与智慧 / Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "primary_url": "https://openai.com/index/perplexity-and-intelligence",
+      "story_id": "story_d6e502a2e9d3",
+      "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，「净网-2026」半年查处 190 余人",
+      "url": "https://www.ithome.com/1/031/261.htm",
+      "primary_url": "https://www.ithome.com/1/031/261.htm",
       "source": "Readhub · AI",
       "source_name": "TopHub",
       "sources": [
         {
-          "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
-          "title": "困惑与智慧 / Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "id": "433144762f154b2c9cc0213b74f218b13737028b",
+          "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，「净网-2026」半年查处 190 余人",
+          "url": "https://www.ithome.com/1/031/261.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
-          "title": "困惑与智慧",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:20:52.884000Z"
+          "id": "c1c98cfc2f1187d6ea3cedfbc6bf94d33708b9e8",
+          "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，“净网-2026”半年查处 190 余人",
+          "url": "https://www.ithome.com/1/031/261.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-24T00:12:12Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Readhub · AI",
-        "openai.com"
+        "IT之家 (ITHome)",
+        "Readhub · AI"
       ],
       "items": [
         {
-          "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
-          "title": "困惑与智慧 / Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "id": "433144762f154b2c9cc0213b74f218b13737028b",
+          "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，「净网-2026」半年查处 190 余人",
+          "url": "https://www.ithome.com/1/031/261.htm",
           "source": "Readhub · AI",
           "source_name": "TopHub",
           "site_id": "tophub",
           "published_at": null
         },
         {
-          "id": "046ffa6d7042c1b304663f7bc261065e2c31ac6c",
-          "title": "困惑与智慧",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T18:20:52.884000Z"
+          "id": "c1c98cfc2f1187d6ea3cedfbc6bf94d33708b9e8",
+          "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，“净网-2026”半年查处 190 余人",
+          "url": "https://www.ithome.com/1/031/261.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-11-24T00:12:12Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5053,
-      "importance": 0.5053,
-      "importance_score": 0.5053,
+      "score": 0.5458,
+      "importance": 0.5458,
+      "importance_score": 0.5458,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7747,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-22T18:20:52.884000Z",
-      "latest_at": "2026-11-22T20:22:52.260322Z",
+      "earliest_at": "2026-11-24T00:12:12Z",
+      "latest_at": "2026-11-24T00:55:21.445380Z",
       "primary_item": {
-        "id": "2bb57385d8ab1d6984ff059cfcca3d5a048622ee",
-        "title": "困惑与智慧 / Perplexity and Intelligence",
-        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "id": "433144762f154b2c9cc0213b74f218b13737028b",
+        "title": "公安部网安局公布 10 起 AI 造谣典型案例：张家界玻璃桥坍塌、诺如病毒再袭等在列，「净网-2026」半年查处 190 余人",
+        "url": "https://www.ithome.com/1/031/261.htm",
         "source": "Readhub · AI",
         "source_name": "TopHub"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
-      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-      "primary_url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-      "source": "www.youtube.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2066052d1d469948e676457e24fd3f814149a22e",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T16:44:44.430000Z"
-        },
-        {
-          "id": "732b2bf8d151051cc25ada064b114bebab0b6fb1",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T16:37:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "2066052d1d469948e676457e24fd3f814149a22e",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-22T16:44:44.430000Z"
-        },
-        {
-          "id": "732b2bf8d151051cc25ada064b114bebab0b6fb1",
-          "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒） / We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
-          "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-11-22T16:37:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4981,
-      "importance": 0.4981,
-      "importance_score": 0.4981,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7351,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-11-22T16:37:37Z",
-      "latest_at": "2026-11-22T16:44:44.430000Z",
-      "primary_item": {
-        "id": "2066052d1d469948e676457e24fd3f814149a22e",
-        "title": "在事情发生之前，我们就曾就[一份令人费解的关于广义相对论预测的人工智能证明]向数学家们请教过（13分38秒）",
-        "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
-        "source": "www.youtube.com",
-        "source_name": "Buzzing"
       }
     }
   ]
