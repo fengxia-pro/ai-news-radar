@@ -1,87 +1,253 @@
 {
-  "generated_at": "2026-11-24T13:58:33.481203Z",
+  "generated_at": "2026-11-24T23:02:49.261190Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_1d0c151fefed",
-      "title": "OpenAI 和 Cisco 推出 Shirudo / OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "primary_url": "https://openai.com/index/introducing-shirudo",
+      "story_id": "story_16565a3f5dc0",
+      "title": "Microduck 避障：Isaac Lab 和 Newton 的 Sim2Real 工作流程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "primary_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f38e9dd8e843c459a13862777d8e559648285636",
+          "title": "Microduck 避障：Isaac Lab 和 Newton 的 Sim2Real 工作流程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:34:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "f38e9dd8e843c459a13862777d8e559648285636",
+          "title": "Microduck 避障：Isaac Lab 和 Newton 的 Sim2Real 工作流程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:34:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8439,
+      "importance": 0.8439,
+      "importance_score": 0.8439,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9107,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-24T16:34:13Z",
+      "latest_at": "2026-11-24T16:34:13Z",
+      "primary_item": {
+        "id": "f38e9dd8e843c459a13862777d8e559648285636",
+        "title": "Microduck 避障：Isaac Lab 和 Newton 的 Sim2Real 工作流程 / Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+        "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3c6728c1bfd1",
+      "title": "GPT-6 模型展示了内在的蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "primary_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
-          "title": "OpenAI 和 Cisco 推出 Shirudo / OpenAI and Cisco introduce Shirudo",
-          "url": "https://openai.com/index/introducing-shirudo",
+          "id": "7043964a27bd9665773c1658acb9f5dd6e8636cb",
+          "title": "GPT-6 模型展示了内在的蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T21:20:00Z"
-        },
-        {
-          "id": "9af716f769a76fe683103de026928c4587c5b20f",
-          "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-          "url": "https://openai.com/index/introducing-shirudo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T21:30:41Z"
+          "published_at": "2026-11-24T13:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
         "OpenAI News"
       ],
       "items": [
         {
-          "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
-          "title": "OpenAI 和 Cisco 推出 Shirudo / OpenAI and Cisco introduce Shirudo",
-          "url": "https://openai.com/index/introducing-shirudo",
+          "id": "7043964a27bd9665773c1658acb9f5dd6e8636cb",
+          "title": "GPT-6 模型展示了内在的蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T21:20:00Z"
-        },
-        {
-          "id": "9af716f769a76fe683103de026928c4587c5b20f",
-          "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-          "url": "https://openai.com/index/introducing-shirudo",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-23T21:30:41Z"
+          "published_at": "2026-11-24T13:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8385,
-      "importance": 0.8385,
-      "importance_score": 0.8385,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8357,
+      "importance": 0.8357,
+      "importance_score": 0.8357,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8649,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-24T13:00:00Z",
+      "latest_at": "2026-11-24T13:00:00Z",
+      "primary_item": {
+        "id": "7043964a27bd9665773c1658acb9f5dd6e8636cb",
+        "title": "GPT-6 模型展示了内在的蛋白质设计能力 / GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e2544bc1aeb2",
+      "title": "双子座如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "primary_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "810c54d7dd86246b9fce421358d1832829c1e34f",
+          "title": "双子座如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "810c54d7dd86246b9fce421358d1832829c1e34f",
+          "title": "双子座如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8346,
+      "importance": 0.8346,
+      "importance_score": 0.8346,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7864,
-        "story_heat": 0.25
+        "recency": 0.9032,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-23T21:20:00Z",
-      "latest_at": "2026-11-23T21:30:41Z",
+      "earliest_at": "2026-11-24T16:00:00Z",
+      "latest_at": "2026-11-24T16:00:00Z",
       "primary_item": {
-        "id": "e49ae394ba7181b0e741586310bf0c39190db59d",
-        "title": "OpenAI 和 Cisco 推出 Shirudo / OpenAI and Cisco introduce Shirudo",
-        "url": "https://openai.com/index/introducing-shirudo",
-        "source": "OpenAI News",
+        "id": "810c54d7dd86246b9fce421358d1832829c1e34f",
+        "title": "双子座如何为金州勇士队的组织和球迷改变比赛。 / How Gemini is changing the game for Golden State's organization and fans.",
+        "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_7a13ff91f5e0",
+      "title": "GitHub.com 上的通知更可预测 / More predictable notifications on GitHub.com",
+      "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+      "primary_url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c4f740cb2a4db423f2d61779bde5801181638687",
+          "title": "GitHub.com 上的通知更可预测 / More predictable notifications on GitHub.com",
+          "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:40:59Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "c4f740cb2a4db423f2d61779bde5801181638687",
+          "title": "GitHub.com 上的通知更可预测 / More predictable notifications on GitHub.com",
+          "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T16:40:59Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8282,
+      "importance": 0.8282,
+      "importance_score": 0.8282,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9122,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-24T16:40:59Z",
+      "latest_at": "2026-11-24T16:40:59Z",
+      "primary_item": {
+        "id": "c4f740cb2a4db423f2d61779bde5801181638687",
+        "title": "GitHub.com 上的通知更可预测 / More predictable notifications on GitHub.com",
+        "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -120,15 +286,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8331,
-      "importance": 0.8331,
-      "importance_score": 0.8331,
+      "score": 0.815,
+      "importance": 0.815,
+      "importance_score": 0.815,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8172,
+        "recency": 0.7169,
         "story_heat": 0.0
       },
       "category": "official",
@@ -148,49 +314,49 @@
       }
     },
     {
-      "story_id": "story_ca38829e7312",
-      "title": "RoboTrack：现实世界机器人操作的点跟踪 / RoboTrack: Point tracking for real-world robotic manipulation",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "primary_url": "https://huggingface.co/blog/allenai/robotrack",
-      "source": "Hugging Face Blog",
+      "story_id": "story_f3aa9260f109",
+      "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "primary_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
-          "title": "RoboTrack：现实世界机器人操作的点跟踪 / RoboTrack: Point tracking for real-world robotic manipulation",
-          "url": "https://huggingface.co/blog/allenai/robotrack",
-          "source": "Hugging Face Blog",
+          "id": "a199fd5e20bd2b13b5e740bb7bf4e90941e27c4c",
+          "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T17:20:37Z"
+          "published_at": "2026-11-24T11:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
-          "title": "RoboTrack：现实世界机器人操作的点跟踪 / RoboTrack: Point tracking for real-world robotic manipulation",
-          "url": "https://huggingface.co/blog/allenai/robotrack",
-          "source": "Hugging Face Blog",
+          "id": "a199fd5e20bd2b13b5e740bb7bf4e90941e27c4c",
+          "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T17:20:37Z"
+          "published_at": "2026-11-24T11:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8196,
-      "importance": 0.8196,
-      "importance_score": 0.8196,
+      "score": 0.8233,
+      "importance": 0.8233,
+      "importance_score": 0.8233,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7423,
+        "ai_relevance": 0.91,
+        "recency": 0.8403,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,199 +365,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-23T17:20:37Z",
-      "latest_at": "2026-11-23T17:20:37Z",
+      "earliest_at": "2026-11-24T11:00:00Z",
+      "latest_at": "2026-11-24T11:00:00Z",
       "primary_item": {
-        "id": "9bbf862d8bcc848b90a535fcb021bb92af25747f",
-        "title": "RoboTrack：现实世界机器人操作的点跟踪 / RoboTrack: Point tracking for real-world robotic manipulation",
-        "url": "https://huggingface.co/blog/allenai/robotrack",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_541e4e5d4292",
-      "title": "Issue statuses and repository boards are in public preview",
-      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
-          "title": "Issue statuses and repository boards are in public preview",
-          "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T20:37:11Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
-          "title": "Issue statuses and repository boards are in public preview",
-          "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T20:37:11Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8041,
-      "importance": 0.8041,
-      "importance_score": 0.8041,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7783,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-23T20:37:11Z",
-      "latest_at": "2026-11-23T20:37:11Z",
-      "primary_item": {
-        "id": "12ede07f3f701aadaf7c8c928c0f2f8fa887d17f",
-        "title": "Issue statuses and repository boards are in public preview",
-        "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_39c2da17cef6",
-      "title": "A more tailored Google Search that’s uniquely yours",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-      "primary_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
-          "title": "A more tailored Google Search that’s uniquely yours",
-          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google AI Blog"
-      ],
-      "items": [
-        {
-          "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
-          "title": "A more tailored Google Search that’s uniquely yours",
-          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.797,
-      "importance": 0.797,
-      "importance_score": 0.797,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7387,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-23T17:00:00Z",
-      "latest_at": "2026-11-23T17:00:00Z",
-      "primary_item": {
-        "id": "026c998e9d4d1b615c28dc0897e56ccbd2663a5f",
-        "title": "A more tailored Google Search that’s uniquely yours",
-        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_61dcf1169479",
-      "title": "通过代理和形式验证寻找更快的量子算法 / Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-      "primary_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
-          "title": "通过代理和形式验证寻找更快的量子算法 / Finding faster quantum algorithms with agents and formal verification",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T16:59:40Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google DeepMind"
-      ],
-      "items": [
-        {
-          "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
-          "title": "通过代理和形式验证寻找更快的量子算法 / Finding faster quantum algorithms with agents and formal verification",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-11-23T16:59:40Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7969,
-      "importance": 0.7969,
-      "importance_score": 0.7969,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7386,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-23T16:59:40Z",
-      "latest_at": "2026-11-23T16:59:40Z",
-      "primary_item": {
-        "id": "2b1171e1da8ace1f0b51f3e2228067eef81757f6",
-        "title": "通过代理和形式验证寻找更快的量子算法 / Finding faster quantum algorithms with agents and formal verification",
-        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-        "source": "Google DeepMind",
+        "id": "a199fd5e20bd2b13b5e740bb7bf4e90941e27c4c",
+        "title": "与 Astra 一起寻找遥远的行星 / Searching for distant planets with Astra",
+        "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -449,15 +429,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7926,
-      "importance": 0.7926,
-      "importance_score": 0.7926,
+      "score": 0.7705,
+      "importance": 0.7705,
+      "importance_score": 0.7705,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -477,49 +457,49 @@
       }
     },
     {
-      "story_id": "story_b3c4595342c9",
-      "title": "Secret scanning reduces false positives for Slack",
-      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-      "primary_url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-      "source": "GitHub Changelog",
+      "story_id": "story_99b93f3e1098",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "primary_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
-          "title": "Secret scanning reduces false positives for Slack",
-          "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-          "source": "GitHub Changelog",
+          "id": "d8f67b8fdef8cc970ab209b5f58bfaad7c3388f7",
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T18:32:59Z"
+          "published_at": "2026-11-24T00:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
-          "title": "Secret scanning reduces false positives for Slack",
-          "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-          "source": "GitHub Changelog",
+          "id": "d8f67b8fdef8cc970ab209b5f58bfaad7c3388f7",
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T18:32:59Z"
+          "published_at": "2026-11-24T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8,
-      "importance": 0.8,
-      "importance_score": 0.8,
+      "score": 0.817,
+      "importance": 0.817,
+      "importance_score": 0.817,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7554,
+        "ai_relevance": 0.99,
+        "recency": 0.7169,
         "story_heat": 0.0
       },
       "category": "official",
@@ -528,13 +508,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-23T18:32:59Z",
-      "latest_at": "2026-11-23T18:32:59Z",
+      "earliest_at": "2026-11-24T00:00:00Z",
+      "latest_at": "2026-11-24T00:00:00Z",
       "primary_item": {
-        "id": "75d1d6e4a5034193847eea858e77575e3ae2594d",
-        "title": "Secret scanning reduces false positives for Slack",
-        "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-        "source": "GitHub Changelog",
+        "id": "d8f67b8fdef8cc970ab209b5f58bfaad7c3388f7",
+        "title": "Clay helps sales teams win with Codex and ChatGPT",
+        "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -573,21 +553,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -600,49 +579,49 @@
       }
     },
     {
-      "story_id": "story_cbd75850d76c",
-      "title": "Code coverage uploads now flag invalid report formats",
-      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-      "primary_url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-      "source": "GitHub Changelog",
+      "story_id": "story_ec442b764e04",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "primary_url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
-          "title": "Code coverage uploads now flag invalid report formats",
-          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-          "source": "GitHub Changelog",
+          "id": "df8e11a97736256966bd166bfaff4c1c76d13599",
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T15:28:36Z"
+          "published_at": "2026-11-24T00:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
-          "title": "Code coverage uploads now flag invalid report formats",
-          "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-          "source": "GitHub Changelog",
+          "id": "df8e11a97736256966bd166bfaff4c1c76d13599",
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-11-23T15:28:36Z"
+          "published_at": "2026-11-24T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7941,
-      "importance": 0.7941,
-      "importance_score": 0.7941,
+      "score": 0.801,
+      "importance": 0.801,
+      "importance_score": 0.801,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7226,
+        "ai_relevance": 0.91,
+        "recency": 0.7169,
         "story_heat": 0.0
       },
       "category": "official",
@@ -651,13 +630,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-11-23T15:28:36Z",
-      "latest_at": "2026-11-23T15:28:36Z",
+      "earliest_at": "2026-11-24T00:00:00Z",
+      "latest_at": "2026-11-24T00:00:00Z",
       "primary_item": {
-        "id": "ca75ffb7174862783c75d0de59920d7122035dd0",
-        "title": "Code coverage uploads now flag invalid report formats",
-        "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
-        "source": "GitHub Changelog",
+        "id": "df8e11a97736256966bd166bfaff4c1c76d13599",
+        "title": "How Intentful uses dots to make more time for growth",
+        "url": "https://openai.com/business/customer-stories/intentful-dots",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -696,21 +675,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -720,6 +698,68 @@
         "url": "https://www.aibase.com/news/32497",
         "source": "AIbase",
         "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_7a6462e387eb",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "primary_url": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "fc26d1c0005bd618257f207d84acab0ed93e99b5",
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "fc26d1c0005bd618257f207d84acab0ed93e99b5",
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-11-24T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.801,
+      "importance": 0.801,
+      "importance_score": 0.801,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7169,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-11-24T00:00:00Z",
+      "latest_at": "2026-11-24T00:00:00Z",
+      "primary_item": {
+        "id": "fc26d1c0005bd618257f207d84acab0ed93e99b5",
+        "title": "How iFood scales coding agents across 15,000 repositories",
+        "url": "https://openai.com/business/customer-stories/ifood",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -757,21 +797,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -944,15 +983,15 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.6692,
-      "importance": 0.6692,
-      "importance_score": 0.6692,
+      "score": 0.6471,
+      "importance": 0.6471,
+      "importance_score": 0.6471,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -1004,21 +1043,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -1031,83 +1069,175 @@
       }
     },
     {
-      "story_id": "story_43b498f2b7e3",
-      "title": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改 / Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-      "primary_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
+      "story_id": "story_b5264cae325e",
+      "title": "Anthropic在盘前交易中跌破83美元的IPO发行价",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
-          "title": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改 / Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-23T22:05:50Z"
+          "id": "bc0c5f4b0c247c8c13cf829a32b0d4080a10e75f",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-24T14:28:51.859000Z"
         },
         {
-          "id": "ec0831bcb408209f71a6e7cba02ccd9e6cb3ee2a",
-          "title": "Anthropic 推出 Claude Ship，代理立即审查、修复和批准代码更改 / Anthropic launches Claude Ship, agents review, fix, & approve code changes now",
-          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-11-23T23:39:44Z"
+          "id": "497e1129ea077f9de7c9cab6c773ce64659f70e3",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "aa50bf81eecb0800c9c00b3d1dedaea58e03a7bb",
+          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+          "url": "https://news.ycombinator.com/item?id=50627836",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "618a8839949bc97c466441be2169cfb28f98ab39",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价 / Anthropic breaks below $83 IPO price",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "7b048212c2bc952683a7cc50504f3d0c0b2cd699",
+          "title": "Anthropic breaks below $83 IPO price",
+          "url": "https://news.ycombinator.com/item?id=50627836",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "828a0a94c503f4fd05b08b626992e608109ebf57",
+          "title": "Anthropic股价在盘前交易中跌破IPO发行价",
+          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-24T12:21:39.914000Z"
+        },
+        {
+          "id": "5fbebfc705b8cee624e0ca2616aa063bf6cc6576",
+          "title": "Anthropic股价在盘前交易中跌破IPO发行价 / Anthropic shares slide below IPO price in premarket trading",
+          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-24T12:02:30Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 7,
       "source_names": [
-        "HN Algolia · AI 24h",
-        "TechCrunch AI"
+        "Business Insider",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.bloomberg.com",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
-          "title": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改 / Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-11-23T22:05:50Z"
+          "id": "bc0c5f4b0c247c8c13cf829a32b0d4080a10e75f",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-24T14:28:51.859000Z"
         },
         {
-          "id": "ec0831bcb408209f71a6e7cba02ccd9e6cb3ee2a",
-          "title": "Anthropic 推出 Claude Ship，代理立即审查、修复和批准代码更改 / Anthropic launches Claude Ship, agents review, fix, & approve code changes now",
-          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-11-23T23:39:44Z"
+          "id": "497e1129ea077f9de7c9cab6c773ce64659f70e3",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "aa50bf81eecb0800c9c00b3d1dedaea58e03a7bb",
+          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+          "url": "https://news.ycombinator.com/item?id=50627836",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "618a8839949bc97c466441be2169cfb28f98ab39",
+          "title": "Anthropic在盘前交易中跌破83美元的IPO发行价 / Anthropic breaks below $83 IPO price",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "7b048212c2bc952683a7cc50504f3d0c0b2cd699",
+          "title": "Anthropic breaks below $83 IPO price",
+          "url": "https://news.ycombinator.com/item?id=50627836",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-11-24T13:23:47Z"
+        },
+        {
+          "id": "828a0a94c503f4fd05b08b626992e608109ebf57",
+          "title": "Anthropic股价在盘前交易中跌破IPO发行价",
+          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-11-24T12:21:39.914000Z"
+        },
+        {
+          "id": "5fbebfc705b8cee624e0ca2616aa063bf6cc6576",
+          "title": "Anthropic股价在盘前交易中跌破IPO发行价 / Anthropic shares slide below IPO price in premarket trading",
+          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-11-24T12:02:30Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.6368,
-      "importance": 0.6368,
-      "importance_score": 0.6368,
-      "importance_label": "值得关注",
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.5999,
+      "importance": 0.5999,
+      "importance_score": 0.5999,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.7951,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8836,
+        "story_heat": 1.0
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "earliest_at": "2026-11-23T22:05:50Z",
-      "latest_at": "2026-11-23T23:39:44Z",
+      "earliest_at": "2026-11-24T12:02:30Z",
+      "latest_at": "2026-11-24T14:28:51.859000Z",
       "primary_item": {
-        "id": "31f91168dc3496984e419cb9ae7643ca5f21e5ad",
-        "title": "Anthropic 推出 Claude Ship，让 AI 代理审查、修复和批准代码更改 / Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-        "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
+        "id": "bc0c5f4b0c247c8c13cf829a32b0d4080a10e75f",
+        "title": "Anthropic在盘前交易中跌破83美元的IPO发行价",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1145,21 +1275,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -1172,120 +1301,82 @@
       }
     },
     {
-      "story_id": "story_b5264cae325e",
-      "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
+      "story_id": "story_f796e127a00b",
+      "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜 / GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "primary_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "source": "Simon Willison",
+      "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "497e1129ea077f9de7c9cab6c773ce64659f70e3",
-          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-24T13:23:47Z"
+          "id": "6c33fdfb556308eb2eb976575ca200c4211c9813",
+          "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜 / GPT 6.2 Astra Solves a Historical Mystery",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-11-24T16:53:59Z"
         },
         {
-          "id": "aa50bf81eecb0800c9c00b3d1dedaea58e03a7bb",
-          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-          "url": "https://news.ycombinator.com/item?id=50627836",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-24T13:23:47Z"
-        },
-        {
-          "id": "828a0a94c503f4fd05b08b626992e608109ebf57",
-          "title": "Anthropic股价在盘前交易中跌破IPO发行价",
-          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-24T12:21:39.914000Z"
-        },
-        {
-          "id": "5fbebfc705b8cee624e0ca2616aa063bf6cc6576",
-          "title": "Anthropic股价在盘前交易中跌破IPO发行价 / Anthropic shares slide below IPO price in premarket trading",
-          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-24T12:02:30Z"
+          "id": "c8495f14e898478fe8dc6cb034b57f1dddf910ce",
+          "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.businessinsider.com"
+        "Readhub · AI",
+        "Simon Willison"
       ],
       "items": [
         {
-          "id": "497e1129ea077f9de7c9cab6c773ce64659f70e3",
-          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-11-24T13:23:47Z"
+          "id": "6c33fdfb556308eb2eb976575ca200c4211c9813",
+          "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜 / GPT 6.2 Astra Solves a Historical Mystery",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-11-24T16:53:59Z"
         },
         {
-          "id": "aa50bf81eecb0800c9c00b3d1dedaea58e03a7bb",
-          "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-          "url": "https://news.ycombinator.com/item?id=50627836",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-11-24T13:23:47Z"
-        },
-        {
-          "id": "828a0a94c503f4fd05b08b626992e608109ebf57",
-          "title": "Anthropic股价在盘前交易中跌破IPO发行价",
-          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-11-24T12:21:39.914000Z"
-        },
-        {
-          "id": "5fbebfc705b8cee624e0ca2616aa063bf6cc6576",
-          "title": "Anthropic股价在盘前交易中跌破IPO发行价 / Anthropic shares slide below IPO price in premarket trading",
-          "url": "https://www.businessinsider.com/anthropic-shares-slide-below-ipo-price-premarket-trading-2026-11",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-11-24T12:02:30Z"
+          "id": "c8495f14e898478fe8dc6cb034b57f1dddf910ce",
+          "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5943,
-      "importance": 0.5943,
-      "importance_score": 0.5943,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5951,
+      "importance": 0.5951,
+      "importance_score": 0.5951,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9917,
-        "story_heat": 0.75
+        "editorial": 0.5112,
+        "source_tier": 0.5,
+        "ai_relevance": 0.71,
+        "recency": 0.9151,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-24T12:02:30Z",
-      "latest_at": "2026-11-24T13:23:47Z",
+      "earliest_at": "2026-11-24T16:53:59Z",
+      "latest_at": "2026-11-24T23:02:49.261190Z",
       "primary_item": {
-        "id": "497e1129ea077f9de7c9cab6c773ce64659f70e3",
-        "title": "Anthropic 在盘前交易中跌破 83 美元 IPO 价格 / Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
+        "id": "6c33fdfb556308eb2eb976575ca200c4211c9813",
+        "title": "GPT-6.2 Astra 自主破解 1808 年匿名素描本作者之谜 / GPT 6.2 Astra Solves a Historical Mystery",
+        "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+        "source": "Simon Willison",
+        "source_name": "OPML RSS"
       }
     },
     {
@@ -1323,21 +1414,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8772,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-11-24T13:58:33.481203Z",
       "latest_at": "2026-11-24T13:58:33.481203Z",
@@ -1350,162 +1440,101 @@
       }
     },
     {
-      "story_id": "story_ef8096d74f5d",
-      "title": "LLM 代理是为其母公司工作的，而不是为你工作的",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-      "primary_url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-      "source": "michaelharley.net",
+      "story_id": "story_1951d3d0aee3",
+      "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言",
+      "url": "https://davidtemkin.github.io/declarelang",
+      "primary_url": "https://davidtemkin.github.io/declarelang",
+      "source": "davidtemkin.github.io",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "2ed3ece3e269bac078bc99a3c37d6afb24cc06c0",
-          "title": "LLM 代理是为其母公司工作的，而不是为你工作的",
-          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-          "source": "michaelharley.net",
+          "id": "cfbfe9d48cfbe0877040431e2f4ebd1df0157648",
+          "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言",
+          "url": "https://davidtemkin.github.io/declarelang",
+          "source": "davidtemkin.github.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-24T13:40:57.654000Z"
+          "published_at": "2026-11-24T20:20:41.782000Z"
         },
         {
-          "id": "85c4da404aeca8497de532cc47a8217482c63570",
-          "title": "LLM 代理是为其母公司工作的，而不是为你工作的 / LLM agents work for their parent companies, not for you",
-          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
+          "id": "87955d17fa53c0e7d71a30917d387703ade3b5f7",
+          "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言 / Declare is a UI language for you and your AI",
+          "url": "https://davidtemkin.github.io/declarelang",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-11-24T12:40:15Z"
+          "published_at": "2026-11-24T02:36:56Z"
         },
         {
-          "id": "d1fce9ffee8c33ab25b8fedce088dbc2b9074721",
-          "title": "LLM代理人为他们的母公司工作，而不是为你工作 / LLM agents work for their parent companies, not for you",
-          "url": "https://news.ycombinator.com/item?id=50627340",
+          "id": "ea0a24b4866bce2790aa595e822268f509723d84",
+          "title": "Declare 是一种适合您和您的 AI 的 UI 语言 / Declare is a UI language for you and your AI",
+          "url": "https://news.ycombinator.com/item?id=50622854",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-24T12:40:15Z"
+          "published_at": "2026-11-24T02:36:56Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News · 24h最热",
-        "hackernews",
-        "michaelharley.net"
+        "davidtemkin.github.io",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "2ed3ece3e269bac078bc99a3c37d6afb24cc06c0",
-          "title": "LLM 代理是为其母公司工作的，而不是为你工作的",
-          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-          "source": "michaelharley.net",
+          "id": "cfbfe9d48cfbe0877040431e2f4ebd1df0157648",
+          "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言",
+          "url": "https://davidtemkin.github.io/declarelang",
+          "source": "davidtemkin.github.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-11-24T13:40:57.654000Z"
+          "published_at": "2026-11-24T20:20:41.782000Z"
         },
         {
-          "id": "85c4da404aeca8497de532cc47a8217482c63570",
-          "title": "LLM 代理是为其母公司工作的，而不是为你工作的 / LLM agents work for their parent companies, not for you",
-          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
+          "id": "87955d17fa53c0e7d71a30917d387703ade3b5f7",
+          "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言 / Declare is a UI language for you and your AI",
+          "url": "https://davidtemkin.github.io/declarelang",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-11-24T12:40:15Z"
+          "published_at": "2026-11-24T02:36:56Z"
         },
         {
-          "id": "d1fce9ffee8c33ab25b8fedce088dbc2b9074721",
-          "title": "LLM代理人为他们的母公司工作，而不是为你工作 / LLM agents work for their parent companies, not for you",
-          "url": "https://news.ycombinator.com/item?id=50627340",
+          "id": "ea0a24b4866bce2790aa595e822268f509723d84",
+          "title": "Declare 是一种适合您和您的 AI 的 UI 语言 / Declare is a UI language for you and your AI",
+          "url": "https://news.ycombinator.com/item?id=50622854",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-11-24T12:40:15Z"
+          "published_at": "2026-11-24T02:36:56Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.57,
-      "importance": 0.57,
-      "importance_score": 0.57,
+      "score": 0.5639,
+      "importance": 0.5639,
+      "importance_score": 0.5639,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9958,
+        "recency": 0.9617,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-11-24T12:40:15Z",
-      "latest_at": "2026-11-24T13:40:57.654000Z",
+      "earliest_at": "2026-11-24T02:36:56Z",
+      "latest_at": "2026-11-24T20:20:41.782000Z",
       "primary_item": {
-        "id": "2ed3ece3e269bac078bc99a3c37d6afb24cc06c0",
-        "title": "LLM 代理是为其母公司工作的，而不是为你工作的",
-        "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
-        "source": "michaelharley.net",
+        "id": "cfbfe9d48cfbe0877040431e2f4ebd1df0157648",
+        "title": "Declare 是一款专为您和您的 AI 设计的 UI 语言",
+        "url": "https://davidtemkin.github.io/declarelang",
+        "source": "davidtemkin.github.io",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5f934bd9abd0",
-      "title": "蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%",
-      "url": "https://www.aibase.com/news/32495",
-      "primary_url": "https://www.aibase.com/news/32495",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "2e622b92a9240c24fb6dbafebe9372c2023ac501",
-          "title": "蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%",
-          "url": "https://www.aibase.com/news/32495",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-24T13:55:33.481203Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "2e622b92a9240c24fb6dbafebe9372c2023ac501",
-          "title": "蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%",
-          "url": "https://www.aibase.com/news/32495",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-11-24T13:55:33.481203Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7675,
-      "importance": 0.7675,
-      "importance_score": 0.7675,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9993,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-11-24T13:55:33.481203Z",
-      "latest_at": "2026-11-24T13:55:33.481203Z",
-      "primary_item": {
-        "id": "2e622b92a9240c24fb6dbafebe9372c2023ac501",
-        "title": "蚂蚁OceanBase发布经营数据：AI与全球化成为新增长点，海外营收同比增长超100%",
-        "url": "https://www.aibase.com/news/32495",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:05:03.372289Z",
+  "generated_at": "2026-11-24T23:04:11.280688Z",
   "updated_label": "Nov 19, 2026",
   "source_name": "Vellum LLM Leaderboard",
   "source_url": "https://www.vellum.ai/llm-leaderboard",
@@ -51,13 +51,13 @@
       ],
       "intro_label": "GPQA",
       "intro": "研究生级科学问题，最贴近物理、化学、生物等基础科研阅读与推理。",
-      "generated_at": "2026-11-23T14:05:03.372289Z",
+      "generated_at": "2026-11-24T23:04:11.280688Z",
       "source_url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "evaluation_version": "Diamond / Artificial Analysis",
       "evaluation_setup": "",
       "refresh_status": {
         "ok": true,
-        "checked_at": "2026-11-23T14:05:03.372289Z"
+        "checked_at": "2026-11-24T23:04:11.280688Z"
       },
       "available_models": 30
     },
@@ -94,7 +94,7 @@
       "generated_at": "2026-11-02T20:09:26.865168Z",
       "refresh_status": {
         "ok": false,
-        "checked_at": "2026-11-23T14:05:03.372289Z",
+        "checked_at": "2026-11-24T23:04:11.280688Z",
         "error": "当前来源未提供此测试版本，保留历史数据"
       }
     },
@@ -131,7 +131,7 @@
       "generated_at": "2026-11-02T20:09:26.865168Z",
       "refresh_status": {
         "ok": false,
-        "checked_at": "2026-11-23T14:05:03.372289Z",
+        "checked_at": "2026-11-24T23:04:11.280688Z",
         "error": "当前来源未提供此测试版本，保留历史数据"
       }
     },
@@ -175,13 +175,13 @@
           "settings": "GPT-6 Astra (Max); private held-out 657 tasks; API mode; 50-step cap; strict completion"
         }
       ],
-      "generated_at": "2026-11-23T14:05:03.372289Z",
+      "generated_at": "2026-11-24T23:04:11.280688Z",
       "source_url": "https://www.vellum.ai/benchmarks/automationbench",
       "evaluation_version": "1.0.6 / Zapier held-out private set",
       "evaluation_setup": "",
       "refresh_status": {
         "ok": true,
-        "checked_at": "2026-11-23T14:05:03.372289Z"
+        "checked_at": "2026-11-24T23:04:11.280688Z"
       },
       "available_models": 17
     },
@@ -213,13 +213,13 @@
           "settings": "xhigh; batch tool; v2.1; full set"
         }
       ],
-      "generated_at": "2026-11-23T14:05:03.372289Z",
+      "generated_at": "2026-11-24T23:04:11.280688Z",
       "source_url": "https://www.vellum.ai/benchmarks/osworld",
       "evaluation_version": "2.1 / full set",
       "evaluation_setup": "",
       "refresh_status": {
         "ok": true,
-        "checked_at": "2026-11-23T14:05:03.372289Z"
+        "checked_at": "2026-11-24T23:04:11.280688Z"
       },
       "available_models": 3
     },
@@ -263,13 +263,13 @@
           "settings": "Claude Code; effort=max; 57.9% ± 3.8%"
         }
       ],
-      "generated_at": "2026-11-23T14:05:03.372289Z",
+      "generated_at": "2026-11-24T23:04:11.280688Z",
       "source_url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "evaluation_version": "4.0",
       "evaluation_setup": "",
       "refresh_status": {
         "ok": true,
-        "checked_at": "2026-11-23T14:05:03.372289Z"
+        "checked_at": "2026-11-24T23:04:11.280688Z"
       },
       "available_models": 14
     }
@@ -293,7 +293,7 @@
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -314,7 +314,7 @@
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -335,7 +335,7 @@
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -356,7 +356,7 @@
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -377,7 +377,7 @@
       "summary": "研究生级科学问题，覆盖物理、化学、生物等领域，适合判断模型是否能读懂高难度科研问题。",
       "url": "https://www.vellum.ai/benchmarks/gpqa-diamond",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -608,7 +608,7 @@
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/benchmarks/automationbench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -629,7 +629,7 @@
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/benchmarks/automationbench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -650,7 +650,7 @@
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/benchmarks/automationbench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -671,7 +671,7 @@
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/benchmarks/automationbench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -692,7 +692,7 @@
       "summary": "考察模型在多步办公流程、工具调用和状态跟踪中的完成率，适合看代理能否把任务真正跑完。",
       "url": "https://www.vellum.ai/benchmarks/automationbench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -713,7 +713,7 @@
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
       "url": "https://www.vellum.ai/benchmarks/osworld",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -734,7 +734,7 @@
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
       "url": "https://www.vellum.ai/benchmarks/osworld",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -755,7 +755,7 @@
       "summary": "考察模型在真实操作系统界面中识别屏幕、点击、输入和跨应用完成任务的能力。",
       "url": "https://www.vellum.ai/benchmarks/osworld",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -776,7 +776,7 @@
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -797,7 +797,7 @@
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -818,7 +818,7 @@
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -839,7 +839,7 @@
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     },
     {
@@ -860,7 +860,7 @@
       "summary": "考察模型在命令行/终端环境中理解任务、执行命令、读取反馈并完成多步开发或运维流程的能力。",
       "url": "https://www.vellum.ai/benchmarks/terminal-bench",
       "published_at": null,
-      "captured_at": "2026-11-23T14:05:03.372289Z",
+      "captured_at": "2026-11-24T23:04:11.280688Z",
       "historical": false
     }
   ],
@@ -878,7 +878,7 @@
       "aime",
       "arc-agi"
     ],
-    "checked_at": "2026-11-23T14:05:03.372289Z"
+    "checked_at": "2026-11-24T23:04:11.280688Z"
   },
   "updated_metrics": [
     "gpqa",
